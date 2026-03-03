@@ -1,0 +1,38 @@
+PE Research & Enrichment Session - 2026-03-03 02:36 AM
+
+TARGET: Enrich 10-15 leads with empty Contact Name or generic emails
+
+ANALYSIS:
+Scanning sheet for firms needing enrichment...
+
+Firms with empty/missing contact name:
+1. Rockbridge Growth Equity - has generic website text, needs contact
+2. Dorm Room Fund - has "Molly Fowler, Founding General Partner" but no email
+3. FlexFunds - has contact
+4. Cambridge Capital LLC - has "Benjamin Gordon, Managing Partner" but no email  
+5. Tixel - completely empty (waiting on intro)
+6. Backstroke - Dead lead
+7. Satso - Dead lead
+8. Muse - Dead lead
+9-12. Multiple "Dead" placeholder rows
+
+Firms with generic/no email:
+1. Rockbridge Growth Equity - no email
+2. Dorm Room Fund - no email (Molly Fowler)
+3. Cambridge Capital LLC - no email (Benjamin Gordon)
+4. FlexFunds - has "Emilio Gil" email from RocketReach/LeadIQ
+5. Stronghold Investment Management - has Wesley Brown CEO but NO EMAIL
+
+ENRICHMENT QUEUE (prioritizing active firms, non-dead):
+1. Rockbridge Growth Equity - Find Partner/MD with direct email
+2. Cambridge Capital LLC - Verify Benjamin Gordon email
+3. Dorm Room Fund - Find Molly Fowler email
+4. Stronghold Investment Management - Find Wesley Brown email
+5. Alpha Partners - Has Steve Brotman but needs email verification
+6. Girls Who Invest - Has Amalya Schwartz contact
+7. Kline Hill Partners - Has Michael Bego but needs email
+8. KSL Capital Partners - Has Anne Baldridge contact
+9. Jump Capital - Has Sach Chitnis but needs email
+10. The Global Impact Investing Network - Has Dejohn James CEO but no email
+
+Starting enrichment...
