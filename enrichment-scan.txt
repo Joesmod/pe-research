@@ -1,0 +1,28 @@
+ENRICHMENT PRIORITY SCAN - 2026-03-04 1:06 PM CST
+
+Scanning Google Sheet for leads needing contact enrichment...
+
+CRITERIA:
+- Empty Contact Name column
+- Empty Email column  
+- Generic emails: info@, sales@, ir@, contact@, hello@
+
+TOP 15 CANDIDATES FOR ENRICHMENT:
+
+1. SunTx Capital Partners - No contact, no email
+2. Sopris Capital - No contact, no email
+3. Invision Capital - Tom Harrison (Founder) - needs email
+4. Sopris Capital - No contact, no email
+5. CenterSquare Investment Management - Neal Aronson noted, different firm context
+6. Cardea Group - Empty row (Dead Lead)
+7. Norwest Equity Partners (NEP) - No contact, no email
+8. Private Equity Partners - Christophe Steverlynck - different firm email
+9. Whistler Capital Partners - No contact, no email
+10. Afore Capital - Gaurav Jain (Co-Founder) - needs email
+11. AgIS Capital LLC - No contact, no email
+12. AI Fund - Eva Wang & Andrew Ng - need emails
+13. Alpha Partners - Steve Brotman (Founder) - needs email  
+14. Altimeter - Brad Gerstner (Founder) - needs email
+15. Apogem Capital - Todd Milligan (MD) - needs email
+
+STARTING ENRICHMENT PROCESS...
