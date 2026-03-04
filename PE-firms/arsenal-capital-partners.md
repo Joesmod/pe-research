@@ -1,48 +1,91 @@
 # Arsenal Capital Partners
 
+**Website:** https://www.arsenalcapital.com  
+**Location:** New York, NY  
+**Focus:** Healthcare, Industrial Growth, Specialty Chemicals  
+**Team Size:** 100+  
+**Recent Fund:** Fund VIII at $3B+ (2024)
+
+## Key Contacts
+
+### 🎯 PRIMARY TARGET - AI/DIGITAL LEAD
+
+**Dimitris Agrafiotis, PhD, FRSC**  
+- Title: Director, Digital, Analytics & AI  
+- Email: dagrafiotis@arsenalcapital.com  
+- LinkedIn: https://www.linkedin.com/in/dagrafiotis/  
+- Background: Ex-Pfizer VP Digital, Ex-Novartis CIO  
+- Expertise: Digital transformation, data science, AI strategy  
+- Source: ContactOut verified (2026-03-04)  
+- **WHY TARGET:** Responsible for shaping tech/data/AI strategies for healthcare investments
+
+### Additional Tech/AI Team Members
+
+1. **Christine Livingston** - Director, AI & Data Analytics
+2. **Nick Reding** - Director, Data Science & AI  
+3. **Jeff Christensen** - Director, Product & Digital Innovation (ex-Seegrid VP Product)
+
+### Executive Team
+
+- **Terry Mullen** - Managing Partner
+- **Tim Zappala** - Senior Partner  
+- **Patricia Grad** - Partner, Head of IR
+
 ## Overview
-- **Location:** New York, NY
-- **Founded:** ~2000
-- **AUM:** $10B+ (estimated)
-- **Team Size:** 80+ professionals
-- **Website:** https://www.arsenalcapital.com
-- **LinkedIn:** https://www.linkedin.com/company/arsenal-capital-partners
+
+Mid-market PE firm with exceptional tech/AI capabilities. Strong focus on digital transformation and data-driven value creation in healthcare and industrial sectors.
 
 ## Investment Focus
-- **Verticals:** Healthcare, Industrial Growth, Specialty Industrials
-- **Strategy:** Middle market buyouts, platform building with add-on acquisitions
-- **Key Themes:** AI/data analytics, digital innovation, product strategy
 
-## Key Personnel
-| Name | Title | Email | Source |
-|------|-------|-------|--------|
-| Terry Mullen | Managing Partner | | Team page |
-| Steve McLean | Senior Partner | | Team page |
-| Joelle Marquis | President and Senior Partner | | Team page |
-| Christine Livingston | Director, AI and Data Analytics | | Team page |
-| Jeff Christensen | Director, Product and Digital Innovation | | Team page |
-| Michael McLean | Director, Information Technology | | Team page |
-| Patricia Grad | Partner, Head of Investor Relations | | Team page |
-| Marion Hayes | Senior MD, Head of Responsible Investing | | Team page |
-| Gene Gorbach | Investment Partner | | Team page |
-| Ellen Pavlovsky | Senior Manager, Marketing & Communications | | Team page |
-| Jenna Canty | Associate, Business Development | | Team page |
-| **Dimitris Agrafiotis** | **Director, Digital, Analytics, and AI** | **dagrafiotis@arsenalcapital.com** | **Apollo API 2026-03-03** |
+- Healthcare services and technology
+- Industrial growth and specialty manufacturing
+- Specialty chemicals
+- Mid-market control investments
+- Strong operational improvement focus
 
-## Why Gumbo Fit (Score: 9/10)
-- **Dedicated AI & Data Analytics team** — Christine Livingston (Dir AI, joined 2025, ex-Protiviti AI/ML practice lead, built AI Center of Excellence at Perficient with 150-person team)
-- **Director of Product & Digital Innovation** — Jeff Christensen (ex-Seegrid VP Product, founded/held senior positions at tech startups acquired by Boeing, Nielsen, BCG)
-- **Director of IT** — Michael McLean
-- **Large operating team** with specialized roles across healthcare and industrial growth
-- **Active portfolio** — ADB Companies, AmeriLife, Paradigm, Environmental Solutions Group
-- Very active in 2025-2026 with frequent portfolio news
+## Tech/AI Capabilities
 
-## Contact Status
-- ✅ **Enriched:** Dimitris Agrafiotis email verified via Apollo API (2026-03-03)
-- Website has no contact emails, only phone/form
-- Contact page shows no emails
-- LinkedIn: https://www.linkedin.com/in/dagrafiotis
+**STANDOUT:** Arsenal has built an in-house team of AI/digital experts with Fortune 500 backgrounds:
+- Former Pfizer, Novartis, J&J digital leaders
+- Dedicated Directors for AI, data analytics, and product innovation
+- Clear digital transformation mandate across portfolio
 
-## Research Date
-- 2026-02-24: Initial research
-- 2026-03-03: Enriched with Dimitris Agrafiotis verified contact via Apollo API
+## Portfolio Highlights
+
+- Rancho Biosciences (healthcare data/AI)
+- Various healthcare and industrial platforms
+
+## Email Pattern
+
+Confirmed: first_initial + full_last_name @arsenalcapital.com
+
+## Enrichment Status
+
+✅ **Enriched 2026-03-04**  
+Primary AI/digital contact verified. Extremely strong tech capabilities team.
+
+## Gumbo Opportunity
+
+**HIGH PRIORITY TARGET**
+
+Arsenal Capital Partners represents an ideal Gumbo prospect:
+
+1. **In-House AI Team** - They GET digital transformation
+2. **Healthcare Focus** - Complex operational needs
+3. **Scale** - 100+ team, $3B+ fund, multiple simultaneous portfolio transformations
+4. **Decision-Maker Identified** - Dimitris Agrafiotis is THE person for AI/tech strategy
+5. **Recent Activity** - Fund VIII (2024) means active deployment phase
+
+### Recommended Approach
+
+Lead with Dimitris Agrafiotis - he's responsible for portfolio-wide digital/AI strategy. Position Gumbo as:
+- Engineering enablement for rapid AI/product development
+- Fractional CTO/tech leadership for portfolio companies
+- Speed-to-market advantage for healthcare tech initiatives
+
+### Talking Points
+
+- Arsenal's clear commitment to digital transformation (dedicated team)
+- Healthcare services complexity = Gumbo's sweet spot
+- Speed advantage: Gumbo can deploy senior engineering talent in days vs. months of traditional hiring
+- Portfolio-wide leverage: One relationship → multiple portfolio company engagements
