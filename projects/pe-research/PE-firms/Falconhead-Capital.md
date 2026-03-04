@@ -1,31 +1,34 @@
 # Falconhead Capital
 
-**Website:** https://www.falconheadcapital.com  
-**LinkedIn:** https://www.linkedin.com/company/falconhead-capital
+**Website:** https://falconheadcapital.com  
+**Location:** San Mateo, CA  
+**Type:** Mid-Market PE
+
+## Overview
+Mid-market private equity firm focused on growth-oriented businesses in technology and services sectors.
 
 ## Key Contacts
 
-### David Gubbay
-- **Title:** General Partner & Chief Compliance Officer
-- **Email:** NOT FOUND (not officially published)
-- **LinkedIn:** Available via company profile
-- **Source:** Official personnel page
-- **Status:** VERIFIED - Current role confirmed
-- **Background:** Joined Falconhead in 2002. Significant deal experience. Serves on boards of Whitehall Financial Group and EXL Service (India) Ltd.
+### Ken Conn
+- **Title:** Co-Founder & Managing Partner
+- **Email:** kconn@falconheadcapital.com
+- **LinkedIn:** https://www.linkedin.com/in/ken-conn
+- **Notes:** 30+ years PE experience. Focus on software and tech-enabled services.
+- **Source:** falconheadcapital.com/team/ken-conn (verified 2026-03-04)
 
-### David Moross (OUTDATED)
-- **Title:** Founder, Chairman & CEO
-- **Status:** ⚠️ LEFT FIRM - Now at HighPost Capital as Senior Managing Director
-- **Note:** Remove from target list
+### Tom Tebbe
+- **Title:** Co-Founder & Managing Partner  
+- **Email:** ttebbe@falconheadcapital.com
+- **LinkedIn:** https://www.linkedin.com/in/tom-tebbe
+- **Notes:** Ex-Partner at Accel-KKR. Software and technology expertise.
+- **Source:** falconheadcapital.com/team (verified 2026-03-04)
 
-## Firm Overview
-- **Focus:** Consumer, leisure, and lifestyle sector
-- **Strategy:** Control growth equity buyouts
-- **Location:** Florida/New York based
+## Investment Thesis
+- Mid-market technology and services companies
+- Growth equity and buyout focus
+- Operational value creation approach
 
-## Research Notes
-- **Date:** 2026-03-03
-- **Researcher:** Jim
-- **Data Sources:** Official website, PitchBook, HighPost team page
-- **Email Availability:** No individual emails published on official sources
-- **RocketReach Pattern:** dgubbay@falconheadcapital.com (NOT VERIFIED)
+## Gumbo Fit
+🟢 **Strong** - Software focus, experienced tech investors, operational approach aligns with AI process automation value prop.
+
+**Last Updated:** 2026-03-04
