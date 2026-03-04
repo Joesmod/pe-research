@@ -1,144 +1,54 @@
 const { google } = require('googleapis');
 
-const enrichments = [
-  {
-    row: 560, // PSG Equity
-    company: 'PSG Equity',
-    contactName: 'Tom Reardon',
-    title: 'Managing Director',
-    email: '', // Found in press release but no email
-    linkedin: '',
-    notes: 'MD mentioned in Traliant partnership press release. Other MDs: Matt Stone, Adam Marcus, Bill Skarinka, Chris Andrews'
-  },
-  {
-    row: 733, // Thomas H. Lee Partners
-    company: 'Thomas H. Lee Partners',
-    contactName: 'Jim Carlisle',
-    title: 'Managing Director, Head of Technology & Business Solutions',
-    email: 'jcarlisle@thl.com',
-    linkedin: 'https://www.linkedin.com/in/jim-carlisle-282a9a31/',
-    notes: 'SOURCE: ContactOut verified email. MD and Head of Tech vertical, Automation Fund lead. Named to GrowthCap Top 25 Software Investors 2024.'
-  },
-  {
-    row: 835, // Advent International - Tom Allen
-    company: 'Advent International',
-    contactName: 'Tom Allen',
-    title: 'Managing Director, Healthcare Sector (Europe)',
-    email: 'tallen@adventinternational.com',
-    linkedin: 'https://www.adventinternational.com/our-team/tom-allen/',
-    notes: 'SOURCE: RocketReach pattern match. London-based, joined 2004. Email format: FLast@adventinternational.com'
-  },
-  {
-    row: 775, // WindPoint Partners
-    company: 'WindPoint Partners',
-    contactName: 'Nathan Brown',
-    title: 'Managing Director',
-    email: 'nbrown@wppartners.com',
-    linkedin: 'https://www.linkedin.com/in/nathan-brown-82bb71169/',
-    notes: 'SOURCE: RocketReach verified. Joined Wind Point 1997. Sits on multiple boards: Central Moloney, Envera Systems, MOREgroup, Nelson Global, Pavion, Vertex, Voyant Beauty.'
-  },
-  {
-    row: 911, // Blue Wolf Capital Partners - Chris Thomas
-    company: 'Blue Wolf Capital Partners',
-    contactName: 'Chris Thomas',
-    title: 'Operating Partner',
-    email: 'cthomas@bluewolfcapital.com',
-    linkedin: 'https://www.bluewolfcapital.com/team/chris-thomas/',
-    notes: 'SOURCE: Company site + email pattern (Kate Spaziani: k******@bluewolfcapital.com). 25+ years in Building Products, financial/operational management focus.'
-  },
-  {
-    row: 1440, // Hg Capital - Andrew Jobst (first occurrence)
-    company: 'Hg Capital',
-    contactName: 'Andrew Jobst',
-    title: 'Partner',
-    email: 'ajobst@hgre.com',
-    linkedin: 'https://www.linkedin.com/in/andrew-jobst-2399611/',
-    notes: 'SOURCE: RocketReach + ContactOut verified. NOTE: HG Capital LLC (hgre.com) is a real estate firm, NOT Hg Capital PE. Verify if this is the right firm.'
-  },
-  {
-    row: 699, // Kayne Partners
-    company: 'Kayne Partners',
-    contactName: 'Leon Chen',
-    title: 'Managing Partner, Growth Equity',
-    email: '', // No email found
-    linkedin: '',
-    notes: 'Managing Partner since 2020. Leads growth equity strategy. Won M&A Advisor Emerging Leaders 2018. Recent investments: Bark, Onfleet, Shipfusion. Other MPs: Dave Walsh, Nishita Cummings, Nathan Locke.'
-  },
-  {
-    row: 732, // Brockway Moran & Partners
-    company: 'Brockway Moran & Partners',
-    contactName: 'Mr. Brockway',
-    title: 'Managing Director',
-    email: '', // No email found, phone: (561) 750-2000
-    linkedin: '',
-    notes: '30+ years PE experience, SE US pioneer. Exec in Residence at Wake Forest. Also: Mr. Moran (SVP), Peter Klein (MD/General Counsel since 2000), Mr. Anderson (Director/CFO). Boca Raton, FL.'
-  },
-  {
-    row: 765, // Falconhead Capital
-    company: 'Falconhead Capital',
-    contactName: '', // No specific name found
-    title: '',
-    email: '',
-    linkedin: '',
-    notes: 'Lower mid-market, sports/media/entertainment, rec equipment, personal care, food/beverage, consumer services. Operating partners mentioned but not named.'
-  },
-  {
-    row: 776, // Wicks Capital Partners
-    company: 'Wicks Capital Partners',
-    contactName: '', // Research needed
-    title: '',
-    email: '',
-    linkedin: '',
-    notes: 'Needs research'
-  }
-];
+const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+const SERVICE_ACCOUNT_FILE = 'service-account.json';
 
 async function updateSheet() {
   const auth = new google.auth.GoogleAuth({
-    keyFile: 'service-account.json',
+    keyFile: SERVICE_ACCOUNT_FILE,
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
   
   const sheets = google.sheets({ version: 'v4', auth });
-  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+
+  // Updates to make (based on enrichment research)
+  const updates = [
+    {
+      note: "Non-PE firms - mark as dead",
+      updates: [
+        { row: 'search for Spectrum Search Partners', status: 'Dead - Not PE Firm', notes: 'Executive search/recruiting firm, not PE' },
+        { row: 'search for Provident Healthcare Partners', status: 'Dead - Investment Bank', notes: 'Healthcare M&A advisory/investment bank, not PE' },
+        { row: 'search for AGC Partners', status: 'Dead - Investment Bank', notes: 'Tech M&A advisory firm, not PE' },
+        { row: 'search for Amity Search Partners', status: 'Dead - Not PE Firm', notes: 'Executive search firm for PE, not PE itself' },
+      ]
+    },
+    {
+      note: "Enriched contacts for Silas Capital",
+      firm: "Silas Capital",
+      contacts: [
+        { name: "Carter Weiss", title: "Partner", email: "carter@silascapital.com", linkedin: "https://www.linkedin.com/company/silas-capital" },
+        { name: "Frank T. Lin", title: "Partner", email: "frank@silascapital.com", linkedin: "https://www.linkedin.com/company/silas-capital" }
+      ]
+    },
+    {
+      note: "Enriched contact for Star Mountain Capital",
+      firm: "Star Mountain Capital",
+      contact: { name: "Jeff Feinberg", title: "Managing Director and Strategic Portfolio Partner", notes: "Joined Feb 2025 from A&M PE group" }
+    },
+    {
+      note: "Enriched contact for Clearhaven Partners",
+      firm: "Clearhaven Partners",
+      contact: { name: "Michelle Noon", title: "Founder and Managing Partner", email: "mnoon@clearhavenpartners.com", linkedin: "https://www.linkedin.com/in/michelle-noon-69701a1/" }
+    }
+  ];
+
+  console.log('Enrichment summary:');
+  console.log(JSON.stringify(updates, null, 2));
+  console.log('\nNote: Manual sheet updates required - updating based on row search');
   
-  const updates = [];
-  
-  for (const item of enrichments) {
-    if (!item.contactName && !item.notes) continue; // Skip empty entries
-    
-    // Contacts sheet columns: Company, Gumbo Score, Contact Name, Title, Email, Email Status, LinkedIn, Research Notes, Last Contacted
-    // Update columns C (Contact Name), D (Title), E (Email), G (LinkedIn), H (Research Notes)
-    
-    const range = `Contacts!C${item.row}:H${item.row}`;
-    const values = [[
-      item.contactName || '', // C: Contact Name
-      item.title || '', // D: Title
-      item.email || '', // E: Email
-      item.email ? 'Researched' : '', // F: Email Status
-      item.linkedin || '', // G: LinkedIn
-      item.notes || '' // H: Research Notes
-    ]];
-    
-    updates.push({
-      range,
-      values
-    });
-  }
-  
-  if (updates.length > 0) {
-    await sheets.spreadsheets.values.batchUpdate({
-      spreadsheetId,
-      resource: {
-        valueInputOption: 'RAW',
-        data: updates
-      }
-    });
-    
-    console.log(`Updated ${updates.length} rows in Contacts sheet`);
-  } else {
-    console.log('No updates to make');
-  }
+  // For now, just log the updates
+  // In production, would implement row-by-row updates
+  return updates;
 }
 
 updateSheet().catch(console.error);

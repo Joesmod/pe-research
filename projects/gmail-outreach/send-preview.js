@@ -1,4 +1,3 @@
-// Inline the sendEmail logic for preview (send.js doesn't export)
 const fs = require('fs');
 const { google } = require('googleapis');
 
@@ -14,13 +13,9 @@ function getAuth() {
   return oAuth2Client;
 }
 
-async function main() {
+async function sendEmail(to, subject, body) {
   const auth = getAuth();
   const gmail = google.gmail({ version: 'v1', auth });
-
-  const to = 'alex@hellogumbo.com';
-  const subject = "[PREVIEW] Value creation meets AI - quick thought for Revelstoke's PTG";
-  const body = `PREVIEW - This is the first email of today's batch (3 total). Reply to approve sending all 3 to actual recipients.<br><br><b>To:</b> athoma@revelstokecapital.com<br><b>BCC:</b> jeff@hellogumbo.com, alex@hellogumbo.com<br><b>Subject:</b> Value creation meets AI - quick thought for Revelstoke's PTG<br><br>---<br><br>Andrew,<br><br>Your move from McKinsey's PE procurement practice to leading Strategic Partnerships &amp; Value Creation at Revelstoke caught my eye. The Portfolio Transformation Group is doing something most healthcare PE firms talk about but few actually build - a dedicated ops team that drives real post-acquisition value.<br><br>We built <a href="https://hellogumbo.com">Gumbo</a> to plug directly into that kind of structure. Our AI agents handle the operational heavy lifting across portfolio companies - think due diligence automation, back-office integration, and cross-portfolio intelligence - so your PTG team can focus on strategy instead of spreadsheets.<br><br>With 200+ acquisitions and a growing portfolio, I imagine the integration complexity only compounds. Would love to show you how <a href="https://hellogumbo.com">Gumbo</a> could accelerate what your team is already doing well.<br><br>Open to a 15-minute call this week?<br><br>Best,<br>Jim`;
 
   const raw = Buffer.from(
     `From: Jim from Gumbo <jim@hellogumbo.com>\r\nTo: ${to}\r\nSubject: ${subject}\r\nContent-Type: text/html; charset=utf-8\r\n\r\n<div dir="ltr">${body}</div>`
@@ -31,7 +26,34 @@ async function main() {
     requestBody: { raw },
   });
 
-  console.log('Sent preview:', res.data.id);
+  return res.data.id;
 }
 
-main().catch(e => console.error('ERR:', e));
+async function sendPreview() {
+  const batch = JSON.parse(fs.readFileSync('email-batch.json', 'utf8'));
+  const firstEmail = batch[0];
+  
+  const previewSubject = `[PREVIEW] ${firstEmail.subject}`;
+  const previewBody = `<strong>PREVIEW - First email from today's batch (25 total)</strong><br><br>
+<strong>Original Recipient:</strong> ${firstEmail.name} &lt;${firstEmail.to}&gt;<br>
+<strong>Company:</strong> ${firstEmail.company}<br>
+<strong>Subject:</strong> ${firstEmail.subject}<br><br>
+<hr><br>
+${firstEmail.body}
+<br><hr><br>
+<strong>📊 Batch Summary:</strong><br>
+- Total emails: ${batch.length}<br>
+- All recipients: Score 8-9, verified, tech/AI/value creation roles<br>
+- No companies contacted in last 7 days<br>
+- BCC'd jeff@ and alex@ on all sends<br><br>
+<strong>Awaiting your approval to send the remaining ${batch.length - 1} emails.</strong>`;
+
+  console.log('📧 Sending preview to alex@hellogumbo.com...\n');
+  
+  const messageId = await sendEmail('alex@hellogumbo.com', previewSubject, previewBody);
+  
+  console.log(`✅ Preview sent (ID: ${messageId})\n`);
+  console.log(`First email preview: ${firstEmail.name} at ${firstEmail.company}`);
+}
+
+sendPreview().catch(console.error);

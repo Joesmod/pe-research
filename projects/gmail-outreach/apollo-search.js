@@ -5,19 +5,20 @@ const https = require('https');
 const API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
 /**
- * Enrich a contact by Apollo ID to get full details including email
+ * Search for contacts at a specific company with Apollo API
  */
-async function enrichContact(apolloId) {
+async function searchContacts(orgName, titles = ['Partner', 'Managing Director', 'Managing Partner']) {
   return new Promise((resolve, reject) => {
     const data = JSON.stringify({
-      id: apolloId,
-      reveal_personal_emails: false,
-      reveal_phone_number: false
+      q_organization_name: orgName,
+      person_titles: titles,
+      page: 1,
+      per_page: 10
     });
 
     const options = {
       hostname: 'api.apollo.io',
-      path: '/api/v1/people/match',
+      path: '/api/v1/mixed_people/api_search',
       method: 'POST',
       headers: {
         'Cache-Control': 'no-cache',
@@ -59,15 +60,15 @@ async function enrichContact(apolloId) {
 
 // CLI usage
 if (require.main === module) {
-  const apolloId = process.argv[2];
-  if (!apolloId) {
-    console.error('Usage: node apollo-enrich.js "<apollo ID>"');
+  const orgName = process.argv[2];
+  if (!orgName) {
+    console.error('Usage: node apollo-search.js "<organization name>"');
     process.exit(1);
   }
 
-  enrichContact(apolloId)
-    .then(result => {
-      console.log(JSON.stringify(result, null, 2));
+  searchContacts(orgName)
+    .then(results => {
+      console.log(JSON.stringify(results, null, 2));
     })
     .catch(err => {
       console.error('Error:', err.message);
@@ -75,4 +76,4 @@ if (require.main === module) {
     });
 }
 
-module.exports = { enrichContact };
+module.exports = { searchContacts };
