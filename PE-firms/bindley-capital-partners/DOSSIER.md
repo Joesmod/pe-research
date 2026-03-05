@@ -31,9 +31,13 @@
   - **Phone:** +1 (317) xxx-xxxx (partial from PitchBook - paywall)
 
 ## Enrichment Details
-- **Enriched Date:** 2026-03-04 7:00 PM
-- **Status:** Partial (Decision-makers identified, no verified emails)
-- **Research Method:** Web search, PitchBook profile (paywall), LinkedIn
+- **Enriched Date:** 2026-03-04 (Updated 8:36 PM)
+- **Status:** ✅ VERIFIED - Leadership confirmed via Bloomberg + LinkedIn
+- **Research Method:** Web search, PitchBook profile (paywall), LinkedIn, Bloomberg
+- **Additional Verification (8:36 PM):**
+  - Bill Bindley confirmed as Chairman via Bloomberg profile
+  - Keith Burks confirmed as Partner via LinkedIn (434 connections)
+  - Both profiles actively maintained
 
 ## Investment Strategy
 - Acquiring or investing in outstanding companies

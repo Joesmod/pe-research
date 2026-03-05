@@ -7,18 +7,33 @@
 
 ## Key Contacts
 
+### Oliver Niedermaier ⭐
+- **Title:** CEO
+- **LinkedIn:** https://www.linkedin.com/in/oliver-niedermaier-26733a232/
+- **Source:** Company website + LinkedIn verified (2026-03-04)
+- **Notes:** Based in New York, 500+ connections, previously involved in sustainability/Common Ground Kaua'i farm
+
 ### Scott Clark
-- **Title:** Managing Director
+- **Title:** Managing Director, Head of Business Development
 - **Email:** Pattern @tau-investment.com (not verified directly)
-- **Source:** Public business records
+- **Source:** Company website team page (2026-03-04)
 
 ### Kenneth Katz
-- **Title:** Managing Director and Head of Asia
-- **Source:** Public business records
+- **Title:** Managing Director and Head of Asia Investment
+- **Source:** Company website + press releases (waterless textile dyeing deals)
+- **LinkedIn:** Findable via company page
 
 ### Lalit Matai
 - **Title:** Operating Partner
 - **Source:** Public business records
+
+### Catia Cesari
+- **Title:** Operating Partner (EU)
+- **Source:** Company website team page (2026-03-04)
+
+### Phil Courtenay
+- **Title:** Operating Partner - Global Sourcing
+- **Source:** Company website team page (2026-03-04)
 
 ## General Contact
 
