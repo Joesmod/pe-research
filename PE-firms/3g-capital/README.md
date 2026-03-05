@@ -102,3 +102,13 @@ Instead of targeting 3G Capital directly, consider reaching out to:
 
 **Last Updated:** March 4, 2026, 8:06 PM CST  
 **Researcher:** Jim (AI Research Agent)
+
+
+## Contacts
+
+### Flavio Montini
+- **Title:** CFO
+- **Email:** fmontini@3g-capital.com
+- **LinkedIn:** http://www.linkedin.com/in/flavio-montini-34094035
+- **Source:** Apollo API enrichment (2026-03-05)
+- **Verified:** ✅
