@@ -1,27 +1,40 @@
 # Peak Rock Capital
 
-**Location:** Austin, TX / New York, NY
-**Focus:** Middle-market businesses, $2B+ AUM
+## Overview
+- **Website:** https://www.peakrockcapital.com
+- **Type:** Multi-Strategy PE
+- **Focus:** Private Equity, Credit, Real Estate, Europe
+- **Location:** New Canaan, CT
 
-## Key Contacts
-
-### Anthony DiSimone
+## Primary Contact
+- **Name:** Anthony DiSimone
 - **Title:** Chief Executive Officer
-- **Source:** Peak Rock press releases, Bloomberg, public sources
-- **Email:** Not publicly available
-- **LinkedIn:** Available via ZoomInfo/TheOrg
+- **Email:** adisimone@peakrockcapital.com
+- **Phone:** (203) 972-1100
+- **LinkedIn:** https://www.linkedin.com/company/peak-rock-capital
+- **Source:** Official team page
 
-### Steve Martinez
-- **Title:** President
-- **Source:** Peak Rock press releases
-- **Email:** Not publicly available
+## Additional Key Contacts
+- **Steve Martinez** - President
+- **Jung Choi** - Chief Financial Officer
+- **Jordan Campbell** - Senior Managing Director
+- **Robert Strauss** - Senior Managing Director
+- **Karson Chang** - Managing Director
+- **Jared Mason** - Managing Director
+- **Constantine Tujios** - Managing Director (Real Estate)
+- **John Scata** - Chief Compliance Officer
+
+## Enrichment Details
+- **Enriched Date:** 2026-03-04
+- **Status:** Enriched
+- **Research Method:** Official website team page
 
 ## Notes
-- Over $2 billion in equity and debt funds
-- Austin, TX headquarters
-- Multiple sector focus
-- CEO Anthony DiSimone frequently quoted in press releases
-- No direct emails published on website
-
-## Research Date
-2026-03-04
+- Email pattern: [first initial][lastname]@peakrockcapital.com
+- Address: 50 Pine Street, New Canaan, CT 06840
+- Multi-divisional structure: PE, Credit, Real Estate, Europe
+- Peak Growth Consulting operational support arm
+- Recent promotions: Constantine Tujios to Managing Director (Real Estate)
+- Active team expansion: Kim Rose (from JP Morgan Chase, Kendra Scott), John Scata, PJ Torres joined as Directors
+- Strong operational improvement focus
+- Press mention: Jared Mason led Aegis Software acquisition

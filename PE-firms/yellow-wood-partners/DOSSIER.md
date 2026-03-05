@@ -8,9 +8,10 @@
 ## Primary Contact
 - **Name:** Dana Schmaltz
 - **Title:** Managing Partner
-- **Email:** info@yellowwoodpartners.com
+- **Email:** dschmaltz@yellowwoodpartners.com
+- **Phone:** 617.500.6341
 - **LinkedIn:** https://www.linkedin.com/in/dana-schmaltz-a1a56918/
-- **Source:** LinkedIn + company contact page
+- **Source:** Official Yellow Wood Partners PDF (YellowWood_Brief_Overview_2022.10.17_newaddress.pdf)
 
 ## Enrichment Details
 - **Enriched Date:** 2026-03-04
