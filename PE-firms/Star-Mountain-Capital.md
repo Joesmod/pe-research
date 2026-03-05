@@ -1,52 +1,31 @@
 # Star Mountain Capital
 
-**Status:** ✅ Enriched  
-**Last Updated:** 2026-03-05  
-**AUM:** $1.2B+ (Fund IV)
-
 ## Overview
-Star Mountain Capital is a specialized asset management firm focused exclusively on the U.S. lower middle-market, investing in debt and equity directly into established operating companies and purchasing secondary positions.
+- **Website:** https://starmountaincapital.com
+- **Location:** Tampa, FL | New York, NY
+- **Focus:** Lower middle-market private equity and credit
+- **AUM:** Multi-billion
 
-**Founded:** 2010s  
-**Location:** New York, NY  
-**Website:** https://starmountaincapital.com
+## Key Contacts
 
-## Key Focus Areas
-- Lower middle-market private equity and private credit
-- Secondary fund investments
-- Debt and equity investments in operating companies
-- Investment range: Typically $5M-$50M EBITDA companies
+### Brett Hickey - Founder & CEO
+- **Email:** Brett.Hickey@StarMountainCapital.com
+- **Phone:** 917-913-XXXX
+- **Source:** Official starmountaincapital.com contact page and press materials
+- **LinkedIn:** https://www.linkedin.com/in/bradthickey
 
-## Leadership Team
+## Leadership Background
+Brett A. Hickey has 25+ years of U.S. lower middle-market private investing and investment banking experience. Completed over 400 private equity, private credit and secondary fund investments.
 
-### Brett Hickey
-- **Title:** Founder and CEO
-- **Email:** brett.hickey@starmountaincapital.com
-- **LinkedIn:** https://www.linkedin.com/in/bhickey/
-- **Background:** 25+ years of U.S. lower middle-market private investing and investment banking experience. Completed over 400 private equity, private credit, and secondary fund investments.
-- **Source:** ContactOut, official website team page
+## Investment Thesis
+Specialized in systematically generating alpha and low public market correlated returns from the large and complex U.S. lower middle-market.
 
-### Leanne Schmitt
-- **Title:** Managing Director
-- **Background:** 20+ years of portfolio management, investor relations, and financial systems development experience
-- **LinkedIn:** Mentioned on company LinkedIn
+## Office Locations
+- Tampa, FL: 101 E Kennedy Blvd, Suite 3350, Tampa, FL 33602 | Phone: 813-768-9550
+- New York, NY: 25th Floor, New York, NY 10022 | Office: 212.810.9044
 
-## Investment Criteria
-- **Target EBITDA:** $5M-$50M
-- **Fund Size:** Fund IV closed at ~$1.2B (above $750M target)
-- **Investment Focus:** Systematically generating alpha and low public market correlated returns from the large and complex U.S. lower middle-market
+## Research Date
+2026-03-05
 
-## Recent Activity
-- **2024:** Fund IV closed above target at approximately $1.2B in committed capital (including debt facilities)
-- Active in lower middle-market buyouts and direct lending
-
-## Notes
-- Strong track record with extensive experience in the lower middle-market segment
-- Does not use operating partner model; respects management autonomy
-- Founder Brett Hickey is also involved with Star Mountain Charitable Foundation
-- Professional, experienced team with deep lower middle-market expertise
-
-## Outreach Status
-- **Enriched:** March 5, 2026
-- **Contact Method:** Direct email to Brett Hickey (verified)
-- **Next Steps:** Outreach candidate for Hello Gumbo services (portfolio operations, digital transformation)
+## Status
+**Enriched** - Verified founder contact with direct email

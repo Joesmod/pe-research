@@ -1,46 +1,31 @@
 # Brookstone Partners
 
-**Status:** ✅ Enriched  
-**Last Updated:** 2026-03-05  
-**AUM:** Mid-market range
-
 ## Overview
-Brookstone Partners is a private equity firm focused on growth investments in middle-market companies.
+- **Website:** http://www.brookstonepartners.com
+- **Location:** New York, NY
+- **Focus:** Middle-market private equity
+- **AUM:** Private equity
 
-**Founded:** 2013  
-**Location:** New York, NY  
-**Website:** https://www.brookstonepartners.com
+## Key Contacts
 
-## Leadership Team
-
-### Michael Toporek
-- **Title:** Co-Founder and Managing General Partner
-- **Background:** Experienced PE professional
-- **Source:** Crunchbase
-
-### Matthew Lipman
-- **Title:** Co-Founder and Managing General Partner
-- **Background:** Experienced PE professional
-- **Source:** Crunchbase
-
-### Viral Shah
-- **Title:** Investment Associate
+### Viral Shah - Investment Associate
 - **Email:** shahv@brookstonepartners.com
 - **Phone:** 212-302-2426
-- **Office:** New York
-- **Source:** Official website contact page (brookstonepartners.com/team.php)
+- **Source:** Official brookstonepartners.com team page
+- **LinkedIn:** https://www.linkedin.com/in/viralpareshshah
 
-## Investment Criteria
-- **Focus:** Growth-stage companies
-- **Geography:** North America
-- **Industries:** Multiple sectors
+## Other Leadership
+- Michael Toporek - Co-Founder and Managing General Partner
+- Matthew Lipman - Managing Director (mlipman@brookstonepartners.com)
 
-## Notes
-- Email found on official website contact page - verified direct contact
-- Principal investment firm partnering with experienced and entrepreneurial management teams
-- Good candidate for initial outreach
+## Investment Thesis
+Middle-market private equity investments. Focus on building long-term value with entrepreneurial management teams.
 
-## Outreach Status
-- **Enriched:** March 5, 2026
-- **Contact Method:** Direct email to Viral Shah (verified from official website)
-- **Next Steps:** Outreach candidate for Hello Gumbo services
+## Office Location
+New York, NY
+
+## Research Date
+2026-03-05
+
+## Status
+**Enriched** - Verified contact with direct email from official source
