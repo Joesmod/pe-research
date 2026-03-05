@@ -7,12 +7,14 @@ Leading middle-market private equity firm focused on technology, industrials, an
 
 ### Behdad Eghbali
 - **Title:** Co-Founder & Managing Partner
-- **LinkedIn:** https://www.linkedin.com/in/behdadeghbali/
-- **Email:** NOT FOUND (pattern: @clearlake.com)
+- **LinkedIn:** https://www.linkedin.com/in/behdad-eghbali-ba645
+- **Email:** NOT FOUND (pattern: @clearlake.com - no emails published on official site)
+- **Net Worth:** $4.4B (Forbes, June 2025)
 - **Background:**
-  - Co-founded Clearlake in 2006
+  - Co-founded Clearlake in 2006 with Steven Chang and Jose Feliciano
   - Previously at TPG Capital (private equity)
   - Board member: Diligent, Zywave, DigiCert, Brightly
+  - Iranian-American billionaire businessman
 
 ### Jose E. Feliciano
 - **Title:** Co-Founder & Managing Partner
