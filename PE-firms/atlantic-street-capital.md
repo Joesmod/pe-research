@@ -1,29 +1,44 @@
 # Atlantic Street Capital Advisors, Inc.
-**Updated:** March 5, 2026
+**Updated:** March 5, 2026 (Verified as PE Firm)
 
-## ⚠️ IMPORTANT NOTE
-This appears to be a **CAPITAL ADVISORY FIRM**, not a direct PE investor. Verify before outreach.
+## ✅ VERIFIED: LOWER MIDDLE MARKET PE FIRM
+Atlantic Street Capital is a **direct private equity investor** focused on lower middle market companies, partnering with entrepreneurs and management teams.
 
-## Key Contact
-- **Name:** Peter Shabecoff
-- **Title:** Founder & Managing Partner
-- **Email:** Not found
-- **LinkedIn:** https://www.linkedin.com/in/peter-shabecoff
+## Key Contacts
 
-## Other Team Members
+### Robbie Heflin
+- **Title:** Partner
+- **Email:** robbie@atlanticstreetcapital.com (✅ Verified from company website 2026-03-05)
+- **Background:** Previously at Alvarez & Marsal Capital ($4B+ AUM) and The Jordan Company ($28B+ capital)
+
+### Andy Wilkins
+- **Title:** Managing Partner
+- **Background:** Focuses on senior management development, portfolio management, deal sourcing, due diligence
+- **Board Seats:** CyberGuard, ACIS, PMI, Renew Digital, Tambourine, Uniguest, Zips Car Wash, Prescott's, eIVF, BioTouch, Aligned Orthopedic Partners, Sunrise Transportation, Lori's Gifts, Pinnacle Service Brands, GAT Airline Ground Support
+
+### Other Leadership
+- **Peter Shabecoff** - Partner
 - **Kevin Graff** - Partner (Nashville)
 - **Anthony Catterson** - Operating Partner (Atlanta)
 
 ## Firm Overview
-- **Location:** Multiple (Nashville, Atlanta offices)
-- **Founded:** 2006 (estimated)
-- **Structure:** "Active group of senior executives"
-- **Service:** Strategic guidance and operational expertise to portfolio companies
+- **Location:** Multiple offices (Main HQ, Nashville, Atlanta)
+- **Founded:** ~2000s
+- **Structure:** Private equity firm with deep investing and operating professionals team
+- **Focus:** Lower middle market PE investments
+- **Strategy:** Partnering with entrepreneurs and management teams who seek capital and operational expertise
 
-## Business Model
-From official description: "Atlantic Street Capital Advisors is an active group of senior executives who bring years of experience across various industries and provide strategic guidance and operational expertise to the portfolio of companies."
+## Investment Approach
+- Concentrated approach to building strong partnerships
+- Partnership with leading entrepreneurs and management teams
+- Scale businesses and unlock underlying value
+- 7+ Operating Partners/Advisors network built in 2018 for portfolio company support
+- Active portfolio management and strategic guidance
 
-**This suggests:** Operating partner network / advisory services, NOT direct equity investor.
+## Recent Deals
+- **Dynamic Campus** (March 2025): Partnership announced
+- **Advancing Eyecare** (May 2022): Supported development of leading eyecare instrumentation provider
+- Multiple active portfolio companies across technology, healthcare, services sectors
 
 ## Enrichment Source
 - LinkedIn company page

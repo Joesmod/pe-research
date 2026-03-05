@@ -24,7 +24,8 @@
 
 ### Alex Behring
 - **Title**: Co-Founder and Co-Managing Partner
-- **Email**: N/A (not publicly listed)
+- **Email**: abehring@3g-capital.com (Verified via ContactOut 2026-03-05)
+- **LinkedIn**: https://www.linkedin.com/in/alex-behring-72678424/
 - **Background**: Founded 3G Capital in 2004
 
 ### Daniel Schwartz

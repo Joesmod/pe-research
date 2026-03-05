@@ -14,6 +14,9 @@
 - **LinkedIn:** https://www.linkedin.com/in/daniel-raynor-21224310
 
 - **Co-Founder & Managing Partner:** Walter Barandiaran
+- **Email:** wbarandiaran@argentumgroup.com (Verified via PR Newswire 2026-03-05)
+- **LinkedIn:** https://www.crunchbase.com/person/walter-h-barandiaran
+- **Background:** 25+ years PE experience, led 40+ investments, on 30+ boards
 
 ## Background
 Argentum differentiates by providing institutional capital to companies at an earlier stage than traditional growth equity. The firm focuses on:
