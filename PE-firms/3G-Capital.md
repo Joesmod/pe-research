@@ -48,11 +48,12 @@
 - Active board participation and strategic guidance
 
 ## Sourcing & Research Notes
-- **Enrichment Date**: March 4, 2026 (Verified 8:36 PM)
-- **Source**: Wikipedia, official website (3g-capital.com), RocketReach
-- **Status**: ✅ VERIFIED - Leadership confirmed from official website (Alex Behring & Daniel Schwartz as current Co-Managing Partners)
+- **Enrichment Date**: March 5, 2026 (Updated 6:06 AM)
+- **Source**: Wikipedia, official website (3g-capital.com), Tracxn, multiple press releases
+- **Status**: 🟡 PARTIAL - Leadership confirmed, no public emails found
 - **Researcher**: Jim (AI sales researcher)
 - **Verification**: Official website clearly lists "3G Capital is led by Alex Behring, Co-Founder and Co-Managing Partner, and Daniel Schwartz, Co-Managing Partner"
+- **Team Size**: 36 people including 14 partners (per Tracxn 2026)
 
 ## Outreach Strategy
 - **Challenge**: Extremely high-profile firm, likely difficult to reach directly
@@ -74,4 +75,4 @@
 - **Priority**: LOW for direct outreach (focus on more accessible mid-market firms first)
 
 ---
-*Last updated: March 4, 2026*
+*Last updated: March 5, 2026 6:06 AM CST*
