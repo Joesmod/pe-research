@@ -1,36 +1,49 @@
 # Monroe Capital
 
-## Overview
-Middle-market commercial finance company specializing in direct lending and private credit.
+## Firm Overview
+- **Website**: https://www.monroecap.com/
+- **Type**: Private credit / boutique asset management
+- **Focus**: Direct lending, asset-based lending, specialty finance, opportunistic/structured credit, equity
+- **Founded**: 2004
+- **HQ**: Chicago, IL
+- **LinkedIn**: https://www.linkedin.com/company/monroe-capital
+- **Public Entities**: Monroe Capital Corporation (NASDAQ: MRCC - BDC), Monroe Capital Income Plus Corporation
 
-**Website:** https://www.monroecap.com  
-**LinkedIn:** https://www.linkedin.com/company/monroe-capital  
-**Headquarters:** Chicago, Illinois  
-**AUM:** $12B+  
+## Key Contact - Verified
+- **Name**: Theodore L. Koenig  
+- **Title**: Chairman, CEO & Founder
+- **LinkedIn**: https://www.linkedin.com/in/theodore-koenig/
+- **Team Page**: https://monroecap.com/team_member/theodore-l-koenig/
+- **Email (Current - Generic)**: info@monroecap.com ⚠️ NEEDS REPLACEMENT
+- **Email (Direct)**: (not publicly available - requires enrichment)
+- **Source**: Official Monroe Capital team page
+- **Notes**: 
+  - Founder (2004)
+  - Chairman, President & CEO of Monroe Capital LLC
+  - Chairman, President & CEO of Monroe Capital Corporation (NASDAQ: MRCC)
+  - Chairman, Director & CEO of Monroe Capital Income Plus Corporation
+  - Education: Chicago-Kent College of Law, Illinois Institute of Technology
+  - Premier boutique asset management specializing in private credit
+  - U.S. and international capital solutions since 2004
 
-## Investment Focus
-- Business Services
-- Direct Lending
-- Private Credit
-- Specialty Finance
+## Current Issue
+- **Problem**: Sheet currently has generic "info@monroecap.com" email
+- **Priority**: HIGH - Upgrade to direct CEO email for outreach effectiveness
 
-## Key Contacts
+## Outreach Strategy
+- As Founder/CEO, likely gatekeepered
+- May be best approached through:
+  - Investor relations channel (BDC disclosure requirements)
+  - Portfolio operations team
+  - Specific deal/sector specialist on team
+  - Conference/event connections
 
-### Theodore Koenig
-- **Title:** CEO & President
-- **Email:** info@monroecap.com *(General contact, not direct)*
-- **Source:** monroecap.com contact page
+## Research Status
+- ✅ Contact verified via official sources
+- ✅ Current generic email identified
+- ❌ Direct email not publicly available
+- 🔴 PRIORITY: Upgrade from info@ to direct email via Apollo/LinkedIn
+- 📌 Next: Apollo API enrichment or alternative team contact
 
-## Contact Information
-- **General:** info@monroecap.com *(Verified)*
-
-## Notes
-- Large mid-market lender
-- Business services heavy
-- Strong Chicago presence
-- Both debt and equity investments
-
-## Enrichment Status
-**Date:** 2026-03-05  
-**Status:** Partial - General email found, CEO identified  
-**Priority:** Medium - large AUM but primarily debt-focused
+## Last Updated
+2026-03-05 (PE Enrichment Cron Run)
