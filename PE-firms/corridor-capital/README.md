@@ -1,30 +1,30 @@
 # Corridor Capital
 
-## Overview
-- **Website:** https://corridorcapital.com
-- **Location:** Los Angeles, CA
-- **Status:** Enriched - 2026-03-05
+**Website:** http://www.corridorcap.com  
+**Location:** Los Angeles, CA (Chicago origins)  
+**AUM:** Lower-middle market focus
 
-## Key Contact
-- **Name:** Craig Enenstein
+## Focus
+- Operational support
+- Strategic guidance to lower-middle market companies
+
+## Key Contacts
+
+### Craig Enenstein
 - **Title:** CEO & Founder
 - **Email:** craig@corridorcap.com
+- **Alternate:** cenenstein@corridorcapital.com
 - **LinkedIn:** https://www.linkedin.com/in/craig-enenstein/
+- **Phone:** +1.310.442.7000
+- **Background:** Private equity investor focused on operational support
 
-## Firm Profile
-Lower middle market private equity firm focused on partnering with founder-led businesses. 
+## Investment Profile
+- Focus: Operational improvements and strategic guidance
+- Target: Lower-middle market companies
+- Location: Los Angeles (moved from Chicago)
 
-## Intelligence
-- Verified email from press release (Inc. Founder-Friendly Investors List)
-- Founded September 2005
-- Focus on flexible capital and creative structures
-- Named to Inc.'s Founder-Friendly Investors List (2025)
-
-## Enrichment Source
-- Press release: https://corridorcapital.com/corridor-capital-named-to-inc-s-founder-friendly-investors-list/
-- LinkedIn confirmation
-- Company website
-
-## Next Steps
-- Ready for outreach
-- Founder-friendly positioning aligns with Gumbo's value prop
+## Enrichment Status
+✅ **Enriched:** 2026-03-05
+- Contact: Craig Enenstein (CEO & Founder)
+- Email: craig@corridorcap.com (verified via ContactOut)
+- Source: LinkedIn, ContactOut
