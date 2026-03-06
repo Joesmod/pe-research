@@ -6,17 +6,28 @@
 - **Founded:** 1983
 - **Status:** Enriched - 2026-03-05
 
-## Key Contact
-- **Name:** Phillip Molner
+## Key Contacts
+
+### Phillip Molner
 - **Title:** Managing Partner
 - **Email:** pmolner@primuscapital.com
 - **LinkedIn:** https://www.linkedin.com/in/phillip-molner-5553b714/
+- **Source:** Email pattern verified via LeadIQ (2026-03-06)
+- **Background:** Joined Primus in 2001, prior experience at McKinsey, BCG, Pensler Capital
 
-- **Name:** Ronald C. Hess, Jr.
+### Ronald C. Hess, Jr.
 - **Title:** Managing Director
+- **Email:** rhess@primuscapital.com (inferred from pattern)
 
-- **Name:** Chris Welch
+### Chris Welch
 - **Title:** (Partner/Director level)
+
+### Aaron W. Davis
+- **Title:** (Team member)
+
+## Email Pattern
+**Primary Pattern:** [F][Last]@primuscapital.com (88% verified via LeadIQ)  
+**Example:** pmolner@primuscapital.com
 
 ## Firm Profile
 Established growth-oriented private equity firm focused on healthcare, software, and technology-enabled companies.

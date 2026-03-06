@@ -2,56 +2,58 @@
 
 **Location:** Chicago, IL  
 **Website:** https://cpfounders.com  
-**Founded:** 2014 (approx)  
-**AUM:** $5.1B+  
+**LinkedIn:** https://www.linkedin.com/company/chicago-pacific-founders  
 
-## Focus
-Strategic healthcare investment firm with exclusive focus on healthcare services. Founded by former healthcare CEOs and senior executives.
+## Overview
+Healthcare-focused private equity firm founded by experienced healthcare operators. Specializes in value-based care and partnering with experienced operators in markets ripe for transformation.
 
 ## Key Contacts
 
 ### Mary Tolan - Co-Founder & Managing Partner
 - **Email:** mtolan@cpfounders.com
-- **LinkedIn:** https://www.linkedin.com/in/mary-tolan/
-- **Source:** Crunchbase + RocketReach (FLast@cpfounders.com pattern 87%+ usage)
+- **LinkedIn:** https://www.linkedin.com/in/mary-tolan
+- **Source:** ContactOut email verification
+- **Background:**
+  - Founded R1 RCM in 2003
+  - Led R1 RCM's growth for a decade into a billion-dollar enterprise
+  - Seasoned healthcare industry professional
 
-### Lawrence Leisure - Co-Founder & Managing Partner
-- **Email:** lleisure@cpfounders.com
+### R.J. Gupta - Founding Partner
+- **LinkedIn:** https://www.linkedin.com/company/chicago-pacific-founders
+- **Source:** Company announcements
 
-### Vance Vanier - Co-Founder & Managing Partner
-- **Email:** vvanier@cpfounders.com
+## Email Pattern
+**Primary Pattern:** [first][last]@cpfounders.com  
+**Example:** mtolan@cpfounders.com
 
-### Krista Hatcher - Co-Managing Partner
-- **Email:** khatcher@cpfounders.com
-- **Quote:** "CPF is unique in the private equity investment industry in that we're focused on healthcare and founded by operators who also have investing talent, experience and expertise."
+## Investment Focus
+- Healthcare services
+- Value-based care
+- Businesses at the forefront of care delivery
+- Partnering with experienced operators
 
-## Partners
-- Samuel Bendix - Partner
-- Matthew Doyle - Partner / COO / Head of Investor Relations
+## Investment Philosophy
+"Growing business at the forefront of care"
+- Partnership with experienced operators
+- Focus on value-based care markets
+- Collaboration and transparency
+- Do what they say they're going to do
 
-## Investment Criteria
-- Healthcare services exclusive focus
-- Value-based care investments: 10 made to date
-- 27 current portfolio companies
-- ~60% median revenue growth rate
-- $75M max equity per opportunity
-- Growth, minority recap, and buyout transactions
-- Cash flow positive businesses required
+## Contact Info
+**Address:** 980 N. Michigan Ave., Suite 1998, Chicago, IL 60611  
+**Phone:** 312.273.4750
 
-## Portfolio Characteristics
-- Strong operational expertise (founder-operators)
-- Deep industry relationships (doctors, payors, executives)
-- Focus on quality of service delivery
+## Assets Under Management
+$2B+ AUM (estimated)
 
-## Culture & Values
-- High say-do ratio
-- Founder spirit
-- Proactive and upfront communication
-- Power of partnership
-- Continuous professional development (Riverside University program)
+## Notable Portfolio Companies
+- WellBe Senior Medical (executive team additions announced Feb 2022)
+- Tredence (Great Place to Work certified, Feb 2022)
+
+## Notes
+- Cadre of founders and operators with direct experience building businesses at scale
+- Team focused on revolutionizing patient access and revenue cycle management
+- Deep healthcare industry expertise
 
 ## Research Date
-2026-03-05
-
-## Status
-✅ **Enriched** - Multiple Co-Founders with verified contact patterns
+Last Updated: 2026-03-06

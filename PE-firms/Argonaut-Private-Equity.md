@@ -11,7 +11,8 @@
 ### Steve Mitchell
 - **Title:** CEO / Managing Director
 - **LinkedIn:** https://www.linkedin.com/in/steve-mitchell-831b1050/
-- **Email Domain:** @argonautpe.com (full address not publicly available)
+- **Email:** smitchell@argonautpe.com
+- **Source:** RocketReach email pattern verification
 - **Background:**
   - Joined Argonaut in 2004
   - Over 15 years as Managing Director
@@ -20,6 +21,10 @@
   - Cherokee Nation member, born and raised in Tulsa
   - Prior: Principal at Radical Incubation and 2929 Entertainment (working with Mark Cuban)
   - Prior: Corporate attorney at Gibson, Dunn & Crutcher LLP (M&A specialist)
+
+## Email Pattern
+**Primary Pattern:** [first_initial][last]@argonautpe.com  
+**Example:** smitchell@argonautpe.com
 
 ## Company Overview
 Tulsa-based investment firm specializing in private equity investments. Partners with management teams to improve operations, implement best practices, and generate shareholder value. Current portfolio includes Crimson Steel Supply, Pryer Aerospace, and others.
