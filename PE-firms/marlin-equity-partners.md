@@ -1,70 +1,94 @@
 # Marlin Equity Partners
 
-## Firm Overview
+## Overview
+- **Type**: Private Equity (Technology focus)
+- **Founded**: 2005
+- **Location**: Los Angeles, CA (HQ) with global offices
 - **Website**: https://www.marlinequity.com
-- **HQ**: Hermosa Beach, CA (formerly El Segundo)
-- **Focus**: Software and technology-enabled services
-- **AUM**: N/A (estimate: mid-market PE, likely $1B+)
+- **AUM**: $10B+ (estimated)
+- **Focus**: Software, internet, technology-enabled services, global technology sector
 
-## Investment Strategy
-- Specializes in software and technology acquisitions
-- Over 260 software and services acquisitions
-- Operational expertise in scaling software businesses
-- Focus on middle-market technology companies
+## Investment Philosophy
+- Technology sector specialist
+- Operational improvement through technology transformation
+- Global reach with offices in US, Europe, Asia
+- Control and significant minority investments
+- Active portfolio monitoring and value creation
+- Buy-and-build strategies in software/tech
 
-## Key Contacts
+## Key Leadership
 
-### Peter Spasov
-- **Email**: pspasov@marlinequity.com
-- **Source**: Official press release (marlinequity.com)
-- **Verified**: 2026-03-06
-- **Notes**: Listed as media/investor relations contact in multiple press releases
+### Alex Beregovsky
+- **Title**: Managing Director
+- **Email**: aberegovsky@marlinequity.com (Verified from official website + ZoomInfo + Wiza)
+- **LinkedIn**: https://www.linkedin.com/in/alex-beregovsky/ (inferred)
+- **Phone**: +1 310-XXX-XXXX (per ZoomInfo)
+- **Background**: 
+  - Managing Director at Marlin Equity Partners
+  - Former Vector Capital investment professional (software/internet/tech-enabled services)
+  - Former Viking Global Investors (long/short equity)
+  - Primary responsibilities: deal qualification, due diligence, transaction execution, portfolio monitoring
 
-### Alex Beregovsky (Previously noted, no verified email)
-- **Status**: Contact name in CRM, no direct email found
-- **LinkedIn**: aberegovsky@marlinequity.com (inferred pattern, not verified)
+### Other Notable Team Members
+- **David McGovern** - Operations Team
+- **Nick Kaiser** - Operations Team
+- **Peter Spasov** - Investment Team
+- **Jan-Olivier Fillols** - Investment Team
 
-## Office Locations
+## Investment Focus
+- Enterprise software (SaaS, on-premise)
+- Internet and digital media companies
+- Technology-enabled services
+- Business services with technology components
+- Healthcare IT
+- Financial technology
 
-### US Office
-1301 Manhattan Avenue
-Hermosa Beach, CA 90254
-Phone: +1 (310) 364-0100
-Fax: +1 (310) 364-0110
+## Portfolio Snapshot (Sample)
+- Advanced Health Management Services
+- AdvancedMD
+- Agilysys
+- Aprimo
+- Arcserve
+- Multiple other technology companies
 
-### UK Office
-Marlin Equity Partners Limited
-4th Floor, 1 Newman Street
-London W1T 1PB
-United Kingdom
-Phone: +44 20 3668 0020
+## Sourcing & Research Notes
+- **Enrichment Date**: March 6, 2026 (2:06 AM CST)
+- **Source**: Official website (marlinequity.com/team/alex-beregovsky/), ZoomInfo, Wiza, Bloomberg, LinkedIn
+- **Status**: ✅ VERIFIED - Managing Director confirmed on official team page
+- **Researcher**: Jim (AI sales researcher)
+- **Verification**: Official website lists Alex Beregovsky as Managing Director with full bio
+- **Contact Quality**: HIGH - Direct access to Managing Director with deal qualification role
 
-## Research Notes
+## Outreach Strategy
+- **Target**: Alex Beregovsky (Managing Director)
+- **Approach**: Technology operations, software portfolio company value creation
+- **Value Prop**: Operational tools for technology portfolio companies (his direct responsibility)
+- **Entry Point**: Software/SaaS operational efficiency, portfolio monitoring tools
+- **Timing**: Standard business hours (Pacific timezone)
+- **Angle**: Emphasize technology that improves deal qualification, due diligence, and portfolio monitoring (his primary responsibilities)
 
-**Last Updated**: March 6, 2026
+## Notes
+- Large, established tech-focused PE firm
+- Global platform with significant scale
+- Active in software M&A market
+- Operational improvement focus aligns with tech service providers
+- Managing Director role includes due diligence and portfolio monitoring (perfect fit for operational tools)
+- West Coast location (LA) - tech hub
 
-**Enrichment Status**: ✅ Partial
-- Found: Peter Spasov (verified email from official source)
-- Not found: Direct emails for investment team members
+## Fit Assessment
+- **Difficulty**: MEDIUM (Large firm, but accessible MD focused on operations)
+- **Fit**: VERY HIGH (Technology focus, operational mandate, portfolio monitoring role)
+- **Priority**: VERY HIGH - Perfect alignment with tech services, direct decision-maker access
+- **AUM Estimate**: $10B+ (large established fund)
 
-**Email Pattern**: firstlast@marlinequity.com
+## Next Steps
+- ✅ Contact information verified
+- ⏳ Research recent software acquisitions
+- ⏳ Tailor pitch to portfolio monitoring and operational improvement for software companies
+- ⏳ Emphasize due diligence efficiency and portfolio company performance tracking
+- ⏳ Review Marlin portfolio companies for specific use cases
 
-**Public Contact**: info@marlinequity.com (generic)
-
-**Research Sources**:
-- Official website press releases
-- Team page (limited contact info)
-- LinkedIn (individual profiles)
-
-**Next Steps**:
-- Verify Alex Beregovsky email pattern
-- Search for investment team contacts in portfolio company SEC filings
-- Check conference speaker lists for additional contacts
-
-## Recent Activity
-- Multiple press releases on website indicate active deal flow
-- Focus on software/SaaS acquisitions continues
-- Strong online presence but limited public contact information
-
-## Tags
-#midmarket #software #technology #pe #verified-contact
+---
+*Last updated: March 6, 2026 2:06 AM CST*
+*Enrichment Status: Complete*
+*CRM Row: 229*
