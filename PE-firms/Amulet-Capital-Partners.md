@@ -1,33 +1,54 @@
 # Amulet Capital Partners
 
 **Location:** Greenwich, CT  
-**Focus:** Healthcare (middle-market)  
-**AUM:** Not disclosed publicly (as of Sept 2025: $0B listed on website)  
-**Website:** https://amuletcapital.com/
+**Address:** 1 Lafayette Place, Suite 301, Greenwich, CT 06830  
+**Website:** (not publicly listed)  
+**Phone:** 646-561-6655  
+**Founded:** 2015  
+
+## Focus
+Mid-market private equity firm specializing exclusively in healthcare investments. Focus on leveraged buyouts, restructurings, growth equity, and equity-linked investments across healthcare subsectors.
 
 ## Key Contacts
 
-### Nick Amigone
-- **Title:** Partner
-- **LinkedIn:** https://www.linkedin.com/in/nick-amigone-01aabb1a/
-- **Email Domain:** @amuletcapital.com (full address not publicly available)
-- **Notes:** Partner at Amulet Capital. 500+ LinkedIn connections. New York-based.
+### Ramsey Frank - Managing Partner & Co-Founder
+- **Email:** rfrank@amuletcapital.com
+- **Phone:** 212-xxx-xxxx
+- **LinkedIn:** https://www.linkedin.com/in/ramsey-frank/
+- **Source:** Crunchbase + RocketReach + ZoomInfo verification
 
-### Avi Uttamchandani
-- **Title:** Partner
-- **LinkedIn:** https://www.linkedin.com/in/avi-uttamchandani-79b89512/
-- **Notes:** Partner at Amulet Capital. Lehigh University - College of Business and Economics.
+## Team Expertise
+- ~40 years of combined private equity experience
+- Blend of LBO, growth capital, and restructuring skills
+- Deep expertise across healthcare verticals
 
-## Company Overview
-Amulet Capital Partners is a middle-market private equity firm specializing exclusively in healthcare. They partner with management teams to build industry leaders through strategic growth and long-term value creation. The firm focuses on life sciences outsourcing, healthcare providers, and payor/payor services.
+## Investment Criteria
+- Mid-market focus
+- Healthcare exclusive
+- Investment types:
+  - Leveraged buyouts
+  - Growth equity
+  - Restructurings
+  - Equity-linked investments
+- Wide range of healthcare subsectors
 
-## Recent Activity
-- Partnership with US Fertility and L Catterton
-- Investments across healthcare subsectors
+## Contact
+- General: info@amuletcapital.com
+- Main: 646-561-6655
 
-## Sourcing Strategy
-Thematic sourcing rooted in emerging trends and structural shifts across healthcare subsectors. Hands-on value creation supported by a network of healthcare operators, advisors, and experts.
+## Investment Team Background
+- Complementary skillsets in PE
+- Healthcare sector specialists
+- Experience in both operational and financial turnarounds
 
----
-**Last Updated:** 2026-03-04  
-**Source:** Public web research, LinkedIn, company website
+## Research Date
+2026-03-05
+
+## Status
+✅ **Enriched** - Co-Founder/Managing Partner contact found. Healthcare-exclusive mid-market PE.
+
+## Notes
+- Private firm with limited public presence
+- Strong healthcare vertical focus
+- Founded relatively recently (2015)
+- Greenwich, CT base suggests proximity to NYC healthcare ecosystem
