@@ -15,8 +15,10 @@
 ### Ryan Sprott
 - **Title:** Managing Partner, Co-Founder
 - **Email:** r*****@greatrangecapital.com (pattern from RocketReach, not directly verified)
+- **LinkedIn:** https://www.linkedin.com/in/ryan-sprott-07159412/
 - **Source:** Great Range Capital team page, founded 2010
-- **Background:** Former Managing Director & Partner at DLJ Merchant Banking Partners (Credit Suisse PE)
+- **Background:** Former Managing Director & Partner at DLJ Merchant Banking Partners (Credit Suisse PE), 14 years at DLJMBP
+- **Research Update 2026-03-06:** Confirmed co-founded GRC in March 2010. Pattern likely [first].[last]@greatrangecapital.com but not found on official sources.
 
 ### Paul Maxwell
 - **Title:** Managing Partner
