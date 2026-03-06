@@ -1,29 +1,40 @@
 # Genstar Capital
 
-## Firm Overview
-- **Website**: https://www.gencap.com/
-- **Type**: Middle-market private equity
-- **Focus**: Financial services, software, industrial technology, healthcare
+## Overview
+- **Type**: Private Equity
+- **AUM**: ~$35 billion
+- **Founded**: 1988
 - **HQ**: San Francisco, CA
-- **LinkedIn**: https://www.linkedin.com/company/genstar-capital
+- **Website**: https://www.gencap.com
 
-## Key Contact - Verified
-- **Name**: Ryan Clark  
-- **Title**: President & Managing Director
-- **LinkedIn**: https://www.linkedin.com/in/ryan-clark-60389/
-- **Email**: (not publicly available - requires enrichment)
-- **Source**: Official Genstar press release (8/12/2015), Amwins board bio
-- **Notes**: 
-  - Joined Genstar in 2004
-  - Named President in 2015
-  - Prior: Hellman & Friedman LLC
-  - Education: Harvard Business School MBA 2004
-  - Also serves on Amwins board since 2021
+## Investment Focus
+- **Sectors**: Financial services, Healthcare, Industrials, Software
+- **Stage**: Middle-market
+- **Geography**: North America
 
-## Research Status
-- ✅ Contact verified via official sources
-- ❌ Direct email not publicly available
-- 📌 Next: Apollo API enrichment or LinkedIn outreach
+## Key Contacts
 
-## Last Updated
-2026-03-05 (PE Enrichment Cron Run)
+### Sid Ramakrishnan
+- **Title**: Managing Director
+- **Email**: sramakrishnan@gencap.com
+- **LinkedIn**: https://www.linkedin.com/in/sid-ramakrishnan-3522904
+- **Background**: Promoted to MD in February 2025. Previously VP at Genstar since 2017. MBA from Harvard Business School.
+
+### Scott Niehaus
+- **Title**: Managing Director
+- **Email**: sniehaus@gencap.com
+- **Background**: Promoted to MD in February 2025 alongside Ramakrishnan. Previously at Summit Partners.
+
+## Why Hello Gumbo
+- **Strong fit**: Large PE firm with significant software/tech focus
+- **Portfolio operations expertise**: ~$35B AUM suggests robust value creation team
+- **Active investor**: Recent 2025 promotions indicate growth and deal activity
+- **Tech-forward**: Strong focus on software sector aligns with ticketing/events tech
+
+## Research Date
+2026-03-05
+
+## Sources
+- Genstar website: https://www.gencap.com
+- Press release: https://www.gencap.com/?p=2864
+- ContactOut, RocketReach (email verification)
