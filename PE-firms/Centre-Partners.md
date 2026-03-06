@@ -1,47 +1,61 @@
-# Centre Partners Management LLC
+# Centre Partners
 
-**Location:** New York, NY (headquarters) / Los Angeles, CA  
-**Focus:** Consumer goods and healthcare  
-**Founded:** 1986  
-**Team Size:** 26 employees  
-**Website:** https://www.centrepartners.com/
+**Location:** New York, NY & Los Angeles, CA  
+**Website:** https://www.centrepartners.com  
+**LinkedIn:** https://www.linkedin.com/company/centre-partners-management-llc  
+
+## Overview
+Founded in 1986, Centre Partners is a longstanding middle market private equity firm specializing in control investments in North American consumer goods and healthcare companies.
 
 ## Key Contacts
 
-### Daniel Brinkenhoff
-- **Title:** Managing Director
-- **Location:** New York
-- **Notes:** Identified via Crunchbase
+### Bruce Pollack - Managing Partner
+- **Email:** bpollack@centrepartners.com
+- **LinkedIn:** https://www.linkedin.com/in/bruce-pollack-54295910
+- **Source:** ZoomInfo email pattern verification
+- **Background:** 
+  - Joined Centre Partners in 1991
+  - Started career in M&A at Becker Paribas Incorporated
+  - Education: B.A. from Brandeis University
 
-### Greg Tunney
-- **Title:** CEO and Board Member KNS
-- **Notes:** Identified via RocketReach
-
-## Press Contacts (Not Decision-Makers)
-- **Ross Lovern** - Kekst CNC - (917) 842-7205
-- **Lynn Hopkins Cantwell** - [email protected] / 301-367-8704
-- **Mark Semer** - Kekst - (212) 521-4800
-- **Stephanie Blank** - [email protected] / 410.571.8733
-
-## Company Overview
-Founded in 1986, Centre Partners is a longstanding middle-market private equity firm with offices in New York and Los Angeles. They specialize in making control investments in North American businesses primarily in consumer goods and healthcare sectors.
-
-## Investment History
-Invested over $2.5 billion of equity capital in 88 transactions since inception (as of 2021).
+## Email Pattern
+**Primary Pattern:** [first_initial][last]@centrepartners.com  
+**Example:** bpollack@centrepartners.com
 
 ## Investment Focus
 - Consumer goods
-- Healthcare (including vision care platforms like Vision Innovation Partners)
-- Control investments in middle-market companies
+- Healthcare services
+- Food and beverage
+- Household products
+- Personal care
+- Commerce
+- Middle market control investments
 
-## Recent Portfolio Activity
-- Acquisition of KNS International (2021)
-- Vision Innovation Partners platform (multiple acquisitions in eye care sector)
-- Golding Farms Foods investment (2017)
+## Offices
 
-## Resources
-Provides management teams access to an extended network of experienced and proven operating executives for operational support and value creation.
+### New York (Headquarters)
+**Address:** 780 3rd Avenue, 41st Floor, New York, NY 10017  
+**Phone:** (212) 332-5800
 
----
-**Last Updated:** 2026-03-04  
-**Source:** Company website, press releases, Crunchbase, PEI profile
+### Los Angeles
+**Address:** 401 Wilshire Boulevard, 12th Floor, Santa Monica, CA 90049  
+**Phone:** (212) 332-5800
+
+## Track Record
+- Over $2 billion invested
+- More than 70 transactions completed
+- Extended network of experienced operating executives
+- Partner continuity and operational resources
+
+## Notable Investments
+- US Retirement/Benefits Partners (sold April 2018)
+- Monte Nido (acquired Dec 2012, sold Sept 2015)
+- Midwest Mobility Solutions (Sept 2021)
+
+## Notes
+- Provides management teams access to proven operating executives
+- Deep industry networks and transaction experience
+- JavaScript-rendered team page (contact form available)
+
+## Research Date
+Last Updated: 2026-03-06

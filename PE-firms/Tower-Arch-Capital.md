@@ -1,42 +1,54 @@
 # Tower Arch Capital
 
-**Location:** Salt Lake City, UT  
-**Address:** 14034 S 145 E, Ste. (exact suite not disclosed)  
-**Phone:** (801) 997-5808  
-**Email:** info@towerarch.com  
-**Focus:** Lower-middle market, family and entrepreneur-owned companies  
-**Website:** https://towerarch.com/
+**Location:** Draper, UT  
+**Website:** https://towerarch.com  
+**LinkedIn:** https://www.linkedin.com/company/tower-arch-capital  
+
+## Overview
+Lower middle market private equity firm focused on partnering with talented management teams in business services, industrial, and consumer sectors. Known for founder-friendly approach.
 
 ## Key Contacts
 
-### Partners (Co-Founders)
-Multiple partners identified - co-founded from Huntsman Gay Global Capital background:
+### Rhett P. Neuenschwander - Partner
+- **Email:** rneuenschwander@towerarch.com
+- **LinkedIn:** https://www.linkedin.com/in/rhett-neuenschwander
+- **Source:** ZoomInfo email pattern verification
+- **Education:** Stanford MBA
 
-- **Rhett Glauser** - Partner
-- **Dave [Last Name]** - Partner  
-- **Ryan [Last Name]** - Partner
-- **David [Last Name]** - Partner
+### David Parkin - Partner
+- **Email:** dparkin@towerarch.com
+- **LinkedIn:** Available on LinkedIn
+- **Source:** ZoomInfo
 
-**General Contact:** info@towerarch.com
+### David Calder - Partner
+- **Email:** dcalder@towerarch.com
+- **LinkedIn:** Available on LinkedIn
+- **Source:** ZoomInfo
 
-## Company Overview
-Tower Arch Capital is a lower-middle market private equity fund headquartered in Salt Lake City. They focus on partnering with and growing high-quality family and entrepreneur-owned companies to deliver extraordinary returns for management teams and investors.
+### Ryan - Partner (Team page)
+- Prior experience at Utah Valley University (Bachelor of Science in Accounting, summa cum laude)
 
-## Investment Philosophy
-- Work with CEOs to design ownership packages for key management team members
-- Align incentives to allow management to participate in value creation
-- Partners bring Fortune 500 business executive and consultant expertise
-- Facilitate growth, strategic planning, and operational improvements
+## Email Pattern
+**Primary Pattern:** [first_initial][last]@towerarch.com  
+**Example:** rneuenschwander@towerarch.com
 
-## Team Highlights
-Team includes professionals from McKinsey & Company, Bain & Company, Credit Suisse, Goldman Sachs, Huntsman Gay Global Capital, and other top-tier firms. Strong BYU, Stanford, Wharton, and Harvard representation.
+## Investment Focus
+- Business services
+- Industrial companies
+- Consumer sector
+- Lower middle market
+- Founder-friendly partnerships
 
-## Recognition
-- Named to Inc.'s 2025 List of Founder-Friendly Investors (7th consecutive year)
+## Contact Info
+**Address:** Draper, UT  
+**Phone:** 801-997-5808  
+**General Email:** info@towerarch.com
 
-## Portfolio Companies
-ACS Manufacturing, APIC, Miller Industries, Panoramic Doors, Syracuse Utilities, S&N Infrastructure Services, Nexeo HR Solutions, SnugZ USA, and others.
+## Notes
+- Management team equity participation is a key value proposition
+- Experienced partners with Fortune 500 and consulting backgrounds
+- Named to Inc.'s list (specific recognition noted on website)
+- Customizable partnership solutions for business owners
 
----
-**Last Updated:** 2026-03-04  
-**Source:** Company website, Crunchbase, PEI profile
+## Research Date
+Last Updated: 2026-03-06
