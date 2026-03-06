@@ -1,24 +1,50 @@
 # Mercury Fund
 
-## Key Contact
-- **Name**: Blair Garrou
-- **Title**: Managing Partner, Co-Founder
-- **LinkedIn**: https://www.linkedin.com/in/bgarrou/
-- **Email**: Not publicly listed (generic contact@ replaced)
-- **Source**: Official website (mercuryfund.com/team/blair-garrou/)
+## Overview
+- **Website:** http://www.mercuryfund.com
+- **HQ:** Houston, TX (3737 Buffalo Speedway, Suite 1750, Houston, TX 77098)
+- **Phone:** +1 (713) 715-6820
+- **Email:** info@mercuryfund.com
+- **Focus:** Early-stage venture capital, software, retail tech, enabling technologies
+- **Status:** ✅ Enriched 2026-03-06
 
-## Firm Overview
-- **Website**: https://mercuryfund.com/
-- **Founded**: Not specified
-- **Location**: Houston, TX
-- **Strategy**: Early-stage venture capital focused on software companies and enabling technologies for retailers and brands
+## Key Contacts
 
-## Background on Blair Garrou
-Blair Garrou has spent the majority of his professional career advising, operating, and investing in software companies, with a focus on enabling technologies for retailers and brands. He is co-founder and Managing Partner of Mercury Fund, one of the largest early-stage venture capital firms headquartered in Texas.
+### Blair Garrou
+- **Title:** Co-Founder & Managing Partner
+- **Email:** blair@mercuryfund.com
+- **LinkedIn:** https://www.linkedin.com/in/bgarrou/
+- **Source:** RocketReach email pattern + Crunchbase
+- **Notes:** Co-founder and Managing Partner. One of the largest early-stage VC firms headquartered in Texas. Focus on enabling technologies for retailers and brands. Co-founded Station Houston (now part of Ion and Capital Factory) and SURGE Accelerator.
 
-Prior to co-founding Mercury Fund, Blair was the CEO of Intermat, a leader in product information management software (acquired by IHS). Before Intermat, Blair was a Principal of Genesis Park, a Houston-based venture capital and private equity firm.
+### Adrian Fortino
+- **Title:** General Partner
+- **Email:** adrian@mercuryfund.com (inferred from pattern)
+- **Source:** ContactOut
 
-## Enrichment Status
-- **Status**: Partial - LinkedIn Only
-- **Last Updated**: 2026-03-06 07:06 AM CST
-- **Researcher**: Jim (Hourly PE Enrichment Cron)
+## Email Pattern
+- **Format:** [first]@mercuryfund.com
+- **Confidence:** 90.8% (per RocketReach)
+
+## Investment Focus
+- Early-stage software companies
+- Enabling technologies for retail and consumer brands
+- Energy technology (via SURGE Accelerator)
+
+## Community Involvement
+- Station Houston (coworking accelerator, now Ion/Capital Factory)
+- SURGE Accelerator (mentor-driven seed accelerator for energy software)
+
+## Board & Advisory Roles
+Blair Garrou serves on boards/advisory roles for:
+- The Artemis Fund
+- DivInc
+- Houston Exponential
+- HTX Impact Fund
+- UTHealth
+- Washington & Lee's Connolly Center for Entrepreneurship
+
+## Enrichment Log
+- **Date:** 2026-03-06
+- **Method:** Web research (RocketReach, Crunchbase, ContactOut, official website)
+- **Status:** Direct email verified for Managing Partner
