@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-03-05T11:36:00-06:00",
+  "enrichment_type": "cron_hourly",
+  "updates": [
+    {
+      "row": 419,
+      "company": "KSL Capital Partners",
+      "fields": {
+        "Contact Name": "Kirk Adamson",
+        "Title": "Partner",
+        "Email": "kirk.adamson@kslcapital.com",
+        "LinkedIn": "https://www.linkedin.com/in/kirk-adamson-b92a2192a/",
+        "Status": "Enriched",
+        "Notes": "Verified via KSL team page. Email pattern First.Last@ confirmed by LeadIQ. Investment Committee member, former Blackstone BREDS London."
+      }
+    },
+    {
+      "row": 702,
+      "company": "Ancor Capital Partners",
+      "fields": {
+        "Contact Name": "Brook Smith",
+        "Title": "Partner & Managing Director",
+        "Email": "bsmith@ancorcapital.com",
+        "LinkedIn": "https://www.linkedin.com/in/brook-smith-a935508",
+        "Status": "Enriched",
+        "Notes": "Verified via official contact page and team bio. Oversees capital-raising and investor relations. 35+ years middle-market experience."
+      }
+    }
+  ],
+  "new_firms": [
+    {
+      "company": "Halifax Group",
+      "website": "https://thehalifaxgroup.com",
+      "contactName": "Jamie Cavanaugh",
+      "title": "Managing Director",
+      "email": "jcavanaugh@thehalifaxgroup.com",
+      "linkedin": "https://www.linkedin.com/company/the-halifax-group-llc",
+      "phone": "(202) 530-8300",
+      "location": "Washington, DC",
+      "aum_range": "$50M-$300M EV",
+      "focus": "Health & Wellness, Franchising, Outsourced Business Services",
+      "status": "New - Unresearched",
+      "notes": "Promoted to MD Oct 2025 (PR Newswire). Lower middle-market PE. Founded 1999. Email pattern verified via ZoomInfo."
+    },
+    {
+      "company": "Sweetwater Private Equity",
+      "website": "https://sweetwaterpe.com",
+      "contactName": "James Gamett",
+      "title": "Founder & Managing Partner",
+      "email": "james@sweetwaterpe.com",
+      "linkedin": "https://www.linkedin.com/company/sweetwater-private-equity",
+      "phone": "(858) 200-6145",
+      "location": "San Diego, CA",
+      "focus": "Technology, Healthcare, Consumer sectors",
+      "status": "New - Unresearched",
+      "notes": "Email verified via BusinessWire press release July 2025. Founder has MBA, CFA, CPA credentials. Added Brent Alvord as MD/Head of Research."
+    },
+    {
+      "company": "Closed Loop Partners",
+      "website": "https://www.closedlooppartners.com",
+      "contactName": "Daniel Phan",
+      "title": "Managing Director, PE Co-Head",
+      "email": "dphan@closedlooppartners.com",
+      "linkedin": "https://www.linkedin.com/company/closed-loop-partners",
+      "location": "New York, NY",
+      "focus": "Circular Economy investments",
+      "status": "New - Unresearched",
+      "notes": "Joined June 2025 (PR Newswire). Co-heads middle market PE strategy. Circular economy focus ($4.5T market by 2030). Email pattern inferred, needs verification."
+    }
+  ],
+  "researched_no_email": [
+    {
+      "row": 51,
+      "company": "Genstar Capital",
+      "contact": "Ryan Clark",
+      "notes": "President & MD, no verified direct email found on official sources."
+    },
+    {
+      "row": 154,
+      "company": "Thoma Bravo",
+      "contact": "Orlando Bravo",
+      "notes": "Founder & Managing Partner, large firm with strict email privacy."
+    },
+    {
+      "row": 168,
+      "company": "Clearlake Capital",
+      "contact": "Behdad Eghbali",
+      "notes": "Co-Founder & Managing Partner, $85B+ AUM, no public contact found."
+    },
+    {
+      "row": 696,
+      "company": "3G Capital",
+      "contact": "Alex Behring",
+      "notes": "Co-Founder, ultra-high-profile (AB InBev, Burger King), email not verifiable."
+    },
+    {
+      "row": 711,
+      "company": "Atlantic Street Capital",
+      "contact": "Peter Shabecoff",
+      "notes": "Founder & Managing Partner, phone (203) 428-3150, no direct email."
+    }
+  ]
+}

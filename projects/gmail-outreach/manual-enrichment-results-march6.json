@@ -1,0 +1,167 @@
+[
+  {
+    "row": 117,
+    "firm": "Keltic Financial Partners",
+    "contactName": "Steve Fischer",
+    "title": "Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/steve-fischer-86579415",
+    "notes": "Also found Ernest Henninger (CFO). Appears to be financial services, NOT traditional PE.",
+    "status": "Needs email verification",
+    "firmType": "Financial Services"
+  },
+  {
+    "row": 579,
+    "firm": "Cardea Group",
+    "contactName": "Andrea",
+    "title": "Investment Management Executive Recruiter",
+    "email": "andrea@thecardeagroup.com",
+    "linkedIn": "",
+    "notes": "This is a RECRUITER, not PE firm. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Recruiter",
+    "firmType": "Executive Search"
+  },
+  {
+    "row": 611,
+    "firm": "GiantLeap Capital",
+    "contactName": "Himanshu Singh",
+    "title": "Founder and Managing Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/himanshu-singh-5308901/",
+    "notes": "Actual PE firm. Also has Samir Parikh (already in sheet). Phone: +1 (332) 228 4702. HQ: 110 East 25th Street, New York, NY 10010",
+    "status": "Needs email - try website contact form",
+    "firmType": "Private Equity"
+  },
+  {
+    "row": 620,
+    "firm": "HRCap, Inc.",
+    "contactName": "Andrew Sungsoo Kim",
+    "title": "President & CEO",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/andrew-sungsoo-kim-377899a/",
+    "notes": "This is an EXECUTIVE SEARCH FIRM, not PE. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Executive Search",
+    "firmType": "Executive Search"
+  },
+  {
+    "row": 621,
+    "firm": "HSP - Henkel Search Partners",
+    "contactName": "Eleni Henkel",
+    "title": "Founder and Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/elenihenkel/",
+    "notes": "This is an EXECUTIVE SEARCH/RECRUITER for PE, not a PE firm itself. Generic: info@henkelsp.com. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Executive Search",
+    "firmType": "Executive Search"
+  },
+  {
+    "row": 626,
+    "firm": "Jett Capital Advisors",
+    "contactName": "Sam Grauer",
+    "title": "Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/sam-grauer-4519606/",
+    "notes": "This is an INVESTMENT BANK, not PE. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Investment Bank",
+    "firmType": "Investment Banking"
+  },
+  {
+    "row": 630,
+    "firm": "Kinect Capital",
+    "contactName": "Trent Christensen",
+    "title": "CEO and President",
+    "email": "",
+    "linkedIn": "",
+    "notes": "This is a NON-PROFIT organization for entrepreneurs, not a PE firm. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Non-Profit",
+    "firmType": "Non-Profit"
+  },
+  {
+    "row": 635,
+    "firm": "Loeb.nyc",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "notes": "Need to research this firm - unclear what it is.",
+    "status": "Needs research",
+    "firmType": "Unknown"
+  },
+  {
+    "row": 654,
+    "firm": "Odyssey Search Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "notes": "Name suggests RECRUITER/SEARCH FIRM, not PE. Needs confirmation.",
+    "status": "Likely NOT PE - Search Firm",
+    "firmType": "Likely Executive Search"
+  },
+  {
+    "row": 666,
+    "firm": "RCP Advisors",
+    "contactName": "Thomas Danis Jr.",
+    "title": "Managing Partner and Co-Founder",
+    "email": "",
+    "linkedIn": "",
+    "notes": "This IS a PE fund-of-funds. Generic: rcp@rcpadvisors.com. Located: 353 N. Clark Street Suite 3500 Chicago, IL 60654. Phone: 312.266.7300",
+    "status": "Needs direct email",
+    "firmType": "Private Equity (Fund of Funds)"
+  },
+  {
+    "row": 670,
+    "firm": "ScaleView Partners",
+    "contactName": "Jay Snodgrass",
+    "title": "Co-Founder and Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/snodgrass/",
+    "notes": "This is an INVESTMENT BANK (M&A advisory), not PE. Also Gabe Wilcox (Co-Founder). Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Investment Bank",
+    "firmType": "Investment Banking"
+  },
+  {
+    "row": 682,
+    "firm": "TAP Advisors",
+    "contactName": "",
+    "title": "",
+    "email": "info@tapadvisors.com",
+    "linkedIn": "",
+    "notes": "This is an M&A ADVISORY / INVESTMENT BANK, not PE. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Investment Bank",
+    "firmType": "Investment Banking / M&A Advisory"
+  },
+  {
+    "row": 687,
+    "firm": "Valiant Capital Management",
+    "contactName": "Christopher R. Hansen",
+    "title": "CEO, President, Founding Partner",
+    "email": "",
+    "linkedIn": "",
+    "notes": "This is a HEDGE FUND, not PE. Should be marked as Dead/Not Applicable unless open to hedge funds.",
+    "status": "NOT PE - Hedge Fund",
+    "firmType": "Hedge Fund"
+  },
+  {
+    "row": 688,
+    "firm": "Victory Capital",
+    "contactName": "",
+    "title": "",
+    "email": "ir@vcm.com",
+    "linkedIn": "",
+    "notes": "This is an ASSET MANAGEMENT firm, not PE. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Asset Management",
+    "firmType": "Asset Management"
+  },
+  {
+    "row": 689,
+    "firm": "Virtas Partners",
+    "contactName": "Neal McNamara",
+    "title": "Founder and CEO",
+    "email": "Nmcnamara@virtaspartners.com",
+    "linkedIn": "https://www.linkedin.com/in/nealmcnamara/",
+    "notes": "This is a CONSULTING/ADVISORY FIRM serving PE, not a PE firm itself. Should be marked as Dead/Not Applicable.",
+    "status": "NOT PE - Consulting",
+    "firmType": "Consulting / Advisory"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "company": "Plexus Capital",
+    "contact_name": "Mike Becker",
+    "title": "Partner, Owner",
+    "email": "mbecker@plexuscap.com",
+    "linkedin": "https://www.linkedin.com/company/plexus-capital-llc",
+    "source": "Verified from plexuscap.com/contact page",
+    "verified": true
+  },
+  {
+    "company": "Plexus Capital",
+    "contact_name": "Madelaine Thomas",
+    "title": "Director of Business Development and Data Operations",
+    "email": "",
+    "linkedin": "",
+    "source": "Listed on team page plexuscap.com/team",
+    "verified": false,
+    "note": "IDEAL BD contact - no email found, would need pattern verification"
+  },
+  {
+    "company": "Plexus Capital",
+    "contact_name": "Sean McDonell",
+    "title": "Head of Capital Formation and Investor Relations",
+    "email": "",
+    "linkedin": "",
+    "source": "Listed on team page plexuscap.com/team",
+    "verified": false,
+    "note": "IR contact - no email found"
+  },
+  {
+    "company": "Palladium Equity Partners",
+    "contact_name": "Meahgan O'Grady Martin",
+    "title": "Head of Business Development",
+    "email": "",
+    "linkedin": "https://www.palladiumequity.com/people/meahgan-ogrady-martin",
+    "source": "Team page palladiumequity.com/people",
+    "verified": false,
+    "note": "IDEAL BD contact - pattern likely mogrady@palladiumequity.com or meahgan.martin@palladiumequity.com"
+  },
+  {
+    "company": "Palladium Equity Partners",
+    "contact_name": "Alex Funk",
+    "title": "Partner, Head of Services",
+    "email": "",
+    "linkedin": "https://www.palladiumequity.com/people/alex-funk",
+    "source": "Team page palladiumequity.com/people",
+    "verified": false,
+    "note": "Services-focused partner - good target"
+  },
+  {
+    "company": "Corridor Capital",
+    "contact_name": "Shaun Wright",
+    "title": "Managing Director, Head of Business Development",
+    "email": "",
+    "linkedin": "",
+    "source": "TheOrg.com org chart",
+    "verified": false,
+    "note": "IDEAL BD contact - domain is corridorcap.com from existing sheet data"
+  },
+  {
+    "company": "Gridiron Capital LLC",
+    "contact_name": "Kevin Jackson",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/gridiron-capital-llc",
+    "source": "LinkedIn - mentioned in posts",
+    "verified": false,
+    "note": "Email pattern: [first initial][last]@gridironcapital.com = kjackson@gridironcapital.com"
+  },
+  {
+    "company": "Gridiron Capital LLC",
+    "contact_name": "Tom Burger",
+    "title": "Co-Founder & Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/tom-burger-237b183",
+    "source": "LinkedIn profile",
+    "verified": false,
+    "note": "Email pattern: tburger@gridironcapital.com"
+  },
+  {
+    "company": "Gridiron Capital LLC",
+    "contact_name": "Christopher King",
+    "title": "Managing Director",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/christopher-king-50a69b5",
+    "source": "LinkedIn profile",
+    "verified": false,
+    "note": "Email pattern: cking@gridironcapital.com"
+  },
+  {
+    "company": "Serent Capital",
+    "contact_name": "Tom Miller",
+    "title": "Managing Director",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/tom-miller-781a6133",
+    "source": "Team page serentcapital.com/team and LinkedIn",
+    "verified": false,
+    "note": "Email pattern: [first].[last]@serentcapital.com = tom.miller@serentcapital.com"
+  },
+  {
+    "company": "Pathway Capital Management",
+    "contact_name": "Jim Chambliss",
+    "title": "Managing Director",
+    "email": "",
+    "linkedin": "",
+    "source": "RocketReach org chart",
+    "verified": false,
+    "note": "Prominent MD at Pathway"
+  },
+  {
+    "company": "Pathway Capital Management",
+    "contact_name": "Mitch Clemente",
+    "title": "Principal",
+    "email": "",
+    "linkedin": "",
+    "source": "LinkedIn - CAIA webcast speaker",
+    "verified": false,
+    "note": "Active in secondaries market"
+  },
+  {
+    "company": "Thoma Bravo",
+    "contact_name": "Jennifer James",
+    "title": "Managing Director, Chief Operating Officer, Head of Investor Relations and Marketing",
+    "email": "",
+    "linkedin": "",
+    "source": "Team page thomabravo.com and data providers",
+    "verified": false,
+    "note": "Head of IR & Marketing - very large firm ($30B+ AUM), may be too large for Gumbo outreach"
+  }
+]

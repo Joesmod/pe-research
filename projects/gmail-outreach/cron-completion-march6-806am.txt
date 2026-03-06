@@ -1,0 +1,37 @@
+🔍 PE Research & Enrichment Complete - 8:06 AM CST
+
+📊 SUMMARY:
+• Total leads needing enrichment: 101
+• Leads researched: 15 firms  
+• Successfully enriched: 1 with direct email
+• Sheet updated: ✅
+
+✅ ENRICHED:
+• Oak Street Funding - Rick Dennen (Founder & CEO)
+  Email: Rick.dennen@oakstreetfunding.com
+  Source: Globe Newswire press release
+  Status: Ready for outreach
+
+🔍 RESEARCHED (No Direct Email Found):
+• First Trust Capital Management - Michael Peck (CEO) - LinkedIn verified
+• King Street Capital Management - Brian Higgins (Founder/MP) - LinkedIn verified  
+• Kudu Investment Management - Rob Jakacki (CEO/MP) - LinkedIn verified
+• Left Lane Capital - Vinny Pujji (MP) - LinkedIn verified
+• Lowercarbon Capital - Chris Sacca (MP) - LinkedIn verified
+• Mercury Fund - Blair Garrou (MP) - Generic email only
+• Merit Capital Partners - Evan Gallinson (MD) - LinkedIn verified
+• Millennium Bridge Capital - John Fitzgerald (MD) - LinkedIn verified
+• Newflow Partners - Jason Levine (MP) - LinkedIn verified
+• Notable Capital - Glenn Solomon (MP) - LinkedIn verified
+• + 5 others researched
+
+📌 KEY FINDING:
+Most PE/VC firms intentionally DO NOT publish direct personal emails. They use generic contact emails (info@, contact@) or contact forms to manage deal flow and prevent spam.
+
+💡 RECOMMENDATION:
+Use Apollo.io API for remaining 100 leads - many already have verified LinkedIn profiles and titles, just need direct emails.
+
+📁 GitHub: Oak Street Funding dossier added and pushed
+📋 Details: CRON-PE-ENRICHMENT-2026-03-06-806AM.md
+
+Next run: 9:06 AM (Hourly cron)

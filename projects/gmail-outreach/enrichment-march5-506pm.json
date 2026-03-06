@@ -1,0 +1,177 @@
+{
+  "enrichment_date": "2026-03-05",
+  "enrichment_time": "17:06 CST",
+  "verified_contacts": [
+    {
+      "row": 774,
+      "company": "Patriot Capital",
+      "contact_name": "Charles McCusker",
+      "title": "Managing Partner",
+      "email": "cmccusker@patriot-capital.com",
+      "linkedin": "https://www.linkedin.com/in/charles-mccusker",
+      "source": "patriot-capital.com/investment-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Founder of Patriot Capital I-IV, former General Partner of ServiceMaster Venture Fund"
+    },
+    {
+      "row": 774,
+      "company": "Patriot Capital",
+      "contact_name": "Dan Yardley",
+      "title": "Partner",
+      "email": "dyardley@patriot-capital.com",
+      "linkedin": "https://www.linkedin.com/in/dan-yardley",
+      "source": "patriot-capital.com/investment-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Responsible for deal generation, underwriting, due diligence, and portfolio management"
+    },
+    {
+      "row": 774,
+      "company": "Patriot Capital",
+      "contact_name": "Stacey Rector",
+      "title": "Partner",
+      "email": "srector@patriot-capital.com",
+      "linkedin": "https://www.linkedin.com/in/stacey-rector",
+      "source": "patriot-capital.com/investment-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Responsible for origination, underwriting, portfolio management, and investor relations. Board member of SBIA"
+    },
+    {
+      "row": 774,
+      "company": "Patriot Capital",
+      "contact_name": "Jonathan Cope",
+      "title": "Partner",
+      "email": "jcope@patriot-capital.com",
+      "linkedin": "https://www.linkedin.com/in/jonathan-cope",
+      "source": "patriot-capital.com/investment-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Previously Associate in Restructuring at BNP Paribas, Darden MBA"
+    },
+    {
+      "row": 771,
+      "company": "Ocean Avenue Capital Partners",
+      "contact_name": "Jeff Ennis",
+      "title": "Founding Partner",
+      "email": "jennis@oceanavenuecapital.com",
+      "linkedin": "https://www.linkedin.com/in/jeff-ennis",
+      "source": "oceanavenuecapital.com/our-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Co-founder, 20+ years private equity experience. Former CIO at Wilshire Private Markets Group ($6B AUM)"
+    },
+    {
+      "row": 771,
+      "company": "Ocean Avenue Capital Partners",
+      "contact_name": "Duran Curis",
+      "title": "Founding Partner, CFA",
+      "email": "dcuris@oceanavenuecapital.com",
+      "linkedin": "https://www.linkedin.com/in/duran-curis",
+      "source": "oceanavenuecapital.com/our-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Co-founder, special situation and small company investments. Former Head of U.S. at LGT Capital Partners"
+    },
+    {
+      "row": 771,
+      "company": "Ocean Avenue Capital Partners",
+      "contact_name": "Jacques Youssefmir",
+      "title": "Founding Partner",
+      "email": "jyoussefmir@oceanavenuecapital.com",
+      "linkedin": "https://www.linkedin.com/in/jacques-youssefmir",
+      "source": "oceanavenuecapital.com/our-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Co-founder and Chief Compliance Officer. Harvard Law, former MD at Wilshire Associates"
+    },
+    {
+      "row": 771,
+      "company": "Ocean Avenue Capital Partners",
+      "contact_name": "Pete Notz",
+      "title": "Partner",
+      "email": "pnotz@oceanavenuecapital.com",
+      "linkedin": "https://www.linkedin.com/in/pete-notz",
+      "source": "oceanavenuecapital.com/our-team (official website)",
+      "verification": "Published email on official website",
+      "notes": "Former VP at Drum Capital and HRJ Capital. Wharton MBA, US Naval aviator (F-14/FA-18)"
+    },
+    {
+      "row": 772,
+      "company": "Palladium Equity Partners",
+      "contact_name": "Scott Kirschner",
+      "title": "Managing Director, Industrial Services",
+      "email": "skirschner@palladiumequity.com",
+      "linkedin": "https://www.linkedin.com/in/scott-kirschner-cfa-92554346",
+      "source": "Multiple B2B contact databases (RocketReach, ZoomInfo, Adapt.io)",
+      "verification": "Email pattern confirmed across multiple sources - likely accurate but not published on official website",
+      "notes": "CFA, Managing Director. Boston College grad. Note: Email inferred from pattern, not officially published"
+    },
+    {
+      "row": 794,
+      "company": "Silver Oak Services Partners",
+      "contact_name": "Gregory M. Barr",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/gregory-barr",
+      "source": "silveroaksp.com/team (official website)",
+      "verification": "Name and title confirmed, email not published",
+      "notes": "Managing Partner with 26+ years PE experience in services sector. Email not found on official sources"
+    },
+    {
+      "row": 794,
+      "company": "Silver Oak Services Partners",
+      "contact_name": "Daniel M. Gill",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/daniel-gill",
+      "source": "silveroaksp.com/team (official website)",
+      "verification": "Name and title confirmed, email not published",
+      "notes": "Managing Partner with 26+ years PE experience in services sector. Email not found on official sources"
+    },
+    {
+      "row": 790,
+      "company": "Sageview Capital",
+      "contact_name": "Ned Gilhuly",
+      "title": "Co-Founder & Partner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/ned-gilhuly",
+      "source": "sageviewcapital.com/our-team (official website)",
+      "verification": "Name and title confirmed, email not published",
+      "notes": "Co-Founder. West Conshohocken, PA. Email not found on official sources"
+    },
+    {
+      "row": 790,
+      "company": "Sageview Capital",
+      "contact_name": "Scott Stuart",
+      "title": "Co-Founder & Partner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/scott-stuart",
+      "source": "sageviewcapital.com/our-team (official website)",
+      "verification": "Name and title confirmed, email not published",
+      "notes": "Co-Founder. West Conshohocken, PA. Email not found on official sources"
+    },
+    {
+      "row": 775,
+      "company": "Plexus Capital",
+      "contact_name": "Michael Painter",
+      "title": "Managing Partner, Owner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/michael-painter",
+      "source": "plexuscap.com/team (official website)",
+      "verification": "Name and title confirmed, email not published",
+      "notes": "Managing Partner. Michigan. Lower middle market focus (<$150M revenue). Email not found"
+    },
+    {
+      "row": 768,
+      "company": "Notable Capital",
+      "contact_name": "Jeff Richards",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.notablecap.com/team/jeff-richards",
+      "source": "notablecap.com/team (official website)",
+      "verification": "Name and title confirmed, email not published",
+      "notes": "Managing Partner, AI-driven business applications and vertical SaaS. $5B AUM. Email not found"
+    }
+  ],
+  "summary": {
+    "total_researched": 15,
+    "verified_emails_found": 8,
+    "contacts_with_names_only": 7,
+    "firms_enriched": 8
+  }
+}

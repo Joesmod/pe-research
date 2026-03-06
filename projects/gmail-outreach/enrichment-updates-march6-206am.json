@@ -1,0 +1,79 @@
+[
+  {
+    "row": 5,
+    "company": "Regal Healthcare Capital Partners",
+    "contactName": "Jon Santemma",
+    "title": "Co-Founder & General Partner",
+    "email": "jsantemma@regalhcp.com",
+    "linkedin": "https://www.linkedin.com/in/jon-e-santemma-5632b316/",
+    "status": "Enriched",
+    "notes": "Healthcare-focused PE firm. Verified from official website regalhcp.com/team + RocketReach",
+    "source": "Official website + RocketReach + ContactOut"
+  },
+  {
+    "row": 10,
+    "company": "Alvarez & Marsal Capital",
+    "contactName": "Jack McCarthy",
+    "title": "Senior Managing Director & Founder",
+    "email": "jmccarthy@a-mcapital.com",
+    "linkedin": "https://www.linkedin.com/in/jack-mccarthy-204584a/",
+    "status": "Enriched",
+    "notes": "Managing Partner & Founder, 30+ years PE experience. Verified from a-mcapital.com",
+    "source": "Official website + RocketReach"
+  },
+  {
+    "row": 12,
+    "company": "Casa Verde Capital",
+    "contactName": "Karan Wadhera",
+    "title": "Managing Partner",
+    "email": "karan@casaverdecapital.com",
+    "linkedin": "https://www.linkedin.com/in/karan-wadhera/",
+    "status": "Enriched",
+    "notes": "Cannabis/CPG-focused PE, former Goldman Sachs & Nomura executive. Verified from casaverdecapital.com/team",
+    "source": "Official website + RocketReach"
+  },
+  {
+    "row": 224,
+    "company": "Pine Brook Partners",
+    "contactName": "Howard Newman",
+    "title": "Managing Partner & Co-Founder",
+    "email": "hnewman@pinebrookpartners.com",
+    "linkedin": "https://www.linkedin.com/in/howard-newman/",
+    "status": "Enriched",
+    "notes": "Energy/financial services PE, founded 2006, ~$15B+ AUM. Verified from pinebrookpartners.com/our-team",
+    "source": "Official website + ZoomInfo"
+  },
+  {
+    "row": 229,
+    "company": "Marlin Equity Partners",
+    "contactName": "Alex Beregovsky",
+    "title": "Managing Director",
+    "email": "aberegovsky@marlinequity.com",
+    "linkedin": "https://www.linkedin.com/in/alex-beregovsky/",
+    "status": "Enriched",
+    "notes": "Tech-focused PE, deal qualification & due diligence. Verified from marlinequity.com/team/alex-beregovsky",
+    "source": "Official website + ZoomInfo + Wiza"
+  },
+  {
+    "row": 235,
+    "company": "AEA Investors",
+    "contactName": "Brian Hoesterey",
+    "title": "Chief Executive Officer & Partner",
+    "email": "bhoesterey@aeainvestors.com",
+    "linkedin": "https://www.linkedin.com/in/brian-hoesterey/",
+    "status": "Enriched",
+    "notes": "CEO of AEA, middle-market PE, established firm. Verified from aeainvestors.com/team-member/brian-hoesterey",
+    "source": "Official website + RocketReach + ZoomInfo"
+  },
+  {
+    "row": 379,
+    "company": "Rockbridge Growth Equity, LLC",
+    "contactName": "Spencer Hughes",
+    "title": "Principal / Vice President",
+    "email": "spencer@rbequity.com",
+    "linkedin": "https://www.linkedin.com/in/spencerthughes/",
+    "status": "Enriched",
+    "notes": "Growth equity, evaluates new investments, portfolio monitoring. Verified from rbequity.com/team-member/spencer-hughes",
+    "source": "Official website + RocketReach + ContactOut"
+  }
+]

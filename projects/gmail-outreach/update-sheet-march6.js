@@ -1,71 +1,105 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 
-const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-const SERVICE_ACCOUNT = JSON.parse(fs.readFileSync('service-account.json'));
+const results = JSON.parse(fs.readFileSync('manual-enrichment-results-march6.json', 'utf8'));
 
 async function updateSheet() {
   const auth = new google.auth.GoogleAuth({
-    credentials: SERVICE_ACCOUNT,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
   
   const sheets = google.sheets({ version: 'v4', auth });
+  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
-  // Updates to make (row number is 1-indexed, A1 notation)
-  const updates = [
-    {
-      row: 569,
-      firm: 'Base10 Partners',
-      status: 'Dead - VC Firm',
-      notes: 'Venture capital firm ($1B+ AUM, early-stage tech). Not mid-market PE. Researched 2026-03-06.'
-    },
-    {
-      row: 737,
-      firm: 'Dynamics Search Partners',
-      status: 'Dead - Not PE Firm',
-      notes: 'Executive search/recruiting firm for PE industry. Not an investor. Researched 2026-03-06.'
-    },
-    {
-      row: 741,
-      firm: 'Essex Investment Management',
-      status: 'Dead - Asset Manager',
-      notes: 'Public equity asset manager (SEC-registered RIA, 13F filer). Not PE. Researched 2026-03-06.'
-    },
-    {
-      row: 750,
-      firm: 'Highland Capital Partners',
-      status: 'Dead - VC Firm',
-      notes: 'Venture capital firm (founded 1987, $4B+ AUM, 280+ early-stage cos). Not mid-market PE. Researched 2026-03-06.'
+  console.log('Updating Google Sheet with enrichment results...\n');
+  
+  for (const result of results) {
+    const row = result.row;
+    
+    // Determine what to update based on firm type
+    let status = result.status || '';
+    let notes = result.notes || '';
+    
+    if (result.firmType !== 'Private Equity' && result.firmType !== 'Private Equity (Fund of Funds)') {
+      status = 'Dead';
+      notes = `NOT PE FIRM - ${result.firmType}. ${notes}`;
     }
-  ];
-  
-  // Column J = Status (index 9), Column K = Notes/Last Contacted (index 10)
-  const updateRequests = updates.map(u => ({
-    range: `Sheet1!J${u.row}:K${u.row}`,
-    values: [[u.status, u.notes]]
-  }));
-  
-  try {
-    const response = await sheets.spreadsheets.values.batchUpdate({
-      spreadsheetId: SHEET_ID,
-      resource: {
-        valueInputOption: 'USER_ENTERED',
-        data: updateRequests
+    
+    const updates = [];
+    
+    // Column C: Contact Name (index 2)
+    if (result.contactName) {
+      updates.push({
+        range: `Sheet1!C${row}`,
+        values: [[result.contactName]]
+      });
+    }
+    
+    // Column D: Title (index 3)
+    if (result.title) {
+      updates.push({
+        range: `Sheet1!D${row}`,
+        values: [[result.title]]
+      });
+    }
+    
+    // Column E: Email (index 4)
+    if (result.email) {
+      updates.push({
+        range: `Sheet1!E${row}`,
+        values: [[result.email]]
+      });
+    }
+    
+    // Column G: LinkedIn (index 6)
+    if (result.linkedIn) {
+      updates.push({
+        range: `Sheet1!G${row}`,
+        values: [[result.linkedIn]]
+      });
+    }
+    
+    // Column J: Status (index 9)
+    if (status) {
+      updates.push({
+        range: `Sheet1!J${row}`,
+        values: [[status]]
+      });
+    }
+    
+    // Column K: Notes (assuming it exists - index 10)
+    if (notes) {
+      updates.push({
+        range: `Sheet1!K${row}`,
+        values: [[notes]]
+      });
+    }
+    
+    if (updates.length > 0) {
+      for (const update of updates) {
+        await sheets.spreadsheets.values.update({
+          spreadsheetId,
+          range: update.range,
+          valueInputOption: 'RAW',
+          requestBody: {
+            values: update.values
+          }
+        });
       }
-    });
+      
+      console.log(`✓ Row ${row} (${result.firm}) - ${status || result.firmType}`);
+    }
     
-    console.log(`✓ Updated ${updates.length} rows in Google Sheet`);
-    console.log('Updated firms:');
-    updates.forEach(u => {
-      console.log(`  - Row ${u.row}: ${u.firm} → ${u.status}`);
-    });
-    
-    return response.data;
-  } catch (error) {
-    console.error('Error updating sheet:', error.message);
-    throw error;
+    // Rate limit
+    await new Promise(resolve => setTimeout(resolve, 300));
   }
+  
+  console.log('\n✅ Sheet updated successfully!');
+  console.log(`\nSummary:`);
+  console.log(`- Total processed: ${results.length}`);
+  console.log(`- Actual PE firms: ${results.filter(r => r.firmType.includes('Private Equity')).length}`);
+  console.log(`- Non-PE (marked Dead): ${results.filter(r => !r.firmType.includes('Private Equity') && r.firmType !== 'Unknown').length}`);
 }
 
 updateSheet().catch(console.error);

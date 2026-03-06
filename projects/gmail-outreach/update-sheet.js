@@ -1,54 +1,69 @@
 const { google } = require('googleapis');
 
 const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-const SERVICE_ACCOUNT_FILE = 'service-account.json';
 
 async function updateSheet() {
   const auth = new google.auth.GoogleAuth({
-    keyFile: SERVICE_ACCOUNT_FILE,
+    keyFile: 'service-account.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
   
   const sheets = google.sheets({ version: 'v4', auth });
-
-  // Updates to make (based on enrichment research)
+  
+  // Updates to make (row number, column D for Title)
   const updates = [
     {
-      note: "Non-PE firms - mark as dead",
-      updates: [
-        { row: 'search for Spectrum Search Partners', status: 'Dead - Not PE Firm', notes: 'Executive search/recruiting firm, not PE' },
-        { row: 'search for Provident Healthcare Partners', status: 'Dead - Investment Bank', notes: 'Healthcare M&A advisory/investment bank, not PE' },
-        { row: 'search for AGC Partners', status: 'Dead - Investment Bank', notes: 'Tech M&A advisory firm, not PE' },
-        { row: 'search for Amity Search Partners', status: 'Dead - Not PE Firm', notes: 'Executive search firm for PE, not PE itself' },
-      ]
+      row: 5,
+      company: 'Regal Healthcare Capital Partners',
+      title: 'Co-Founder & General Partner',
+      source: 'Verified on regalhcp.com/about and Bloomberg'
     },
     {
-      note: "Enriched contacts for Silas Capital",
-      firm: "Silas Capital",
-      contacts: [
-        { name: "Carter Weiss", title: "Partner", email: "carter@silascapital.com", linkedin: "https://www.linkedin.com/company/silas-capital" },
-        { name: "Frank T. Lin", title: "Partner", email: "frank@silascapital.com", linkedin: "https://www.linkedin.com/company/silas-capital" }
-      ]
+      row: 10,
+      company: 'Alvarez & Marsal Capital',
+      title: 'Managing Partner & Founder',
+      source: 'Verified on a-mcapital.com team page'
     },
     {
-      note: "Enriched contact for Star Mountain Capital",
-      firm: "Star Mountain Capital",
-      contact: { name: "Jeff Feinberg", title: "Managing Director and Strategic Portfolio Partner", notes: "Joined Feb 2025 from A&M PE group" }
+      row: 12,
+      company: 'Casa Verde Capital',
+      title: 'Managing Partner',
+      source: 'Verified on casaverdecapital.com/team'
     },
     {
-      note: "Enriched contact for Clearhaven Partners",
-      firm: "Clearhaven Partners",
-      contact: { name: "Michelle Noon", title: "Founder and Managing Partner", email: "mnoon@clearhavenpartners.com", linkedin: "https://www.linkedin.com/in/michelle-noon-69701a1/" }
+      row: 224,
+      company: 'Pine Brook Partners',
+      title: 'Chairman & CEO / Co-Founder',
+      source: 'Verified on PR Newswire and Energy Council'
+    },
+    {
+      row: 235,
+      company: 'AEA Investors',
+      title: 'Chief Executive Officer & Partner',
+      source: 'Verified on aeainvestors.com team page'
     }
   ];
-
-  console.log('Enrichment summary:');
-  console.log(JSON.stringify(updates, null, 2));
-  console.log('\nNote: Manual sheet updates required - updating based on row search');
   
-  // For now, just log the updates
-  // In production, would implement row-by-row updates
-  return updates;
+  console.log('Updating sheet with verified titles...\n');
+  
+  for (const update of updates) {
+    const range = `Sheet1!D${update.row}`;
+    
+    await sheets.spreadsheets.values.update({
+      spreadsheetId: SHEET_ID,
+      range: range,
+      valueInputOption: 'RAW',
+      resource: {
+        values: [[update.title]]
+      }
+    });
+    
+    console.log(`✓ Row ${update.row}: ${update.company}`);
+    console.log(`  Title: ${update.title}`);
+    console.log(`  Source: ${update.source}\n`);
+  }
+  
+  console.log('Sheet updated successfully!');
 }
 
 updateSheet().catch(console.error);

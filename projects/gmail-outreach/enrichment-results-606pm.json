@@ -1,0 +1,81 @@
+{
+  "enriched": [],
+  "failed": [
+    {
+      "row": 51,
+      "company": "Genstar Capital",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 154,
+      "company": "Thoma Bravo",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 168,
+      "company": "Clearlake Capital Group",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 439,
+      "company": "Thayer Street Partners",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 455,
+      "company": "Cabrera Capital Markets",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 696,
+      "company": "3G Capital",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 701,
+      "company": "AMR Action Fund",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 705,
+      "company": "Apis & Heritage Capital Partners",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 710,
+      "company": "Atlanta Capital Management Co., LLC",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 711,
+      "company": "Atlantic Street Capital Advisors, Inc.",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 712,
+      "company": "Auctus Capital Partners",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 713,
+      "company": "Avista Healthcare Partners",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 714,
+      "company": "BDT & MSD Partners",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 715,
+      "company": "BH3 Management",
+      "reason": "Apollo: No contacts found"
+    },
+    {
+      "row": 716,
+      "company": "Bloom Equity Partners",
+      "reason": "Apollo: No contacts found"
+    }
+  ],
+  "timestamp": "2026-03-05T18:10:27.175690"
+}

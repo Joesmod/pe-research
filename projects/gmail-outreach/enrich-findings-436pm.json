@@ -1,0 +1,32 @@
+[
+  {
+    "row": 5,
+    "company": "Regal Healthcare Capital Partners",
+    "findings": {
+      "partners": [
+        {
+          "name": "Dr. David Kim",
+          "title": "Co-Founder & Managing Partner",
+          "linkedin": "https://www.linkedin.com/in/david-kim-md-mba",
+          "email": "SEARCH_NEEDED",
+          "source": "https://www.regalhcp.com/team/davidkim"
+        },
+        {
+          "name": "Jon Santemma",
+          "title": "Co-Founder & General Partner",
+          "linkedin": "https://www.linkedin.com/in/jon-e-santemma-5632b316/",
+          "email": "jsantemma@regalhcp.com",
+          "source": "Already in sheet - verified"
+        },
+        {
+          "name": "Terry Wang",
+          "title": "Partner",
+          "linkedin": "https://www.linkedin.com/in/terry-wang-regalhcp",
+          "email": "SEARCH_NEEDED",
+          "source": "https://www.regalhcp.com/team/terrywang"
+        }
+      ],
+      "note": "Row 5 already has jsantemma@regalhcp.com - just needs title field fixed (currently has email in title column)"
+    }
+  }
+]

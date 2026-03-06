@@ -1,0 +1,56 @@
+[
+  {
+    "company": "Tenex Capital Management",
+    "contact": "Kevin Doyle",
+    "title": "Director, Business Development",
+    "email": "kdoyle@tenexcm.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/jkevindoyle",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Oak Investment Partners",
+    "contact": "Grace Ames",
+    "title": "COO & CFO",
+    "email": "games@oakvc.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/grace-ames-03b434260",
+    "source": "Apollo API"
+  },
+  {
+    "company": "MSD Partners",
+    "contact": "Bong Shinn",
+    "title": "Partner & Chief Technology Officer",
+    "email": "bshinn@bdtmsd.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/bong-shinn-1085aab",
+    "source": "Apollo API"
+  },
+  {
+    "company": "RoundTable Healthcare Partners",
+    "contact": "Patrick Healy",
+    "title": "Principal",
+    "email": "phealy@roundtablehp.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/patrick-healy-91603353",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Harkness Capital Partners",
+    "contact": "Ted Dardani",
+    "title": "Partner",
+    "email": "tdardani@harknesscapital.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/ted-dardani-bb1192101",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Station Partners",
+    "contact": "Christopher Kozina",
+    "title": "Operating Partner, Lead",
+    "email": "ckozina@wisc.edu",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/christopherkozina",
+    "source": "Apollo API"
+  }
+]

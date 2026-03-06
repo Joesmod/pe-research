@@ -1,0 +1,62 @@
+[
+  {
+    "row": 696,
+    "company": "3G Capital",
+    "contactName": "Alex Behring",
+    "title": "Co-Founder & Co-Managing Partner",
+    "email": "abehring@3g-capital.com",
+    "linkedin": "",
+    "status": "Enriched",
+    "notes": "Source: ContactOut verified - Co-Managing Partner with Daniel Schwartz",
+    "verified": true,
+    "source": "ContactOut, Apollo.io"
+  },
+  {
+    "row": 706,
+    "company": "Arctaris Impact Investors",
+    "contactName": "Jonathan Tower",
+    "title": "Founder & Managing Partner",
+    "email": "jonathan@arctaris.com",
+    "linkedin": "https://www.linkedin.com/in/jonathan-tower/",
+    "status": "Enriched",
+    "notes": "Source: ContactOut - Founded 2009, impact investor",
+    "verified": true,
+    "source": "ContactOut, company website"
+  },
+  {
+    "row": 716,
+    "company": "Bloom Equity Partners",
+    "contactName": "Bart Macdonald",
+    "title": "Managing Partner & Founder",
+    "email": "bart@bloomequitypartners.com",
+    "linkedin": "https://www.linkedin.com/in/bart-macdonald-ea2adf5c",
+    "status": "Enriched",
+    "notes": "Source: TheNetwork.com verified - Tech-focused PE, NYC-based",
+    "verified": true,
+    "source": "TheNetwork.com, Success.ai"
+  },
+  {
+    "row": 699,
+    "company": "Alta Park Capital, LP",
+    "contactName": "Bijan Modanlou",
+    "title": "Founder",
+    "email": "bijan@altaparkcapital.com",
+    "linkedin": "",
+    "status": "Enriched",
+    "notes": "Source: ContactOut verified - TMT-focused investment firm, San Francisco",
+    "verified": true,
+    "source": "ContactOut"
+  },
+  {
+    "row": 117,
+    "company": "Keltic Financial Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead",
+    "notes": "Acquired by Ares Management ~2014 (ABL Advisor, Law360)",
+    "verified": true,
+    "source": "Multiple news sources"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "rowIndex": 611,
+    "company": "GiantLeap Capital",
+    "contactName": "Himanshu Sekhar",
+    "title": "Co-Founder & Managing Partner",
+    "email": "himanshu@giantleapcapital.com",
+    "source": "RocketReach + email pattern verification (first@giantleapcapital.com)",
+    "notes": "Co-Founder & Managing Partner. Also found: Samir Parikh (Co-Founder, already in sheet), Joanna Cheng (MD IR & ESG, joanna@giantleapcapital.com). Email pattern: [first]@giantleapcapital.com verified via multiple sources."
+  },
+  {
+    "rowIndex": 666,
+    "company": "RCP Advisors",
+    "contactName": "Thomas Danis Jr.",
+    "title": "Managing Partner & Co-Founder",
+    "email": "tdanis@rcpadvisors.com",
+    "source": "RocketReach (t******@rcpadvisors.com pattern)",
+    "notes": "Managing Partner and co-founder. Leads investment sourcing and fundraising functions. Member of Investment Committee."
+  },
+  {
+    "rowIndex": 763,
+    "company": "Mercury Fund",
+    "contactName": "Blair Garrou",
+    "title": "Co-Founder & Managing Partner",
+    "email": "blair@mercuryfund.com",
+    "source": "RocketReach email pattern + Crunchbase. Pattern: first@mercuryfund.com (90.8% confidence)",
+    "notes": "Co-Founder & Managing Partner. Houston-based early-stage VC. Also found: Adrian Fortino (General Partner). Phone: +1(713) 715-6820."
+  },
+  {
+    "rowIndex": 768,
+    "company": "Notable Capital",
+    "contactName": "Glenn Solomon",
+    "title": "Managing Partner",
+    "email": "glenn@notablecap.com",
+    "source": "LinkedIn verification (robin@notablecap.com published). Pattern: [first]@notablecap.com",
+    "notes": "Managing Partner. Formerly GGV Capital, rebranded to Notable Capital. Menlo Park, CA. Email pattern confirmed via Robin Li LinkedIn profile."
+  },
+  {
+    "rowIndex": 783,
+    "company": "Resolute Capital Partners",
+    "contactName": "Bill Nutter",
+    "title": "Partner",
+    "email": "bnutter@resolutecap.com",
+    "source": "RocketReach + Adapt.io (b******@resolutecap.com pattern)",
+    "notes": "Partner and founding member of Fund III. Nashville-based. Also: Casey (Partner/COO/CCO), Caroline Ducas (co-founder)."
+  }
+]

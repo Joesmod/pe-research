@@ -1,0 +1,152 @@
+[
+  {
+    "row": 51,
+    "company": "Genstar Capital",
+    "contactName": "Darren Tan",
+    "title": "Vice President",
+    "email": "dtan@gencap.com",
+    "linkedin": "http://www.linkedin.com/in/darrenjrtan",
+    "source": "Apollo API enrichment",
+    "apolloId": "66f72d979678b30001a7eaca"
+  },
+  {
+    "row": 154,
+    "company": "Thoma Bravo",
+    "contactName": "Caroline Kjorlien",
+    "title": "Vice President",
+    "email": "ckjorlien@thomabravo.com",
+    "linkedin": "http://www.linkedin.com/in/caroline-kjorlien-171562a2",
+    "source": "Apollo API enrichment",
+    "apolloId": "66f1dfea2fd18d0001badaed"
+  },
+  {
+    "row": 168,
+    "company": "Clearlake Capital Group",
+    "contactName": "Jeffrey Hahn",
+    "title": "Vice President Related to Search Terms in Your Query",
+    "email": "jhahn@clearlake.com",
+    "linkedin": "http://www.linkedin.com/in/jeffreyjhahn",
+    "source": "Apollo API enrichment",
+    "apolloId": "66f45404d898a90001a024da"
+  },
+  {
+    "row": 455,
+    "company": "Cabrera Capital Markets",
+    "contactName": "John Medall",
+    "title": "Vice President",
+    "email": "jmedall@cabreracapital.com",
+    "linkedin": "http://www.linkedin.com/in/john-medall-a3415b44",
+    "source": "Apollo API enrichment",
+    "apolloId": "66f5df52b75ee00001108abd"
+  },
+  {
+    "row": 696,
+    "company": "3G Capital",
+    "contactName": "Flavio Montini",
+    "title": "CFO",
+    "email": "fmontini@3g-capital.com",
+    "linkedin": "http://www.linkedin.com/in/flavio-montini-34094035",
+    "source": "Apollo API enrichment",
+    "apolloId": "65979bca21c4e60001964eec"
+  },
+  {
+    "row": 701,
+    "company": "AMR Action Fund",
+    "contactName": "John Vancura",
+    "title": "Chief Financial Officer",
+    "email": "john.vancura@amractionfund.com",
+    "linkedin": "http://www.linkedin.com/in/john-vancura-5295194",
+    "source": "Apollo API enrichment",
+    "apolloId": "604965cdb1640d00010a3770"
+  },
+  {
+    "row": 705,
+    "company": "Apis & Heritage Capital Partners",
+    "contactName": "Jason Ollison",
+    "title": "Partner",
+    "email": "jason@apisheritage.com",
+    "linkedin": "http://www.linkedin.com/in/jason-ollison-2b96341",
+    "source": "Apollo API enrichment",
+    "apolloId": "6199cc7d3c75d90001647b84"
+  },
+  {
+    "row": 710,
+    "company": "Atlanta Capital Management Co., LLC",
+    "contactName": "Juliene Ehmig",
+    "title": "VP/Controller",
+    "email": "julie.ehmig@atlcap.com",
+    "linkedin": "http://www.linkedin.com/in/juliene-ehmig-622166152",
+    "source": "Apollo API enrichment",
+    "apolloId": "68e0b5535eb3f300013b82da"
+  },
+  {
+    "row": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "contactName": "Amy Mills",
+    "title": "PE Operating Advisor & Executive CHRO",
+    "email": "amy@ascoperators.com",
+    "linkedin": "http://www.linkedin.com/in/amy-mills-9334175",
+    "source": "Apollo API enrichment",
+    "apolloId": "611d8979ca36660001bfb445"
+  },
+  {
+    "row": 712,
+    "company": "Auctus Capital Partners",
+    "contactName": "Ingo Krocke",
+    "title": "CEO, Managing Partner",
+    "email": "krocke@auctus.com",
+    "linkedin": "http://www.linkedin.com/in/ingo-krocke-99a62027",
+    "source": "Apollo API enrichment",
+    "apolloId": "66f1bd06f392530001cf78ac"
+  },
+  {
+    "row": 713,
+    "company": "Avista Healthcare Partners",
+    "contactName": "Hao Zhao",
+    "title": "Vice President",
+    "email": "zhao@avistacap.com",
+    "linkedin": "http://www.linkedin.com/in/haozhao1996",
+    "source": "Apollo API enrichment",
+    "apolloId": "66fb9c8b84e2920001c3a169"
+  },
+  {
+    "row": 714,
+    "company": "BDT & MSD Partners",
+    "contactName": "Bong Shinn",
+    "title": "Partner & Chief Technology Officer",
+    "email": "bshinn@bdtmsd.com",
+    "linkedin": "http://www.linkedin.com/in/bong-shinn-1085aab",
+    "source": "Apollo API enrichment",
+    "apolloId": "61126072704b0200018fd172"
+  },
+  {
+    "row": 715,
+    "company": "BH3 Management",
+    "contactName": "Cameron Bean",
+    "title": "Vice President",
+    "email": "cameron@bh3llc.com",
+    "linkedin": "http://www.linkedin.com/in/cameron-bean-32936689",
+    "source": "Apollo API enrichment",
+    "apolloId": "603f1be57a31a800010af024"
+  },
+  {
+    "row": 716,
+    "company": "Bloom Equity Partners",
+    "contactName": "Jeffrey Hsiang",
+    "title": "Partner",
+    "email": "jeff.h@bloomequitypartners.co",
+    "linkedin": "http://www.linkedin.com/in/jeffrey-hsiang-81345044",
+    "source": "Apollo API enrichment",
+    "apolloId": "66fa83e34baae60001c8ea63"
+  },
+  {
+    "row": 717,
+    "company": "Bravia Capital",
+    "contactName": "Aditya Bhise",
+    "title": "Chief Operating Officer",
+    "email": "ab@braviacapital.com",
+    "linkedin": "http://www.linkedin.com/in/aditya-bhise-b4797313",
+    "source": "Apollo API enrichment",
+    "apolloId": "5a2f1d89a6da9860d81e0749"
+  }
+]

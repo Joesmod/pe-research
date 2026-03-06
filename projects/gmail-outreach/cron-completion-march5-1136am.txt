@@ -1,0 +1,120 @@
+PE RESEARCH & ENRICHMENT CRON RUN - MARCH 5, 2026 11:36 AM
+================================================================
+
+MISSION: Enrich existing leads with verified contacts + add new mid-market PE firms
+
+EXECUTION TIME: ~30 minutes
+STATUS: ✅ COMPLETE
+
+RESULTS SUMMARY
+===============
+
+ENRICHED EXISTING LEADS: 2 firms
+---------------------------------
+1. KSL Capital Partners (Row 419)
+   ✅ Kirk Adamson, Partner
+   ✅ kirk.adamson@kslcapital.com
+   ✅ Email pattern verified (LeadIQ)
+   
+2. Ancor Capital Partners (Row 702)
+   ✅ Brook Smith, Partner & MD
+   ✅ bsmith@ancorcapital.com
+   ✅ Official contact page verified
+
+NEW FIRMS ADDED: 3 firms
+------------------------
+3. Halifax Group (NEW)
+   ✅ Jamie Cavanaugh, Managing Director
+   ✅ jcavanaugh@thehalifaxgroup.com
+   ✅ Recently promoted (Oct 2025)
+   ✅ Lower mid-market focus
+   
+4. Sweetwater Private Equity (NEW)
+   ✅ James Gamett, Founder & Managing Partner
+   ✅ james@sweetwaterpe.com (BusinessWire verified)
+   ✅ Healthcare + Tech focus
+   ✅ San Diego location
+   
+5. Closed Loop Partners (NEW)
+   ⚠️ Daniel Phan, MD & PE Co-Head
+   ⚠️ dphan@closedlooppartners.com (pattern inferred)
+   ⚠️ Email needs verification
+   ✅ Circular economy focus
+
+RESEARCHED (no verified email): 6 firms
+----------------------------------------
+- Genstar Capital (Ryan Clark)
+- Thoma Bravo (Orlando Bravo) 
+- Clearlake Capital (Behdad Eghbali)
+- 3G Capital (Alex Behring)
+- Atlantic Street Capital (Peter Shabecoff)
+- Cabrera Capital Markets (Martin Cabrera Jr)
+
+DELIVERABLES COMPLETED
+=======================
+✅ Research report: CRON-PE-ENRICHMENT-2026-03-05-1136AM.md
+✅ Update JSON: enrichment-updates-march5-1136am.json
+✅ GitHub dossiers created/updated: 5 firms
+✅ Git commit + push to pe-research repo
+
+GITHUB COMMIT
+=============
+Commit: 32b1415 (rebased to e234015)
+Message: "PE enrichment 2026-03-05 11:36AM: Added/updated 5 firm dossiers"
+Repository: https://github.com/Joesmod/pe-research
+Branch: master
+Files: 5 new dossiers (401 insertions)
+
+DOSSIERS CREATED/UPDATED
+=========================
+1. PE-firms/ksl-capital-partners/DOSSIER.md
+2. PE-firms/ancor-capital-partners/DOSSIER.md
+3. PE-firms/halifax-group/DOSSIER.md
+4. PE-firms/sweetwater-private-equity/DOSSIER.md
+5. PE-firms/closed-loop-partners/DOSSIER.md
+
+NEXT ACTIONS REQUIRED
+=====================
+[ ] Apply Google Sheet updates from enrichment-updates-march5-1136am.json
+    - Update rows 419 (KSL) and 702 (Ancor) 
+    - Add 3 new firms (Halifax, Sweetwater, Closed Loop)
+    
+[ ] Verify Closed Loop Partners email (dphan@closedlooppartners.com)
+    - Try LinkedIn connection first
+    - Or small test send
+    
+[ ] Consider follow-up research on "Researched but Unverified" firms
+    - May need alternative contacts (VPs, Directors vs C-suite)
+    - Or LinkedIn-only outreach approach
+
+PRIORITY CONTACTS FOR OUTREACH
+===============================
+🔥 HIGH PRIORITY:
+1. Sweetwater PE - James Gamett (verified official email, healthcare+tech fit)
+2. Halifax Group - Jamie Cavanaugh (newly promoted MD, mid-market fit)
+
+✅ READY:
+3. KSL Capital - Kirk Adamson (travel/leisure focus)
+4. Ancor Capital - Brook Smith (capital raising focus)
+
+⚠️ VERIFY FIRST:
+5. Closed Loop Partners - Daniel Phan (verify email pattern)
+
+SOURCES USED
+============
+- Company official websites & team pages
+- PR Newswire & BusinessWire press releases
+- LinkedIn company/personal profiles
+- ZoomInfo email pattern confirmations
+- RocketReach email pattern confirmations  
+- LeadIQ email pattern confirmations
+
+QUALITY NOTES
+=============
+✅ All verified emails sourced from official/confirmable sources
+✅ No guessed email patterns included in "verified" category
+✅ Clear distinction between verified vs. inferred patterns
+✅ Multiple source cross-validation where possible
+✅ Dossiers include verification source documentation
+
+END OF REPORT

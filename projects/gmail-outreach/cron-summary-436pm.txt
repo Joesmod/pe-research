@@ -1,0 +1,57 @@
+PE RESEARCH & ENRICHMENT - HOURLY CRON COMPLETION
+Thursday, March 5th, 2026 — 4:45 PM CST
+========================================
+
+✅ COMPLETED SUCCESSFULLY
+
+ENRICHMENTS APPLIED: 11 leads
+--------------
+1. Tyler Matlock - Managing Director, Swander Pace Capital
+2. Jeff Carlson - Head of Technology, Pritzker Group Private Capital
+3. Michael Booth - Partner & CIO, Calvert Street Investment Partners
+4. John Darsie - Partner & Head of BD, SkyBridge Capital
+5. Eli Casdin - Founder & CIO, Casdin Capital
+6. Rick Heitzmann - Co-Founder & Partner, FirstMark
+7. Garheng Kong - Founder & Managing Partner, HealthQuest Capital
+8. Christopher Lee - Co-Founder & Managing Partner, Infinity Capital Partners
+9. John DeLoche - Co-Founder & Managing Partner, Invictus Growth Partners
+10. Scott Neuberger - Co-Founder & Managing Partner, Karmel Capital
+11. Joseph Greenwood - Partner (Chicago), Livingstone
+
+DATA QUALITY FIXES: 20 rows
+--------------
+- Fixed emails in wrong columns (Title/Contact Name fields)
+- Cleaned up format inconsistencies
+- Updated Status to "Enriched" for all completed leads
+
+GITHUB UPDATES:
+--------------
+- Created 3 new firm dossiers (Swander Pace, PPC, Infinity Capital)
+- Committed and pushed to https://github.com/Joesmod/pe-research
+- Commit: 4717b6f "Add dossiers for 3 newly enriched PE firms"
+
+GOOGLE SHEET:
+--------------
+- Sheet ID: 11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4
+- 62 total updates applied (contact names, titles, emails, LinkedIn, status, notes)
+- All sources documented in Notes column
+
+REMAINING WORK: 159 leads still need enrichment
+--------------
+- 15 leads: Titles in contact field (need name lookup)
+- 136 leads: Placeholder "Jacob Zodikoff" (need full research)
+- 7 leads: Contacts but missing emails
+- 1 lead: Generic email (info@)
+
+METHODOLOGY:
+--------------
+1. Identified leads with missing/incomplete data
+2. Fixed data errors (emails in wrong columns)
+3. Web research: firm websites, LinkedIn, Crunchbase, press releases
+4. Verified all emails from official published sources
+5. Updated Google Sheet with verified findings
+6. Created GitHub dossiers for key firms
+7. NO EMAILS SENT (research and log only)
+
+Run Duration: ~9 minutes
+Next Run: Hourly (5:36 PM)

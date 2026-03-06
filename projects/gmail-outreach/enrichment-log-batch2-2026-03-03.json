@@ -1,0 +1,18 @@
+[
+  {
+    "company": "Levine Leichtman Capital Partners, LLC",
+    "contact": "David Wolmer",
+    "title": "Partner, Co-Chief Operating Officer and General Counsel",
+    "email": "dwolmer@llcp.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Peninsula Capital Partners L.L.C.",
+    "contact": "Andrew Wiegand",
+    "title": "Partner",
+    "email": "wiegand@peninsulafunds.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-03-04T18:36:00Z",
+  "session": "cron-enrichment-12pm",
+  "firms_researched": 15,
+  "verified_emails_found": 1,
+  "non_pe_firms_identified": 5,
+  
+  "non_pe_firms": [
+    {
+      "rowIndex": 579,
+      "company": "Cardea Group",
+      "type": "Executive recruiting firm",
+      "website": "https://thecardeagroup.com",
+      "recommendation": "Mark as Not Target - serves PE firms but is not a PE investor"
+    },
+    {
+      "rowIndex": 620,
+      "company": "HRCap, Inc",
+      "type": "HR consulting/recruiting firm",
+      "website": "https://www.hrcap.com",
+      "contact": {
+        "name": "Andrew Sungsoo Kim",
+        "title": "President & CEO",
+        "email": "andrew@hrcap.com",
+        "source": "ContactOut",
+        "verified": false,
+        "linkedin": "https://www.linkedin.com/in/andrew-sungsoo-kim-377899a/"
+      },
+      "recommendation": "Mark as Not Target - HR consulting, not PE"
+    },
+    {
+      "rowIndex": 626,
+      "company": "Jett Capital Advisors",
+      "type": "Investment banking firm",
+      "website": "https://www.jettcapital.com",
+      "contact": {
+        "name": "Joseph Riggio",
+        "title": "Managing Partner",
+        "email": null,
+        "linkedin": "https://www.jettcapital.com/team/joe-riggio"
+      },
+      "recommendation": "Mark as Not Target - M&A advisory, not PE investor"
+    },
+    {
+      "rowIndex": 630,
+      "company": "Kinect Capital",
+      "type": "Nonprofit venture accelerator",
+      "website": "https://kinectcapital.org",
+      "recommendation": "Mark as Not Target - 501(c)(3) nonprofit"
+    },
+    {
+      "rowIndex": 654,
+      "company": "Odyssey Search Partners",
+      "type": "Executive search firm",
+      "website": "https://www.odysseysearchpartners.com",
+      "contacts": [
+        {
+          "name": "Adam Kahn",
+          "title": "Co-founder",
+          "linkedin": "https://www.linkedin.com/in/adam-kahn-8055622/"
+        },
+        {
+          "name": "Anthony Keizner",
+          "title": "Co-founder"
+        }
+      ],
+      "recommendation": "Mark as Not Target - recruiter for PE firms, not PE investor"
+    }
+  ],
+  
+  "pe_firms_needing_apollo": [
+    {
+      "rowIndex": 117,
+      "company": "Keltic Financial Partners",
+      "website": "https://www.kelticfp.com",
+      "status": "Legitimate PE/asset-based lender",
+      "target_contact": {
+        "name": "Steve Fischer",
+        "title": "Partner",
+        "email": null,
+        "linkedin": "https://www.linkedin.com/in/steve-fischer-86579415"
+      },
+      "location": "Tarrytown, NY",
+      "team_size": 3,
+      "apollo_search_params": {
+        "company_name": "Keltic Financial Partners",
+        "domain": "kelticfp.com",
+        "titles": ["Partner", "Managing Director", "CEO"]
+      }
+    },
+    {
+      "rowIndex": 258,
+      "company": "Bindley Capital Partners",
+      "website": "https://www.bindleycapital.com",
+      "status": "Legitimate PE firm (founded 2001)",
+      "priority_contacts": [
+        {
+          "name": "Keith Burks",
+          "title": "Partner",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/in/keith-burks-80659662/",
+          "priority": 1
+        },
+        {
+          "name": "Bill Bindley",
+          "title": "Chairman",
+          "email": null,
+          "source": "Bloomberg",
+          "priority": 2
+        },
+        {
+          "name": "Joseph Volz",
+          "title": "Director",
+          "email": null,
+          "linkedin": "https://www.linkedin.com/in/joseph-volz-544439221/",
+          "priority": 3
+        }
+      ],
+      "location": "Indianapolis, IN",
+      "sectors": ["Healthcare", "Financial Services", "TMT"],
+      "apollo_search_params": {
+        "company_name": "Bindley Capital Partners",
+        "domain": "bindleycapital.com",
+        "titles": ["Partner", "Managing Partner", "Chairman", "Director"],
+        "location": "Indianapolis, IN"
+      }
+    }
+  ],
+  
+  "already_enriched": [
+    {
+      "rowIndex": 611,
+      "company": "GiantLeap Capital",
+      "current_contact": "Samir Parikh",
+      "current_email": "samir@giantleapcapital.com",
+      "note": "Already has verified contact, could add additional contacts if needed"
+    }
+  ],
+  
+  "research_notes": {
+    "bindleycapital_com": "Domain exists but website appears down/unreachable. No indexed email addresses found via web search.",
+    "kelticfp_com": "Domain resolution failed during research. May be inactive or redirected.",
+    "email_verification": "No verified corporate emails found via public web search. Recommend Apollo API or Hunter.io for verification."
+  },
+  
+  "statistics": {
+    "total_firms_in_targets": 15,
+    "firms_researched": 8,
+    "non_pe_firms": 5,
+    "pe_firms_needing_enrichment": 2,
+    "pe_firms_already_enriched": 1,
+    "verified_emails_found": 1,
+    "linkedin_profiles_found": 7
+  }
+}

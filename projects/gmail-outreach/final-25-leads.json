@@ -1,0 +1,227 @@
+[
+  {
+    "company": "GTCR",
+    "name": "Joe Rubino",
+    "title": "Managing Director & CTO, Co-Head of Portfolio Resources Group",
+    "email": "joe.rubino@gtcr.com",
+    "score": 9,
+    "sector": "Multi-sector PE with major tech focus",
+    "notes": "CTO + Co-Head of Portfolio Resources - ideal AI infrastructure contact"
+  },
+  {
+    "company": "TA Associates",
+    "name": "Damon Khouri",
+    "title": "Chief Information & Technology Officer",
+    "email": "dkhouri@ta.com",
+    "score": 9,
+    "sector": "Growth equity, software/tech-enabled services",
+    "notes": "CITO role - enterprise technology leader"
+  },
+  {
+    "company": "Francisco Partners",
+    "name": "Brian Maury",
+    "title": "Chief Technology Officer",
+    "email": "brian.maury@franciscopartners.com",
+    "score": 9,
+    "sector": "Tech-focused PE",
+    "notes": "CTO at tech-only PE firm"
+  },
+  {
+    "company": "PSG Equity",
+    "name": "Bill Aliber",
+    "title": "Managing Director",
+    "email": "william.aliber@psgequity.com",
+    "score": 9,
+    "sector": "Software-focused PE",
+    "notes": "Software PE with strong tech focus"
+  },
+  {
+    "company": "Genstar Capital",
+    "name": "Jean-Pierre Conte",
+    "title": "Chairman",
+    "email": "jpconte@gencap.com",
+    "score": 9,
+    "sector": "Software & industrial tech",
+    "notes": "Chairman - senior decision maker"
+  },
+  {
+    "company": "TZP Group",
+    "name": "Jarrad Berman",
+    "title": "Partner, Portfolio Growth",
+    "email": "jberman@tzpgroup.com",
+    "score": 9,
+    "sector": "Business services & tech",
+    "notes": "Portfolio Growth Partner, ex-Facebook ecommerce lead"
+  },
+  {
+    "company": "Comvest Partners",
+    "name": "Alex Ray",
+    "title": "Managing Director, Business Development",
+    "email": "a.ray@comvest.com",
+    "score": 9,
+    "sector": "Recently independent PE arm, multi-sector",
+    "notes": "Newly independent platform, dedicated Operating Advisory Group"
+  },
+  {
+    "company": "Roark Capital Group",
+    "name": "Justin Chang",
+    "title": "Head of Supply Chain",
+    "email": "jchang@roarkcapital.com",
+    "score": 9,
+    "sector": "Consumer & restaurant-focused",
+    "notes": "Head of Supply Chain, operational focus"
+  },
+  {
+    "company": "Roark Capital Group",
+    "name": "Brandon Alvarez",
+    "title": "Software Engineer",
+    "email": "balvarez@roarkcapital.com",
+    "score": 9,
+    "sector": "Consumer & restaurant-focused",
+    "notes": "Internal tech team member"
+  },
+  {
+    "company": "Capstreet",
+    "name": "Michelle Lewis",
+    "title": "Principal, Head of Business Development",
+    "email": "MLewis@capstreet.com",
+    "score": 8,
+    "sector": "Industrial, manufacturing, business services",
+    "notes": "Head of BD, tech-enabled services focus"
+  },
+  {
+    "company": "Alpine Investors",
+    "name": "Audrey Harris",
+    "title": "Head of Marketing",
+    "email": "aharris@alpineinvestors.com",
+    "score": 8,
+    "sector": "Software & services",
+    "notes": "PeopleFirst approach, ASG software arm"
+  },
+  {
+    "company": "Align Capital Partners",
+    "name": "Katie Noggle",
+    "title": "Partner, Business Development",
+    "email": "knoggle@aligncp.com",
+    "score": 8,
+    "sector": "B2B software, professional services",
+    "notes": "Software-focused, Eric Dirst as Chief Technology Advisor"
+  },
+  {
+    "company": "Gauge Capital",
+    "name": "Andrew Peix",
+    "title": "Partner, Business Development",
+    "email": "apeix@gaugecapital.com",
+    "score": 8,
+    "sector": "Lower middle market services",
+    "notes": "Active in tech-enabled services"
+  },
+  {
+    "company": "Transom Capital Group",
+    "name": "Ken Firtel",
+    "title": "Founder and Managing Partner",
+    "email": "kfirtel@transomcap.com",
+    "score": 8,
+    "sector": "Lower middle market, services focus",
+    "notes": "#2 on Axial 2025, ARMOR value creation process"
+  },
+  {
+    "company": "Motive Partners",
+    "name": "Chris Williams",
+    "title": "Managing Director",
+    "email": "chris.williams@motivepartners.com",
+    "score": 8,
+    "sector": "Fintech PE",
+    "notes": "Fintech focus with IOI (Investor/Operator/Innovator) model"
+  },
+  {
+    "company": "Hidden Harbor Capital Partners",
+    "name": "Tucker Coates",
+    "title": "Principal, Business Development",
+    "email": "tcoates@hh-cp.com",
+    "score": 8,
+    "sector": "Industrials",
+    "notes": "#1 Axial buyside industrials, operations-focused"
+  },
+  {
+    "company": "LFM Capital",
+    "name": "Jessica Ginsberg",
+    "title": "Managing Director",
+    "email": "jessica@lfmcapital.com",
+    "score": 8,
+    "sector": "Manufacturing, US/Canada",
+    "notes": "Founded by operators/engineers, manufacturing focus"
+  },
+  {
+    "company": "Gridiron Capital",
+    "name": "Kevin Jackson",
+    "title": "Managing Partner",
+    "email": "kjackson@gridironcapital.com",
+    "score": 8,
+    "sector": "Business services, consumer",
+    "notes": "Mid-market services PE"
+  },
+  {
+    "company": "Mill Point Capital",
+    "name": "Orestes Tarajano",
+    "title": "Partner, Head of Business Development",
+    "email": "otarajano@millpoint.com",
+    "score": 8,
+    "sector": "Industrials, services",
+    "notes": "Middle market services focus"
+  },
+  {
+    "company": "HCI Equity Partners",
+    "name": "Tim Frend",
+    "title": "Partner, Business Development",
+    "email": "tfrend@hciequity.com",
+    "score": 8,
+    "sector": "Value-added distribution, industrial, business services",
+    "notes": "6x Inc Founder-Friendly, Jeff DeSandre as Executive Partner IT"
+  },
+  {
+    "company": "Argosy Private Equity",
+    "name": "Jason Cunningham",
+    "title": "Vice President, Business Development",
+    "email": "jcunningham@argosycapital.com",
+    "score": 8,
+    "sector": "Business services, industrials",
+    "notes": "6-person in-house operating partners team"
+  },
+  {
+    "company": "Resurgens Technology Partners",
+    "name": "Fred Sturgis",
+    "title": "Managing Director",
+    "email": "fred@resurgenstech.com",
+    "score": 8,
+    "sector": "Tech-enabled business services",
+    "notes": "Technology-focused PE, operating partner model"
+  },
+  {
+    "company": "Havencrest Capital Management",
+    "name": "Matthew Shofner",
+    "title": "Partner",
+    "email": "mshofner@havencrest.com",
+    "score": 8,
+    "sector": "Business services, industrials",
+    "notes": "31 operating partners, strong operational focus"
+  },
+  {
+    "company": "Trilantic North America",
+    "name": "Justin Clonts",
+    "title": "Principal",
+    "email": "justin.clonts@trilantic.com",
+    "score": 8,
+    "sector": "Multi-sector middle market",
+    "notes": "$1.9B aggregate commitments"
+  },
+  {
+    "company": "GreyLion",
+    "name": "Jody Shechtman",
+    "title": "Partner, Head of Business Development & Investor Relations",
+    "email": "jody@greylion.com",
+    "score": 8,
+    "sector": "Lower middle market growth equity",
+    "notes": "Spun out from PWP Growth Equity, $1.7B+ committed"
+  }
+]

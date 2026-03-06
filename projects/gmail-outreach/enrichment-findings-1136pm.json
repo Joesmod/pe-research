@@ -1,0 +1,35 @@
+[
+  {
+    "company": "Emergence Capital",
+    "contactName": "Gordon Ritter",
+    "title": "Founder + General Partner",
+    "email": "gordon@emcap.com",
+    "linkedin": "https://www.linkedin.com/company/emergencecapital",
+    "source": "Official Emergence Capital blog (https://www.emcap.com/thoughts/ai-s-curve-plateau-proprietary-business-data-breakthrough-u5pnz)",
+    "notes": "Email published on company blog",
+    "status": "Enriched",
+    "row": 740
+  },
+  {
+    "company": "Excelsior Equity Partners",
+    "contactName": "Jorge Davila",
+    "title": "Managing Director",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/jorge-davila-552155a/",
+    "source": "LinkedIn profile",
+    "notes": "Could not verify email from official source - domain appears to be @excelsiordynamic.com based on contact page",
+    "status": "Partial",
+    "row": 742
+  },
+  {
+    "company": "Davidson Kempner Capital Management",
+    "contactName": "Jeff Peate",
+    "title": "Managing Director, Client Partnerships & Business Development",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/davidson-kempner",
+    "source": "Davidson Kempner website team page",
+    "notes": "Could not verify direct email - firm does not publish individual emails publicly",
+    "status": "Partial",
+    "row": 733
+  }
+]

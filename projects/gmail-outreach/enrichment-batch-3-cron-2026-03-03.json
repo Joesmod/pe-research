@@ -1,0 +1,22 @@
+[
+  {
+    "rowIndex": 368,
+    "company": "Calvert Street Investment Partners",
+    "contactName": "Michael Booth",
+    "title": "Partner",
+    "email": "mbooth@crescentia.calvertst.com",
+    "linkedIn": "https://www.linkedin.com/in/michael-booth-4128abb3/",
+    "notes": "Email pattern inferred from ZoomInfo data showing m***@crescentia.calvertst.com. Crescentia Capital is the equity buyout business of CSIP.",
+    "source": "ZoomInfo + CSIP website"
+  },
+  {
+    "rowIndex": 407,
+    "company": "FlexFunds",
+    "contactName": "Emilio Gil",
+    "title": "Executive Vice President & Chief Marketing Officer",
+    "email": "emilio.veiga@flexfundsetp.com",
+    "linkedIn": "https://www.linkedin.com/in/emiliogilviegas/",
+    "notes": "Email from Success.ai contact aggregator",
+    "source": "Success.ai + ZoomInfo"
+  }
+]

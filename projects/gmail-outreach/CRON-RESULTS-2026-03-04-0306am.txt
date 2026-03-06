@@ -1,0 +1,39 @@
+PE RESEARCH & ENRICHMENT CRON - March 4, 2026 03:06 AM
+==========================================================
+
+STATUS: BLOCKED - Apollo API Out of Credits
+
+ATTEMPTED: Enrich 10-15 leads with missing contacts/emails
+ACHIEVED: 0 leads enriched with actionable data
+
+ISSUE:
+- Apollo API returned "insufficient credits" error on all requests
+- Manual web research found contact NAMES but not verified direct EMAILS
+- Free sources (firm websites, LinkedIn) rarely publish direct emails
+- Tools like RocketReach, ZoomInfo, PitchBook require paid premium access
+
+FIRMS ANALYZED (Manual Research):
+1. Keltic Financial Partners - May not be PE firm (debt/lending)
+2. Falconhead Capital - Found David Gubbay (Partner), David Moross (CEO) - no direct emails
+3. Clayton Dubilier & Rice - Confirmed Vindi Banga (Operating Partner) - no direct email
+4. Bindley Capital Partners - Found William Bindley (Founder) - no direct email
+
+FINDINGS DOCUMENTED:
+- Enrichment report: enrichment-report-2026-03-04-manual.md
+- 4 contacts identified by name/title
+- 0 verified direct emails found
+- 211 total firms need enrichment in sheet
+
+RECOMMENDATIONS:
+1. Restore Apollo credits or upgrade plan
+2. OR: Add paid email enrichment tool (Hunter.io, ContactOut, etc.)
+3. OR: Manual phone outreach to firm main lines for BD/IR contacts
+4. For now: Pause automated enrichment until tools are available
+
+NEXT RUN:
+- Check if Apollo credits have reset
+- If still blocked, consider alternative enrichment strategy
+- Focus on top 50 priority firms for manual outreach
+
+TIME: ~15 minutes (API debugging + manual research)
+RESULT: Research only, no sheet updates (no verified data to add)

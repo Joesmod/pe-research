@@ -1,0 +1,55 @@
+ENRICHMENT CYCLE: March 6, 2026 - 9:36 AM
+========================================
+
+SUMMARY:
+--------
+- Reviewed 600+ existing entries in PE outreach sheet
+- Most high-priority mid-market PE firms already enriched
+- Focused on verification and adding incremental intelligence
+
+FIRMS VERIFIED (Already Enriched - No Action Needed):
+-----------------------------------------------------
+1. Corridor Capital - Craig Enenstein, CEO ✓
+2. Revelstoke Capital Partners - Cy Barton-Dobenin, Principal ✓
+3. Windjammer Capital - John Donahue, MD Business Development ✓
+4. Altamont Capital Partners - Keoni Schwartz, Co-Founder/MD ✓
+
+ADDITIONAL CONTACTS IDENTIFIED:
+-------------------------------
+
+GREAT RANGE CAPITAL:
+- Ryan Sprott, Co-Founder & Managing Partner
+  LinkedIn: linkedin.com/in/ryan-sprott-07159412
+  Email: NOT VERIFIED from public source (RocketReach shows pattern but not confirmed)
+  Note: Co-founded 2010, ex-DLJ Merchant Banking
+
+- Larry Flanagan, Principal (promoted Sept 2025)
+  Email: larry.flanagan@greatrangecapital.com (VERIFIED from official domain)
+  Source: Official GRC website team page
+
+WINDJAMMER CAPITAL INVESTORS (Supplemental to existing John Donahue contact):
+- Evan Klebe, Managing Director (hired Feb 2026)
+- Beth Lesniak, Principal (hired Feb 2026)  
+- Meredith Stein, Head of Investor Relations (hired Feb 2026)
+  Source: Windjammer press release, InforCapital article
+
+STATUS: Emails not found from official sources. Would need Apollo/ContactOut for pattern verification.
+
+RECOMMENDATIONS FOR NEXT HOURLY CYCLE:
+--------------------------------------
+1. Target firms with "Partial" status - upgrade to verified emails
+2. Add 3-5 NEW mid-market PE firms ($500M-$5B AUM, services focus)
+3. Clean up "Jacob Zodikoff" placeholder entries
+4. Focus on firms with generic emails (info@, sales@, ir@) per original instruction
+
+RESEARCH NOTES:
+---------------
+- 360 Equipment Finance: Equipment leasing company, NOT PE firm → Mark "Dead - Not PE"
+- Many entries need status cleanup (outdated info, wrong sectors)
+- Apollo.io would speed up email verification significantly
+
+GITHUB COMMIT STATUS:
+--------------------
+No new dossiers created this cycle (focused on verification vs new firm research)
+
+Next cycle should prioritize NEW FIRM ADDITIONS per secondary instruction.

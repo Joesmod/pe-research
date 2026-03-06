@@ -1,0 +1,92 @@
+[
+  {
+    "index": 287,
+    "company": "Kayne Partners",
+    "contactName": "Nishita Cummings / Nate Locke",
+    "title": "Managing Partners, Co-Heads of Growth Equity",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 299,
+    "company": "Avante Capital Partners",
+    "contactName": "Suni Harman",
+    "title": "Founder & Chairman",
+    "email": "info@avantecap.com",
+    "status": "Dead Lead",
+    "reason": "GenericEmail"
+  },
+  {
+    "index": 456,
+    "company": "CANCER FUND Impact Investments™",
+    "contactName": "Correy Faciane",
+    "title": "Founder",
+    "email": "",
+    "status": "New - Unresearched",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 481,
+    "company": "SkyBridge Capital",
+    "contactName": "Sky Ltd",
+    "title": "CEO",
+    "email": "",
+    "status": "New - Unresearched",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 489,
+    "company": "The Global Impact Investing Network",
+    "contactName": "Dejohn James",
+    "title": "CEO of Company",
+    "email": "",
+    "status": "New - Unresearched",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 500,
+    "company": "Tixel",
+    "contactName": "Jason Webb",
+    "title": "Co-Founder",
+    "email": "",
+    "status": "Waiting on email intro",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 501,
+    "company": "Backstroke",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 502,
+    "company": "Satso",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 503,
+    "company": "Muse",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 522,
+    "company": "Kopari Beauty",
+    "contactName": "Katelynn Tran",
+    "title": "Co-Founder & Partner",
+    "email": "",
+    "status": "New - Unresearched",
+    "reason": "NoEmail"
+  }
+]

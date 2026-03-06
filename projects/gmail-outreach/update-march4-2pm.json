@@ -1,0 +1,22 @@
+[
+  {
+    "company": "W Capital Partners",
+    "contactName": "Katherine Dowley",
+    "title": "Vice President of Investor Relations",
+    "email": "kdowley@wcapgroup.com",
+    "linkedIn": "",
+    "website": "https://www.wcapgroup.com",
+    "notes": "[2026-03-04] Katherine Dowley VP Investor Relations - Direct email verified on official team page. Source: wcapgroup.com/team-members",
+    "status": "Enriched"
+  },
+  {
+    "company": "Alta Park Capital, LP",
+    "status": "Dead - Hedge Fund",
+    "notes": "[2026-03-04] 13F filer, hedge fund not traditional PE. Connor Joyce CFO. Not target for PE outreach."
+  },
+  {
+    "company": "Kinect Capital",
+    "status": "Dead - Accelerator",
+    "notes": "[2026-03-04] Venture accelerator/education org in Utah, founded 1983. Not a PE firm."
+  }
+]

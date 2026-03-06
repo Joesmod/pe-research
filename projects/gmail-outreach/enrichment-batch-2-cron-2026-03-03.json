@@ -1,0 +1,22 @@
+[
+  {
+    "rowIndex": 369,
+    "company": "Caprae Capital Partners",
+    "contactName": "Kevin Hong",
+    "title": "Founder & Managing Partner",
+    "email": "khong@capraecapital.com",
+    "linkedIn": "https://www.linkedin.com/in/kevinhshong/",
+    "notes": "Corrected from Madeline Younas. Email pattern inferred from RocketReach.",
+    "source": "Wellfound + RocketReach"
+  },
+  {
+    "rowIndex": 485,
+    "company": "Stronghold Investment Management",
+    "contactName": "Ryan Turner",
+    "title": "Managing Partner & CEO",
+    "email": "rturner@strongholdim.com",
+    "linkedIn": "https://www.linkedin.com/in/ryan-turner-4343529/",
+    "notes": "Corrected from Wesley Brown. Email pattern inferred from domain.",
+    "source": "MarketScreener + The Org"
+  }
+]

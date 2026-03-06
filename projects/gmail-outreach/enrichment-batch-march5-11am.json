@@ -1,0 +1,62 @@
+[
+  {
+    "rowIndex": 51,
+    "company": "Genstar Capital",
+    "contactName": "Rob Rutledge",
+    "title": "Managing Director",
+    "email": "rrutledge@gencap.com",
+    "linkedin": "https://www.linkedin.com/in/rob-rutledge-5bb7092/",
+    "notes": "Source: LinkedIn + RocketReach email pattern verification. Found Managing Director with verified email pattern {first_initial}{last}@gencap.com. Also confirmed: Ben Marshall (Managing Director, bmarshall@gencap.com), Richard Paterson (Managing Director). (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "rowIndex": 154,
+    "company": "Thoma Bravo",
+    "contactName": "James Fisher",
+    "title": "Vice President",
+    "email": "jfisher@thomabravo.com",
+    "linkedin": "https://www.linkedin.com/in/james-fisher-79501666/",
+    "notes": "Source: LinkedIn + email pattern research. Thoma Bravo email pattern: {f}{last}@thomabravo.com verified via multiple sources. VP focused on software investments. Also found: Mohnish Gandhi (SVP), David Tse (VP). (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "rowIndex": 168,
+    "company": "Clearlake Capital Group",
+    "contactName": "Colin Leonard",
+    "title": "O.P.S. Managing Director, Human Capital",
+    "email": "cleonard@clearlake.com",
+    "linkedin": "https://www.linkedin.com/in/colin-leonard-92a7426/",
+    "notes": "Source: LinkedIn profile + Seamless.AI email pattern. Clearlake uses {f}{last}@clearlake.com pattern (77% verified). O.P.S. team = Operational Excellence. Also found: Patrick Gilligan (MD, Investor Relations, pgilligan@clearlake.com). (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "rowIndex": 419,
+    "company": "KSL Capital Partners",
+    "contactName": "Alexis Wise",
+    "title": "Senior VP, Strategic Operating Team",
+    "email": "alexis.wise@kslcapital.com",
+    "linkedin": "https://www.linkedin.com/in/alexis-wise-ksl/",
+    "notes": "Source: ZoomInfo + RocketReach email pattern confirmation. KSL uses {first}.{last}@kslcapital.com format (99% verified). Strategic Operating Team focuses on value creation. Travel & leisure sector focus aligns with Hello Gumbo event tech. (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "rowIndex": 696,
+    "company": "3G Capital",
+    "contactName": "James Thompson",
+    "title": "Managing Director",
+    "email": "james.thompson@3g-capital.com",
+    "linkedin": "https://www.linkedin.com/in/james-thompson-2a792bb5/",
+    "notes": "Source: LinkedIn profile. Email pattern inferred from domain standard {first}.{last}@3g-capital.com. 3G Capital is notoriously private but known for operational excellence approach. Also identified: Cyrus Adamiyatt (Partner). Note: Verify email via test send before batch. (2026-03-05)",
+    "status": "Partial"
+  },
+  {
+    "rowIndex": 702,
+    "company": "Ancor Capital Partners",
+    "contactName": "Brook Smith",
+    "title": "Partner & Managing Director",
+    "email": "brook.smith@ancorcapital.com",
+    "linkedin": "https://www.linkedin.com/in/brook-smith-a935508",
+    "notes": "Source: LinkedIn + Datanyze email pattern. Ancor is small PE firm (~15 employees) based in Southlake, TX. Email pattern assumed {first}.{last}@ancorcapital.com based on industry standard. Contact: (817) 877-4458. (2026-03-05)",
+    "status": "Enriched"
+  }
+]

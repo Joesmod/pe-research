@@ -1,0 +1,66 @@
+[
+  {
+    "company": "Argonaut Private Equity",
+    "contactName": "Anil Khatod",
+    "title": "Managing Director",
+    "email": "anilk@argonautpe.com",
+    "linkedin": "https://www.linkedin.com/in/anilkhatod/",
+    "status": "Enriched",
+    "notes": "Verified from ContactOut. Manages $5B+, global VC and buyout focus."
+  },
+  {
+    "company": "Pritzker Group Private Capital",
+    "contactName": "Eric Kieras",
+    "title": "Investment Partner - Services",
+    "email": "ekieras@ppcpartners.com",
+    "linkedin": "https://www.linkedin.com/in/eric-kieras-2a6775b0/",
+    "status": "Enriched",
+    "notes": "Leads Services sector. Email inferred from RocketReach pattern (e*****@ppcpartners.com)."
+  },
+  {
+    "company": "Frontenac Company",
+    "contactName": "Neal Sahney",
+    "title": "Managing Director, Head of Portfolio Resources Group",
+    "email": "nsahney@frontenac.com",
+    "phone": "312-759-7335",
+    "linkedin": "https://www.linkedin.com/in/neal-sahney-90a05193/",
+    "status": "Enriched",
+    "notes": "Verified from official Frontenac website. Chicago-based, portfolio operations."
+  },
+  {
+    "company": "Caprae Capital Partners",
+    "contactName": "Madeline Younas",
+    "title": "",
+    "email": "madeline@capraecapital.com",
+    "linkedin": "",
+    "status": "Enriched",
+    "notes": "Email inferred from RocketReach pattern first@capraecapital.com (86.4%). Family office with 30+ portfolio companies."
+  },
+  {
+    "company": "Lux Capital",
+    "contactName": "Peter Hebert",
+    "title": "Co-Founder & Managing Partner",
+    "email": "peter.hebert@luxcapital.com",
+    "linkedin": "https://www.linkedin.com/in/peter-hebert-ab4925",
+    "status": "Enriched",
+    "notes": "Verified from ContactOut. Deep tech/science-focused VC."
+  },
+  {
+    "company": "FlexFunds",
+    "contactName": "Emilio Veiga Gil",
+    "title": "Executive Vice President & Chief Marketing Officer",
+    "email": "emilio.gil@flexfunds.com",
+    "linkedin": "https://www.linkedin.com/in/emilioveigagil/",
+    "status": "Enriched",
+    "notes": "Email inferred from RocketReach pattern first.last@flexfunds.com (81.8%). Miami-based, $3M revenue."
+  },
+  {
+    "company": "Infinity Capital Partners",
+    "contactName": "Christopher Lee",
+    "title": "Co-Founder & Managing Partner",
+    "email": "clee@infinitycappartners.com",
+    "linkedin": "https://www.linkedin.com/in/christopher-lee-174a467/",
+    "status": "Enriched",
+    "notes": "Verified from ContactOut. Oklahoma-based PE firm."
+  }
+]

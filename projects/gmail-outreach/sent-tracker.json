@@ -1,0 +1,419 @@
+{
+  "sent": [
+    {
+      "email": "dsmith@finkl.com",
+      "company": "Finkl Steel",
+      "contact": "Danielle Smith",
+      "date": "2026-02-08",
+      "subject": "Your FIA article on quoting - we can help",
+      "messageId": "19c3f41ef89c3176",
+      "draft": "01-finkl-steel.md"
+    },
+    {
+      "email": "marc@elischeesecake.com",
+      "company": "Eli's Cheesecake",
+      "contact": "Marc Schulman",
+      "date": "2026-02-09",
+      "subject": "Holiday production spikes - what if ordering ran itself?",
+      "messageId": "19c4300bc55f2c2a",
+      "draft": "06-elis-cheesecake.md",
+      "status": "bounced"
+    },
+    {
+      "email": "jack.bodman@viennabeef.com",
+      "company": "Vienna Beef",
+      "contact": "Jack Bodman",
+      "date": "2026-02-09",
+      "subject": "Thousands of hot dog stands, one ordering system",
+      "messageId": "19c4300de1958327",
+      "draft": "07-vienna-beef.md",
+      "status": "bounced"
+    },
+    {
+      "email": "mcrossland@garrettpopcorn.com",
+      "company": "Garrett Popcorn",
+      "contact": "Megan Crossland",
+      "date": "2026-02-09",
+      "subject": "Corporate gifting season - what if it managed itself?",
+      "messageId": "19c430104c454ab7",
+      "draft": "08-garrett-popcorn.md",
+      "status": "bounced"
+    },
+    {
+      "email": "greg.petraitis@beltmann.com",
+      "company": "Beltmann Moving & Storage",
+      "contact": "Greg Petraitis",
+      "date": "2026-02-09",
+      "subject": "100 years of moving - what if estimates took half the time?",
+      "messageId": "19c4301282020c36",
+      "draft": "09-beltmann-logistics.md",
+      "status": "bounced"
+    },
+    {
+      "email": "cheinz@bellff.com",
+      "company": "Bell Flavors & Fragrances",
+      "contact": "Cody Heinz",
+      "date": "2026-02-09",
+      "subject": "Custom flavor formulation - AI for faster sample turnaround",
+      "messageId": "19c43014b4bd35e4",
+      "draft": "10-bell-flavors.md"
+    },
+    {
+      "email": "swiley@mchugh.com",
+      "company": "McHugh Construction",
+      "contact": "Steve Wiley",
+      "date": "2026-02-09",
+      "subject": "Change orders eating your margins on Chicago builds?",
+      "messageId": "19c44b940afa3769",
+      "draft": "11-mchugh-construction.md"
+    },
+    {
+      "email": "elena@horween.com",
+      "company": "Horween Leather",
+      "contact": "Elena",
+      "date": "2026-02-09",
+      "subject": "Grading 10,000 hides a week by eye - what if AI helped?",
+      "messageId": "19c44b957218c560",
+      "draft": "12-horween-leather.md"
+    },
+    {
+      "email": "kgoldberg@fibersmith.co",
+      "company": "The Fibersmith Company",
+      "contact": "K. Goldberg",
+      "date": "2026-02-09",
+      "subject": "Fiber network projects juggling 50 variables at once",
+      "messageId": "19c44b96c3f0345b",
+      "draft": "13-fibersmith.md"
+    },
+    {
+      "email": "sales@conyeagerspice.com",
+      "company": "Con Yeager Spice Company",
+      "contact": "Paul Furey",
+      "date": "2026-02-09",
+      "subject": "Seasonal spice orders - feast or famine on the production floor?",
+      "messageId": "19c44b9808642779",
+      "draft": "14-con-yeager-spice.md"
+    },
+    {
+      "email": "info@carmelafoods.com",
+      "company": "Carmela Foods",
+      "contact": "Anthony Tocco Jr.",
+      "date": "2026-02-09",
+      "subject": "Scaling a food brand without scaling the chaos",
+      "messageId": "19c44ba17fdb76bc",
+      "draft": "15-carmela-foods.md"
+    },
+    {
+      "email": "robmonteparte@limbachinc.com",
+      "company": "Limbach Company",
+      "contact": "Rob Monteparte",
+      "date": "2026-02-09",
+      "subject": "Mechanical projects across 5 states - what if scheduling ran itself?",
+      "batch": "sheet-batch-2",
+      "status": "bounced"
+    },
+    {
+      "email": "jcrotinger@bergelectric.com",
+      "company": "Bergelectric",
+      "contact": "J. Crotinger",
+      "date": "2026-02-09",
+      "subject": "Electrical estimating - AI for faster bid turnaround",
+      "batch": "sheet-batch-2",
+      "status": "bounced"
+    },
+    {
+      "email": "ptsklodowsky@anvilcraftcorp.com",
+      "company": "Anvil Craft Corp",
+      "contact": "P. Tsklodowsky",
+      "date": "2026-02-09",
+      "subject": "CNC scheduling and job tracking - built for fab shops",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@viennabeef.com",
+      "company": "Vienna Beef",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Chicago hot dog supply chain - AI for order management",
+      "batch": "sheet-batch-2",
+      "note": "2nd email to Vienna Beef (different address)"
+    },
+    {
+      "email": "info@liparifoods.com",
+      "company": "Lipari Foods",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Food distribution routes - what if demand forecasting was automatic?",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@douglasdynamics.com",
+      "company": "Douglas Dynamics",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Snow plow manufacturing - AI for demand forecasting",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@edgeLogistics.com",
+      "company": "Edge Logistics",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Freight brokerage - AI for load matching",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "inquiry@hallstreet3pl.com",
+      "company": "Hall Street 3PL",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "3PL warehouse optimization - AI that tracks itself",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@spi3pl.com",
+      "company": "SPI Logistics",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Freight brokerage at scale - AI for carrier optimization",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "CS@shiptli.com",
+      "company": "Trans Logistics",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "3PL routing and carrier management - built for brokers",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "sales@midwestfreightsystems.com",
+      "company": "Midwest Freight",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Fleet scheduling across the Midwest - AI that optimizes routes",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "sales@go-stryder.com",
+      "company": "Stryder USA",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Drayage and 3PL operations - AI for warehouse automation",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "sales@wilsonbeverages.com",
+      "company": "Wilson Beverages",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Contract beverage manufacturing - AI for batch management",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@palacefoodsinc.com",
+      "company": "Palace Foods",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Co-packing operations - AI for production scheduling",
+      "batch": "sheet-batch-2",
+      "status": "bounced"
+    },
+    {
+      "email": "info@wos-wit.com",
+      "company": "Wos-Wit Foods",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Food manufacturing and co-packing - AI for batch tracking",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "service@tectaamerica.com",
+      "company": "Tecta America",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Commercial roofing at scale - AI for service dispatch",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@midconstruction.com",
+      "company": "MID Construction",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "General contracting - AI for change order automation",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@utilityconcrete.com",
+      "company": "Utility Concrete",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Precast concrete - AI for production scheduling and order tracking",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@tullylegal.com",
+      "company": "Tully Rinckey",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Law firm operations - AI for client intake and case management",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@portebrown.com",
+      "company": "Porte Brown",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "CPA firm workflow - AI for audit scheduling and client portals",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "sales@miraplastics.com",
+      "company": "Mira Plastics",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Injection molding - AI for production scheduling and quality control",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "info@unitedplasticmolders.net",
+      "company": "United Plastic Molders",
+      "contact": "General",
+      "date": "2026-02-09",
+      "subject": "Custom molding and prototyping - AI for job tracking",
+      "batch": "sheet-batch-2"
+    },
+    {
+      "email": "scott.white@edsal.com",
+      "company": "Edsal Manufacturing",
+      "contact": "Scott White",
+      "date": "2026-02-09",
+      "subject": "Your RFQ process - what if quotes wrote themselves?",
+      "messageId": "19c44fe66d67af41",
+      "draft": "02-edsal-manufacturing.md"
+    },
+    {
+      "email": "sbaird@bairdwarner.com",
+      "company": "Baird & Warner",
+      "contact": "Steve Baird",
+      "date": "2026-02-09",
+      "subject": "170 years strong - what if leads never went cold?",
+      "messageId": "19c44fe8a208aa4f",
+      "draft": "04-baird-warner.md"
+    },
+    {
+      "email": "randerson@testaproduce.com",
+      "company": "Testa Produce",
+      "contact": "Randy Anderson",
+      "date": "2026-02-09",
+      "subject": "Produce pricing changes - there's a better way",
+      "messageId": "19c44feb1c47513e",
+      "draft": "02-testa-produce.md"
+    },
+    {
+      "email": "danny.wirtz@wirtzbev.com",
+      "company": "Wirtz/Breakthru Beverage",
+      "contact": "Danny Wirtz",
+      "date": "2026-02-09",
+      "subject": "Driver wait times and route optimization - fixable with AI",
+      "messageId": "19c44fecfe51e1ac",
+      "draft": "05-wirtz-breakthru.md"
+    },
+    {
+      "email": "tim.redmond@lactalis.us",
+      "company": "Lactalis American Group",
+      "contact": "Tim Redmond",
+      "date": "2026-02-09",
+      "subject": "Managing 20+ dairy brands without drowning in logistics",
+      "messageId": "19c44fee643cbb75",
+      "draft": "16-lactalis.md"
+    },
+    {
+      "email": "pete.parthenis@gdkfoods.com",
+      "company": "Kronos/GDK Foods",
+      "contact": "Pete Parthenis Jr.",
+      "date": "2026-02-09",
+      "subject": "500+ menu items and growing - what if product development moved faster?",
+      "messageId": "19c44ff01702936f",
+      "draft": "17-kronos-gdk.md"
+    },
+    {
+      "email": "robert.belden@beldenbrick.com",
+      "company": "Belden Brick",
+      "contact": "Robert T. Belden",
+      "date": "2026-02-09",
+      "subject": "Custom brick specs across 300+ colors - automate the quoting",
+      "messageId": "19c44ff179317b28",
+      "draft": "18-belden-brick.md"
+    },
+    {
+      "email": "rich.melman@leye.com",
+      "company": "Lettuce Entertain You",
+      "contact": "Rich Melman",
+      "date": "2026-02-09",
+      "subject": "60+ restaurants, 60 different menus - AI can help manage the chaos",
+      "messageId": "19c44ff2f0e72d77",
+      "draft": "19-lettuce-entertain-you.md"
+    },
+    {
+      "email": "ron.stark@bellff.com",
+      "company": "Bell Flavors & Fragrances",
+      "contact": "Ron Stark",
+      "date": "2026-02-09",
+      "subject": "Flavor formulation requests piling up? AI can triage them",
+      "messageId": "19c44ff4676588d9",
+      "draft": "20-bell-flavors-ceo.md"
+    },
+    {
+      "email": "boris.goldenberg@edsal.com",
+      "company": "Edsal Manufacturing",
+      "contact": "Boris Goldenberg",
+      "date": "2026-02-09",
+      "subject": "Edsal's quoting bottleneck - an IT perspective",
+      "messageId": "19c44ff69c1fe341",
+      "note": "2nd contact at Edsal (VP IT)"
+    },
+    {
+      "email": "ptesta@testaproduce.com",
+      "company": "Testa Produce",
+      "contact": "Peter Testa",
+      "date": "2026-02-09",
+      "subject": "112 years of produce - what if the back office caught up?",
+      "messageId": "19c44ff8c15a5a05",
+      "note": "2nd contact at Testa (CEO)"
+    },
+    {
+      "email": "mroth@muchlaw.com",
+      "company": "Much Shelist",
+      "contact": "Michael Roth",
+      "date": "2026-02-10",
+      "subject": "93 attorneys, thousands of docs - what if intake ran itself?",
+      "messageId": "19c4866454a3f6a6",
+      "draft": "21-much-shelist-roth.md"
+    },
+    {
+      "email": "mshaw@muchlaw.com",
+      "company": "Much Shelist",
+      "contact": "Michael B. Shaw",
+      "date": "2026-02-10",
+      "subject": "The admin work your associates shouldn't be doing",
+      "messageId": "19c48665fc935b97",
+      "draft": "22-much-shelist-shaw.md"
+    },
+    {
+      "email": "phealy@bulley.com",
+      "company": "Bulley & Andrews",
+      "contact": "Patrick Healy",
+      "date": "2026-02-10",
+      "subject": "Change orders and RFIs - the part of construction nobody automated yet",
+      "messageId": "19c4866794832791",
+      "draft": "23-bulley-andrews-healy.md"
+    }
+  ],
+  "doNotEmail": [
+    "dsmith@finkl.com",
+    "swiley@mchugh.com",
+    "customerservice@edsal.com",
+    "referralconnections@bairdwarner.com"
+  ]
+}

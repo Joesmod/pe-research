@@ -1,0 +1,167 @@
+[
+  {
+    "rowIndex": 93,
+    "company": "Apax Partners",
+    "contactName": "Mark Beith",
+    "email": "",
+    "website": "https://www.apax.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 216,
+    "company": "Falconhead Capital",
+    "contactName": "David Moross",
+    "email": "",
+    "website": "https://www.falconheadcapital.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 221,
+    "company": "The Wicks Group",
+    "contactName": "",
+    "email": "",
+    "website": "https://www.linkedin.com/company/the-wicks-group",
+    "status": "Researched - No Email",
+    "needsContact": true,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 231,
+    "company": "Clayton Dubilier & Rice (CD&R)",
+    "contactName": "Vindi Banga",
+    "email": "",
+    "website": "https://www.cdr.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 242,
+    "company": "Cranemere Group",
+    "contactName": "Kamil Salame",
+    "email": "",
+    "website": "https://www.cranemere.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 264,
+    "company": "Morgan Stanley Expansion Capital",
+    "contactName": "Pete Chung",
+    "email": "",
+    "website": "https://www.morganstanley.com/im/en-us/capital-seeker/",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 288,
+    "company": "Kayne Partners",
+    "contactName": "Nishita Cummings",
+    "email": "",
+    "website": "https://www.kaynepartners.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 620,
+    "company": "HRCap, Inc.",
+    "contactName": "",
+    "email": "",
+    "website": "http://www.hrcap.com",
+    "status": "New - Unresearched",
+    "needsContact": true,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 621,
+    "company": "HSP - Henkel Search Partners",
+    "contactName": "",
+    "email": "",
+    "website": "http://www.henkelsp.com",
+    "status": "New - Unresearched",
+    "needsContact": true,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 623,
+    "company": "IEQ Capital",
+    "contactName": "Eric Harrison",
+    "email": "",
+    "website": "https://ieqcapital.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 625,
+    "company": "Jensen Partners",
+    "contactName": "",
+    "email": "",
+    "website": "http://www.jensen-partners.com",
+    "status": "New - Unresearched",
+    "needsContact": true,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 626,
+    "company": "Jett Capital Advisors",
+    "contactName": "",
+    "email": "",
+    "website": "http://www.jettcapital.com",
+    "status": "New - Unresearched",
+    "needsContact": true,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 627,
+    "company": "Kaizen Equity Partners",
+    "contactName": "Shane Seelig",
+    "email": "",
+    "website": "https://www.kaizen-equity.com",
+    "status": "Researched - No Email",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 630,
+    "company": "Kinect Capital",
+    "contactName": "",
+    "email": "",
+    "website": "http://www.kinectcapital.org",
+    "status": "New - Unresearched",
+    "needsContact": true,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  },
+  {
+    "rowIndex": 631,
+    "company": "Lead Edge Capital",
+    "contactName": "Mitchell Green",
+    "email": "",
+    "website": "https://leadedge.com",
+    "status": "Researched - Needs Verification",
+    "needsContact": false,
+    "needsEmail": true,
+    "hasGenericEmail": ""
+  }
+]

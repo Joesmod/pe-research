@@ -1,0 +1,66 @@
+{
+  "enriched": [],
+  "failed": [
+    {
+      "company": "First Trust Capital Management L.P.",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Funden",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Institutional Limited Partners Association (ILPA)",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Investment Management Partners",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "King Street Capital Management",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Koinz Capital",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Kudu Investment Management, LLC",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Left Lane Capital",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Long Ridge Partners",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Lowercarbon Capital",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Manulife | Comvest Credit Partners",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Mercury Fund",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Merit Capital Partners",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Millennium Bridge Capital",
+      "reason": "No Apollo match"
+    },
+    {
+      "company": "Newflow Partners",
+      "reason": "No Apollo match"
+    }
+  ],
+  "skipped": []
+}

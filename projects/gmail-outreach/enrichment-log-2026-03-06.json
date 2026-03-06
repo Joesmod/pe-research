@@ -1,0 +1,99 @@
+{
+  "date": "2026-03-06",
+  "time": "13:09 CST",
+  "enriched": 12,
+  "fullyEnriched": 3,
+  "partiallyEnriched": 9,
+  "firms": [
+    {
+      "name": "Red Cove Capital",
+      "contactName": "Shannon Bane",
+      "title": "Co-Founder & Managing Partner",
+      "email": "sbane@redcovecap.com",
+      "linkedin": "https://www.linkedin.com/in/shannon-bane-329639139/",
+      "status": "Enriched",
+      "notes": "Co-Founder with Nick Killebrew. Real estate PE (residential). Founded 2022. Email pattern [first]@domain. Source: redcovecap.com + LinkedIn 2026-03-06"
+    },
+    {
+      "name": "Resolute Capital Partners",
+      "contactName": "Bill Nutter",
+      "title": "Managing Partner & Founder",
+      "linkedin": "https://www.linkedin.com/in/bill-nutter-79087488/",
+      "status": "Partial",
+      "notes": "Founder, Nashville. Healthcare & business services. Partners: Andy, Caroline Ducas, Casey Hammontree. No public email found. Source: resolutecap.com 2026-03-06"
+    },
+    {
+      "name": "Rialto Capital",
+      "contactName": "Jeff Krasnoff",
+      "title": "Founder",
+      "status": "Partial",
+      "notes": "Founder of Rialto Capital (real estate investment mgmt). $8B raised since 2009. Acquired by Stone Point Capital. President: Mr. Mantz. No public email. Source: rialtocapital.com 2026-03-06"
+    },
+    {
+      "name": "Skyview Capital",
+      "contactName": "Jeff White",
+      "title": "Managing Director, Business Development",
+      "email": "jwhite@skyviewcapital.com",
+      "status": "Enriched",
+      "notes": "Email verified from press release. Also: Alex Soltani (Founder/CEO), Naeem Arastu (MD M&A). Pattern: [first_initial][last]@domain. Source: skyviewcapital.com press 2026-03-06"
+    },
+    {
+      "name": "Solamere Capital, LLC",
+      "contactName": "Bill Duplisea",
+      "title": "Head of Business Development",
+      "email": "bd@solamerecapital.com",
+      "status": "Enriched",
+      "notes": "Email verified from official website contact page. Boston-based. Fund-of-funds with 200+ strategic investors. Source: solamerecapital.com 2026-03-06"
+    },
+    {
+      "name": "Sorenson Capital",
+      "contactName": "Fraser Bullock",
+      "title": "Co-Founding Managing Partner",
+      "status": "Partial",
+      "notes": "Early & growth stage VC for B2B software. $250M early stage, $1.5B growth stage AUM. Palo Alto CA / Lehi UT. No public email. Source: sorensoncapital.com 2026-03-06"
+    },
+    {
+      "name": "Spring Capital Partners",
+      "contactName": "Mike",
+      "title": "Co-Founder",
+      "status": "Partial",
+      "notes": "Co-founded 1999. Subordinated debt + equity. $600M+ raised across 4 funds. 90+ investments. $2-20M ticket. No public email. Source: springcap.com 2026-03-06"
+    },
+    {
+      "name": "Trinity Investors",
+      "email": "clientrelations@trinityinvestors.com",
+      "status": "Partial",
+      "notes": "Southlake TX. Real estate + PE. 145+ real estate assets. Generic contact only: clientrelations@. Source: trinityinvestors.com 2026-03-06"
+    },
+    {
+      "name": "Wildcat Capital Management",
+      "contactName": "David Bonderman",
+      "title": "Founder",
+      "status": "Partial",
+      "notes": "Single-family office for David Bonderman. Founded 2011. CFO: Sherri Conn. Generic contact: info@wildcatcap.com. Source: wildcatcap.com 2026-03-06"
+    },
+    {
+      "name": "Winona Capital Management",
+      "contactName": "Laird Koldyke",
+      "title": "Managing Director",
+      "status": "Partial",
+      "notes": "Consumer brands/retail focus. Source: winonacapital.com press releases 2026-03-06. No direct email."
+    },
+    {
+      "name": "Victoria Capital Partners",
+      "contactName": "Mr. García",
+      "title": "Chairman & Managing Partner",
+      "email": "admin@victoriacp.com",
+      "status": "Partial",
+      "notes": "South America focused PE. 19+ years working together. Generic contact: admin@. Source: victoriacp.com 2026-03-06"
+    },
+    {
+      "name": "25madison",
+      "contactName": "Steven Price",
+      "title": "Managing Partner, CEO",
+      "email": "team@25madison.com",
+      "status": "Partial",
+      "notes": "Venture studio. NYC + Miami. Partner: John Daly (Ventures). Generic contact: team@. Source: 25madison.com 2026-03-06"
+    }
+  ]
+}

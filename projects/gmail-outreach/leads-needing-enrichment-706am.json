@@ -1,0 +1,914 @@
+[
+  {
+    "rowIndex": 610,
+    "company": "GiantLeap Capital",
+    "contactName": "Samir Parikh",
+    "email": "samir@giantleapcapital.com",
+    "status": "Enriched",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 742,
+    "company": "First Trust Capital Management L.P.",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 753,
+    "company": "Investment Management Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 754,
+    "company": "King Street Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 755,
+    "company": "Koinz Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 756,
+    "company": "Kudu Investment Management, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 757,
+    "company": "Left Lane Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 760,
+    "company": "Lowercarbon Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 761,
+    "company": "Manulife | Comvest Credit Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 762,
+    "company": "Mercury Fund",
+    "contactName": "Blair Garrou",
+    "email": "contact@mercuryfund.com",
+    "status": "Enriched",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 763,
+    "company": "Merit Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 764,
+    "company": "Millennium Bridge Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 765,
+    "company": "Newflow Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 766,
+    "company": "Next Sparc Growth Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 767,
+    "company": "Notable Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 768,
+    "company": "Oak Street Funding",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 769,
+    "company": "Obra Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 772,
+    "company": "Pathway Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 774,
+    "company": "Plexus Capital, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 775,
+    "company": "PPC (Pritzker Private Capital)",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 776,
+    "company": "Prospect Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 777,
+    "company": "Pzena Investment Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 778,
+    "company": "Quake Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 779,
+    "company": "Rainier Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 780,
+    "company": "Rallyday Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 781,
+    "company": "Red Cove Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 782,
+    "company": "Resolute Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 783,
+    "company": "Rialto Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 784,
+    "company": "Riverwood Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 785,
+    "company": "Riviera Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 787,
+    "company": "Roebling Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 788,
+    "company": "RRML Capital Resources",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 789,
+    "company": "Sageview Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 791,
+    "company": "Sculptor Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 793,
+    "company": "Silver Oak Services Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 794,
+    "company": "Skyview Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 795,
+    "company": "Solamere Capital, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 796,
+    "company": "Sorenson Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 797,
+    "company": "Spring Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 798,
+    "company": "STORY3 Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 799,
+    "company": "Strategic Value Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 800,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 801,
+    "company": "Thrive Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 802,
+    "company": "TimesSquare Capital Management, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 803,
+    "company": "Trian Fund Management, L.P.",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 804,
+    "company": "Trinity Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 805,
+    "company": "Trinity Investors",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 806,
+    "company": "TriplePoint Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 807,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 808,
+    "company": "Victoria Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 810,
+    "company": "Wildcat Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 811,
+    "company": "Winona Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 812,
+    "company": "Yellowstone Capital Partners, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 813,
+    "company": "25madison",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 814,
+    "company": "26North",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 815,
+    "company": "414 Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 816,
+    "company": "777 Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 817,
+    "company": "A-Grade Investments",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 818,
+    "company": "Accelerize 360",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 819,
+    "company": "Access Holdings",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 820,
+    "company": "ACRE",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 821,
+    "company": "Aduro Advisors",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 822,
+    "company": "AEC Advisors LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 823,
+    "company": "Affinity.co",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 824,
+    "company": "AgFunder",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 825,
+    "company": "Alari Search, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 826,
+    "company": "AlchemistX",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 827,
+    "company": "ALCOR Fund",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 828,
+    "company": "Alkymi",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 829,
+    "company": "All Raise",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 830,
+    "company": "Allvue Systems",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 831,
+    "company": "Anthemis Group",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 832,
+    "company": "Anzu Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 833,
+    "company": "Arcis Golf",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 834,
+    "company": "Arctos",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 835,
+    "company": "Argand Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 836,
+    "company": "Ascension Advisory",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 837,
+    "company": "Atlanta Tech Village",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 838,
+    "company": "Atlas Private Equity Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 839,
+    "company": "Atlas Search",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 842,
+    "company": "American Industrial Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 843,
+    "company": "Wind Point Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 855,
+    "company": "Peak Rock Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 859,
+    "company": "CCMP Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 866,
+    "company": "Peak Rock Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 867,
+    "company": "Accel-KKR",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 871,
+    "company": "Salt Creek Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 873,
+    "company": "Warren Equity Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 877,
+    "company": "Peak Rock Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 880,
+    "company": "MCM Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 883,
+    "company": "Tower Arch Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 884,
+    "company": "Peak Rock Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 886,
+    "company": "Peak Rock Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 888,
+    "company": "Arsenal Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 889,
+    "company": "Centre Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 890,
+    "company": "Odyssey Investment Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 891,
+    "company": "Arsenal Capital Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 892,
+    "company": "Symphony Technology Group (STG)",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 893,
+    "company": "Sverica Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 895,
+    "company": "Argonaut Private Equity",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 906,
+    "company": "Odyssey Investment Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 907,
+    "company": "Muse",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 908,
+    "company": "Backstroke",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 909,
+    "company": "Satso",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 910,
+    "company": "",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 911,
+    "company": "",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 912,
+    "company": "",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 913,
+    "company": "Goode Partners",
+    "contactName": "David Oddi",
+    "email": "",
+    "status": "Verified from official website team page",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 914,
+    "company": "Goode Partners",
+    "contactName": "David Oddi",
+    "email": "",
+    "status": "Enriched",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 934,
+    "company": "Carousel Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 936,
+    "company": "The Riverside Company",
+    "contactName": "Béla Szigethy",
+    "email": "",
+    "status": "Partial",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 937,
+    "company": "Sverica Capital Management",
+    "contactName": "Deepak Jeevankumar",
+    "email": "",
+    "status": "",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 938,
+    "company": "Chicago Pacific Founders",
+    "contactName": "R.J. Gupta",
+    "email": "",
+    "status": "",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 940,
+    "company": "NexPhase Capital",
+    "contactName": "Richard Lawson",
+    "email": "",
+    "status": "",
+    "reason": "No email"
+  }
+]

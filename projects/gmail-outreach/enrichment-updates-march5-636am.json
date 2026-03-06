@@ -1,0 +1,112 @@
+[
+  {
+    "row": 696,
+    "company": "3G Capital",
+    "contactName": "Alex Behring",
+    "title": "Co-Founder & Co-Managing Partner",
+    "email": "abehring@3g-capital.com",
+    "website": "http://www.3g-capital.com",
+    "linkedin": "https://www.linkedin.com/in/alex-behring-72678424/",
+    "notes": "Verified email from ContactOut. Major PE firm $10B+ AUM, portfolio includes AB InBev, RBI. Also Daniel Schwartz (Co-Managing Partner). Source: ContactOut, Wikipedia, 3g-capital.com (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "row": 626,
+    "company": "Jett Capital Advisors",
+    "contactName": "Joe Riggio",
+    "title": "Partner & CEO",
+    "email": "jriggio@jettcapital.com",
+    "website": "http://www.jettcapital.com",
+    "linkedin": "https://www.linkedin.com/company/jett-capital-advisors",
+    "notes": "Investment bank focused on natural resources, energy, clean tech. Email pattern inferred (needs verification). Also: Dov Wiener, Samuel Grauer, Matt Jurjevich (Partners). Source: jettcapital.com team page (2026-03-05)",
+    "status": "Partial"
+  },
+  {
+    "row": 699,
+    "company": "Alta Park Capital, LP",
+    "contactName": "Kai Wang",
+    "title": "Managing Director",
+    "email": "kwang@altaparkcapital.com",
+    "website": "http://www.altaparkcapital.com",
+    "linkedin": "https://www.linkedin.com/in/kai-wang-176b3923/",
+    "notes": "TMT-focused PE/VC, San Francisco. Email pattern inferred from company domain (RocketReach shows personal gmail). Also: Joe Bou-Saba (Founder), Connor Joyce (CFO). Source: RocketReach, LinkedIn (2026-03-05)",
+    "status": "Partial"
+  },
+  {
+    "row": 702,
+    "company": "Ancor Capital Partners",
+    "contactName": "Brook Smith",
+    "title": "Managing Director",
+    "email": "bsmith@ancorcapital.com",
+    "website": "http://www.ancorcapital.com",
+    "linkedin": "https://www.linkedin.com/in/brook-smith-a935508",
+    "notes": "35+ years middle-market experience, oversees capital raising. Texas-based. Verified email from RocketReach. Also: Mitchell Green (CFO/Principal). Source: ancorcapital.com, RocketReach (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "row": 704,
+    "company": "Apercen Partners LLC",
+    "contactName": "David M. Parker",
+    "title": "Co-Founder & Managing Director",
+    "email": "dparker@apercen.com",
+    "website": "http://www.apercen.com",
+    "linkedin": "",
+    "notes": "Promoted 5 to Partner (Jan 2024). Email pattern from SignalHire @apercen.com. Also: Vivian Chang (SVP FOS), Joelle Lyons (HR Director), Stephanie Mazepa (General Counsel). Source: Web research, SignalHire (2026-03-05)",
+    "status": "Partial"
+  },
+  {
+    "row": 706,
+    "company": "Arctaris Impact Investors",
+    "contactName": "Jonathan Tower",
+    "title": "Founder & Managing Partner",
+    "email": "jtower@arctaris.com",
+    "website": "http://www.arctaris.com",
+    "linkedin": "https://www.linkedin.com/in/jonathan-tower/",
+    "notes": "Impact investing, Opportunity Zone specialist. Founded 2009, HBS background. Email pattern inferred. Source: arctaris.com, LinkedIn (2026-03-05)",
+    "status": "Partial"
+  },
+  {
+    "row": 707,
+    "company": "Argentum Capital Partners",
+    "contactName": "Walter Barandiaran",
+    "title": "Co-Founder & Managing Partner",
+    "email": "wbarandiaran@argentumgroup.com",
+    "website": "http://www.argentumgroup.com",
+    "linkedin": "https://www.crunchbase.com/person/walter-h-barandiaran",
+    "notes": "Founded 1988, 25+ years PE experience, led 40+ investments. Verified email from PR Newswire press release. Also: Daniel Raynor (Managing Partner). Source: PR Newswire, argentumgroup.com (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "row": 708,
+    "company": "ArrowMark Partners",
+    "contactName": "Brian Schaub",
+    "title": "Partner & Portfolio Manager",
+    "email": "bschaub@arrowmarkpartners.com",
+    "website": "http://www.arrowmarkpartners.com",
+    "linkedin": "",
+    "notes": "Small/mid-cap growth strategies. Email pattern inferred. Also: Rob Brown (Head of CRE), Jack Cohen (CRE origination). Source: arrowmarkpartners.com (2026-03-05)",
+    "status": "Partial"
+  },
+  {
+    "row": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "contactName": "Robbie Heflin",
+    "title": "Partner",
+    "email": "robbie@atlanticstreetcapital.com",
+    "website": "http://www.atlanticstreetcapital.com",
+    "linkedin": "https://www.linkedin.com/company/atlantic-street-capital-advisors-inc",
+    "notes": "Lower middle market PE firm. Verified email from website. Robbie previously at Alvarez & Marsal Capital, Jordan Company. Andy Wilkins is Managing Partner. Source: atlanticstreetcapital.com (2026-03-05)",
+    "status": "Enriched"
+  },
+  {
+    "row": 688,
+    "company": "Victory Capital",
+    "contactName": "David C. Brown",
+    "title": "Chairman & CEO",
+    "email": "dbrown@vcm.com",
+    "website": "http://www.vcm.com",
+    "linkedin": "https://investor.vcm.com/about-victory/leadership-team/david-c-brown",
+    "notes": "Public asset management firm (NASDAQ: VCTR), CEO since 2013. Email pattern from RocketReach. Also: Matthew Dennis (CFA, Chief of Staff, Investor Relations). Source: RocketReach, vcm.com (2026-03-05)",
+    "status": "Partial"
+  }
+]

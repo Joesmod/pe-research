@@ -1,0 +1,197 @@
+[
+  {
+    "rowIndex": 51,
+    "company": "Genstar Capital",
+    "found": false,
+    "reason": "Found Sophie undefined but no verified email",
+    "partialData": {
+      "name": "Sophie undefined",
+      "title": "Family Office Limited Partner",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 154,
+    "company": "Thoma Bravo",
+    "found": false,
+    "reason": "Found Mike undefined but no verified email",
+    "partialData": {
+      "name": "Mike undefined",
+      "title": "Partner",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 168,
+    "company": "Clearlake Capital Group",
+    "found": false,
+    "reason": "Found Jeffrey undefined but no verified email",
+    "partialData": {
+      "name": "Jeffrey undefined",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 419,
+    "company": "KSL Capital Partners",
+    "found": false,
+    "reason": "Found Lauren undefined but no verified email",
+    "partialData": {
+      "name": "Lauren undefined",
+      "title": "Senior Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 455,
+    "company": "Cabrera Capital Markets",
+    "found": false,
+    "reason": "Found Robert undefined but no verified email",
+    "partialData": {
+      "name": "Robert undefined",
+      "title": "Vice President | Asia Equity Sales and Trading",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 696,
+    "company": "3G Capital",
+    "found": false,
+    "reason": "Found Mike undefined but no verified email",
+    "partialData": {
+      "name": "Mike undefined",
+      "title": "VP, Corporate Finance & Strategy",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 701,
+    "company": "AMR Action Fund",
+    "found": false,
+    "reason": "Found Martin undefined but no verified email",
+    "partialData": {
+      "name": "Martin undefined",
+      "title": "Chief Investment Officer",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 702,
+    "company": "Ancor Capital Partners",
+    "found": false,
+    "reason": "Found Mitchell undefined but no verified email",
+    "partialData": {
+      "name": "Mitchell undefined",
+      "title": "CFO",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 705,
+    "company": "Apis & Heritage Capital Partners",
+    "found": false,
+    "reason": "Found Philip undefined but no verified email",
+    "partialData": {
+      "name": "Philip undefined",
+      "title": "Founding Partner",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 710,
+    "company": "Atlanta Capital Management Co., LLC",
+    "found": false,
+    "reason": "Found Dorothy undefined but no verified email",
+    "partialData": {
+      "name": "Dorothy undefined",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "found": false,
+    "reason": "Found Amy undefined but no verified email",
+    "partialData": {
+      "name": "Amy undefined",
+      "title": "PE Operating Advisor & Executive CHRO",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 712,
+    "company": "Auctus Capital Partners",
+    "found": false,
+    "reason": "Found Muhammad undefined but no verified email",
+    "partialData": {
+      "name": "Muhammad undefined",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 713,
+    "company": "Avista Healthcare Partners",
+    "found": false,
+    "reason": "Found Thania undefined but no verified email",
+    "partialData": {
+      "name": "Thania undefined",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 714,
+    "company": "BDT & MSD Partners",
+    "found": false,
+    "reason": "Found Max undefined but no verified email",
+    "partialData": {
+      "name": "Max undefined",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  },
+  {
+    "rowIndex": 715,
+    "company": "BH3 Management",
+    "found": false,
+    "reason": "Found Charlie undefined but no verified email",
+    "partialData": {
+      "name": "Charlie undefined",
+      "title": "Chief Development Officer",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API (no verified email)"
+    }
+  }
+]

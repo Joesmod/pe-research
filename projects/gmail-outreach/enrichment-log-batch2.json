@@ -1,0 +1,83 @@
+[
+  {
+    "company": "Avante Capital Partners",
+    "contact": "Gladys Cordova",
+    "title": "Chief Financial Officer",
+    "email": "gladys@avantecap.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/gladys-cordova-36290a132",
+    "source": "Apollo API"
+  },
+  {
+    "company": "CANCER FUND Impact Investments™",
+    "contact": "Anthony Bajoras",
+    "title": "Founder & Managing Director",
+    "email": "anthony@cancerfund.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/anthonybajoras",
+    "source": "Apollo API"
+  },
+  {
+    "company": "SkyBridge Capital",
+    "contact": "Taryne Smith",
+    "title": "Partner, Head of Business Development | Operations",
+    "email": "taryne@skybc.co.za",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/taryne-smith-610b1220",
+    "source": "Apollo API"
+  },
+  {
+    "company": "The Global Impact Investing Network",
+    "contact": "Jessica Rose",
+    "title": "",
+    "email": "jrose@thegiin.org",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/jessicasrose",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Tixel",
+    "contact": "Denis Mysenko",
+    "title": "Co-Founder & CTO",
+    "email": "denis@tixel.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/denismysenko",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Backstroke",
+    "contact": "Adam Gardner",
+    "title": "Director of Product",
+    "email": "adam@backstroke.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/adam-gardner-97508353",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Satso",
+    "contact": "Alan Maggi",
+    "title": "CEO",
+    "email": "alan.maggi@satsolucoes.com.br",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/alanmaggi",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Muse",
+    "contact": "Shelby Cornell",
+    "title": "Vice President of Operations",
+    "email": "shelby@themuseknoxville.org",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/shelby-cornell-cva-96293520b",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Kopari Beauty",
+    "contact": "Brenda Brennan",
+    "title": "Chief Financial Officer",
+    "email": "brenda@koparibeauty.com",
+    "emailStatus": "verified",
+    "linkedin": "http://www.linkedin.com/in/brendaguerra",
+    "source": "Apollo API"
+  }
+]

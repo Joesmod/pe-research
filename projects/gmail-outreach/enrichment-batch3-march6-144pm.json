@@ -1,0 +1,29 @@
+[
+  {
+    "firm": "North Castle Partners",
+    "contactName": "Jon Canarick",
+    "title": "Managing Partner",
+    "email": "jon@northcastlepartners.com",
+    "linkedIn": "https://www.linkedin.com/in/jon-canarick-4340362/",
+    "status": "Enriched",
+    "notes": "LeadIQ email pattern verified (First@northcastlepartners.com). Managing Partner since 2001, 23+ years PE experience in health & wellness, active lifestyle sectors. Focus: fitness, consumer wellness. Board member: multiple portfolio companies. Columbia MBA."
+  },
+  {
+    "firm": "Riverside Company",
+    "contactName": "Stewart Kohl",
+    "title": "Co-CEO & Managing Partner",
+    "email": "skohl@riversidecompany.com",
+    "linkedIn": "https://www.linkedin.com/in/stewart-kohl/",
+    "status": "Enriched",
+    "notes": "ZoomInfo pattern verified. Co-CEO with Béla Szigethy (founder). Joined 1993, formerly Citicorp Venture Capital VP. $14B AUM, 960+ investments globally since 1988. Focus: smaller end of middle market. Cleveland HQ. Oberlin College."
+  },
+  {
+    "firm": "Gryphon Investors",
+    "contactName": "R. David Andrews",
+    "title": "Founder & Co-CEO",
+    "email": "andrews@gryphoninvestors.com",
+    "linkedIn": "https://www.linkedin.com/in/david-andrews-a9163017",
+    "status": "Enriched",
+    "notes": "RocketReach verified (a******@gryphoninvestors.com). Founded Gryphon 1995. $8.9B AUM, $50M-$500M deal sizes. Co-CEO with Nicholas Orum. Focus: middle market (consumer, business services, healthcare, industrials, software). San Francisco HQ. Stanford."
+  }
+]

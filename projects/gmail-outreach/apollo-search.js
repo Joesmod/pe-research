@@ -1,79 +1,56 @@
-#!/usr/bin/env node
+const axios = require('axios');
 
-const https = require('https');
+const APOLLO_API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
-const API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
-
-/**
- * Search for contacts at a specific company with Apollo API
- */
-async function searchContacts(orgName, titles = ['Partner', 'Managing Director', 'Managing Partner']) {
-  return new Promise((resolve, reject) => {
-    const data = JSON.stringify({
-      q_organization_name: orgName,
+async function searchPeople(firmName, titles = ['Partner', 'Managing Partner', 'Managing Director', 'CEO', 'CFO', 'COO', 'CTO']) {
+  try {
+    const response = await axios.post('https://api.apollo.io/api/v1/mixed_people/api_search', {
+      q_organization_name: firmName,
       person_titles: titles,
-      page: 1,
-      per_page: 10
-    });
-
-    const options = {
-      hostname: 'api.apollo.io',
-      path: '/api/v1/mixed_people/api_search',
-      method: 'POST',
+      per_page: 5
+    }, {
       headers: {
-        'Cache-Control': 'no-cache',
         'Content-Type': 'application/json',
-        'X-Api-Key': API_KEY,
-        'Content-Length': data.length
+        'Cache-Control': 'no-cache',
+        'X-Api-Key': APOLLO_API_KEY
       }
-    };
-
-    const req = https.request(options, (res) => {
-      let responseData = '';
-
-      res.on('data', (chunk) => {
-        responseData += chunk;
-      });
-
-      res.on('end', () => {
-        if (res.statusCode >= 200 && res.statusCode < 300) {
-          try {
-            const parsed = JSON.parse(responseData);
-            resolve(parsed);
-          } catch (err) {
-            reject(new Error(`Failed to parse response: ${err.message}`));
-          }
-        } else {
-          reject(new Error(`API returned status ${res.statusCode}: ${responseData}`));
-        }
-      });
     });
-
-    req.on('error', (err) => {
-      reject(err);
-    });
-
-    req.write(data);
-    req.end();
-  });
-}
-
-// CLI usage
-if (require.main === module) {
-  const orgName = process.argv[2];
-  if (!orgName) {
-    console.error('Usage: node apollo-search.js "<organization name>"');
-    process.exit(1);
+    
+    if (response.data && response.data.people) {
+      // Log first person to see structure
+      if (response.data.people.length > 0) {
+        console.log('Sample person object:', JSON.stringify(response.data.people[0], null, 2));
+      }
+      
+      return response.data.people.map(person => ({
+        name: person.first_name + ' ' + person.last_name,
+        title: person.title,
+        email: person.email,
+        linkedin: person.linkedin_url,
+        organization: person.organization?.name || person.organization_name
+      }));
+    }
+    
+    return [];
+  } catch (error) {
+    console.error(`Error searching ${firmName}:`, error.response?.data || error.message);
+    return [];
   }
-
-  searchContacts(orgName)
-    .then(results => {
-      console.log(JSON.stringify(results, null, 2));
-    })
-    .catch(err => {
-      console.error('Error:', err.message);
-      process.exit(1);
-    });
 }
 
-module.exports = { searchContacts };
+// Test with Gridiron Capital
+(async () => {
+  console.log('Searching Gridiron Capital...\n');
+  const results = await searchPeople('Gridiron Capital');
+  
+  if (results.length > 0) {
+    results.forEach((person, idx) => {
+      console.log(`${idx + 1}. ${person.name}`);
+      console.log(`   Title: ${person.title}`);
+      console.log(`   Email: ${person.email || 'Not available'}`);
+      console.log(`   LinkedIn: ${person.linkedin || 'Not available'}\n`);
+    });
+  } else {
+    console.log('No results found.');
+  }
+})();

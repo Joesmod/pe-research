@@ -1,0 +1,137 @@
+[
+  {
+    "rowIndex": 161,
+    "firm": "Thomas H. Lee Partners",
+    "contact": "",
+    "email": "",
+    "website": "https://www.thl.com",
+    "linkedin": "https://www.linkedin.com/company/thomas-h.-lee-partners",
+    "status": "DUPLICATE"
+  },
+  {
+    "rowIndex": 216,
+    "firm": "Falconhead Capital",
+    "contact": "",
+    "email": "",
+    "website": "https://www.falconheadcapital.com",
+    "linkedin": "https://www.linkedin.com/company/falconhead-capital",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 220,
+    "firm": "WindPoint Partners",
+    "contact": "",
+    "email": "",
+    "website": "https://www.windpointpartners.com",
+    "linkedin": "https://www.linkedin.com/company/windpoint-partners",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 221,
+    "firm": "Wicks Capital Partners",
+    "contact": "",
+    "email": "",
+    "website": "https://www.wickscapital.com",
+    "linkedin": "https://www.linkedin.com/company/wicks-capital-partners",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 234,
+    "firm": "The Jordan Company (TJC)",
+    "contact": "",
+    "email": "",
+    "website": "https://tjclp.com",
+    "linkedin": "https://www.linkedin.com/company/the-jordan-company",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 258,
+    "firm": "Bindley Capital Partners",
+    "contact": "",
+    "email": "",
+    "website": "https://www.bindleycapital.com",
+    "linkedin": "",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 259,
+    "firm": "BayBoston Capital",
+    "contact": "",
+    "email": "",
+    "website": "https://www.baybostoncapital.com",
+    "linkedin": "",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 262,
+    "firm": "Swander Pace Capital",
+    "contact": "",
+    "email": "",
+    "website": "https://www.swanderpace.com",
+    "linkedin": "https://www.linkedin.com/company/swander-pace-capital",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 264,
+    "firm": "Morgan Stanley Expansion Capital",
+    "contact": "",
+    "email": "",
+    "website": "https://www.morganstanley.com",
+    "linkedin": "https://www.linkedin.com/company/morgan-stanley",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 276,
+    "firm": "Harkness Capital Partners",
+    "contact": "Richard Perry",
+    "email": "info@harknesscapital.com",
+    "website": "https://www.harknesscapital.com",
+    "linkedin": "",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 300,
+    "firm": "Avante Capital Partners",
+    "contact": "Suni Harman",
+    "email": "info@avantecap.com",
+    "website": "https://www.avantecap.com",
+    "linkedin": "https://www.linkedin.com/company/avante-capital-partners",
+    "status": "Dead Lead"
+  },
+  {
+    "rowIndex": 562,
+    "firm": "Arax Investment Partners",
+    "contact": "",
+    "email": "",
+    "website": "http://www.araxpartners.com",
+    "linkedin": "http://www.linkedin.com/company/arax-investment-partners",
+    "status": "New - Unresearched"
+  },
+  {
+    "rowIndex": 579,
+    "firm": "Cardea Group",
+    "contact": "",
+    "email": "",
+    "website": "http://www.thecardeagroup.com",
+    "linkedin": "http://www.linkedin.com/company/cardea-group",
+    "status": "New - Unresearched"
+  },
+  {
+    "rowIndex": 614,
+    "firm": "GTMfund",
+    "contact": "",
+    "email": "",
+    "website": "http://www.gtmfund.com",
+    "linkedin": "http://www.linkedin.com/company/gtmfund",
+    "status": "New - Unresearched"
+  },
+  {
+    "rowIndex": 615,
+    "firm": "Hark Capital",
+    "contact": "",
+    "email": "",
+    "website": "http://www.harkcap.com",
+    "linkedin": "http://www.linkedin.com/company/harkcap",
+    "status": "New - Unresearched"
+  }
+]

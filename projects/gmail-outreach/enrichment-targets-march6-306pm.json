@@ -1,0 +1,122 @@
+[
+  {
+    "rowIndex": 4,
+    "company": "Thesis Capital Partners",
+    "currentContact": "Larry Flanagan",
+    "currentEmail": "Partner",
+    "status": "Source: Adapt.io + official team page",
+    "website": "asteele@activantcapital.com"
+  },
+  {
+    "rowIndex": 7,
+    "company": "SDC Capital Partners",
+    "currentContact": "Abdul R. Hussein",
+    "currentEmail": "Co-Founder & Managing Partner",
+    "status": "Source: LinkedIn + VCSheet",
+    "website": "gjain@afore.vc"
+  },
+  {
+    "rowIndex": 8,
+    "company": "Rockbridge Growth Equity, LLC",
+    "currentContact": "Joshua Liebow",
+    "currentEmail": "President & Founder",
+    "status": "Source: RocketReach + official website team page",
+    "website": "jconrad@agiscapital.com"
+  },
+  {
+    "rowIndex": 12,
+    "company": "Casa Verde Capital",
+    "currentContact": "Karan Wadhera",
+    "currentEmail": "Founder & CEO",
+    "status": "Source: RocketReach + conference bios",
+    "website": "bgerstner@altimeter.com"
+  },
+  {
+    "rowIndex": 17,
+    "company": "Knox Capital",
+    "currentContact": "Barry Siadat",
+    "currentEmail": "Founder & Managing Partner",
+    "status": "Source: Emerging Manager Monthly directory",
+    "website": "djackson@authorcapital.com"
+  },
+  {
+    "rowIndex": 19,
+    "company": "Palladium Equity Partners",
+    "currentContact": "Kenneth E. Aboussie, Jr.",
+    "currentEmail": "Co-Founder & Managing Partner",
+    "status": "Source: RocketReach + official team page",
+    "website": "sgardner@avenuecapital.com"
+  },
+  {
+    "rowIndex": 20,
+    "company": "Charlesbank Capital Partners",
+    "currentContact": "Dominic Ang",
+    "currentEmail": "Managing Partner & Co-Founder",
+    "status": "Source: ContactOut + RocketReach",
+    "website": "ade@base10.vc"
+  },
+  {
+    "rowIndex": 23,
+    "company": "HGGC",
+    "currentContact": "Kevin Schwartz",
+    "currentEmail": "Managing Director & Founder",
+    "status": "Source: RocketReach + official bio page",
+    "website": "godwyer@blackmorepartnersinc.com"
+  },
+  {
+    "rowIndex": 26,
+    "company": "Incline Equity Partners",
+    "currentContact": "Andrew Weinstein",
+    "currentEmail": "Founder & CEO",
+    "status": "Source: ContactOut + ZoomInfo",
+    "website": "christopher@burchcreativecapital.com"
+  },
+  {
+    "rowIndex": 31,
+    "company": "Abry Partners",
+    "currentContact": "Jonathan Litinger",
+    "currentEmail": "Managing Partner",
+    "status": "Source: Apollo.io + official team page",
+    "website": "cgrigg@carouselcapital.com"
+  },
+  {
+    "rowIndex": 71,
+    "company": "Berkshire Partners",
+    "currentContact": "Eric Souza",
+    "currentEmail": "Co-Founder & Managing Partner",
+    "status": "Source: RocketReach + official team page",
+    "website": "mengel@quona.com"
+  },
+  {
+    "rowIndex": 117,
+    "company": "Keltic Financial Partners",
+    "currentContact": "Steve Fischer",
+    "currentEmail": "",
+    "status": "Dead",
+    "website": "https://www.kelticfp.com"
+  },
+  {
+    "rowIndex": 128,
+    "company": "Kinderhook Industries",
+    "currentContact": "Robert Michalik",
+    "currentEmail": "[email protected]",
+    "status": "Enriched",
+    "website": "https://www.kinderhook.com"
+  },
+  {
+    "rowIndex": 242,
+    "company": "Cranemere Group",
+    "currentContact": "Kamil Salame",
+    "currentEmail": "[email protected]",
+    "status": "Enriched",
+    "website": "https://www.cranemere.com"
+  },
+  {
+    "rowIndex": 254,
+    "company": "Chicago Pacific Founders",
+    "currentContact": "Co-Founder & Managing Partner",
+    "currentEmail": "https://www.linkedin.com/company/chicago-pacific-founders",
+    "status": "Enriched",
+    "website": "Enriched"
+  }
+]

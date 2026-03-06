@@ -1,0 +1,152 @@
+[
+  {
+    "row": 307,
+    "company": "Argonaut Private Equity",
+    "contactName": "Anil Khatod",
+    "email": "(empty)",
+    "website": "https://argonautpe.com",
+    "linkedin": "https://www.linkedin.com/company/argonautpe/",
+    "sector": "Business services, industrial, consumer",
+    "status": "Researched"
+  },
+  {
+    "row": 310,
+    "company": "Argonaut Private Equity",
+    "contactName": "Anil Khatod",
+    "email": "(empty)",
+    "website": "https://argonautpe.com",
+    "linkedin": "https://www.linkedin.com/company/argonautpe",
+    "sector": "Energy Services, Manufacturing, Distribution, Industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 368,
+    "company": "Calvert Street Investment Partners",
+    "contactName": "Michael Booth",
+    "email": "(empty)",
+    "website": "http://www.calvertstreetinvestmentpartners.com",
+    "linkedin": "http://www.linkedin.com/company/calvert-street-investment-partners",
+    "sector": "",
+    "status": "Researched"
+  },
+  {
+    "row": 369,
+    "company": "Caprae Capital Partners",
+    "contactName": "Madeline Younas",
+    "email": "(empty)",
+    "website": "http://www.capraecapital.com",
+    "linkedin": "http://www.linkedin.com/company/caprae-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 374,
+    "company": "Infinity Capital Partners",
+    "contactName": "Christopher Lee",
+    "email": "(empty)",
+    "website": "http://www.infinitycappartners.com",
+    "linkedin": "https://www.linkedin.com/company/infinitycapitalpartners",
+    "sector": "Business Services, Media & Entertainment",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 403,
+    "company": "Dorm Room Fund",
+    "contactName": "Debbie Billet-Roumell",
+    "email": "(empty)",
+    "website": "http://www.dormroomfund.com",
+    "linkedin": "http://www.linkedin.com/company/dorm-room-fund",
+    "sector": "Education",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 407,
+    "company": "FlexFunds",
+    "contactName": "Emilio Gil",
+    "email": "(empty)",
+    "website": "http://www.flexfunds.com",
+    "linkedin": "http://www.linkedin.com/company/flexfunds",
+    "sector": "Media & Entertainment, Distribution",
+    "status": "Researched"
+  },
+  {
+    "row": 456,
+    "company": "Cambridge Capital LLC",
+    "contactName": "Weidong Zhang",
+    "email": "(empty)",
+    "website": "http://www.cambridgecapital.com",
+    "linkedin": "http://www.linkedin.com/company/cambridge-capital-partners",
+    "sector": "Logistics & Distribution",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 457,
+    "company": "CANCER FUND Impact InvestmentsΓäó",
+    "contactName": "Correy Faciane",
+    "email": "(empty)",
+    "website": "http://www.cancerfund.com",
+    "linkedin": "http://www.linkedin.com/company/thecancerfund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 475,
+    "company": "Lux Capital",
+    "contactName": "Peter Hebert",
+    "email": "(empty)",
+    "website": "http://www.luxcapital.com",
+    "linkedin": "http://www.linkedin.com/company/lux-capital",
+    "sector": "Technology, Media & Entertainment, Biotech",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 329,
+    "company": "Pritzker Group Private Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.pritzkergroup.com",
+    "linkedin": "https://www.linkedin.com/company/pritzker-group",
+    "sector": "Business services, healthcare, consumer, industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 557,
+    "company": "Alpha Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alphapartners.com",
+    "linkedin": "http://www.linkedin.com/company/alpha-venture-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 562,
+    "company": "Arax Investment Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.araxpartners.com",
+    "linkedin": "http://www.linkedin.com/company/arax-investment-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 579,
+    "company": "Cardea Group",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.thecardeagroup.com",
+    "linkedin": "http://www.linkedin.com/company/cardea-group",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 614,
+    "company": "GTMfund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.gtmfund.com",
+    "linkedin": "http://www.linkedin.com/company/gtmfund",
+    "sector": "",
+    "status": "New - Unresearched"
+  }
+]

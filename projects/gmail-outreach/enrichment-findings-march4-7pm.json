@@ -1,0 +1,63 @@
+[
+  {
+    "company": "Sageview Capital",
+    "contactName": "Ned Gilhuly",
+    "title": "Co-Founder & Partner",
+    "email": "ned@sageviewcapital.com",
+    "linkedin": "https://www.linkedin.com/in/ned-gilhuly/",
+    "source": "ContactOut (publicly indexed)",
+    "status": "Enriched",
+    "notes": "Palo Alto office. Growth equity focused on software/tech-enabled businesses."
+  },
+  {
+    "company": "American Industrial Partners",
+    "contactName": "Kim Marvin",
+    "title": "General Partner, Transactions",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/kimkmarvin",
+    "source": "Company website",
+    "status": "Partial",
+    "notes": "Joined 1997. Former Goldman Sachs M&A. MIT + HBS. No public email found."
+  },
+  {
+    "company": "Bindley Capital Partners",
+    "contactName": "Keith Burks",
+    "title": "Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/keith-burks-80659662/",
+    "source": "LinkedIn",
+    "status": "Partial",
+    "notes": "Indianapolis based. PitchBook has partial contact (paywall)."
+  },
+  {
+    "company": "Bindley Capital Partners",
+    "contactName": "William Bindley",
+    "title": "Founder, CEO & Chairman",
+    "email": "",
+    "linkedin": "",
+    "phone": "(317) 704-4700",
+    "source": "Mergr profile",
+    "status": "Partial",
+    "notes": "Founded Bindley Western and Priority Healthcare."
+  },
+  {
+    "company": "Arsenal Capital Partners",
+    "contactName": "Terry Mullen",
+    "title": "Managing Partner & Chief Investment Officer",
+    "email": "",
+    "linkedin": "",
+    "source": "Company website",
+    "status": "Partial",
+    "notes": "Founded Arsenal in 2000. Former Thomas H. Lee Partners."
+  },
+  {
+    "company": "Sageview Capital",
+    "contactName": "Scott Stuart",
+    "title": "Co-Founder & Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/scott-m-stuart/",
+    "source": "Company website",
+    "status": "Partial",
+    "notes": "Greenwich office. Email pattern likely scott@sageviewcapital.com (not verified)."
+  }
+]

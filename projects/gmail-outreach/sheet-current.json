@@ -1,0 +1,41 @@
+[
+  [
+    "Company",
+    "Contact Name",
+    "Title",
+    "Email",
+    "Website",
+    "LinkedIn URL",
+    "Sectors",
+    "Description",
+    "Status",
+    "Source",
+    "Notes"
+  ],
+  [
+    "Goode Partners",
+    "David Oddi",
+    "Partner",
+    "doddi@goodepartners.com",
+    "http://www.goodepartners.com",
+    "http://www.linkedin.com/company/goode-pa",
+    "Consumer, Food & Beverage",
+    "Goode Partners LLC...",
+    "Enriched",
+    "Verified from official website",
+    "44.4% 6mo growth. Founded 2005..."
+  ],
+  [
+    "Health Enterprise Partners",
+    "Jessie Gentil",
+    "Principal",
+    "jlaurash@hepfund.com",
+    "http://www.hepfund.com",
+    "http://www.linkedin.com/company/health-enterprise-partners",
+    "Healthcare",
+    "The HEP Fund...",
+    "New - Unresearched",
+    "",
+    "11.1% 6mo growth..."
+  ]
+]

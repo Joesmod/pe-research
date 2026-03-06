@@ -1,0 +1,28 @@
+[
+  {
+    "company": "Keltic Financial Partners",
+    "status": "Dead - Acquired by Ares Management in 2014",
+    "notes": "Firm no longer exists independently. Acquired by Ares Management LP.",
+    "source": "Law360, MonitorDaily articles from June 2014"
+  },
+  {
+    "company": "Jett Capital Advisors",
+    "contactName": "Joe Riggio",
+    "title": "Founding Partner & CEO",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/joe-riggio",
+    "status": "Dead - Investment Bank (Not PE)",
+    "notes": "Investment banking firm, not private equity. Focus on natural resources and tech advisory.",
+    "source": "jettcapital.com team page"
+  },
+  {
+    "company": "3G Capital",
+    "contactName": "Alex Behring",
+    "title": "Co-Founder & Co-Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/alex-behring-72678424",
+    "status": "Partial - Extremely Private",
+    "notes": "Co-led with Daniel Schwartz. No public emails found - firm is notoriously private.",
+    "source": "3g-capital.com, Wikipedia, Colossus podcast"
+  }
+]

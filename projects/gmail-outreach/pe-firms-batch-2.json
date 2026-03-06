@@ -1,0 +1,182 @@
+[
+  {
+    "row": 611,
+    "firm": "GiantLeap Capital",
+    "contactName": "Himanshu Singh",
+    "email": "samir@giantleapcapital.com",
+    "website": "http://www.giantleapcapital.com",
+    "status": "Needs email - try website contact form",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 690,
+    "firm": "Wall Street Oasis",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wallstreetoasis.com",
+    "status": "Dead - Financial careers website (not PE)",
+    "reason": "No contact name"
+  },
+  {
+    "row": 691,
+    "firm": "Wall Street Prep",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wallstreetprep.com",
+    "status": "Dead - Training company (not PE)",
+    "reason": "No contact name"
+  },
+  {
+    "row": 692,
+    "firm": "Wefunder",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wefunder.com",
+    "status": "Dead - Crowdfunding platform (not PE)",
+    "reason": "No contact name"
+  },
+  {
+    "row": 699,
+    "firm": "Alta Park Capital, LP",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.altaparkcapital.com",
+    "status": "Dead - Hedge Fund",
+    "reason": "No contact name"
+  },
+  {
+    "row": 719,
+    "firm": "Capital Allocators",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.capitalallocators.com",
+    "status": "Dead - Podcast/Media",
+    "reason": "No contact name"
+  },
+  {
+    "row": 733,
+    "firm": "Davidson Kempner Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.davidsonkempner.com",
+    "status": "Dead - Hedge Fund",
+    "reason": "No contact name"
+  },
+  {
+    "row": 741,
+    "firm": "Essex Investment Management Company, LLC",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.essexinvest.com",
+    "status": "Dead - Asset Manager",
+    "reason": "No contact name"
+  },
+  {
+    "row": 743,
+    "firm": "First Trust Capital Management L.P.",
+    "contactName": "Michael Peck, CFA",
+    "email": "",
+    "website": "http://www.firsttrustcapital.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 744,
+    "firm": "Funden",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.funden.com",
+    "status": "Dead - Not PE Firm (fundraising platform)",
+    "reason": "No contact name"
+  },
+  {
+    "row": 755,
+    "firm": "King Street Capital Management",
+    "contactName": "Brian J. Higgins",
+    "email": "",
+    "website": "http://www.kingstreet.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 756,
+    "firm": "Koinz Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.koinzcapital.com",
+    "status": "Dead - Not PE Firm",
+    "reason": "No contact name"
+  },
+  {
+    "row": 758,
+    "firm": "Left Lane Capital",
+    "contactName": "Vinny Pujji",
+    "email": "",
+    "website": "http://www.leftlane.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 761,
+    "firm": "Lowercarbon Capital",
+    "contactName": "Chris Sacca",
+    "email": "",
+    "website": "http://www.lowercarbon.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 763,
+    "firm": "Mercury Fund",
+    "contactName": "Blair Garrou",
+    "email": "contact@mercuryfund.com",
+    "website": "http://www.mercuryfund.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 768,
+    "firm": "Notable Capital",
+    "contactName": "Glenn Solomon",
+    "email": "",
+    "website": "http://www.notablecap.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 770,
+    "firm": "Obra Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.obra.com",
+    "status": "Dead - Not PE Firm",
+    "reason": "No contact name"
+  },
+  {
+    "row": 773,
+    "firm": "Pathway Capital Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.pathwaycapital.com",
+    "status": "Dead - Not Direct PE",
+    "reason": "No contact name"
+  },
+  {
+    "row": 778,
+    "firm": "Pzena Investment Management",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.pzena.com",
+    "status": "Partial",
+    "reason": "No contact name"
+  },
+  {
+    "row": 782,
+    "firm": "Red Cove Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.redcovecap.com",
+    "status": "Partial",
+    "reason": "No contact name"
+  }
+]

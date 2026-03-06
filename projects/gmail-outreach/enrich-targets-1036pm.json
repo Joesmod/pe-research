@@ -1,0 +1,150 @@
+[
+  {
+    "row": 117,
+    "company": "Keltic Financial Partners",
+    "website": "https://www.kelticfp.com",
+    "contact": "Jacob Zodikoff",
+    "title": "N/A",
+    "email": "",
+    "sector": "Business Services, Healthcare, Staffing",
+    "status": "Acquired by Ares Management LP in June 2014. Firm no longer exists independently.",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 579,
+    "company": "Cardea Group",
+    "website": "http://www.thecardeagroup.com",
+    "contact": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 611,
+    "company": "GiantLeap Capital",
+    "website": "http://www.giantleapcapital.com",
+    "contact": "Samir Parikh",
+    "title": "Co-Founder and Managing Partner",
+    "email": "samir@giantleapcapital.com",
+    "reason": "generic/missing email"
+  },
+  {
+    "row": 620,
+    "company": "HRCap, Inc.",
+    "website": "http://www.hrcap.com",
+    "contact": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 621,
+    "company": "HSP - Henkel Search Partners",
+    "website": "http://www.henkelsp.com",
+    "contact": "Jacob Zodikoff",
+    "title": "CEO & Founder",
+    "email": "info@henkelsp.com",
+    "sector": "Executive search/recruiting",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 625,
+    "company": "Jensen Partners",
+    "website": "Sasha Jensen",
+    "contact": "Jacob Zodikoff",
+    "title": "",
+    "email": "sjensen@jensen-partners.com",
+    "sector": "Executive search (PE/credit recruiting)",
+    "status": "Enriched",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 626,
+    "company": "Jett Capital Advisors",
+    "website": "http://www.jettcapital.com",
+    "contact": "Joe Riggio",
+    "title": "Founding Partner & CEO",
+    "email": "",
+    "sector": "",
+    "status": "Investment banking advisory firm, not PE. Natural resources & tech focus.",
+    "reason": "generic/missing email"
+  },
+  {
+    "row": 630,
+    "company": "Kinect Capital",
+    "website": "http://www.kinectcapital.org",
+    "contact": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 635,
+    "company": "Loeb.nyc",
+    "website": "http://www.loeb.nyc",
+    "contact": "Jacob Zodikoff",
+    "title": "Chief Investment Officer, Credit President",
+    "email": "info@midoceanpartners.com",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 654,
+    "company": "Odyssey Search Partners",
+    "website": "http://www.odysseysearchpartners.com",
+    "contact": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 666,
+    "company": "RCP Advisors",
+    "website": "http://www.rcpadvisors.com",
+    "contact": "Jon Madorsky",
+    "title": "Managing Partner",
+    "email": "info@ribbitcap.com",
+    "sector": "",
+    "status": "$18.7B committed capital. Invests in other PE funds (secondaries, small buyouts), not direct operating companies. 570+ partnership investments.",
+    "reason": "generic/missing email"
+  },
+  {
+    "row": 670,
+    "company": "ScaleView Partners",
+    "website": "http://www.scaleviewpartners.com",
+    "contact": "Jacob Zodikoff",
+    "title": "Co-Founder & Partner",
+    "email": "info@scaleviewpartners.com",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 682,
+    "company": "TAP Advisors",
+    "website": "http://www.tapadvisors.com",
+    "contact": "Jacob Zodikoff",
+    "title": "Founding Partner",
+    "email": "info@tapadvisors.com",
+    "sector": "",
+    "status": "Investment banking advisory firm, not PE",
+    "reason": "placeholder contact"
+  },
+  {
+    "row": 687,
+    "company": "Valiant Capital Management",
+    "website": "http://www.valiantcapital.com",
+    "contact": "Christopher R. Hansen",
+    "title": "Founder & President",
+    "email": "contact@valiantcapital.com",
+    "reason": "generic/missing email"
+  },
+  {
+    "row": 688,
+    "company": "Victory Capital",
+    "website": "http://www.vcm.com",
+    "contact": "Jacob Zodikoff",
+    "title": "Chairman & CEO",
+    "email": "ir@vcm.com",
+    "sector": "",
+    "status": "Publicly traded (VCTR) investment management firm. Manages mutual funds, ETFs, SMAs. Not a PE firm.",
+    "reason": "placeholder contact"
+  }
+]

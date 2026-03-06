@@ -1,0 +1,2982 @@
+[
+  {
+    "row": 161,
+    "company": "Thomas H. Lee Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.thl.com",
+    "linkedin": "https://www.linkedin.com/company/thomas-h.-lee-partners",
+    "sector": "Healthcare, financial services, business services, technology",
+    "status": "DUPLICATE"
+  },
+  {
+    "row": 307,
+    "company": "Argonaut Private Equity",
+    "contactName": "Anil Khatod",
+    "email": "(empty)",
+    "website": "https://argonautpe.com",
+    "linkedin": "https://www.linkedin.com/company/argonautpe/",
+    "sector": "Business services, industrial, consumer",
+    "status": "Researched"
+  },
+  {
+    "row": 310,
+    "company": "Argonaut Private Equity",
+    "contactName": "Anil Khatod",
+    "email": "(empty)",
+    "website": "https://argonautpe.com",
+    "linkedin": "https://www.linkedin.com/company/argonautpe",
+    "sector": "Energy Services, Manufacturing, Distribution, Industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 329,
+    "company": "Pritzker Group Private Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.pritzkergroup.com",
+    "linkedin": "https://www.linkedin.com/company/pritzker-group",
+    "sector": "Business services, healthcare, consumer, industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 338,
+    "company": "Frontenac Company",
+    "contactName": "(empty)",
+    "email": "info@frontenac.com",
+    "website": "https://frontenac.com",
+    "linkedin": "https://www.linkedin.com/company/frontenac",
+    "sector": "Services, Consumer, Industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 368,
+    "company": "Calvert Street Investment Partners",
+    "contactName": "Michael Booth",
+    "email": "(empty)",
+    "website": "http://www.calvertstreetinvestmentpartners.com",
+    "linkedin": "http://www.linkedin.com/company/calvert-street-investment-partners",
+    "sector": "",
+    "status": "Researched"
+  },
+  {
+    "row": 369,
+    "company": "Caprae Capital Partners",
+    "contactName": "Madeline Younas",
+    "email": "(empty)",
+    "website": "http://www.capraecapital.com",
+    "linkedin": "http://www.linkedin.com/company/caprae-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 374,
+    "company": "Infinity Capital Partners",
+    "contactName": "Christopher Lee",
+    "email": "(empty)",
+    "website": "http://www.infinitycappartners.com",
+    "linkedin": "https://www.linkedin.com/company/infinitycapitalpartners",
+    "sector": "Business Services, Media & Entertainment",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 403,
+    "company": "Dorm Room Fund",
+    "contactName": "Debbie Billet-Roumell",
+    "email": "(empty)",
+    "website": "http://www.dormroomfund.com",
+    "linkedin": "http://www.linkedin.com/company/dorm-room-fund",
+    "sector": "Education",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 407,
+    "company": "FlexFunds",
+    "contactName": "Emilio Gil",
+    "email": "(empty)",
+    "website": "http://www.flexfunds.com",
+    "linkedin": "http://www.linkedin.com/company/flexfunds",
+    "sector": "Media & Entertainment, Distribution",
+    "status": "Researched"
+  },
+  {
+    "row": 456,
+    "company": "Cambridge Capital LLC",
+    "contactName": "Weidong Zhang",
+    "email": "(empty)",
+    "website": "http://www.cambridgecapital.com",
+    "linkedin": "http://www.linkedin.com/company/cambridge-capital-partners",
+    "sector": "Logistics & Distribution",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 457,
+    "company": "CANCER FUND Impact InvestmentsΓäó",
+    "contactName": "Correy Faciane",
+    "email": "(empty)",
+    "website": "http://www.cancerfund.com",
+    "linkedin": "http://www.linkedin.com/company/thecancerfund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 475,
+    "company": "Lux Capital",
+    "contactName": "Peter Hebert",
+    "email": "(empty)",
+    "website": "http://www.luxcapital.com",
+    "linkedin": "http://www.linkedin.com/company/lux-capital",
+    "sector": "Technology, Media & Entertainment, Biotech",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 478,
+    "company": "Palm Beach Capital",
+    "contactName": "George Milas",
+    "email": "(empty)",
+    "website": "http://www.pbcap.com",
+    "linkedin": "http://www.linkedin.com/company/palm-beach-capital",
+    "sector": "Healthcare, Consumer, Business Services, Logistics & Distribution, Distribution",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 482,
+    "company": "SkyBridge Capital",
+    "contactName": "Sky Ltd",
+    "email": "(empty)",
+    "website": "http://www.skybridge.com",
+    "linkedin": "http://www.linkedin.com/company/skybridge-capital",
+    "sector": "Technology, Financial Services, Business Services, Energy, Infrastructure, Pharma",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 485,
+    "company": "Stronghold Investment Management",
+    "contactName": "Wesley Brown",
+    "email": "(empty)",
+    "website": "http://www.strongholdim.com",
+    "linkedin": "http://www.linkedin.com/company/strongholdim",
+    "sector": "Technology, Infrastructure",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 490,
+    "company": "The Global Impact Investing Network",
+    "contactName": "Dejohn James",
+    "email": "(empty)",
+    "website": "http://www.thegiin.org",
+    "linkedin": "http://www.linkedin.com/company/the-global-impact-investing-network",
+    "sector": "Software/Technology",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 500,
+    "company": "Aurora Capital Partners",
+    "contactName": "Wendy N",
+    "email": "(empty)",
+    "website": "http://www.auroracap.com",
+    "linkedin": "http://www.linkedin.com/company/aurora-capital-group",
+    "sector": "Software/Technology, Industrials, Business Services",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 501,
+    "company": "Tixel",
+    "contactName": "Jason Webb",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "",
+    "sector": "",
+    "status": "Waiting on email intro"
+  },
+  {
+    "row": 510,
+    "company": "Edgewater Capital Partners",
+    "contactName": "Tom Edson",
+    "email": "(empty)",
+    "website": "http://www.edgewatercapital.com",
+    "linkedin": "http://www.linkedin.com/company/edgewater-capital-partners",
+    "sector": "Technology, Business Services, Infrastructure",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 511,
+    "company": "Emerging Capital Partners - ECP",
+    "contactName": "Michael Jansa",
+    "email": "(empty)",
+    "website": "http://www.ecpinvestments.com",
+    "linkedin": "http://www.linkedin.com/company/emerging-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 523,
+    "company": "Kopari Beauty",
+    "contactName": "Katelynn Tran",
+    "email": "(empty)",
+    "website": "http://www.koparibeauty.com",
+    "linkedin": "http://www.linkedin.com/company/kopari-beauty",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 525,
+    "company": "Levine Leichtman Capital Partners, LLC",
+    "contactName": "Arthur Lauren",
+    "email": "(empty)",
+    "website": "http://www.llcp.com",
+    "linkedin": "http://www.linkedin.com/company/levine-leichtman-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 529,
+    "company": "Ohio Cash Buyers",
+    "contactName": "Bryan Blankenship",
+    "email": "(empty)",
+    "website": "http://www.ohiocashbuyers.com",
+    "linkedin": "http://www.linkedin.com/company/ohio-cash-buyers",
+    "sector": "Media & Entertainment, Real Estate",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 531,
+    "company": "Peninsula Capital Partners L.L.C.",
+    "contactName": "David Ho",
+    "email": "(empty)",
+    "website": "http://www.peninsulafunds.com",
+    "linkedin": "http://www.linkedin.com/company/peninsula-capital-partners",
+    "sector": "Media & Entertainment",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 535,
+    "company": "RA Capital Management",
+    "contactName": "Andrew Levin",
+    "email": "(empty)",
+    "website": "http://www.racap.com",
+    "linkedin": "http://www.linkedin.com/company/ra-capital-management-llc",
+    "sector": "Healthcare, Technology, Business Services, Aerospace & Defense, Energy, Life Sciences",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 541,
+    "company": "South Park Commons",
+    "contactName": "Charles Niu",
+    "email": "(empty)",
+    "website": "http://www.southparkcommons.com",
+    "linkedin": "http://www.linkedin.com/company/southparkcommons",
+    "sector": "Healthcare, Software/Technology, Consumer, Fintech",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 550,
+    "company": "Vista Point Advisors",
+    "contactName": "Muhammad Ejaz",
+    "email": "(empty)",
+    "website": "http://www.vistapointadvisors.com",
+    "linkedin": "http://www.linkedin.com/company/vista-point-advisors",
+    "sector": "Software/Technology, Consumer, Real Estate",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 556,
+    "company": "AI Fund",
+    "contactName": "Luke Best",
+    "email": "(empty)",
+    "website": "http://www.aifund.ai",
+    "linkedin": "http://www.linkedin.com/company/aifund",
+    "sector": "Technology, Consumer/Retail, Infrastructure",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 557,
+    "company": "Alpha Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alphapartners.com",
+    "linkedin": "http://www.linkedin.com/company/alpha-venture-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 559,
+    "company": "AmaWaterways River Cruises",
+    "contactName": "Catherine Powell",
+    "email": "(empty)",
+    "website": "http://www.amawaterways.com",
+    "linkedin": "http://www.linkedin.com/company/amawaterways",
+    "sector": "Media & Entertainment",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 562,
+    "company": "Arax Investment Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.araxpartners.com",
+    "linkedin": "http://www.linkedin.com/company/arax-investment-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 579,
+    "company": "Cardea Group",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.thecardeagroup.com",
+    "linkedin": "http://www.linkedin.com/company/cardea-group",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 580,
+    "company": "Casdin Capital",
+    "contactName": "Coral Malkin",
+    "email": "(empty)",
+    "website": "http://www.casdincapital.com",
+    "linkedin": "http://www.linkedin.com/company/casdin-capital",
+    "sector": "Healthcare, Technology, Business Services, Manufacturing, Food & Beverage, Life Sciences",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 606,
+    "company": "FirstMark",
+    "contactName": "Rick Heitzmann",
+    "email": "(empty)",
+    "website": "http://www.firstmark.com",
+    "linkedin": "http://www.linkedin.com/company/firstmark",
+    "sector": "Technology, Infrastructure",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 614,
+    "company": "GTMfund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.gtmfund.com",
+    "linkedin": "http://www.linkedin.com/company/gtmfund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 615,
+    "company": "Hark Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.harkcap.com",
+    "linkedin": "http://www.linkedin.com/company/harkcap",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 616,
+    "company": "Healthcare Private Equity Association (HCPEA)",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hcpea.org",
+    "linkedin": "http://www.linkedin.com/company/hcpea",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 617,
+    "company": "HealthQuest Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.healthquestcapital.com",
+    "linkedin": "http://www.linkedin.com/company/healthquest-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 618,
+    "company": "Hildred Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hildred.com",
+    "linkedin": "http://www.linkedin.com/company/hildred-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 619,
+    "company": "HOF Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hofcapital.com",
+    "linkedin": "http://www.linkedin.com/company/hof-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 620,
+    "company": "HRCap, Inc.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hrcap.com",
+    "linkedin": "http://www.linkedin.com/company/hrcap-inc-",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 621,
+    "company": "HSP - Henkel Search Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.henkelsp.com",
+    "linkedin": "http://www.linkedin.com/company/hsp---henkel-search-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 622,
+    "company": "Hunter Point Capital LP",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hunterpointcapital.com",
+    "linkedin": "http://www.linkedin.com/company/hunterpointcapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 623,
+    "company": "IEQ Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.ieqcapital.com",
+    "linkedin": "http://www.linkedin.com/company/ieqcapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 624,
+    "company": "Invictus Growth Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.invictusgrowth.com",
+    "linkedin": "http://www.linkedin.com/company/invictusgrowth",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 625,
+    "company": "Jensen Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.jensen-partners.com",
+    "linkedin": "http://www.linkedin.com/company/jensen-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 626,
+    "company": "Jett Capital Advisors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.jettcapital.com",
+    "linkedin": "http://www.linkedin.com/company/jett-capital-advisors",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 627,
+    "company": "Kaizen Equity Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.kaizen-equity.com",
+    "linkedin": "http://www.linkedin.com/company/kaizen-equity-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 628,
+    "company": "Karmel Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.karmelcapital.com",
+    "linkedin": "http://www.linkedin.com/company/karmel-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 629,
+    "company": "Keystone Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.keystonecapital.com",
+    "linkedin": "http://www.linkedin.com/company/keystonecapitalmanagementlp",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 630,
+    "company": "Kinect Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.kinectcapital.org",
+    "linkedin": "http://www.linkedin.com/company/kinectcapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 631,
+    "company": "Lead Edge Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.leadedge.com",
+    "linkedin": "http://www.linkedin.com/company/lead-edge-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 632,
+    "company": "Lightspeed",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.lsvp.com",
+    "linkedin": "http://www.linkedin.com/company/lightspeed-venture-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 633,
+    "company": "Livingstone",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.livingstonepartners.com",
+    "linkedin": "http://www.linkedin.com/company/livingstone",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 634,
+    "company": "LNC Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.lnc-partners.com",
+    "linkedin": "http://www.linkedin.com/company/lnc-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 635,
+    "company": "Loeb.nyc",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.loeb.nyc",
+    "linkedin": "http://www.linkedin.com/company/loeb-nyc-inc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 636,
+    "company": "Long Arc Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.longarc.com",
+    "linkedin": "http://www.linkedin.com/company/long-arc-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 637,
+    "company": "M SEARCH",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.msearchadvisory.com",
+    "linkedin": "http://www.linkedin.com/company/msearchadvisory",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 638,
+    "company": "M-One Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.m-onecapital.com",
+    "linkedin": "http://www.linkedin.com/company/m-one-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 639,
+    "company": "Madison Park Group",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.madisonparkgrp.com",
+    "linkedin": "http://www.linkedin.com/company/madison-park-group",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 640,
+    "company": "Magnetar",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.magnetar.com",
+    "linkedin": "http://www.linkedin.com/company/magnetar-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 641,
+    "company": "March Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.marchcp.com",
+    "linkedin": "http://www.linkedin.com/company/march-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 642,
+    "company": "Marketri",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.marketri.com",
+    "linkedin": "http://www.linkedin.com/company/marketri-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 643,
+    "company": "MD Global Partners, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.mdgpartners.com",
+    "linkedin": "http://www.linkedin.com/company/mdglobalpartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 644,
+    "company": "Medallion Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.medallioncapital.com",
+    "linkedin": "http://www.linkedin.com/company/medallion-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 645,
+    "company": "Meridian Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.meridianib.com",
+    "linkedin": "http://www.linkedin.com/company/meridian-ib",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 646,
+    "company": "Midwest Right of Way Services, Inc.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.midwestrow.com",
+    "linkedin": "http://www.linkedin.com/company/midwest-right-of-way-services-inc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 647,
+    "company": "MLG Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.mlgcapital.com",
+    "linkedin": "http://www.linkedin.com/company/mlg-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 648,
+    "company": "Movement Search & Delivery",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.movementsearch.com",
+    "linkedin": "http://www.linkedin.com/company/movement-search-&-delivery",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 649,
+    "company": "New Rhein Healthcare Investors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.newrhein.com",
+    "linkedin": "http://www.linkedin.com/company/new-rhein-healthcare-investors-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 650,
+    "company": "NewView Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.nvc.vc",
+    "linkedin": "http://www.linkedin.com/company/newviewcap",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 651,
+    "company": "Nexa Equity",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.nexaequity.com",
+    "linkedin": "http://www.linkedin.com/company/nexa-equity",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 652,
+    "company": "Noble Investment Group",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.nobleinvestment.com",
+    "linkedin": "http://www.linkedin.com/company/nobleinvestment",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 653,
+    "company": "North Atlantic Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.northatlanticcapital.com",
+    "linkedin": "http://www.linkedin.com/company/north-atlantic-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 654,
+    "company": "Odyssey Search Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.odysseysearchpartners.com",
+    "linkedin": "http://www.linkedin.com/company/odysseysearchpartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 655,
+    "company": "Opus Connect",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.opusconnect.com",
+    "linkedin": "http://www.linkedin.com/company/opusconnect",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 656,
+    "company": "Osceola Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.osceola.com",
+    "linkedin": "http://www.linkedin.com/company/osceola-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 657,
+    "company": "PartnerOne",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.partnerone.com",
+    "linkedin": "http://www.linkedin.com/company/partnerone-software",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 658,
+    "company": "Pearl Energy Investments",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pearl-energy.com",
+    "linkedin": "http://www.linkedin.com/company/pearl-energy-investments",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 659,
+    "company": "Perella Weinberg",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pwpartners.com",
+    "linkedin": "http://www.linkedin.com/company/perella-weinberg-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 660,
+    "company": "Periculum Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.periculumcapital.com",
+    "linkedin": "http://www.linkedin.com/company/periculum-capital-company-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 661,
+    "company": "Physician Growth Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.physiciangrowthpartners.com",
+    "linkedin": "http://www.linkedin.com/company/physician-growth-partners-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 662,
+    "company": "PineBridge Investments",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pinebridge.com",
+    "linkedin": "http://www.linkedin.com/company/pinebridge-investments",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 663,
+    "company": "Pioneer Fund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pioneerfund.vc",
+    "linkedin": "http://www.linkedin.com/company/pioneerfund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 664,
+    "company": "Provident Healthcare Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.providenthp.com",
+    "linkedin": "http://www.linkedin.com/company/provident-healthcare-partners-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 665,
+    "company": "Pulley",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pulley.com",
+    "linkedin": "http://www.linkedin.com/company/pulley-cap-table",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 666,
+    "company": "RCP Advisors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rcpadvisors.com",
+    "linkedin": "http://www.linkedin.com/company/rcp-advisors",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 667,
+    "company": "Reach Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.reachcapital.com",
+    "linkedin": "http://www.linkedin.com/company/reach-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 668,
+    "company": "Ribbit Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.ribbit.com",
+    "linkedin": "http://www.linkedin.com/company/ribbit-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 669,
+    "company": "Rogo",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rogo.ai",
+    "linkedin": "http://www.linkedin.com/company/rogoai",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 670,
+    "company": "ScaleView Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.scaleviewpartners.com",
+    "linkedin": "http://www.linkedin.com/company/scaleviewpartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 671,
+    "company": "Seacoast Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.seacoastcapital.com",
+    "linkedin": "http://www.linkedin.com/company/seacoast-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 672,
+    "company": "Sidekick Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sidekickpartners.com",
+    "linkedin": "http://www.linkedin.com/company/sidekick-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 673,
+    "company": "Silvercrest Asset Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.silvercrestgroup.com",
+    "linkedin": "http://www.linkedin.com/company/silvercrest-asset-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 674,
+    "company": "Soho Square Solutions",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sohosquaresolutions.com",
+    "linkedin": "http://www.linkedin.com/company/sohosquaresolutions",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 675,
+    "company": "Solomon Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.solomonpartners.com",
+    "linkedin": "http://www.linkedin.com/company/solomonpartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 676,
+    "company": "Sonoma Brands Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sonomabrands.com",
+    "linkedin": "http://www.linkedin.com/company/sonoma-brands-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 677,
+    "company": "Space Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.spacecapital.com",
+    "linkedin": "http://www.linkedin.com/company/spacecapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 678,
+    "company": "SpaceFund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.spacefund.com",
+    "linkedin": "http://www.linkedin.com/company/spacefund1",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 679,
+    "company": "Springboard Enterprises",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sb.co",
+    "linkedin": "http://www.linkedin.com/company/springboard-enterprises",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 680,
+    "company": "Sunstone Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sunstonepartners.com",
+    "linkedin": "http://www.linkedin.com/company/sunstone-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 681,
+    "company": "Tailwater Capital LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tailwatercapital.com",
+    "linkedin": "http://www.linkedin.com/company/tailwater-capital-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 682,
+    "company": "TAP Advisors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tapadvisors.com",
+    "linkedin": "http://www.linkedin.com/company/tap-advisors",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 683,
+    "company": "TAU Investment Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tau-investment.com",
+    "linkedin": "http://www.linkedin.com/company/tau-investment-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 684,
+    "company": "The Westly Group",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.westlygroup.com",
+    "linkedin": "http://www.linkedin.com/company/the-westly-group",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 685,
+    "company": "Tola Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tolacapital.com",
+    "linkedin": "http://www.linkedin.com/company/tola-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 686,
+    "company": "Traction Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tractioncapital.com",
+    "linkedin": "http://www.linkedin.com/company/traction-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 687,
+    "company": "Valiant Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.valiantcapital.com",
+    "linkedin": "http://www.linkedin.com/company/valiant-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 688,
+    "company": "Victory Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.vcm.com",
+    "linkedin": "http://www.linkedin.com/company/victory-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 689,
+    "company": "Virtas Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.virtaspartners.com",
+    "linkedin": "http://www.linkedin.com/company/virtaspartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 690,
+    "company": "Wall Street Oasis",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.wallstreetoasis.com",
+    "linkedin": "http://www.linkedin.com/company/wall-street-oasis",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 691,
+    "company": "Wall Street Prep",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.wallstreetprep.com",
+    "linkedin": "http://www.linkedin.com/company/wall-street-prep",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 692,
+    "company": "Wefunder",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.wefunder.com",
+    "linkedin": "http://www.linkedin.com/company/wefunder",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 693,
+    "company": "Yellow Wood Partners, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.yellowwoodpartners.com",
+    "linkedin": "http://www.linkedin.com/company/yellow-wood-partners-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 694,
+    "company": "Yellowstone Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.yellowstonecp.com",
+    "linkedin": "http://www.linkedin.com/company/yellowstone-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 695,
+    "company": "3 Rivers Capital, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.3riverscap.com",
+    "linkedin": "http://www.linkedin.com/company/3-rivers-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 696,
+    "company": "3G Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.3g-capital.com",
+    "linkedin": "http://www.linkedin.com/company/3g-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 697,
+    "company": "Abbott Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.abbottcapital.com",
+    "linkedin": "http://www.linkedin.com/company/abbott-capital-management-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 698,
+    "company": "Alkeon Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alkeoncapital.com",
+    "linkedin": "http://www.linkedin.com/company/alkeon-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 699,
+    "company": "Alta Park Capital, LP",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.altaparkcapital.com",
+    "linkedin": "http://www.linkedin.com/company/alta-park-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 700,
+    "company": "American Industrial Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.americanindustrial.com",
+    "linkedin": "http://www.linkedin.com/company/american-industrial-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 701,
+    "company": "AMR Action Fund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.amractionfund.com",
+    "linkedin": "http://www.linkedin.com/company/amr-action-fund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 702,
+    "company": "Ancor Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.ancorcapital.com",
+    "linkedin": "http://www.linkedin.com/company/ancor-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 703,
+    "company": "Anthos Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.anthoscapital.com",
+    "linkedin": "http://www.linkedin.com/company/anthos-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 704,
+    "company": "Apercen Partners LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.apercen.com",
+    "linkedin": "http://www.linkedin.com/company/apercen-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 705,
+    "company": "Apis & Heritage Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.apisheritage.com",
+    "linkedin": "http://www.linkedin.com/company/apisheritage",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 706,
+    "company": "Arctaris Impact Investors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.arctaris.com",
+    "linkedin": "http://www.linkedin.com/company/arctaris-impact-investors-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 707,
+    "company": "Argentum Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.argentumgroup.com",
+    "linkedin": "http://www.linkedin.com/company/argentum-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 708,
+    "company": "ArrowMark Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.arrowmarkpartners.com",
+    "linkedin": "http://www.linkedin.com/company/arrowmarkpartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 709,
+    "company": "Arsenal Growth Equity",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.arsenalgrowth.com",
+    "linkedin": "http://www.linkedin.com/company/arsenal-growth",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 710,
+    "company": "Atlanta Capital Management Co., LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.atlcap.com",
+    "linkedin": "http://www.linkedin.com/company/atlanta-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.atlanticstreetcapital.com",
+    "linkedin": "http://www.linkedin.com/company/atlantic-street-capital-advisors-inc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 712,
+    "company": "Auctus Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.auctuscapitalinc.com",
+    "linkedin": "http://www.linkedin.com/company/auctus-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 713,
+    "company": "Avista Healthcare Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.avistahealthcare.com",
+    "linkedin": "http://www.linkedin.com/company/avista-healthcare-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 714,
+    "company": "BDT & MSD Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.bdtmsd.com",
+    "linkedin": "http://www.linkedin.com/company/bdtmsd-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 715,
+    "company": "BH3 Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.bh-3.com",
+    "linkedin": "http://www.linkedin.com/company/bh3-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 716,
+    "company": "Bloom Equity Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.bloomequitypartners.com",
+    "linkedin": "http://www.linkedin.com/company/bloomequity",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 717,
+    "company": "Bravia Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.braviacapital.com",
+    "linkedin": "http://www.linkedin.com/company/bravia-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 718,
+    "company": "Caffeinated Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.caffeinated.com",
+    "linkedin": "http://www.linkedin.com/company/caffeinated-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 719,
+    "company": "Capital Allocators",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.capitalallocators.com",
+    "linkedin": "http://www.linkedin.com/company/capital-allocators",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 720,
+    "company": "Capital Factory",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.capitalfactory.com",
+    "linkedin": "http://www.linkedin.com/company/capital-factory",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 721,
+    "company": "CapitalG",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.capitalg.com",
+    "linkedin": "http://www.linkedin.com/company/capitalg",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 722,
+    "company": "CapitalSpring",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.capitalspring.com",
+    "linkedin": "http://www.linkedin.com/company/capitalspring",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 723,
+    "company": "Capstone Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.capstonepartners.com",
+    "linkedin": "http://www.linkedin.com/company/capstonepartnersinvestmentbank",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 724,
+    "company": "Carmel Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.carmelcapitalpartners.com",
+    "linkedin": "http://www.linkedin.com/company/carmelcapitalpartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 725,
+    "company": "Cave Creek Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.cavecreekcapital.com",
+    "linkedin": "http://www.linkedin.com/company/cave-creek-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 726,
+    "company": "Centerbridge Partners, L.P.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.centerbridge.com",
+    "linkedin": "http://www.linkedin.com/company/centerbridge-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 727,
+    "company": "CenterSquare Investment Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.centersquare.com",
+    "linkedin": "http://www.linkedin.com/company/centersquare",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 728,
+    "company": "CF Private Equity",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.cfprivateequity.com",
+    "linkedin": "http://www.linkedin.com/company/cf-private-equity",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 729,
+    "company": "ClearBridge Investments",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.clearbridge.com",
+    "linkedin": "http://www.linkedin.com/company/clearbridge-investments",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 730,
+    "company": "Corridor Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.corridorcapital.com",
+    "linkedin": "http://www.linkedin.com/company/corridor-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 731,
+    "company": "Cota Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.cotacapital.com",
+    "linkedin": "http://www.linkedin.com/company/cota-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 732,
+    "company": "Culmen Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.culmen-capital.com",
+    "linkedin": "http://www.linkedin.com/company/culmencapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 733,
+    "company": "Davidson Kempner Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.davidsonkempner.com",
+    "linkedin": "http://www.linkedin.com/company/davidson-kempner-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 734,
+    "company": "Deerpath Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.deerpathcapital.com",
+    "linkedin": "http://www.linkedin.com/company/deerpath-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 735,
+    "company": "DLP Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.dlpcapital.com",
+    "linkedin": "http://www.linkedin.com/company/dlpcapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 736,
+    "company": "Driehaus Capital Management LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.driehaus.com",
+    "linkedin": "http://www.linkedin.com/company/driehaus-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 737,
+    "company": "Dynamics Search Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.dspny.com",
+    "linkedin": "http://www.linkedin.com/company/dynamics-search-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 738,
+    "company": "Eight Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.eightcapital.com",
+    "linkedin": "http://www.linkedin.com/company/eight-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 739,
+    "company": "EIV Capital, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.eivcapital.com",
+    "linkedin": "http://www.linkedin.com/company/eiv-capital-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 740,
+    "company": "Emergence Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.emcap.com",
+    "linkedin": "http://www.linkedin.com/company/emergence-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 741,
+    "company": "Essex Investment Management Company, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.essexinvest.com",
+    "linkedin": "http://www.linkedin.com/company/essex-investment-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 742,
+    "company": "Excelsior Equity Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.xequitypartners.com",
+    "linkedin": "http://www.linkedin.com/company/excelsior-equity-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 743,
+    "company": "First Trust Capital Management L.P.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.firsttrustcapital.com",
+    "linkedin": "http://www.linkedin.com/company/first-trust-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 744,
+    "company": "Funden",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.funden.com",
+    "linkedin": "http://www.linkedin.com/company/funden",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 745,
+    "company": "GF Capital Management & Advisors, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.gfcap.com",
+    "linkedin": "http://www.linkedin.com/company/gf-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 746,
+    "company": "Great Point Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.gppfunds.com",
+    "linkedin": "http://www.linkedin.com/company/great-point-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 747,
+    "company": "Gridiron Capital LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.gridironcapital.com",
+    "linkedin": "http://www.linkedin.com/company/gridiron-capital-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 748,
+    "company": "Hall Capital Holdings, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hallcapitalllc.com",
+    "linkedin": "http://www.linkedin.com/company/hall-capital-holdings-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 749,
+    "company": "Hermitage Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hermitagecap.com",
+    "linkedin": "http://www.linkedin.com/company/hermitagecapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 750,
+    "company": "Highland Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hcp.com",
+    "linkedin": "http://www.linkedin.com/company/highland-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 751,
+    "company": "HUMAN CAPITAL",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.human.capital",
+    "linkedin": "http://www.linkedin.com/company/humandotcapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 752,
+    "company": "Hypatia Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.hypatiacapital.com",
+    "linkedin": "http://www.linkedin.com/company/hypatia-capital-group",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 753,
+    "company": "Institutional Limited Partners Association (ILPA)",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.ilpa.org",
+    "linkedin": "http://www.linkedin.com/company/institutional-limited-partners-association",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 754,
+    "company": "Investment Management Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.im.partners",
+    "linkedin": "http://www.linkedin.com/company/impintelligence",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 755,
+    "company": "King Street Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.kingstreet.com",
+    "linkedin": "http://www.linkedin.com/company/kingstreet-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 756,
+    "company": "Koinz Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.koinzcapital.com",
+    "linkedin": "http://www.linkedin.com/company/koinzcapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 757,
+    "company": "Kudu Investment Management, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.kuduinvestment.com",
+    "linkedin": "http://www.linkedin.com/company/kudu-investment-management-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 758,
+    "company": "Left Lane Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.leftlane.com",
+    "linkedin": "http://www.linkedin.com/company/left-lane-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 759,
+    "company": "Long Ridge Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.longridgepartners.com",
+    "linkedin": "http://www.linkedin.com/company/long-ridge-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 760,
+    "company": "Longitude Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.longitudecapital.com",
+    "linkedin": "http://www.linkedin.com/company/longitude-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 761,
+    "company": "Lowercarbon Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.lowercarbon.com",
+    "linkedin": "http://www.linkedin.com/company/lowercarbon-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 762,
+    "company": "Manulife | Comvest Credit Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.comvest.com",
+    "linkedin": "http://www.linkedin.com/company/manulife-comvest-credit-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 763,
+    "company": "Mercury Fund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.mercuryfund.com",
+    "linkedin": "http://www.linkedin.com/company/mercury-fund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 764,
+    "company": "Merit Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.meritcapital.com",
+    "linkedin": "http://www.linkedin.com/company/merit-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 765,
+    "company": "Millennium Bridge Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.millenniumbridge.com",
+    "linkedin": "http://www.linkedin.com/company/millenniumbridge",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 766,
+    "company": "Newflow Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.newflow.partners",
+    "linkedin": "http://www.linkedin.com/company/newflow-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 767,
+    "company": "Next Sparc Growth Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.nextsparc.com",
+    "linkedin": "http://www.linkedin.com/company/next-sparc-growth-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 768,
+    "company": "Notable Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.notablecap.com",
+    "linkedin": "http://www.linkedin.com/company/notablecapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 769,
+    "company": "Oak Street Funding",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.oakstreetfunding.com",
+    "linkedin": "http://www.linkedin.com/company/oak-street-funding",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 770,
+    "company": "Obra Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.obra.com",
+    "linkedin": "http://www.linkedin.com/company/obracapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 771,
+    "company": "Ocean Avenue Capital Partners, L.P.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.oceanavenuecapital.com",
+    "linkedin": "http://www.linkedin.com/company/ocean-avenue-capital-partners-l.p.",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 772,
+    "company": "Palladium Equity Partners, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.palladiumequity.com",
+    "linkedin": "http://www.linkedin.com/company/palladium-equity-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 773,
+    "company": "Pathway Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pathwaycapital.com",
+    "linkedin": "http://www.linkedin.com/company/pathway-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 774,
+    "company": "Patriot Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.patriot-capital.com",
+    "linkedin": "http://www.linkedin.com/company/patriot-capital-l-p-",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 775,
+    "company": "Plexus Capital, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.plexuscap.com",
+    "linkedin": "http://www.linkedin.com/company/plexus-capital-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 776,
+    "company": "PPC (Pritzker Private Capital)",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.ppcpartners.com",
+    "linkedin": "http://www.linkedin.com/company/pritzkerprivatecapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 777,
+    "company": "Prospect Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.prospectcap.com",
+    "linkedin": "http://www.linkedin.com/company/prospect-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 778,
+    "company": "Pzena Investment Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.pzena.com",
+    "linkedin": "http://www.linkedin.com/company/pzena-investment-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 779,
+    "company": "Quake Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.quakecapital.com",
+    "linkedin": "http://www.linkedin.com/company/quake-vc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 780,
+    "company": "Rainier Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rainierpartners.com",
+    "linkedin": "http://www.linkedin.com/company/rainier-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 781,
+    "company": "Rallyday Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rallydaypartners.com",
+    "linkedin": "http://www.linkedin.com/company/rallyday-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 782,
+    "company": "Red Cove Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.redcovecap.com",
+    "linkedin": "http://www.linkedin.com/company/redcovecapital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 783,
+    "company": "Resolute Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.resolutecap.com",
+    "linkedin": "http://www.linkedin.com/company/resolute-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 784,
+    "company": "Rialto Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rialtocapital.com",
+    "linkedin": "http://www.linkedin.com/company/rialto-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 785,
+    "company": "Riverwood Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.riverwoodcapital.com",
+    "linkedin": "http://www.linkedin.com/company/riverwood-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 786,
+    "company": "Riviera Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rivierapartners.com",
+    "linkedin": "http://www.linkedin.com/company/riviera-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 787,
+    "company": "Roark Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.roarkcapital.com",
+    "linkedin": "http://www.linkedin.com/company/roark-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 788,
+    "company": "Roebling Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.roeblingcp.com",
+    "linkedin": "http://www.linkedin.com/company/roebling-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 789,
+    "company": "RRML Capital Resources",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.rrmlcapital.com",
+    "linkedin": "http://www.linkedin.com/company/rrml-capital-resources",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 790,
+    "company": "Sageview Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sageviewcapital.com",
+    "linkedin": "http://www.linkedin.com/company/sageview-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 791,
+    "company": "Satori Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.satoricapital.com",
+    "linkedin": "http://www.linkedin.com/company/satori-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 792,
+    "company": "Sculptor Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sculptor.com",
+    "linkedin": "http://www.linkedin.com/company/sculptor-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 793,
+    "company": "Seaside Equity Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.seasideequity.com",
+    "linkedin": "http://www.linkedin.com/company/seaside-equity-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 794,
+    "company": "Silver Oak Services Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.silveroaksp.com",
+    "linkedin": "http://www.linkedin.com/company/silver-oak-services-partners-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 795,
+    "company": "Skyview Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.skyviewcapital.com",
+    "linkedin": "http://www.linkedin.com/company/skyview-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 796,
+    "company": "Solamere Capital, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.solamerecapital.com",
+    "linkedin": "http://www.linkedin.com/company/solamere-capital-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 797,
+    "company": "Sorenson Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.sorensoncapital.com",
+    "linkedin": "http://www.linkedin.com/company/sorenson-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 798,
+    "company": "Spring Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.springcap.com",
+    "linkedin": "http://www.linkedin.com/company/spring-capital-partners-ii-l.p.",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 799,
+    "company": "STORY3 Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.story3capital.com",
+    "linkedin": "http://www.linkedin.com/company/story3",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 800,
+    "company": "Strategic Value Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.svpglobal.com",
+    "linkedin": "http://www.linkedin.com/company/strategic-value-partners-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tennenbaumcapital.com",
+    "linkedin": "http://www.linkedin.com/company/tennenbaum-capital-partners-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 802,
+    "company": "Thrive Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.thrivecap.com",
+    "linkedin": "http://www.linkedin.com/company/thrive-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 803,
+    "company": "TimesSquare Capital Management, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.tscmllc.com",
+    "linkedin": "http://www.linkedin.com/company/timessquare-capital-management-llc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 804,
+    "company": "Trian Fund Management, L.P.",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.trianpartners.com",
+    "linkedin": "http://www.linkedin.com/company/trian-fund-management-l-p-",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 805,
+    "company": "Trinity Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.trinitycapital.com",
+    "linkedin": "http://www.linkedin.com/company/trinity-capital-inc",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 806,
+    "company": "Trinity Investors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.trinityinvestors.com",
+    "linkedin": "http://www.linkedin.com/company/trinityinvestors",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 807,
+    "company": "TriplePoint Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.triplepointcapital.com",
+    "linkedin": "http://www.linkedin.com/company/triplepoint-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.kfpefund.com",
+    "linkedin": "http://www.linkedin.com/company/unc-kenan-flagler-private-equity-fund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 809,
+    "company": "Victoria Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.victoriacp.com",
+    "linkedin": "http://www.linkedin.com/company/victoria-capital-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 810,
+    "company": "VMG Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.vmgpartners.com",
+    "linkedin": "http://www.linkedin.com/company/vmg-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 811,
+    "company": "Wildcat Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.wildcatcap.com",
+    "linkedin": "http://www.linkedin.com/company/wildcat-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 812,
+    "company": "Winona Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.winonacapital.com",
+    "linkedin": "http://www.linkedin.com/company/winona-capital-management",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 813,
+    "company": "Yellowstone Capital Partners, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.yellowstonecapital.com",
+    "linkedin": "http://www.linkedin.com/company/yellowstone-capital",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 814,
+    "company": "25madison",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.25madison.com",
+    "linkedin": "http://www.linkedin.com/company/25madison",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 815,
+    "company": "26North",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.26n.com",
+    "linkedin": "http://www.linkedin.com/company/26-north",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 816,
+    "company": "414 Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.414c.com",
+    "linkedin": "http://www.linkedin.com/company/414-capital-inc-",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 817,
+    "company": "777 Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.777part.com",
+    "linkedin": "http://www.linkedin.com/company/777partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 818,
+    "company": "A-Grade Investments",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.agradeinvestments.com",
+    "linkedin": "http://www.linkedin.com/company/a-grade-investments",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 819,
+    "company": "Accelerize 360",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.accelerize360.com",
+    "linkedin": "http://www.linkedin.com/company/accelerize360",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 820,
+    "company": "Access Holdings",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.accessholdings.com",
+    "linkedin": "http://www.linkedin.com/company/access-holdings",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 821,
+    "company": "ACRE",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.acremgt.com",
+    "linkedin": "http://www.linkedin.com/company/acremgt",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 822,
+    "company": "Aduro Advisors",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.aduroadvisors.com",
+    "linkedin": "http://www.linkedin.com/company/aduro-advisors",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 823,
+    "company": "AEC Advisors LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.aecadvisors.com",
+    "linkedin": "http://www.linkedin.com/company/aec-advisors",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 824,
+    "company": "Affinity.co",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.affinity.co",
+    "linkedin": "http://www.linkedin.com/company/project-affinity",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 825,
+    "company": "AgFunder",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.https:agfunder.com",
+    "linkedin": "http://www.linkedin.com/company/agfunder",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 826,
+    "company": "Alari Search, LLC",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alarisearch.com",
+    "linkedin": "http://www.linkedin.com/company/alari-search",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 827,
+    "company": "AlchemistX",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alchemistx.net",
+    "linkedin": "http://www.linkedin.com/company/alchemistx",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 828,
+    "company": "ALCOR Fund",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alcorfund.com",
+    "linkedin": "http://www.linkedin.com/company/alcor-fund",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 829,
+    "company": "Alkymi",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.alkymi.io",
+    "linkedin": "http://www.linkedin.com/company/alkymi",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 830,
+    "company": "All Raise",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.allraise.org",
+    "linkedin": "http://www.linkedin.com/company/allraise",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 831,
+    "company": "Allvue Systems",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.allvuesystems.com",
+    "linkedin": "http://www.linkedin.com/company/allvuesystems",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 832,
+    "company": "Anthemis Group",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.anthemis.com",
+    "linkedin": "http://www.linkedin.com/company/anthemis-group-sa",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 833,
+    "company": "Anzu Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.anzupartners.com",
+    "linkedin": "http://www.linkedin.com/company/anzupartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 834,
+    "company": "Arcis Golf",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.arcisgolf.com",
+    "linkedin": "http://www.linkedin.com/company/arcis-golf",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 835,
+    "company": "Arctos",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.arctospartners.com",
+    "linkedin": "http://www.linkedin.com/company/arctospartners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 836,
+    "company": "Argand Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.argandequity.com",
+    "linkedin": "http://www.linkedin.com/company/argand-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 837,
+    "company": "Ascension Advisory",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.ascensionadvisory.com",
+    "linkedin": "http://www.linkedin.com/company/ascensionadvisory",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 838,
+    "company": "Atlanta Tech Village",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.atlantatechvillage.com",
+    "linkedin": "http://www.linkedin.com/company/atlanta-tech-village",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 839,
+    "company": "Atlas Private Equity Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.atlaspep.com",
+    "linkedin": "http://www.linkedin.com/company/atlas-private-equity-partners",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 840,
+    "company": "Atlas Search",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "http://www.atlassearchllc.com",
+    "linkedin": "http://www.linkedin.com/company/atlas-search",
+    "sector": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "row": 842,
+    "company": "Wind Point Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.windpointpartners.com",
+    "linkedin": "https://www.linkedin.com/company/wind-point-partners",
+    "sector": "Business Services, Industrial, Consumer",
+    "status": "Researched"
+  },
+  {
+    "row": 843,
+    "company": "American Industrial Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.americanindustrial.com",
+    "linkedin": "https://www.linkedin.com/company/american-industrial-partners",
+    "sector": "Industrial Services, Business Services, IT Services",
+    "status": "Researched"
+  },
+  {
+    "row": 844,
+    "company": "Wind Point Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.windpointpartners.com",
+    "linkedin": "https://www.linkedin.com/company/wind-point-partners",
+    "sector": "Business services, industrial, consumer",
+    "status": "Researched"
+  },
+  {
+    "row": 851,
+    "company": "Wynnchurch Capital",
+    "contactName": "John Hatherly",
+    "email": "(empty)",
+    "website": "https://www.wynnchurch.com",
+    "linkedin": "https://www.linkedin.com/company/wynnchurch-capital",
+    "sector": "Industrial Services, Business Services, Manufacturing, Distribution",
+    "status": "New"
+  },
+  {
+    "row": 852,
+    "company": "McNally Capital",
+    "contactName": "Ravi P. Shah",
+    "email": "(empty)",
+    "website": "https://www.mcnallycapital.com",
+    "linkedin": "https://www.linkedin.com/company/mcnally-capital",
+    "sector": "Aerospace & Defense, Industrial Technology & Services",
+    "status": "Researched"
+  },
+  {
+    "row": 853,
+    "company": "Peak Rock Capital",
+    "contactName": "Anthony DiSimone",
+    "email": "(empty)",
+    "website": "https://www.peakrockcapital.com",
+    "linkedin": "https://www.linkedin.com/company/peak-rock-capital",
+    "sector": "Business Services, Consumer, Industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 856,
+    "company": "Peak Rock Capital",
+    "contactName": "Anthony DiSimone",
+    "email": "(empty)",
+    "website": "https://www.peakrockcapital.com",
+    "linkedin": "https://www.linkedin.com/company/peak-rock-capital",
+    "sector": "Consumer, technology, industrial, healthcare services",
+    "status": "Researched"
+  },
+  {
+    "row": 858,
+    "company": "CIVC Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.civc.com",
+    "linkedin": "https://www.linkedin.com/company/civc-partners/",
+    "sector": "Business services, healthcare, industrial",
+    "status": "Researched"
+  },
+  {
+    "row": 860,
+    "company": "CCMP Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.ccmpcapital.com",
+    "linkedin": "https://www.linkedin.com/company/ccmp-capital/",
+    "sector": "Consumer, healthcare, industrial, services",
+    "status": "Researched"
+  },
+  {
+    "row": 861,
+    "company": "Wynnchurch Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.wynnchurch.com",
+    "linkedin": "https://www.linkedin.com/company/wynnchurch-capital/",
+    "sector": "Industrial services, business services, consumer",
+    "status": "Researched"
+  },
+  {
+    "row": 862,
+    "company": "The Riverside Company",
+    "contactName": "Eric Feldman",
+    "email": "(empty)",
+    "website": "https://www.riversidecompany.com",
+    "linkedin": "https://www.linkedin.com/company/the-riverside-company",
+    "sector": "Business services, consumer, education, healthcare, software, specialty mfg",
+    "status": "Needs Email"
+  },
+  {
+    "row": 863,
+    "company": "Mainsail Partners",
+    "contactName": "Dan Blake",
+    "email": "(empty)",
+    "website": "https://mainsailpartners.com",
+    "linkedin": "https://www.linkedin.com/company/mainsail-partners",
+    "sector": "B2B SaaS, tech-enabled services",
+    "status": "Needs Email"
+  },
+  {
+    "row": 864,
+    "company": "Accel-KKR",
+    "contactName": "Tom Barnds",
+    "email": "(empty)",
+    "website": "https://www.accel-kkr.com",
+    "linkedin": "https://www.linkedin.com/company/accel-kkr",
+    "sector": "Software, tech-enabled services",
+    "status": "Needs Email"
+  },
+  {
+    "row": 867,
+    "company": "Peak Rock Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.peakrockcapital.com",
+    "linkedin": "https://www.linkedin.com/company/peak-rock-capital",
+    "sector": "Business Services, Consumer, Industrial",
+    "status": "Needs Enrichment"
+  },
+  {
+    "row": 868,
+    "company": "Accel-KKR",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.accel-kkr.com",
+    "linkedin": "https://www.linkedin.com/company/accel-kkr",
+    "sector": "Software, Tech-Enabled Services",
+    "status": "Needs Enrichment"
+  },
+  {
+    "row": 869,
+    "company": "Satori Capital",
+    "contactName": "Chad Cook",
+    "email": "(empty)",
+    "website": "https://www.satoricapital.com",
+    "linkedin": "https://www.linkedin.com/company/satori-capital",
+    "sector": "Business Services, Consumer, Industrial",
+    "status": "New"
+  },
+  {
+    "row": 870,
+    "company": "Carousel Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.carouselcapital.com",
+    "linkedin": "https://www.linkedin.com/company/carousel-capital",
+    "sector": "Business Services, Consumer, Industrial (Southeast US)",
+    "status": "New"
+  },
+  {
+    "row": 871,
+    "company": "ICV Partners",
+    "contactName": "Willie E. Woods",
+    "email": "(empty)",
+    "website": "https://www.icvpartners.com",
+    "linkedin": "https://www.linkedin.com/company/icv-partners",
+    "sector": "Business Services, Healthcare, Industrial",
+    "status": "New"
+  },
+  {
+    "row": 872,
+    "company": "Salt Creek Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://saltcreekcap.com",
+    "linkedin": "",
+    "sector": "Business Services, Industrial, Manufacturing",
+    "status": "New"
+  },
+  {
+    "row": 874,
+    "company": "Warren Equity Partners",
+    "contactName": "Dr. David K. Park / Michael Synn",
+    "email": "(empty)",
+    "website": "https://warrenequity.com",
+    "linkedin": "https://www.linkedin.com/company/warren-equity-partners",
+    "sector": "Business services, industrial, consumer, infrastructure",
+    "status": "Needs Enrichment"
+  },
+  {
+    "row": 883,
+    "company": "Arsenal Capital Partners",
+    "contactName": "Dimitris Agrafiotis",
+    "email": "(empty)",
+    "website": "https://www.arsenalcapital.com",
+    "linkedin": "https://www.linkedin.com/company/arsenal-capital-partners",
+    "sector": "Healthcare, Industrial Growth",
+    "status": "New"
+  },
+  {
+    "row": 884,
+    "company": "Tower Arch Capital",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://towerarch.com",
+    "linkedin": "https://www.linkedin.com/company/tower-arch-capital",
+    "sector": "Business Services, Industrial, Consumer",
+    "status": "New"
+  },
+  {
+    "row": 885,
+    "company": "Peak Rock Capital",
+    "contactName": "Anthony DiSimone",
+    "email": "(empty)",
+    "website": "https://www.peakrockcapital.com",
+    "linkedin": "https://www.linkedin.com/company/peak-rock-capital",
+    "sector": "Business Services, Consumer, Industrial, Healthcare",
+    "status": "New"
+  },
+  {
+    "row": 887,
+    "company": "Peak Rock Capital",
+    "contactName": "Anthony DiSimone",
+    "email": "(empty)",
+    "website": "https://www.peakrockcapital.com",
+    "linkedin": "https://www.linkedin.com/company/peak-rock-capital",
+    "sector": "Consumer, technology, industrial, healthcare",
+    "status": "New"
+  },
+  {
+    "row": 888,
+    "company": "Corridor Capital",
+    "contactName": "Craig Enenstein",
+    "email": "(empty)",
+    "website": "https://corridorcapital.com",
+    "linkedin": "https://www.linkedin.com/company/corridor-capital",
+    "sector": "Business services, industrial, specialty distribution",
+    "status": "New"
+  },
+  {
+    "row": 889,
+    "company": "Arsenal Capital Partners",
+    "contactName": "Christine Livingston",
+    "email": "(empty)",
+    "website": "https://www.arsenalcapital.com",
+    "linkedin": "https://www.linkedin.com/company/arsenal-capital-partners",
+    "sector": "Healthcare, Industrial Growth, Specialty Industrials",
+    "status": "DUPLICATE"
+  },
+  {
+    "row": 891,
+    "company": "Odyssey Investment Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.odysseyinvestment.com",
+    "linkedin": "https://www.linkedin.com/company/odyssey-investment-partners",
+    "sector": "Industrial Manufacturing, Industrial Services, Business Services",
+    "status": "Needs Enrichment"
+  },
+  {
+    "row": 892,
+    "company": "Arsenal Capital Partners",
+    "contactName": "Dimitris Agrafiotis",
+    "email": "(empty)",
+    "website": "https://www.arsenalcapital.com",
+    "linkedin": "https://www.linkedin.com/company/arsenal-capital-partners",
+    "sector": "Healthcare, Industrial Growth, Specialty Chemicals",
+    "status": "New - Needs Email"
+  },
+  {
+    "row": 893,
+    "company": "Symphony Technology Group (STG)",
+    "contactName": "Chris Langone",
+    "email": "(empty)",
+    "website": "https://www.stg.com",
+    "linkedin": "https://www.linkedin.com/company/symphony-technology-group",
+    "sector": "Software, Data, Analytics, Tech-Enabled Services",
+    "status": "New - Needs Email"
+  },
+  {
+    "row": 894,
+    "company": "Sverica Capital Management",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://sverica.com",
+    "linkedin": "https://www.linkedin.com/company/sverica-capital-management",
+    "sector": "Healthcare, Industrial, Technology, Business Services",
+    "status": "DUPLICATE"
+  },
+  {
+    "row": 895,
+    "company": "Aeonic Partners",
+    "contactName": "Brad Resnick",
+    "email": "(empty)",
+    "website": "https://www.aeonicpartners.com",
+    "linkedin": "https://www.linkedin.com/company/aeonic-partners",
+    "sector": "Business Services, Healthcare, Tech-Enabled Services, Training/Education",
+    "status": "New"
+  },
+  {
+    "row": 896,
+    "company": "Argonaut Private Equity",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://argonautpe.com",
+    "linkedin": "https://www.linkedin.com/company/argonautpe/",
+    "sector": "Industrials, Services",
+    "status": "New"
+  },
+  {
+    "row": 901,
+    "company": "Peak Rock Capital",
+    "contactName": "Anthony DiSimone",
+    "email": "(empty)",
+    "website": "https://www.peakrockcapital.com",
+    "linkedin": "https://www.linkedin.com/company/peak-rock-capital",
+    "sector": "Business Services, Consumer, Industrial",
+    "status": "New"
+  },
+  {
+    "row": 902,
+    "company": "Altamont Capital Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://altamontcapital.com",
+    "linkedin": "https://www.linkedin.com/company/altamont-capital-partners",
+    "sector": "Consumer, Business Services, Industrial",
+    "status": "New"
+  },
+  {
+    "row": 906,
+    "company": "Great Range Capital",
+    "contactName": "Ryan Sprott",
+    "email": "(empty)",
+    "website": "https://greatrangecapital.com",
+    "linkedin": "https://www.linkedin.com/company/great-range-capital",
+    "sector": "Business Services, Industrial Services, Healthcare, Consumer",
+    "status": "Enriched"
+  },
+  {
+    "row": 907,
+    "company": "Odyssey Investment Partners",
+    "contactName": "(empty)",
+    "email": "(empty)",
+    "website": "https://www.odysseyinvestment.com",
+    "linkedin": "https://www.linkedin.com/company/odyssey-investment-partners",
+    "sector": "Business Services, Industrial, Healthcare Services",
+    "status": "Enriched"
+  }
+]

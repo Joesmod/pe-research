@@ -11,10 +11,11 @@ async function readSheet() {
   
   const response = await sheets.spreadsheets.values.get({
     spreadsheetId,
-    range: 'Sheet1!A:J'
+    range: 'Sheet1!A:K'
   });
   
-  console.log(JSON.stringify(response.data.values, null, 2));
+  const rows = response.data.values;
+  console.log(JSON.stringify(rows, null, 2));
 }
 
 readSheet().catch(console.error);

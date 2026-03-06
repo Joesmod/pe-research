@@ -1,0 +1,167 @@
+[
+  {
+    "rowIndex": 611,
+    "company": "GiantLeap Capital",
+    "website": "http://www.giantleapcapital.com",
+    "currentContact": "Himanshu Singh",
+    "currentTitle": "Founder and Managing Partner",
+    "currentEmail": "samir@giantleapcapital.com",
+    "status": "Needs email - try website contact form",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 666,
+    "company": "RCP Advisors",
+    "website": "https://rcpadvisors.com",
+    "currentContact": "Thomas Danis Jr.",
+    "currentTitle": "Managing Partner and Co-Founder",
+    "currentEmail": "info@ribbitcap.com",
+    "status": "Needs direct email",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 743,
+    "company": "First Trust Capital Management L.P.",
+    "website": "http://www.firsttrustcapital.com",
+    "currentContact": "Michael Peck, CFA",
+    "currentTitle": "CEO and Co-Chief Investment Officer",
+    "currentEmail": "",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 755,
+    "company": "King Street Capital Management",
+    "website": "http://www.kingstreet.com",
+    "currentContact": "Brian J. Higgins",
+    "currentTitle": "Founder, Managing Partner",
+    "currentEmail": "",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 758,
+    "company": "Left Lane Capital",
+    "website": "http://www.leftlane.com",
+    "currentContact": "Vinny Pujji",
+    "currentTitle": "Managing Partner, Co-Founder",
+    "currentEmail": "",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 761,
+    "company": "Lowercarbon Capital",
+    "website": "http://www.lowercarbon.com",
+    "currentContact": "Chris Sacca",
+    "currentTitle": "Managing Partner, Co-Founder",
+    "currentEmail": "",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 762,
+    "company": "Manulife | Comvest Credit Partners",
+    "website": "http://www.comvest.com",
+    "currentContact": "Robert O'Sullivan",
+    "currentTitle": "Global Head",
+    "currentEmail": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 763,
+    "company": "Mercury Fund",
+    "website": "http://www.mercuryfund.com",
+    "currentContact": "Blair Garrou",
+    "currentTitle": "Managing Partner, Co-Founder",
+    "currentEmail": "contact@mercuryfund.com",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 766,
+    "company": "Newflow Partners",
+    "website": "http://www.newflow.partners",
+    "currentContact": "Jason Levine",
+    "currentTitle": "Managing Partner, Founder",
+    "currentEmail": "",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 768,
+    "company": "Notable Capital",
+    "website": "http://www.notablecap.com",
+    "currentContact": "Glenn Solomon",
+    "currentTitle": "Managing Partner",
+    "currentEmail": "",
+    "status": "Partial - LinkedIn Only",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 778,
+    "company": "Pzena Investment Management",
+    "website": "http://www.pzena.com",
+    "currentContact": "Jacob Zodikoff",
+    "currentTitle": "",
+    "currentEmail": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 783,
+    "company": "Resolute Capital Partners",
+    "website": "http://www.resolutecap.com",
+    "currentContact": "Bill Nutter",
+    "currentTitle": "Managing Partner & Founder",
+    "currentEmail": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 784,
+    "company": "Rialto Capital",
+    "website": "http://www.rialtocapital.com",
+    "currentContact": "Jeff Krasnoff",
+    "currentTitle": "Founder",
+    "currentEmail": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 785,
+    "company": "Riverwood Capital",
+    "website": "http://www.riverwoodcapital.com",
+    "currentContact": "Sr. Director, Marketing & Communications",
+    "currentTitle": "caitlin@rwcm.com",
+    "currentEmail": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 786,
+    "company": "Riviera Partners",
+    "website": "http://www.rivierapartners.com",
+    "currentContact": "Jacob Zodikoff",
+    "currentTitle": "",
+    "currentEmail": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  }
+]

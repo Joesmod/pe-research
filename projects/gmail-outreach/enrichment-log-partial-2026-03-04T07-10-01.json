@@ -1,0 +1,32 @@
+[
+  {
+    "row": 93,
+    "firm": "Apax Partners",
+    "status": "not_found"
+  },
+  {
+    "row": 117,
+    "firm": "Keltic Financial Partners",
+    "status": "not_found"
+  },
+  {
+    "row": 216,
+    "firm": "Falconhead Capital",
+    "status": "not_found"
+  },
+  {
+    "row": 231,
+    "firm": "Clayton Dubilier & Rice (CD&R)",
+    "status": "not_found"
+  },
+  {
+    "row": 625,
+    "firm": "Jensen Partners",
+    "status": "not_found"
+  },
+  {
+    "row": 631,
+    "firm": "Lead Edge Capital",
+    "status": "not_found"
+  }
+]

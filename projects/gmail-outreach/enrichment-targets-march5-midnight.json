@@ -1,0 +1,152 @@
+[
+  {
+    "row": 117,
+    "firmName": "Keltic Financial Partners",
+    "website": "https://www.kelticfp.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 579,
+    "firmName": "Cardea Group",
+    "website": "http://www.thecardeagroup.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 620,
+    "firmName": "HRCap, Inc.",
+    "website": "http://www.hrcap.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 621,
+    "firmName": "HSP - Henkel Search Partners",
+    "website": "http://www.henkelsp.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@henkelsp.com",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 625,
+    "firmName": "Jensen Partners",
+    "website": "Sasha Jensen",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 626,
+    "firmName": "Jett Capital Advisors",
+    "website": "http://www.jettcapital.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 630,
+    "firmName": "Kinect Capital",
+    "website": "http://www.kinectcapital.org",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 635,
+    "firmName": "Loeb.nyc",
+    "website": "http://www.loeb.nyc",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@midoceanpartners.com",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 654,
+    "firmName": "Odyssey Search Partners",
+    "website": "http://www.odysseysearchpartners.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 666,
+    "firmName": "RCP Advisors",
+    "website": "http://www.rcpadvisors.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@ribbitcap.com",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 682,
+    "firmName": "TAP Advisors",
+    "website": "http://www.tapadvisors.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@tapadvisors.com",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 683,
+    "firmName": "TAU Investment Management",
+    "website": "http://www.tau-investment.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@tau-investment.com",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 688,
+    "firmName": "Victory Capital",
+    "website": "http://www.vcm.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "ir@vcm.com",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 690,
+    "firmName": "Wall Street Oasis",
+    "website": "http://www.wallstreetoasis.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 691,
+    "firmName": "Wall Street Prep",
+    "website": "http://www.wallstreetprep.com",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "isPriority": true,
+    "reason": "Generic/missing email"
+  }
+]

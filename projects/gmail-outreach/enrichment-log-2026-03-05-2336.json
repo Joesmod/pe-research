@@ -1,0 +1,202 @@
+{
+  "cronRun": "2026-03-05T23:36:00-06:00",
+  "status": "completed_with_limitations",
+  "technicalIssues": "Unable to run node scripts - PATH configuration issue",
+  "firmsResearched": 5,
+  "newEnrichments": 0,
+  "findings": [
+    {
+      "rowIndex": 700,
+      "company": "American Industrial Partners",
+      "status": "previously_enriched",
+      "contact": {
+        "name": "Lawrence Steyn",
+        "title": "Partner, Business Development",
+        "email": "lsteyn@americanindustrial.com",
+        "linkedin": "https://www.linkedin.com/in/lawrencesteyn/",
+        "phone": "212.916.8145",
+        "source": "Official AIP contact page + ZoomInfo confirmation",
+        "verified": true
+      },
+      "additionalContacts": [
+        {
+          "name": "Daryl Yap",
+          "title": "Partner, Business Development",
+          "profileUrl": "https://americanindustrial.com/team/daryl-yap/",
+          "emailPattern": "dyap@americanindustrial.com",
+          "verified": false
+        },
+        {
+          "name": "Jamie Tam",
+          "title": "Partner, Business Development",
+          "profileUrl": "https://americanindustrial.com/team/jamie-tam/",
+          "emailPattern": "jtam@americanindustrial.com",
+          "verified": false
+        }
+      ],
+      "notes": "Lawrence Steyn already enriched in previous run (March 5 11PM). Additional BD partners identified but emails not verified."
+    },
+    {
+      "rowIndex": 706,
+      "company": "Arctaris Impact Investors",
+      "status": "contacts_identified_no_public_email",
+      "website": "https://www.arctaris.com",
+      "contacts": [
+        {
+          "name": "Jonathan Tower",
+          "title": "Founder & Managing Partner",
+          "linkedin": "https://www.linkedin.com/in/jonathan-tower/",
+          "emailPattern": "jtower@arctaris.com",
+          "source": "RocketReach (paid tool)",
+          "verified": false
+        },
+        {
+          "name": "Anita Graham",
+          "title": "Managing Director",
+          "linkedin": "https://www.linkedin.com/in/anita-graham-33923922b/",
+          "verified": false
+        },
+        {
+          "name": "Andrew Gibbs",
+          "title": "Managing Director",
+          "linkedin": "https://www.linkedin.com/in/andrew-gibbs-cfa-59169926/",
+          "verified": false
+        }
+      ],
+      "notes": "Website has cookie wall. Former BD Partner Jason Sanders left firm. Impact investing focus, Opportunity Zones. No publicly published emails found.",
+      "recommendation": "Skip unless paid tool/LinkedIn InMail available"
+    },
+    {
+      "rowIndex": 702,
+      "company": "Ancor Capital Partners",
+      "status": "generic_email_only",
+      "website": "https://ancorcapital.com",
+      "genericEmail": "info@ancorcapital.com",
+      "contacts": [
+        {
+          "name": "Mitchell Green",
+          "title": "Principal & Chief Financial Officer",
+          "verified": false
+        },
+        {
+          "name": "Ken Berger",
+          "title": "Investor (joined 2023)",
+          "verified": false
+        }
+      ],
+      "notes": "Operations-focused PE, healthcare/manufacturing. Team page shows names but no direct emails.",
+      "recommendation": "Low priority - no accessible BD contacts"
+    },
+    {
+      "rowIndex": 711,
+      "company": "Atlantic Street Capital Advisors, Inc.",
+      "status": "contact_identified_no_public_email",
+      "website": "https://www.atlanticstreetcapital.com",
+      "phone": "(332) 217-0667",
+      "contacts": [
+        {
+          "name": "Harrison Graham",
+          "title": "Vice President, Business Development",
+          "linkedin": "https://www.linkedin.com/in/harrison-graham-8aa86069/",
+          "emailPattern": "hgraham@atlanticstreetcapital.com",
+          "source": "Growjo/ZoomInfo (paid tools)",
+          "verified": false,
+          "background": "Former EY-Parthenon consultant, leads BD function"
+        }
+      ],
+      "notes": "Lower middle market PE, entrepreneur focus. Harrison Graham identified as BD lead but email not published. Profile page returns 404.",
+      "recommendation": "Potential target with paid tool access or LinkedIn InMail"
+    },
+    {
+      "rowIndex": 704,
+      "company": "Apercen Partners LLC",
+      "status": "not_pe_firm",
+      "website": "https://www.apercen.com",
+      "actualBusiness": "Tax consulting firm for high-net-worth individuals",
+      "recommendation": "REMOVE from PE target list"
+    }
+  ],
+  "nonPEFirmsIdentified": [
+    {
+      "rowIndex": 704,
+      "company": "Apercen Partners LLC",
+      "actualBusiness": "Tax consulting"
+    },
+    {
+      "rowIndex": 620,
+      "company": "HRCap, Inc.",
+      "actualBusiness": "Executive search/recruiting"
+    },
+    {
+      "rowIndex": 621,
+      "company": "HSP - Henkel Search Partners",
+      "actualBusiness": "Executive search"
+    },
+    {
+      "rowIndex": 625,
+      "company": "Jensen Partners",
+      "actualBusiness": "Executive search"
+    },
+    {
+      "rowIndex": 654,
+      "company": "Odyssey Search Partners",
+      "actualBusiness": "Executive search"
+    },
+    {
+      "rowIndex": 690,
+      "company": "Wall Street Oasis",
+      "actualBusiness": "Finance education/forum"
+    },
+    {
+      "rowIndex": 691,
+      "company": "Wall Street Prep",
+      "actualBusiness": "Finance training"
+    },
+    {
+      "rowIndex": 692,
+      "company": "Wefunder",
+      "actualBusiness": "Crowdfunding platform"
+    }
+  ],
+  "deadFirms": [
+    {
+      "rowIndex": 117,
+      "company": "Keltic Financial Partners",
+      "issue": "Website down"
+    },
+    {
+      "rowIndex": 258,
+      "company": "Bindley Capital Partners",
+      "issue": "Website issues"
+    }
+  ],
+  "megaFirmsSkip": [
+    {
+      "rowIndex": 696,
+      "company": "3G Capital",
+      "reason": "Major fund, no public contacts, unlikely to respond"
+    },
+    {
+      "rowIndex": 714,
+      "company": "BDT & MSD Partners",
+      "reason": "Very high-profile, no team contacts published"
+    }
+  ],
+  "recommendations": {
+    "immediate": [
+      "Fix node PATH issue in cron environment to enable automated scripts",
+      "Consider paid enrichment tools (ZoomInfo, RocketReach, Apollo) for faster results",
+      "Target mid-market PE firms ($500M-$2B AUM) with service-heavy focus",
+      "Check SEC filings, press releases, conference bios for published contacts",
+      "Mark non-PE firms as 'Skip' in sheet (search firms, education, etc.)"
+    ],
+    "strategic": [
+      "Build list of PE firms with active BD/investor relations teams",
+      "Focus on healthcare PE, industrial PE, business services PE",
+      "Remove 'Jacob Zodikoff' placeholder rows and research properly",
+      "Track firms with recent portfolio add-ons (signal of activity)",
+      "Consider LinkedIn Sales Navigator for InMail access"
+    ]
+  },
+  "nextSteps": "System administrator needs to configure node PATH. Next cron run should focus on manual research for 10-15 most promising PE firms with service-heavy portfolios."
+}

@@ -1,0 +1,27 @@
+🔬 PE Research & Enrichment Cron - March 6, 3:06 AM
+
+📊 FINDINGS:
+• 128 active leads need enrichment (all have "partial" status)
+• Researched 15 firms manually + Apollo API attempt
+• Found 2 verified PE firms: Gridiron Capital, Great Point Partners
+• Apollo API failed (free tier shows obfuscated emails only)
+
+⚠️ CHALLENGE:
+Most PE firms DON'T publish individual emails on websites (anti-solicitation by design)
+- Team pages list names/titles only
+- Contact forms or generic emails only
+- Aggregator sites (ContactOut/RocketReach) HAVE the emails but aren't "official sources"
+
+❓ DECISION NEEDED:
+**Verification Standard:**
+1. Official only (website/press/SEC) → Can enrich ~10-15 leads (firms that publish emails)
+2. Allow aggregators (ContactOut marked as source) → Can enrich all 128 leads quickly
+3. Use generic emails (info@, contact@) → Always available, lower response rate
+4. LinkedIn outreach for firms without emails
+
+🎯 RECOMMENDATION: Option 2 (aggregator + notation)
+Rationale: Industry standard for B2B PE outreach, better than guessing patterns
+
+📁 Created: CRON-PE-ENRICHMENT-2026-03-06-306AM.md (full report)
+
+Awaiting guidance on verification standard before continuing enrichment.

@@ -1,0 +1,137 @@
+[
+  {
+    "index": 92,
+    "company": "Apax Partners",
+    "contactName": "Mark Beith",
+    "title": "Partner (Apax Digital)",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 116,
+    "company": "Keltic Financial Partners",
+    "contactName": "Not identified",
+    "title": "N/A",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 215,
+    "company": "Falconhead Capital",
+    "contactName": "David Moross",
+    "title": "Founder, Chairman & CEO",
+    "email": "",
+    "status": "Researched - No Email",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 220,
+    "company": "Wicks Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 230,
+    "company": "Clayton Dubilier & Rice (CD&R)",
+    "contactName": "Vindi Banga",
+    "title": "Operating Partner",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 241,
+    "company": "Cranemere Group",
+    "contactName": "Kamil Salame",
+    "title": "Chief Executive Officer",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 248,
+    "company": "Tenex Capital Management",
+    "contactName": "Stephens Johnson",
+    "title": "Managing Director, Head of Business Development",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 255,
+    "company": "Oak Investment Partners",
+    "contactName": "Ifty Ahmed",
+    "title": "General Partner",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 257,
+    "company": "Bindley Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 258,
+    "company": "BayBoston Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 259,
+    "company": "MSD Partners",
+    "contactName": "R. Craig Collister",
+    "title": "Managing Partner",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 260,
+    "company": "RoundTable Healthcare Partners",
+    "contactName": "R. Craig Collister",
+    "title": "Managing Partner",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  },
+  {
+    "index": 263,
+    "company": "Morgan Stanley Expansion Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoContact"
+  },
+  {
+    "index": 275,
+    "company": "Harkness Capital Partners",
+    "contactName": "Richard Perry",
+    "title": "Principal at Perry Companies, Inc.",
+    "email": "info@harknesscapital.com",
+    "status": "Dead Lead",
+    "reason": "GenericEmail"
+  },
+  {
+    "index": 282,
+    "company": "Station Partners",
+    "contactName": "Erica Curello",
+    "title": "Vice President, Business Development",
+    "email": "",
+    "status": "Dead Lead",
+    "reason": "NoEmail"
+  }
+]

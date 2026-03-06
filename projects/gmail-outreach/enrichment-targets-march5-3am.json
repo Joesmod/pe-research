@@ -1,0 +1,3372 @@
+[
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 342,
+    "company": "Farragut Capital Partners",
+    "contact": "Javier Aguirre",
+    "email": "jaguirre@farragutcapitalpartners.com",
+    "website": "http://www.farragutcapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 353,
+    "company": "AUA Private Equity Partners",
+    "contact": "Kyce Chihi",
+    "email": "kyce.chihi@auaequity.com",
+    "website": "http://www.auaequity.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 354,
+    "company": "Benford Capital Partners",
+    "contact": "Brian Behm",
+    "email": "bbehm@benfordcapital.com",
+    "website": "http://www.benfordcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 355,
+    "company": "New Capital Partners",
+    "contact": "Trey Miller",
+    "email": "tmiller@newcapitalpartners.com",
+    "website": "http://www.newcapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 356,
+    "company": "Skylark Private Equity Partners",
+    "contact": "Chase Eckert",
+    "email": "chase@skylarkpe.com",
+    "website": "http://www.skylarkpe.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 357,
+    "company": "TJM Capital Partners",
+    "contact": "Kevin Conroy",
+    "email": "kevin@tjmcapitalpartners.com",
+    "website": "http://www.tjmcapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 358,
+    "company": "TrueBridge Capital Partners",
+    "contact": "Krish Parikh",
+    "email": "kparikh@truebridgecapital.com",
+    "website": "http://www.truebridgecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 359,
+    "company": "Twin Bridge Capital Partners",
+    "contact": "Brad Wrege",
+    "email": "bwrege@twinbridgecapital.com",
+    "website": "http://www.twinbridgecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 360,
+    "company": "Blue Delta Capital Partners",
+    "contact": "Morgan Higgins",
+    "email": "morgan@bluedeltacapitalpartners.com",
+    "website": "http://www.bluedeltacapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 363,
+    "company": "Acorn Capital Management",
+    "contact": "Andrew Pollack",
+    "email": "apollack@acorngc.com",
+    "website": "http://www.acorncapitalmanagement.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 367,
+    "company": "Amulet Capital Partners, LP",
+    "contact": "Anthony Stec",
+    "email": "tstec@amuletcapital.com",
+    "website": "http://www.amuletcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 370,
+    "company": "Carrick Capital Partners",
+    "contact": "Rob Delaney",
+    "email": "rdelaney@carrickcapitalpartners.com",
+    "website": "http://www.carrickcapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 373,
+    "company": "Gainline Capital Partners",
+    "contact": "Harry Clouston",
+    "email": "harry@gainlinecapital.com",
+    "website": "http://www.gainlinecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 378,
+    "company": "Regal Healthcare Capital Partners",
+    "contact": "David Kim",
+    "email": "dkim@regalhcp.com",
+    "website": "http://www.regalhcp.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 380,
+    "company": "SDC Capital Partners",
+    "contact": "Todd Aaron",
+    "email": "taaron@sdccapitalpartners.com",
+    "website": "http://www.sdccapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 384,
+    "company": "Thesis Capital Partners",
+    "contact": "Timothy Belton",
+    "email": "tim.b@thesiscapital.com",
+    "website": "http://www.thesiscapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 386,
+    "company": "TT Capital Partners",
+    "contact": "Dawn Owens",
+    "email": "dowens@ttcapitalpartners.com",
+    "website": "http://www.ttcapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 387,
+    "company": "424 Capital",
+    "contact": "Brian Kelly",
+    "email": "bkelly@424capital.com",
+    "website": "http://www.424capital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 388,
+    "company": "Aeris Partners",
+    "contact": "Rahul Swani",
+    "email": "rs@aerispartners.com",
+    "website": "http://www.aerispartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 389,
+    "company": "Alvarez & Marsal Capital",
+    "contact": "Todd Rubin",
+    "email": "todd@a-mcapital.com",
+    "website": "http://www.a-mcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 390,
+    "company": "Apex Service Partners",
+    "contact": "Jacob Selanders",
+    "email": "jake.selanders@apexservicepartners.com",
+    "website": "http://www.apexservicepartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 392,
+    "company": "Avenue Growth Partners",
+    "contact": "Brian Goldsmith",
+    "email": "brian@avenuegp.com",
+    "website": "http://www.avenuegp.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 393,
+    "company": "Bespoke Partners",
+    "contact": "Eric Walczykowski",
+    "email": "eric@bespokepartners.com",
+    "website": "http://www.bespokepartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 394,
+    "company": "Blue Star Innovation Partners",
+    "contact": "John Marquis",
+    "email": "john@bluestarinnovationpartners.com",
+    "website": "http://www.bluestarinnovationpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 395,
+    "company": "Casa Verde Capital",
+    "contact": "Karan Wadhera",
+    "email": "karan@casaverdecapital.com",
+    "website": "http://www.casaverdecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 400,
+    "company": "Cornell Capital",
+    "contact": "Mattias Olsson",
+    "email": "mattias@cornellcapllc.com",
+    "website": "http://www.cornellcapllc.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 401,
+    "company": "Cowen Partners Executive Search",
+    "contact": "Jacob Gamble",
+    "email": "jacob@cowenpartners.com",
+    "website": "http://www.cowenpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 402,
+    "company": "Crossplane Capital",
+    "contact": "Michael Bertrand",
+    "email": "michaelbertrand@crossplanecapital.com",
+    "website": "http://www.crossplanecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 404,
+    "company": "Dwight Funding",
+    "contact": "Ben Brachot",
+    "email": "ben.brachot@dwightfunding.com",
+    "website": "http://www.dwightfunding.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 405,
+    "company": "Eir Partners",
+    "contact": "Abdul Hussein",
+    "email": "abdul@eirpartners.com",
+    "website": "http://www.eirpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 409,
+    "company": "Girls Who Invest",
+    "contact": "Amalya Schwartz",
+    "email": "aschwartz@girlswhoinvest.org",
+    "website": "http://www.girlswhoinvest.org",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 410,
+    "company": "Goodwater Capital",
+    "contact": "Ed Robinson",
+    "email": "erobinson@goodwatercap.com",
+    "website": "http://www.goodwatercap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 417,
+    "company": "Juno Capital Partners",
+    "contact": "Sherwin Jiang",
+    "email": "sherwin@junocapitalpartners.com",
+    "website": "http://www.junocapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 419,
+    "company": "KSL Capital Partners",
+    "contact": "Anne Baldridge",
+    "email": "anne-burke.baldridge@kslcapital.com",
+    "website": "http://www.kslcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 423,
+    "company": "McWin Capital Partners",
+    "contact": "Vaibhav Juneja",
+    "email": "vaibhav.juneja@mcwin.fund",
+    "website": "http://www.mcwin.fund",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 428,
+    "company": "Pace Capital",
+    "contact": "Carlos Nobrega",
+    "email": "carlos.nobrega@pacecapital.com.br",
+    "website": "http://www.pacecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 437,
+    "company": "Stonelake Capital Partners",
+    "contact": "Zach Sherwood",
+    "email": "zsherwood@stonehawkcapital.com",
+    "website": "http://www.stonelake.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 439,
+    "company": "Thayer Street Partners",
+    "contact": "Joseph Gallo",
+    "email": "joeg@thayerstreet.com",
+    "website": "http://www.thayerstreet.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 440,
+    "company": "Transact Capital Partners, LLC",
+    "contact": "Tony Vincent",
+    "email": "tony@transactcapital.com",
+    "website": "http://www.transactcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 441,
+    "company": "Turn/River Capital",
+    "contact": "Alvin Ang",
+    "email": "alvin@turnriver.com",
+    "website": "http://www.turnriver.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 442,
+    "company": "Union Park Capital",
+    "contact": "Peter McGuire",
+    "email": "peter@union-park.com",
+    "website": "http://www.union-park.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 444,
+    "company": "Washington Harbour Partners LP",
+    "contact": "Brian Schulze",
+    "email": "bschulze@washingtonharbour.com",
+    "website": "http://www.washingtonharbour.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 449,
+    "company": "Basis Vectors Capital",
+    "contact": "Ambarish Gupta",
+    "email": "ambarish@basisvectors.com",
+    "website": "http://www.basisvectors.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 455,
+    "company": "Cabrera Capital Markets",
+    "contact": "Martin Cabrera",
+    "email": "mcabrera@cabreracapital.com",
+    "website": "http://www.cabreracapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 458,
+    "company": "CAZ Investments",
+    "contact": "Jill Klinvex",
+    "email": "jnklinvex@cazinvestments.com",
+    "website": "http://www.cazinvestments.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 459,
+    "company": "Centerview Partners",
+    "contact": "Robert Pruzan",
+    "email": "rpruzan@centerview.com",
+    "website": "http://www.centerviewpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 464,
+    "company": "Financial Technology Partners / FT Partners",
+    "contact": "Steve McLaughlin",
+    "email": "steve.mclaughlin@ftpartners.com",
+    "website": "http://www.ftpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 465,
+    "company": "Fisher Lynch Capital",
+    "contact": "Marcus Wood",
+    "email": "marcus@fisherlynch.com",
+    "website": "http://www.fisherlynch.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 467,
+    "company": "Goode Partners",
+    "contact": "Daniel Bonoff",
+    "email": "dbonoff@goodepartners.com",
+    "website": "http://www.goodepartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 468,
+    "company": "Health Enterprise Partners",
+    "contact": "Jessie Gentil",
+    "email": "jlaurash@hepfund.com",
+    "website": "http://www.hepfund.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 472,
+    "company": "Lead Capital Partners",
+    "contact": "Pryor Smartt",
+    "email": "psmartt@leadcp.com",
+    "website": "http://www.leadcp.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 474,
+    "company": "Lineage Capital",
+    "contact": "Mark Sullivan",
+    "email": "mark@lineagecap.com",
+    "website": "http://www.linkedin.com/in/mark-sullivan-9748874",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 486,
+    "company": "Sweetwater Private Equity",
+    "contact": "Gregg Parise",
+    "email": "gregg@sweetwaterpe.com",
+    "website": "http://www.linkedin.com/in/gregg-parise-aba87a6",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 488,
+    "company": "Terminus Capital Partners",
+    "contact": "Alex Western",
+    "email": "alex_western@terminuscp.com",
+    "website": "http://www.linkedin.com/in/alexwestern",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 489,
+    "company": "The Edgewater Funds",
+    "contact": "Gregory Jones",
+    "email": "greg@edgewaterfunds.com",
+    "website": "http://www.edgewaterfunds.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 492,
+    "company": "Truelink Capital",
+    "contact": "Stuart Waldman",
+    "email": "swaldman@truelinkcap.com",
+    "website": "http://www.truelinkcap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 493,
+    "company": "360 Equipment Finance",
+    "contact": "Kip Amstutz",
+    "email": "kip@360equipmentfinance.com",
+    "website": "http://www.360equipmentfinance.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 494,
+    "company": "8VC",
+    "contact": "Jimmy Yun",
+    "email": "jimmy@8vc.com",
+    "website": "http://www.8vc.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 495,
+    "company": "Acquisition.com",
+    "contact": "Leila Hormozi",
+    "email": "value@acquisition.com",
+    "website": "http://www.acquisition.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 496,
+    "company": "Agora",
+    "contact": "Gregory Wellman",
+    "email": "greg@agora-talent.com",
+    "website": "http://www.agorareal.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 497,
+    "company": "Altus Capital Partners",
+    "contact": "Russell Greenberg",
+    "email": "rgreenberg@altuscapitalpartners.com",
+    "website": "http://www.altuscapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 498,
+    "company": "Anplify",
+    "contact": "Himanshu Anand",
+    "email": "himanshu@anplify.com",
+    "website": "http://www.anplify.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 499,
+    "company": "Arlington Capital Partners",
+    "contact": "Bilal Noor",
+    "email": "bnoor@arlingtoncap.com",
+    "website": "http://www.arlingtoncap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 505,
+    "company": "Canoe Intelligence",
+    "contact": "Jason Eiswerth",
+    "email": "jason@canoeintelligence.com",
+    "website": "http://www.canoeintelligence.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 506,
+    "company": "Century Equity Partners",
+    "contact": "Chris Lalonde",
+    "email": "clalonde@cepfunds.com",
+    "website": "http://www.cepfunds.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 507,
+    "company": "Consonance Capital Partners",
+    "contact": "Stephen McKenna",
+    "email": "smckenna@consonancecapital.com",
+    "website": "http://www.consonancecapitalpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 508,
+    "company": "Corbel Capital Partners",
+    "contact": "Brian Yoon",
+    "email": "byoon@corbelcap.com",
+    "website": "http://www.corbelcap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 509,
+    "company": "Denham Capital Management",
+    "contact": "Sarah Lane",
+    "email": "sarah.lane@denhamcapital.com",
+    "website": "http://www.denhamcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 512,
+    "company": "Equiton",
+    "contact": "Jason Roque",
+    "email": "jroque@equiton.com",
+    "website": "http://www.equiton.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 513,
+    "company": "Forerunner",
+    "contact": "Kirsten Green",
+    "email": "kgreen@forerunnerventures.com",
+    "website": "http://www.forerunnerventures.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 514,
+    "company": "Fried, Williams & Grice Conner LLP",
+    "contact": "Clifford Fried",
+    "email": "cfried@friedwilliams.com",
+    "website": "http://www.fwgc.law",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 515,
+    "company": "Fulcrum Equity Partners",
+    "contact": "Frank Dalton",
+    "email": "fdalton@fulcrumep.com",
+    "website": "http://www.fulcrumep.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 516,
+    "company": "Gain",
+    "contact": "Nicola Ebmeyer",
+    "email": "nicola.ebmeyer@gain.pro",
+    "website": "http://www.gain.ai",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 517,
+    "company": "Greysteel",
+    "contact": "Ari Firoozabadi",
+    "email": "af@greysteel.com",
+    "website": "http://www.greysteel.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 518,
+    "company": "iConnections",
+    "contact": "Christopher Altomare",
+    "email": "caltomare@iconnections.io",
+    "website": "http://www.iconnections.io",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 519,
+    "company": "InTandem Capital Partners",
+    "contact": "Pamela Applefeld",
+    "email": "papplefeld@intandemcapital.com",
+    "website": "http://www.intandemcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 520,
+    "company": "JMH Capital Partners, LLC",
+    "contact": "Tony Brooke",
+    "email": "tbrooke@jmhcapital.com",
+    "website": "http://www.jmhcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 521,
+    "company": "Juniper Square",
+    "contact": "Alex Robinson",
+    "email": "alex@junipersquare.com",
+    "website": "http://www.junipersquare.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 522,
+    "company": "Kirtland Capital Partners",
+    "contact": "Corrie Menary",
+    "email": "corrie@kirtlandcapital.com",
+    "website": "http://www.kirtlandcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 524,
+    "company": "KPS Capital Partners",
+    "contact": "Matt Powell",
+    "email": "mpowell@kpsfund.com",
+    "website": "http://www.kpsfund.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 526,
+    "company": "Makena Capital Management, LLC",
+    "contact": "Jonathan Gorp",
+    "email": "jvangorp@makenacap.com",
+    "website": "http://www.makenacap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 527,
+    "company": "Nasdaq Private Market",
+    "contact": "Tom Callahan",
+    "email": "tom.callahan@npm.com",
+    "website": "http://www.nasdaqprivatemarket.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 530,
+    "company": "One Rock Capital Partners, LLC",
+    "contact": "Andrew Shackett",
+    "email": "ashackett@onerockcapital.com",
+    "website": "http://www.onerock.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 532,
+    "company": "Pershing Square Capital Management, L.P.",
+    "contact": "Francis McGill",
+    "email": "mcgill@persq.com",
+    "website": "http://www.pershingsquareholdings.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 533,
+    "company": "Private Equity Partners",
+    "contact": "Christophe Steverlynck",
+    "email": "c.steverlynck@sofindev.com",
+    "website": "http://www.privateequitypartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 534,
+    "company": "Quartus Capital Partners",
+    "contact": "Barry Day",
+    "email": "barry@arciscap.com",
+    "website": "http://www.quartuscap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 536,
+    "company": "Riveria Group",
+    "contact": "Tj Gupta",
+    "email": "tj@riveriagroup.com",
+    "website": "http://www.riveriagroup.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 537,
+    "company": "Rosecliff",
+    "contact": "Michael Caso",
+    "email": "caso@rosecliff.com",
+    "website": "http://www.rosecliff.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 538,
+    "company": "Rotunda Capital Partners",
+    "contact": "Ryan Aprill",
+    "email": "ra@rotundacapital.com",
+    "website": "http://www.rotundacapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 539,
+    "company": "SFW Capital Partners",
+    "contact": "Yuan Yuan",
+    "email": "yuany@sfwllc.com",
+    "website": "http://www.sfwcap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 540,
+    "company": "Silicon Foundry",
+    "contact": "Farzin Shadpour",
+    "email": "farzin@sifoundry.com",
+    "website": "http://www.sifoundry.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 542,
+    "company": "Stonepeak",
+    "contact": "Michael Dorrell",
+    "email": "dorrell@stonepeak.com",
+    "website": "http://www.stonepeak.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 543,
+    "company": "Sun Capital Partners, Inc.",
+    "contact": "Matthew Garff",
+    "email": "mgarff@suncappart.com",
+    "website": "http://www.suncappart.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 544,
+    "company": "Svoboda Capital Partners, LLC",
+    "contact": "Tom Brooker",
+    "email": "tbrooker@svoco.com",
+    "website": "http://www.svoco.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 545,
+    "company": "Sydecar",
+    "contact": "Nik Talreja",
+    "email": "nik@sydecar.io",
+    "website": "http://www.sydecar.io",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 546,
+    "company": "Top Tier Capital Partners",
+    "contact": "David York",
+    "email": "dyork@ttcp.com",
+    "website": "http://www.ttcp.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 547,
+    "company": "Triton Pacific Capital Partners, LLC",
+    "contact": "Asia Brumwell",
+    "email": "abrumwell@tritonpacific.com",
+    "website": "http://www.tritonpacific.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 548,
+    "company": "Velocity Capital Management",
+    "contact": "David Abrams",
+    "email": "dabrams@velocitycm.com",
+    "website": "http://www.velocitycm.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 549,
+    "company": "Village Global",
+    "contact": "Anne Dwane",
+    "email": "anne@villageglobal.com",
+    "website": "http://www.villageglobal.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 551,
+    "company": "WestView Capital Partners",
+    "contact": "Carlo Schroeter",
+    "email": "cvs@wvcapital.com",
+    "website": "http://www.wvcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 553,
+    "company": "1315 Capital",
+    "contact": "Michael Koby",
+    "email": "michael.koby@1315capital.com",
+    "website": "http://www.1315capital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 560,
+    "company": "Apogem Capital",
+    "contact": "Todd Milligan",
+    "email": "Managing Director",
+    "website": "http://www.apogemcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 561,
+    "company": "Aquiline",
+    "contact": "Michael Szymanski",
+    "email": "mszymanski@aquiline-llc.com",
+    "website": "http://www.aquiline.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 563,
+    "company": "Archer Capital Group",
+    "contact": "Walter Delph",
+    "email": "Founder & Managing Director",
+    "website": "http://www.archercapg.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 564,
+    "company": "Arrowroot Capital Management",
+    "contact": "Thomas Oh",
+    "email": "thomas@arrowrootcapital.com",
+    "website": "http://www.arrowrootcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 565,
+    "company": "Author Capital",
+    "contact": "Duane Jackson",
+    "email": "Founder and Managing Partner",
+    "website": "http://www.authorcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 566,
+    "company": "Avathon Capital",
+    "contact": "Jason Rosenberg",
+    "email": "Managing Partner",
+    "website": "http://www.avathoncapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 567,
+    "company": "AVB Invest",
+    "contact": "Serge Garden",
+    "email": "Founder and President",
+    "website": "http://www.avbinvest.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 568,
+    "company": "Avenue Capital Group",
+    "contact": "Sonia Gardner",
+    "email": "Co-Founder, President & Managing Partner",
+    "website": "http://www.avenuecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 569,
+    "company": "Base10 Partners",
+    "contact": "Jackie Chen",
+    "email": "Investor",
+    "website": "http://www.base10.vc",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 570,
+    "company": "BDA Partners",
+    "contact": "Pham Phuoc",
+    "email": "ppham@bdapartners.com",
+    "website": "http://www.bdapartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 571,
+    "company": "Betcher Financial Group",
+    "contact": "Joe Betcher",
+    "email": "joeb@betchergroup.com",
+    "website": "http://www.betcherfg.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 572,
+    "company": "Bicycle Capital",
+    "contact": "Shu Nyatta",
+    "email": "shu@bicycle.capital",
+    "website": "http://www.bicycle.capital",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 573,
+    "company": "Black Dragon Capital",
+    "contact": "Vineet Begwani",
+    "email": "vbegwani@blackdragoncap.com",
+    "website": "http://www.blackdragoncap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 574,
+    "company": "BlueWave Resource Partners",
+    "contact": "Laura Danforth",
+    "email": "laura@bluewaverp.com",
+    "website": "http://www.bluewaverp.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 575,
+    "company": "Bruin Capital",
+    "contact": "George Pyne",
+    "email": "gpyne@bruincptl.com",
+    "website": "http://www.bruincptl.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 576,
+    "company": "Burtch Works",
+    "contact": "Jon Walker",
+    "email": "jwalker@burtchworks.com",
+    "website": "http://www.burtchworks.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 577,
+    "company": "Butterfly Equity",
+    "contact": "Dustin Beck",
+    "email": "dustin@bfly.com",
+    "website": "http://www.bfly.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 578,
+    "company": "Callais Capital",
+    "contact": "Harold Callais",
+    "email": "harold.callais@callaiscapital.com",
+    "website": "http://www.callaiscapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 581,
+    "company": "Centiva Capital",
+    "contact": "Nicolas Vandeweerdt",
+    "email": "nicolas.vandeweerdt@centivacapital.com",
+    "website": "http://www.centivacapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 582,
+    "company": "Champlain Advisors",
+    "contact": "Kevin Monroe",
+    "email": "kevin@champlainadvisors.com",
+    "website": "http://www.champlainadvisors.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 583,
+    "company": "Character Capital",
+    "contact": "John Zeratsky",
+    "email": "jz@character.vc",
+    "website": "http://www.character.vc",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 584,
+    "company": "ClaimBuyout",
+    "contact": "Allen Rhodes",
+    "email": "allenr@claimbuyout.com",
+    "website": "http://www.claimbuyout.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 585,
+    "company": "Columbia West Capital",
+    "contact": "John Farr",
+    "email": "jfarr@columbiawestcap.com",
+    "website": "http://www.columbiawestcap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 586,
+    "company": "Constitution Capital Partners",
+    "contact": "Christopher Faucher",
+    "email": "cfaucher@concp.com",
+    "website": "http://www.concp.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 587,
+    "company": "Crestline Investors",
+    "contact": "Jake Friemel",
+    "email": "jfriemel@crestlineinc.com",
+    "website": "http://www.crestlineinvestors.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 588,
+    "company": "D1 Capital Partners L.P.",
+    "contact": "Steven Freed",
+    "email": "sfreed@d1capital.com",
+    "website": "http://www.d1capitalgroup.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 589,
+    "company": "dakota",
+    "contact": "Bhava Reddy",
+    "email": "bhava.reddy@und.edu",
+    "website": "http://www.dakota.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 590,
+    "company": "DarrowEverett LLP",
+    "contact": "Gabriel Saade",
+    "email": "gss@saadelaw.com",
+    "website": "http://www.darroweverett.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 591,
+    "company": "Dhanani Private Equity Group",
+    "contact": "Faiz Hirani",
+    "email": "faiz@dhananipeg.com",
+    "website": "http://www.dhananipeg.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 592,
+    "company": "District Partners",
+    "contact": "Kevin Gerrity",
+    "email": "kevin@districtpartnersllc.com",
+    "website": "http://www.districtpartnersllc.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 593,
+    "company": "Drake Star",
+    "contact": "James Turino",
+    "email": "james.turino@drakestar.com",
+    "website": "http://www.drakestar.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 594,
+    "company": "Drive Capital",
+    "contact": "John Volquez",
+    "email": "john@drivecapital.com",
+    "website": "http://www.drivecapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 595,
+    "company": "East 57th Street Partners",
+    "contact": "Richard Lavinski",
+    "email": "rlavinski@e57partners.com",
+    "website": "http://www.e57partners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 596,
+    "company": "Eastward Partners Inc.",
+    "contact": "Lindsey Webb",
+    "email": "lwebb@eastwardpartners.com",
+    "website": "http://www.eastwardpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 597,
+    "company": "ECA Partners",
+    "contact": "Gustav Brown",
+    "email": "gbrown@eca-partners.com",
+    "website": "http://www.eca-partners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 598,
+    "company": "Eckuity Capital",
+    "contact": "Vishal Jain",
+    "email": "vishal.jain@eckuity.com",
+    "website": "http://www.eckuity.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 599,
+    "company": "ECP Growth",
+    "contact": "Morgan Ratcliffe",
+    "email": "m.ratcliffe@emilcapital.com",
+    "website": "http://www.ecpgrowth.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 600,
+    "company": "EdgeCase Capital Partners",
+    "contact": "Jason Moskowitz",
+    "email": "jason@edgecasecap.com",
+    "website": "http://www.edgecasecap.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 601,
+    "company": "Energy Impact Partners",
+    "contact": "Lindsay Luger",
+    "email": "luger@energyimpactpartners.com",
+    "website": "http://www.energyimpactpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 602,
+    "company": "EquityZen",
+    "contact": "Phil Haslett",
+    "email": "phil@equityzen.com",
+    "website": "http://www.equityzen.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 603,
+    "company": "Erez Capital",
+    "contact": "Saad Bashir",
+    "email": "saad@saadbashir.com",
+    "website": "http://www.erezcapital.io",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 604,
+    "company": "Evolution Credit Partners",
+    "contact": "John-Carl Barone",
+    "email": "jbarone@evolutioncreditpartners.com",
+    "website": "http://www.evolutioncreditpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 605,
+    "company": "F6S",
+    "contact": "Sandeep K",
+    "email": "sandeep@f6s.com",
+    "website": "http://www.f6s.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 607,
+    "company": "Flyover Capital",
+    "contact": "Patrick Berry",
+    "email": "pberry@flyovercapital.com",
+    "website": "http://www.flyovercapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 608,
+    "company": "FTV Capital",
+    "contact": "Arun Singh",
+    "email": "asingh@ftvcapital.com",
+    "website": "http://www.ftvcapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 609,
+    "company": "Further Global Capital Management",
+    "contact": "Susan Ciccarone",
+    "email": "ciccarone@furtherglobal.com",
+    "website": "http://www.furtherglobal.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 610,
+    "company": "Garden City Equity",
+    "contact": "Michael Arrieta",
+    "email": "mike@gardencityequity.com",
+    "website": "http://www.gardencityequity.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 612,
+    "company": "Graycliff Partners LP",
+    "contact": "Stephen Hindmarch",
+    "email": "shindmarch@graycliffpartners.com",
+    "website": "http://www.graycliffpartners.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 613,
+    "company": "Griffin Capital Company, LLC",
+    "contact": "William Messori",
+    "email": "wmessori@griffincapital.com",
+    "website": "http://www.griffincapital.com",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 624,
+    "company": "Invictus Growth Partners",
+    "contact": "Co-Founder & Managing Partner",
+    "email": "https://www.linkedin.com/in/johndeloche/",
+    "website": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 628,
+    "company": "Karmel Capital",
+    "contact": "Managing Partner",
+    "email": "https://www.linkedin.com/in/scottneuberger/",
+    "website": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 633,
+    "company": "Livingstone",
+    "contact": "Partner (Chicago)",
+    "email": "https://livingstonepartners.com/en-us/team/joseph-greenwood/",
+    "website": "",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 678,
+    "company": "SpaceFund",
+    "contact": "Co-Founder and Managing Partner",
+    "email": "meagan@spacefund.com",
+    "website": "https://www.linkedin.com/in/meagan-crawford/",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 1,
+    "reason": "Unresearched",
+    "rowIndex": 684,
+    "company": "The Westly Group",
+    "contact": "Managing Partner",
+    "email": "steve.westly@westlygroup.com",
+    "website": "https://www.linkedin.com/in/stevewestly/",
+    "status": "New - Unresearched"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 117,
+    "company": "Keltic Financial Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.kelticfp.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 579,
+    "company": "Cardea Group",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.thecardeagroup.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 625,
+    "company": "Jensen Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/mssashajensen",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 626,
+    "company": "Jett Capital Advisors",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.jettcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 630,
+    "company": "Kinect Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.kinectcapital.org",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 654,
+    "company": "Odyssey Search Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.odysseysearchpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 690,
+    "company": "Wall Street Oasis",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wallstreetoasis.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 691,
+    "company": "Wall Street Prep",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wallstreetprep.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 692,
+    "company": "Wefunder",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wefunder.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 696,
+    "company": "3G Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.3g-capital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 699,
+    "company": "Alta Park Capital, LP",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.altaparkcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 701,
+    "company": "AMR Action Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.amractionfund.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 702,
+    "company": "Ancor Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.ancorcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 704,
+    "company": "Apercen Partners LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.apercen.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 705,
+    "company": "Apis & Heritage Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.apisheritage.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 706,
+    "company": "Arctaris Impact Investors",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.arctaris.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 707,
+    "company": "Argentum Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.argentumgroup.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 708,
+    "company": "ArrowMark Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.arrowmarkpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 710,
+    "company": "Atlanta Capital Management Co., LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.atlcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.atlanticstreetcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 712,
+    "company": "Auctus Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.auctuscapitalinc.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 713,
+    "company": "Avista Healthcare Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.avistahealthcare.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 714,
+    "company": "BDT & MSD Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.bdtmsd.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 715,
+    "company": "BH3 Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.bh-3.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 716,
+    "company": "Bloom Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.bloomequitypartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 717,
+    "company": "Bravia Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.braviacapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 718,
+    "company": "Caffeinated Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.caffeinated.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 719,
+    "company": "Capital Allocators",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.capitalallocators.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 720,
+    "company": "Capital Factory",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.capitalfactory.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 721,
+    "company": "CapitalG",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.capitalg.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 722,
+    "company": "CapitalSpring",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.capitalspring.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 723,
+    "company": "Capstone Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.capstonepartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 724,
+    "company": "Carmel Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.carmelcapitalpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 725,
+    "company": "Cave Creek Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.cavecreekcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 726,
+    "company": "Centerbridge Partners, L.P.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.centerbridge.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 728,
+    "company": "CF Private Equity",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.cfprivateequity.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 729,
+    "company": "ClearBridge Investments",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.clearbridge.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 730,
+    "company": "Corridor Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.corridorcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 731,
+    "company": "Cota Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.cotacapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 732,
+    "company": "Culmen Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.culmen-capital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 733,
+    "company": "Davidson Kempner Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.davidsonkempner.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 734,
+    "company": "Deerpath Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.deerpathcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 735,
+    "company": "DLP Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.dlpcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 736,
+    "company": "Driehaus Capital Management LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.driehaus.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 737,
+    "company": "Dynamics Search Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.dspny.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 738,
+    "company": "Eight Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.eightcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 739,
+    "company": "EIV Capital, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.eivcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 740,
+    "company": "Emergence Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.emcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 741,
+    "company": "Essex Investment Management Company, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.essexinvest.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 742,
+    "company": "Excelsior Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.xequitypartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 743,
+    "company": "First Trust Capital Management L.P.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.firsttrustcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 744,
+    "company": "Funden",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.funden.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 745,
+    "company": "GF Capital Management & Advisors, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.gfcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 746,
+    "company": "Great Point Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.gppfunds.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 747,
+    "company": "Gridiron Capital LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.gridironcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 748,
+    "company": "Hall Capital Holdings, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.hallcapitalllc.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 749,
+    "company": "Hermitage Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.hermitagecap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 750,
+    "company": "Highland Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.hcp.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 751,
+    "company": "HUMAN CAPITAL",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.human.capital",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 752,
+    "company": "Hypatia Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.hypatiacapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 753,
+    "company": "Institutional Limited Partners Association (ILPA)",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.ilpa.org",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 754,
+    "company": "Investment Management Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.im.partners",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 755,
+    "company": "King Street Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.kingstreet.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 756,
+    "company": "Koinz Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.koinzcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 757,
+    "company": "Kudu Investment Management, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.kuduinvestment.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 758,
+    "company": "Left Lane Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.leftlane.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 759,
+    "company": "Long Ridge Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.longridgepartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 760,
+    "company": "Longitude Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.longitudecapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 761,
+    "company": "Lowercarbon Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.lowercarbon.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 762,
+    "company": "Manulife | Comvest Credit Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.comvest.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 763,
+    "company": "Mercury Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.mercuryfund.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 764,
+    "company": "Merit Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.meritcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 765,
+    "company": "Millennium Bridge Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.millenniumbridge.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 766,
+    "company": "Newflow Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.newflow.partners",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 767,
+    "company": "Next Sparc Growth Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.nextsparc.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 768,
+    "company": "Notable Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.notablecap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 769,
+    "company": "Oak Street Funding",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.oakstreetfunding.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 770,
+    "company": "Obra Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.obra.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 771,
+    "company": "Ocean Avenue Capital Partners, L.P.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.oceanavenuecapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 772,
+    "company": "Palladium Equity Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.palladiumequity.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 773,
+    "company": "Pathway Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.pathwaycapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 774,
+    "company": "Patriot Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.patriot-capital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 775,
+    "company": "Plexus Capital, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.plexuscap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 776,
+    "company": "PPC (Pritzker Private Capital)",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.ppcpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 777,
+    "company": "Prospect Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.prospectcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 778,
+    "company": "Pzena Investment Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.pzena.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 779,
+    "company": "Quake Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.quakecapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 780,
+    "company": "Rainier Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.rainierpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 781,
+    "company": "Rallyday Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.rallydaypartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 782,
+    "company": "Red Cove Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.redcovecap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 783,
+    "company": "Resolute Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.resolutecap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 784,
+    "company": "Rialto Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.rialtocapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 785,
+    "company": "Riverwood Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.riverwoodcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 786,
+    "company": "Riviera Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.rivierapartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 788,
+    "company": "Roebling Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.roeblingcp.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 789,
+    "company": "RRML Capital Resources",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.rrmlcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 790,
+    "company": "Sageview Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.sageviewcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 792,
+    "company": "Sculptor Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.sculptor.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 794,
+    "company": "Silver Oak Services Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.silveroaksp.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 795,
+    "company": "Skyview Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.skyviewcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 796,
+    "company": "Solamere Capital, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.solamerecapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 797,
+    "company": "Sorenson Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.sorensoncapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 798,
+    "company": "Spring Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.springcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 799,
+    "company": "STORY3 Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.story3capital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 800,
+    "company": "Strategic Value Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.svpglobal.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.tennenbaumcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 802,
+    "company": "Thrive Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.thrivecap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 803,
+    "company": "TimesSquare Capital Management, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.tscmllc.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 804,
+    "company": "Trian Fund Management, L.P.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.trianpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 805,
+    "company": "Trinity Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.trinitycapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 806,
+    "company": "Trinity Investors",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.trinityinvestors.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 807,
+    "company": "TriplePoint Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.triplepointcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.kfpefund.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 809,
+    "company": "Victoria Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.victoriacp.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 811,
+    "company": "Wildcat Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wildcatcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 812,
+    "company": "Winona Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.winonacapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 813,
+    "company": "Yellowstone Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.yellowstonecapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 814,
+    "company": "25madison",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.25madison.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 815,
+    "company": "26North",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.26n.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 816,
+    "company": "414 Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.414c.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 817,
+    "company": "777 Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.777part.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 818,
+    "company": "A-Grade Investments",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.agradeinvestments.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 819,
+    "company": "Accelerize 360",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.accelerize360.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 820,
+    "company": "Access Holdings",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.accessholdings.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 821,
+    "company": "ACRE",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.acremgt.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 822,
+    "company": "Aduro Advisors",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.aduroadvisors.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 823,
+    "company": "AEC Advisors LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.aecadvisors.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 824,
+    "company": "Affinity.co",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.affinity.co",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 825,
+    "company": "AgFunder",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.https:agfunder.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 826,
+    "company": "Alari Search, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.alarisearch.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 827,
+    "company": "AlchemistX",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.alchemistx.net",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 828,
+    "company": "ALCOR Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.alcorfund.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 829,
+    "company": "Alkymi",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.alkymi.io",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 830,
+    "company": "All Raise",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.allraise.org",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 831,
+    "company": "Allvue Systems",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.allvuesystems.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 832,
+    "company": "Anthemis Group",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.anthemis.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 833,
+    "company": "Anzu Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.anzupartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 834,
+    "company": "Arcis Golf",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.arcisgolf.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 835,
+    "company": "Arctos",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.arctospartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 836,
+    "company": "Argand Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.argandequity.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 837,
+    "company": "Ascension Advisory",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.ascensionadvisory.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 838,
+    "company": "Atlanta Tech Village",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.atlantatechvillage.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 839,
+    "company": "Atlas Private Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.atlaspep.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 840,
+    "company": "Atlas Search",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.atlassearchllc.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 843,
+    "company": "American Industrial Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.americanindustrial.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 844,
+    "company": "Wind Point Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.windpointpartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 850,
+    "company": "Gridiron Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/john-hatherly",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 852,
+    "company": "McNally Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/ravishahchicago/",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 853,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/karsonchang",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 856,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.peakrockcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 860,
+    "company": "CCMP Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.ccmpcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 863,
+    "company": "Mainsail Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/vinaykashyap",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 867,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.peakrockcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 868,
+    "company": "Accel-KKR",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.accel-kkr.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 869,
+    "company": "Satori Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/sunnnyvanderbeck",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 871,
+    "company": "ICV Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.linkedin.com/in/willie-woods-0a102699/",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 872,
+    "company": "Salt Creek Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://saltcreekcap.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 874,
+    "company": "Warren Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://warrenequity.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 878,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.peakrockcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 880,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.arsenalcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 881,
+    "company": "MCM Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.mcmcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 884,
+    "company": "Tower Arch Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://towerarch.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 885,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.peakrockcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 887,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.peakrockcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 889,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.arsenalcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 890,
+    "company": "Centre Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.centrepartners.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 891,
+    "company": "Odyssey Investment Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.odysseyinvestment.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 892,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.arsenalcapital.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 893,
+    "company": "Symphony Technology Group (STG)",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.stg.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 894,
+    "company": "Sverica Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://sverica.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 896,
+    "company": "Argonaut Private Equity",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://argonautpe.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 907,
+    "company": "Odyssey Investment Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "https://www.odysseyinvestment.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 908,
+    "company": "Muse",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 909,
+    "company": "Backstroke",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 910,
+    "company": "Satso",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 934,
+    "company": "Amulet Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 935,
+    "company": "Carousel Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 2,
+    "reason": "Partial - No Email",
+    "rowIndex": 937,
+    "company": "The Riverside Company",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 3,
+    "reason": "Partial - Generic Email",
+    "rowIndex": 635,
+    "company": "Loeb.nyc",
+    "contact": "Jacob Zodikoff",
+    "email": "info@midoceanpartners.com",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 3,
+    "reason": "Partial - Generic Email",
+    "rowIndex": 666,
+    "company": "RCP Advisors",
+    "contact": "Jacob Zodikoff",
+    "email": "info@ribbitcap.com",
+    "website": "",
+    "status": "Partial"
+  },
+  {
+    "priority": 3,
+    "reason": "Partial - Generic Email",
+    "rowIndex": 682,
+    "company": "TAP Advisors",
+    "contact": "Jacob Zodikoff",
+    "email": "info@tapadvisors.com",
+    "website": "http://www.tapadvisors.com",
+    "status": "Partial"
+  },
+  {
+    "priority": 3,
+    "reason": "Partial - Generic Email",
+    "rowIndex": 688,
+    "company": "Victory Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "ir@vcm.com",
+    "website": "http://www.vcm.com",
+    "status": "Partial"
+  }
+]

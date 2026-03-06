@@ -1,0 +1,74 @@
+[
+  {
+    "company": "Argonaut Private Equity",
+    "contact": "Anil Khatod",
+    "title": "Sr. Partner & Managing Director",
+    "email": "akhatod@kfoc.net",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Calvert Street Investment Partners",
+    "contact": "Reidan Cruz",
+    "title": "Managing Director, Investor Relations",
+    "email": "rcruz@calvertst.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Infinity Capital Partners",
+    "contact": "Chris Mehalko",
+    "title": "Vice President, Business Development",
+    "email": "cmehalko@infinityfunds.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Cambridge Capital LLC",
+    "contact": "Stephen Edenbaum",
+    "title": "Vice President, Business Development",
+    "email": "stephen.edenbaum@cambridgehomes.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Palm Beach Capital",
+    "contact": "Mike Schmickle",
+    "title": "Partner",
+    "email": "mschmickle@pbcap.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Stronghold Investment Management",
+    "contact": "Quin Cogdell",
+    "title": "Managing Director",
+    "email": "quin.cogdell@srp-ok.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Aurora Capital Partners",
+    "contact": "Matthew Laycock",
+    "title": "Partner",
+    "email": "mlaycock@auroracap.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Edgewater Capital Partners",
+    "contact": "Tom Edson",
+    "title": "President & CEO",
+    "email": "tom@edgewaterfund.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  },
+  {
+    "company": "Emerging Capital Partners - ECP",
+    "contact": "Carolyn Campbell",
+    "title": "Managing Partner, Ceo/coo and Founder",
+    "email": "campbellc@ecpinvestments.com",
+    "emailStatus": "verified",
+    "source": "Apollo API"
+  }
+]

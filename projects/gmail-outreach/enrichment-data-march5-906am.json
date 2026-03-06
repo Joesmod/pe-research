@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-03-05T09:06:00-06:00",
+  "run_id": "cron-906am-march5",
+  "method": "manual_web_research",
+  "enrichments": [
+    {
+      "company": "Gryphon Investors",
+      "contact_name": "R. David Andrews",
+      "title": "Founder & Co-CEO",
+      "email": "businessdevelopment@gryphoninvestors.com",
+      "linkedin_company": "https://www.linkedin.com/company/gryphon-investors",
+      "linkedin_profile": "",
+      "website": "https://www.gryphon-inv.com",
+      "source": "Official contact page - gryphon-inv.com/contact",
+      "verification": "verified",
+      "notes": "BD email verified from official site. Secondary contact: Nicholas Orum (Co-CEO)",
+      "status": "Enriched",
+      "quality": "high"
+    },
+    {
+      "company": "Monroe Capital LLC",
+      "contact_name": "Theodore L. Koenig",
+      "title": "Chairman & CEO",
+      "email": "tkoenig@monroecap.com",
+      "linkedin_company": "https://www.linkedin.com/company/monroe-capital",
+      "linkedin_profile": "https://www.linkedin.com/in/theodore-koenig/",
+      "website": "https://monroecap.com",
+      "source": "ContactOut verified + official bio page",
+      "verification": "verified",
+      "notes": "CEO direct email verified. Founded 2004, $12B+ AUM, middle-market",
+      "status": "Enriched",
+      "quality": "high"
+    },
+    {
+      "company": "Genstar Capital",
+      "contact_name": "Ryan Clark",
+      "title": "President & Managing Director",
+      "email": "GenstarCapital@fgsglobal.com",
+      "linkedin_company": "https://www.linkedin.com/company/genstar-capital",
+      "linkedin_profile": "",
+      "website": "https://www.gencap.com",
+      "source": "Press releases and contact page",
+      "verification": "partial",
+      "notes": "PR/media email only. Need Apollo enrichment for direct BD contact. $19B+ AUM",
+      "status": "Partial",
+      "quality": "medium"
+    },
+    {
+      "company": "Sverica Capital Management",
+      "contact_name": "Dave Finley",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin_company": "https://www.linkedin.com/company/sverica-capital-management",
+      "linkedin_profile": "",
+      "website": "https://sverica.com",
+      "source": "Team page - sverica.com/team",
+      "verification": "partial",
+      "notes": "Contact form only, no published emails. Other MPs: Jordan Richards, Frank Young. $2B AUM",
+      "status": "Partial",
+      "quality": "low"
+    }
+  ],
+  "new_firms_identified": [
+    {
+      "company": "Chicago Pacific Founders",
+      "sector": "Healthcare Services",
+      "aum": "$2B+",
+      "website": "https://www.chicagopacific.com",
+      "linkedin": "https://www.linkedin.com/company/chicago-pacific-founders",
+      "notes": "Mid-market healthcare services PE, needs contact enrichment",
+      "priority": "high"
+    },
+    {
+      "company": "NexPhase Capital",
+      "sector": "B2B Services",
+      "aum": "$600M+",
+      "website": "https://www.nexphasecapital.com",
+      "linkedin": "https://www.linkedin.com/company/nexphase-capital",
+      "notes": "Mid-market B2B services PE, needs contact enrichment",
+      "priority": "medium"
+    }
+  ],
+  "stats": {
+    "total_researched": 4,
+    "fully_enriched": 2,
+    "partially_enriched": 2,
+    "new_firms_identified": 2,
+    "time_spent_minutes": 15,
+    "quality_high": 2,
+    "quality_medium": 1,
+    "quality_low": 1
+  },
+  "blockers": [
+    "No Node.js/Python runtime access in PowerShell",
+    "Cannot execute existing enrichment scripts",
+    "Need script execution to update Google Sheet"
+  ],
+  "recommendations": [
+    "Use Apollo API for deeper enrichment on partial results (Genstar, Sverica)",
+    "Fix runtime environment PATH to include Node.js and Python",
+    "Consider running cron from bash/WSL instead of PowerShell",
+    "Update Google Sheet with verified enrichments",
+    "Research Chicago Pacific Founders and NexPhase Capital contacts"
+  ]
+}

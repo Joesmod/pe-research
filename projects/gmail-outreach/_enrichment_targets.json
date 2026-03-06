@@ -1,0 +1,2752 @@
+[
+  {
+    "rowIndex": 161,
+    "company": "Thomas H. Lee Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.thl.com",
+    "status": "DUPLICATE",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 216,
+    "company": "Falconhead Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.falconheadcapital.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 220,
+    "company": "WindPoint Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.windpointpartners.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 221,
+    "company": "Wicks Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.wickscapital.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 234,
+    "company": "The Jordan Company (TJC)",
+    "contactName": "",
+    "title": "Operating Partner (TBD)",
+    "email": "",
+    "website": "https://tjclp.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 239,
+    "company": "Oak HC/FT",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.oakhcft.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 252,
+    "company": "Behrman Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.behrmancap.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 254,
+    "company": "Chicago Pacific Founders",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.chicagopacificfounders.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 258,
+    "company": "Bindley Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.bindleycapital.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 259,
+    "company": "BayBoston Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.baybostoncapital.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 262,
+    "company": "Swander Pace Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.swanderpace.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 264,
+    "company": "Morgan Stanley Expansion Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.morganstanley.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 276,
+    "company": "Harkness Capital Partners",
+    "contactName": "Richard Perry",
+    "title": "Principal at Perry Companies, Inc.",
+    "email": "info@harknesscapital.com",
+    "website": "https://www.harknesscapital.com",
+    "status": "Dead Lead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 300,
+    "company": "Avante Capital Partners",
+    "contactName": "Suni Harman",
+    "title": "Founder & Chairman",
+    "email": "info@avantecap.com",
+    "website": "https://www.avantecap.com",
+    "status": "Dead Lead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 329,
+    "company": "Pritzker Group Private Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.pritzkergroup.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 338,
+    "company": "Frontenac Company",
+    "contactName": "",
+    "title": "",
+    "email": "info@frontenac.com",
+    "website": "https://frontenac.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 502,
+    "company": "Backstroke",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 503,
+    "company": "Satso",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 504,
+    "company": "Muse",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 557,
+    "company": "Alpha Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.alphapartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 562,
+    "company": "Arax Investment Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.araxpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 579,
+    "company": "Cardea Group",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.thecardeagroup.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 614,
+    "company": "GTMfund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.gtmfund.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 615,
+    "company": "Hark Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.harkcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 616,
+    "company": "Healthcare Private Equity Association (HCPEA)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hcpea.org",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 617,
+    "company": "HealthQuest Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.healthquestcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 618,
+    "company": "Hildred Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hildred.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 619,
+    "company": "HOF Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hofcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 620,
+    "company": "HRCap, Inc.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hrcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 621,
+    "company": "HSP - Henkel Search Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.henkelsp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 622,
+    "company": "Hunter Point Capital LP",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hunterpointcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 623,
+    "company": "IEQ Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.ieqcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 624,
+    "company": "Invictus Growth Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.invictusgrowth.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 625,
+    "company": "Jensen Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.jensen-partners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 626,
+    "company": "Jett Capital Advisors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.jettcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 627,
+    "company": "Kaizen Equity Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.kaizen-equity.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 628,
+    "company": "Karmel Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.karmelcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 629,
+    "company": "Keystone Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.keystonecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 630,
+    "company": "Kinect Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.kinectcapital.org",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 631,
+    "company": "Lead Edge Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.leadedge.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 632,
+    "company": "Lightspeed",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.lsvp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 633,
+    "company": "Livingstone",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.livingstonepartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 634,
+    "company": "LNC Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.lnc-partners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 635,
+    "company": "Loeb.nyc",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.loeb.nyc",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 636,
+    "company": "Long Arc Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.longarc.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 637,
+    "company": "M SEARCH",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.msearchadvisory.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 638,
+    "company": "M-One Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.m-onecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 639,
+    "company": "Madison Park Group",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.madisonparkgrp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 640,
+    "company": "Magnetar",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.magnetar.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 641,
+    "company": "March Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.marchcp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 642,
+    "company": "Marketri",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.marketri.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 643,
+    "company": "MD Global Partners, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.mdgpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 644,
+    "company": "Medallion Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.medallioncapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 645,
+    "company": "Meridian Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.meridianib.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 646,
+    "company": "Midwest Right of Way Services, Inc.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.midwestrow.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 647,
+    "company": "MLG Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.mlgcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 648,
+    "company": "Movement Search & Delivery",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.movementsearch.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 649,
+    "company": "New Rhein Healthcare Investors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.newrhein.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 650,
+    "company": "NewView Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.nvc.vc",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 651,
+    "company": "Nexa Equity",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.nexaequity.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 652,
+    "company": "Noble Investment Group",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.nobleinvestment.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 653,
+    "company": "North Atlantic Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.northatlanticcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 654,
+    "company": "Odyssey Search Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.odysseysearchpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 655,
+    "company": "Opus Connect",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.opusconnect.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 656,
+    "company": "Osceola Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.osceola.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 657,
+    "company": "PartnerOne",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.partnerone.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 658,
+    "company": "Pearl Energy Investments",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pearl-energy.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 659,
+    "company": "Perella Weinberg",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pwpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 660,
+    "company": "Periculum Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.periculumcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 661,
+    "company": "Physician Growth Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.physiciangrowthpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 662,
+    "company": "PineBridge Investments",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pinebridge.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 663,
+    "company": "Pioneer Fund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pioneerfund.vc",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 664,
+    "company": "Provident Healthcare Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.providenthp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 665,
+    "company": "Pulley",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pulley.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 666,
+    "company": "RCP Advisors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rcpadvisors.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 667,
+    "company": "Reach Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.reachcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 668,
+    "company": "Ribbit Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.ribbit.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 669,
+    "company": "Rogo",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rogo.ai",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 670,
+    "company": "ScaleView Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.scaleviewpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 671,
+    "company": "Seacoast Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.seacoastcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 672,
+    "company": "Sidekick Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sidekickpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 673,
+    "company": "Silvercrest Asset Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.silvercrestgroup.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 674,
+    "company": "Soho Square Solutions",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sohosquaresolutions.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 675,
+    "company": "Solomon Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.solomonpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 676,
+    "company": "Sonoma Brands Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sonomabrands.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 677,
+    "company": "Space Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.spacecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 678,
+    "company": "SpaceFund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.spacefund.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 679,
+    "company": "Springboard Enterprises",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sb.co",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 680,
+    "company": "Sunstone Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sunstonepartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 681,
+    "company": "Tailwater Capital LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tailwatercapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 682,
+    "company": "TAP Advisors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tapadvisors.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 683,
+    "company": "TAU Investment Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tau-investment.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 684,
+    "company": "The Westly Group",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.westlygroup.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 685,
+    "company": "Tola Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tolacapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 686,
+    "company": "Traction Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tractioncapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 687,
+    "company": "Valiant Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.valiantcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 688,
+    "company": "Victory Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.vcm.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 689,
+    "company": "Virtas Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.virtaspartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 690,
+    "company": "Wall Street Oasis",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.wallstreetoasis.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 691,
+    "company": "Wall Street Prep",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.wallstreetprep.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 692,
+    "company": "Wefunder",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.wefunder.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 693,
+    "company": "Yellow Wood Partners, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.yellowwoodpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 694,
+    "company": "Yellowstone Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.yellowstonecp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 695,
+    "company": "3 Rivers Capital, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.3riverscap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 696,
+    "company": "3G Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.3g-capital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 697,
+    "company": "Abbott Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.abbottcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 698,
+    "company": "Alkeon Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.alkeoncapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 699,
+    "company": "Alta Park Capital, LP",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.altaparkcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 700,
+    "company": "American Industrial Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.americanindustrial.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 701,
+    "company": "AMR Action Fund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.amractionfund.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 702,
+    "company": "Ancor Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.ancorcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 703,
+    "company": "Anthos Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.anthoscapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 704,
+    "company": "Apercen Partners LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.apercen.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 705,
+    "company": "Apis & Heritage Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.apisheritage.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 706,
+    "company": "Arctaris Impact Investors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.arctaris.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 707,
+    "company": "Argentum Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.argentumgroup.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 708,
+    "company": "ArrowMark Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.arrowmarkpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 709,
+    "company": "Arsenal Growth Equity",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.arsenalgrowth.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 710,
+    "company": "Atlanta Capital Management Co., LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.atlcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.atlanticstreetcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 712,
+    "company": "Auctus Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.auctuscapitalinc.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 713,
+    "company": "Avista Healthcare Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.avistahealthcare.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 714,
+    "company": "BDT & MSD Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.bdtmsd.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 715,
+    "company": "BH3 Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.bh-3.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 716,
+    "company": "Bloom Equity Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.bloomequitypartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 717,
+    "company": "Bravia Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.braviacapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 718,
+    "company": "Caffeinated Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.caffeinated.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 719,
+    "company": "Capital Allocators",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.capitalallocators.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 720,
+    "company": "Capital Factory",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.capitalfactory.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 721,
+    "company": "CapitalG",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.capitalg.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 722,
+    "company": "CapitalSpring",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.capitalspring.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 723,
+    "company": "Capstone Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.capstonepartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 724,
+    "company": "Carmel Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.carmelcapitalpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 725,
+    "company": "Cave Creek Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.cavecreekcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 726,
+    "company": "Centerbridge Partners, L.P.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.centerbridge.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 727,
+    "company": "CenterSquare Investment Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.centersquare.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 728,
+    "company": "CF Private Equity",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.cfprivateequity.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 729,
+    "company": "ClearBridge Investments",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.clearbridge.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 730,
+    "company": "Corridor Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.corridorcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 731,
+    "company": "Cota Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.cotacapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 732,
+    "company": "Culmen Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.culmen-capital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 733,
+    "company": "Davidson Kempner Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.davidsonkempner.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 734,
+    "company": "Deerpath Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.deerpathcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 735,
+    "company": "DLP Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.dlpcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 736,
+    "company": "Driehaus Capital Management LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.driehaus.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 737,
+    "company": "Dynamics Search Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.dspny.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 738,
+    "company": "Eight Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.eightcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 739,
+    "company": "EIV Capital, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.eivcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 740,
+    "company": "Emergence Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.emcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 741,
+    "company": "Essex Investment Management Company, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.essexinvest.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 742,
+    "company": "Excelsior Equity Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.xequitypartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 743,
+    "company": "First Trust Capital Management L.P.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.firsttrustcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 744,
+    "company": "Funden",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.funden.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 745,
+    "company": "GF Capital Management & Advisors, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.gfcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 746,
+    "company": "Great Point Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.gppfunds.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 747,
+    "company": "Gridiron Capital LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.gridironcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 748,
+    "company": "Hall Capital Holdings, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hallcapitalllc.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 749,
+    "company": "Hermitage Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hermitagecap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 750,
+    "company": "Highland Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hcp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 751,
+    "company": "HUMAN CAPITAL",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.human.capital",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 752,
+    "company": "Hypatia Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.hypatiacapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 753,
+    "company": "Institutional Limited Partners Association (ILPA)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.ilpa.org",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 754,
+    "company": "Investment Management Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.im.partners",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 755,
+    "company": "King Street Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.kingstreet.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 756,
+    "company": "Koinz Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.koinzcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 757,
+    "company": "Kudu Investment Management, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.kuduinvestment.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 758,
+    "company": "Left Lane Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.leftlane.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 759,
+    "company": "Long Ridge Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.longridgepartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 760,
+    "company": "Longitude Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.longitudecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 761,
+    "company": "Lowercarbon Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.lowercarbon.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 762,
+    "company": "Manulife | Comvest Credit Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.comvest.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 763,
+    "company": "Mercury Fund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.mercuryfund.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 764,
+    "company": "Merit Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.meritcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 765,
+    "company": "Millennium Bridge Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.millenniumbridge.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 766,
+    "company": "Newflow Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.newflow.partners",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 767,
+    "company": "Next Sparc Growth Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.nextsparc.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 768,
+    "company": "Notable Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.notablecap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 769,
+    "company": "Oak Street Funding",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.oakstreetfunding.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 770,
+    "company": "Obra Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.obra.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 771,
+    "company": "Ocean Avenue Capital Partners, L.P.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.oceanavenuecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 772,
+    "company": "Palladium Equity Partners, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.palladiumequity.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 773,
+    "company": "Pathway Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pathwaycapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 774,
+    "company": "Patriot Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.patriot-capital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 775,
+    "company": "Plexus Capital, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.plexuscap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 776,
+    "company": "PPC (Pritzker Private Capital)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.ppcpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 777,
+    "company": "Prospect Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.prospectcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 778,
+    "company": "Pzena Investment Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.pzena.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 779,
+    "company": "Quake Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.quakecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 780,
+    "company": "Rainier Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rainierpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 781,
+    "company": "Rallyday Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rallydaypartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 782,
+    "company": "Red Cove Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.redcovecap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 783,
+    "company": "Resolute Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.resolutecap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 784,
+    "company": "Rialto Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rialtocapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 785,
+    "company": "Riverwood Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.riverwoodcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 786,
+    "company": "Riviera Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rivierapartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 787,
+    "company": "Roark Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.roarkcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 788,
+    "company": "Roebling Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.roeblingcp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 789,
+    "company": "RRML Capital Resources",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.rrmlcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 790,
+    "company": "Sageview Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sageviewcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 791,
+    "company": "Satori Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.satoricapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 792,
+    "company": "Sculptor Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sculptor.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 793,
+    "company": "Seaside Equity Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.seasideequity.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 794,
+    "company": "Silver Oak Services Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.silveroaksp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 795,
+    "company": "Skyview Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.skyviewcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 796,
+    "company": "Solamere Capital, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.solamerecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 797,
+    "company": "Sorenson Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.sorensoncapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 798,
+    "company": "Spring Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.springcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 799,
+    "company": "STORY3 Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.story3capital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 800,
+    "company": "Strategic Value Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.svpglobal.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tennenbaumcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 802,
+    "company": "Thrive Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.thrivecap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 803,
+    "company": "TimesSquare Capital Management, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.tscmllc.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 804,
+    "company": "Trian Fund Management, L.P.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.trianpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 805,
+    "company": "Trinity Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.trinitycapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 806,
+    "company": "Trinity Investors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.trinityinvestors.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 807,
+    "company": "TriplePoint Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.triplepointcapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.kfpefund.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 809,
+    "company": "Victoria Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.victoriacp.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 810,
+    "company": "VMG Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.vmgpartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 811,
+    "company": "Wildcat Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.wildcatcap.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 812,
+    "company": "Winona Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.winonacapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 813,
+    "company": "Yellowstone Capital Partners, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.yellowstonecapital.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 814,
+    "company": "25madison",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.25madison.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 815,
+    "company": "26North",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.26n.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 816,
+    "company": "414 Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.414c.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 817,
+    "company": "777 Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.777part.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 818,
+    "company": "A-Grade Investments",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.agradeinvestments.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 819,
+    "company": "Accelerize 360",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.accelerize360.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 820,
+    "company": "Access Holdings",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.accessholdings.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 821,
+    "company": "ACRE",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.acremgt.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 822,
+    "company": "Aduro Advisors",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.aduroadvisors.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 823,
+    "company": "AEC Advisors LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.aecadvisors.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 824,
+    "company": "Affinity.co",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.affinity.co",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 825,
+    "company": "AgFunder",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.https:agfunder.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 826,
+    "company": "Alari Search, LLC",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.alarisearch.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 827,
+    "company": "AlchemistX",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.alchemistx.net",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 828,
+    "company": "ALCOR Fund",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.alcorfund.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 829,
+    "company": "Alkymi",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.alkymi.io",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 830,
+    "company": "All Raise",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.allraise.org",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 831,
+    "company": "Allvue Systems",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.allvuesystems.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 832,
+    "company": "Anthemis Group",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.anthemis.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 833,
+    "company": "Anzu Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.anzupartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 834,
+    "company": "Arcis Golf",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.arcisgolf.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 835,
+    "company": "Arctos",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.arctospartners.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 836,
+    "company": "Argand Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.argandequity.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 837,
+    "company": "Ascension Advisory",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.ascensionadvisory.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 838,
+    "company": "Atlanta Tech Village",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.atlantatechvillage.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 839,
+    "company": "Atlas Private Equity Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.atlaspep.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 840,
+    "company": "Atlas Search",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.atlassearchllc.com",
+    "status": "New - Unresearched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 842,
+    "company": "Wind Point Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.windpointpartners.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 843,
+    "company": "American Industrial Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.americanindustrial.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 844,
+    "company": "Wind Point Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.windpointpartners.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 858,
+    "company": "CIVC Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.civc.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 860,
+    "company": "CCMP Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.ccmpcapital.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 861,
+    "company": "Wynnchurch Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.wynnchurch.com",
+    "status": "Researched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 865,
+    "company": "Mainsail Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://mainsailpartners.com",
+    "status": "Needs Enrichment",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 866,
+    "company": "ParkerGale Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.parkergale.com",
+    "status": "Needs Enrichment",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 867,
+    "company": "Peak Rock Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.peakrockcapital.com",
+    "status": "Needs Enrichment",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 868,
+    "company": "Accel-KKR",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.accel-kkr.com",
+    "status": "Needs Enrichment",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 870,
+    "company": "Carousel Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.carouselcapital.com",
+    "status": "New",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 872,
+    "company": "Salt Creek Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://saltcreekcap.com",
+    "status": "New",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 881,
+    "company": "MCM Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.mcmcapital.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 884,
+    "company": "Tower Arch Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://towerarch.com",
+    "status": "New",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 890,
+    "company": "Centre Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.centrepartners.com",
+    "status": "Dead Lead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 891,
+    "company": "Odyssey Investment Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.odysseyinvestment.com",
+    "status": "Needs Enrichment",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 894,
+    "company": "Sverica Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://sverica.com",
+    "status": "DUPLICATE",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 896,
+    "company": "Argonaut Private Equity",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://argonautpe.com",
+    "status": "New",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 902,
+    "company": "Altamont Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://altamontcapital.com",
+    "status": "New",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 907,
+    "company": "Odyssey Investment Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.odysseyinvestment.com",
+    "status": "Enriched",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 908,
+    "company": "Muse",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 909,
+    "company": "Backstroke",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 910,
+    "company": "Satso",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 911,
+    "company": "",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 912,
+    "company": "",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  },
+  {
+    "rowIndex": 913,
+    "company": "",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "",
+    "status": "Dead",
+    "reason": "Empty contact"
+  }
+]

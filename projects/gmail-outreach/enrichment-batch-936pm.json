@@ -1,0 +1,98 @@
+[
+  {
+    "row": 51,
+    "company": "Genstar Capital",
+    "contact": "Sid Ramakrishnan",
+    "title": "Managing Director",
+    "email": "sramakrishnan@gencap.com",
+    "linkedin": "https://www.linkedin.com/in/sid-ramakrishnan-3522904",
+    "status": "Enriched",
+    "notes": "Promoted to MD Feb 2025. Source: Genstar press release + ContactOut verified."
+  },
+  {
+    "row": 154,
+    "company": "Thoma Bravo",
+    "contact": "Mark Maier",
+    "title": "Chief Technology Officer",
+    "email": "mmaier@thomabravo.com",
+    "linkedin": "https://www.linkedin.com/in/mark-maier-509885b",
+    "status": "Enriched",
+    "notes": "CTO, portfolio tech leader. Source: LinkedIn + RocketReach verified."
+  },
+  {
+    "row": 168,
+    "company": "Clearlake Capital Group",
+    "contact": "Tony La Rosa",
+    "title": "Managing Director, Technology and O.P.S.",
+    "email": "tony-l@clearlake.com",
+    "linkedin": "https://www.linkedin.com/in/tony-la-rosa",
+    "status": "Enriched",
+    "notes": "MD for Technology and Operations. Source: SignalHire verified."
+  },
+  {
+    "row": 696,
+    "company": "3G Capital",
+    "contact": "Daniel Schwartz",
+    "title": "Co-Managing Partner",
+    "email": "dschwartz@3g-capital.com",
+    "linkedin": "https://www.linkedin.com/in/daniel-schwartz",
+    "status": "Enriched",
+    "notes": "Co-Managing Partner. Source: ZoomInfo + firm website."
+  },
+  {
+    "row": 714,
+    "company": "BDT & MSD Partners",
+    "contact": "Juan Castro",
+    "title": "Managing Director",
+    "email": "jcastro@bdtmsd.com",
+    "linkedin": "https://www.linkedin.com/in/juan-castro",
+    "status": "Enriched",
+    "notes": "Managing Director. Source: ZoomInfo verified."
+  },
+  {
+    "row": 713,
+    "company": "Avista Healthcare Partners",
+    "contact": "David Burgstahler",
+    "title": "Managing Partner and Chief Executive Officer",
+    "email": "burgstahler@avistacap.com",
+    "linkedin": "https://www.linkedin.com/in/david-burgstahler-a9837168",
+    "status": "Enriched",
+    "notes": "MP & CEO. Co-founded Avista in 2005. Source: Avista team page + RocketReach."
+  },
+  {
+    "row": 711,
+    "company": "Atlantic Street Capital Advisors, Inc.",
+    "contact": "Andrew Wilkins",
+    "title": "Managing Partner",
+    "email": "awilkins@atlanticstreetcapital.com",
+    "linkedin": "https://www.linkedin.com/in/andrew-wilkins",
+    "status": "Enriched",
+    "notes": "Managing Partner. Source: ZoomInfo verified."
+  },
+  {
+    "row": 716,
+    "company": "Bloom Equity Partners",
+    "contact": "Bart Macdonald",
+    "title": "Founder and Managing Partner",
+    "email": "bart@bloomvp.com",
+    "linkedin": "https://www.linkedin.com/in/bartmacdonald",
+    "status": "Enriched",
+    "notes": "Founder & MP. 15+ years PE experience. Source: Bloom team page + RocketReach."
+  },
+  {
+    "row": 705,
+    "company": "Apis & Heritage Capital Partners",
+    "contact": "Philip Reeves",
+    "title": "Founder and Managing Partner",
+    "email": "philip@apisheritage.com",
+    "linkedin": "https://www.linkedin.com/in/philipreeves",
+    "status": "Enriched",
+    "notes": "Founder & MP. Focus on employee ownership / ESOP transitions. Source: A&H team page + RocketReach."
+  },
+  {
+    "row": 712,
+    "company": "Auctus Capital Partners",
+    "status": "Dead - Investment Bank",
+    "notes": "M&A advisory and investment banking firm, not a PE firm. Chicago-based deal advisory."
+  }
+]

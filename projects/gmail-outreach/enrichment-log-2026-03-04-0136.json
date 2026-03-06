@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-03-04T07:36:00.000Z",
+  "cronJob": "PE Research & Enrichment - Hourly",
+  "enriched": 9,
+  "details": [
+    {
+      "row": 850,
+      "company": "Wynnchurch Capital",
+      "contact": "John Hatherly",
+      "title": "Managing Partner & Founder",
+      "email": "jhatherly@wynnchurch.com",
+      "linkedin": "https://www.linkedin.com/in/john-hatherly",
+      "source": "Official Wynnchurch press releases",
+      "notes": "Founded 1999, 12-yr career at GE Capital Merchant Banking prior"
+    },
+    {
+      "row": 852,
+      "company": "McNally Capital",
+      "contact": "Ravi P. Shah",
+      "title": "Partner",
+      "email": "rshah@mcnallycapital.com",
+      "linkedin": "https://www.linkedin.com/in/ravishahchicago/",
+      "source": "RocketReach + Apollo.io",
+      "notes": "Principal at McNally Capital"
+    },
+    {
+      "row": 700,
+      "company": "American Industrial Partners",
+      "contact": "Kim Marvin",
+      "title": "Managing Partner",
+      "email": "kmarvin@americanindustrial.com",
+      "linkedin": "https://www.linkedin.com/in/kimkmarvin",
+      "source": "Company domain pattern",
+      "notes": "Managing Partner since 1997, prior Goldman Sachs M&A, MIT Ocean Engineering"
+    },
+    {
+      "row": 853,
+      "company": "Peak Rock Capital",
+      "contact": "Karson Chang",
+      "title": "Managing Director",
+      "email": "kchang@peakrockcapital.com",
+      "linkedin": "https://www.linkedin.com/in/karsonchang",
+      "source": "RocketReach + Wiza",
+      "notes": "Managing Director - Austin office"
+    },
+    {
+      "row": 869,
+      "company": "Satori Capital",
+      "contact": "Randy Eisenman",
+      "title": "Co-Founder and Managing Partner",
+      "email": "reisenman@satoricapital.com",
+      "linkedin": "https://www.linkedin.com/in/randyeisenman",
+      "source": "ContactOut + RocketReach",
+      "notes": "Co-Founder, BBA from UT Austin (Business Honors)"
+    },
+    {
+      "row": 871,
+      "company": "ICV Partners",
+      "contact": "Willie E. Woods",
+      "title": "President, Co-Founder & Managing Partner",
+      "email": "wwoods@icvpartners.com",
+      "linkedin": "https://www.linkedin.com/in/willie-woods-0a102699/",
+      "source": "ContactOut",
+      "notes": "President and Co-Founder, 20+ years at helm"
+    },
+    {
+      "row": 863,
+      "company": "Mainsail Partners",
+      "contact": "Vinay Kashyap",
+      "title": "Partner",
+      "email": "vinay@mainsailpartners.com",
+      "linkedin": "https://www.linkedin.com/in/vinaykashyap",
+      "source": "LeadIQ email pattern",
+      "notes": "Partner, 15+ years investing in founder-owned software companies"
+    },
+    {
+      "row": 625,
+      "company": "Jensen Partners",
+      "contact": "Sasha Jensen",
+      "title": "Founder & CEO",
+      "email": "sjensen@jensen-partners.com",
+      "linkedin": "https://www.linkedin.com/in/mssashajensen",
+      "source": "ContactOut",
+      "notes": "Founder & CEO, executive search firm specializing in PE fundraising roles"
+    },
+    {
+      "row": 869,
+      "company": "Satori Capital",
+      "contact": "Sunny Vanderbeck",
+      "title": "Co-Founder and Managing Partner",
+      "email": "svanderbeck@satoricapital.com",
+      "linkedin": "https://www.linkedin.com/in/sunnnyvanderbeck",
+      "source": "Company domain pattern",
+      "notes": "Co-Founder with Randy Eisenman"
+    }
+  ],
+  "status": "complete",
+  "nextRun": "2026-03-04T08:36:00.000Z"
+}

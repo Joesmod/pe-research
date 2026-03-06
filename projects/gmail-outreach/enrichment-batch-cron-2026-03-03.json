@@ -1,0 +1,62 @@
+[
+  {
+    "rowIndex": 307,
+    "company": "Argonaut Private Equity",
+    "contactName": "Anil Khatod",
+    "title": "Sr. Partner & Managing Director",
+    "email": "anilk@argonautpe.com",
+    "linkedIn": "https://www.linkedin.com/in/anilkhatod/",
+    "notes": "Email from ContactOut",
+    "source": "ContactOut"
+  },
+  {
+    "rowIndex": 329,
+    "company": "Pritzker Group Private Capital",
+    "contactName": "Michael Nelson",
+    "title": "Managing Partner & Head of Investing",
+    "email": "mnelson@ppcpartners.com",
+    "linkedIn": "https://www.linkedin.com/in/michael-nelson-41a3061/",
+    "notes": "Email from Success.ai, domain verified ppcpartners.com",
+    "source": "Success.ai + Crunchbase"
+  },
+  {
+    "rowIndex": 338,
+    "company": "Frontenac Company",
+    "contactName": "Michael Langdon",
+    "title": "Managing Partner",
+    "email": "mlangdon@frontenac.com",
+    "linkedIn": "https://www.linkedin.com/in/michaelslangdon/",
+    "notes": "Email verified from official website",
+    "source": "frontenac.com (official site)"
+  },
+  {
+    "rowIndex": 374,
+    "company": "Infinity Capital Partners",
+    "contactName": "Christopher Lee",
+    "title": "Co-Founder & Managing Partner",
+    "email": "clee@infinitycappartners.com",
+    "linkedIn": "https://www.linkedin.com/in/christopher-lee-174a467/",
+    "notes": "Email verified from official website",
+    "source": "infinitycappartners.com (official site)"
+  },
+  {
+    "rowIndex": 475,
+    "company": "Lux Capital",
+    "contactName": "Peter Hebert",
+    "title": "Co-Founder & Partner",
+    "email": "peter.hebert@luxcapital.com",
+    "linkedIn": "https://www.linkedin.com/in/peterjhebert/",
+    "notes": "Email from ContactOut",
+    "source": "ContactOut"
+  },
+  {
+    "rowIndex": 478,
+    "company": "Palm Beach Capital",
+    "contactName": "Nathan Ward",
+    "title": "Managing Partner & Co-Founder",
+    "email": "nward@pbcap.com",
+    "linkedIn": "https://www.linkedin.com/in/nate-ward-21133b84/",
+    "notes": "Corrected from George Milas (wrong company). Email pattern inferred from domain.",
+    "source": "pbcap.com + Crunchbase"
+  }
+]

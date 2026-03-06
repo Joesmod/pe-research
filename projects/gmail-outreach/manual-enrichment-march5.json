@@ -1,0 +1,52 @@
+[
+  {
+    "company": "424 Capital",
+    "contact_name": "Walter Beinecke",
+    "title": "Managing Partner",
+    "email": "wbeinecke@424capital.com",
+    "linkedin": "https://www.linkedin.com/in/walter-beinecke",
+    "website": "https://424capital.com",
+    "source": "424capital.com team page (verified)",
+    "status": "Enriched"
+  },
+  {
+    "company": "Blue Star Innovation Partners",
+    "contact_name": "Rob Wechsler",
+    "title": "Founder / Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/robert-wechsler-002bab2/",
+    "website": "https://bluestarinnovationpartners.com",
+    "source": "Team page found, no direct email published",
+    "status": "Partial"
+  },
+  {
+    "company": "Blue Star Innovation Partners",
+    "contact_name": "Dan Wechsler",
+    "title": "CEO / Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/dan-wechsler-a94b0a221/",
+    "website": "https://bluestarinnovationpartners.com",
+    "source": "Team page found, no direct email published",
+    "status": "Partial"
+  },
+  {
+    "company": "Bespoke Capital Partners",
+    "contact_name": "Mark Harms",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "",
+    "website": "https://www.bespokecp.com",
+    "source": "Team page found, only generic email (information@bespokecp.com)",
+    "status": "Partial"
+  },
+  {
+    "company": "Alvarez & Marsal Capital",
+    "contact_name": "Jack McCarthy",
+    "title": "Managing Partner & Founder",
+    "email": "",
+    "linkedin": "",
+    "website": "https://www.a-mcapital.com",
+    "source": "Website found, no direct contact published",
+    "status": "Partial"
+  }
+]

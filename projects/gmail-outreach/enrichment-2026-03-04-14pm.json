@@ -1,0 +1,68 @@
+[
+  {
+    "company": "Thayer Street Partners",
+    "contactName": "Josh Koplewicz",
+    "title": "Managing Partner & Founder",
+    "email": "admin@thayerstreet.com",
+    "linkedIn": "https://www.linkedin.com/in/josh-koplewicz/",
+    "website": "https://thayerstreet.com",
+    "notes": "General contact email (admin@), direct email not publicly listed. Managing Partner confirmed via website and press.",
+    "status": "Partial",
+    "source": "Website team page, PDF publications, press releases"
+  },
+  {
+    "company": "W Capital Partners",
+    "contactName": "Katherine Dowley",
+    "title": "Vice President of Investor Relations",
+    "email": "kdowley@wcapgroup.com",
+    "linkedIn": "",
+    "website": "https://www.wcapgroup.com",
+    "notes": "Direct email verified on team page. VP of Investor Relations.",
+    "status": "Enriched",
+    "source": "Official website team page (wcapgroup.com/team-members)"
+  },
+  {
+    "company": "Washington Harbour Partners LP",
+    "contactName": "Mina Faltas",
+    "title": "Founder & Chief Investment Officer",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/company/washington-harbour-partners/",
+    "website": "https://washingtonharbour.com",
+    "notes": "Founder & CIO confirmed. No direct email found on public sources. General contact likely info@washingtonharbour.com but not verified.",
+    "status": "Partial",
+    "source": "Official website team page"
+  },
+  {
+    "company": "Blue Heron Capital",
+    "contactName": "Tom Benedetti",
+    "title": "Co-Founder",
+    "email": "",
+    "linkedIn": "",
+    "website": "https://www.blueheroncap.com",
+    "notes": "Co-founder confirmed. No direct email found on public sources.",
+    "status": "Partial",
+    "source": "Official website team bios"
+  },
+  {
+    "company": "Blackmore Partners Inc",
+    "contactName": "Gerald O'Dwyer",
+    "title": "Managing Director",
+    "email": "",
+    "linkedIn": "",
+    "website": "",
+    "notes": "Managing Director per RocketReach and internal docs. No direct email found in public sources.",
+    "status": "Partial",
+    "source": "RocketReach, LinkedIn mentions"
+  },
+  {
+    "company": "Brookstone Partners",
+    "contactName": "",
+    "title": "Managing Director",
+    "email": "lipmanm@brookstonepartners.com",
+    "linkedIn": "",
+    "website": "https://www.brookstonepartners.com",
+    "notes": "Email found on team page but full name not extracted (lipmanm@ suggests M. Lipman). Need name verification.",
+    "status": "Needs Name",
+    "source": "Official website team page"
+  }
+]
