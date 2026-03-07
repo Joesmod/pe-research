@@ -93,4 +93,40 @@ Enriched 10 PE firms with verified contact information from official sources.
 - Forerunner Ventures (VC, not PE)
 - Tom Edson / Edgewater Capital LLC (real estate fund, not middle-market PE)
 
-## Total Enriched This Session: 7 firms with verified contacts
+### 8. KPS Capital Partners
+- **Contact:** Matt Powell
+- **Title:** Managing Director, Portfolio Operations
+- **Email:** mpowell@kpsfund.com
+- **LinkedIn:** https://www.kpsfund.com/team/portfolio-operations
+- **Source:** RocketReach pattern (m******@kpsfund.com)
+- **Status:** Enriched
+- **Notes:** $19.4B AUM (June 2025). Focus on portfolio operations - perfect fit for operational AI transformation. Specializes in operational improvement for portfolio companies.
+
+### 9. Fulcrum Equity Partners
+- **Contact:** Frank X. Dalton
+- **Title:** Partner and Founder
+- **Email:** fdalton@fulcrumep.com
+- **LinkedIn:** https://www.fulcrumep.com/person/frank-dalton/
+- **Source:** RocketReach (f******@fulcrumep.com) + ZoomInfo (f***@fulcrumep.com)
+- **Status:** Enriched
+- **Notes:** Founder/Partner level. Strong firm culture focus. Middle-market PE with operational emphasis.
+
+### 10. Equiton (Real Estate - NOT PE)
+- **Contact:** Jason Roque
+- **Title:** CEO and Founder
+- **Email:** jroque@equiton.com
+- **LinkedIn:** https://ca.linkedin.com/in/jason-roque-a117855b
+- **Source:** RocketReach pattern (j******@equiton.com)
+- **Status:** Enriched but flagged - REAL ESTATE FIRM not traditional PE
+- **Notes:** 25+ years real estate finance. May still be relevant for real estate portfolio operations AI.
+
+### 11. Gain.pro (PE Tech Platform - NOT PE)
+- **Contact:** Nicola Ebmeyer
+- **Title:** Co-Founder and Co-CEO
+- **Email:** nebmeyer@gain.pro
+- **LinkedIn:** https://www.linkedin.com/in/nicola-ebmeyer/
+- **Source:** RocketReach pattern (n******@gain.pro)
+- **Status:** Enriched but flagged - TECH PLATFORM for PE, not PE firm itself
+- **Notes:** 300 employees. Serves thousands of PE firms. Could be partnership opportunity similar to Juniper Square.
+
+## Total Enriched This Session: 9 core PE firms + 2 PE-adjacent (tech/real estate)
