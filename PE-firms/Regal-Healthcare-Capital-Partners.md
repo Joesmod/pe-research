@@ -15,6 +15,13 @@
 
 ## Key Leadership
 
+### David Kim, MD, MBA
+- **Title**: Co-Founder & General Partner
+- **Email**: Domain confirmed @regalhcp.com (email pattern visible in ContactOut/ZoomInfo but not verified)
+- **LinkedIn**: https://www.regalhcp.com/team/davidkim
+- **Background**: Co-founded Regal HCP, founded Progressive Emergency Physicians, founded Premier Care Urgent Care (merged with CityMD 2013), co-founded Dental365. Columbia undergrad (Industrial Engineering 1990), SUNY Downstate Medical Center, Columbia MBA 2018. Partner at CityMD.
+- **Notes**: Physician-operator with strong entrepreneurial track record. Board member of multiple high-growth healthcare services businesses.
+
 ### Jon E. Santemma, JD, MBA
 - **Title**: Co-Founder & General Partner
 - **Email**: jsantemma@regalhcp.com (Verified from official website + RocketReach + ContactOut)
