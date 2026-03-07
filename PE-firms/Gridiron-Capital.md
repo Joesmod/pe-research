@@ -1,44 +1,61 @@
-# Gridiron Capital LLC
+# Gridiron Capital
 
 **Website:** https://gridironcapital.com  
-**Status:** ✅ Enriched  
-**Last Updated:** 2026-03-06
-
-## Overview
-Mid-market private equity firm with 20+ years of partnership experience focused on founder-friendly investments. Known for "Winning Together" culture and Centers of Excellence supporting portfolio companies.
-
-## Investment Focus
-- Lower middle market companies
-- Services-heavy sectors
-- Outdoor/consumer goods
-- Distribution businesses
+**Location:** Connecticut (HQ)  
+**Founded:** 2003  
+**AUM:** Middle-market PE  
+**Anniversary:** 20+ years (celebrated 2023-2024)
 
 ## Key Contacts
 
-### Thomas A. Burger Jr.
-- **Title:** Co-Founder & Managing Partner
-- **Email:** tburger@gridironcapital.com ✅ Verified
-- **Source:** Official press release (gridironcapital.com)
-- **LinkedIn:** https://gridironcapital.com/gridiron-capital-recognized-as-a-top-founder-friendly-investor/
+### Tom Burger (Thomas A. Burger Jr.)
+- **Title:** Co-Founder and Managing Partner
+- **Email:** tburger@gridironcapital.com
+- **LinkedIn:** https://www.linkedin.com/company/gridiron-capital
+- **Verified:** 2026-03-07 (multiple press release sources)
 
-### Other Team Members Identified
-- Rodney Eshelman - Partner (former TZP Group)
-- Operating Partners available through Centers of Excellence
+### Rodney Eshelman
+- **Title:** Managing Director
+- **Education:** A.B. with distinction from Duke University, MBA from UC Berkeley
+- **Joined:** October 2025
+- **Board Experience:** 15+ companies in Gridiron's target sectors
 
-## Notable Achievements
-- Recognized as Founder-Friendly Investor by Inc. Magazine
-- 20+ years of operations (founded ~2004-2005)
-- Multiple successful exits in outdoor/consumer sectors
-- Example portfolio: M&D (8 add-ons, 49 distribution centers in 2 years)
+## Firm Overview
+
+Gridiron Capital is a middle-market private equity firm celebrating over 20 years of partnership, growth, and value creation. Known for collaborative approach and strong network.
+
+### Value Proposition
+- "Be what you say you are; do what you say you are going to do"
+- Collaborative, valued members of communities
+- Extensive network and Centers of Excellence
+- Founder-friendly investor (recognized in industry rankings)
+
+## Strategic Capabilities
+- **Centers of Excellence:** Deep functional expertise
+- **Operational Network:** Extensive connections across portfolio
+- **Long-term Partnership:** 20+ year track record
+- **Founder-Friendly:** Industry recognition for partnership approach
+
+## Recent News
+- October 2025: Welcomed Rodney Eshelman as Managing Director
+- March 2025: Partnered with Class Valuation
+- Recognized as Top Founder-Friendly Investor
 
 ## Outreach Strategy
-- Primary contact: Thomas Burger (verified email)
-- Angle: AI solutions for portfolio value creation
-- Timing: Best during active deal sourcing periods
-- References: Centers of Excellence framework aligns with AI acceleration tools
+- **Primary Contact:** Tom Burger (Co-Founder & Managing Partner)
+- **Positioning:** AI-powered operational excellence and portfolio intelligence
+- **Angle:** Enhance Centers of Excellence with AI/automation for portfolio value creation
+- **Best Time:** Business hours EST
+- **Hook:** Support for founder-led businesses with tech-enabled operations
 
-## Research Notes
-- Team page loads dynamically (JavaScript) - contact info found in press releases
-- Strong digital presence with case studies
-- Emphasis on operational value-add, not just capital
-- Culture-focused messaging throughout website
+## Notes
+- Strong focus on operational value creation
+- Emphasis on relationships and partnerships
+- "Choose right over easy every day" - cultural value
+- Portfolio companies value the network and knowledge sharing
+
+---
+**Last Updated:** 2026-03-07  
+**Source:** gridironcapital.com press releases + web research  
+**Status:** Enriched - Ready for outreach  
+**Sheet Row:** 1446
