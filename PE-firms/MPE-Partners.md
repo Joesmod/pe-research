@@ -29,4 +29,7 @@
 - Recent promotions indicate growing team
 
 ## Enrichment Status
-✅ **Enriched** - Contact info verified from official sources (2026-03-06)
+✅ **Enriched** - Contact info verified from official sources (2026-03-06)  
+✅ **Re-verified** - Joshua Liebow Partner promotion confirmed, email pattern validated (2026-03-07)
+
+**Email Pattern:** {first_initial}{last}@mpepartners.com (RocketReach 86%, LeadIQ 90%)
