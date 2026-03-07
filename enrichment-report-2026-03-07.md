@@ -1,160 +1,103 @@
-# PE Research Enrichment Report
-**Date:** March 7, 2026  
-**Time:** 9:36 PM CST  
-**Mission:** Enrich existing leads in Google Sheet with verified contacts
+# PE Research & Enrichment Report
+**Date:** 2026-03-07 01:36 AM CST  
+**Session:** Hourly Cron Job  
+**Objective:** Enrich 10-15 leads with verified contact information
 
 ## Summary
 
-**Firms Researched:** 15+  
-**Contacts Verified:** 7  
-**Sheet Rows Updated:** 3  
-**Status:** Ongoing enrichment
+- **Total Firms in Sheet:** 800+  
+- **Firms Needing Enrichment:** 74 (empty Contact Name or generic emails)  
+- **Firms Enriched This Session:** 3  
+- **Method:** Web research via official team pages, LinkedIn, press releases  
 
-## Verified Contacts Found
+## Enrichments Completed
 
-### 1. Graycliff Partners
-- **Contact:** Stephen Hindmarch
-- **Title:** Partner
-- **Email:** shindmarch@graycliffpartners.com (VERIFIED)
-- **LinkedIn:** https://www.linkedin.com/in/stephen-hindmarch
-- **Source:** graycliffpartners.com/stephen-hindmarch
-- **Status:** Enriched - Ready for outreach
+### 1. North Atlantic Capital
+- **Contact:** David M. Coit  
+- **Title:** Co-founder & Managing Director  
+- **Email:** dcoit@northatlanticcapital.com ✅  
+- **LinkedIn:** https://www.linkedin.com/in/david-coit  
+- **Phone:** 207.772.4470  
+- **Source:** Official team page (northatlanticcapital.com/team)  
+- **Status:** Enriched ✅  
 
-### 2. East 57th Street Partners
-- **Contact:** Richard Lavinski, CPA
-- **Title:** Co-Founder & Managing Partner
-- **Email:** rlavinski@e57partners.com (VERIFIED via ContactOut)
-- **LinkedIn:** https://www.linkedin.com/in/richlavinski/
-- **Location:** Dallas-Fort Worth
-- **Source:** ContactOut + multiple verification sources
-- **Status:** Enriched - Ready for outreach
+### 2. Seacoast Capital
+- **Contact:** Thomas Gorman  
+- **Title:** Founding Partner  
+- **Email:** (not publicly available)  
+- **LinkedIn:** https://www.linkedin.com/company/seacoast-capital  
+- **Source:** Official team page (seacoastcapital.com/team)  
+- **Status:** Partial (no email)  
+- **Other Partners:** Jamie Donelan, Patrick Gengoux, Alan Rich, David Romagnoli  
 
-### 3. Frontenac Company
-- **Contact:** Ron Kuehl
-- **Title:** Managing Partner
-- **Email:** rkuehl@frontenac.com (VERIFIED via ContactOut)
-- **LinkedIn:** https://www.linkedin.com/in/ron-kuehl-74a217a2/
-- **Location:** Greater Chicago Area
-- **Source:** ContactOut verified
-- **Status:** Enriched - Ready for outreach
-- **Note:** Sheet already updated (Row 711)
+### 3. Rainier Partners
+- **Contact:** Alex Rolfe  
+- **Title:** Co-Founder & Managing Partner  
+- **Email:** (not publicly available)  
+- **LinkedIn:** https://www.linkedin.com/in/alex-rolfe  
+- **Phone:** 206.395.9206  
+- **Source:** Official team page (rainierpartners.com/team)  
+- **Status:** Partial (no email)  
+- **Other Partners:** Jon Altman (Co-Founder & Managing Partner)  
 
-### 4. Gridiron Capital
-- **Contact:** Tom Burger (Thomas A. Burger Jr.)
-- **Title:** Co-Founder and Managing Partner
-- **Email:** tburger@gridironcapital.com (VERIFIED)
-- **LinkedIn:** https://www.linkedin.com/company/gridiron-capital
-- **Source:** gridironcapital.com press releases (multiple instances)
-- **Status:** Enriched - Ready for outreach
-- **Note:** Sheet already updated (Row 1446)
+## Research Methodology
 
-### 5. Heartwood Partners
-- **Contact:** Mark Allsteadt
-- **Title:** Managing Partner
-- **Email:** mallsteadt@heartwoodpartners.com (VERIFIED)
-- **LinkedIn:** https://www.linkedin.com/company/heartwood-partners
-- **Source:** heartwoodpartners.com press releases
-- **Status:** Enriched - Ready for outreach
+1. **Web Search:** Used Brave API to find official team pages  
+2. **Web Fetch:** Extracted content from company websites  
+3. **Verification:** Cross-referenced multiple sources (LinkedIn, press releases, official websites)  
+4. **Email Policy:** Only recorded emails from officially published sources (no pattern guessing)  
 
-### 6. Heartwood Partners (Alternative Contact)
-- **Contact:** Demetrios Dounis
-- **Title:** Managing Partner
-- **Email:** ddounis@heartwoodpartners.com (VERIFIED)
-- **LinkedIn:** https://www.linkedin.com/company/heartwood-partners
-- **Source:** heartwoodpartners.com press releases
-- **Status:** Enriched - Ready for outreach
+## Challenges Encountered
 
-### 7. Highlander Partners
-- **Contact:** Cory Thomas (General Contact)
-- **Title:** Contact
-- **Email:** cthomas@highlander-partners.com (VERIFIED)
-- **Source:** highlander-partners.com/contact
-- **Status:** Enriched - General contact point
-- **Note:** Sheet already updated (Row 914)
-- **Additional:** Dawid Walendowski (Managing Partner, Central Europe) - dwalendowski@highlander-partners.com
+1. **Email Privacy:** Most mid-market PE firms do not publish direct partner emails on team pages  
+2. **Apollo API Issues:** Apollo.io API returned 422 errors (authentication or rate limiting)  
+3. **Generic Contacts:** Many firms only publish generic emails (info@, ir@, contact@)  
+4. **VCs vs PE:** Several firms in sheet are early-stage VC, not mid-market PE  
 
-## Partial Enrichments (Names Found, No Direct Email)
+## Recommendations for Next Session
 
-### FTV Capital
-- **Contact:** Brad Bernstein
-- **Title:** Managing Partner
-- **LinkedIn:** Available on ftvcapital.com/team
-- **Source:** ftvcapital.com/team
-- **Status:** Partial - Large team, multiple partners identified
-- **Note:** No direct emails published on website
+1. **Focus on Firms with Published Emails:**  
+   - Use site-specific Google searches: `site:firmname.com email`  
+   - Check press releases and SEC filings  
+   - Look for portfolio company announcements (often include partner emails)  
 
-### GiantLeap Capital
-- **Contact:** Samir Parikh
-- **Title:** Managing Partner & Co-Founder
-- **LinkedIn:** Available on giantleapcapital.com
-- **Source:** giantleapcapital.com/team
-- **Status:** Partial - Contact form only
+2. **LinkedIn Sales Navigator:**  
+   - May provide more direct contact paths  
+   - Can verify current roles and recent moves  
 
-### Housatonic Partners
-- **Contact:** Joe Niehaus
-- **Title:** Managing Director
-- **LinkedIn:** Available
-- **Source:** housatonicpartners.com
-- **Status:** Partial - Sheet already has contact (Row 1806)
-- **Additional:** Barry Reynolds (Managing Director), William Thorndike (Managing General Partner)
+3. **Alternative Sources:**  
+   - PitchBook database (if available)  
+   - Capital IQ (if available)  
+   - Conference speaker lists and bios  
+   - Podcast guest appearances  
 
-## Firms Needing Further Research
-
-### High Priority (Have Names, Need Emails)
-1. **Apax Partners** - Seth Brody (Partner, Global Head of Operational Excellence)
-2. **PSG Equity** - Tom Reardon (Managing Director)
-3. **Kayne Partners** - Leon Chen (needs research)
-4. **Mill Point Capital** - Michael Duran (needs research)
-5. **TruArc Partners** (fka Snow Phipps) - Alan Mantel, Ogden Phipps II, John Pless, Gary M. Spitz
-
-### Needs Complete Research
-1. **Pritzker Group Private Capital** - No contact found
-2. **Falconhead Capital** - No contact found
-3. **Wicks Capital Partners** - No contact found
-4. **Keltic Financial Partners** - No results
-
-## Research Methods Used
-
-### Successful Sources:
-1. **Official Company Websites** - Team/contact pages (most reliable)
-2. **Press Releases** - Often contain contact emails for media inquiries
-3. **ContactOut** - Third-party verification service (reliable for cross-checking)
-4. **LinkedIn** - Profile validation and connection to company websites
-5. **RocketReach/ZoomInfo** - Pattern validation (not used as primary source)
-
-### Best Practices Observed:
-- Always verified emails from official sources
-- Cross-referenced multiple sources when available
-- Prioritized recent press releases and official announcements
-- Avoided email pattern guessing - only used published contacts
-
-## Next Steps
-
-1. **Immediate Actions:**
-   - Continue enrichment for remaining 10+ firms with empty/generic emails
-   - Focus on firms with names already identified but missing emails
-   - Research newer firms in sheet (2024-2026 additions)
-
-2. **Ongoing:**
-   - Add 3-5 new mid-market PE firms ($500M-$5B AUM, services-heavy)
-   - Update dossiers in pe-research/PE-firms/
-   - Commit and push to GitHub
-
-3. **Quality Control:**
-   - Never guess email patterns
-   - Only use emails from official published sources
-   - Document source for every contact
-   - Update "Research Notes" column with enrichment source
+4. **Firms to Prioritize (Partial status, clear PE focus):**  
+   - Pzena Investment Management  
+   - Red Cove Capital  
+   - Riverwood Capital  
+   - Sunstone Partners  
+   - Quake Capital Partners (actually early VC - mark as Dead)  
 
 ## Technical Notes
 
-- **Google Sheet ID:** 11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4
-- **Sheet Name:** "Contacts" (not "Outreach Log")
-- **Columns:** Company (A), Gumbo Score (B), Contact Name (C), Title (D), Email (E), Email Status (F), LinkedIn (G), Research Notes (H), Last Contacted (I)
-- **Total Rows:** 1,840
-- **Enrichment Rate:** ~20+ firms needing enrichment identified in initial scan
+- **Sheet ID:** 11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4  
+- **Service Account:** projects/gmail-outreach/service-account.json  
+- **Column Mapping:**  
+  - C: Contact Name  
+  - D: Position/Title  
+  - E: Email  
+  - G: LinkedIn  
+  - I: Source/Notes  
+  - J: Status  
+
+## Next Steps
+
+1. Update GitHub dossiers for enriched firms  
+2. Commit and push to pe-research repo  
+3. Continue enrichment in next hourly run  
+4. Consider building a dedicated LinkedIn scraper for partner info  
 
 ---
-
-**Report Generated:** 2026-03-07 21:36 CST  
-**Next Enrichment Run:** Scheduled hourly via cron
+**Researcher:** Jim (AI Sales Researcher)  
+**Runtime:** ~5 minutes  
+**Status:** Partial completion (3/10 target)
