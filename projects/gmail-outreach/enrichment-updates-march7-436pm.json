@@ -1,0 +1,32 @@
+[
+  {
+    "row": 733,
+    "company": "Davidson Kempner Capital Management",
+    "contact": "Gabriel Schwartz",
+    "title": "Co-Deputy Managing Partner, Global Head of Sales",
+    "email": "gschwartz@davidsonkempner.com",
+    "linkedin": "https://www.linkedin.com/in/gabriel-schwartz-040a47202/",
+    "status": "Enriched",
+    "notes": "Email pattern: {first_initial}{last}@davidsonkempner.com. Verified via ContactOut (41.15% usage). Partner-level contact."
+  },
+  {
+    "row": 750,
+    "company": "Highland Capital Partners",
+    "contact": "Dan Nova",
+    "title": "General Partner",
+    "email": "dnova@hcp.com",
+    "linkedin": "https://www.linkedin.com/in/dan-nova-bba09946/",
+    "status": "Enriched",
+    "notes": "Email pattern: {first_initial}{last}@hcp.com (70% usage). General Partner since 1996. VC firm, $7B AUM."
+  },
+  {
+    "row": 802,
+    "company": "Thrive Capital",
+    "contact": "Kareem Zaki",
+    "title": "General Partner",
+    "email": "kzaki@thrivecap.com",
+    "linkedin": "https://www.linkedin.com/in/kareemzaki/",
+    "status": "Enriched",
+    "notes": "Alternative to Joshua Kushner. Forbes 30 Under 30. Invested in Affirm, Ramp, Robinhood, Lemonade."
+  }
+]

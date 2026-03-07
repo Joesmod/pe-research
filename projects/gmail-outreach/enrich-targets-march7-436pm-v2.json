@@ -1,0 +1,137 @@
+[
+  {
+    "rowIndex": 9,
+    "company": "Aeris Partners",
+    "contact": "Brandon White",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.charlesbank.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 690,
+    "company": "Wall Street Oasis",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Financial careers website (not PE)",
+    "website": "http://www.wallstreetoasis.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 691,
+    "company": "Wall Street Prep",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Training company (not PE)",
+    "website": "http://www.wallstreetprep.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 692,
+    "company": "Wefunder",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Crowdfunding platform (not PE)",
+    "website": "http://www.wefunder.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 699,
+    "company": "Alta Park Capital, LP",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Hedge Fund",
+    "website": "http://www.altaparkcapital.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 704,
+    "company": "Apercen Partners LLC",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.apercen.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 733,
+    "company": "Davidson Kempner Capital Management",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Hedge Fund",
+    "website": "http://www.davidsonkempner.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 737,
+    "company": "Dynamics Search Partners",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.dspny.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 741,
+    "company": "Essex Investment Management Company, LLC",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Asset Manager",
+    "website": "http://www.essexinvest.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 750,
+    "company": "Highland Capital Partners",
+    "contact": "",
+    "email": "",
+    "status": "Dead - VC Firm",
+    "website": "http://www.hcp.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 753,
+    "company": "Institutional Limited Partners Association (ILPA)",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Trade association (not PE)",
+    "website": "http://www.ilpa.org",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 754,
+    "company": "Investment Management Partners",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.im.partners",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 756,
+    "company": "Koinz Capital",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.koinzcapital.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contact": "",
+    "email": "",
+    "status": "Website down. Acquired by BlackRock in 2018 per LinkedIn/press coverage.",
+    "website": "http://www.tennenbaumcapital.com",
+    "reason": "Missing/stale contact"
+  },
+  {
+    "rowIndex": 802,
+    "company": "Thrive Capital",
+    "contact": "Joshua Kushner",
+    "email": "",
+    "status": "Dead - VC Firm",
+    "website": "https://www.thrivecap.com",
+    "reason": "Missing email"
+  }
+]
