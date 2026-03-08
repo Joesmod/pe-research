@@ -8,14 +8,16 @@
 ## Primary Contact
 - **Name:** Karim F. Tabet
 - **Title:** Founding Partner
-- **Email:** info@tapadvisors.com
+- **Email:** ktabet@tapadvisors.com (verified)
 - **LinkedIn:** https://www.linkedin.com/in/karim-tabet-75352823/
-- **Source:** Company website + LinkedIn
+- **Phone:** (212) 909-9010
+- **Source:** ContactOut email verification + LinkedIn
 
 ## Enrichment Details
-- **Enriched Date:** 2026-03-04
+- **Enriched Date:** 2026-03-08 (updated with verified email)
 - **Status:** Enriched
-- **Research Method:** Manual web research + LinkedIn verification
+- **Research Method:** Manual web research + ContactOut verification + LinkedIn
+- **Previous Email:** info@tapadvisors.com (generic, replaced with direct contact)
 
 ## Notes
 - New York-based investment banking boutique

@@ -9,16 +9,17 @@
 ## Key Contact
 - **Name:** David Joncas
 - **Title:** Co-Founder & Managing Director, Technology Investment Banking
-- **Email:** djoncas@aerispartners.com
+- **Email:** dwj@aerispartners.com (verified)
 - **LinkedIn:** https://www.linkedin.com/in/david-joncas-206a0424/
 - **Location:** Boston area
 - **Education:** Northwestern University - Kellogg School of Management
 - **Network:** 500+ LinkedIn connections
 
 ## Enrichment Notes
-- **Email Pattern:** first initial + last name (@aerispartners.com)
-- **Source:** LinkedIn profile + RocketReach email pattern verification
-- **Verified:** March 7, 2026
+- **Email Pattern:** first initial + middle initial + last name (@aerispartners.com)
+- **Source:** ContactOut verification
+- **Verified:** March 8, 2026 (updated from ContactOut)
+- **Previous Email:** djoncas@aerispartners.com (pattern-based, not verified)
 - **Decision-Maker Level:** Co-Founder/Managing Director (C-level)
 - **Other Key Personnel:**
   - Gray Eklund - Managing Director (recently promoted)
