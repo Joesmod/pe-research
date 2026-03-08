@@ -1,44 +1,63 @@
 # Rainier Partners
 
-## Firm Overview
+## Overview
+- **Website**: https://www.rainierpartners.com
 - **Founded**: 2020
-- **Headquarters**: Seattle, WA
-- **Focus**: Lower middle-market businesses across North America
-- **Target Sectors**: Business services, financial services, consumer services, industrial services
-- **Latest Fund**: $300M (closed October 2025 at hard cap)
+- **Location**: Seattle, Washington
+- **Type**: Private Equity
+- **Focus**: Lower middle market
+- **AUM**: Not publicly disclosed
 
-## Key Contacts
+## Investment Focus
+### Sectors
+- Business Services
+- Consumer Services
+- Industrial Services
+- Financial Services
 
-### Alex Rolfe
-- **Title**: Co-Founder & Managing Partner
-- **Email**: info@rainierpartners.com
-- **LinkedIn**: https://www.linkedin.com/in/alex-rolfe
-- **Background**: Previously Managing Director at Altamont Capital Partners from fund inception
-- **Source**: Business Wire press release (Feb 2023)
+### Geography
+- Western United States
+- Canada
 
-### Jon Altman
-- **Title**: Co-Founder & Managing Partner
-- **Email**: info@rainierpartners.com
-- **Background**: Co-founded firm with Alex Rolfe in 2020
-- **Source**: Company website & press releases
+### Deal Size
+- Lower middle market ($10M-$100M EV range, typical)
 
-## Investment Strategy
-- Lower middle-market focus
-- Geographic: North America
-- Partnership approach with founders/management teams
-- Invites founders to invest alongside the firm to align interests
+## Key Personnel
+- **Alex Rolfe** - Co-Founder & Managing Partner
+  - LinkedIn: https://www.linkedin.com/in/alex-rolfe
+- **Jon Altman** - Co-Founder & Managing Partner
 
-## Recent Activity
-- Inaugural fund closed at $300M hard cap (October 2025)
-- Team brings 30+ years combined investing expertise
+## Investment Philosophy
+- Partnership mentality: straightforward, efficient, relationship-oriented
+- Active partner approach - provide operational support, expertise, and financial resources
+- Often invest alongside founders and management teams
+- Focus on industries where they have extensive experience and deep networks
 
-## Enrichment Status
-✅ **Enriched**: March 6, 2026
-- Verified contact email from official press release
-- Founders and leadership confirmed
-- Fund size and strategy documented
+## Recent Activity (2025)
+1. **Kleen-Tech Services** (September 2025)
+   - National janitorial services provider
+   - Operations across 30+ states
+   - Founded 1993 in Denver, CO
 
-## Notes
-- Young firm (4 years old as of 2024)
-- Strong pedigree from Altamont Capital
-- Services-focused investment thesis aligns well with portfolio operations value-add
+2. **EZRED** (August 2025)
+   - Add-on acquisition for portfolio company Wilmar, LLC
+   - Automotive tool and equipment manufacturer
+   - Designer of lighting, tool organization, hand tools for automotive aftermarket
+   - Founded 1966
+
+## Portfolio Strategy
+Building platform companies through add-on acquisitions in fragmented service industries.
+
+## Contact
+- **General Inquiries**: info@rainierpartners.com
+- **Address**: Seattle, WA
+- **LinkedIn**: https://www.linkedin.com/company/rainier-partners
+
+## Research Notes
+- Founded relatively recently (2020) but active in M&A
+- Focus on services businesses with recurring revenue
+- Platform + add-on strategy evident (Wilmar/EZRED)
+- Team emphasizes operational background + investing expertise
+
+## Last Updated
+2026-03-08
