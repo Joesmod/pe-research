@@ -1,49 +1,72 @@
 # Merit Capital Partners
 
-## Firm Overview
-- **Website**: https://www.meritcapital.com/
-- **Location**: Chicago, IL
-- **Founded**: 1993
-- **AUM**: $2.7B+ (seven funds)
-- **Focus**: Lower middle-market PE, recapitalizations, buyouts
-- **Stage**: Majority and select minority ownership
+**Last Updated:** 2026-03-08
+**Status:** Partial Enrichment (No Direct Email Found)
+**Source:** Official website, RocketReach
 
-## Key Contacts
+## Company Overview
+- **Website:** https://www.meritcapital.com
+- **Location:** Chicago, IL
+- **Founded:** 1991 (Fund I)
+- **AUM:** $2.2 billion (managed since 1993 through six institutionally sponsored limited partnerships)
+- **Focus:** Middle-market equity and mezzanine capital
+- **Strategy:** Partner with owners, management teams, and independent sponsors for long-term value
+- **Investment Types:** Independent sponsors, recapitalizations/buyouts
+
+## Key Contact
 
 ### Marc Aaronson
-- **Title**: Managing Partner (Founder, 1993)
-- **Email**: maaronson@meritcapital.com
-- **LinkedIn**: https://www.meritcapital.com/our-team/
-- **Source**: Email format confirmed by RocketReach
-- **Verified**: 2026-03-06
+- **Title:** Founding Partner / CEO
+- **Email:** **NOT PUBLICLY AVAILABLE** (General: info@meritcapital.com)
+- **LinkedIn:** https://www.linkedin.com/company/merit-capital-partners
+- **Background:** 
+  - Founded Merit Capital Partners in 1991
+  - Previously 13 years at Prudential Insurance Company
+  - Senior Vice President of Prudential Capital Corporation (Chicago-based)
+  - Responsible for four Midwest offices and $2B+ portfolio
+  - Community service: youth soccer coach, AYSO board, past community board president
+  - Guest lecturer at University of Iowa Tippie College of Business
+  - BSBA Boston University, MBA Boston University
+- **Source:** Official website (meritcapital.com/our-team)
 
-### Terry Powell
-- **Title**: Managing Partner (Founder, 1991)
-- **Email**: tpowell@meritcapital.com (inferred)
+## Other Key Leadership
 
-### Tim Clark
-- **Title**: Partner (joined 1993)
-- **Email**: tclark@meritcapital.com (inferred)
+### Terry Mullen
+- **Title:** Founding Partner (1991)
+- **Background:** Previously Partner at LaSalle Capital Group, Regional VP at Prudential Capital (Chicago/Cleveland), Northwestern MBA
 
-### Tom McLean
-- **Title**: Managing Partner (joined 1997)
-- **Email**: tmclean@meritcapital.com (inferred)
+### Tim O'Brien
+- **Title:** Founding Partner (1993)
+- **Background:** Previously Senior VP at Fiduciary Capital, VP at Prudential Capital, MBA University of Illinois
 
-## Email Format
-**Confirmed**: `[first_initial][last]@meritcapital.com`
+### Tom Mohesky
+- **Title:** Managing Director (joined 1997)
+- **Background:** Director at Prudential Asset Management Asia (Hong Kong 1993-1997), VP Prudential Capital (Newark/Chicago 1987-1992), CFA, CPA, MBA Wisconsin
 
-## Investment Thesis
-Partner with family-owned companies, existing owner-managers, and independent sponsors for management buyouts, recapitalizations, and acquisition financings.
+### Evan Gallinson
+- **Title:** Managing Director (joined 2005)
+- **Background:** Previously investment banking with BMO Capital, William Blair, PwC. Northwestern MBA, University of Michigan BBA
 
-## Notable Stats
-- 105+ platform transactions closed
-- 40 independent sponsor transactions
-- $2.5B+ invested capital
-- Founded 1993
+## Investment Criteria
+- Equity: $10-50M
+- Mezzanine: $5-25M
+- Revenue: $25-200M
+- EBITDA: $5-25M+
+- Geography: Midwest, West, South, Northeast
 
-## Enrichment Notes
-- Email format confirmed from RocketReach directory
-- Deep team with long tenure (17+ year average for leadership)
-- Chicago-based with strong track record
-- Target profile: lower middle-market, flexible capital solutions
-- Enriched: 2026-03-06
+## Outreach Notes
+- **NO PUBLIC DIRECT EMAIL FOUND** for Marc Aaronson or other partners
+- General contact: info@meritcapital.com or website contact form
+- Website does not publicly list partner email addresses
+- Phone/email visible only in ZoomInfo paywall
+- May require LinkedIn or phone outreach instead of direct email
+- Well-established firm (33 years) with strong Chicago presence
+
+## Alternative Contacts
+- **Anne (CFO/CCO)** - joined 2003, Controller background
+- **Evan Gallinson** (Managing Director) - more recent hire, may be more accessible
+
+## Research Date
+- Enriched: 2026-03-08 10:36 AM CST (Hourly Cron)
+- Status: Partial (contact identified but no verified email)
+- Recommendation: Use LinkedIn InMail or general firm email
