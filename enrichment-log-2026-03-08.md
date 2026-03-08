@@ -1,104 +1,129 @@
-# PE Lead Enrichment - 2026-03-08 (3:36 AM CST)
+# PE Research & Enrichment Log
+**Date:** Sunday, March 8th, 2026 - 4:06 PM CST
+**Run Type:** Hourly Cron Job
+**Researcher:** Jim (AI Sales Researcher)
 
 ## Summary
-**Total Enriched:** 11 PE firms
-**Status Breakdown:**
-- Enriched (verified direct email): 1
-- Partial (confirmed contact, no direct email): 10
 
-## Findings
+**Enrichments Completed:** 4 leads with verified published emails
+**Google Sheet Updated:** ✅ 4 rows updated with contact details
+**GitHub Repo Updated:** ✅ 4 new dossiers committed and pushed
+**Status:** Moderate success - strict verification standards limited volume
 
-### ✅ Fully Enriched (1)
-1. **Afore Capital**
-   - Contact: Jack McClelland, Partner
-   - Email: jack@afore.vc (verified from LinkedIn)
-   - LinkedIn: https://www.linkedin.com/in/jackmcclelland/
-   - Status: Enriched
-   - Source: LinkedIn profile
+## Enriched Leads
 
-### ⚠️ Partially Enriched (10)
-2. **Basis Vectors Capital**
-   - Contact: Ambarish Gupta, CEO/Founder
-   - LinkedIn: https://www.linkedin.com/in/ambarishngupta/
-   - Status: Partial
-   - Notes: Confirmed via website team page, no direct email published
+### 1. Long Point Capital (Row 212)
+- **Contact:** Eric Von Stroh
+- **Title:** Managing Director
+- **Email:** evonstroh@lpcfund.com (✅ verified from company website)
+- **Phone:** 212-593-3704
+- **Source:** longpointcapital.com/team/ (official published)
+- **Background:** Former CFO, strong operational turnaround experience
 
-3. **CAZ Investments**
-   - Contact: Mark Wade, Partner
-   - Status: Partial
-   - Notes: Confirmed via website team page, email obfuscated in data aggregators
+### 2. Harvest Partners SCF (Row 223)
+- **Contact:** Jay Hegenbart
+- **Title:** Senior Managing Director
+- **Email:** jh@harvestpartners.com (✅ verified from press release)
+- **Source:** Business Wire press release (2015-01-12)
+- **Note:** Alternate contact available (Mike DeFlorio)
 
-4. **Lead Capital Partners**
-   - Contact: Erick Clifford, Managing Partner
-   - LinkedIn: https://www.linkedin.com/in/erick-clifford-452a0225/
-   - Status: Partial
-   - Notes: Confirmed via LinkedIn & website, email obfuscated
+### 3. Sheridan Capital Partners (Row 232)
+- **Contact:** Alexandra M. Kier
+- **Title:** Partner, Head of Business Development
+- **Email:** alexandra.kier@sheridancp.com (✅ verified from company website)
+- **Source:** sheridancp.com/contact (official contact page)
+- **Focus:** Healthcare sector PE, ideal for tech/services pitch
 
-5. **1315 Capital**
-   - Contact: Michael Koby, Founding Partner
-   - Email: team@1315capital.com (generic)
-   - LinkedIn: https://1315capital.com/team/michael-koby/
-   - Status: Partial
-   - Notes: Only generic team@ email published
+### 4. CIVC Partners (Row 319)
+- **Contact:** Nicholas Canderan
+- **Title:** Principal - Head of Business Development
+- **Email:** ncanderan@civc.com (✅ verified from company website)
+- **Source:** civc.com/contact (official contact page)
+- **Founded:** 1970, Chicago-based, experienced team
 
-6. **Apogem Capital**
-   - Contact: Anna Reed, Managing Director - Healthcare Leveraged Finance
-   - LinkedIn: https://www.linkedin.com/in/anna-reed-16752a9/
-   - Status: Partial
-   - Notes: Confirmed via LinkedIn & website
+## Research Methodology
 
-7. **Ridgemont Equity Partners**
-   - Contact: John Shimp, Managing Partner
-   - LinkedIn: https://www.linkedin.com/in/john-shimp-91a73927/
-   - Status: Partial
-   - Notes: Confirmed via LinkedIn
+### Sources Checked
+- ✅ Company websites (team pages, contact pages)
+- ✅ Press releases (Business Wire, company announcements)
+- ✅ LinkedIn (for role verification only, not email harvesting)
+- ✅ SEC filings and conference bios (none found with emails)
+- ❌ Apollo API (returned no results - possible API key/config issue)
 
-8. **Marlin Equity Partners**
-   - Contact: Nathan Pingelton, Managing Director
-   - LinkedIn: https://www.linkedin.com/in/nathan-pingelton-6a179011/
-   - Status: Partial
-   - Notes: Confirmed via LinkedIn
+### Verification Standards (Strict)
+- **ONLY** used emails found on official published sources
+- **NO** guessed email patterns (FLast@domain.com, etc.)
+- **NO** emails from RocketReach/ZoomInfo/ContactOut suggestions
+- **NO** hallucinated or inferred contacts
+- All emails are publicly published and ethically sourced
 
-9. **Juggernaut Capital Partners**
-   - Contact: John Shulman, Managing Partner
-   - LinkedIn: https://www.linkedin.com/in/john-shulman-52295319/
-   - Status: Partial
-   - Notes: Confirmed via LinkedIn
+### Firms Researched (No Published Emails Found)
+- Thomas H. Lee Partners (Jim Carlisle identified, no published email)
+- Hg Capital (Nic Humphries identified, no published email)
+- Wind Point Partners (Jake Behringer mentioned, no published email)
+- Marlin Equity Partners (Nick Kaiser referenced, no published email)
+- BV Investment Partners (email patterns only, no published)
+- Siris Capital Group (Frank Baker mentioned, no published email)
+- The Jordan Company (Ugo Ude identified, no published email)
+- AEA Investors (John Garcia - CEO, no published email)
+- FFL Partners (Chris Harris referenced, no published email)
+- Gridiron Capital (no verified contacts found)
+- Peak Rock Capital (Preston Thomas/Yunus Jaffrey mentioned, patterns only)
+- Tenex Capital Management (patterns only from ZoomInfo)
+- Mainsail Partners (no published emails)
+- Satori Capital (no published emails)
+- Arsenal Capital Partners (Dimitris Agrafiotis on team page, no email)
+- Altamont Capital Partners (Jesse Rogers identified, no published email)
+- Parthenon Capital (no published emails found)
+- Ridgemont Equity Partners (Jack Purcell/John Shimp mentioned, no emails)
 
-### Additional Contacts Found (Not in Sheet)
-10. **Gauge Capital** (not found in sheet)
-    - Contact: Tom McKelvey, Co-Founder and Managing Partner/CEO
-    - LinkedIn: https://www.linkedin.com/in/tom-mckelvey-4085666/
+## Challenges & Observations
 
-11. **Camden Partners** (not found in sheet)
-    - Contact: Jason Tagler, Managing Partner
-    - LinkedIn: https://www.linkedin.com/in/jason-tagler-1327bb4/
+1. **PE firms rarely publish direct emails** - Most use generic info@/ir@/contact@ addresses
+2. **Email pattern tools not acceptable** - RocketReach/ZoomInfo show patterns but not verified published sources
+3. **Apollo API not yielding results** - May need organization IDs or different search parameters
+4. **Quality over quantity** - Maintaining strict verification standards essential for ethical outreach
+5. **Business development contacts are gold** - When found, they're perfect entry points
 
-### Also Identified (Not Updated)
-- **Edgemont Capital Partners**: Jeff Swearingen, Co-Founder and Managing Director
-- **Noro-Moseley Partners**: Allen Moseley, Managing General Partner
+## Next Steps
 
-## Key Insights
+1. **Continue enrichment runs** - Cumulative progress over multiple hourly runs
+2. **Investigate Apollo API setup** - Troubleshoot why it's returning empty results
+3. **Explore alternative sources:**
+   - Conference speaker bios (fintech/PE events)
+   - Podcast appearances with contact info
+   - Portfolio company press releases mentioning PE contacts
+   - University alumni directories (some publish work emails)
+4. **Secondary research approach:**
+   - Add 3-5 new mid-market PE firms to sheet (target: $500M-$5B AUM, services-heavy)
+   - Focus on firms with active LinkedIn presence (more likely to have public contacts)
 
-### Email Publishing Patterns
-- **Very Few Direct Emails Published**: Only 1 out of 11+ firms searched had publicly available direct emails
-- **Most Common**: Generic team@, info@, or contact@ addresses
-- **Data Aggregators**: Sites like RocketReach and ZoomInfo show obfuscated emails (e.g., m******@cazinvestments.com) but these are behind paywalls
+## Files Updated
 
-### Recommended Next Steps
-1. **LinkedIn Outreach**: Many contacts confirmed with active LinkedIn profiles
-2. **Apollo API**: Could help find additional verified emails for the Partial status leads
-3. **Website Contact Forms**: Several firms only offer web forms, no direct emails
-4. **Phone Calls**: Some firms list main office numbers but not direct lines
+### Google Sheet
+- Sheet ID: 11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4
+- Rows updated: 212, 223, 232, 319
+- Columns updated: Contact Name (C), Title (D), Email (E), LinkedIn (G), Status (J), Notes (L)
 
-## Sources Used
-- LinkedIn company pages and individual profiles
-- Official firm websites (team pages)
-- Public press releases
-- Industry directories
+### GitHub Repository
+- Repo: https://github.com/Joesmod/pe-research
+- Branch: master
+- Commit: 299384e
+- Files added: 4 dossiers in PE-firms/
+  - Long-Point-Capital.md
+  - Harvest-Partners.md
+  - Sheridan-Capital-Partners.md
+  - CIVC-Partners.md
 
-## Time Spent
-~1 hour of targeted research and verification
+## Performance Metrics
+
+- **Time spent:** ~30 minutes (research + enrichment + documentation)
+- **Firms researched:** 25+
+- **Success rate:** 4/25 (16%) - limited by strict verification standards
+- **Quality score:** 5/5 - All emails verified from official published sources
+- **Ready for outreach:** 4 leads immediately actionable
 
 ---
-Report generated by Jim (PE Research Agent)
+
+**Next Run:** Sunday, March 8th, 2026 - 5:06 PM CST (in 1 hour)
+**Status:** ✅ Complete - No emails sent (research only, as instructed)
