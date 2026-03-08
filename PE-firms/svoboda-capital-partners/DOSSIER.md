@@ -10,26 +10,75 @@ Svoboda Capital Partners is a Chicago-based private equity firm that invests in 
 
 ## Key Contacts
 
-### Tom Brooker
-- **Title:** Managing Director & Operating Partner
+### John A. Svoboda
+- **Title:** Co-Founder, Managing Director
+- **Email:** john@svoco.com OR jsvoboda@svoco.com
+- **LinkedIn:** https://www.adapt.io/contact/john-svoboda/126408228
+- **Status:** ✅ Founder (confirmed via official website + Crunchbase)
+- **Background:** Co-founded Svoboda Capital Partners in January 1998 with Michelle Collins. 50+ transactions since founding.
+- **Notes:** Listed on official website team page and Crunchbase as Managing Director
+
+### David B. Rubin
+- **Title:** Managing Director
+- **Email:** drubin@svoco.com
+- **LinkedIn:** TBD
+- **Status:** ✅ VERIFIED (official website + Crunchbase)
+- **Notes:** Listed on both official team page and Crunchbase contact profiles
+
+### Thomas G. Brooker
+- **Title:** Partner
 - **Email:** tbrooker@svoco.com
 - **LinkedIn:** https://www.linkedin.com/company/svoboda-capital-partners-llc
 - **Status:** ✅ VERIFIED
-- **Notes:** Per RocketReach, Managing Director and Operating Partner
+- **Notes:** Per RocketReach, Managing Director and Operating Partner. Listed on official team page.
 
-### John Svoboda
-- **Title:** Managing Director & Founder
-- **Email:** jsvoboda@svoco.com
-- **LinkedIn:** https://www.adapt.io/contact/john-svoboda/126408228
-- **Status:** ✅ Founder, inferred email
+### Andrew B. Albert
+- **Title:** Partner
+- **Email:** aalbert@svoco.com
+- **LinkedIn:** TBD
+- **Status:** ✅ Confirmed (official website team page)
+- **Notes:** Partner listed on official team page
+
+### William C. King
+- **Title:** Partner
+- **Email:** wking@svoco.com
+- **LinkedIn:** TBD
+- **Status:** ✅ Confirmed (official website team page)
+- **Notes:** Partner listed on official team page
+
+### Brian Boeskool
+- **Title:** Team Member
+- **Email:** bboeskool@svoco.com
+- **LinkedIn:** TBD
+- **Status:** Confirmed (official website team page)
+
+### Ryan M. Smith
+- **Title:** Team Member
+- **Email:** rsmith@svoco.com
+- **LinkedIn:** TBD
+- **Status:** Confirmed (official website team page)
+
+### Ryan P. Clark
+- **Title:** Team Member
+- **Email:** rclark@svoco.com
+- **LinkedIn:** TBD
+- **Status:** Confirmed (official website team page)
+
+### Ana Padilla
+- **Title:** Team Member
+- **Email:** apadilla@svoco.com
+- **LinkedIn:** TBD
+- **Status:** Confirmed (official website team page)
 
 ## Firm Details
 
-- **Founded:** Mid-2000s (exact year TBD)
-- **AUM:** $400M+ (estimated)
-- **Headquarters:** Chicago, IL
-- **Deal Size:** $20M - $100M enterprise value
-- **Investment Style:** Growth capital, value creation focus
+- **Founded:** January 1998 (co-founded by John Svoboda and Michelle Collins)
+- **AUM:** $400M+ committed capital
+- **Headquarters:** One North Franklin Street, Suite 1105, Chicago, IL 60606
+- **Phone:** 312.267.8750
+- **Deal Size:** $20M - $100M enterprise value (middle market)
+- **Investment Style:** Growth capital, value creation focus, management partnership
+- **Track Record:** 70+ years combined investing experience, $400M+ committed capital, 100+ closed transactions, 50+ management team partnerships since 1998
 
 ## Sector Focus
 
@@ -41,10 +90,16 @@ Svoboda Capital Partners is a Chicago-based private equity firm that invests in 
 
 ## Email Pattern
 
-**Format:** {first_initial}{last}@svoco.com  
-**Example:** tbrooker@svoco.com, jsvoboda@svoco.com  
-**Verified:** RocketReach  
-**Confidence:** 90%
+**Format:** {firstinitial}{lastname}@svoco.com OR {firstname}@svoco.com  
+**Examples:**  
+- tbrooker@svoco.com (Thomas G. Brooker) - VERIFIED via RocketReach  
+- jsvoboda@svoco.com (John Svoboda) - INFERRED  
+- john@svoco.com (John Svoboda) - ALTERNATE PATTERN  
+- drubin@svoco.com (David B. Rubin) - INFERRED  
+- aalbert@svoco.com (Andrew B. Albert) - INFERRED  
+
+**Verified:** RocketReach (tbrooker@)  
+**Confidence:** 85% (pattern confirmed for one contact, rest inferred)
 
 ## Enrichment Status
 
