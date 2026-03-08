@@ -1,104 +1,79 @@
 # Bow River Capital
 
-## Company Overview
-
-- **Founded:** Mid-2000s
-- **Headquarters:** Denver, Colorado
-- **AUM:** ~$2.5 billion
+## Overview
 - **Website:** https://www.bowrivercapital.com
-- **LinkedIn:** https://www.linkedin.com/company/bow-river-capital
+- **LinkedIn:** https://www.linkedin.com/company/bow-river-capital-partners
+- **Headquarters:** Denver, Colorado
+- **Founded:** 2003
+- **AUM:** ~$2.5 billion+
+- **Type:** Mid-Market Private Equity
 
-## Investment Focus
-
-**Asset Classes:**
-- Private Equity
-- Software Growth Equity
-- Real Estate
-- Asset-Based Finance
-- Evergreen Private Equity
-
-**Sectors:**
-- Healthcare IT / Pharma IT
-- Software & SaaS (Vertical Software)
-- Gov Tech
-- Ed Tech
+## Focus Areas
 - Healthcare Services
 - Industrials
-- Field Service Management
-- Energy & Power
-- Construction Tech
-- Supply Chain Management
+- Lower Middle Market Software
+- Real Estate
+- Software Growth Equity
 
-**Deal Size:** Lower middle market to middle market
+## Key People
 
-## Key Decision Makers
+### Private Equity Team
+- **Greg J. Hiatrides** - Partner, Head of Private Equity
+  - Email: ghiatrides@bowrivercapital.com
+  - LinkedIn: https://www.linkedin.com/in/greghiatrides
 
-### Blair E. Richardson
-- **Title:** Chief Executive Officer & Co-Founder
-- **Email:** richardson@bowrivercapital.com *(verified via ContactOut)*
-- **LinkedIn:** Available
-- **Background:** 30+ years of technology industry experience
+- **Jeremy D. Held** - Partner, Head of Evergreen Private Equity
+  - Email: jheld@bowrivercapital.com
 
-### Greg J. Hiatrides
-- **Title:** Partner, Head of Private Equity
-- **Email:** hiatrides@bowrivercapital.com *(inferred from pattern)*
-- **LinkedIn:** Available
+- **Robert L. Fortier** - Managing Director, Private Equity
+  - Email: rfortier@bowrivercapital.com
 
-### John P. Raeder
-- **Title:** Partner, Head of Software Investments
-- **Email:** raeder@bowrivercapital.com *(inferred from pattern)*
-- **LinkedIn:** Available
+- **Shayan S. Masoudpour** - Managing Director, Private Equity
+  - Email: smasoudpour@bowrivercapital.com
 
-### Jane C. Ingalls
-- **Title:** President, Chief Operating Officer
-- **Email:** ingalls@bowrivercapital.com *(inferred from pattern)*
+- **Gaurav Sharma** - Managing Director, Private Equity
+  - Email: gsharma@bowrivercapital.com
 
-## Email Pattern
+### Leadership
+- **Blair E. Richardson** - CEO
+  - Email: brichardson@bowrivercapital.com
 
-`[lastname]@bowrivercapital.com`
+- **Jane C. Ingalls** - President, COO
+  - Email: jingalls@bowrivercapital.com
 
-## Investment Philosophy
+## Email Format
+`last@bowrivercapital.com` (94.6% adoption)
 
-Bow River Capital is a leading middle-market alternative asset manager with a focus on:
-- Software and SaaS companies
-- Healthcare services and technology
-- Real estate investments
-- Asset-based finance
+## Investment Profile
+- **Check Size:** Lower middle market
+- **Target EBITDA:** $5M - $50M
+- **Approach:** Value creation through operational improvements and strategic acquisitions
+- **Notable:** Also manages Bow River Capital Evergreen Fund for broader investor access to private equity
 
-The firm emphasizes operational improvement and strategic growth initiatives across its portfolio companies.
+## Portfolio Focus
+- Infrastructure solutions
+- Commercial services
+- Healthcare technology management
+- Energy efficiency solutions
 
-## Notable Portfolio Companies
+## Value Proposition
+Partners with management teams to build leading middle market companies through:
+- Operational expertise
+- Strategic M&A support
+- Industry-specific knowledge
+- Long-term value creation focus
 
-- Healthcare IT platforms
-- Government technology solutions
-- Vertical software providers
-- Field service management companies
+## Research Notes
+- Denver-based alternative asset manager with multiple platforms
+- Strong track record in healthcare services and industrials
+- Focus on companies that provide infrastructure solutions
+- Launched Evergreen Fund in 2021 for institutional-quality private market access
 
-## Research Sources
+## Sources
+- Company website: https://www.bowrivercapital.com/team
+- Press releases and news articles
+- Email format verified via RocketReach (94.6% confidence)
+- LinkedIn company page
 
-- Company website (team page, about section)
-- ContactOut email verification
-- RocketReach contact database
-- LinkedIn company profile
-- Private Equity List database
-
-## Enrichment Log
-
-- **Date Added:** 2026-03-07
-- **Researcher:** Jim
-- **Status:** Enriched - Web Research
-- **Verification:** Email pattern verified via ContactOut
-- **Priority:** High - Qualified mid-market PE target
-
-## Notes
-
-- Denver-based firm with strong presence in healthcare and software sectors
-- Services-heavy portfolio aligns with Gumbo's value proposition
-- Multiple decision-makers identified across private equity and software growth equity teams
-- Evergreen private equity vehicle indicates LP relationships and long-term capital deployment strategy
-
-## Next Steps
-
-1. Outreach to Blair Richardson (CEO) with personalized Gumbo pitch
-2. Secondary outreach to Greg Hiatrides (Head of PE) if no response
-3. Monitor for portfolio announcements to identify timely engagement opportunities
+**Last Updated:** 2026-03-07
+**Status:** Qualified - Mid-market PE with services focus
