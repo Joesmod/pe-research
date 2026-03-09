@@ -1,0 +1,30 @@
+[
+  {
+    "rowNum": 459,
+    "company": "Centerview Partners",
+    "contactName": "Blair Effron",
+    "domain": "centerviewpartners.com",
+    "enriched": false
+  },
+  {
+    "rowNum": 974,
+    "company": "Bow River Capital",
+    "contactName": "Greg J. Hiatrides",
+    "domain": "bowrivercapital.com",
+    "enriched": false
+  },
+  {
+    "rowNum": 975,
+    "company": "Amulet Capital Partners",
+    "contactName": "Avi Uttamchandani",
+    "domain": "amuletcapital.com",
+    "enriched": false
+  },
+  {
+    "rowNum": 976,
+    "company": "Trivest Partners",
+    "contactName": "Reid Callaway",
+    "domain": "trivestpartners.com",
+    "enriched": false
+  }
+]
