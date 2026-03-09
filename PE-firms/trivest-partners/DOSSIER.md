@@ -25,10 +25,10 @@
 
 ### Troy Templeton
 **Title:** Chairman / Managing Director  
-**Email:** ttempleton@trivest.com  
+**Email:** ttempleton@trivest.com (UNVERIFIED - pattern inference only)  
 **LinkedIn:** https://www.linkedin.com/in/troy-templeton  
-**Source:** ContactOut/ZoomInfo (Verified March 9, 2026)  
-**Notes:** Chairman-level contact. Based in Miami, 40+ years in private equity.
+**Source:** ContactOut/ZoomInfo pattern (NOT verified in official press release)  
+**Notes:** Chairman-level contact. Based in Miami, 40+ years in private equity. Email pattern NOT confirmed via public source.
 
 ### Chris Weldon
 **Title:** Managing Partner, Mid-Market  
@@ -56,15 +56,22 @@
 - Jacob Roche - Chief Financial Officer
 - Derrek Drozdyk - Managing Partner, TGIF
 
+**General Contact (Verified):**
+- **Email:** info@trivest.com
+- **Phone:** (305) 858-2200
+- **Source:** Official factsheet (trivest.com, March 9 2026)
+- **Offices:** Miami | Charlotte | Chicago | Los Angeles | Philadelphia | Toronto
+
 ## Research Notes
 
 - **Added:** 2026-03-09
-- **Updated:** 2026-03-09 (Hourly Enrichment Run)
-- **Source:** Web research (official website, ContactOut, ZoomInfo)
-- **Status:** ✅ ENRICHED - verified decision-maker emails found
-- **Priority:** High - founder-friendly culture, services focus
-- **Team Structure:** Multiple funds (Mid-Market, Discovery, Recognition, TGIF, PSG)
+- **Updated:** 2026-03-09 4:36 PM CT (Hourly Enrichment Run)
+- **Source:** Web research (official website trivest.com, factsheet PDF, team page)
+- **Status:** Partial - General contact verified (info@trivest.com), individual partner emails NOT publicly available
+- **Priority:** High - founder-friendly culture, services focus, $3.3B+ AUM
+- **Team Structure:** Multiple funds (Mid-Market, Discovery, Recognition, TGIF, PSG). Large team (100+ people).
 - **Key Decision Makers:** Troy Templeton (Chairman), Chris Weldon (Managing Partner, Mid-Market), Forest Wester (Managing Partner, Discovery)
+- **Contact Strategy:** Use general email (info@trivest.com) or LinkedIn direct outreach. Individual partner emails NOT found in press releases or official materials reviewed.
 
 ## Next Actions
 

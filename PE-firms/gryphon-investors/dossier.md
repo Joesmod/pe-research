@@ -4,8 +4,8 @@
 
 **Website:** https://www.gryphoninvestors.com  
 **Location:** San Francisco, CA  
-**AUM:** $5B+  
-**Founded:** 1997  
+**AUM:** ~$10B (as of 2025)  
+**Founded:** 1995  
 
 ## Focus
 
@@ -43,11 +43,12 @@
 ## Research Notes
 
 - **Added:** 2026-03-09
-- **Last Updated:** 2026-03-09 (Enriched)
-- **Source:** Official website (gryphon-inv.com/contact, gryphon-inv.com/team)
-- **Status:** Enriched - verified business development email
+- **Last Updated:** 2026-03-09 4:36 PM CT (Hourly enrichment cron)
+- **Source:** Official website (gryphon-inv.com/contact, gryphon-inv.com/team), Milken Institute 2025 speaker bio, Craft.co
+- **Status:** Enriched - verified business development email, individual partner emails NOT publicly available
 - **Priority:** High - mid-market services focus aligns with Hello Gumbo offering
 - **Network:** 300+ operational leaders in Gryphon Executive Network, 65 Executive Advisory Board Members
+- **Note:** Individual partner emails (R. David Andrews, Nicholas Orum, etc.) are NOT published on website or in press releases. Use BD team email or LinkedIn for outreach.
 
 ## Next Actions
 
