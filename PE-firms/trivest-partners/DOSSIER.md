@@ -21,19 +21,28 @@
 
 ## Key Personnel
 
-**Target Roles for Outreach:**
-- Managing Partner
-- General Partner
-- Partner
-
-## Verified Contacts
+**Managing Partners (Primary Outreach Targets):**
 
 ### Troy Templeton
 **Title:** Chairman / Managing Director  
 **Email:** ttempleton@trivest.com  
 **LinkedIn:** https://www.linkedin.com/in/troy-templeton  
 **Source:** ContactOut/ZoomInfo (Verified March 9, 2026)  
-**Notes:** Chairman-level contact. More senior than Reid Callaway (Senior Associate). Based in Miami, 40+ years in private equity.
+**Notes:** Chairman-level contact. Based in Miami, 40+ years in private equity.
+
+### Chris Weldon
+**Title:** Managing Partner, Mid-Market  
+**Email:** (Not yet found - needs research)  
+**LinkedIn:** https://www.trivest.com/team/  
+**Source:** Official website team page (March 9, 2026)  
+**Notes:** Leads Trivest's mid-market buyout funds
+
+### Forest Wester
+**Title:** Managing Partner, Discovery  
+**Email:** (Not yet found - needs research)  
+**LinkedIn:** https://www.trivest.com/team/  
+**Source:** Official website team page (March 9, 2026)  
+**Notes:** Leads Trivest Discovery Fund. Quoted in press releases about fund closings.
 
 ### Reid Callaway
 **Title:** Senior Associate, PSG  
@@ -41,6 +50,11 @@
 **LinkedIn:** https://www.linkedin.com/in/reid-callaway-trivest  
 **Source:** Existing in sheet  
 **Notes:** Portfolio company management within Trivest Recognition Fund.
+
+**Other Senior Leadership:**
+- Jamie Elias - Managing Partner, General Counsel
+- Jacob Roche - Chief Financial Officer
+- Derrek Drozdyk - Managing Partner, TGIF
 
 ## Research Notes
 

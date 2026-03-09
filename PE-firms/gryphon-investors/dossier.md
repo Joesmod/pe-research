@@ -21,22 +21,38 @@
 
 ## Key Personnel
 
-**Target Roles for Outreach:**
-- Managing Partner
-- General Partner
-- Operating Partner
-- Portfolio Operations
+**Primary Contact:**
+- **Name:** R. David Andrews
+- **Title:** Founder, Co-CEO & Managing Partner
+- **LinkedIn:** https://www.gryphon-inv.com/team/david-andrews/
+- **Email:** businessdevelopment@gryphoninvestors.com (BD team)
+
+**Additional Contacts:**
+- **General Inquiries:** info@gryphoninvestors.com
+- **Investor Relations:** ir@gryphoninvestors.com
+- **Phone:** 415-217-7400
+- **Address:** One Maritime Plaza, Suite 2300, San Francisco, CA 94111
+
+**Other Leadership:**
+- Nicholas Orum - Co-CEO & Co-CIO
+- Leigh Abramson - Co-CIO & Deal Partner
+- Ann Akichika - Chief Operating Officer
+- Mark Abatto - Managing Director
+- Kate Berkeley - Managing Director
 
 ## Research Notes
 
 - **Added:** 2026-03-09
-- **Source:** Apollo.io search (no contacts found)
-- **Status:** New firm - needs manual research
-- **Priority:** Mid-market services focus aligns with Hello Gumbo offering
+- **Last Updated:** 2026-03-09 (Enriched)
+- **Source:** Official website (gryphon-inv.com/contact, gryphon-inv.com/team)
+- **Status:** Enriched - verified business development email
+- **Priority:** High - mid-market services focus aligns with Hello Gumbo offering
+- **Network:** 300+ operational leaders in Gryphon Executive Network, 65 Executive Advisory Board Members
 
 ## Next Actions
 
-- [ ] Manual research for decision-maker contacts
-- [ ] Check LinkedIn for Managing Partners
-- [ ] Review firm website for contact information
-- [ ] Search press releases for named executives
+- [x] Manual research for decision-maker contacts - COMPLETED
+- [x] Check LinkedIn for Managing Partners - COMPLETED
+- [x] Review firm website for contact information - COMPLETED
+- [ ] Prepare outreach email for BD team
+- [ ] Consider direct LinkedIn outreach to R. David Andrews
