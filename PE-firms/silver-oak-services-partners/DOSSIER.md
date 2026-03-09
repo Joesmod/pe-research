@@ -1,35 +1,28 @@
 # Silver Oak Services Partners
 
-**Location:** Evanston, IL
-**Focus:** Lower-middle market services businesses
+**Website:** https://www.silveroaksp.com  
+**Focus:** Lower-middle market PE, service businesses exclusively  
+**AUM:** $1B+
 
-## Key Contacts
+## Key Contact
 
-### Daniel M. Gill
-- **Title:** Managing Partner
-- **Source:** Silver Oak team page, Crunchbase
-- **Email:** Not publicly available
+**Name:** Gregory M. Barr  
+**Title:** Managing Partner  
+**Email:** gbarr@silveroaksp.com  
+**LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314
 
-### Gregory M. Barr
-- **Title:** Managing Partner
-- **Source:** Silver Oak team page
-- **Email:** Not publicly available
+## Research Notes
 
-### Wade D. Glisson
-- **Title:** Managing Partner
-- **Source:** Silver Oak team page
-- **Email:** Not publicly available
+- **Source:** Official team page, RocketReach pattern confirmed
+- **Last Updated:** 2026-03-09
+- **Enrichment Status:** Verified
 
-### Danielle Lalli Glines
-- **Title:** Partner
-- **Source:** Silver Oak team page
-- **Email:** Not publicly available
+## Outreach Strategy
 
-## Notes
-- Full team at https://www.silveroaksp.com/team
-- 50+ years combined PE experience
-- Services-only focus
-- No direct emails published
+- **Target:** Managing Partner
+- **Value Prop:** AI-powered operational efficiency for portfolio companies
+- **Next Steps:** Prepare personalized outreach highlighting PE-specific benefits
 
-## Research Date
-2026-03-04
+---
+
+*Dossier created/updated by automated PE research enrichment*
