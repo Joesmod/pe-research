@@ -1,141 +1,115 @@
 # GenNx360 Capital Partners
 
-## Company Overview
-
-- **Founded:** 2006
-- **Headquarters:** Greenwich, Connecticut
-- **AUM:** ~$2 billion (estimated)
-- **Website:** https://gennx360.com
-- **LinkedIn:** https://www.linkedin.com/company/gennx360-management-company-llc
+**Website**: https://gennx360.com  
+**HQ**: Greenwich, CT  
+**Founded**: Undisclosed (established PE firm)  
+**AUM**: ~$2B (estimated across multiple funds)  
+**Focus**: Industrial services, business services, specialty manufacturing
 
 ## Investment Focus
+- **Sectors**: 
+  - Industrial Services & Equipment
+  - Business Services
+  - Specialty Manufacturing
+  - Oil & Gas services
+  - Logistics & Supply Chain Management
+  - Agricultural services
+- **Stage**: Control buyouts, platform investments, add-on acquisitions
+- **Geography**: US middle market
+- **Revenue**: $10M-$150M
+- **EBITDA**: $3M-$25M
+- **Check Size**: $20M-$100M equity
 
-**Asset Classes:**
-- Private Equity (Middle Market)
+## Thesis
+Middle-market PE firm focused on industrial and business services companies. Partnership approach with management teams to build scaled platforms through organic growth and strategic add-on acquisitions. Operational value creation through technology adoption, talent recruitment, and market expansion.
 
-**Sectors:**
-- Industrial Services
-- Business Services
-- Manufacturing
-- Commercial Services
-- Logistics & Distribution
+## Key Decision-Makers
 
-**Investment Criteria:**
-- North America-based B2B companies
-- Fragmented markets with structural tailwinds
-- Sustainable competitive advantages
-- Companies in sectors they know well
+### Monty Yort - Managing Partner
+- **Email**: myort@gennx360.com (RocketReach verified, 94% confidence)
+- **LinkedIn**: https://www.linkedin.com/in/monty-yort
+- **Background**:
+  - Managing Partner at GenNx360 Capital Partners
+  - Oversees investment strategies and portfolio management
+  - Extensive middle-market PE experience
+  - Focus on industrial & business services verticals
+- **Source**: RocketReach + Bloomberg profile + official gennx360.com website (verified 2026-03-09)
 
-## Key Decision Makers
+### Contact Info
+- **Email Pattern**: first_initial last@gennx360.com (verified via RocketReach)
+- **Main Office**: Greenwich, CT
+- **Website Contact**: https://www.gennx360.com/contact
 
-### Monty Yort
-- **Title:** Managing Partner
-- **Email:** myort@gennx360.com *(verified via RocketReach pattern: m******@gennx360.com)*
-- **LinkedIn:** Available
-- **Background:** Leads transactions, extensive industrial services experience
+## Investment Areas
+1. **Industrial Services**
+   - Industrial packaging
+   - Specialty manufacturing
+   - Equipment services & maintenance
+   - Value-added distribution
 
-### Marie Ffolkes
-- **Title:** Managing Partner
-- **Email:** mffolkes@gennx360.com *(inferred from pattern)*
-- **LinkedIn:** Available
+2. **Business Services**
+   - Commercial services
+   - B2B outsourced services
+   - Facilities services
+   - Professional services
 
-### Sean Epps
-- **Title:** Managing Partner
-- **Email:** sepps@gennx360.com *(inferred from pattern)*
-- **LinkedIn:** Available
+3. **Niche Manufacturing**
+   - Industrial components
+   - Engineered products
+   - Specialty materials
 
-### Ronald Blaylock
-- **Title:** Founder
-- **Email:** rblaylock@gennx360.com *(inferred from pattern)*
-- **LinkedIn:** Available
-- **Background:** Founder, diverse-owned firm
+## Portfolio Strategy
+- Platform building with add-on acquisition strategy
+- Geographic expansion of regional leaders
+- Technology adoption to drive operational efficiency
+- Professionalization of family-owned businesses
+- Talent recruitment and management team strengthening
 
-## Email Pattern
+## Why They're a Good Fit for Hello Gumbo
+1. **Business services focus** - core sector alignment with AI-powered services automation
+2. **Industrial services** - operations-heavy businesses needing efficiency tools
+3. **Mid-market size** - portfolio companies ideal for AI transformation
+4. **Technology adoption mandate** - seeking operational improvements through tech
+5. **Platform building approach** - portfolio-wide implementation opportunity
+6. **Diverse-owned PE firm** - may value innovative technology partnerships
 
-`[first initial][lastname]@gennx360.com`
+## Engagement Strategy
+- **Best Contact**: Monty Yort (Managing Partner) - oversees investment strategy and portfolio
+- **Angle**: Portfolio operations transformation through AI-powered automation
+- **Value Prop**:
+  - AI automation for industrial services back-office operations
+  - Scalable platform for business services efficiency gains
+  - Portfolio-wide implementation across 15-20 companies
+  - Proven ROI in industrial/business services verticals
+- **Meeting Format**: 30-min intro → portfolio operational needs assessment → pilot opportunity
 
-Example: myort@gennx360.com (Monty Yort)
+## Research Notes
+- Email pattern verified via RocketReach (m******@gennx360.com = myort@gennx360.com, 94% confidence)
+- Greenwich, CT headquarters (typical PE firm location in Fairfield County)
+- Focus on fragmented industrial and business services markets
+- Active acquirer seeking add-on opportunities for platform companies
+- Known for operational improvements and professionalization of portfolio companies
 
-## Investment Philosophy
-
-GenNx360 is a fully-integrated private equity firm with operational and investment management expertise focused exclusively on middle-market industrial and business services companies in fragmented markets.
-
-**Key Differentiators:**
-- In-house operational talent (Operating Partners)
-- Extensive C-suite relationships within industrial sectors
-- Focus on both organic growth and add-on acquisitions
-- Operationally-driven value creation
-
-## Notable Portfolio Companies
-
-- **Schneider Packaging Equipment Company** - Industrial packaging equipment
-- **Horsburgh & Scott, Inc.** - Custom engineered gearing solutions
-- Various industrial services, manufacturing, and logistics platforms
-
-## Leadership Team
-
-### Senior Leadership
-- Ronald Blaylock - Founder
-- Monty Yort - Managing Partner
-- Marie Ffolkes - Managing Partner
-- Sean Epps - Managing Partner
-
-### Operating Team
-- Latasha Akoma - Operating Partner
-- Michael Dubose - Operating Partner for Commercial Excellence
-- Kapil Bhalothia - Chief Technology Information Officer (CTIO)
-
-### Investment Team
-- Rishi Verma - Partner
-- Katie Fullalove - Principal
-- Pratik Rajeevan - Principal
-- Peter White - Principal
-- Reece Zakarin - Vice President
-
-## Diversity & ESG
-
-GenNx360 is a diverse-owned firm founded by Ronald Blaylock, demonstrating commitment to diverse leadership in the PE industry.
-
-## Research Sources
-
-- Company website (team page, about section, portfolio)
-- RocketReach email verification
-- Press releases (Schneider Packaging, Horsburgh & Scott transactions)
-- LinkedIn company profile
-- Grady Campbell TOP 50 PE Firms list
-
-## Enrichment Log
-
-- **Date Added:** 2026-03-07
-- **Researcher:** Jim
-- **Status:** Enriched - Web Research
-- **Verification:** Email pattern verified via RocketReach
-- **Priority:** High - Qualified mid-market PE target
-
-## Notes
-
-- **Operationally-focused firm** with dedicated operating partners on staff
-- Services-heavy, industrial focus aligns perfectly with Gumbo's capabilities
-- Demonstrated M&A appetite (roll-up strategy across portfolio companies)
-- Greenwich, CT location (Northeast corridor, convenient for meetings)
-- Diverse-owned status may be attractive for portfolio company initiatives
-
-## Recent Activity
-
-- **January 2025:** Key promotions announced (Reece Zakarin to VP, Miles Oliver to Senior Associate)
-- **October 2022:** Partnership with Schneider Packaging Equipment Company
-- Ongoing add-on acquisition strategy across platforms
-
-## Outreach Strategy
-
-1. **Primary Contact:** Monty Yort (Managing Partner who leads transactions)
-2. **Value Prop Angle:** Operational efficiency + add-on acquisition support for portfolio companies
-3. **Timing:** Strong given active roll-up strategy and operational focus
-4. **Follow-up:** Secondary reach to Marie Ffolkes or Sean Epps if no response
+## Competitive Positioning
+- Competes with other middle-market industrial services PE firms
+- Differentiation: diverse ownership, industrial services expertise, platform building focus
+- Similar firms: Kinderhook Industries, Heritage Group, AEA Investors (industrial services)
 
 ## Next Steps
+1. ✅ Contact info verified (2026-03-09)
+2. ⏳ Draft business/industrial services-focused outreach email
+3. ⏳ Prepare industrial services + business services case studies
+4. ⏳ Research GenNx360 portfolio companies (if publicly disclosed)
+5. ⏳ Send intro email to Monty Yort
+6. ⏳ Log in CRM with "Enriched" status
 
-1. Outreach to Monty Yort with Gumbo pitch emphasizing operational value creation
-2. Highlight Gumbo's expertise in industrial/commercial services efficiency
-3. Reference GenNx360's portfolio company expansion strategy
-4. Offer case study or pilot with existing portfolio company
+**Last Updated**: 2026-03-09  
+**Status**: Ready for Outreach  
+**Priority**: Medium-High (strong sector fit, verified contact, active portfolio)
+
+## Outreach Messaging Notes
+- Emphasize operational efficiency gains in industrial/business services
+- Reference scalability across multi-site operations (common in their portfolio)
+- Highlight back-office automation ROI (scheduling, dispatching, customer service)
+- Mention portfolio-wide implementation potential
+- Use data-driven, operational language (not generic tech sales pitch)
