@@ -2,36 +2,42 @@
 
 ## Overview
 - **Website:** https://gridironcapital.com
-- **Type:** Private Equity
-- **Focus:** Middle Market PE
 - **Location:** New Canaan, CT
-- **Founded:** 2004 (20+ years operating)
+- **Founded:** ~2004 (20+ years)
+- **Focus:** Middle-market companies, consumer, specialty manufacturing, services
+- **Investment Size:** Middle market
+- **Philosophy:** "Winning Together" culture, operational expertise, hands-on value creation
 
-## Primary Contact
-- **Name:** Scott Harrison
-- **Title:** Managing Director and COO
-- **Email:** sharrison@gridironcapital.com
-- **Phone:** (203) 972-1100
-- **LinkedIn:** https://www.linkedin.com/company/gridiron-capital-llc
-- **Source:** RocketReach + official website
+## Key Contacts
 
-## Additional Key Contacts
-- **T.B.** - Co-Founder & Managing Partner
-- **Daniel Kravitz** - Operating Partner (hired December 2025)
-- **Shari Miller** - General Counsel & Chief Compliance Officer (hired October 2025)
-- **Rodney Eshelman** - Managing Director
+### Tom Burger
+- **Title:** Co-Founder & Managing Partner
+- **Email:** tburger@gridironcapital.com
+- **LinkedIn:** https://www.linkedin.com/in/tom-burger-237b183
+- **Source:** RocketReach verified (2026-03-09)
+- **Experience:** 35+ years relevant experience, 30+ years acquiring and building middle-market companies
+- **Background:** Former Managing Director at RFE Investment Partners and Butler Capital Corporation
+- **Notes:** Co-founded Gridiron Capital, focused on manufacturing, service, and specialty consumer markets
 
-## Enrichment Details
-- **Enriched Date:** 2026-03-04
-- **Status:** Enriched
-- **Research Method:** RocketReach pattern confirmation + official website
+### Rodney Eshelman
+- **Title:** Managing Director
+- **LinkedIn:** https://gridironcapital.com/team/rodney-eshelman
+- **Source:** Official website
+- **Background:** Former Partner at TZP Group (Co-Founder of TZP Small Cap Partners), Co-Founder at Alston Capital, MD at Crystal Ridge Partners
+- **Notes:** Joined Gridiron 2025 to expand investment capabilities
 
-## Notes
-- Email pattern: [first initial][lastname]@gridironcapital.com
-- Address: 50 Pine Street, New Canaan, CT 06840
-- Founded 2004, celebrating 20+ years in 2025
-- Recent team expansion: Daniel Kravitz (Operating Partner), Shari Miller (General Counsel)
-- Strong operational support through "Centers of Excellence" network
-- Partnership-focused culture: "There's no limit to leveraging the amazing connections and talent within the Gridiron network"
-- Value creation through operational improvement
-- Active team expansion indicates growth phase
+## Centers of Excellence
+Gridiron supports portfolio companies with:
+- Operating Partners
+- Board of Business Executives
+- Independent advisors with relevant industry experience
+
+## Notable Portfolio Companies
+- M&D Distributors (8 add-ons in 2 years, 49 new distribution centers)
+- GSM Outdoors (18 acquisitions, doubled size and profitability)
+- GarageCo
+
+## Enrichment Date
+- **Last Updated:** 2026-03-09
+- **Research Source:** Official website, RocketReach, press releases
+- **Status:** Enriched with Co-Founder contact
