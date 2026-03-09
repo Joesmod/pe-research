@@ -49,7 +49,9 @@ HGGC is known for:
 
 ## Status
 ✅ **Enriched:** March 6, 2026  
-📧 **Email pattern inferred:** RocketReach verification  
+✅ **RE-VERIFIED:** March 9, 2026 (Hourly enrichment run - ContactOut multi-source verification)  
+📧 **Email confirmed:** rlawson@hggc.com (ContactOut + LinkedIn + multiple sources)  
 🎯 **Priority:** High - middle market, tech focus, partnership culture  
 🏆 **Notable:** Rising star in 2025 rankings due to "advantaged investing" model  
-💼 **Recent activity:** $240M in Fullscript, portfolio includes AutoAlert, Entrata (prop-tech)
+💼 **Recent activity:** $240M in Fullscript, portfolio includes AutoAlert, Entrata (prop-tech)  
+📞 **Office:** +1 (650) 321-4910 (confirmed via hggc.com/contact)

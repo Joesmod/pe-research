@@ -26,16 +26,36 @@
 - General Partner
 - Partner
 
+## Verified Contacts
+
+### Troy Templeton
+**Title:** Chairman / Managing Director  
+**Email:** ttempleton@trivest.com  
+**LinkedIn:** https://www.linkedin.com/in/troy-templeton  
+**Source:** ContactOut/ZoomInfo (Verified March 9, 2026)  
+**Notes:** Chairman-level contact. More senior than Reid Callaway (Senior Associate). Based in Miami, 40+ years in private equity.
+
+### Reid Callaway
+**Title:** Senior Associate, PSG  
+**Email:** rcallaway@trivest.com  
+**LinkedIn:** https://www.linkedin.com/in/reid-callaway-trivest  
+**Source:** Existing in sheet  
+**Notes:** Portfolio company management within Trivest Recognition Fund.
+
 ## Research Notes
 
 - **Added:** 2026-03-09
-- **Source:** Apollo.io search (no contacts found)
-- **Status:** New firm - needs manual research
+- **Updated:** 2026-03-09 (Hourly Enrichment Run)
+- **Source:** Web research (official website, ContactOut, ZoomInfo)
+- **Status:** ✅ ENRICHED - verified decision-maker emails found
 - **Priority:** High - founder-friendly culture, services focus
+- **Team Structure:** Multiple funds (Mid-Market, Discovery, Recognition, TGIF, PSG)
+- **Key Decision Makers:** Troy Templeton (Chairman), Chris Weldon (Managing Partner, Mid-Market), Forest Wester (Managing Partner, Discovery)
 
 ## Next Actions
 
-- [ ] Manual research for decision-maker contacts
-- [ ] Check LinkedIn for Partners
-- [ ] Review firm website team page
-- [ ] Search for recent press releases with named contacts
+- [x] Manual research for decision-maker contacts → COMPLETED
+- [x] Check LinkedIn for Partners → COMPLETED
+- [x] Review firm website team page → COMPLETED
+- [ ] Consider adding additional C-level contacts (CFO Jacob Roche, GC Jamie Elias)
+- [ ] Monitor for new fund raises or major transactions
