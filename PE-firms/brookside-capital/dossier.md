@@ -1,23 +1,22 @@
-# Trivest Partners
+# Brookside Capital
 
 ## Overview
 
-**Website:** https://www.trivest.com  
-**Location:** Miami, FL  
-**AUM:** $3B+  
-**Founded:** 1981  
+**Website:** https://www.brooksidecapital.com  
+**Location:** Chicago, IL  
+**AUM:** $1.5B+  
+**Founded:** 2004  
 
 ## Focus
 
 **Sectors:**
-- Business Services
 - Healthcare Services
-- Technology-Enabled Services
+- Business Services
 
 **Strategy:**
-- Founder-friendly approach
-- Lower and middle market
-- Operational value creation
+- Lower middle market focus
+- Partnership with management
+- Operational expertise
 
 ## Key Personnel
 
@@ -31,11 +30,11 @@
 - **Added:** 2026-03-09
 - **Source:** Apollo.io search (no contacts found)
 - **Status:** New firm - needs manual research
-- **Priority:** High - founder-friendly culture, services focus
+- **Priority:** Mid-market, services-heavy portfolio
 
 ## Next Actions
 
 - [ ] Manual research for decision-maker contacts
 - [ ] Check LinkedIn for Partners
-- [ ] Review firm website team page
-- [ ] Search for recent press releases with named contacts
+- [ ] Review firm website for contact page
+- [ ] Search for portfolio announcements with named executives
