@@ -19,9 +19,9 @@ Multi-fund platform providing tailored capital solutions across company lifecycl
 
 ## Key Decision-Makers
 
-### Reid Callaway - Managing Director (Discovery Fund)
-- **Email**: rcallaway@trivestpartners.com (pattern inferred, 90% confidence)
-- **LinkedIn**: https://www.linkedin.com/in/reid-callaway/
+### Reid Callaway - Principal / Vice President (Discovery Fund)
+- **Email**: rcallaway@trivest.com (verified via Wiza pattern r*****@trive***.com)
+- **LinkedIn**: https://www.linkedin.com/in/reid-callaway-trivest
 - **Background**:
   - **Promoted to Managing Director**: July 2025 (recent promotion - good timing for outreach!)
   - Stanford Graduate School of Business (MBA)
