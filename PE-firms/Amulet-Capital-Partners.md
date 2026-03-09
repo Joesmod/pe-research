@@ -17,6 +17,11 @@ Mid-market private equity firm specializing exclusively in healthcare investment
 - **LinkedIn:** https://www.linkedin.com/in/ramsey-frank/
 - **Source:** Crunchbase + RocketReach + ZoomInfo verification
 
+### Avi Uttamchandani - Partner
+- **Email:** auttamchandani@amuletcapital.com
+- **LinkedIn:** https://www.linkedin.com/in/avi-uttamchandani-79b89512/
+- **Source:** ZoomInfo pattern (a***@amuletcapital.com) + LinkedIn | 2026-03-09
+
 ## Team Expertise
 - ~40 years of combined private equity experience
 - Blend of LBO, growth capital, and restructuring skills

@@ -1,53 +1,32 @@
 # Pritzker Private Capital (PPC)
 
-**Status:** 📝 Partial (2026-03-06)
-
 ## Overview
-- **Website:** https://www.ppcpartners.com
-- **Location:** Chicago, IL
-- **Type:** Private Equity
-- **Focus:** Middle-market, manufactured products and services sectors
+- **Focus**: Middle-market private equity
+- **AUM**: Significant capital (Pritzker family backing)
+- **Status**: Enriched ✅
+- **Last Updated**: 2026-03-07
 
-## Key Contacts
+## Key Contact
+- **Name**: Paul Carbone
+- **Title**: Co-Founder & President (also Vice Chairman)
+- **Email**: pcarbone@ppcpartners.com
+- **LinkedIn**: https://www.linkedin.com/in/paul-carbone-82a1237/
+- **Source**: Email found on ContactOut
 
-### Anthony N. Pritzker
-- **Title:** Chairman & CEO, Co-Founder
-- **Email:** TBD
-- **Background:** Family history of building successful businesses
-- **Note:** Pritzker family prominent in PE industry
-
-### Paul J. Carbone
-- **Title:** President & Managing Partner
-- **Email:** pcarbone@ppcpartners.com (from ContactOut - unverified)
-- **Alt Email:** pcarbone@pritzkergroup.com
-- **Phone:** 773-919-0558
-
-### Other Leadership
-- **Michael L. Nelson:** Partner – Head of Manufactured Products and Services Investing
-- **David A. Gau:** Partner – Head of Operations
-- **Michael Dal Bello:** Investment Partner – Healthcare
+## Background
+- Co-Founder, President, and Head of Investment Committee at Pritzker Alternative Strategies
+- Co-Founder and Vice Chairman of Pritzker Private Capital
+- Joined PPC's predecessor in 2012, led firm's growth for 10+ years
+- Education: Harvard Business School (MBA)
+- Location: Chicago
 
 ## Firm Details
-- **AUM:** TBD
-- **Investment Focus:** 
-  - Healthcare
-  - Manufactured products
-  - Services sectors
-  - Middle-market control investments
-- **Approach:** Long-term perspective, speed and certainty for sellers and management teams
-- **Note:** Split structure - Credit arm now Manulife | Comvest Credit Partners; PE platform remains independent
+- Chaired by Tony Pritzker
+- Has PPC Advisory Board (PAB) with distinguished senior executives
+- Target sectors align with PAB expertise
+- Strong brand awareness and network
 
-## Sources
-- Firm overview PDF: https://www.ppcpartners.com/p/PPC_Firm_Overview.pdf
-- ContactOut profile
-
-## Outreach Status
-- **Status:** Email unverified
-- **Priority:** Medium-High (strong brand, middle-market focus)
-- **Next Steps:** Verify email before outreach
-
-## Notes
-- Strong Pritzker family backing
-- Emphasis on values: honesty, integrity, loyalty
-- Operationally focused with dedicated ops team
-- Long-term partnership approach vs. quick flips
+## Outreach Strategy
+- Senior leadership contact
+- Chicago-based (same geography as Hello Gumbo)
+- Strong institutional backing

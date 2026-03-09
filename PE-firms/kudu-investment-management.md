@@ -1,33 +1,28 @@
-# Kudu Investment Management, LLC
+# Kudu Investment Management
+
+## Overview
+- **Focus**: Asset management firms (wealth management, RIAs)
+- **Status**: Partial (contact identified, email not public)
+- **Last Updated**: 2026-03-07
 
 ## Key Contact
 - **Name**: Rob Jakacki
-- **Title**: Managing Partner, CEO, Co-Chief Investment Officer
-- **LinkedIn**: https://www.linkedin.com/company/kudu-investment-management-llc
-- **Email**: Not publicly listed
-- **Source**: Official website (kuduinvestment.com/our-team/rob-jakacki/)
+- **Title**: Managing Partner, CEO, Co-CIO
+- **LinkedIn**: Profile confirmed on kuduinvestment.com
+- **Source**: Kudu co-founder, oversees all investment activities
 
-## Firm Overview
-- **Website**: https://www.kuduinvestment.com/
-- **Founded**: 2015 (Co-Founder previously at Asset Management Finance, LLC)
-- **Location**: New York, NY
-- **Strategy**: Long-term capital solutions to independent asset and wealth managers globally
-- **Services**: Generational ownership transfers, management buyouts, acquisition/growth finance, liquidity for legacy partners
+## Background
+- Kudu co-founder
+- Oversees portfolio strategy, deal sourcing, analysis, transaction structuring, due diligence, monitoring
+- Previously co-founder and CIO of Asset Management Finance, LLC
+- Before AMF: VP in structured finance at Putnam Lovell NBF Securities
+- Associate at First Union National Bank
+- Education: MBA from Thunderbird School of Global Management, BA in international/global studies from Dickinson College
 
-## Background on Rob Jakacki
-Rob, a Kudu co-founder, oversees all investment activities for Kudu, encompassing portfolio strategy, deal sourcing, analysis, transaction structuring, due diligence, and monitoring.
+## Investment Focus
+- Asset management and wealth management firms
+- Unique focus on financial services sector
 
-Prior to Kudu, he was co-founder and CIO of Asset Management Finance, LLC. Before AMF, he was a vice president in the structured finance unit at Putnam Lovell NBF Securities and an associate at First Union National Bank.
-
-## Education
-- MBA from Thunderbird School of Global Management
-- BA in International/Global Studies from Dickinson College
-
-## Team
-- **Other Leaders**: Charlie Ruffel (Executive Chairman & Founder)
-- Multiple Managing Directors and Directors across investments, finance, and operations
-
-## Enrichment Status
-- **Status**: Partial - LinkedIn Only
-- **Last Updated**: 2026-03-06 07:06 AM CST
-- **Researcher**: Jim (Hourly PE Enrichment Cron)
+## Next Steps
+- Email pattern likely follows @kuduinvestment.com
+- Consider LinkedIn outreach or finding contact via firm inquiry

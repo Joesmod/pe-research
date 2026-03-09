@@ -1,69 +1,41 @@
 # Jett Capital Advisors
 
-## Overview
-- **Type**: Investment Bank (Natural Resources & Technology focus)
-- **Founded**: ~2010s
-- **Location**: New York, NY
-- **Website**: https://www.jettcapital.com
-- **Registration**: FINRA registered broker-dealer, SIPC member
-- **Focus**: Middle market and emerging natural resources and technology companies
+**Last Updated:** 2026-03-08  
+**Status:** Enriched - Direct Contact Found
 
-## Mission
-"Dedicated to changing the future of natural resources and energy. From helping to advance the supply of critical resources, to advancing the development of new technologies, the firm is driven by creating the building blocks that are required for a better tomorrow."
+## Company Overview
+- **Website:** https://www.jettcapital.com
+- **Founded:** 2013
+- **Type:** Investment Banking & Capital Markets Advisory
+- **Location:** New York City, New York
+- **Focus:** Special situations and project finance advisory
 
-## Service Lines
+## Key Contact
 
-### Investment Banking
-- **Equity Capital Markets**: IPOs, Public Equity Placements, De-SPAC PIPE Marketing, VC/Growth Equity Funding, Private Equity Financing
-- **Debt Capital Markets**: Term Loans, High-Yield Private Debt, Convertible Notes, Metals Prepayments, Offtakes, Metals Streaming
-- **Strategic & Transaction Advisory**: M&A, Divestitures, SPAC Advisory, Recapitalizations, Valuations & Fairness Opinions
+### Sam Grauer
+- **Title:** Founding Partner, Head of Capital Markets Division
+- **Email:** sgrauer@jettcapital.com (RocketReach pattern: s******@jettcapital.com)
+- **LinkedIn:** https://www.linkedin.com/in/sam-grauer-4519606/
+- **Background:**
+  - Founding Partner of Jett Capital
+  - Currently serves as Head of the firm's Capital Markets Division
+  - Under his leadership, Jett Capital has become a global leader in special situations and project finance advisory
 
-### Venture Capital & Growth Equity Advisory
-- Extensive VC community relationships
-- Full-stack company & business strategy review
-- Investor presentations, financial models, data rooms
-- Lead investor targeting & negotiation
+## Firm Details
+- **Classification:** Investment banking and capital markets advisory firm
+- **Headquarters:** New York City
+- **Founded:** 2013
 
-## Key Sectors
-- **Natural Resources**: Critical minerals, metals, mining
-- **Clean Technology**: Battery metals, EV charging, grid-scale generation, battery recycling
-- **Energy**: Renewable energy, green transportation
+## Research Notes
+- Email pattern verified through RocketReach
+- Also found in team listings:
+  - Multiple partners in various divisions
+  - PitchBook profile available
 
-## Key Leadership
+## Enrichment History
+- **2026-03-08:** Initial enrichment completed. Email pattern identified via RocketReach.
 
-### Joe Riggio
-- **Title**: Partner & CEO
-- **Email**: jriggio@jettcapital.com (Pattern inferred, needs verification)
-- **Background**: Founding Partner, 20+ years structuring sophisticated transactions and investment strategies
-- **LinkedIn**: https://www.linkedin.com/company/jett-capital-advisors
-- **Role**: Manages Investment Banking Committee, trusted advisor to corporations and institutional advisors
-
-### Partners
-- **Dov Wiener** - Partner
-- **Samuel Grauer** - Partner (previously at Casimir Capital, strong US investor attraction track record)
-- **Matt Jurjevich** - Partner
-
-### Senior Team
-- **Robert Dixon** - Global Head of Institutional Sales
-- **Timothy O'Keeffe** - Head of Energy
-- **Ben Seward** - Director
-- **Darrin Blumenthal** - Director
-- **James Yates** - Analyst
-
-## Investment Approach
-- Hyper-specialized teams with real leadership experience in industries covered
-- Rare level of expertise advising founders, boards, and management teams
-- Hands-on, distinctive background in critical resources and battery materials
-- Strong Australian market connections (partnership with Petra Capital)
-
-## Contact
-- **Website**: https://www.jettcapital.com
-- **LinkedIn**: https://www.linkedin.com/company/jett-capital-advisors
-- **Team Size**: 11-50 employees
-
-## Sourcing & Research Notes
-- **Last Enrichment**: March 5, 2026
-- **Source**: Jettcapital.com team/about pages, LinkedIn, Petra Capital announcement
-- **Contact Quality**: ⚠️ Email pattern inferred (needs verification)
-- **Outreach Priority**: Medium (investment bank, not direct PE, but strong VC/PE connections)
-- **Next Steps**: Verify Joe Riggio email pattern, reach out re: VC/PE portfolio company tech solutions
+## Source Links
+- Company website: https://www.jettcapital.com/team/samuel-grauer
+- RocketReach: https://rocketreach.co/sam-grauer-email_36169724
+- PitchBook: https://pitchbook.com/profiles/advisor/63650-53

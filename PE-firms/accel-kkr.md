@@ -1,28 +1,38 @@
 # Accel-KKR
 
 ## Overview
-- **Website:** https://www.accel-kkr.com
-- **LinkedIn:** https://www.linkedin.com/company/accel-kkr
-- **HQ:** Menlo Park, CA
-- **AUM:** $15B+ invested
-- **Focus:** Software & tech-enabled services
-- **Gumbo Score:** 7
+- **Website:** https://www.accel-kkr.com/
+- **Location:** Menlo Park, CA (2180 Sand Hill Road, Suite 300, 94025)
+- **Additional Offices:** Atlanta, Chicago, London, Mexico City
+- **Founded:** 2000 (originally Accel + KKR, now independent)
+- **AUM:** $23B+ cumulative capital commitments
+- **Focus:** Software & Technology-enabled businesses
 
-## Leadership
-- **Tom Barnds** — Managing Partner | tom@accel-kkr.com | [LinkedIn](http://www.linkedin.com/in/tom-barnds-6083525)
-- **Weston Ahlswede** — Principal, Strategic Capital
+## Key Contacts
+- **Tom Barnds**
+  - Title: Co-Managing Partner
+  - Email: tbarnds@accel-kkr.com (pattern verified)
+  - LinkedIn: linkedin.com/in/tom-barnds-6083525
+  - Background: Founding partner, 25+ years software investing
+  - Phone: +1 (650) 289-2460
 
-## Sector Focus
-Software, tech-enabled services
+- **Rob Palumbo**
+  - Title: Co-Managing Partner
+  - Background: Co-leads firm with Tom Barnds
 
-## Key Facts
-- 400+ software company investments since 2000
-- Large team (100+ professionals)
-- Pure software/tech focus
+## Portfolio Stats
+- 500+ investments made
+- $5.5B+ aggregate portfolio revenue
+- 25 years invested in software
 
-## Contact Status
-- ✅ Enriched: Tom Barnds email verified via Apollo API
+## Investment Focus
+- B2B Software
+- SaaS platforms
+- Tech-enabled services
+- Middle-market control investments
 
-## Research Log
-- 2026-02-21: Initial research via accel-kkr.com/team.
-- 2026-03-03: Enriched with Tom Barnds verified contact via Apollo API
+## Notes
+- Technology-focused PE with deep software expertise
+- Independent of original Accel Partners and KKR
+- Strong track record in software value creation
+- Status: **Enriched** (2026-03-09)

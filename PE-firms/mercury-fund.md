@@ -18,9 +18,11 @@
 - **Notes:** Co-founder and Managing Partner of Mercury Fund, one of the largest early-stage VC firms headquartered in Texas. Focus on enabling technologies for retailers and brands. Also Adjunct Professor at Jones Graduate School of Business at Rice University teaching venture capital. Previously CEO of Intermat (acquired by IHS), Principal at Genesis Park, and Director of Operations at Houston Technology Center. Co-founded Station Houston (now part of Ion and Capital Factory) and SURGE Accelerator.
 
 ### Adrian Fortino
-- **Title:** General Partner
-- **Email:** adrian@mercuryfund.com (inferred from pattern)
-- **Source:** ContactOut
+- **Title:** Managing Director & General Partner
+- **Email:** adrian@mercuryfund.com (not publicly verified)
+- **LinkedIn:** https://www.linkedin.com/in/adrianfortino
+- **Source:** Mercury Fund team page (2026-03-07)
+- **Notes:** Managing Director & General Partner. No public email found on team page or press releases.
 
 ## Email Pattern
 - **Format:** [first]@mercuryfund.com

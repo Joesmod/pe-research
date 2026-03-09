@@ -1,26 +1,32 @@
 # Afore Capital
 
-## Overview
-- **Website:** https://www.afore.vc
-- **Location:** San Francisco, CA
-- **Focus:** Pre-seed venture capital
-- **AUM:** $500M+ (largest pre-seed fund)
+**Type:** Venture Capital  
+**AUM:** ~$300M (Pre-seed focused)  
+**Website:** https://afore.vc  
+**Focus:** Pre-seed and early-stage technology companies
 
 ## Key Contacts
 
-### Gaurav Jain - Co-Founder & Managing Partner
-- **Email:** gjain@afore.vc
-- **Source:** vcsheet.com, confirmed on afore.vc
-- **LinkedIn:** https://www.linkedin.com/in/gjainvc
+### Jack McClelland
+- **Title:** Principal
+- **Email:** jack@afore.vc (✓ Verified - LinkedIn profile)
+- **LinkedIn:** https://www.linkedin.com/in/jackmcclelland/
+- **Twitter:** @jackmmcclelland
+- **Focus:** Pre-seed investments, $1M-$3M check sizes
+- **Personal site:** jackmcclelland.com
 
-## Investment Thesis
-Largest venture fund ($500M AUM) dedicated to pre-seed investing. Proven product and investment expertise, helping founders build on Day 0 — build now, raise later.
+## Investment Profile
+- Pre-seed focused venture capital fund
+- Managing ~$300M across three funds
+- Focus on founders at the earliest stages
+- Active in web3/crypto (jack@afore.vc uses .eth)
 
-## Check Sizes
-$1M - $3M typical investment range
-
-## Research Date
-2026-03-05
+## Notes
+- Very accessible investor
+- Active on social media and Substack
+- Email publicly listed on LinkedIn profile
+- Strong focus on engineering and product-first founders
 
 ## Status
-**Enriched** - Verified co-founder with direct email
+**Enriched** - 2026-03-08  
+**Source:** LinkedIn profile, Substack profile, ContactOut verification

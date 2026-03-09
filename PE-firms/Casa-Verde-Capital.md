@@ -1,84 +1,60 @@
 # Casa Verde Capital
 
 ## Overview
-- **Type**: Private Equity / Venture Capital (Cannabis & CPG focus)
-- **Founded**: 2015
-- **Location**: Los Angeles, CA
-- **Website**: https://casaverdecapital.com
-- **Focus**: Cannabis industry, consumer packaged goods, consumer brands
-- **Notable**: Co-founded by Snoop Dogg
+Cannabis-focused venture capital firm co-founded with rapper/entrepreneur Snoop Dogg (Calvin Broadus).
 
-## Investment Philosophy
-- Cannabis industry specialists
-- Consumer brands with strong growth potential
-- Early-stage to growth equity investments
-- Brand-building and operational support
-- Leveraging celebrity partnerships and marketing expertise
-
-## Key Leadership
-
-### Karan Wadhera
-- **Title**: Managing Partner
-- **Email**: karan@casaverdecapital.com (Verified from official website + RocketReach)
-- **LinkedIn**: https://www.linkedin.com/in/karan-wadhera/
-- **Phone**: +1 424-206-XXXX (per RocketReach)
-- **Background**: 
-  - Former Goldman Sachs senior executive
-  - Former Nomura executive
-  - Over a decade in Asia as senior executive
-  - Experienced finance professional and investor
-  - Advisor for several young companies
-
-### Tony Ghanem
-- **Title**: Vice President
-
-### Alexander Dann
-- **Title**: Vice President of Finance
-
-### Caitlyn Hoffman
-- **Title**: Executive Assistant
+## Key Information
+- **Website:** https://casaverdecapital.com
+- **Headquarters:** Los Angeles, California
+- **Founded:** 2013
+- **Focus:** Cannabis industry investments
+- **AUM:** $12M (est.)
+- **Employees:** ~20
 
 ## Investment Focus
-- Cannabis companies (cultivation, retail, brands, technology)
-- Consumer packaged goods
-- Food & beverage brands
-- Consumer wellness
+- Cannabis technology
+- Cannabis brands
+- Cannabis retail
+- Ancillary services
+- Hemp/CBD products
 
-## Sourcing & Research Notes
-- **Enrichment Date**: March 6, 2026 (2:06 AM CST)
-- **Source**: Official website (casaverdecapital.com/team/), RocketReach, LinkedIn, Bloomberg, Crunchbase
-- **Status**: ✅ VERIFIED - Managing Partner confirmed
-- **Researcher**: Jim (AI sales researcher)
-- **Verification**: Official team page lists Karan Wadhera as Managing Partner
-- **Contact Quality**: HIGH - Direct access to Managing Partner
+## Team
+### Partners
+- **Karan Wadhera** - Managing Partner
+  - Email: karan@casaverdecapital.com
+  - LinkedIn: https://www.linkedin.com/in/karan-wadhera/
+  - Background: 10+ years Asia exec with Goldman Sachs and Nomura
+  - Education: BA Finance from Babson College
+  
+- **Yoni Meyer** - Partner
+  - Responsibilities: Fundraising, sourcing, diligence, structuring, portfolio management
+  - Background: VP at Citigroup (7+ years, NY and Hong Kong)
+  - Education: BA Economics (magna cum laude), Tufts University
+  
+- **Calvin Broadus (Snoop Dogg)** - Key Member
+  - Role: Brand identity and strategy
+  - Background: 20+ years in entertainment, early investor in Reddit, Robinhood, Klarna
+  - Founded Snoop Youth Football League (2005)
 
-## Outreach Strategy
-- **Target**: Karan Wadhera (Managing Partner)
-- **Approach**: Cannabis/CPG operations, compliance, supply chain
-- **Value Prop**: Operational tools for emerging consumer brands
-- **Entry Point**: Cannabis-specific compliance, inventory management, retail operations
-- **Timing**: Standard business hours (Pacific timezone)
+### Other Team
+- **Tony Ghanem** - Vice President
+- **Alexander Dann** - Vice President of Finance
+- **Caitlyn Hoffman** - Executive Assistant
 
-## Notes
-- Niche focus on cannabis industry (emerging/regulated market)
-- Consumer brand expertise
-- Celebrity partnerships (Snoop Dogg co-founder)
-- Fast-growing portfolio in evolving industry
-- May have unique operational needs due to cannabis regulations
+## Contact Information
+- **General Email:** privacy@casaverdecapital.com
+- **Email Pattern:** firstname@casaverdecapital.com
+- **Phone:** Not publicly listed
+- **Address:** Los Angeles, CA
 
-## Fit Assessment
-- **Difficulty**: MEDIUM (Accessible Managing Partner, niche industry)
-- **Fit**: MEDIUM-HIGH (Depends on cannabis/CPG service offerings)
-- **Priority**: MEDIUM-HIGH - Niche but growing market
-- **AUM Estimate**: Smaller fund, likely $100M-$500M
+## Notable Portfolio
+Information not publicly detailed on website.
 
-## Next Steps
-- ✅ Contact information verified
-- ⏳ Assess cannabis industry service offerings
-- ⏳ Research portfolio companies and their operational challenges
-- ⏳ Tailor pitch to cannabis compliance/operations if applicable
+## Enrichment Date
+March 7, 2026
 
----
-*Last updated: March 6, 2026 2:06 AM CST*
-*Enrichment Status: Complete*
-*CRM Row: 12*
+## Sources
+- https://casaverdecapital.com/team
+- LinkedIn company page
+- Crunchbase
+- RocketReach

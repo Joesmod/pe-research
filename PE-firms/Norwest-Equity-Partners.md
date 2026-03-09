@@ -9,14 +9,20 @@
 - **Recent Rebrand**: Now operating as "Norwest Capital" (announced Jan 2025)
 - **Structure**: Independent registered investment adviser (as of 2025)
 
-## Key Contact
-**Tim DeVries**
-- **Title**: Managing Partner
+## Key Contacts
+### Tim DeVries - Managing Partner
 - **Email**: tdevries@nep.com ✅ VERIFIED
 - **Phone**: (561) 473-5465
 - **Location**: West Palm Beach office
 - **Source**: Official team page https://nep.com/team/tim-devries/
 - **LinkedIn**: TBD
+
+### Beth Lesniak - Senior Investment Professional
+- **Title**: Senior Investment Team Member
+- **Location**: Minneapolis
+- **Recognition**: PE Hub Women in Private Equity, Class of 2024
+- **Source**: LinkedIn company page announcement
+- **Added**: 2026-03-09
 
 ## Background
 - Leads firm's strategy development for long-term sustainable performance

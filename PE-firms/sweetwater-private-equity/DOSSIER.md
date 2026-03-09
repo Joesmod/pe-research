@@ -1,92 +1,39 @@
 # Sweetwater Private Equity
 
 ## Overview
-**Website:** https://sweetwaterpe.com  
-**LinkedIn:** https://www.linkedin.com/company/sweetwater-private-equity  
-**Founded:** January 2016  
-**Type:** Private Equity (Venture Capital, Growth Equity, Buyouts)  
-**Focus:** Technology, Healthcare, Consumer Sectors  
-**Headquarters:** San Diego, CA  
+- **Website:** https://sweetwaterpe.com/
+- **Status:** Enriched
+- **Last Updated:** 2026-03-08
 
-## Key Contact (Verified - Official Press Release)
-**Name:** James Gamett  
-**Title:** Founder & Managing Partner  
-**Email:** james@sweetwaterpe.com  
-**Phone:** (858) 200-6145  
-**Credentials:** MBA, CFA, CPA  
-**LinkedIn:** Profile exists  
+## Key Contacts
 
-**Background:**
-- Founded Sweetwater Private Equity in January 2016
-- Member of firm's Investment Committee
-- Prior: Co-founder & President of Madison Creek Partners (healthcare services)
-- Triple credential holder: MBA, CFA (Chartered Financial Analyst), CPA (Certified Public Accountant)
+### Gregg Parise
+- **Title:** Managing Partner
+- **Email:** gregg@sweetwaterpe.com (ContactOut verified)
+- **LinkedIn:** https://www.linkedin.com/in/gregg-parise-aba87a6/
+- **Education:** Harvard Business School (MBA)
+- **Background:** Founded Dorado Capital Management (hedge fund, $350M+ AUM), 25+ years portfolio management experience
 
-## Recent Team Addition
-**Brent Alvord, MBA**  
-**Title:** Managing Director, Head of Research  
-**Joined:** July 2025  
-**Announcement:** BusinessWire July 22, 2025
+## Firm Details
+- **Location:** Encinitas, CA (662 Encinitas Blvd, Suite 250, Encinitas, CA 92024)
+- **Nearby:** Charleston County operations
+- **Type:** Private equity firm
+- **Team Size:** Multiple senior partners (James Gamett, Brent Granado, Matt Kelsay, Brent Alvord, Kevin Rogers, Brianna Boretto)
 
-## Investment Focus
-- **Technology** - Software, SaaS, digital infrastructure
-- **Healthcare** - Healthcare services, health tech, care delivery
-- **Consumer** - Consumer brands, services, DTC
+## Email Pattern
+- Pattern: first@sweetwaterpe.com
+- Verified: gregg@sweetwaterpe.com (ContactOut)
+- Generic: info@sweetwaterpe.com
 
-## Investment Strategy
-- Deep domain expertise across three sectors
-- Venture capital (early-stage)
-- Growth equity (scaling companies)
-- Buyouts (control transactions)
-- Partnership approach with management teams
+## Team Members
+- **James Gamett, MBA, CFA, CPA** - Partner
+- **Gregg Parise, MBA** - Managing Partner
+- **Brent Granado, MBA, Esq** - Partner
+- **Matt Kelsay, MBA** - Partner
+- **Brent Alvord, MBA** - Partner
+- **Kevin Rogers** - Team Member
+- **Brianna Boretto, CPA** - Team Member
 
-## Firm Philosophy
-"Our collaborative approach to partnerships recognizes that our role as investors is to support and facilitate your success."
-
-## Contact Information
-**For Media/PR Inquiries:**  
-James Gamett, Founder & Managing Partner  
-Sweetwater Private Equity  
-(858) 200-6145  
-james@sweetwaterpe.com
-
-## Team
-Key members include:
-- James Gamett (Founder & Managing Partner)
-- Gregg Parise, MBA
-- Brent Granado, MBA, Esq
-- Matt Kelsay, MBA
-- Brent Alvord, MBA (Head of Research)
-- Kevin Rogers
-- Brianna Boretto, CPA
-
-## Source Verification
-- **BusinessWire Press Release:** July 22, 2025 (official contact info)
-- **Company website:** https://sweetwaterpe.com/team/james-gamett-mba-cfa-cpa/
-- **ZoomInfo:** Profile confirmed
-- **ContactOut:** Alternative contact jgamett@earthlink.net (personal, not recommended)
-- **Last updated:** March 5, 2026
-
-## Notes for Outreach
-- **Email is VERIFIED via official BusinessWire press release** ✅
-- Founder-led firm (James Gamett founded 2016)
-- Triple credentials (MBA, CFA, CPA) = sophisticated financial analysis
-- Healthcare background (Madison Creek Partners) = understands healthcare IT
-- Recently hired Head of Research (July 2025) = growing, active deal-making
-- San Diego location = West Coast tech ecosystem access
-- Multi-stage investing (VC to buyouts) = flexible capital structures
-- Collaborative partnership philosophy = founder-friendly approach
-
-## Ideal Outreach Angle
-- Healthcare IT/services (founder's background)
-- Technology-enabled services (cross-sector expertise)
-- Growth-stage companies (VC to buyout range)
-- Consumer tech with healthcare applications
-- San Diego/West Coast tech companies
-
-## Status
-**Enrichment:** Complete ✅  
-**Email Verified:** Yes (BusinessWire press release - official) ✅✅  
-**Ready for Outreach:** Yes  
-**Priority:** Very High (founder contact, verified official email, healthcare + tech fit)  
-**Best Fit:** Healthcare IT, health tech SaaS, consumer health tech, digital health platforms
+## Source
+- ContactOut + official team page + LinkedIn
+- Enriched: 2026-03-08 6:40 PM cron run (Batch 2)

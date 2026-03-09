@@ -1,62 +1,53 @@
 # Shoreline Equity Partners
 
-**Status:** ✅ Enriched (March 5, 2026)
+**Last Updated:** 2026-03-08
+**Status:** Enriched
+**Source:** Website research, RocketReach, ZoomInfo
 
-## Key Information
-
+## Company Overview
 - **Website:** https://shorelineequitypartners.com
-- **Location:** Jacksonville, Florida
-- **AUM:** $750M+ (Fund II raised $450M+ in 2023)
-- **Founded:** March 2019
-- **Focus:** Lower middle market, manufacturing, distribution, business services
+- **Location:** Neptune Beach, FL (NOT Connecticut as some sources suggest)
+- **Founded:** 2019
+- **Focus:** Lower-middle market private equity
+- **Team:** 100+ years collective experience, 24 employees
+- **Strategy:** Actively partner with leading management teams
+- **Approach:** Straightforward, pragmatic, transparent. Trusted resource for intermediaries.
 
-## Key Contacts
+## Key Contact
 
-### Zach Mittelmark
-- **Title:** Vice President / Principal
-- **Email:** mittelmark@shorelineequitypartners.com
-- **Phone:** (904) 222-6544
-- **Source:** Official press release (Pool Troopers partnership announcement)
+### Zach (Zachary) Mittelmark
+- **Title:** Managing Director
+- **Email:** zmittelmark@shorelineequitypartners.com
+- **LinkedIn:** https://www.linkedin.com/in/zachmittelmark
+- **Background:** 
+  - Co-founder (instrumental in formation of Shoreline in 2019)
+  - Managing Director
+  - 10+ years of private equity experience
+  - Board-level responsibilities at multiple portfolio companies
+  - Responsible for evaluating and executing investments, managing portfolio companies
+- **Source:** Official website, RocketReach, ZoomInfo, SignalHire
 
-### Michael Bennan
-- **Email:** mbennan@shorelineequitypartners.com
-- **Phone:** (904) 608-3778
-- **Source:** PRNewswire (Fund II announcement, Jan 2023)
+### Other Key Team Members
+- **Ian Garland** - Managing Director
+- **Peter Bouret** - Vice President
+- **Taylor Wood** - Principal
+- **Dylan Somohano** - Senior Associate
 
-### Mike Hand
-- **Title:** Managing Partner
-- **Notes:** Led Mr. Greens and Pave America transactions
-
-### Peter Franz
-- **Title:** Partner
-
-## Investment Strategy
-
-- **Target:** U.S. lower middle market companies
-- **Sectors:** Manufacturing, distribution, business services
-- **Philosophy:** Disciplined and collaborative approach to partnering with management teams
-- **Notable Portfolio:** Pool Troopers, Mr. Greens (sold to Sterling Investment Partners), Pave America (partial exit to AEA)
-
-## Recent Activity
-
-- **2023:** Raised $450M+ for Fund II
-- **2022:** Partnership with Pool Troopers
-- **Recent:** Partial realization of Pave America investment (sold to AEA)
+## Investment Philosophy
+- Active partnership with management teams
+- Lower-middle market focus
+- Egalitarian, transparent approach
+- Culture-first mindset (recognize importance of right culture)
+- Maintain active dialogue with intermediaries
+- Strive to connect non-fit opportunities with better-suited partners
 
 ## Outreach Notes
+- Email pattern: firstinitial+lastname@shorelineequitypartners.com OR zmittelmark format
+- Zach Mittelmark verified as Managing Director and co-founder
+- Based in Neptune Beach, FL (NOT Connecticut)
+- Young firm (2019) with experienced team
+- Lower-middle market focus ideal for B2B services outreach
 
-- **Best Contact:** Zach Mittelmark (VP/Principal) - most frequently cited in press releases
-- **Email Verified:** ✅ Yes (from official press releases)
-- **Outreach Priority:** High (verified contacts, mid-market size, services-focused)
-- **Fit:** Excellent for Hello Gumbo PE outreach (services-heavy portfolio)
-
-## Sources
-
-- Official website: shorelineequitypartners.com
-- Press releases: Pool Troopers announcement, Fund II raise (PRNewswire)
-- Transaction announcements: Mr. Greens sale, Pave America partial exit
-
----
-
-**Last Updated:** March 5, 2026
-**Researcher:** Jim
+## Research Date
+- Enriched: 2026-03-08 10:36 AM CST (Hourly Cron)
+- Location Correction: Neptune Beach, FL (not CT)
