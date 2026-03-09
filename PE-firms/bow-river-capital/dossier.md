@@ -1,75 +1,102 @@
 # Bow River Capital
 
+**Last Updated:** 2026-03-08 11:06 PM (Jim - PE Research Cron)
+
 ## Overview
-- **Founded:** 2002
-- **Headquarters:** Denver, Colorado
-- **AUM:** ~$2.5B+
-- **Type:** Mid-Market Private Equity
+
 - **Website:** https://www.bowrivercapital.com
+- **Founded:** 2003
+- **Location:** Denver, Colorado
+- **Type:** Middle-market private equity firm
+- **AUM:** ~$2.5B+ (as of recent reports)
 
 ## Investment Focus
-Bow River Capital targets middle-market companies in:
-- **Healthcare Services** (pediatric home health, behavioral health)
-- **Industrial Services** (roofing, HVAC, aquatics)
-- **Infrastructure & Engineering Services** (telecom infrastructure, rail services)
-- **Tech-Enabled Business Services**
 
-## Recent Fundraising
-- **Fund III:** Raised $590M (2023)
-- Focus on control and minority investments
-- Active in services roll-ups and value creation
+**Sector Focus:**
+- Healthcare Services (pediatric home health, senior care)
+- Infrastructure & Engineering Services
+- Industrial Services
+- Tech-Enabled Business Services
+- Telecommunications Infrastructure
+- Energy Efficiency Solutions
 
-## Key Contact
-- **Name:** Greg J. Hiatrides
+**Investment Strategy:**
+- Targets mid-market companies
+- Enterprise values typically $500M-$5B range
+- Relationship-driven, growth-oriented, operationally focused
+- Raised $590M for Private Equity Fund III
+
+**Recent Funds:**
+- Private Equity Fund III: $590M (announced)
+- Focus on human capital businesses and infrastructure solutions
+
+## Key Contacts
+
+### Greg J. Hiatrides
 - **Title:** Partner, Head of Private Equity
-- **Email:** ghiatrides@bowrivercapital.com (inferred pattern)
-- **LinkedIn:** https://www.bowrivercapital.com/team
-- **Phone:** (Contact via firm website)
+- **LinkedIn:** https://www.linkedin.com/company/bow-river-capital-partners (company page - team section)
+- **Email:** [Not publicly available]
+- **Role:** Leads the firm's private equity strategy, responsible for originating, structuring, and managing investments
+- **Committee:** Member of the investment committee for Private Equity Funds
+- **Source:** Bow River Capital team page, PR Newswire announcements, press releases
 
-## Portfolio Companies (Select)
-1. **Progressive Roofing** - Commercial roofing services (exited to TopBuild Corp 2024)
-2. **Amazing Care Home Health Services** - Pediatric home health services
-3. **NextEdge** - Telecommunications services platform
-4. **Veregy** - Energy efficiency solutions (exited to Court Square Capital 2020)
-5. **RailPros** - Rail safety management and engineering services (exited 2020)
-6. **Arctic Air Holdings** - HVAC services
-7. **Landmark Aquatic** - Commercial aquatics services
-8. **One10** - Performance improvement solutions
+### Other Key Team Members
+- **Blair E. Richardson:** CEO, Co-Founder
+- **Jane C. Ingalls:** President, Chief Operating Officer
+- **Robert L. Fortier:** Managing Director, Private Equity
+- **Shayan S. Masoudpour:** Managing Director, Private Equity
+- **Gaurav Sharma:** Managing Director, Private Equity
 
-## Investment Thesis
-- **Focus on services businesses** with recurring revenue and mission-critical value propositions
-- **Operational value creation** - hands-on approach to improving portfolio company performance
-- **Roll-up strategy** - platform companies with add-on acquisitions
-- **Long-term partnerships** - works with founder-owned and family businesses
+## Portfolio Companies (Recent/Notable)
 
-## Team Structure
-- Managing Directors lead sector verticals
-- Cross-functional operations and business development support
-- In-house capital markets team
+1. **Amazing Care** - Pediatric home health services (acquired Dec 2021)
+2. **Progressive Roofing** - Commercial roofing services (recapitalized Oct 2021, sold to TopBuild Corp)
+3. **Arctic Air Holdings** - Strategic partnership announced
+4. **Landmark Aquatic** - Strategic investment (combination of Westport Pools & Progressive Commercial Aquatics)
+5. **NextEdge** - Telecommunications services platform (expanded with Tachyon & Spectrum Services acquisitions)
+6. **Veregy** - Energy efficiency solutions provider (sold to Court Square Capital)
+7. **Ocean Tomo** - IP and intangible asset advisory (sold to J.S. Held)
+8. **Modus** - 5G infrastructure services provider (sold to Bow River from Titan Grove)
+9. **One10** - Performance improvement solutions
+10. **RailPros** - Rail safety management & engineering services (exited to Court Square Capital)
+
+## Value Creation Approach
+
+- **100-day strategic plan:** Customized for each partnership
+- **Focus areas:**
+  - Organizational development
+  - Information systems and automation
+  - Resource planning
+  - Service line expansion
+  - Add-on acquisition opportunities
+- **Hands-on operational support**
+- **Deep sector expertise**
 
 ## Contact Information
-**Bow River Capital**
-1888 Sherman Street, Suite 300
-Denver, CO 80203
 
-**Main:** (303) 861-8466
-**Website:** https://www.bowrivercapital.com
-**Email Pattern:** [first_initial][last]@bowrivercapital.com (inferred)
+- **General:** info@bowrivercapital.com
+- **Careers:** careers@bowrivercapital.com
+- **Phone:** 303.861.8466
+- **Address:** Denver, Colorado (specific address available on website)
 
 ## Research Notes
-- Added to CRM: March 7, 2026
-- Source: Web research, company website, press releases
-- Status: Enriched - contact identified, email inferred
-- **Services-Heavy:** Strong fit for Hello Gumbo's PE outreach (services sector focus)
-- **Mid-Market Size:** $2.5B AUM fits target profile ($500M-$5B)
 
-## Next Steps
-- [ ] Verify email address via Apollo.io or similar
-- [ ] Research recent portfolio add-ons for tailored outreach
-- [ ] Review Fund III investment criteria
-- [ ] Prepare personalized outreach highlighting services sector expertise
+**Fit for Hello Gumbo:**
+- ✅ Strong mid-market presence ($500M-$5B enterprise values)
+- ✅ Services-heavy portfolio (healthcare, infrastructure, industrial)
+- ✅ Tech-enabled business services focus
+- ✅ Operational improvement mindset (100-day plans, value creation)
+- ✅ Active in acquisitions and platform building
 
----
-**Last Updated:** March 7, 2026
-**Researcher:** Jim
-**Status:** Ready for outreach (pending email verification)
+**Next Steps:**
+- Individual email addresses not publicly available (typical for PE firms)
+- Consider LinkedIn outreach to Greg Hiatrides or Robert Fortier
+- Firm general email info@bowrivercapital.com available for initial contact
+- Monitor press releases for deal announcements and team additions
+
+**Sources:**
+- Bow River Capital website: https://www.bowrivercapital.com
+- PR Newswire announcements
+- PitchBook profile
+- Company press releases
+- Private Equity International database
