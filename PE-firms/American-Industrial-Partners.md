@@ -20,6 +20,11 @@
 - **Dino Cusumano** - General Partner - Transactions
 - **Justin Fish** - General Partner - Operations
 
+### Business Development Contacts
+- **Lawrence Steyn** - Partner, Business Development - https://linkedin.com/in/lawrencesteyn
+- **Jamie Tam** - Partner, Business Development
+- **Daryl Yap** - Partner, Business Development
+
 ## Firm Profile
 
 - **Founded:** 1988
