@@ -19,8 +19,10 @@
 
 ### Private Equity Team
 - **Greg J. Hiatrides** - Partner, Head of Private Equity
-  - Email: ghiatrides@bowrivercapital.com
-  - LinkedIn: https://www.linkedin.com/in/greghiatrides
+  - Email: hiatrides@bowrivercapital.com
+  - LinkedIn: https://www.linkedin.com/in/gregory-hiatrides-a1684a32/
+  - **Source:** RocketReach, ZoomInfo, LeadIQ (pattern: [last]@bowrivercapital.com, 94.6% confidence)
+  - **Verified:** 2026-03-09
 
 - **Jeremy D. Held** - Partner, Head of Evergreen Private Equity
   - Email: jheld@bowrivercapital.com
@@ -75,5 +77,5 @@ Partners with management teams to build leading middle market companies through:
 - Email format verified via RocketReach (94.6% confidence)
 - LinkedIn company page
 
-**Last Updated:** 2026-03-07
-**Status:** Qualified - Mid-market PE with services focus
+**Last Updated:** 2026-03-09
+**Status:** Enriched - Contact verified, ready for outreach
