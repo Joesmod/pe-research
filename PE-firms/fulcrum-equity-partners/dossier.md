@@ -11,8 +11,8 @@
 
 ### Frank X. Dalton - Partner and Founder
 - **Title:** Partner and Founder
-- **Email:** fdalton@fulcrumep.com
-- **Phone:** (706) 536-**** (via RocketReach)
+- **Email:** fdalton@fulcrumep.com (pattern assumed, NOT publicly verified)
+- **Phone:** NOT publicly available
 - **LinkedIn:** https://www.fulcrumep.com/person/frank-dalton/
 - **Background:**
   - Founding Partner of Fulcrum
@@ -29,13 +29,13 @@
 
 ## Research Sources
 - Official bio: https://www.fulcrumep.com/person/frank-dalton/
-- Team page: https://www.fulcrumep.com/team/
-- Email verified: RocketReach (f******@fulcrumep.com) and ZoomInfo (f***@fulcrumep.com)
-- Bloomberg profile
+- Team page: https://www.fulcrumep.com/team/ (no individual emails published)
+- Email NOT publicly available (RocketReach/ZoomInfo show masked emails only)
+- **Contact Method:** LinkedIn or firm contact form recommended
 
 ## Status
-**Enriched** - 2026-03-07  
-Ready for outreach. Founder-level contact at culture-focused PE firm.
+**Research Updated** - 2026-03-10  
+Email not verified as publicly available. Recommend LinkedIn or firm website contact.
 
 ## Next Steps
 - Angle: AI as operational enabler that complements (not replaces) strong teams
