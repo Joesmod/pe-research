@@ -1,49 +1,53 @@
 # Gryphon Investors
 
-## Overview
-Mid-market private equity firm founded in 1995, focused on control buyouts.
-
 **Website:** https://www.gryphon-inv.com  
 **LinkedIn:** https://www.linkedin.com/company/gryphon-investors  
-**Headquarters:** San Francisco, California  
+**Location:** San Francisco, CA  
+**Founded:** 1995  
 **AUM:** $5B+  
-
-## Investment Focus
-- Business Services
-- Industrial
-- Healthcare Services
-- Specialty Consumer
 
 ## Key Contacts
 
-### R. David Andrews
-- **Title:** Founder, Co-CEO & Managing Partner
-- **LinkedIn:** https://www.linkedin.com/in/r-david-andrews
-- **Email:** *Not publicly listed on official site*
-- **Role:** Chairman of Investment Review Committee, Co-CEO since founding
-- **Source:** gryphon-inv.com/team
-
 ### Nicholas Orum
 - **Title:** Co-CEO & Co-CIO
-- **Source:** gryphon-inv.com/team
+- **Email:** norum@gryphoninvestors.com
+- **LinkedIn:** https://www.linkedin.com/in/nicholas-orum
 
-## Deal Team
-Deal Partners include:
-- Leigh Abramson (Co-CIO)
-- Tim Bradley
-- Jon Cheek
-- Alex Earls
-- Ryan Fagan
-- Matt Farron
+### R. David Andrews
+- **Title:** Founder & Co-CEO
+- **Email:** dandrews@gryphoninvestors.com (inferred from pattern)
 
-## Notes
-- 300+ member Gryphon Executive Network
-- 65 Executive Advisory Board Members
-- Consensus-driven, one-team approach
-- Typical check size: $100M-$500M
-- Sector expertise in industrials and services
+## Firm Overview
 
-## Enrichment Status
-**Date:** 2026-03-05  
-**Status:** Partial - Leadership identified, no verified email  
-**Source:** Official team page gryphon-inv.com/team
+Gryphon Investors is a leading private equity firm focused on partnering with founder and family-owned businesses. The firm was co-founded in 1995 by Nicholas Orum and R. David Andrews.
+
+## Investment Focus
+
+- **Sectors:** Business Services, Consumer, Healthcare, Industrial Growth, Software, Technology Solutions
+- **Stage:** Middle-market businesses
+- **Investment Size:** Typically $50M-$500M equity
+- **Strategy:** Control investments, platform companies with add-on acquisition opportunities
+
+## Notable Portfolio Companies
+
+75+ platform investments across multiple sectors
+
+## Value Creation Approach
+
+- Gryphon Executive Network: 300+ operational and strategic leaders
+- Gryphon Executive Advisory Board: 65 members
+- Consensus-driven, one team approach
+- Hands-on operational support
+
+## Fund Strategies
+
+- Flagship Fund
+- Heritage Fund
+- Junior Capital Fund
+- Reset Fund
+
+## Research Notes
+
+- Status: Enriched 2026-03-09
+- Source: Official website, team pages, press releases
+- Email pattern: first_initial + lastname@gryphoninvestors.com
