@@ -35,8 +35,25 @@
 - **Athletics:** U.S. National Rowing Team, 1983 World Championships
 
 ## Additional Business Development Contacts
-- **Jamie Tam** - Partner, Business Development
-- **Daryl Yap** - Partner, Business Development
+
+### Jamie Tam
+- **Title:** Partner, Business Development
+- **Email:** jtam@americanindustrial.com ✅ VERIFIED
+- **LinkedIn:** http://www.linkedin.com/in/jamie-tam-b161749
+- **Profile:** https://americanindustrial.com/team/jamie-tam/
+- **Source:** Apollo.io verified email 2026-03-09
+- **Background:** (See official team page)
+
+### Daryl Yap
+- **Title:** Partner, Business Development (Co-Head of Deal Sourcing)
+- **Email:** (Not verified - likely dyap@americanindustrial.com based on pattern)
+- **LinkedIn:** https://www.linkedin.com/in/daryl-yap
+- **Profile:** https://americanindustrial.com/team/daryl-yap/
+- **Source:** Official team page confirmed 2026-03-09
+- **Joined:** 2016
+- **Prior Experience:** Bregal Investments VP (6 years, $3B global PE fund), Merrill Lynch Leveraged Finance (3 years)
+- **Education:** NYU Stern School of Business (BS Finance, cum laude, Stern Scholar)
+- **Background:** Served 2.5 years in Singapore Armed Forces as Sergeant in Bridging Engineer Battalion
 
 ## Additional Key Contacts (Leadership)
 - **John Becker** - General Partner – Emeritus (Operations)
@@ -49,10 +66,13 @@
 - **Louis Tedesco** - Partner & CFO
 
 ## Enrichment Details
-- **Enriched Date:** 2026-03-05 11:06 PM
-- **Status:** ✅ COMPLETE (Verified BD contact with direct email)
-- **Research Method:** Official AIP contact page + team directory
-- **Updated in CRM:** Row 700, Status: Enriched
+- **Initial Enrichment:** 2026-03-05 11:06 PM
+- **Updated:** 2026-03-09 7:36 AM (Hourly cron enrichment)
+- **Status:** ✅ COMPLETE (3 BD contacts identified, 2 verified emails)
+- **Research Method:** Official AIP contact page + team directory + Apollo.io API
+- **Updated in CRM:** Row 700 (Kim Marvin), Row 977 (Lawrence Steyn), Row 978 (Jamie Tam), Row 979 (Daryl Yap)
+- **Verified Contacts:** Lawrence Steyn ✅, Jamie Tam ✅
+- **Pending:** Daryl Yap (email pattern inferred but not verified)
 
 ## Investment Approach
 - Operationally-oriented middle market private equity

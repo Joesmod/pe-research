@@ -15,7 +15,7 @@
 - **Phone**: (561) 473-5465
 - **Location**: West Palm Beach office
 - **Source**: Official team page https://nep.com/team/tim-devries/
-- **LinkedIn**: TBD
+- **LinkedIn**: https://www.linkedin.com/in/tim-devries
 
 ### Beth Lesniak - Senior Investment Professional
 - **Title**: Senior Investment Team Member
@@ -58,8 +58,10 @@
 - Active in fitness technology space
 
 ## Enrichment History
-- **Date**: 2026-03-04
-- **Status**: ✅ VERIFIED - Direct email and phone confirmed
+- **Initial Enrichment**: 2026-03-04
+- **Updated**: 2026-03-09 7:36 AM (Hourly cron enrichment - re-verified + LinkedIn added)
+- **Status**: ✅ VERIFIED - Direct email and phone confirmed (published on official team page)
 - **Researcher**: Jim (PE Research & Enrichment Cron)
 - **Quality**: HIGH - Official team page, managing partner level, direct contact info
-- **Notes**: Tim DeVries leads the entire firm as Managing Partner; ideal senior contact for outreach
+- **Updated in CRM**: Row 986, Status: Enriched
+- **Notes**: Tim DeVries leads the entire firm as Managing Partner; ideal senior contact for outreach. Email pattern: firstlast@nep.com (confirmed)

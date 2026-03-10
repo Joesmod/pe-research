@@ -7,11 +7,13 @@
 
 ### Jason Tanker
 - **Title:** Managing Director, Technology Services
-- **Email:** j***@renovuscapital.com (pattern from ZoomInfo, not directly verified)
-- **Source:** Renovus Capital team page, PR Newswire announcement (Jan 2024)
-- **LinkedIn:** https://www.linkedin.com/in/jason-tanker
+- **Email:** jason.tanker@renovuscapital.com ✅ VERIFIED
+- **Source:** Apollo.io verified email 2026-03-09 + Renovus Capital team page, PR Newswire announcement (Jan 2024)
+- **LinkedIn:** http://www.linkedin.com/in/jtanker
 - **Background:** Previously Principal at Norwest Equity Partners, Associate at Graham Partners
 - **Joined:** January 2024
+- **Location:** Wayne, PA
+- **Firm AUM:** $2B+
 
 ### Jesse Serventi
 - **Title:** Founding Partner
@@ -30,5 +32,9 @@
 - Active in technology services vertical under Jason Tanker leadership
 - "A+ team" building culture emphasized by Jesse Serventi
 
-## Research Date
-2026-03-04
+## Enrichment Details
+- **Initial Research:** 2026-03-04
+- **Updated:** 2026-03-09 7:36 AM (Hourly cron enrichment)
+- **Status:** ✅ Jason Tanker email VERIFIED via Apollo.io
+- **Updated in CRM:** Row 980, Status: Enriched
+- **Email pattern confirmed:** [first].[last]@renovuscapital.com
