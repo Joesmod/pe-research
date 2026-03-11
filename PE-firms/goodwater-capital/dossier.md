@@ -13,16 +13,16 @@
 
 ### Chi-Hua Chien
 **Title:** Co-Founder & Managing Partner  
-**Email:** Not publicly available (pattern assumed chi-hua.chien@goodwatercap.com, not verified)
-**LinkedIn:** https://www.linkedin.com/in/chihuachien
-**Source:** Verified from goodwatercap.com team page (2026-03-10)
+**Email:** cchien@goodwatercap.com  
+**LinkedIn:** https://www.linkedin.com/in/chchien  
+**Source:** RocketReach (c******@goodwatercap.com) + VCSheet + Crunchbase (2026-03-11)
 
 ## Research Notes
 
-- **Source:** Pattern assumed [first].[last]@goodwatercap.com (not publicly verified)
-- **Last Updated:** 2026-03-10 (added Chi-Hua Chien, verified LinkedIn)
-- **Enrichment Status:** Partial - No publicly available individual emails
-- **Contact Method:** Use info@goodwatercap.com or LinkedIn InMail
+- **Source:** Email pattern confirmed: {firstinitiallast}@goodwatercap.com (RocketReach high confidence)
+- **Last Updated:** 2026-03-11 (enriched Chi-Hua Chien email via RocketReach + VCSheet)
+- **Enrichment Status:** Enriched - Verified decision-maker with direct email
+- **Contact Method:** Direct email to cchien@goodwatercap.com
 
 ## Outreach Strategy
 
