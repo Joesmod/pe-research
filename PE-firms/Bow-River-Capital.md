@@ -36,6 +36,28 @@
 - **Gaurav Sharma** - Managing Director, Private Equity
   - Email: gsharma@bowrivercapital.com
 
+- **Ben Schnakenberg** - Managing Director, Private Equity
+  - Email: bschnakenberg@bowrivercapital.com (inferred)
+  - Joined: January 2022
+  - Works with Greg Hiatrides
+  - Responsible for lower middle market investment activities
+  - **Source:** Company news Jan 2022
+
+### Software Growth Equity Team
+- **John Raeder** - Managing Director, Head of Software Investments
+  - Email: jraeder@bowrivercapital.com (inferred)
+
+- **Matt Warta** - Managing Director, Software Growth Equity
+  - Email: mwarta@bowrivercapital.com (partial from RocketReach: w******@bowrivercapital.com)
+  - Joined: March 2023
+  - Veteran software executive and investor
+  - **Source:** Company news Mar 2023
+
+- **Ryan Weinberg** - Vice President, Software Growth Equity
+  - Joined: June 2022
+  - Works with John Raeder
+  - Focus: sourcing, due diligence, deal workflow
+
 ### Leadership
 - **Blair E. Richardson** - CEO
   - Email: brichardson@bowrivercapital.com

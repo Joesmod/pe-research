@@ -31,11 +31,27 @@
 - Respect: Transparency, thoughtful, humble
 - Ethics: Integrity, honesty, moral standards
 
-## Key Contact
-- **Status:** Needs Research
-- **Research Priority:** High
-- **Target Titles:** Managing Partner, CEO, Operating Partner
-- **Known Personnel:** Former CEOs on team (multiple)
+## Key Contacts
+
+### Leadership
+- **John May** - Founder and Managing Partner
+  - Email: john@coreipfund.com (EMAIL PATTERN from LeadIQ)
+  - Primary founder and leader
+  - **Source:** TheOrg, LeadIQ company profile
+
+- **Ronald Rascia** - Managing Director
+  - Email: ronaldOR rrascia@coreipfund.com (pattern inferred)
+  - **Source:** TheOrg, RocketReach
+
+### Email Pattern
+**Pattern:** [first]@coreipfund.com (from LeadIQ data)
+- Example: john@coreipfund.com
+- Alternative: recruiting@coreipfund.com (careers)
+
+### Office Locations
+- **Chicago, IL** - Headquarters
+- **Austin, TX**
+- **Cleveland, OH**
 
 ## Recent Portfolio Activity
 - AxioAero Group acquired Airway Aerospace LLC (Jan 2026)
@@ -45,8 +61,11 @@
 ## Enrichment Notes
 - **Added:** March 11, 2026 (automated sweep)
 - **Apollo:** No results
-- **Next Steps:** Manual research on team page, target Operating Partners
-- **Decision-Maker Level:** Operating Partner, Partner, MD level
+- **Updated:** March 11, 2026 2:40 PM - Manual research completed
+- **Contacts Found:** John May (Founder/MP), Ronald Rascia (MD)
+- **Email Pattern:** [first]@coreipfund.com (from LeadIQ - high confidence)
+- **Status:** Enriched - Ready for outreach
+- **Decision-Maker Level:** Founder/Managing Partner level secured
 
 ## Outreach Strategy
 - Emphasize operational playbook and value creation alignment
