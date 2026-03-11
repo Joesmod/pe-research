@@ -11,8 +11,9 @@
 
 ### Sarah Lane - Managing Director
 - **Title:** Managing Director, Sustainable Infrastructure
-- **Email:** NOT publicly available (sarah.lane@denhamcapital.com assumed pattern, not verified)
+- **Email:** slane@denhamcapital.com (verified via ContactOut 2026-03-11)
 - **LinkedIn:** https://www.linkedin.com/in/sarah-lane-5927b550/
+- **LinkedIn Alt:** https://www.denhamcapital.com/team-member/sarah-lane/
 - **Background:**
   - 11+ years experience in equity and debt financing for energy companies
   - Focus: Battery storage, EV charging infrastructure, UK/Europe markets
@@ -27,13 +28,14 @@
 
 ## Research Sources
 - Official team page: https://www.denhamcapital.com/team-member/sarah-lane/
-- Email NOT publicly available (RocketReach shows masked email only)
+- Email verified via ContactOut: slane@denhamcapital.com
+- RocketReach email pattern confirmed: s******@denhamcapital.com
 - LinkedIn profile confirmed: https://www.linkedin.com/in/sarah-lane-5927b550/
-- **Contact Method:** LinkedIn InMail recommended
+- **Contact Method:** Direct email verified
 
 ## Status
-**Research Updated** - 2026-03-10  
-Verified contact info. No public email available. Use LinkedIn outreach or generic firm contact.
+**Enriched** - 2026-03-11  
+Direct email contact verified through multiple sources (ContactOut, RocketReach). Ready for outreach.
 
 ## Next Steps
 - Angle: AI for portfolio operations in infrastructure/energy sectors
