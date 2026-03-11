@@ -37,6 +37,20 @@ Tulsa-based investment firm specializing in private equity investments. Partners
 ## Investment Strategy
 Focus on services and products sectors. Seeks highly capable management teams wanting to partner and execute growth strategies.
 
+### Kelby Hagar
+- **Title:** President
+- **Source:** RocketReach, ZoomInfo (2026-03-11)
+- **Note:** Email not publicly verified. Requires LinkedIn or phone outreach.
+
+### Other Leadership (from web research 2026-03-11)
+- **Eric Weeldreyer** - Vice President
+- **Brandon Lenhart** - Vice President (also CEO of American Power Innovation, a portfolio company)
+
+## Contact Information
+- **Main Phone:** (918) 392-9650
+- **Website Contact Form:** Available on argonautpe.com
+- **Note:** No individual emails found on official website or press releases. Email pattern appears to be [first][last_initial]@argonautpe.com (80.4% per RocketReach), but individual addresses not publicly verified.
+
 ---
-**Last Updated:** 2026-03-04  
-**Source:** Company website, LinkedIn, public press releases
+**Last Updated:** 2026-03-11  
+**Source:** Company website, LinkedIn, RocketReach, ZoomInfo, public press releases, manual web research

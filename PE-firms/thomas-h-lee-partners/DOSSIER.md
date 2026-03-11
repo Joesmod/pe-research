@@ -31,11 +31,23 @@
   - Focus: Bioprocessing, pharma services, home-based care, healthcare IT, consumer healthcare, medtech services
   - Source: https://thl.com/articles/bioprocessing-thls-newest-healthcare-sector-focus/
 
-### Other Notable Team Members
+### Other Notable Team Members (from LinkedIn research 2026-03-11)
+- **Mark Bean** - Managing Director
+- **Ganesh Rao** - Managing Director
+- **Josh Bresler** - Managing Director
+- **Nicole Wong** - Managing Director
+- **Todd Abbrecht** - Managing Director
+- **Megan Preiner** - Managing Director
+- **Scott Sperling** - Co-Chief Executive Officer
+- **Gregory White** - Managing Director
 - **Ed Shahnasarian** - Managing Director (GrowthCap Top 40 under 40, 2024)
 - **Greg Maxon** - Managing Director, Head of Capital Markets
 - **Hank Boye** - (from Blue Ridge Partners, Harvard Business Review)
-- **Megan Preiner** - Managing Director
+- **Jim Carlisle** - Managing Director and Head of Technology & Business Solutions
+
+### General Contact
+- **Communications Team:** communications@thl.com (published on thl.com/disclaimer/)
+- Note: Generic inbox, individual MD emails not publicly available except Joshua Nelson
 
 ## Email Pattern
 **Pattern:** [first initial][last name]@thl.com
