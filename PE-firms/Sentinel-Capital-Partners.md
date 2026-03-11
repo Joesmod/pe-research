@@ -1,66 +1,39 @@
 # Sentinel Capital Partners
 
-## Overview
-- **Type**: Lower middle-market Private Equity
-- **Founded**: 1996
-- **Location**: New York, NY
-- **Website**: https://www.sentinelpartners.com
-- **Phone**: (212) 688-3100
-- **Focus**: Aerospace/defense, business services, consumer, distribution, food/restaurants, franchising, healthcare, industrials
+**Status:** Enriched ✅
 
-## Firm Details
-- **AUM**: Multi-billion (established lower middle-market leader)
-- **Investment Strategy**: Private equity, capital solutions
-- **Investment Size**: Lower middle-market buyouts
-- **Investment Types**: Management buyouts, corporate divestitures, family business acquisitions, going-private transactions, turnarounds
+## Contact Information
 
-## Key Leadership
+**Primary Contact:** Jim Coady  
+**Title:** Partner  
+**Email:** coady@sentinelpartners.com  
+**LinkedIn:** http://www.linkedin.com/in/jim-coady-111737324  
+**Source:** Apollo verified (2026-03-11)
 
-### Eric Bommer
-- **Title**: Managing Partner
-- **Email**: Domain confirmed @sentinelpartners.com (pattern: last@sentinelpartners.com - 94.9% per RocketReach)
-- **LinkedIn**: https://www.sentinelpartners.com/member/eric-d-bommer/
-- **Background**: Recently promoted to Managing Partner (March 2025) alongside co-founder David Lobel. Positioned as Lobel's eventual successor.
-- **Notes**: Part of leadership succession plan announced March 2025.
+**Alternative Contact:** John Van Sickle  
+**Title:** Partner  
+**Email:** vansickle@sentinelpartners.com  
+**LinkedIn:** http://www.linkedin.com/in/john-van-sickle-4a56782a9
 
-### David Lobel
-- **Title**: Founder & Managing Partner
-- **Email**: Domain confirmed @sentinelpartners.com
-- **Background**: Founding Managing Partner of Sentinel
+**Email Format:** last@sentinelpartners.com (94.9% confirmed)
 
-## Investment Philosophy
-- Responsive, resourceful, reliable partnership approach
-- Deep, cross-disciplinary team of supportive partners
-- Agile, aligned, in sync, unbureaucratic
-- Long-tenured professionals
-- Build lasting relationships with management teams
+## Firm Overview
 
-## Email Pattern
-- **Domain**: @sentinelpartners.com
-- **Pattern**: last@sentinelpartners.com (94.9% per RocketReach)
-- **Pattern confirmed via**: RocketReach, ZoomInfo
+- **Location:** New York, NY
+- **Focus:** Lower midmarket (< $500M revenue)
+- **Sectors:** Aerospace & defense, business services, consumer, distribution, food & restaurants, franchising, healthcare, industrial
+- **Investment Range:** Majority control investments in middle-market companies
 
-## Sourcing & Research Notes
-- **Enrichment Date**: March 7, 2026 (11:36 AM CST)
-- **Source**: Official website, press releases, RocketReach, ZoomInfo
-- **Status**: ⚠️ PARTIAL - Managing Partner identified, email pattern confirmed but not verified
-- **Researcher**: Jim (AI sales researcher)
-- **Verification**: PRNewswire (March 10, 2025) confirms Eric Bommer promotion to Managing Partner
-- **Contact Quality**: HIGH - Direct access to newly promoted Managing Partner
+## Value Creation Focus
 
-## Fit Assessment
-- **Difficulty**: MEDIUM (Lower middle-market firm, accessible leadership)
-- **Fit**: HIGH (Business services, healthcare focus aligns with service offerings)
-- **Priority**: HIGH - Lower middle-market sweet spot, strong service sector presence
-- **AUM Estimate**: Multi-billion (established 1996, track record)
+- Operational improvements
+- Strategic acquisitions
+- Management team strengthening
+- Portfolio operations support
 
-## Next Steps
-- ⚠️ Verify email via RocketReach/ZoomInfo/Apollo subscriptions
-- ⏳ Draft personalized outreach email
-- ⏳ Research recent portfolio acquisitions
-- ⏳ Consider "congratulations on promotion" angle for Eric Bommer
+## Research Notes
 
----
-*Last updated: March 7, 2026 11:36 AM CST*
-*Enrichment Status: Partial - Email verification needed*
-*CRM Row: 30*
+- Apollo database returned 20 contacts at Partner/MD level
+- Multiple verified direct emails available
+- Strong operational partner network
+- Last enriched: 2026-03-11
