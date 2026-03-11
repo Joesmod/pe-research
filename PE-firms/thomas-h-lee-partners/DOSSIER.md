@@ -66,8 +66,11 @@
 - Complex organization with multiple fund structures
 
 ## Research Notes
-- Enriched: 2026-03-11
-- Joshua Nelson contact verified from website article
+- Enriched: 2026-03-11 (3:07 PM)
+- Joshua Nelson contact CONFIRMED via thl.com/people/joshua-nelson/ and published articles
+- Email verified from published source: https://thl.com/articles/bioprocessing-thls-newest-healthcare-sector-focus/
 - Strong healthcare focus makes them relevant for service-heavy portfolio optimization
 - Technology vertical (TABS) likely has digital transformation needs
 - Automation fund indicates interest in operational efficiency
+- Apollo API: No results found (PE firms not well-covered)
+- Manual research confirmed Joshua Nelson as primary healthcare contact
