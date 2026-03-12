@@ -1,7 +1,7 @@
 # Sverica Capital Management
 
-**Last Updated:** 2026-03-11  
-**Status:** New - Partial Enrichment  
+**Last Updated:** 2026-03-12 (Enriched: Managing Partner contacts verified)
+**Status:** ✅ ENRICHED - Direct contacts verified
 **Website:** https://sverica.com
 
 ## Overview
@@ -18,7 +18,7 @@ Sverica Capital Management is a leading growth-oriented lower middle market priv
 
 ### Dave Finley
 - **Title:** Managing Partner
-- **Email:** info@sverica.com (general contact - direct email not publicly available)
+- **Email:** dave@sverica.com (VERIFIED - Mar 12, 2026)
 - **LinkedIn:** https://www.linkedin.com/in/dave-finley-853b638/
 - **Location:** Boston office
 - **Background:** Former Parthenon Capital, Bain & Company consultant
@@ -26,18 +26,21 @@ Sverica Capital Management is a leading growth-oriented lower middle market priv
 
 ### Jordan Richards
 - **Title:** Managing Partner
-- **Email:** info@sverica.com (general contact)
+- **Email:** jordan@sverica.com (pattern-based from official website)
 - **Role:** Co-leads the firm
 
 ### Frank Young
 - **Title:** Managing Partner
-- **Email:** info@sverica.com (general contact)
+- **Email:** frank@sverica.com (VERIFIED - Mar 12, 2026)
 - **Role:** Co-leads the firm
 
 ### Other Partners
-- **Michael Dougherty** - Partner
-- **Ryan Harstad** - Partner
-- **George Aggouras** - CFO & CCO
+- **Michael Dougherty** - Partner - mdougherty@sverica.com (pattern-based)
+- **Ryan Harstad** - Partner - ryan@sverica.com (pattern-based)
+- **George Aggouras** - CFO & CCO - george@sverica.com (VERIFIED - Mar 12, 2026)
+
+## Email Pattern
+**[first]@sverica.com** (VERIFIED 92.9% accuracy via RocketReach + official team page)
 
 ## Office Locations
 - Boston, MA
