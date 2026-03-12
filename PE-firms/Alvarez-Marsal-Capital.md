@@ -27,6 +27,12 @@
   - Managing Director at prior PE firms
   - University of Chicago - Booth School of Business (MBA)
 
+### Jeffrey Schwartz
+- **Title**: Managing Director (likely)
+- **Email**: jeffrey@a-mcapital.com (Email pattern inference - RocketReach 70.1% confidence)
+- **Background**: Senior member of A&M Capital team
+- **Added**: March 12, 2026 (web research enrichment)
+
 ## Investment Approach
 - Operational transformation focus
 - Middle-market companies

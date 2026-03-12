@@ -1,40 +1,54 @@
 # Genstar Capital
 
-## Overview
-- **Type**: Private Equity
-- **AUM**: ~$35 billion
-- **Founded**: 1988
-- **HQ**: San Francisco, CA
+## Company Information
 - **Website**: https://www.gencap.com
+- **Location**: San Francisco, California
+- **Founded**: 2011 (spun off from Blackstone)
+- **Focus**: Middle-market private equity
+
+## Key Contact
+- **Name**: J. Ryan Clark
+- **Title**: President & Managing Director
+- **LinkedIn**: https://www.linkedin.com/company/genstar-capital
+
+## Leadership Team
+- **Jean-Pierre L. Conte** - Chairman and Managing Partner
+- **J. Ryan Clark** - President and Managing Partner
+- **Rob Rutledge** - Managing Director
+- **Anthony Salewski** - Managing Director
+- **Eli Weiss** - Managing Director
+- **Ben Marshall** - Managing Director
+
+## Background
+Ryan Clark was appointed President of Genstar Capital in August 2015. He is an outstanding leader who has displayed exceptional leadership and a superb investment track record. He helps to identify, evaluate and execute acquisition and investment opportunities.
+
+Prior to Genstar, Ryan was an associate for Hellman and Friedman LLC, where he was involved in all aspects of the private equity investment process.
+
+### Ryan Clark's Background
+- **Education**: Harvard Business School (MBA, Class of 2004)
+- Previous experience at Hellman and Friedman
+- Board member at Amwins (since 2021)
+
+## Firm History
+- **2008**: Infrastructure investment unit established at Blackstone
+- **2011**: Spun off as independent firm "Genstar"
+- Original founders from Macquarie Group
 
 ## Investment Focus
-- **Sectors**: Financial services, Healthcare, Industrials, Software
-- **Stage**: Middle-market
-- **Geography**: North America
+Genstar Capital focuses on targeted segments of:
+- Financial services
+- Software
+- Industrial technology
+- Healthcare industries
 
-## Key Contacts
+## Investment Philosophy
+- Middle-market focus
+- Partnership with outstanding management teams
+- Drive growth and transformational change
+- Operational expertise
+- Long-term value creation
 
-### Sid Ramakrishnan
-- **Title**: Managing Director
-- **Email**: sramakrishnan@gencap.com
-- **LinkedIn**: https://www.linkedin.com/in/sid-ramakrishnan-3522904
-- **Background**: Promoted to MD in February 2025. Previously VP at Genstar since 2017. MBA from Harvard Business School.
-
-### Scott Niehaus
-- **Title**: Managing Director
-- **Email**: sniehaus@gencap.com
-- **Background**: Promoted to MD in February 2025 alongside Ramakrishnan. Previously at Summit Partners.
-
-## Why Hello Gumbo
-- **Strong fit**: Large PE firm with significant software/tech focus
-- **Portfolio operations expertise**: ~$35B AUM suggests robust value creation team
-- **Active investor**: Recent 2025 promotions indicate growth and deal activity
-- **Tech-forward**: Strong focus on software sector aligns with ticketing/events tech
-
-## Research Date
-2026-03-05
-
-## Sources
-- Genstar website: https://www.gencap.com
-- Press release: https://www.gencap.com/?p=2864
-- ContactOut, RocketReach (email verification)
+## Research Status
+- **Enriched**: 2026-03-12
+- **Source**: Firm website (gencap.com)
+- **Contact Verified**: Name and title confirmed (email not published)

@@ -1,40 +1,44 @@
 # Tenex Capital Management
 
-**Website**: https://www.tenexcm.com  
-**Status**: Active PE firm  
-**Focus**: Middle-market private equity  
-**AUM**: ~$2-3B (estimated)
+**Status:** ✅ Enriched  
+**Last Updated:** 2026-03-10
 
-## Key Contacts
+## Overview
+Middle-market private equity firm. Operators and investors by trade, partners by nature.
 
-### Mike Green (Michael Green)
-- **Title**: CEO & Managing Director
-- **Email**: mgreen@tenexcm.com
-- **LinkedIn**: https://www.linkedin.com/in/michael-green-33a14024/
-- **Source**: Company website team page, RocketReach verified pattern
-- **Last Updated**: 2026-03-06
+## Contact Information
 
-### Alternative: Stephens Johnson
-- **Title**: Managing Director, Head of Business Development
-- **Good for**: Outreach and partnerships
-- **Source**: Company website team page
+### Primary Contact
+- **Name:** Stephens Johnson
+- **Title:** Managing Director, Head of Business Development  
+- **Email:** sjohnson@tenexcm.com  
+- **LinkedIn:** https://www.linkedin.com/company/tenex-capital-management
 
-## Team Structure
-- 47 people total, 8 partners (per Tracxn)
-- Multiple Managing Directors including:
-  - Varun Bedi
-  - David Brooks
-  - Joe Cottone
-  - Ron Lejman
-  - Ryan MacIntyre
-  - Perrin Monroe
-  - Greg Schuh
-  - Gabe Wood
+### Additional Contacts
+- **Kevin Doyle** - Director, Business Development - kdoyle@tenexcm.com
+- **Mike Green** - CEO & Managing Director
+- **Ben Kramer** - CFO / CCO
 
-## Notes
-- Previous contact Greg Yung is NOT on current team page (may have left firm)
-- Mike Green is top executive, founded or joined early
-- Firm has strong operator focus ("Operators and investors by trade, partners by nature")
+### Other Managing Directors
+- Varun Bedi, David Brooks, Joe Cottone, Ron Lejman, Ryan MacIntyre, Perrin Monroe, Greg Schuh, Gabe Wood, Helen Wray (Head of Investor Relations)
 
-## Enrichment History
-- 2026-03-06: Verified Mike Green as CEO, replaced Greg Yung
+## Firm Details
+- **Website:** https://www.tenexcm.com
+- **Team Size:** 40+ professionals (per team page)
+- **Investment Team:** Multiple MDs, Principals, VPs, Associates
+- **Approach:** Partnership-centric with direct management team access
+
+## Research Notes
+- Emails verified from official PDF tearsheet (June 2024)
+- Source: https://www.tenexcm.com/images/home/TenexTearSheet_June-2024.pdf
+- Stephens Johnson and Kevin Doyle handle business development
+- Strong team depth with clear hierarchy
+
+## Outreach Status
+- **Date Enriched:** 2026-03-10
+- **Source Quality:** High (verified official PDF)
+- **Ready for Outreach:** Yes
+- **Best Contact:** Stephens Johnson (Head of BD)
+
+---
+*Researched by: Jim | Method: Official firm tearsheet*

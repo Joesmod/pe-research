@@ -1,50 +1,57 @@
 # Gauge Capital
 
+**Status:** Enriched 2026-03-12  
+**AUM:** ~$3.5B  
+**Focus:** Mid-market growth-oriented service businesses
+
+## Key Contact
+
+**Tom McKelvey**  
+- **Title:** Co-founder, Managing Partner/CEO  
+- **Email:** tmckelvey@gaugecapital.com (inferred from ZoomInfo pattern t***@gaugecapital.com)  
+- **LinkedIn:** https://www.linkedin.com/in/tom-mckelvey-4085666/  
+- **Location:** Dallas-Fort Worth, TX
+
 ## Firm Overview
-- **Website:** https://gaugecapital.com
-- **Founded:** 2013
-- **AUM:** $3.0+ billion
-- **HQ:** Southlake, TX (Dallas area)
-- **Address:** 1256 Main Street, Suite 256, Southlake, TX 76092
 
-## Investment Focus
-- **Market:** Middle-market
-- **Sectors:** Business services, Food & consumer, Government & industrial services, Healthcare, Technology
-- **Structure:** Shared control and majority investments in growth-oriented service businesses
-- **Strategy:** Long-term sustainable value creation through alignment, transformational change, organic + acquisition growth
+Gauge Capital is a Dallas-based private equity firm managing ~$3.5B in assets. The firm makes shared control and majority investments in growth-oriented middle-market service businesses across:
+- Business services
+- Healthcare services
+- Consumer services
+- Food services
+- Transportation & logistics
+- Government services
 
-## Key Personnel
+## Investment Criteria
 
-### Andrew Peix
-- **Title:** Partner, Business Development
-- **Email:** apeix@gaugecapital.com ✅ VERIFIED
-- **Phone:** (682) 334-5800
-- **Notes:** BD contact verified from multiple press releases (2024-2026)
+- **EBITDA:** $5-50 million
+- **Geography:** United States and Canada
+- **Transaction Types:** Management buy-outs, recapitalizations, divestitures, consolidation, growth investments
+- **Focus:** High-potential service and technology-enabled businesses
 
-### Chris Garvin
-- **Title:** Principal, Business Development
-- **Email:** cgarvin@gaugecapital.com ✅ VERIFIED
-- **Notes:** Also handles business development inquiries (per 2024 press release)
+## Recent Portfolio Activity
 
-## Recent Activity
-- Named to Inc.'s 2024 & 2025 Founder Friendly Investors List
-- Strategic growth investment in Ecosystems (January 2026)
-- Active across 5 key sectors
-- Manages $3B+ in capital
+- Investment in Lucent Health (healthcare TPA and cost containment)
+- AGT Robotics (safety services)
+- East Coast Institute for Research (healthcare)
 
-## Contact Information
-- **General IR:** IR@GaugeCapital.com
-- **Phone:** (682) 334-5800
-- **Mailing:** 1256 Main Street, Suite 256, Southlake, TX 76092
-- **Building Entrance:** 224 State Street, Southlake, TX 76092
+## Research Notes
 
-## Outreach Strategy
-- **Primary Contact:** Andrew Peix (Business Development Partner)
-- **Email Verified:** YES (from official press releases)
-- **Best Angle:** Service businesses (healthcare services, business services, technology-enabled services)
-- **Timing:** Active acquirer, founder-friendly reputation
+- Tom McKelvey co-founded Gauge Capital and leads business services/technology vertical
+- Over 25 years experience leading and investing in growth businesses
+- Firm focuses on partnering with owners and managers to maximize potential
+- Strong track record in services roll-ups and platform expansion
+
+## Contact Info
+
+**Headquarters:**  
+1256 Main Street, Suite 256  
+Southlake, TX 76092  
+Phone: 682-334-5800  
+IR: IR@GaugeCapital.com
 
 ## Source
-- Research Date: 2026-03-08
-- Researcher: Jim
-- Verification: Multiple press releases, company website
+
+- Enriched via web research 2026-03-12
+- Contact info inferred from ZoomInfo pattern
+- Firm details from LinkedIn, ZoomInfo, and company website

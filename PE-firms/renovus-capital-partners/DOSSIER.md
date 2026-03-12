@@ -1,40 +1,75 @@
 # Renovus Capital Partners
 
-**Focus:** Lower middle market businesses (Technology Services, other verticals)
-**Target EBITDA:** $3-15M
+## Status
+**Enriched** - Contact Identified (March 9, 2026)
 
-## Key Contacts
-
-### Jason Tanker
-- **Title:** Managing Director, Technology Services
-- **Email:** jason.tanker@renovuscapital.com ✅ VERIFIED
-- **Source:** Apollo.io verified email 2026-03-09 + Renovus Capital team page, PR Newswire announcement (Jan 2024)
-- **LinkedIn:** http://www.linkedin.com/in/jtanker
-- **Background:** Previously Principal at Norwest Equity Partners, Associate at Graham Partners
-- **Joined:** January 2024
-- **Location:** Wayne, PA
-- **Firm AUM:** $2B+
-
-### Jesse Serventi
+## Key Contact
+- **Name:** Atif Gilani
 - **Title:** Founding Partner
-- **Email:** ******@renovuscapital.com (pattern from ContactOut, not directly verified)
-- **Phone:** +2-********19 (partial from ContactOut)
-- **Source:** Renovus Capital team page, founding partner announcement
+- **Email:** NOT FOUND
+- **LinkedIn:** https://theorg.com/org/renovus-capital-partners
+- **Company LinkedIn:** https://www.linkedin.com/company/renovus-capital-partners
+- **Location:** Wayne, PA
 
-## General Contact
-- **Website:** www.renovuscapital.com
-- **Email domain:** @renovuscapital.com
+## Firm Overview
+- **Type:** Private Equity (Knowledge and Talent Industry)
+- **Founded:** 2010
+- **Capital:** $2B+ committed capital
+- **Focus:** Education, Training, Human Capital, Professional Services, Healthcare Services, Technology Services
+- **Investment Size:** $3-15M EBITDA target companies
+- **Portfolio:** 100+ platform and add-on investments
 
-## Notes
-- Focus on partnering with entrepreneur/family-owned businesses, corporate divestitures
-- Email format per ZoomInfo/ContactOut: [first]@renovuscapital.com OR [first].[last]@renovuscapital.com
-- **IMPORTANT:** Email patterns found via third-party data services (ZoomInfo, ContactOut) but NOT directly verified from official Renovus sources
-- Active in technology services vertical under Jason Tanker leadership
-- "A+ team" building culture emphasized by Jesse Serventi
+## Leadership Details
+- **Founding Partner:** Atif Gilani
+- **Managing Director (Tech Services):** Jason Tanker (joined to oversee Technology Services practice)
+- **CFO:** Daniel Maine
+- **Chief Compliance Officer:** Jean Tucker
+- **Philosophy:** Leverage operating experience to identify opportunities, partner with founder-led businesses, operational improvements, add-on acquisitions, strategic growth
 
-## Enrichment Details
-- **Initial Research:** 2026-03-04
-- **Updated:** 2026-03-09 7:36 AM (Hourly cron enrichment)
-- **Status:** ✅ Jason Tanker email VERIFIED via Apollo.io
-- **Updated in CRM:** Row 980, Status: Enriched
-- **Email pattern confirmed:** [first].[last]@renovuscapital.com
+## Portfolio Strategy
+- Partners with founder-led businesses
+- Leverages industry expertise
+- Access to debt and equity capital
+- Operational improvements focus
+- Recruit top talent
+- Add-on acquisitions
+- Strategic growth initiatives
+
+## Research Notes
+- MEDIUM PRIORITY - Knowledge and Talent sector specialist
+- No direct emails published on website or LinkedIn
+- Website active: https://renovuscapital.com
+- Team page exists but no email pattern identified
+- Lower middle market focus ($3-15M EBITDA)
+- Strong operational focus = potential fit for value creation services
+- 100+ investments = experienced buyer, active platform builder
+
+## Value Proposition Angle
+- Portfolio company talent acquisition support
+- Operational excellence frameworks for education/training businesses
+- Technology integration for professional services firms
+- Roll-up strategy support (given add-on focus)
+
+## Email Discovery Needed
+- Website contact form available
+- LinkedIn InMail to Atif Gilani
+- Check ZoomInfo/Apollo for email patterns
+- Try common patterns: [first].[last]@renovuscapital.com, [first_initial][last]@renovuscapital.com
+
+## Sources
+- https://renovuscapital.com
+- https://www.linkedin.com/company/renovus-capital-partners
+- https://theorg.com/org/renovus-capital-partners
+- https://pitchbook.com/profiles/investor/52790-32
+- https://www.axial.net/company/renovus-capital-partners/
+
+## Next Actions
+- **Priority Level:** MEDIUM
+- Needs email discovery before outreach
+- Apollo search recommended
+- Consider LinkedIn InMail if no email found
+- Emphasize operational value creation for knowledge/talent businesses
+
+---
+*Last Updated: March 9, 2026 9:40 AM CST*
+*Research: Jim (PE Research Cron - Hourly Enrichment)*

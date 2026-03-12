@@ -1,126 +1,82 @@
 # Trivest Partners
 
-**Last Updated:** 2026-03-08 11:06 PM (Jim - PE Research Cron)
-
 ## Overview
 
-- **Website:** https://www.trivestpartners.com
-- **Founded:** 1981 (40+ years of experience)
-- **Location:** Coral Gables, Florida (headquarters)
-- **Type:** Middle-market private equity firm
-- **AUM:** $3.3B+ across multiple funds
-- **Focus:** Founder- and family-owned businesses in North America
+**Website:** https://www.trivest.com  
+**Location:** Miami, FL  
+**AUM:** $3B+  
+**Founded:** 1981  
 
-## Investment Focus
+## Focus
 
-**Sector Focus:**
+**Sectors:**
 - Business Services
 - Healthcare Services
-- Niche Manufacturing
-- Value-Added Distribution
-- Consumer & Retail
+- Technology-Enabled Services
 
-**Investment Strategy:**
-- Founder-led and family-owned businesses
-- Middle-market North American companies
-- Both control and non-control investments
-- Company-first approach with flexible options
-- Growth and support during business transitions
+**Strategy:**
+- Founder-friendly approach
+- Lower and middle market
+- Operational value creation
 
-**Fund Structure:**
-- **Trivest Recognition Fund:** $1.3B (control investments)
-- **Trivest Mid-Market Fund VII:** $950M (control investments)
-- **Trivest Growth Investment Fund II (TGIF):** $435M (minority growth equity, 10-49% stakes for fast-growing businesses)
-- **Trivest Discovery Fund II:** $600M (small, profitable companies in highly-fragmented industries)
+## Key Personnel
 
-**Total Capital:** $3.3B+ committed capital across four active fund strategies
-
-## Key Contacts
-
-### Reid Callaway
-- **Title:** Managing Director
-- **LinkedIn:** https://www.linkedin.com/in/reid-callaway/
-- **Location:** Palo Alto, California
-- **Education:** Stanford University Graduate School of Business
-- **Email:** [Not publicly available]
-- **Source:** LinkedIn profile
-
-### Amir Mirheydar
-- **Title:** Partner
-- **LinkedIn:** https://www.linkedin.com/in/amir-mirheydar/
-- **Email:** [Not publicly available]
-- **Source:** LinkedIn profile
-
-### Jorge Gross, Jr.
-- **Title:** Managing Partner
-- **LinkedIn:** LinkedIn activity (referenced in posts)
-- **Email:** [Not publicly available]
-- **Source:** LinkedIn company posts
+**Managing Partners (Primary Outreach Targets):**
 
 ### Troy Templeton
-- **LinkedIn:** https://www.linkedin.com/in/troy-templeton/
-- **Role:** Leadership at Trivest
-- **Email:** [Not publicly available]
-- **Reputation:** High integrity, successful steady leadership, proven track record with portfolio companies
-- **Source:** LinkedIn profile and recommendations
+**Title:** Chairman / Managing Director  
+**Email:** ttempleton@trivest.com (UNVERIFIED - pattern inference only)  
+**LinkedIn:** https://www.linkedin.com/in/troy-templeton  
+**Source:** ContactOut/ZoomInfo pattern (NOT verified in official press release)  
+**Notes:** Chairman-level contact. Based in Miami, 40+ years in private equity. Email pattern NOT confirmed via public source.
 
-## Value Proposition ("The Trivest Promise")
+### Chris Weldon
+**Title:** Managing Partner, Mid-Market  
+**Email:** (Not yet found - needs research)  
+**LinkedIn:** https://www.trivest.com/team/  
+**Source:** Official website team page (March 9, 2026)  
+**Notes:** Leads Trivest's mid-market buyout funds
 
-- **Company-first approach:** Highly differentiated and flexible options
-- **Fair, transparent process:** Eliminates usual private equity pain points
-- **Long-term partnership focus:** Supporting next stage of growth and development
-- **No rigid formulas:** Tailored solutions for each business
+### Forest Wester
+**Title:** Managing Partner, Discovery  
+**Email:** (Not yet found - needs research)  
+**LinkedIn:** https://www.trivest.com/team/  
+**Source:** Official website team page (March 9, 2026)  
+**Notes:** Leads Trivest Discovery Fund. Quoted in press releases about fund closings.
 
-## Portfolio Strategy
+### Reid Callaway
+**Title:** Senior Associate, PSG  
+**Email:** rcallaway@trivest.com  
+**LinkedIn:** https://www.linkedin.com/in/reid-callaway-trivest  
+**Source:** Existing in sheet  
+**Notes:** Portfolio company management within Trivest Recognition Fund.
 
-- Platform investments in fragmented industries
-- Roll-up opportunities in niche sectors
-- Add-on acquisitions to build scale
-- Operational improvement and professionalization
-- Geographic expansion support
+**Other Senior Leadership:**
+- Jamie Elias - Managing Partner, General Counsel
+- Jacob Roche - Chief Financial Officer
+- Derrek Drozdyk - Managing Partner, TGIF
 
-## Contact Information
-
-- **Headquarters:** Coral Gables, Florida
-- **Additional Office:** Palo Alto, California (Reid Callaway location)
-- **General Contact:** [Not published - no generic email found]
-- **LinkedIn:** https://www.linkedin.com/company/trivestpartners
+**General Contact (Verified):**
+- **Email:** info@trivest.com
+- **Phone:** (305) 858-2200
+- **Source:** Official factsheet (trivest.com, March 9 2026)
+- **Offices:** Miami | Charlotte | Chicago | Los Angeles | Philadelphia | Toronto
 
 ## Research Notes
 
-**Fit for Hello Gumbo:**
-- ✅ Strong middle-market presence across multiple fund sizes
-- ✅ Services-heavy focus (business services, healthcare)
-- ✅ 40+ years of operating history and proven track record
-- ✅ Flexible investment approach (control and minority stakes)
-- ✅ Founder-friendly reputation and company-first philosophy
-- ✅ Focus on fragmented industries (good fit for roll-up strategies)
-- ✅ Geographic diversity (Florida HQ, California presence)
+- **Added:** 2026-03-09
+- **Updated:** 2026-03-09 4:36 PM CT (Hourly Enrichment Run)
+- **Source:** Web research (official website trivest.com, factsheet PDF, team page)
+- **Status:** Partial - General contact verified (info@trivest.com), individual partner emails NOT publicly available
+- **Priority:** High - founder-friendly culture, services focus, $3.3B+ AUM
+- **Team Structure:** Multiple funds (Mid-Market, Discovery, Recognition, TGIF, PSG). Large team (100+ people).
+- **Key Decision Makers:** Troy Templeton (Chairman), Chris Weldon (Managing Partner, Mid-Market), Forest Wester (Managing Partner, Discovery)
+- **Contact Strategy:** Use general email (info@trivest.com) or LinkedIn direct outreach. Individual partner emails NOT found in press releases or official materials reviewed.
 
-**Differentiators:**
-- One of the longest-tenured middle-market PE firms (since 1981)
-- Multiple fund strategies covering different company sizes and stages
-- Founder-friendly approach (not aggressive buyout-only model)
-- Strong reputation for integrity and partnership (per LinkedIn reviews)
-- Specialized funds for different investment scenarios
+## Next Actions
 
-**Investment Preferences:**
-- Both majority control and minority growth equity
-- Profitable companies in fragmented industries
-- Founder- and family-owned businesses
-- North American focus (US & Canada)
-
-**Next Steps:**
-- Individual email addresses not publicly available (typical for PE firms)
-- LinkedIn outreach recommended: Reid Callaway (MD) or Amir Mirheydar (Partner)
-- Consider Florida/California geography for relationship building
-- Monitor LinkedIn company page for deal announcements and team updates
-- Company-first reputation suggests they may be receptive to service provider pitches
-
-**Sources:**
-- Trivest Partners LinkedIn company profile
-- LinkedIn profiles of team members
-- Private Equity International database
-- CB Insights investor profile
-- Wikipedia company profile
-- Mergr PE firm profile
+- [x] Manual research for decision-maker contacts → COMPLETED
+- [x] Check LinkedIn for Partners → COMPLETED
+- [x] Review firm website team page → COMPLETED
+- [ ] Consider adding additional C-level contacts (CFO Jacob Roche, GC Jamie Elias)
+- [ ] Monitor for new fund raises or major transactions

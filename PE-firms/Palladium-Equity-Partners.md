@@ -11,6 +11,14 @@ Mid-market private equity firm focused on consumer services, branded consumer pr
 
 ## Key Contacts
 
+### Daniel Ilundain, CFA - President & Co-Head of Funds
+- **Email:** dilundain@palladiumequity.com (pattern inferred, NOT verified)
+- **LinkedIn:** https://www.linkedin.com/in/daniel-ilundain/
+- **Source:** Company website people page (palladiumequity.com/people)
+- **Appointed:** August 2024 (promoted from within)
+- **Background:** 20+ years with Palladium, contributed to Funds II-V success
+- **Note:** No public verified email found as of March 2026
+
 ### Scott Kirschner, CFA - Managing Director
 - **Email:** skirschner@palladiumequity.com
 - **Phone:** 212-xxx-xxxx

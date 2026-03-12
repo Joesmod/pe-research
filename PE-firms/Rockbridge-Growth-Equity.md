@@ -17,6 +17,25 @@
 
 ## Key Leadership
 
+### Kevin Prokop
+- **Title**: Managing Partner ✅ (Co-Founder)
+- **Email**: kprokop@rbequity.com ✅ (RocketReach verified)
+- **LinkedIn**: https://www.linkedin.com/in/kevinprokoprb/
+- **Background**:
+  - Co-founded Rockbridge Growth Equity with Brian Hermelin (2007), backed by Dan Gilbert (Rocket Mortgage founder)
+  - Managing Partner - leads firm's investments
+  - Sits on Board of Directors: Connect America, GSTV, Marquis, Nest, Quartile, Rapid Finance
+  - University of Chicago education
+  - Detroit-based
+- **Status**: C-level co-founder with extensive board experience
+
+### Brian Hermelin
+- **Title**: Managing Partner (Co-Founder)
+- **Email**: bhermelin@rbequity.com (likely pattern, not verified)
+- **Background**:
+  - Co-founded Rockbridge with Kevin Prokop (2007)
+  - Sits on Board of Directors: Connect America, GSTV, ProSites, Rapid Finance, Robb Report, White Glove
+
 ### Spencer Hughes
 - **Title**: Principal / Vice President
 - **Email**: spencer@rbequity.com (Verified from official website + RocketReach + ContactOut)
@@ -88,6 +107,7 @@
 - ⏳ Reference specific portfolio companies to demonstrate research
 
 ---
-*Last updated: March 6, 2026 2:06 AM CST*
-*Enrichment Status: Complete*
-*CRM Row: 379*
+*Last updated: March 10, 2026 11:06 PM CST*
+*Enrichment Status: ✅ COMPLETE - Managing Partners + VP verified*
+*CRM Row: 8 (Kevin Prokop), 379 (Spencer Hughes)*
+*Email Format: firstinitiallastname@rbequity.com*

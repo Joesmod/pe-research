@@ -1,7 +1,7 @@
 # Abry Partners
 
-**Status:** NEW - Mid-Market PE Firm  
-**Last Updated:** 2026-03-08  
+**Status:** ENRICHED - Mid-Market PE Firm  
+**Last Updated:** 2026-03-10  
 **Website:** https://abry.com
 
 ## Overview
@@ -21,12 +21,21 @@ Abry Partners is an experienced Boston-based private equity firm investing in mi
 - **Title:** CEO
 - **Email:** cbrucato@abry.com
 - **LinkedIn:** https://abry.com/team-member/c-j-brucato/
-- **Status:** ✅ CEO contact
+- **Phone:** (617) ***-****
+- **Status:** ✅ VERIFIED (ZoomInfo, Growjo)
+- **Notes:** CEO contact - verified March 10, 2026
 
 ### Jay Grossman
 - **Title:** Chair
 - **Email:** jgrossman@abry.com
 - **Source:** Company team page
+
+### Nicholas Scola
+- **Title:** Partner, Head of Buyout Funds
+- **Email:** nscola@abry.com
+- **LinkedIn:** https://abry.com/team-member/nicholas-scola/
+- **Status:** ✅ VERIFIED
+- **Notes:** Head of Buyout Funds - key decision maker
 
 ## Firm Details
 

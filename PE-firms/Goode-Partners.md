@@ -1,59 +1,45 @@
-# Goode Partners LLC
+# Goode Partners
 
-**Type:** Private Equity Firm  
-**Focus:** Consumer, Retail, Apparel, Restaurant sectors  
-**Website:** http://www.goodepartners.com
+**Status:** ✅ Enriched  
+**Last Updated:** 2026-03-10
 
-## Key Contacts
+## Overview
+Private equity firm focused exclusively on consumer-oriented sectors: retail, restaurant, apparel, direct marketing, and branded consumer products.
 
-### David Oddi
-- **Title:** Partner
-- **Email:** doddi@goodepartners.com
-- **Phone:** 646.722.9455
-- **LinkedIn:** https://www.linkedin.com/in/david-oddi-9366176/
-- **Source:** Verified from official team page (http://www.goodepartners.com/team/david)
-- **Enriched:** 2026-03-08
+## Contact Information
 
-## Background
+### Primary Contact
+- **Name:** David Oddi
+- **Title:** Partner  
+- **Email:** doddi@goodepartners.com  
+- **Phone:** (646) 722-9455
+- **LinkedIn:** https://www.linkedin.com/company/goode-partners
 
-David Oddi co-founded Goode Partners after serving as a Partner at Saunders Karp & Megrue (SKM), where he was responsible for identifying investment opportunities, structuring transactions, and monitoring portfolio investments.
+### Additional Contacts
+- **Daniel Bonoff** - Partner - dbonoff@goodepartners.com - (646) 722-9433
+- **Paula G. Semelmacher** - CFO (CPA) - psemel@goodepartners.com - (646) 722-9406
+- **Joe Ferreira** - Partner Emeritus - jferreira@goodepartners.com - (646) 722-9607
+- **Keith Miller** - Partner Emeritus - kmiller@goodepartners.com - (646) 722-9608
+- **Remington Smith** - Associate - rsmith@goodepartners.com - (646) 722-9452
 
-During his 10+ year career at SKM, he participated in:
-- 12 platform investments
-- 4 add-on acquisitions
-- ~$250M invested equity capital
-- Multiple successful exits (IPOs, secondary offerings, strategic sales)
+## Firm Details
+- **Website:** http://www.goodepartners.com
+- **Founded:** 2005
+- **Focus:** Consumer sector (retail, restaurant, apparel, branded consumer products)
+- **Investment Approach:** Platform investments + add-on acquisitions
 
-## Board Experience
+## Research Notes
+- All emails and phone numbers verified from official team page
+- Source: http://www.goodepartners.com/team
+- Multiple contact options available
+- David Oddi has strong SKM background (Saunders Karp & Megrue)
+- Daniel Bonoff: 30 years consumer PE experience, $1B+ in equity capital
 
-**Current:**
-- Sneaker Villa (Villa)
-- Silver Diner
-- Forman Mills
-- STONEFIRE Grill
-- Marolina Outdoor
+## Outreach Status
+- **Date Enriched:** 2026-03-10
+- **Source Quality:** High (verified official team page)
+- **Ready for Outreach:** Yes
+- **Best Contact:** David Oddi or Daniel Bonoff (both Partners with direct emails)
 
-**Former:**
-- All Saints
-- Capital IQ
-- Charlotte Russe (NASDAQ: CHIC)
-- Chuy's (NASDAQ: CHUY)
-- The Children's Place (NASDAQ: PLCE)
-- Dave's Killer Bread
-- Intermix LLC
-- La Colombe Coffee
-- Ollie's Bargain Outlet
-- Skullcandy
-- Tommy Bahama
-
-## Education
-- B.S. in Economics, Wharton School, University of Pennsylvania
-
-## Prior Experience
-- Partner, Saunders Karp & Megrue (SKM)
-- Leveraged Finance Group, Salomon Brothers
-
-## Notes
-- Deep expertise in retail, branded apparel, restaurant, and consumer products sectors
-- Proven track record with consumer-facing businesses
-- Strong operational and board leadership experience
+---
+*Researched by: Jim | Method: Official website team directory*
