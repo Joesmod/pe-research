@@ -12,6 +12,13 @@
 **LinkedIn:** https://www.linkedin.com/in/walterflorence/  
 **Source:** RocketReach email format (78% confidence: {first_initial}{last}@frontenac.com) + LinkedIn (2026-03-11)
 
+### Paul Carbery
+**Title:** Managing Partner  
+**Email:** pcarbery@frontenac.com (pattern inferred, NOT verified)  
+**Source:** Press release quote (PRNewswire, Oct 2022 - OTC sale)  
+**Quote:** "Our investment in OTC is a great case study of how we work with our businesses to develop and grow together. This is the third liquidity event for our firm this year..."  
+**Research Date:** 2026-03-12
+
 ### Senior Team (per Wikipedia 2025)
 - Ron Kuehl
 - Michael Langdon
