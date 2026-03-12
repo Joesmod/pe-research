@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-03-12T03:11:35.722Z",
+  "fixes": [
+    {
+      "row": 285,
+      "company": "Sentinel Capital Partners"
+    },
+    {
+      "row": 305,
+      "company": "Bertram Capital"
+    },
+    {
+      "row": 276,
+      "company": "Harkness Capital Partners"
+    }
+  ],
+  "enrichments": []
+}

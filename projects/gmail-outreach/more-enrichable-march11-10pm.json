@@ -1,0 +1,45 @@
+[
+  {
+    "row": 176,
+    "company": "Hg Capital",
+    "contact": "Connor Da***g",
+    "title": "Vice President",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "N/A",
+    "status": "Enriched",
+    "priority": "HIGH",
+    "issues": [
+      "Empty email"
+    ]
+  },
+  {
+    "row": 234,
+    "company": "The Jordan Company (TJC)",
+    "contact": "General Inquiry",
+    "title": "N/A",
+    "email": "N/A",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/company/the-jordan-company",
+    "status": "Needs Manual Research",
+    "priority": "HIGH",
+    "issues": [
+      "Invalid email (N/A)",
+      "Needs Manual Research status"
+    ]
+  },
+  {
+    "row": 493,
+    "company": "360 Equipment Finance",
+    "contact": "Kip Amstutz",
+    "title": "Founder",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "",
+    "status": "Researched - No Public Contact",
+    "priority": "HIGH",
+    "issues": [
+      "Empty email"
+    ]
+  }
+]
