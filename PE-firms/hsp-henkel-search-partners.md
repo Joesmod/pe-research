@@ -1,11 +1,11 @@
-# Sentinel Capital Partners
+# HSP - Henkel Search Partners
 
 ## Contact Information
 
-- **Name:** Patrick Knise
+- **Name:** Kat Hearington
 - **Title:** Managing Director
-- **Email:** knise@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/patrick-knise-50113736
+- **Email:** kat@henkelsp.com
+- **LinkedIn:** http://www.linkedin.com/in/kat-hearington-b57570b
 
 ## Research Notes
 

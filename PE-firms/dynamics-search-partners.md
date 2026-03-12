@@ -1,11 +1,11 @@
-# Sentinel Capital Partners
+# Dynamics Search Partners
 
 ## Contact Information
 
-- **Name:** Patrick Knise
+- **Name:** Jin Joshi
 - **Title:** Managing Director
-- **Email:** knise@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/patrick-knise-50113736
+- **Email:** jin@dspny.com
+- **LinkedIn:** http://www.linkedin.com/in/jin-joshi
 
 ## Research Notes
 

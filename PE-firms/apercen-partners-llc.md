@@ -1,11 +1,11 @@
-# Sentinel Capital Partners
+# Apercen Partners LLC
 
 ## Contact Information
 
-- **Name:** Patrick Knise
+- **Name:** Blair Davis
 - **Title:** Managing Director
-- **Email:** knise@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/patrick-knise-50113736
+- **Email:** bdavis@apercen.com
+- **LinkedIn:** http://www.linkedin.com/in/blairdaviscpa
 
 ## Research Notes
 

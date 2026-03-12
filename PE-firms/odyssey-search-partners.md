@@ -1,11 +1,11 @@
-# Sentinel Capital Partners
+# Odyssey Search Partners
 
 ## Contact Information
 
-- **Name:** Patrick Knise
+- **Name:** Sanjeev Sharma
 - **Title:** Managing Director
-- **Email:** knise@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/patrick-knise-50113736
+- **Email:** ss@ospsearch.com
+- **LinkedIn:** http://www.linkedin.com/in/sanjeevksharma
 
 ## Research Notes
 
