@@ -1,25 +1,49 @@
 # Pharos Capital Group
 
-## Firm Information
-- **Website**: N/A
-- **Status**: Active PE Firm
-- **Enrichment Date**: 2026-03-09
-- **Source**: Apollo API
+**Location:** Dallas, TX  
+**Founded:** 1998  
+**AUM:** ~$2B+ (estimated)  
+**Focus:** Middle-market healthcare services, specialty distribution, business services  
 
-## Key Contact
-- **Name**: Ben Chesnut
-- **Title**: Vice President
-- **Email**: bchesnut@pharosfunds.com
-- **LinkedIn**: http://www.linkedin.com/in/ben-chesnut-8990074b
+## Investment Criteria
+- Industries: Healthcare services, niche distribution, B2B services
+- Deal size: $50M-$200M+ equity
+- Geography: North America
+- Structure: Control buyouts, recapitalizations, growth capital
+
+## Key Contacts
+
+### Adam Persiani
+- **Title:** Managing Director - Business Development
+- **Email:** apersiani@pharosfunds.com
+- **Phone:** 214-740-7003
+- **LinkedIn:** https://www.linkedin.com/in/adampersiani/
+- **Education:** University of Illinois Urbana-Champaign (BS), University of Chicago Booth (MBA)
+- **Source:** Sanderling Renal Services press release (verified)
+- **Status:** ✅ Verified
+- **Note:** Primary business development contact for new deal flow
+
+## Portfolio Highlights
+- **Sanderling Renal Services:** Dialysis and renal telemedicine platform (recent investment)
+- **TechLab, Inc.:** Healthcare diagnostics (Adam Persiani serves on board)
+
+## Firm Overview
+- Pharos invests in founder-led and family-owned businesses
+- Focus on value creation through operational improvements
+- Strong presence in healthcare services sector
+- Multiple successful exits across healthcare and business services
 
 ## Notes
-- Enriched via Apollo API on 2026-03-09
-- Contact verified and added to CRM tracking sheet (Row 991)
+- "Pharos" means lighthouse in Greek - firm positions itself as a guide for founders
+- Email pattern: firstlast@pharosfunds.com
+- Website: www.pharosfunds.com
+- Emphasis on partnering with management teams for long-term growth
 
-## Outreach Status
-- **Status**: Ready for Outreach
-- **Added to Sheet**: 2026-03-09
-- **Next Action**: Draft and send personalized outreach email
+## Research Date
+2026-03-12
 
----
-*Last Updated: 2026-03-09*
+## Next Steps
+- [ ] Identify additional investment team members (Partners, Principals)
+- [ ] Research recent portfolio company additions
+- [ ] Verify current fund status and size
+- [ ] Map out portfolio operations/value creation team
