@@ -1,30 +1,53 @@
 # CIVC Partners
 
-**Firm Name:** CIVC Partners
-**Website:** https://www.civc.com
-**AUM:** Mid-market PE firm
-**Focus:** Middle market buyout, recapitalization, and growth equity investments
-**Founded:** 1970
+## Overview
+- **Website**: https://www.civc.com
+- **Location**: Chicago, Illinois
+- **Founded**: 1989
+- **Focus**: Middle market business services
+- **AUM**: $870 million (Fund VII, activated January 2024)
+- **Track Record**: Invested over $2.3 billion in 80 platform companies and 150+ add-ons
 
-## Key Contact
+## Key Contacts
 
-**Name:** Nicholas Canderan
-**Title:** Principal - Head of Business Development
-**Email:** ncanderan@civc.com
-**LinkedIn:** N/A
+### Nicholas Canderan
+- **Title**: Principal - Head of Business Development
+- **Email**: ncanderan@civc.com
+- **Source**: Official website contact page
 
-**Background:**
-- Principal at CIVC Partners
-- Leads business development initiatives
-- Point of contact for new deal opportunities and partnerships
+### General Contacts
+- **Main Email**: civc_partners@civc.com
+- **Business Development**: ncanderan@civc.com
+- **Investor Relations**: ir@civc.com
 
-**Firm Details:**
-- Location: Chicago, IL
-- Address: 71 South Wacker Drive, Suite 3750, Chicago, IL 60606
-- Phone: 312.873.7300
-- Investor Inquiries: ir@civc.com
-- General: civc_partners@civc.com
+## Leadership Team (Investment Partners)
+- **John Compall** - Partner
+- **Marc McManus** - Partner
+- **Chris Perry** - Partner
+- **Doug Potters** - Partner
+- **Scott Schwartz** - Partner
+- **JD Wright** - Partner
+- **Chris Geneser** - Partner & CFO
 
-**Source:** Email verified from company website contact page (civc.com/contact)
-**Date Enriched:** 2026-03-08
-**Status:** Enriched - Ready for outreach
+## Contact Information
+- **Address**: 71 South Wacker Drive, Suite 3750, Chicago, IL 60606
+- **Main Phone**: (312) 873-7300
+- **Fax**: (312) 873-7301
+
+## Investment Focus
+- Business services sector
+- Lower middle market
+- EBITDA targets vary by deal
+- Buyout and growth equity investments
+
+## Notable Investments
+- Signers National (March 2023)
+- HR Green (June 2025)
+
+## Research Notes
+- Team page appears to be JavaScript-heavy
+- Contact information verified from official contact page
+- Recent fund raise: Fund VII ($870M) closed November 2023
+
+## Enrichment Date
+March 12, 2026
