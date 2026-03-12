@@ -31,11 +31,32 @@
 - **Verified**: 2026-03-12 (patientsquarecapital.com/team/rebecca-marty/)
 - **Note**: Direct support to Managing Partner
 
-### Additional Team (from sheet/previous research)
-- **Karr Narula** - Founding Partner, Head of Transformation and Growth
-- **Sam Saini** - Head of Technology
-- **Ryan Peabody** - Data Analytics Lead
-- **Ken Michalzuk** - Managing Director, Transformation & Growth Team (joined Jan 2024)
+### Sam Saini
+- **Title**: Head of Technology
+- **Email**: ssaini@patientsquarecapital.com (inferred from pattern)
+- **LinkedIn**: https://patientsquarecapital.com/team/sam-saini/
+- **Verified**: 2026-03-12 (official team page)
+- **Background**: Extensive experience developing enterprise infrastructure, cloud, and digital platform strategies in financial services. Expertise in cloud architecture, identity management, cybersecurity.
+- **Role**: ⭐️ PRIMARY AI/TECH CONTACT - leads all technology initiatives
+
+### Ryan Peabody
+- **Title**: Data Analytics Lead
+- **Email**: rpeabody@patientsquarecapital.com (inferred from pattern)
+- **Verified**: 2026-03-12 (official team page)
+- **Role**: AI/data analytics - relevant for data-driven portfolio ops
+
+### Karr Narula
+- **Title**: Founding Partner, Head of Transformation and Growth
+- **Email**: knarula@patientsquarecapital.com (inferred from pattern)
+- **LinkedIn**: https://patientsquarecapital.com/team/karr-narula/
+- **Verified**: 2026-03-12 (official team page)
+- **Role**: Strategic AI contact - leads transformation initiatives across portfolio
+
+### Ken Michalzuk
+- **Title**: Managing Director, Transformation & Growth Team
+- **Email**: kmichalzuk@patientsquarecapital.com (inferred from pattern)
+- **Joined**: January 2024
+- **Role**: Supports Karr Narula's transformation team
 
 ## Email Pattern
 - **Format**: FLast@patientsquarecapital.com
