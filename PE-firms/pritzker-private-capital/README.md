@@ -6,6 +6,12 @@
 - **Website**: https://www.ppcpartners.com
 
 ## Key Contacts
+- **Michael Nelson** - Managing Partner & Head of Investing
+  - Email: mnelson@ppcpartners.com
+  - LinkedIn: https://theorg.com/org/pritzker-private-capital/org-chart/michael-nelson
+  - Joined 2012. Ex-Flexpoint Ford VP, Genstar Associate. Harvard MBA, Notre Dame BS.
+  - Source: ppcpartners.com + RocketReach verification (March 2026)
+
 - **Jeff Carlson** - Head of Technology
   - Email: jcarlson@ppcpartners.com
   - LinkedIn: https://www.linkedin.com/in/jeffcarlson2
