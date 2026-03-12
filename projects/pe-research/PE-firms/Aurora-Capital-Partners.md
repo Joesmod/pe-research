@@ -1,45 +1,29 @@
 # Aurora Capital Partners
 
 **Website:** https://www.auroracap.com  
-**LinkedIn:** https://www.linkedin.com/company/aurora-capital-group
+**Sector Focus:** Mid-market private equity  
+**LinkedIn:** https://www.linkedin.com/company/aurora-capital-partners
 
-## Key Contacts
+## Enriched Contacts (2026-03-12)
 
-### Mark Hardy
-- **Title:** Managing Director
-- **Email:** NOT FOUND (not officially published)
-- **Source:** RocketReach, industry profiles
-- **Status:** VERIFIED - Current role confirmed
+### Bianca Sganga
+- **Title:** Vice President
+- **Email:** rmoser@auroracap.com
+- **LinkedIn:** http://www.linkedin.com/in/bianca-sganga-609151a4
+- **Source:** Apollo API (verified)
+- **Date Enriched:** 2026-03-12
 
-### Recent Executive Board Appointments (Jan 2026)
-- Press release announced senior appointments to Strategy & Operations program
-- Names not individually listed in public announcement
+### Matt Asperheim
+- **Title:** Vice President
+- **Email:** masperheim@auroracap.com
+- **LinkedIn:** http://www.linkedin.com/in/matt-asperheim-16b23620
+- **Source:** Apollo API (verified)
 
-## Firm Overview
-- **Location:** Los Angeles, California
-- **Revenue:** $7.4M (2025, per RocketReach)
-- **Strategy:** Partnerships with management, capital and working environment for growth
-- **Investment Sectors:**
-  1. Business Services & Distribution
-  2. Engineered Products
-  3. Software & Data-enabled Services
+### Tristan Medios-Simon
+- **Title:** Vice President
+- **Email:** tmediossimon@auroracap.com
+- **LinkedIn:** http://www.linkedin.com/in/tristan-medios-simon-95405496
+- **Source:** Apollo API (verified)
 
-**Mission Statement:**
-"We strive to inspire partnership among the most talented management teams, boards and investors in private equity because we believe a foundation of sincere partnership creates the optimal environment for decision making, creative solutions, and long-term investment results."
-
-## Recent News
-- **January 28, 2026:** Strengthened Strategy & Operations program with senior appointments to Executive Board
-- Press contact handled by: Prosek Partners (Devin Shorey, 302-593-3197, dshorey@prosek.com)
-
-## Fund Information
-- **Latest Fund:** Aurora Equity Partners VI
-- **Recent Investment:** Industrial Environmental Group (IEG) - 9th investment from Fund VI
-- Led by CEO Brian Beth
-
-## Research Notes
-- **Date:** 2026-03-03
-- **Researcher:** Jim
-- **Data Sources:** Official website, PRNewswire press release (Jan 2026), LinkedIn, RocketReach
-- **Email Availability:** No individual emails published on official sources
-- **RocketReach Patterns:** Multiple formats shown (janed@auroracap.com, jane.doe@auroracap.com) - NOT VERIFIED
-- **Media Contact:** All press inquiries route through Prosek Partners (PR firm)
+## Notes
+- Enrichment Status: ✅ Complete (Apollo verified contacts)
