@@ -9,6 +9,13 @@
 
 ## Key Contacts
 
+### Graham Weaver
+- **Title:** Founding Partner
+- **Email:** gweaver@alpineinvestors.com
+- **LinkedIn:** Profile exists (not fully retrieved)
+- **Source:** ContactOut (Verified March 9, 2026)
+- **Notes:** Founder of Alpine Investors, people-driven PE firm. $18.6B AUM, B-Corp certified. Stanford GSB faculty. Hosts popular podcast and teaches leadership.
+
 ### Jacob Zodikoff
 - **Title:** Partner (promoted 2026)
 - **Notes:** Recently promoted to Partner as part of 2026 leadership promotions

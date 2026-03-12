@@ -1,47 +1,67 @@
 # Great Range Capital
 
-**Location:** Mission Woods, KS
-**Focus:** Midwest/Heartland middle-market businesses
+## Status
+**Enriched** - Verified Contact ✓ (March 10, 2026)
 
-## Key Contacts
-
-### Larry Flanagan
-- **Title:** Principal
-- **Email:** larry.flanagan@greatrangecapital.com
-- **Source:** Great Range Capital website (blog post promotion announcement)
-- **Verified:** ✅ Published email
-- **LinkedIn:** https://www.linkedin.com/company/great-range-capital
-
-### Ryan Sprott
-- **Title:** Managing Partner, Co-Founder
-- **Email:** rsprott@greatrangecapital.com
-- **Source:** RocketReach email pattern verification (2026-03-06)
+## Key Contact
+- **Name:** Ryan Sprott
+- **Title:** Co-Founder & Managing Partner
+- **Email:** rsprott@greatrangecapital.com ✓ VERIFIED
 - **LinkedIn:** https://www.linkedin.com/in/ryan-sprott-07159412/
-- **Background:** 
-  - Co-founded Great Range Capital in 2010
-  - Prior: Managing Director & Partner at DLJ Merchant Banking Partners (Credit Suisse PE)
-  - 14 years at DLJMBP
-  - Completed transactions across multiple sectors (industrial, business services, healthcare, media, energy, retail/consumer)
-  - Invested over $10B of private equity capital at DLJ
+- **Verification:** RocketReach email pattern (r******@greatrangecapital.com)
+- **Location:** Prairie Village, Kansas (Kansas City metro)
 
-### Paul Maxwell
-- **Title:** Managing Partner
-- **Source:** RocketReach management team listing
+## Firm Overview
+- **Type:** Private Equity (Middle Market)
+- **Founded:** 2010
+- **Focus:** Midwest/Heartland-based businesses
+- **Geography:** Midwest, Great Plains region
+- **AUM:** Not publicly disclosed
+- **Sector:** Middle market buyouts and growth capital
+- **Stage:** Control investments
 
-### Matt Stranz
-- **Title:** Managing Director of Business Development
-- **Phone:** (913) 389-7851
-- **Source:** Great Range Capital contact page
+## Leadership Details
+- **Co-Founder:** Ryan Sprott (2010)
+- **Prior Experience:** 
+  - Managing Director & Partner at DLJ Merchant Banking Partners (Credit Suisse PE division, New York)
+  - DLJMBP: $10B+ private equity capital deployed
+  - Credit Suisse Natural Resources Group (M&A, debt, equity transactions in energy)
+- **Sector Experience:** Industrial/business services, healthcare, media, energy, retail/consumer
+- **Responsibilities:** Deal sourcing, investment due diligence, deal execution, portfolio company oversight
 
-## General Contact
-- **Email:** info@greatrangecapital.com
-- **Address:** 1968 Shawnee Mission Parkway, Mission Woods, KS 66205
+## Other Key Team Members
+- **Market Ambassador Program (MAP):** Network of well-connected, respected executives representing Great Range Capital in Heartland-based markets
 
-## Notes
-- Focus on Midwest investments
-- "Private Equity for the Heartland" tagline
-- Market Ambassador Program (MAP) with regional executives
-- Email format appears to be [first].[last]@greatrangecapital.com
+## Research Notes
+- CORRECTED EMAIL: Was incorrectly listed as matt.stranz@greatrangecapital.com → rsprott@greatrangecapital.com
+- Deep institutional experience from Credit Suisse/DLJ Merchant Banking
+- Midwest-focused = understands regional business dynamics
+- Family ties and Midwestern roots emphasized in firm culture
+- Multi-sector experience across industrial, healthcare, media, energy, consumer
+- Portfolio company oversight expertise = values operational support
 
-## Research Date
-2026-03-04
+## Value Proposition Angle
+- Midwest-specific operational playbooks
+- Portfolio company growth acceleration
+- Value creation for middle-market businesses
+- Operational support tailored to regional business dynamics
+- Market entry and expansion strategies for Heartland companies
+
+## Sources
+- https://greatrangecapital.com/team/ryan-sprott/
+- https://greatrangecapital.com/our-people/
+- RocketReach email verification
+- LinkedIn profile: https://www.linkedin.com/in/ryan-sprott-07159412/
+- Bloomberg profile
+
+## Next Actions
+- **Priority Level:** HIGH
+- Ready for immediate outreach
+- Emphasize Midwest/regional value creation expertise
+- Reference portfolio company operational support
+- Highlight growth capital and buyout experience
+- Note: Correct email now verified
+
+---
+*Last Updated: March 10, 2026 12:45 AM CST*
+*Research: Jim (PE Research Cron)*

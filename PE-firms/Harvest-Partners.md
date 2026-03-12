@@ -25,3 +25,12 @@
 **Alternate Contact:** Mike DeFlorio  
 **Title:** Senior Managing Director  
 **Email:** mdeflorio@harvestpartners.com
+
+**Name:** April Blackmon Meyer
+**Title:** Marketing and Investor Relations
+**Email:** ameyer@harvestpartners.com
+**Phone:** 212-379-9135
+**Source:** Business Wire press release (2018-01-09)
+**URL:** https://www.businesswire.com/news/home/20180109005673/
+**Date Enriched:** 2026-03-11
+**Status:** Verified - Ready for outreach

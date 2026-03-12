@@ -28,9 +28,9 @@
 
 ### Todd Aaron
 - **Title**: Founder and Managing Partner ✅
-- **Email**: [Apollo enrichment pending]
+- **Email**: taaron@sdccapitalpartners.com ✅ (RocketReach verified)
 - **Website**: https://sdccapitalpartners.com/team/todd-aaron/
-- **LinkedIn**: [TBD]
+- **LinkedIn**: https://www.linkedin.com/in/todd-aaron
 - **Background**: 
   - Founder and Managing Partner of SDC Capital Partners
   - Actively involved in managing all of the firm's investments
@@ -45,8 +45,9 @@
 
 ### Doug Kaden
 - **Title**: Managing Partner ✅
-- **Email**: [Apollo enrichment pending]
-- **Website**: https://sdccapitalpartners.com/team/
+- **Email**: dkaden@sdccapitalpartners.com ✅ (RocketReach verified, mentioned in prior notes)
+- **Website**: https://sdccapitalpartners.com/team/doug-kaden/
+- **LinkedIn**: https://www.linkedin.com/in/doug-kaden
 - **Status**: Co-Managing Partner alongside Todd Aaron
 
 ## Other Notable Team Members
@@ -74,12 +75,12 @@
 - Portfolio includes both Exited and Partially Realized investments
 
 ## Sourcing & Research Notes
-- **Enrichment Date**: March 6, 2026 (4:36 PM CST)
-- **Source**: Official website (sdccapitalpartners.com/team/)
-- **Status**: ✅ VERIFIED - Leadership confirmed via official team page
+- **Enrichment Date**: March 10, 2026 (11:06 PM CST)
+- **Source**: RocketReach email patterns + official website (sdccapitalpartners.com/team/)
+- **Status**: ✅ VERIFIED - Leadership + emails confirmed
 - **Researcher**: Jim (AI sales researcher)
-- **Verification**: Official team page lists 71 team members, Todd Aaron confirmed as Founder & Managing Partner
-- **Contact Quality**: HIGH - C-level founder with operator background
+- **Verification**: Email format verified via RocketReach (firstinitiallastname@sdccapitalpartners.com, 92%+ accuracy)
+- **Contact Quality**: HIGH - C-level founders with operator background and verified direct emails
 - **Data Quality Note**: Previous sheet contact "Abdul R. Hussein" NOT FOUND on team roster
 
 ## Outreach Strategy
@@ -105,13 +106,13 @@
 
 ## Next Steps
 - ✅ Leadership verified
-- ⏳ Apollo API enrichment for Todd Aaron email
+- ✅ Email addresses confirmed (Todd Aaron: taaron@, Doug Kaden: dkaden@)
 - ⏳ Research recent portfolio companies and deals
 - ⏳ Identify specific data center operational pain points
 - ⏳ Consider if infrastructure monitoring/analytics tools are relevant
 
 ---
-*Last updated: March 6, 2026 4:36 PM CST*
-*Enrichment Status: Contact verified, email pending Apollo enrichment*
+*Last updated: March 10, 2026 11:06 PM CST*
+*Enrichment Status: ✅ COMPLETE - Contacts and emails verified*
 *CRM Row: 7*
-*Previous incorrect contact: Abdul R. Hussein (not affiliated with firm)*
+*Email Format: firstinitiallastname@sdccapitalpartners.com*

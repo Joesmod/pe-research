@@ -2,49 +2,41 @@
 
 ## Firm Overview
 - **Website:** https://gaugecapital.com
-- **Founded:** 2013
-- **AUM:** $3.0+ billion
-- **HQ:** Southlake, TX (Dallas area)
-- **Address:** 1256 Main Street, Suite 256, Southlake, TX 76092
+- **Focus:** Business Services, Consumer Services, Healthcare Services, Food Services
+- **AUM:** $500M+ (Fund II: $500M closed 2017)
+- **Location:** Southlake, TX (Dallas area)
+- **Status:** Active - Needs Contact Research
+- **Type:** Mid-Market Private Equity
 
 ## Investment Focus
-- **Market:** Middle-market
-- **Sectors:** Business services, Food & consumer, Government & industrial services, Healthcare, Technology
-- **Structure:** Shared control and majority investments in growth-oriented service businesses
-- **Strategy:** Long-term sustainable value creation through alignment, transformational change, organic + acquisition growth
+- Business services
+- Consumer services
+- Healthcare services
+- Food services
+- Middle-market companies with growth potential
 
-## Key Personnel
+## Firm Details
+- Long-term, sustainable value creation focus
+- Partners with owners, managers, and equity stakeholders
+- Second fund raised $500M in 2017 (oversubscribed)
+- Campbell Luytiens served as advisor for Fund II
+- Strong focus on alignment with management teams
 
-### Andrew Peix
-- **Title:** Partner, Business Development
-- **Email:** apeix@gaugecapital.com ✅ VERIFIED
-- **Phone:** (682) 334-5800
-- **Notes:** BD contact verified from multiple press releases (2024-2026)
+## Key Contact
+- **Status:** Needs Research
+- **Research Priority:** High
+- **Target Titles:** Managing Partner, Partner, Managing Director
+- **Known Personnel:** TBD
 
-### Chris Garvin
-- **Title:** Principal, Business Development
-- **Email:** cgarvin@gaugecapital.com ✅ VERIFIED
-- **Notes:** Also handles business development inquiries (per 2024 press release)
-
-## Recent Activity
-- Named to Inc.'s 2024 & 2025 Founder Friendly Investors List
-- Strategic growth investment in Ecosystems (January 2026)
-- Active across 5 key sectors
-- Manages $3B+ in capital
-
-## Contact Information
-- **General IR:** IR@GaugeCapital.com
-- **Phone:** (682) 334-5800
-- **Mailing:** 1256 Main Street, Suite 256, Southlake, TX 76092
-- **Building Entrance:** 224 State Street, Southlake, TX 76092
+## Enrichment Notes
+- **Added:** March 11, 2026 (automated sweep)
+- **Apollo:** No results
+- **Next Steps:** Manual research on team page, LinkedIn partner search
+- **Decision-Maker Level:** Partner/MD level preferred
+- **Technology Stack:** Cloud services, web development tools (IT modernization opportunities)
 
 ## Outreach Strategy
-- **Primary Contact:** Andrew Peix (Business Development Partner)
-- **Email Verified:** YES (from official press releases)
-- **Best Angle:** Service businesses (healthcare services, business services, technology-enabled services)
-- **Timing:** Active acquirer, founder-friendly reputation
-
-## Source
-- Research Date: 2026-03-08
-- Researcher: Jim
-- Verification: Multiple press releases, company website
+- Focus on business and healthcare services alignment
+- Emphasize long-term partnership and value creation
+- Target services-heavy portfolio companies
+- Highlight operational improvement and growth initiatives

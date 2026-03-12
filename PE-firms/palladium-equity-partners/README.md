@@ -27,8 +27,18 @@
 - **Notes:** Services-focused partner, excellent Gumbo fit
 
 ### Investment Leadership
-- **Daniel Ilundain, CFA** - President & Co-Head of Funds
-- **Justin R. Green** - Co-Head of Funds & Head of Consumer
+- **Justin R. Green** - Partner, Co-Head of Flagship Funds
+  - Email: jgreen@palladiumequity.com
+  - LinkedIn: https://www.linkedin.com/in/justin-green-070b814/
+  - Notes: Co-Head with Daniel Ilundain. ~$3B AUM. 
+  - Source: SignalHire + LinkedIn (March 2026)
+
+- **Daniel Ilundain, CFA** - President & Co-Head of Flagship Funds
+  - Email: dilundain@palladiumequity.com
+  - LinkedIn: https://www.linkedin.com/company/palladium-equity-partners
+  - Notes: 16+ yrs experience. Consumer & Industrial focus.
+  - Source: SignalHire + LinkedIn (March 2026)
+
 - **Scott Kirschner, CFA** - Managing Director, Industrial Services
 - **Rafael Ortiz** - Head of Healthcare
 - **Susan S. Lyons** - Partner

@@ -1,81 +1,67 @@
 # Bow River Capital
 
+**Last Updated:** 2026-03-11  
+**Status:** New - Enriched  
+**Website:** https://www.bowrivercapital.com
+
 ## Overview
-- **Website:** https://www.bowrivercapital.com
-- **LinkedIn:** https://www.linkedin.com/company/bow-river-capital-partners
-- **Headquarters:** Denver, Colorado
-- **Founded:** 2003
-- **AUM:** ~$2.5 billion+
-- **Type:** Mid-Market Private Equity
+Bow River Capital is a mid-market private alternative asset management company based in Denver, Colorado. The firm manages approximately $2.5 billion in assets across three asset classes: private equity, real estate, and software.
 
-## Focus Areas
-- Healthcare Services
-- Industrials
-- Lower Middle Market Software
-- Real Estate
-- Software Growth Equity
+## Private Equity Focus
+- **Sectors:** Infrastructure & engineering services, industrial services, healthcare services, tech-enabled business services
+- **Stage:** Lower middle market
+- **Deal Size:** $1-10M EBITDA typical
+- **Geographic Focus:** North America
+- **Strategy:** Operationally-driven, relationship-focused, growth-oriented
 
-## Key People
+## Key Decision-Makers
 
-### Private Equity Team
-- **Greg J. Hiatrides** - Partner, Head of Private Equity
-  - Email: hiatrides@bowrivercapital.com
-  - LinkedIn: https://www.linkedin.com/in/gregory-hiatrides-a1684a32/
-  - **Source:** RocketReach, ZoomInfo, LeadIQ (pattern: [last]@bowrivercapital.com, 94.6% confidence)
-  - **Verified:** 2026-03-09
+### Blair Richardson
+- **Title:** Founder & Chief Executive Officer
+- **Email:** richardson@bowrivercapital.com (pattern from RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
+- **Source:** Company website, LinkedIn, RocketReach (2026-03-11)
+- **Location:** Denver, CO
 
-- **Jeremy D. Held** - Partner, Head of Evergreen Private Equity
-  - Email: jheld@bowrivercapital.com
+### Other Leadership
+- **Gregory Hiatrides** - Managing Director, Private Equity
+- **Ben Schnakenberg** - Managing Director, Private Equity (recent hire)
+- **Matt Warta** - Operating Partner
+- Multiple other MDs and partners across PE, real estate, and software teams
 
-- **Robert L. Fortier** - Managing Director, Private Equity
-  - Email: rfortier@bowrivercapital.com
+## Recent Activity
+- **2023:** Raised $590M for third private equity fund
+- **Recent Deals:** Progressive Roofing (sold to TopBuild Corp.), Arctic Air Holdings, Westport Pools/Progressive Commercial Aquatics (formed Landmark Aquatic), One10 (performance improvement), Amazing Care (pediatric home health)
+- **Portfolio Focus:** Modus (5G telecom infrastructure), Veregy (energy efficiency), RailPros (rail services - exited), Ocean Tomo (IP advisory - exited)
 
-- **Shayan S. Masoudpour** - Managing Director, Private Equity
-  - Email: smasoudpour@bowrivercapital.com
+## Why Target Them
+1. **Services-Heavy Portfolio:** Infrastructure services, engineering services, industrial services, healthcare services
+2. **Operational Focus:** "Operationally-driven" is core to their value proposition
+3. **Mid-Market Size:** $2.5B AUM - substantial but accessible
+4. **Growth-Oriented:** Focus on helping companies scale and grow
+5. **Recent Fundraise:** $590M in 2023 suggests active deployment mode
+6. **Diverse Service Sectors:** Portfolio spans multiple service-heavy industries
 
-- **Gaurav Sharma** - Managing Director, Private Equity
-  - Email: gsharma@bowrivercapital.com
+## Outreach Strategy
+- Emphasize operational efficiency improvements for service delivery businesses
+- Highlight experience with field services, infrastructure services, or healthcare services
+- Reference their recent portfolio companies in similar sectors
+- Position as accelerator for service operations during growth phases
+- Stress ROI and measurable value creation
 
-### Leadership
-- **Blair E. Richardson** - CEO
-  - Email: brichardson@bowrivercapital.com
+## Portfolio Highlights (Service-Focused)
+- **Amazing Care:** Pediatric home health services
+- **Progressive Roofing:** Commercial roofing services (exited)
+- **Modus:** Telecom infrastructure/5G deployment services
+- **RailPros:** Rail safety, inspection, and engineering services (exited)
+- **One10:** Performance improvement consulting services
 
-- **Jane C. Ingalls** - President, COO
-  - Email: jingalls@bowrivercapital.com
+## Office Locations
+- Denver, CO (headquarters)
+- Additional presence related to portfolio companies
 
-## Email Format
-`last@bowrivercapital.com` (94.6% adoption)
-
-## Investment Profile
-- **Check Size:** Lower middle market
-- **Target EBITDA:** $5M - $50M
-- **Approach:** Value creation through operational improvements and strategic acquisitions
-- **Notable:** Also manages Bow River Capital Evergreen Fund for broader investor access to private equity
-
-## Portfolio Focus
-- Infrastructure solutions
-- Commercial services
-- Healthcare technology management
-- Energy efficiency solutions
-
-## Value Proposition
-Partners with management teams to build leading middle market companies through:
-- Operational expertise
-- Strategic M&A support
-- Industry-specific knowledge
-- Long-term value creation focus
-
-## Research Notes
-- Denver-based alternative asset manager with multiple platforms
-- Strong track record in healthcare services and industrials
-- Focus on companies that provide infrastructure solutions
-- Launched Evergreen Fund in 2021 for institutional-quality private market access
-
-## Sources
-- Company website: https://www.bowrivercapital.com/team
-- Press releases and news articles
-- Email format verified via RocketReach (94.6% confidence)
-- LinkedIn company page
-
-**Last Updated:** 2026-03-09
-**Status:** Enriched - Contact verified, ready for outreach
+## Notes
+- Strong track record in service-heavy industrials
+- "Relationship-driven" culture - emphasizes partnerships over transactions
+- Active in B Corp/ESG space (Modus was first certified B Corp in telecom infrastructure)
+- Proven exit track record with strategic buyers (TopBuild, Court Square, J.S. Held)

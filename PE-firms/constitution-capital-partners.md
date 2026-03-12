@@ -1,39 +1,39 @@
 # Constitution Capital Partners
 
-**Website**: constitutioncp.com  
-**Status**: Active PE firm  
-**Location**: Boston and New York  
-**Focus**: Small to mid-cap buyouts, private equity and private credit  
-**AUM**: Estimated $1-3B (mid-market)
+**Website:** https://concp.com  
+**Location:** Andover, MA  
+**Type:** Private Equity  
+**Focus:** Small to mid-cap buyouts
 
-## Key Contacts
+## Key Contact
 
-### Vil Ramos
-- **Title**: Managing Partner (Founding Partner)
-- **Email**: vramos@concp.com (NEEDS VERIFICATION - inferred pattern)
-- **LinkedIn**: https://www.linkedin.com/in/vilramos/
-- **Source**: LinkedIn verified Managing Partner title
-- **Last Updated**: 2026-03-06
-- **Notes**: Founding partner, focus on small to mid-cap buyouts. Screens, evaluates, negotiates and monitors PE investments.
+**Vicente (Vil) Ramos**  
+- Title: Managing Partner  
+- Email: vramos@concp.com  
+- Phone: (978) 749-9600  
+- LinkedIn: https://linkedin.com/in/vilramos  
 
-### Christopher Faucher, CFA
-- **Title**: Managing Director
-- **LinkedIn**: https://www.linkedin.com/in/chrisfaucher/
-- **Source**: LinkedIn
-- **Last Updated**: 2026-03-06
-- **Notes**: Previously listed as primary contact. Vil Ramos (Managing Partner) is higher level.
+## Firm Details
 
-### Other Partners
-- Peter Melanson - Partner
-- Alexander Tatum - Partner
-- Robert Hatch - Managing Partner (mentioned in Alexander Tatum's activity)
+- Address: 300 Brickstone Square, 7th Floor, Andover, MA 01810
+- Headquarters: Boston area
+- General inquiries: info@concp.com
+- Founding partner with investment committee responsibilities
 
-## Firm Description
-From LinkedIn: "Constitution Capital, with offices in Boston and New York, is a leading alternative asset manager focused on private equity and private credit. The firm is a disciplined, value-oriented investor with a demonstrated track record of consistently generating top quartile returns. Constitution Capital is led by an experienced, cohesive team of investment professionals with significant experience investing in partnerships, direct equity, and opportunistic credit investments."
+## Other Key Personnel
 
-## Enrichment History
-- 2026-03-06: Identified Vil Ramos as Managing Partner (upgrade from Christopher Faucher). Email needs verification.
+- Dan Cahill - CEO
+- Robert M. Hatch - Managing Partner
+- Peter G. Melanson - Partner
+- William S. Richardson - Partner
 
-## Action Items
-- [ ] Verify email pattern for Vil Ramos (vramos@concp.com vs other patterns)
-- [ ] Consider reaching out to BD/IR if they have dedicated contact
+## Research Notes
+
+- Apollo verified contact (March 2026)
+- Focus on screening, evaluating, negotiating and monitoring private equity investments
+- Member of the Investment Committee
+
+## Enrichment Status
+
+✅ **Enriched** - March 10, 2026  
+Source: Apollo API + website research

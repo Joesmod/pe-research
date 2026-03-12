@@ -4,18 +4,25 @@
 **Focus:** Consumer tech-focused venture capital  
 **AUM:** $2B+
 
-## Key Contact
+## Key Contacts
 
-**Name:** Eric Kim  
+### Eric Kim
 **Title:** Co-Founder & Managing Partner  
 **Email:** eric.kim@goodwatercap.com  
 **LinkedIn:** https://www.linkedin.com/in/eric-kim
 
+### Chi-Hua Chien
+**Title:** Co-Founder & Managing Partner  
+**Email:** cchien@goodwatercap.com  
+**LinkedIn:** https://www.linkedin.com/in/chchien  
+**Source:** RocketReach (c******@goodwatercap.com) + VCSheet + Crunchbase (2026-03-11)
+
 ## Research Notes
 
-- **Source:** Pattern verified [first].[last]@goodwatercap.com
-- **Last Updated:** 2026-03-09
-- **Enrichment Status:** Verified
+- **Source:** Email pattern confirmed: {firstinitiallast}@goodwatercap.com (RocketReach high confidence)
+- **Last Updated:** 2026-03-11 (enriched Chi-Hua Chien email via RocketReach + VCSheet)
+- **Enrichment Status:** Enriched - Verified decision-maker with direct email
+- **Contact Method:** Direct email to cchien@goodwatercap.com
 
 ## Outreach Strategy
 

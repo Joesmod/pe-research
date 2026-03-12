@@ -9,11 +9,12 @@
 ### Oliver T. Moses
 - **Title:** Managing Partner
 - **Source:** WindRose team page, multiple public profiles
-- **LinkedIn:** Confirmed Managing Partner role
+- **LinkedIn:** https://www.linkedin.com/in/oliver-t-moses-936b0a205/
 - **Background:** 30+ years as healthcare industry investor and advisor
 - **Previous:** Director at Merrill Lynch healthcare investment banking group (pre-2006)
 - **Joined WindRose:** 2006
 - **Serves on:** Management Committee of the firm
+- **Email:** Not publicly available (use info@windrose.com or LinkedIn InMail)
 
 ### Curtis Lane
 - **Title:** Senior Managing Director (per Crunchbase)
@@ -36,4 +37,4 @@
 - Target companies: healthcare services sectors
 
 ## Research Date
-2026-03-04
+Last Updated: 2026-03-10 (verified LinkedIn URL, confirmed no public email)
