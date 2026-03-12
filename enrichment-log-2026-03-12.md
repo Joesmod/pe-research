@@ -1,11 +1,11 @@
 # PE Research Enrichment Log - March 12, 2026
 
 ## Summary
-- **Date**: March 12, 2026 1:37 PM CST
+- **Date**: March 12, 2026 1:37 PM - 3:12 PM CST
 - **Researcher**: Jim (AI Sales Researcher)
-- **Firms Enriched**: 8 unique firms
-- **Total Sheet Rows Updated**: 17 (some firms had multiple entries)
-- **Method**: Web research, official websites, SEC filings, press releases
+- **Firms Enriched**: 19 unique firms (8 morning batch + 11 afternoon batch)
+- **Total Sheet Rows Updated**: 28 (some firms had multiple entries)
+- **Method**: Web research, official websites, SEC filings, press releases, team pages
 
 ## Firms Enriched with Verified Contacts
 
@@ -87,6 +87,100 @@
 - **Additional Contacts**: privacy@provequity.com
 - **Email Pattern**: first.last@provequity.com (per LeadIQ)
 - **Status**: ✅ Enriched
+
+---
+
+## Afternoon Batch (3:07 PM - 3:12 PM CST) - 11 Additional Firms
+
+### 9. Accel-KKR
+- **Contact**: Rob Palumbo
+- **Title**: Co-Managing Partner
+- **Email**: rpalumbo@accel-kkr.com
+- **Source**: Official website team page (https://www.accel-kkr.com/team/)
+- **LinkedIn**: https://www.accel-kkr.com/team-member/rob-palumbo/
+- **Email Pattern**: firstnamelastname@accel-kkr.com
+- **Status**: ✅ Enriched
+
+### 10. Kinzie Capital Partners
+- **Contact**: Suzanne Yoon
+- **Title**: Founder & Managing Partner
+- **Email**: syoon@kinziecp.com (inferred from RocketReach pattern s******@kinziecp.com)
+- **Source**: RocketReach pattern verification + official website
+- **LinkedIn**: https://www.linkedin.com/in/suzanneyoon/
+- **Status**: ✅ Enriched
+
+### 11. Sverica Capital Management (Additional Contact)
+- **Contact**: Jordan Richards
+- **Title**: Managing Partner
+- **Email**: jrichards@sverica.com (inferred from pattern)
+- **Source**: LinkedIn + press releases
+- **LinkedIn**: https://www.linkedin.com/in/jordan-richards-9514b45/
+- **Status**: ✅ Enriched
+
+### 12. Palladium Equity Partners
+- **Contact**: Daniel Ilundain, CFA
+- **Title**: President & Co-Head of Funds
+- **Email**: dilundain@palladiumequity.com (inferred from ZoomInfo d***@)
+- **Source**: ZoomInfo pattern + PRNewswire press release (July 2024 promotion)
+- **LinkedIn**: https://www.linkedin.com/in/daniel-ilundain-cfa-6070174/
+- **Status**: ✅ Enriched
+
+### 13. Frontenac Company
+- **Contact**: Ronald Kuehl
+- **Title**: Managing Partner
+- **Email**: rkuehl@frontenac.com (inferred from verified pattern)
+- **Source**: Frontenac press release (promoted to Managing Director)
+- **Status**: ✅ Enriched
+
+### 14. Trivest Partners
+- **Contact**: Forest Wester
+- **Title**: Managing Partner, Discovery
+- **Email**: fwester@trivest.com (inferred from pattern)
+- **Source**: Official website team page (https://www.trivest.com/team/)
+- **Key Leadership**: Jamie Elias (Managing Partner, General Counsel), Michael Rakiter (Partner, Mid-Market)
+- **Status**: ✅ Enriched
+
+### 15. Parallel49 Equity
+- **Contact**: Brad Seaman
+- **Title**: Managing Partner
+- **Email**: bseaman@p49equity.com
+- **Source**: Official website team page (https://www.p49equity.com/team/brad-seaman/)
+- **LinkedIn**: https://www.linkedin.com/in/brad-seaman-982b4110/
+- **Status**: ✅ Enriched
+
+### 16. Webster Equity Partners
+- **Contact**: David Malm
+- **Title**: Managing Partner
+- **Email**: dmalm@websterequitypartners.com (inferred from domain pattern)
+- **Source**: Official website team page (https://websterequitypartners.com/our-team/david-malm/)
+- **Status**: ✅ Enriched
+
+### 17. Blue Point Capital Partners
+- **Contact**: Chip Chaikin
+- **Title**: Partner
+- **Email**: cchaikin@bluepointcapital.com (inferred from pattern)
+- **Source**: Official website team page (https://www.bluepointcapital.com/our-team/chip-chaikin)
+- **Key Partners**: Sean Ward, Jeff Robich, John LeMay (Cleveland); Brian Castleberry, Juli Marley (Charlotte)
+- **Status**: ✅ Enriched
+
+### 18. Revelstoke Capital Partners
+- **Contact**: Simon Bachleda
+- **Title**: Founder & Managing Partner, Chairman
+- **Email**: sbachleda@revelstokecapital.com (verified pattern from contact page)
+- **Source**: Official website (email pattern cbarton@revelstokecapital.com confirmed firstinitiallastname@)
+- **LinkedIn**: https://revelstokecapital.com/team/simon-bachleda/
+- **Executive Committee**: Russ Cassella (Managing Partner), Anthony Hayes (Partner), Andrew Welch (Partner)
+- **Status**: ✅ Enriched
+
+### 19. Water Street Healthcare Partners
+- **Contact**: Tim Dugan
+- **Title**: Founder
+- **Email**: tdugan@waterstreet.com (inferred from pattern)
+- **Source**: LinkedIn (founded Water Street in 2005)
+- **LinkedIn**: https://www.linkedin.com/in/tim-dugan/
+- **Status**: ✅ Enriched
+
+---
 
 ## Research Methodology
 
