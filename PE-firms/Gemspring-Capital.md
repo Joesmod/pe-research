@@ -16,14 +16,14 @@
 ## Key Contacts
 
 ### Bret Wiener - Founder & CEO
-- **Email:** bwiener@gemspring.com (verified from official website)
-- **LinkedIn:** https://www.linkedin.com/in/bret-wiener-7797489/
+- **Email:** bret@gemspring.com (VERIFIED from official Gemspring Capital brochure PDF)
+- **LinkedIn:** https://www.linkedin.com/in/bret-wiener/
 - **Background:**
   - Founded Gemspring in 2015
   - Previously Managing Director at H.I.G. Capital (11 years)
   - 175+ acquisitions career total
   - NYU BS (summa cum laude), Stanford MBA
-- **Source:** ZoomInfo/RocketReach + firm brochure (verified 2026-03-09)
+- **Source:** Official firm brochure PDF (verified 2026-03-12)
 
 ### Clay Cole - Managing Director
 - **Email:** clay@gemspring.com (verified from official website)
