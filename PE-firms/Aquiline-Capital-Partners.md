@@ -169,7 +169,8 @@
 **Enrichment Source:** PE Hourly Research Cron  
 **Status:** Ready for Outreach
 
-**Recent Updates (2026-03-13):**
+**Recent Updates (2026-03-13 - 12:37 AM):**
 - Added Igno van Waesberghe as second Managing Partner (London office)
 - Confirmed Vincenzo La Ruffa (NY/Philadelphia) and Igno van Waesberghe (London) as co-Managing Partners
-- Verified generic contact email: contact@aquiline.com
+- **VERIFIED: vlr@aquiline.com via Apollo API** (replaced generic contact@aquiline.com in CRM)
+- Email status: Apollo verified, direct contact to Managing Partner
