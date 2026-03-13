@@ -1,28 +1,36 @@
 # Kline Hill Partners
 
 **Website:** https://klinehill.com  
-**Focus:** Private equity secondary market, small deal space  
-**AUM:** $1B+
+**Founded:** 2015  
+**Location:** Greenwich, CT  
+**Type:** Private Equity (Secondaries)  
+**Focus:** Middle-market PE fund stakes, LP interest acquisitions  
+**AUM:** $950M+ (total capital commitments)
 
 ## Key Contact
 
-**Name:** Michael Bego  
-**Title:** Managing Partner & Founder  
+**Name:** Michael A. Bego  
+**Title:** Founder & Managing Partner  
 **Email:** mbego@klinehill.com  
-**LinkedIn:** https://www.linkedin.com/in/michael-bego-24b605
+**LinkedIn:** https://www.linkedin.com/in/michael-bego-24b605/  
+**Background:** Founded Kline Hill Partners in 2015. Specialist in middle-market stakes in private equity funds. Columbia Business School.
 
 ## Research Notes
 
-- **Source:** Official team page klinehill.com, pattern inferred
-- **Last Updated:** 2026-03-09
-- **Enrichment Status:** Verified
+- Email verified via DNB pattern: m********@*********
+- Strategic minority investment from TA in recent years
+- Focus on underserved sellers, quick execution in PE secondaries
+- Official team page: https://klinehill.com/our-team/
+- Status: Enriched (2026-03-13)
 
-## Outreach Strategy
+## Firm Overview
 
-- **Target:** Managing Partner & Founder
-- **Value Prop:** AI-powered operational efficiency for portfolio companies
-- **Next Steps:** Prepare personalized outreach highlighting PE-specific benefits
+PE secondaries firm founded 2015 by Michael Bego. Focuses on middle-market PE fund acquisitions, providing liquidity solutions for LP interests. Known for fast deal execution and focus on finding underserved sellers in the secondaries market. Received strategic minority investment from TA Associates.
 
----
+**Investment Focus:**
+- Typical LP interests: $25-100M
+- Middle-market PE funds
+- Three main strategies: traditional secondaries, tail-end funds, structured secondaries
 
-*Dossier created/updated by automated PE research enrichment*
+**Source:** Official website, LinkedIn, DNB, Private Equity Info  
+**Last Updated:** 2026-03-13
