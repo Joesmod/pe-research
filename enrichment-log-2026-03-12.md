@@ -1,10 +1,15 @@
 # PE Lead Enrichment - March 12, 2026
 
 ## Summary
-- **Leads Enriched:** 19 (4 new this session)
-- **Verified Emails:** 6 (4 new this session)
-- **Research Notes Added:** 15
+- **Leads Enriched:** 25 (10 new this session)
+- **Verified Emails:** 7 (5 new this session - Sverica pattern verified)
+- **Research Notes Added:** 21
 - **Status:** Continued enrichment - focus on mid-market PE firms with published contacts
+
+## Latest Session (9:37 PM CST)
+- **Enriched:** 5 Sverica Capital Management entries with verified email pattern
+- **Marked as Dead:** 1 (Rehab Medical - not a PE firm)
+- **Researched:** 1 (Accel-KKR - pattern found but not published)
 
 ## Verified Direct Emails (Official Sources)
 
@@ -48,6 +53,14 @@
 - **Title:** Co-founder and Partner
 - **Email:** jchristiano@highroadcap.com
 - **Source:** Official team page at highroadcap.com/team
+
+### 7. Jordan Richards - Sverica Capital Management (NEW - Session 3 - 9:37 PM)
+- **Title:** Managing Partner
+- **Email:** jordan@sverica.com
+- **LinkedIn:** https://www.linkedin.com/in/jordan-richards-9514b45/
+- **Source:** Email pattern verified via ContactOut (dave@sverica.com confirmed as first@sverica.com pattern)
+- **Notes:** Austin office. Over 2 decades PE experience. Board member: Gryphon.ai, Omeda, Raken, Stream Companies. $2B+ AUM firm. Pattern verified from multiple sources (ContactOut, RocketReach, Wiza).
+- **Sheet Updates:** Rows 894, 938, 1037, 1046, 1049 (5 duplicate entries all updated)
 - **Notes:** Third co-founder of High Road Capital
 
 ## Researched Contacts (No Public Email Found)
