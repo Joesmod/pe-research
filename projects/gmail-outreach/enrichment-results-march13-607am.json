@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-13T11:07:00.000Z",
+  "status": "apollo_api_unavailable",
+  "leadsProcessed": 12,
+  "leadsEnriched": 0,
+  "apiErrors": [
+    {
+      "endpoint": "organizations/enrich",
+      "status": 422,
+      "count": 9
+    }
+  ],
+  "manualResearchConducted": [
+    {
+      "company": "Pharos Capital Group",
+      "contact": "Kneeland Youngblood",
+      "finding": "Only generic info@ email published",
+      "source": "pharosfunds.com"
+    },
+    {
+      "company": "The Riverside Company",
+      "contact": "Stewart Kohl",
+      "finding": "Co-CEO profile on website, no direct email",
+      "source": "riversidecompany.com"
+    }
+  ],
+  "recommendations": [
+    "Use firm main emails with strong subject lines",
+    "Focus on LinkedIn outreach as alternative",
+    "Prioritize firms with existing direct contacts",
+    "Add new firms rather than searching for non-public emails"
+  ]
+}
