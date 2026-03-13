@@ -1,55 +1,32 @@
 # 424 Capital
 
-**Status:** ✅ Enriched  
-**Last Updated:** March 5, 2026 @ 1:06 AM
-
 ## Overview
-424 Capital (formerly Brook Venture Partners) is a growth capital partner that makes control equity investments in lower middle market companies within B2B Tech-Enabled Services.
+- **Website:** https://424capital.com
+- **Location:** Woburn, MA
+- **Focus:** B2B Tech-Enabled Services, Lower Middle Market
+- **Investment Size:** Control equity investments
 
-## Key Information
-- **Founded:** 1998 (as Brook Venture Partners)
-- **Location:** Wakefield, Massachusetts
-- **AUM:** $500M+
-- **Investment Focus:** B2B Tech-Enabled Services
-- **Target Sectors:** Healthcare, Renewable Energy, Data-Driven Marketing, Impact Industries
-- **Deal Size:** Control equity, lower middle market
+## Key Contacts
 
-## Primary Contact ✅
-- **Name:** Walter Beinecke
-- **Title:** Managing Partner
-- **Email:** wbeinecke@424capital.com
-- **Phone:** (781) 451-1374
-- **LinkedIn:** https://www.linkedin.com/in/walter-beinecke
-- **Source:** https://424capital.com/walter-beinecke/ (verified 2026-03-05)
+### Kyle Stanbro
+- **Title:** Co-Founder & Managing Partner
+- **Email:** kstanbro@424capital.com
+- **Phone:** (781) 425-5561
+- **LinkedIn:** https://www.linkedin.com/in/kyle-stanbro-0ba6a913/
+- **Focus:** Renewable Energy, Healthcare Technology
+- **Source:** Published on official 424capital.com website
 
-## Leadership Team
-- **Walter Beinecke** - Managing Partner (Renewable Energy & Data-Driven Marketing lead)
-- **Brian Kelly** - Principal (listed in sheet row 386)
+Kyle oversees 424 Capital's Strategic Finance Group and serves on the boards of several portfolio companies. Prior to co-founding 424 Capital, Kyle was with Brook Venture for six years.
 
-## Sector Focus
-- Healthcare services
-- Renewable energy
-- Data-driven marketing (especially non-profits)
-- Impact industries
-
-## Investment Strategy
-- Control equity investments
-- Partner with founders and management teams
-- Accelerate and scale for long-term growth
-- Operating partner-led approach
-
-## Website
-https://424capital.com
-
-## NotebookLM Dossier
-[Link from sheet if available]
-
-## Outreach Status
-- **Status:** Enriched (2026-03-05)
-- **Next Steps:** Ready for outreach
-- **Pitch Angle:** AI for portfolio operations, value creation support for B2B tech-enabled services
+## Investment Criteria
+- Control equity investments in lower middle market
+- B2B Tech-Enabled Services sector focus
+- Works in partnership with founders and management teams
+- Focus on long-term growth and operational excellence
 
 ## Notes
-- Strong fit for Hello Gumbo's AI services
-- Focus on operational excellence and scaling aligns with our value prop
-- 30-year track record with rebrand from Brook Venture Partners
+- Email pattern: FLast@424capital.com
+- Active investor in renewable energy and healthcare technology
+- Emphasis on partnering with founders vs pure financial buyouts
+
+**Last Updated:** 2026-03-13

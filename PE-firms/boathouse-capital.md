@@ -1,92 +1,66 @@
 # Boathouse Capital
 
 ## Overview
-- **Founded:** 2008
-- **Headquarters:** Wayne, PA (Philadelphia area)
-- **AUM:** $350M+
 - **Website:** https://boathousecapital.com
-- **Investment Range:** $5M - $40M
-- **Structure:** Flexible (debt and/or equity)
-
-## Investment Focus
-- **Primary Sectors:**
-  - SaaS/Software
-  - Technology-Enabled Services
-  - Healthcare IT/Services
-- **Stage:** High-growth middle-market companies
-- **Strategy:** Generalist credit strategy + technology buyout strategy
-- **Total Deployed:** $1.5B+ across various industries
-
-## Portfolio Examples
-- **Hoonuit** - Education technology/analytics
-- **Versifit Technologies** - Education technology
-- **Accurate Background** - Background screening & security research (HR tech, nationwide + global)
-- Focus: Software and tech-enabled services with recurring revenue
+- **Location:** Berwyn, PA (outside Philadelphia)
+- **AUM:** $350+ million
+- **Focus:** Lower middle market technology, debt and equity
+- **Years in Business:** 16 years
+- **Completed Transactions:** 100+
 
 ## Key Contacts
 
-### Leadership
-- **Bill Dyer** - Managing Partner
-  - **Email:** bill.dyer@boathousecapital.com (VERIFIED from official website team page + PDF)
-  - **LinkedIn:** https://www.linkedin.com/in/bill-dyer
-  - **Phone:** 610-977-2785
-  - Location: Berwyn, PA
-  - Background: Avid Duke basketball fan, 3 children
-  
-- **Chong Moua** - Managing Partner
-  - Location: Berwyn, PA
-  - Background: Avid golfer, Penn State fan, 2 kids
-  
-- **Andrew Olsen** - General Partner
-  - Location: Berwyn, PA
-  - Background: Former solar car competitor, 4 children
-  
-- **Ken Jones** - General Partner
-  - Location: Haverford, PA
-  - Background: Avid fisherman, All-American rower daughter
+### Chong Moua
+- **Title:** Managing Partner
+- **Email:** Chong.Moua@boathousecapital.com
+- **LinkedIn:** https://www.linkedin.com/in/chong-moua/
+- **Source:** Published on boathousecapital.com/team
+- **Background:** Former American Capital professional
+- **Personal:** Lives in Berwyn, PA with wife and two kids; avid golfer; Penn State fan
 
-### Investment Team
-- **Joseph Burkhart** - Partner (Washington DC area, 3 children, Green Bay Packers owner)
-- **Shivam Patel** - Principal (Bryn Mawr, PA)
-- **Colin Raws** - Partner, Head of Business Development and Investor Relations (Philadelphia)
-- **Matt Carey** - Vice President (Philadelphia, soccer player)
-- **Lorelei Gaus** - Vice President (Devon, 2 daughters, Dallas Cowboys fan)
-- **Matt Pulos** - Vice President (Philadelphia)
+### Bill Dyer
+- **Title:** Managing Partner
+- **Email:** bill.dyer@boathousecapital.com
+- **Phone:** (610) 977-2785 / (215) 327-9555 (mobile)
+- **LinkedIn:** https://www.linkedin.com/in/bill-dyer-6b2b3b3/
+- **Source:** Published in official Boathouse Capital PDF
 
-### Operations
-- **Brian Adamsky** - CFO (CPA, 6 siblings in Bucks County)
-- **Steve Dressel** - M&A Director (Berwyn, avid golfer)
+### Colin Raws
+- **Title:** Partner - Business Development
+- **Email:** colin.raws@boathousecapital.com
+- **Phone:** (610) 688-6314 (mobile)
+- **Source:** Published in official Boathouse Capital PDF
 
-## Gumbo Relevance Score: 8/10
+### Andrew Olsen
+- **Title:** Partner
+- **Email:** andrew.olsen@boathousecapital.com
+- **Phone:** (908) 419-6232 (mobile)
+- **Source:** Published in official Boathouse Capital PDF
 
-### Why Good Fit:
-- **SaaS/Software focus** - core expertise
-- **Healthcare IT** - second vertical = strong alignment with Gumbo's capabilities
-- **Ed-tech portfolio** (Hoonuit, Versifit) - operational efficiency needs
-- **HR tech** (Accurate Background) - workflow automation candidate
-- **Flexible structure** = diverse portfolio company needs
-- **Middle market** = sweet spot for Gumbo's value prop
+### Shivam Patel
+- **Title:** Principal
+- **Email:** shivam.patel@boathousecapital.com
+- **Phone:** (248) 701-3785 (mobile)
+- **Source:** Published in official Boathouse Capital PDF
 
-### Outreach Strategy:
-1. **Primary:** Bill Dyer (Managing Partner) or Colin Raws (Head of BD/IR)
-2. **Angle:** "Supporting your SaaS and healthcare IT portfolio with AI-powered automation - we noticed Hoonuit and Accurate Background in your portfolio"
-3. **Value Prop:** Position as operational efficiency tool for portfolio companies with complex workflows (background screening, education analytics, etc.)
+## Investment Criteria
+- Lower middle market companies
+- Value-added technology investors
+- Flexible capital (debt and equity)
+- Partnership with management teams and privately-owned family businesses
+- $5M-$35M equity investments in minority and majority opportunities
 
-## Competitive Advantages
-- **Flexible capital** - debt and equity structures
-- **Sector expertise** - deep SaaS, healthcare IT, tech-enabled services experience
-- **Philadelphia market presence** - strong regional network
-- **Team culture** - emphasis on alignment and long-term value
-- **Hands-on approach** - $1.5B deployed = proven track record
+## Deal Types
+- Growth capital
+- Recapitalizations
+- Management buyouts
+- Founder transitions
 
-## Research Notes
-- Team bios emphasize personal backgrounds and hobbies = relationship-oriented culture
-- Founded 2008 = post-financial crisis vintage
-- Email patterns available via RocketReach/Apollo.io but need verification
-- Team page: https://boathousecapital.com/team/
-- Portfolio page: https://boathousecapital.com/portfolio/
-- Active in ed-tech, HR tech, background screening verticals
+## Notable
+- Multi-strategy investment firm
+- 4 funds raised
+- Strong focus on technology-enabled businesses
+- Hands-on operational support
+- Email pattern: first.last@boathousecapital.com
 
----
-*Last Updated: 2026-03-13*
-*Source: Web research (cron enrichment)*
+**Last Updated:** 2026-03-13
