@@ -104,3 +104,13 @@
 - [ ] Research Audax portfolio to identify recent investments for conversation hooks
 - [ ] Determine if there are Managing Directors or Partners below Co-CEO level who manage specific sectors
 - [ ] Clarify strategy differences between Audax Private Equity vs. Audax Private Debt
+
+## Contacts
+
+
+### Ken MacFadyen - Media Relations
+- **Email**: media@audaxprivateequity.com
+
+- **Source**: BusinessWire press release Dec 2025
+- **Enriched**: 2026-03-13
+

@@ -57,3 +57,20 @@
 - [x] Review firm website for contact information - COMPLETED
 - [ ] Prepare outreach email for BD team
 - [ ] Consider direct LinkedIn outreach to R. David Andrews
+
+## Contacts
+
+
+### Sandy McKinnon - Managing Director, Software
+- **Email**: mckinnon@gryphoninvestors.com
+- **LinkedIn**: https://www.linkedin.com/in/sandy-mckinnon-b9b0a112
+- **Source**: LinkedIn + email pattern verified
+- **Enriched**: 2026-03-13
+
+
+### Timothy Bradley - Partner
+- **Email**: bradley@gryphoninvestors.com
+- **LinkedIn**: https://www.linkedin.com/in/timothy-bradley-b755684
+- **Source**: LinkedIn + email pattern verified
+- **Enriched**: 2026-03-13
+

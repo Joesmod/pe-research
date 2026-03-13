@@ -46,3 +46,6 @@
 - Fund VI currently deploying capital
 - Strong Boston presence with healthcare/tech ecosystem connections
 - Harvard/MIT talent pipeline visible in team composition
+
+## Contacts
+
