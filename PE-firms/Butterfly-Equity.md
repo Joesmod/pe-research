@@ -1,28 +1,34 @@
 # Butterfly Equity
 
-**Website:** https://www.bfly.com  
-**Focus:** Consumer and technology private equity (food, tech, media)  
-**Location:** Beverly Hills, CA
+## Overview
+- **Founded:** Recent (established by former Vista Equity & Goldman Sachs professionals)
+- **Focus:** Food sector private equity
 
-## Key Contacts
+## Key Contact
+- **Name:** Dustin Beck
+- **Title:** Co-Founder & Co-CEO
+- **Email:** dustin@bfly.com (✓ Apollo verified)
+- **LinkedIn:** https://www.linkedin.com/in/dustinbeck/
 
-**Name:** Dustin Beck  
-**Title:** Co-Founder & Co-CEO  
-**LinkedIn:** https://www.linkedin.com/in/dustinbeck/  
-**Email:** Not publicly published  
-**Source:** bfly.com/team - confirmed Co-Founder & Co-CEO
+## Background
+- Dustin Beck has 15+ years of investing and operating experience
+- Primary focus on consumer and technology sectors
+- Responsible for deal origination, transaction execution, and portfolio management
+- Former Vista Equity Partners and Goldman Sachs experience
 
-**Name:** Adam Waglay  
-**Title:** CEO, Co-Founder & Managing Partner  
-**Source:** bfly.com/team
+## Investment Strategy
+- Longer-term investment approach
+- Focus on founder and family-owned businesses in food sector
+- Operational value creation
+- Consumer and technology crossover opportunities
 
-## Notes
-- Team has 15+ years investing and operating experience
-- Focus on consumer and technology sectors
-- Involved in investing $20B+ equity capital across growth-stage to Fortune 500
-- Significant experience in food, private equity, and technology
-- Responsible for deal origination, transaction execution, portfolio management
+## Research Notes
+- Co-CEO structure with experienced leadership team
+- Deep expertise in consumer markets and technology
+- Strong operational background from Vista Equity
+- Financial structuring expertise from Goldman Sachs
 
-## Research Status
+## Enrichment Status
 **Last Updated:** 2026-03-13  
-**Status:** Co-CEO identified, no direct email published
+**Source:** Official website (bfly.com), Apollo API
+**Status:** ✅ Fully Enriched - Verified Email & LinkedIn
