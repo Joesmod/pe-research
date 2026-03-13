@@ -1,6 +1,6 @@
 # Webster Equity Partners
 
-**Status:** Enriched 2026-03-12  
+**Status:** Enriched 2026-03-13 (Re-verified)  
 **AUM:** $600M+  
 **Focus:** Mid-market healthcare services and branded consumer
 
