@@ -8,9 +8,10 @@
 
 **David Malm**  
 - **Title:** Managing Partner  
-- **Email:** dmalm@websterequitypartners.com (inferred from PitchBook pattern "dm")  
+- **Email:** dmalm@websterequitypartners.com (✅ VERIFIED - official website team page)  
 - **LinkedIn:** https://www.linkedin.com/in/david-malm/  
 - **Location:** Waltham, MA
+- **Source:** https://websterequitypartners.com/team-member/ (published 2024-03-29)
 
 ## Firm Overview
 

@@ -31,7 +31,14 @@
 ## Key Team Members
 - **Team size:** ~10 investment professionals
 - **Experience:** Deep lower middle-market expertise
-- **Note:** Specific team member details not yet researched
+
+### Eric Eubank, II - Partner (✅ VERIFIED)
+- **Email:** eric.eubank@pamlicocapital.com (verified from official website)
+- **LinkedIn:** https://www.linkedin.com/in/eric-eubank-70062231
+- **Focus:** Healthcare, Services, and Software industries
+- **Board Seats:** Silverline (current)
+- **Source:** https://www.pamlicocapital.com/team/eric-eubank-ii (official team page)
+- **Enriched:** 2026-03-12
 
 ## Contact Information
 - **Website:** www.pamlicocapital.com (verify)
