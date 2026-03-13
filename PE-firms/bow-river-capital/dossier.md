@@ -1,41 +1,39 @@
 # Bow River Capital
 
-## Firm Overview
-- **Website:** https://www.bowrivercapital.com
-- **Focus:** Healthcare Services, Industrial Services, Tech-Enabled Business Services
-- **AUM:** $2.5B+
-- **Location:** Denver, CO
-- **Status:** Active - Needs Contact Research
-- **Type:** Mid-Market Private Equity
-
-## Investment Focus
-- Infrastructure and engineering services
-- Industrial services
-- Healthcare services
-- Tech-enabled business services
-- Lower-middle-market software investments
-
-## Firm Details
-- Founded: 2003
-- Denver-based with strong regional presence
-- Focus on committed investment teams over life of investment
-- Provides incremental capital for organic and inorganic growth
-- Private Credit team recently formed (2023)
+**Status:** Enriched 2026-03-12  
+**AUM:** ~$2.5B+  
+**Focus:** Mid-market healthcare services, industrials, lower-middle-market software
 
 ## Key Contact
-- **Status:** Needs Research
-- **Research Priority:** High
-- **Target Titles:** Managing Partner, Managing Director, Partner
-- **Known Personnel:**
-  - Aaron Arnett - Managing Director (Private Credit team)
 
-## Enrichment Notes
-- **Added:** March 11, 2026 (automated sweep)
-- **Apollo:** No results
-- **Next Steps:** Manual research on team page, LinkedIn search for Partners/MDs
-- **Decision-Maker Level:** Partner/MD level preferred
+**Blair Richardson**  
+- **Title:** Founder and CEO  
+- **Email:** brichardson@bowrivercapital.com (inferred from RocketReach pattern r******@bowrivercapital.com)  
+- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/  
+- **Location:** Denver, CO
 
-## Outreach Strategy
-- Emphasize healthcare services and tech-enabled services focus
-- Align with value creation and operational improvement themes
-- Target portfolio company operations leadership
+## Firm Overview
+
+Bow River Capital is a Denver-based alternative asset manager with ~$2.5B+ in assets under management. The firm focuses on mid-market investments across:
+- Healthcare services
+- Industrials  
+- Lower-middle-market software
+
+## Investment Criteria
+
+- **Deal Size:** Mid-market focus
+- **Sectors:** Healthcare services, industrials, technology
+- **Geography:** North America
+
+## Research Notes
+
+- Blair Richardson serves as Founder and Chief Executive Officer
+- Co-Founded with managing partners
+- Active in healthcare services and industrial sectors
+- Firm has made multiple portfolio investments in healthcare and tech-enabled services
+
+## Source
+
+- Enriched via web research 2026-03-12
+- Contact info inferred from RocketReach pattern
+- Firm details from PrivateEquityList.com and company website

@@ -98,8 +98,16 @@ Gemspring Capital is a Westport, Connecticut-based private equity firm providing
 - LeadIQ contact database
 - Web research March 8, 2026
 
+### Charles Fraas
+- **Title:** Managing Director
+- **Email:** charles@gemspring.com ✅ VERIFIED (Apollo.io)
+- **LinkedIn:** http://www.linkedin.com/in/charles-fraas-7362414
+- **Status:** ✅ VERIFIED via Apollo.io 2026-03-09
+- **Notes:** Portfolio operations leadership
+
 ## Notes
 - Clay Cole's email PUBLISHED on website: clay@gemspring.com
+- **Charles Fraas email verified via Apollo.io** (2026-03-09 enrichment)
 - Founder Bret Wiener was H.I.G. Capital MD for 11 years (175+ acquisitions)
 - Strong portfolio operations team (Charlie Fraas, Kal Mukherjee, Martin Mumford, James Nouss)
 - Investment Committee includes Aron Grossman and Zubin Malkani (Co-Heads of Investments)

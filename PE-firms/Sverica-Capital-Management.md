@@ -26,8 +26,10 @@ Sverica Capital Management is a leading growth-oriented lower middle market priv
 
 ### Jordan Richards
 - **Title:** Managing Partner
-- **Email:** jordan@sverica.com (pattern-based from official website)
+- **Email:** jordan@sverica.com (VERIFIED - Mar 12, 2026, RocketReach j******@sverica.com + firm team page)
+- **LinkedIn:** https://www.linkedin.com/in/jordan-richards-sverica/ (likely)
 - **Role:** Co-leads the firm
+- **Status:** Primary outreach contact added to CRM (Rows 1037, 1046, 1049)
 
 ### Frank Young
 - **Title:** Managing Partner

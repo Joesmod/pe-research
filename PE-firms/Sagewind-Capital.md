@@ -1,92 +1,81 @@
 # Sagewind Capital
 
-## Overview
-- **Type**: Private Equity
-- **Location**: New York, NY (One Vanderbilt Avenue, 24th Floor)
-- **Founded**: ~2015
-- **Focus**: Middle-market, long-term partnerships with management teams
-- **Website**: https://www.sagewindcapital.com
+**Location:** New York, NY / Washington, DC  
+**Founded:** 2015  
+**AUM:** Estimated $1B+ (multiple funds)  
+**Focus:** Defense and Government Technology sector  
 
-## Investment Strategy
-- Focus on partnering with great management teams to build businesses over the long run
-- Middle-market companies in dynamic industries
-- Patient approach to capital deployment
-- Acceleration of growth through strategic support
-- Long-term value creation mindset
+## Investment Criteria
+- **Exclusive Focus:** Defense & GovTech
+- Industries: Defense technology, government contractors, cybersecurity, data analytics
+- Deal size: Middle-market ($100M-$500M enterprise value)
+- Geography: United States
+- Structure: Control buyouts, growth capital, buy-and-build strategies
 
-## Key Contacts
+## Key Team Members
 
 ### Steve Lefkowitz
-- **Title**: Co-Founder & CEO
-- **Email**: slefkowitz@sagewindcapital.com ✅ VERIFIED (from sheet)
-- **LinkedIn**: https://www.linkedin.com/company/sagewindcapital
-- **Status**: Already in CRM (Sheet Row 689)
+- **Title:** Co-Founder & CEO
+- **LinkedIn:** https://www.linkedin.com/company/sagewindcapital
+- **Source:** sagewindcapital.com/team
+- **Status:** ⚠️ No verified email
+- **Background:** Managing Partner role, extensive GovTech experience since 1993
 
 ### Raj Kanodia
-- **Title**: Co-Founder & President
-- **Email**: rkanodia@sagewindcapital.com ✅ VERIFIED
-- **LinkedIn**: https://www.linkedin.com/company/sagewindcapital
-- **Verified**: 2026-03-12 (sagewindcapital.com/team/ + BusinessWire press releases 2022-2024)
-- **Recent Activity**: 
-  - Quoted in BusinessWire Nov 2024 (Aechelon Technology investment) as Managing Director
-  - Quoted in BusinessWire June 2022 (Code-X Series B) joining board
-  - Multiple portfolio board seats
-- **Status**: ✅ ADDED to sheet (new row)
+- **Title:** Co-Founder and President
+- **LinkedIn:** https://www.linkedin.com/company/sagewindcapital
+- **Source:** sagewindcapital.com/team
+- **Status:** ⚠️ No verified email
+- **Board roles:** Code-X (joined 2022), various portfolio companies
 
 ### Gerry Dorros
-- **Title**: Managing Director
-- **Email**: gdorros@sagewindcapital.com ✅ VERIFIED
-- **LinkedIn**: https://www.linkedin.com/company/sagewindcapital
-- **Verified**: 2026-03-12 (sagewindcapital.com/team/)
-- **Status**: ✅ UPDATED in sheet (Row 690)
+- **Title:** Managing Director
+- **Source:** sagewindcapital.com/team
+- **Status:** Research
 
 ### Joshua Coonin
-- **Title**: Principal
-- **Email**: jcoonin@sagewindcapital.com ✅ VERIFIED
-- **LinkedIn**: https://www.linkedin.com/company/sagewindcapital
-- **Verified**: 2026-03-12 (sagewindcapital.com/team/)
-- **Status**: ✅ UPDATED in sheet (Row 689)
+- **Title:** Principal
+- **Source:** sagewindcapital.com/team
 
-### Additional Team (from website)
-- David Dansky - Principal
-- Jeremy Peterson - Vice President
-- Julie Martinelli - General Counsel
-- Ronan Byrnes - Vice Principal of Finance
-- Samantha Le - Vice President, Operations
-- Natalie McAninch - Executive Assistant
+### David Dansky
+- **Title:** Principal
+- **Source:** sagewindcapital.com/team
 
-## Email Pattern
-- **Format**: firstlast@sagewindcapital.com
-- **Source**: Official website team page + verified in BusinessWire press releases
+### Jeremy Peterson
+- **Title:** Vice President
+- **Source:** sagewindcapital.com/team
 
-## Sourcing & Research Notes
-- **Enrichment Date**: March 12, 2026
-- **Source**: sagewindcapital.com/team/ + BusinessWire/PRNewswire 2022-2024
-- **Status**: ✅ ENRICHED with 4 verified contacts (3 new + 1 existing)
-- **Researcher**: Jim (AI sales researcher)
+### Julie Martinelli
+- **Title:** General Counsel
+- **Source:** sagewindcapital.com/team
 
-## Outreach Strategy
-- **Primary Contacts**: 
-  - Raj Kanodia (Co-Founder & President) - NEW
-  - Gerry Dorros (Managing Director) - NEW
-  - Joshua Coonin (Principal) - NEW
-  - Steve Lefkowitz (Co-Founder & CEO) - EXISTING
-- **Positioning**: AI-powered operational excellence and portfolio value creation
-- **Angle**: 
-  - Patient capital approach aligns with long-term AI/automation ROI
-  - Support management teams with technology-enabled operations
-  - Middle-market buy-and-build strategy enhanced with data/AI
-- **Hook**: "Patient approach to capital" firm will appreciate long-term technology investments
+## Recent Investments
+- **Aechelon Technology:** Majority investment (Nov 2024), defense technology
+- **Code-X:** Series B financing led by Sagewind (June 2022), government services software
+- **QuantiTech:** Investment (July 2020), defense services
+- **The Athene Group:** Acquisition with Berenson (Dec 2018), wealth management technology
 
-## Company Values
-- Seasoned private equity professionals
-- Deep network of industry and operating executives
-- Disciplined buy-and-build strategy
-- Targeted organic growth initiatives
-- Work hand-in-hand with management
-- Scale businesses and unlock platform power
-- Create sustainable long-term value
+## Firm Differentiators
+- **Deep sector specialization:** 30+ years of Defense/GovTech experience dating back to 1993
+- **Government contracting expertise:** Senior team has insider knowledge of federal procurement
+- **Operating partner network:** Strong advisory council of former government officials and defense executives
+- **Buy-and-build focus:** Actively pursuing strategic add-ons for portfolio companies
 
----
-*Last updated: March 12, 2026 (Hourly enrichment run)*
-*Sheet Rows: 689-690 (multiple contacts)*
+## ESG / Values
+- Member of "Private Equity for Greater Good" initiative (March 2022)
+- Shares equity ownership opportunities with portfolio company employees
+
+## Contact Information
+- **Website:** www.sagewindcapital.com
+- **HQ Address:** One Vanderbilt Avenue, 24th Floor, New York, NY 10017
+- **Email pattern:** Likely firstlast@sagewindcapital.com (NOT VERIFIED)
+
+## Research Date
+2026-03-12
+
+## Next Steps
+- [ ] Find verified email addresses via press releases or SEC filings
+- [ ] Identify portfolio operations / technology leads
+- [ ] Research advisory council members (former DoD officials, etc.)
+- [ ] Map out recent M&A activity in defense tech space
+- [ ] Check for any published case studies or portfolio company success stories

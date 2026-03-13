@@ -1,42 +1,57 @@
 # Gauge Capital
 
-## Firm Overview
-- **Website:** https://gaugecapital.com
-- **Focus:** Business Services, Consumer Services, Healthcare Services, Food Services
-- **AUM:** $500M+ (Fund II: $500M closed 2017)
-- **Location:** Southlake, TX (Dallas area)
-- **Status:** Active - Needs Contact Research
-- **Type:** Mid-Market Private Equity
-
-## Investment Focus
-- Business services
-- Consumer services
-- Healthcare services
-- Food services
-- Middle-market companies with growth potential
-
-## Firm Details
-- Long-term, sustainable value creation focus
-- Partners with owners, managers, and equity stakeholders
-- Second fund raised $500M in 2017 (oversubscribed)
-- Campbell Luytiens served as advisor for Fund II
-- Strong focus on alignment with management teams
+**Status:** Enriched 2026-03-12  
+**AUM:** ~$3.5B  
+**Focus:** Mid-market growth-oriented service businesses
 
 ## Key Contact
-- **Status:** Needs Research
-- **Research Priority:** High
-- **Target Titles:** Managing Partner, Partner, Managing Director
-- **Known Personnel:** TBD
 
-## Enrichment Notes
-- **Added:** March 11, 2026 (automated sweep)
-- **Apollo:** No results
-- **Next Steps:** Manual research on team page, LinkedIn partner search
-- **Decision-Maker Level:** Partner/MD level preferred
-- **Technology Stack:** Cloud services, web development tools (IT modernization opportunities)
+**Tom McKelvey**  
+- **Title:** Co-founder, Managing Partner/CEO  
+- **Email:** tmckelvey@gaugecapital.com (inferred from ZoomInfo pattern t***@gaugecapital.com)  
+- **LinkedIn:** https://www.linkedin.com/in/tom-mckelvey-4085666/  
+- **Location:** Dallas-Fort Worth, TX
 
-## Outreach Strategy
-- Focus on business and healthcare services alignment
-- Emphasize long-term partnership and value creation
-- Target services-heavy portfolio companies
-- Highlight operational improvement and growth initiatives
+## Firm Overview
+
+Gauge Capital is a Dallas-based private equity firm managing ~$3.5B in assets. The firm makes shared control and majority investments in growth-oriented middle-market service businesses across:
+- Business services
+- Healthcare services
+- Consumer services
+- Food services
+- Transportation & logistics
+- Government services
+
+## Investment Criteria
+
+- **EBITDA:** $5-50 million
+- **Geography:** United States and Canada
+- **Transaction Types:** Management buy-outs, recapitalizations, divestitures, consolidation, growth investments
+- **Focus:** High-potential service and technology-enabled businesses
+
+## Recent Portfolio Activity
+
+- Investment in Lucent Health (healthcare TPA and cost containment)
+- AGT Robotics (safety services)
+- East Coast Institute for Research (healthcare)
+
+## Research Notes
+
+- Tom McKelvey co-founded Gauge Capital and leads business services/technology vertical
+- Over 25 years experience leading and investing in growth businesses
+- Firm focuses on partnering with owners and managers to maximize potential
+- Strong track record in services roll-ups and platform expansion
+
+## Contact Info
+
+**Headquarters:**  
+1256 Main Street, Suite 256  
+Southlake, TX 76092  
+Phone: 682-334-5800  
+IR: IR@GaugeCapital.com
+
+## Source
+
+- Enriched via web research 2026-03-12
+- Contact info inferred from ZoomInfo pattern
+- Firm details from LinkedIn, ZoomInfo, and company website
