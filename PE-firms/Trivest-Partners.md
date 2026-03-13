@@ -4,6 +4,7 @@
 - **Founded:** 1981
 - **Headquarters:** Miami, FL (additional offices: Charlotte, Chicago, Denver, Los Angeles, New York, Toronto)
 - **Website:** https://www.trivest.com
+- **Team Size:** 150+ professionals
 - **Focus:** Mid-market private equity, multi-sector investments
 
 ## Investment Focus
