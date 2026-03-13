@@ -23,6 +23,17 @@
   - Invested in financial technology, healthcare IT, and software companies across US, Europe, and Israel
   - Wharton MBA
 
+- **Igno van Waesberghe** - Managing Partner
+  - **Title:** Managing Partner
+  - **Email:** ivw@aquiline.com (pattern inferred)
+  - **LinkedIn:** https://www.linkedin.com/in/igno-van-waesberghe
+  - **Office:** London
+  - **Background:**
+    - Joined Aquiline in 2012
+    - Previously at Deutsche Bank and J.P. Morgan in London
+    - Focused on corporate finance for financial institutions in Europe
+    - Trustee of Dutch Masters Foundation
+
 ### Secondary Contacts
 - **Mike Szymanski** - Managing Director 
   - Email: mszymanski@aquiline-llc.com (already in CRM)
@@ -154,6 +165,12 @@
 
 ---
 
-**Last Updated:** 2026-03-08  
+**Last Updated:** 2026-03-13  
 **Enrichment Source:** PE Hourly Research Cron  
 **Status:** Ready for Outreach
+
+**Recent Updates (2026-03-13 - 12:37 AM):**
+- Added Igno van Waesberghe as second Managing Partner (London office)
+- Confirmed Vincenzo La Ruffa (NY/Philadelphia) and Igno van Waesberghe (London) as co-Managing Partners
+- **VERIFIED: vlr@aquiline.com via Apollo API** (replaced generic contact@aquiline.com in CRM)
+- Email status: Apollo verified, direct contact to Managing Partner

@@ -37,6 +37,11 @@
   - Board: Multiple portfolio companies, Brown University Trustee Emeritus
 
 ### Managing Partners & Senior Leadership
+- **Ian Arons** - Partner and Co-Chairperson of Investment Committee (joined 2003)
+  - Co-Head of Diversified Industrials Industry Vertical
+  - Prior: Global Leveraged Finance Group at Lehman Brothers
+  - Boards: Agility, Allure Beauty Concepts, Arclin, Bojangles, Delrin, ORENDA, Parts Authority, RFive, RFour, USALCO, Vantage Specialty Chemicals
+  - Source: tjclp.com/our-team/ (2026-03-11)
 - **Dave Butler** - Partner (joined 1994)
   - Focus: Healthcare, Consumer, Logistics & Business Services
   - Education: Notre Dame (Economics, English), Fordham Law (J.D.)
@@ -154,9 +159,13 @@ Phone: (212) 572-0800
 - Position as portfolio-wide value creation opportunity
 
 ### Email Approach
-- No published individual emails found (standard PE gatekeeping)
+- **No published individual emails found** (verified 2026-03-11)
+  - Website contact page only lists phone numbers
+  - Email pattern likely FLast@thejordancompany.com (per LeadIQ), but NOT verified via public sources
+  - PR contact: Jonathan Marino (Prosek Partners) - for press only
 - Options:
-  - LinkedIn InMail (higher response rate for partners)
+  - **LinkedIn InMail** (higher response rate for partners) - RECOMMENDED
+  - Phone outreach to main offices (see numbers above)
   - General inquiry with specific value prop
   - Warm intro via mutual connection (if available)
 
@@ -173,9 +182,10 @@ Phone: (212) 572-0800
 - PitchBook, Bloomberg, Private Equity International profiles
 
 ## Last Updated
-March 8, 2026
+March 11, 2026 (4:40 PM)
 
 ## Status
-**Enrichment:** Contact names and titles identified  
-**Next Step:** LinkedIn outreach or find email pattern via Apollo enrichment  
+**Enrichment:** Contact names and titles identified, Ian Arons confirmed as Investment Committee Co-Chair  
+**Email Status:** No published individual emails found (manual web research completed 2026-03-11)  
+**Next Step:** LinkedIn outreach (recommended) or phone contact  
 **Priority:** HIGH (large, sophisticated firm with recent AI investment)

@@ -1,54 +1,32 @@
-# Atlantic Street Capital Advisors, Inc.
-**Updated:** March 5, 2026 (Verified as PE Firm)
+# Atlantic Street Capital
 
-## ✅ VERIFIED: LOWER MIDDLE MARKET PE FIRM
-Atlantic Street Capital is a **direct private equity investor** focused on lower middle market companies, partnering with entrepreneurs and management teams.
+**Website:** https://www.atlanticstreetcapital.com  
+**Location:** Greenwich, CT  
+**Type:** Private Equity  
+**Focus:** Middle-market companies, services-focused businesses
 
-## Key Contacts
+## Key Contact
 
-### Robbie Heflin
-- **Title:** Partner
-- **Email:** robbie@atlanticstreetcapital.com (✅ Verified from company website 2026-03-05)
-- **Background:** Previously at Alvarez & Marsal Capital ($4B+ AUM) and The Jordan Company ($28B+ capital)
+**Peter Shabecoff**  
+- Title: Co-CEO / Managing Partner  
+- Email: peter@atlanticstreetcapital.com  
+- Phone: (203) 428-3150  
+- LinkedIn: https://linkedin.com/in/shabecoff-peter-0617005  
 
-### Andy Wilkins
-- **Title:** Managing Partner
-- **Background:** Focuses on senior management development, portfolio management, deal sourcing, due diligence
-- **Board Seats:** CyberGuard, ACIS, PMI, Renew Digital, Tambourine, Uniguest, Zips Car Wash, Prescott's, eIVF, BioTouch, Aligned Orthopedic Partners, Sunrise Transportation, Lori's Gifts, Pinnacle Service Brands, GAT Airline Ground Support
+## Firm Details
 
-### Other Leadership
-- **Peter Shabecoff** - Partner
-- **Kevin Graff** - Partner (Nashville)
-- **Anthony Catterson** - Operating Partner (Atlanta)
+- Address: 35 Mason Street, Greenwich, CT 06830
+- Founded: 2006
+- Investment focus: Lower middle-market, services sector
+- Board involvement: PMI, Anatomy IT, Uniguest Inc., All Star Auto Parts, GAT Airline Ground Support
 
-## Firm Overview
-- **Location:** Multiple offices (Main HQ, Nashville, Atlanta)
-- **Founded:** ~2000s
-- **Structure:** Private equity firm with deep investing and operating professionals team
-- **Focus:** Lower middle market PE investments
-- **Strategy:** Partnering with entrepreneurs and management teams who seek capital and operational expertise
+## Research Notes
 
-## Investment Approach
-- Concentrated approach to building strong partnerships
-- Partnership with leading entrepreneurs and management teams
-- Scale businesses and unlock underlying value
-- 7+ Operating Partners/Advisors network built in 2018 for portfolio company support
-- Active portfolio management and strategic guidance
+- Apollo verified contact (March 2026)
+- Hands-on, collaborative approach to portfolio companies
+- Active board participation across multiple portfolio investments
 
-## Recent Deals
-- **Dynamic Campus** (March 2025): Partnership announced
-- **Advancing Eyecare** (May 2022): Supported development of leading eyecare instrumentation provider
-- Multiple active portfolio companies across technology, healthcare, services sectors
+## Enrichment Status
 
-## Enrichment Source
-- LinkedIn company page
-- Press releases
-- Web research March 5, 2026
-
-## Outreach Status
-⚠️ **VERIFY BEFORE OUTREACH** - May not be appropriate target for PE investor outreach. Appears to be advisory/operating partner network.
-
-## Next Steps
-1. Confirm business model (advisory vs direct investor)
-2. If advisory: May still be relevant for operating partner network pitch
-3. Research portfolio company affiliations to understand their role
+✅ **Enriched** - March 10, 2026  
+Source: Apollo API + web research

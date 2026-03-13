@@ -1,0 +1,223 @@
+[
+  {
+    "rowNum": 14,
+    "company": "ShoreView Industries",
+    "currentContact": "Thomas D'Ovidio",
+    "currentEmail": "info@shoreview.com",
+    "status": "Needs Email Update",
+    "research": {
+      "confirmed": {
+        "name": "Thomas D'Ovidio",
+        "title": "Partner",
+        "yearsAtFirm": "Since 2007",
+        "background": "25+ years PE experience, prior: Thompson Street Capital, Berwind PE, Summit Private Capital",
+        "source": "https://www.shoreview.com/team/thomas-dovidio/"
+      },
+      "emailPattern": {
+        "likely": "tdovidio@shoreview.com",
+        "alternates": ["thomas.dovidio@shoreview.com", "thomas@shoreview.com"],
+        "confidence": "High (standard PE firm pattern)",
+        "verification": "Recommend: Hunter.io verification before send"
+      },
+      "linkedin": "Search: 'Thomas D'Ovidio ShoreView' on LinkedIn",
+      "notes": "Senior partner with strong background. Worth reaching out. Apollo found 3 other partners if this contact doesn't work."
+    }
+  },
+  {
+    "rowNum": 129,
+    "company": "Pharos Capital Group",
+    "currentContact": "Kneeland Youngblood",
+    "currentEmail": "info@pharosfunds.com",
+    "status": "Needs Email Update",
+    "research": {
+      "confirmed": {
+        "name": "Kneeland Youngblood",
+        "title": "Managing Partner (likely)",
+        "domain": "pharoscapital.com or pharosfunds.com"
+      },
+      "emailPattern": {
+        "likely": "kyoungblood@pharoscapital.com",
+        "alternates": ["kneeland@pharoscapital.com", "kyoungblood@pharosfunds.com"],
+        "confidence": "Medium (need to verify correct domain)",
+        "verification": "Check pharoscapital.com team page, verify domain"
+      },
+      "linkedin": "Search: 'Kneeland Youngblood Pharos Capital' on LinkedIn",
+      "notes": "Verify if pharoscapital.com or pharosfunds.com is primary domain"
+    }
+  },
+  {
+    "rowNum": 763,
+    "company": "Mercury Fund",
+    "currentContact": "Blair Garrou",
+    "currentEmail": "blair@mercuryfund.com",
+    "status": "✅ ALREADY ENRICHED - Update status only",
+    "research": {
+      "confirmed": {
+        "name": "Blair Garrou",
+        "email": "blair@mercuryfund.com",
+        "verdict": "DIRECT EMAIL ALREADY EXISTS"
+      },
+      "action": "Update Status column to 'Enriched' - no other changes needed"
+    }
+  },
+  {
+    "rowNum": 1064,
+    "company": "The Riverside Company",
+    "currentContact": "Stewart Kohl",
+    "currentEmail": "",
+    "status": "Needs Email",
+    "research": {
+      "confirmed": {
+        "name": "Stewart A. Kohl",
+        "title": "Co-CEO & Founder",
+        "background": "Co-CEO with Béla Szigethy since 1993. $14B global PE firm. Previously VP at Citicorp Venture Capital.",
+        "source": "https://www.riversidecompany.com/team/bela-szigethy-stewart-kohl/"
+      },
+      "emailPattern": {
+        "likely": "skohl@riversidecompany.com",
+        "alternates": ["stewart.kohl@riversidecompany.com", "stewart@riversidecompany.com"],
+        "confidence": "High (ZoomInfo shows s***@riversidecompany.com pattern)",
+        "verification": "ZoomInfo partial match confirms s***@riversidecompany.com"
+      },
+      "linkedin": "https://www.linkedin.com/company/the-riverside-company (company page active)",
+      "notes": "Co-CEO of $14B firm - HIGH PRIORITY contact. Apollo found 92 contacts at firm, could pivot to other Managing Partners if needed."
+    }
+  },
+  {
+    "rowNum": 1066,
+    "company": "Genstar Capital",
+    "currentContact": "J. Ryan Clark",
+    "currentEmail": "",
+    "status": "Needs Email",
+    "research": {
+      "confirmed": {
+        "name": "J. Ryan Clark (Ryan Clark)",
+        "title": "President & Managing Director",
+        "background": "President since 2015. Managing Director since 2011. Joined 2004. Focus: financial services investments.",
+        "source": "https://www.gencap.com/genstar-capital-names-j-ryan-clark-president-8122015/"
+      },
+      "emailPattern": {
+        "likely": "rclark@gencap.com",
+        "alternates": ["ryan.clark@gencap.com", "jclark@gencap.com", "j.clark@gencap.com"],
+        "confidence": "High (gencap.com is confirmed domain)",
+        "verification": "Recommend: Hunter.io verification"
+      },
+      "linkedin": "Search: 'Ryan Clark Genstar Capital President'",
+      "notes": "President of firm - TOP TIER contact. Apollo found 15 contacts including other Managing Partners as backups."
+    }
+  },
+  {
+    "rowNum": 1067,
+    "company": "Trivest Partners",
+    "currentContact": "Chris Weldon",
+    "currentEmail": "",
+    "status": "Needs Manual Research",
+    "research": {
+      "action": "Required: Search trivest.com team page + LinkedIn for Chris Weldon",
+      "emailPattern": {
+        "likely": "cweldon@trivest.com",
+        "alternates": ["chris.weldon@trivest.com", "chris@trivest.com"],
+        "confidence": "Medium (need to verify name/title)"
+      }
+    }
+  },
+  {
+    "rowNum": 1068,
+    "company": "Excellere Partners",
+    "currentContact": "Brad Cornell",
+    "currentEmail": "",
+    "status": "Needs Manual Research",
+    "research": {
+      "action": "Required: Search excellerepartners.com or LinkedIn for Brad Cornell",
+      "emailPattern": {
+        "likely": "bcornell@excellerepartners.com",
+        "alternates": ["brad.cornell@excellerepartners.com", "brad@excellerepartners.com"],
+        "confidence": "Medium (need to verify domain & title)"
+      }
+    }
+  },
+  {
+    "rowNum": 1069,
+    "company": "Boathouse Capital",
+    "currentContact": "Bill Dyer",
+    "currentEmail": "",
+    "status": "Needs Manual Research",
+    "research": {
+      "action": "Required: Search boathousecapital.com or LinkedIn for Bill Dyer",
+      "emailPattern": {
+        "likely": "bdyer@boathousecapital.com",
+        "alternates": ["bill.dyer@boathousecapital.com", "bill@boathousecapital.com"],
+        "confidence": "Medium (need to verify)"
+      }
+    }
+  },
+  {
+    "rowNum": 630,
+    "company": "Kinect Capital",
+    "currentContact": "Danielle undefined",
+    "currentEmail": "",
+    "status": "❌ DATA QUALITY ISSUE",
+    "research": {
+      "action": "Required: Find full name for 'Danielle' at Kinect Capital. Check kinectcapital.com team page.",
+      "notes": "Invalid entry - need complete contact information"
+    }
+  },
+  {
+    "rowNum": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "currentContact": "Jacob Zodikoff",
+    "currentEmail": "",
+    "status": "❌ PLACEHOLDER - NEEDS REPLACEMENT",
+    "research": {
+      "action": "Apollo found NO contacts. Verify if firm is active. May need to mark as 'Dead Lead'",
+      "notes": "'Jacob Zodikoff' is a placeholder, not a real contact at this firm"
+    }
+  },
+  {
+    "rowNum": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "currentContact": "Jacob Zodikoff",
+    "currentEmail": "",
+    "status": "❌ PLACEHOLDER - NEEDS REPLACEMENT",
+    "research": {
+      "action": "Search UNC Kenan-Flagler Business School website for PE fund managers/directors",
+      "notes": "'Jacob Zodikoff' is a placeholder, not a real contact"
+    }
+  },
+  {
+    "rowNum": 909,
+    "company": "Backstroke",
+    "currentContact": "Jacob Zodikoff",
+    "currentEmail": "",
+    "status": "⚠️ VERIFY LEGITIMACY",
+    "research": {
+      "action": "Verify if 'Backstroke' is a real PE firm. May be misclassified. Consider marking 'Dead Lead'",
+      "notes": "'Jacob Zodikoff' placeholder suggests this entry may be incomplete/incorrect"
+    }
+  },
+  {
+    "rowNum": 910,
+    "company": "Satso",
+    "currentContact": "Jacob Zodikoff",
+    "currentEmail": "",
+    "status": "⚠️ VERIFY LEGITIMACY",
+    "research": {
+      "action": "Verify if 'Satso' is a real PE firm. May need to mark as 'Dead Lead'",
+      "notes": "'Jacob Zodikoff' placeholder suggests this entry may be incorrect"
+    }
+  },
+  {
+    "rowNum": 1061,
+    "company": "Rehab Medical",
+    "currentContact": "Kevin Gearheart",
+    "currentEmail": "",
+    "status": "Needs Manual Research",
+    "research": {
+      "action": "Search LinkedIn + rehabmedical.com (or similar) for Kevin Gearheart title/email",
+      "emailPattern": {
+        "likely": "kgearheart@[domain].com",
+        "confidence": "Low (need to identify correct domain first)"
+      }
+    }
+  }
+]

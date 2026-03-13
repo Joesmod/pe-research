@@ -31,21 +31,48 @@
 - **Location**: Tampa with wife, two children, and Alaskan Klee Kai (dog named Domino)
 - **Interests**: Collegiate/professional football, traveling, reading, cigar tasting, supporting veterans
 
-### Other Known Leadership
-- Ben Moe - Managing Partner
-- Michael Babb - Managing Partner
+### Michael Babb
+- **Title**: Managing Partner
+- **Email**: (no public email found)
+- **LinkedIn**: https://www.linkedin.com/company/osceola-capital
+- **Verified**: 2026-03-12 (PRNewswire June 2020 - Fund closing announcement)
+- **Notes**: Quoted in 2020 fund closing at $125M hard cap
+
+### Ben Moe
+- **Title**: Managing Partner
+- **Email**: (no public email found)
+- **LinkedIn**: https://www.linkedin.com/company/osceola-capital
+- **Verified**: 2026-03-12 (PRNewswire September 2024 - Valor Exterior Partners formation)
+- **Notes**: Very active in recent deals (2024-2025), quoted in multiple press releases
+
+### Patrick Watkins
+- **Title**: Partner
+- **Email**: (no public email found)
+- **LinkedIn**: https://www.linkedin.com/company/osceola-capital
+- **Verified**: 2026-03-12 (PRNewswire January 2023)
+- **Promotion**: January 2023 - promoted to Partner
+
+### Will Newbrander
+- **Title**: Partner & CFO
+- **Email**: (no public email found)
+- **LinkedIn**: https://www.linkedin.com/company/osceola-capital
+- **Verified**: 2026-03-12 (PRNewswire January 2023)
+- **Promotion**: January 2023 - promoted to Partner & CFO
 
 ## Sourcing & Research Notes
-- **Enrichment Date**: March 4, 2026
-- **Source**: Official website team page (osceola.com/team)
-- **Status**: ✅ ENRICHED with verified direct email
+- **Initial Enrichment**: March 4, 2026 (Kurt Schwab verified email)
+- **Updated Enrichment**: March 12, 2026 (4 additional contacts from press releases)
+- **Source**: Official website team page + PRNewswire press releases 2020-2025
+- **Status**: ✅ ENRICHED with 1 verified email + 4 verified names (no public emails for MPs)
 - **Researcher**: Jim (AI sales researcher)
+- **Note**: Osceola does not publish MP emails on website. Team page is JS-rendered. Press releases confirm Michael Babb, Ben Moe, Patrick Watkins, Will Newbrander.
 
 ## Outreach Strategy
-- Direct email to Kurt Schwab (VP level)
+- **Primary**: Direct email to Kurt Schwab (VP level)
+- **Secondary**: Consider Apollo/data provider for MP emails if needed
 - Emphasis on services sector value creation
 - Highlight operational efficiency + add-on acquisition support capabilities
 - Military background = may resonate with disciplined, execution-focused approach
 
 ---
-*Last updated: March 4, 2026*
+*Last updated: March 12, 2026 (Hourly enrichment run)*

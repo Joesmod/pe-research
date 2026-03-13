@@ -89,3 +89,11 @@ https://bluestarinnovationpartners.com
 - Jerry Jones backing adds unique angle/credibility
 - Operating team is hands-on (John Durrett, Patrick Mizer are former operators)
 - **High Priority Target** due to software/payments focus + founder-friendly approach
+
+## Data Correction Alert
+**⚠️ Google Sheet Row 11 contained incorrect data:**
+- Listed contact: "Hurley Doddy, Founder & CEO"
+- **Correction:** Hurley Doddy is NOT at Blue Star Innovation Partners
+- Hurley Doddy is at Emerging Capital Partners (ECP), not BSIP
+- Correct BSIP contacts: Rob Wechsler or Dan Wechsler (see above)
+- Issue identified: 2026-03-13 during enrichment cron

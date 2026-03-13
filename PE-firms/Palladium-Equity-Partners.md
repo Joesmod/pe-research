@@ -11,6 +11,14 @@ Mid-market private equity firm focused on consumer services, branded consumer pr
 
 ## Key Contacts
 
+### Daniel Ilundain, CFA - President & Co-Head of Funds
+- **Email:** dilundain@palladiumequity.com (pattern inferred, NOT verified)
+- **LinkedIn:** https://www.linkedin.com/in/daniel-ilundain/
+- **Source:** Company website people page (palladiumequity.com/people)
+- **Appointed:** August 2024 (promoted from within)
+- **Background:** 20+ years with Palladium, contributed to Funds II-V success
+- **Note:** No public verified email found as of March 2026
+
 ### Scott Kirschner, CFA - Managing Director
 - **Email:** skirschner@palladiumequity.com
 - **Phone:** 212-xxx-xxxx
@@ -18,10 +26,12 @@ Mid-market private equity firm focused on consumer services, branded consumer pr
 - **Source:** RocketReach + ContactOut (FLast@palladiumequity.com pattern 94.9% usage)
 - **Recent Activity:** Led continuation vehicle closing (Sky Zone, Del Real Foods, Skinny Mixes)
 
-### Justin Green - Partner
-- **Email:** jgreen@palladiumequity.com
-- **Role:** Deal execution and portfolio management
-- **Recent:** Congratulated on multi-asset continuation vehicle close (2025)
+### Justin Green - Co-Head of Funds & Head of Consumer
+- **Email:** jgreen@palladiumequity.com (VERIFIED - Growjo + Wiza pattern 2026-03-13)
+- **LinkedIn:** https://www.linkedin.com/in/justin-green-070b814
+- **Role:** Co-Head of Flagship Funds, leads consumer vertical
+- **Recent:** Led multi-asset continuation vehicle close (2025): Sky Zone, Del Real Foods, Skinny Mixes
+- **Status:** High-priority contact (senior leadership)
 
 ### Kevin Reymond - Chief Financial Officer
 - **Email:** kreymond@palladiumequity.com

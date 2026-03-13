@@ -1,44 +1,92 @@
 # Silver Oak Services Partners
 
-## Overview
-- **Website:** http://www.silveroaksp.com
-- **HQ:** Evanston, IL
-- **Focus:** Lower middle market private equity, business services sector
-- **Geography:** North America
-- **Status:** ⚠️ Partial - No public emails found
-
-## Key Contacts
-
-### Dan O'Neil
-- **Title:** Co-Founder & Managing Partner
-- **Email:** (Not publicly available)
-- **LinkedIn:** https://www.linkedin.com/company/silver-oak-services-partners
-- **Source:** Silver Oak team page (2026-03-07)
-- **Notes:** Co-Founder and Managing Partner of Silver Oak Services Partners. Focuses on business services investments in the lower middle market. No direct emails found on team page or in press releases.
+## Firm Overview
+**Name:** Silver Oak Services Partners  
+**Type:** Lower-Middle Market Private Equity  
+**Focus:** Services businesses (business, consumer, healthcare services)  
+**Location:** Evanston, Illinois  
+**Website:** https://www.silveroaksp.com  
+**Address:** 1560 Sherman Avenue, Suite 1200, Evanston, IL 60201
 
 ## Investment Focus
-- Business services companies
-- Lower middle market ($10M-$50M EBITDA)
-- Services-focused businesses
-- Operationally-intensive service businesses
-- North American markets
+- **Sector:** Services businesses (exclusive focus)
+- **Geography:** North America
+- **Deal Size:** Lower-middle market
+- **Stage:** Growth, platform buildout
+- **Strategy:** Partner with management teams to build industry-leading service companies
 
-## Firm Details
-- Evanston, IL headquarters
-- Lower middle market PE focus
-- Services sector specialists
-- Buy-and-build strategies
-- Operational improvement focus
+## Team (Verified 2026-03-12)
 
-## Investment Strategy
-- Partner with founder-owned and family-owned businesses
-- Focus on business services sector
-- Operational value creation
-- Buy-and-build platform investments
-- Hands-on operational support
+### Managing Partners
+- **Gregory M. Barr** - Managing Partner
+  - LinkedIn: https://www.linkedin.com/in/gregory-barr-45102314/
+  - Background: Harvard Business School
+  - Location: Evanston
 
-## Enrichment Log
-- **Date:** 2026-03-07
-- **Method:** Web research (silveroaksp.com team page, LinkedIn company profile)
-- **Status:** Contact identified, no public email available
-- **Notes:** Website team page does not publish direct email addresses. Apollo API found organization but contact details obfuscated. No emails found in press releases or public filings. Uses general contact form only.
+- **Daniel M. Gill** - Managing Partner
+
+- **Wade D. Glisson** - Managing Partner
+
+### Partners
+- **Danielle Lalli Glines** - Partner
+- **Andrew S. Gustafson** - Partner
+- **Daniel B. Wellman** - Partner
+
+### Business Development
+- **Annie C. Weinheimer** - Vice President of Business Development
+  - LinkedIn: https://www.linkedin.com/in/annie-weinheimer-203241108/
+  - Education: Quinlan School of Business, Loyola University Chicago
+  - **Ideal Contact:** BD/deal origination role
+
+### Investment Team
+- **Paul T. Fortin** - Vice President
+- **Molly Williams Martin** - Vice President
+- **Biren P. Bhansali** - Principal
+- **Patrick J. Donovan** - Senior Associate
+- **Manu Amin** - Associate
+- **Vitas D. Hrynkiewicz** - Associate
+- **Jack J. Kubes** - Associate
+- **Kevin H. Paek** - Associate
+- **Jack G. Ward** - Associate
+
+### Operations Team
+- **Lynn Lipsig** - Vice President Investment Research
+- **Diana K. Fitzgerald** - Chief Financial Officer and Chief Compliance Officer
+- **Louis J. Cote** - Controller
+- **John W. Munz** - Vice President of Finance
+- **Melissa Segura** - Senior Accountant
+- **Patricia A. Collins** - Executive Assistant
+- **Bernadette R. Maida** - Office Manager
+- **Linda S. Epstein** - Advisor
+
+## Contact Information
+**Domain:** @silveroaksp.com (verified)  
+**General Email:** info@silveroaksp.com  
+**Phone:** 847-784-XXXX (listed on website)  
+
+**Individual Emails:** Not publicly available  
+**Recommended Approach:** LinkedIn outreach to Annie Weinheimer (VP BD) or Managing Partners
+
+## Notes
+- Team of 20+ professionals
+- 26+ years average PE investing experience in services sector (partners)
+- Strong Chicago presence
+- Focus exclusively on services - no manufacturing, technology-only, etc.
+- Website has individual bio pages for all team members
+- Typical for lower-middle market PE: does not publish individual emails
+
+## Research Status
+- ✅ Team verified from official website (2026-03-12)
+- ✅ Domain confirmed
+- ✅ Key decision-makers identified
+- ❌ Individual emails not publicly available
+- ✅ Business Development contact identified
+
+## Outreach Strategy
+1. **Primary:** LinkedIn message to Annie Weinheimer (VP BD)
+2. **Secondary:** Call main office, ask for BD team
+3. **Tertiary:** Generic email to info@silveroaksp.com
+4. **Alternative:** Connect at ACG or middle-market PE conferences
+
+## Last Updated
+2026-03-12 by Jim (PE Research Agent)
