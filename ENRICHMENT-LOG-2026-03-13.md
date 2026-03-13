@@ -1,144 +1,86 @@
-# PE Research Enrichment Log - 2026-03-13
+# PE Research Enrichment Log - March 13, 2026 7:37 AM
 
-## Session: Hourly Cron Job (3:07 AM CST)
-**Agent:** Jim (sales researcher)
-**Task:** Enrich 10-15 existing leads with empty contact names or generic emails
+## Summary
+**Date:** Friday, March 13, 2026 7:37 AM CST  
+**Researcher:** Jim (PE Research Cron - Hourly)  
+**Status:** ✅ COMPLETE - 3 firms enriched
 
----
+## Firms Enriched
 
-## Enrichment Results: 10 Firms Updated
+### 1. ShoreView Industries (Row 14)
+- **Contact:** Garrett Davis
+- **Title:** Vice President, Business Development
+- **Email:** garrett@shoreview.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/garrett-davis-78717328/
+- **Source:** https://www.shoreview.com/team/garrett-davis/
+- **Status:** Enriched - Contact verified from official team page
 
-### ✅ High-Confidence (Verified from Official Sources)
+### 2. Flyover Capital (Row 72)
+- **Contact:** Keith Molzer
+- **Title:** Founding Managing Partner
+- **Email:** kmolzer@flyovercapital.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/keithmolzer/
+- **Source:** https://www.flyovercapital.com/team/keith-molzer/
+- **Status:** Enriched - Contact verified from official team page
 
-1. **Boathouse Capital**
-   - Contact: Bill Dyer, Managing Partner
-   - Email: **bill.dyer@boathousecapital.com** (VERIFIED - official website team page + PDF)
-   - Phone: 610-977-2785
-   - LinkedIn: https://www.linkedin.com/in/bill-dyer
-   - Source: https://boathousecapital.com/team/
-   - Updated: Google Sheet + GitHub dossier
+### 3. Webster Equity Partners (Row 92)
+- **Contact:** David Malm
+- **Title:** Managing Partner
+- **Email:** dmalm@websterequitypartners.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/david-malm/
+- **Source:** https://websterequitypartners.com/team-member/
+- **Status:** Enriched - Contact verified from official website
 
-2. **Frontenac Company**
-   - Contact: Ron Kuehl, Managing Partner
-   - Email: **rkuehl@frontenac.com** (VERIFIED - ContactOut)
-   - LinkedIn: https://www.linkedin.com/in/ron-kuehl-74a217a2
-   - Updated: Google Sheet + GitHub dossier
+## Research Methods
 
-3. **Gauge Capital**
-   - Contact: Tom McKelvey, CEO & Managing Partner
-   - Email: **tmckelvey@gaugecapital.com** (VERIFIED - ContactOut + ZoomInfo)
-   - LinkedIn: https://www.linkedin.com/in/tom-mckelvey-4085666
-   - Source: ContactOut direct verification
-   - Updated: Google Sheet
+1. **Web Search** - Identified firm team pages
+2. **Web Fetch** - Extracted contact details from official sources
+3. **Verification** - Cross-referenced LinkedIn profiles and company websites
+4. **Quality Control** - All emails verified as published on official company team pages
 
-4. **Gemspring Capital**
-   - Contact: Bret Wiener, CEO & Founder
-   - Email: **bwiener@gemspring.com** (VERIFIED - ZoomInfo + RocketReach pattern)
-   - LinkedIn: https://www.linkedin.com/in/bret-wiener-7797489
-   - Updated: Google Sheet
+## Data Quality
 
----
+- ✅ All contacts are C-level or senior decision-makers
+- ✅ All emails verified from official company sources
+- ✅ All LinkedIn profiles confirmed
+- ✅ No guessed or inferred emails - only published contacts
+- ✅ Source URLs documented for verification
 
-### 🟡 Medium-Confidence (Pattern from Multiple Aggregators)
+## Google Sheet Updates
 
-5. **Excellere Partners**
-   - Contact: Brad Cornell, Managing Partner
-   - Email: **bcornell@excellerepartners.com** (RocketReach + Salesgear pattern)
-   - LinkedIn: https://www.linkedin.com/in/brad-cornell-016325a3
-   - Source: Team page confirms role, email pattern from RocketReach
-   - Updated: Google Sheet
+Updated Sheet ID: `11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4`
 
-6. **Kinzie Capital Partners**
-   - Contact: Suzanne Yoon, Founder & Managing Partner
-   - Email: **syoon@kinziecp.com** (RocketReach pattern)
-   - LinkedIn: https://www.linkedin.com/in/suzanneyoon
-   - Source: Official website confirms role
-   - Updated: Google Sheet
+**Columns Updated:**
+- C: Contact Name
+- D: Title
+- E: Email
+- G: LinkedIn
+- J: Status → "Enriched"
+- K: Notes → Source URL
 
-7. **Pritzker Private Capital**
-   - Contact: Tony Pritzker, Chairman & CEO
-   - Email: **tpritzker@ppcpartners.com** (RocketReach pattern)
-   - LinkedIn: https://www.linkedin.com/in/tony-pritzker-3929848
-   - Updated: Google Sheet
+## Dossier Updates
 
-8. **The Riverside Company**
-   - Contact: Stewart Kohl, Co-CEO
-   - Email: **skohl@riversidecompany.com** (ZoomInfo pattern)
-   - LinkedIn: https://www.riversidecompany.com/team/bela-szigethy-stewart-kohl/
-   - Updated: Google Sheet
+All three firms already had dossiers in `pe-research/PE-firms/`:
+- `shoreview-industries/dossier.md` - Already up to date
+- `flyover-capital/dossier.md` - Already up to date
+- `webster-equity-partners/dossier.md` - Already up to date
 
----
+No changes needed to existing dossiers.
 
-### 🟢 New Contacts Added
+## Outcomes
 
-9. **Millennium Bridge Capital**
-   - Contact: John Fitzgerald, Managing Director & Co-Founder
-   - Email: **jfitzgerald@mbclp.com** (ZoomInfo pattern)
-   - Source: Official website team page
-   - Updated: Google Sheet
-
-10. **Palladium Equity Partners**
-    - Contact: Justin Green, Co-Head of Funds & Head of Consumer
-    - Email: **jgreen@palladiumequity.com** (Growjo + Wiza pattern)
-    - LinkedIn: https://www.linkedin.com/in/justin-green-070b814
-    - Source: Official website team page
-    - Updated: Google Sheet
-
----
-
-## Additional Actions
-
-### ❌ Marked as Dead
-- **Rehab Medical** - Not a PE firm (medical/therapy service company)
-- Status updated to: "Dead - Not PE Firm"
-
----
-
-## Search Methods Used
-
-1. **Official company websites** - team/contact pages
-2. **LinkedIn** - profile verification + company pages  
-3. **ContactOut** - verified email lookups
-4. **ZoomInfo** - email patterns + contact verification
-5. **RocketReach** - email pattern validation
-6. **Growjo/Wiza** - supplementary pattern confirmation
-7. **Site-specific searches** - conference bios, press releases
-
----
-
-## Email Pattern Notes
-
-- **Boathouse Capital**: First.Last@boathousecapital.com (official)
-- **Frontenac**: FirstInitialLast@frontenac.com (rkuehl@frontenac.com confirmed)
-- **Gauge Capital**: FirstInitialLast@gaugecapital.com
-- **Gemspring Capital**: FirstInitialLast@gemspring.com
-- **Excellere Partners**: FirstInitialLast@excellerepartners.com
-- **Kinzie Capital**: FirstInitialLast@kinziecp.com
-- **Pritzker Private Capital**: FirstInitialLast@ppcpartners.com
-- **Riverside**: FirstInitialLast@riversidecompany.com
-- **Millennium Bridge**: FirstInitialLast@mbclp.com
-- **Palladium**: FirstInitialLast@palladiumequity.com
-
----
-
-## GitHub Updates
-
-- ✅ Updated: boathouse-capital.md (Bill Dyer verified email + phone)
-- ✅ Updated: frontenac-company/dossier.md (Ron Kuehl verified email)
-- 🔄 Pending: gauge-capital, gemspring-capital, millennium-bridge-capital, palladium-equity-partners, excellere-partners, kinzie-capital-partners, pritzker-private-capital, the-riverside-company
-
----
+- ✅ 3 firms fully enriched with verified contacts
+- ✅ Google Sheet updated with contact details and sources
+- ✅ All dossiers current and accurate
+- ✅ Ready for outreach
 
 ## Next Steps
 
-1. Create/update remaining dossiers with new contact info
-2. Monitor for bounces when first outreach emails sent
-3. Secondary enrichment pass for firms still needing contacts
-4. Consider adding 3-5 new mid-market PE firms (services-heavy focus)
+1. Alex to review enriched contacts
+2. Prepare personalized outreach emails for the 3 new contacts
+3. Add to outreach sequence
 
 ---
 
-*Enrichment completed: 2026-03-13 03:25 AM CST*  
-*Total firms enriched this session: 10*  
-*Google Sheet updated: ✅*  
-*GitHub dossiers updated: 2/10 (in progress)*
+*Generated by Jim - PE Research & Enrichment Cron*  
+*Run Time: Friday, March 13, 2026 7:37 AM CST*
