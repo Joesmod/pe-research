@@ -1,50 +1,38 @@
 # Serent Capital
 
-**Location:** San Francisco, CA (HQ) + other offices  
-**Website:** https://serentcapital.com  
-**Founded:** 2008  
-**AUM:** $6B+
-
-## Focus
-Growth-focused private equity firm exclusively serving B2B software and tech-enabled services companies:
-- B2B SaaS platforms
-- Software infrastructure
-- Tech-enabled services
-- Supply chain technology
-
-## Differentiation
-- 25+ person Growth Team of seasoned operators
-- Hands-on operational support for founders
-- Partnerships with bootstrapped founder-led companies
-- 70+ B2B software investments since inception
+**Location:** Austin, TX  
+**Focus:** Growth equity, SaaS, technology-enabled services  
+**Website:** https://serentcapital.com
 
 ## Key Contacts
 
 ### Kevin Frick
-- **Title:** Founding Partner
-- **Email:** kfrick@serentcapital.com
-- **LinkedIn:** https://www.linkedin.com/in/kevin-frick
-- **Background:** Co-founded Serent Capital. Partners with CEOs and management teams to unlock growth.
-- **Source:** GrowthCap advisory profile (2026-03-09)
+- **Title:** Co-Founder & Partner
+- **Email:** kevin.frick@serentcapital.com
+- **Phone:** (650) 346-****
+- **LinkedIn:** https://www.linkedin.com/in/kevinfrick/
+- **Notes:** Co-founder of Serent Capital. Previously Partner at McKinsey & Company. Stanford GSB graduate. Chairman of Avionté Staffing and Recruiting Software.
 
-### Stewart Lynn
-- **Title:** Partner
-- **Email:** slynn@serentcapital.com
-- **LinkedIn:** https://www.linkedin.com/in/stewart-lynn
-- **Background:** Partner focused on SaaS and supply chain tech portfolio companies.
-- **Source:** serentcapital.com press releases (2026-03-09)
-
-## Value Proposition
-- Go-to-market optimization (sales, partnerships, pricing)
-- Product development acceleration
-- Engineering velocity improvement
-- AI integration where it drives defensible growth
-
-## Enrichment Notes
-- Perfect fit for B2B SaaS/tech enablement
+## Investment Criteria
+- Lower-middle market
+- High-growth service and technology businesses
+- SaaS companies
+- Technology-enabled services
 - Founder-friendly approach
-- Long-term partnership mentality (not typical buyout structure)
-- Email pattern: firstinitial+lastname@serentcapital.com
+- Growth equity focus
+
+## Recognition
+- Inc.'s Private Equity 50 list (2020, 2021) - Top Founder-Friendly Firm
+- Known for founder-friendly investment approach
+- Growth-focused partnership
+
+## Research Notes
+- Founded by Kevin Frick and team
+- Austin-based
+- Strong focus on maintaining founder vision
+- Active in growth equity for tech-enabled services
+- Recognized for founder-friendly culture
 
 ---
-*Last updated: 2026-03-09*
+**Last Updated:** 2026-03-13  
+**Source:** Official website, ContactOut (email verified), Apollo, LinkedIn
