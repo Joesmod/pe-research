@@ -207,12 +207,102 @@
 5. Several firms have active press contacts or BD teams that might be easier entry points
 6. Continue researching remaining firms that lack contact details
 
+## Session 3 - Hourly Enrichment Run (2026-03-12 20:07 CST)
+
+### Newly Verified Contacts (Official Sources)
+
+#### 1. Alan Mantel - TruArc Partners (Row 588)
+- **Title:** Co-Managing Partner
+- **Email:** amantel@truarcpartners.com
+- **LinkedIn:** https://www.linkedin.com/in/alan-mantel-8930b539/
+- **Source:** Official bio page at truarcpartners.com/alan-mantel
+- **Notes:** Co-Managing Partner since 2005. Focus: Tech-Enabled Business Services. Previously Credit Suisse, DLJ.
+
+#### 2. Walter Florence - Frontenac Company (Row 711)
+- **Title:** Managing Partner
+- **Email:** wflorence@frontenac.com
+- **Phone:** 312-629-3152
+- **LinkedIn:** https://www.linkedin.com/in/walter-florence/
+- **Source:** Official team page at frontenac.com/team-member/walter-florence/
+- **Notes:** Focus: consumer sector. Chicago-based lower middle market PE.
+
+#### 3. Sean Callahan - Frontenac Company (Row 711)
+- **Title:** Partner, Portfolio Resources Group
+- **Email:** scallahan@frontenac.com
+- **Phone:** 312-477-7446
+- **LinkedIn:** https://www.linkedin.com/in/sean-callahan/
+- **Source:** Official team page at frontenac.com/team-member/sean-callahan/
+- **Notes:** Joined 2025. Focus: portfolio value creation and talent initiatives firmwide.
+
+### Newly Inferred Contacts (Data Aggregators)
+
+#### 4. Christopher W. Kersey - Havencrest Capital Management (Row 937)
+- **Title:** Founding Managing Partner
+- **Email:** ckersey@havencrest.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/christopher-kersey/
+- **Source:** ContactOut, team page havencrest.com
+- **Notes:** M.D., M.B.A. Founded 2018. Healthcare-focused lower middle market PE. Dallas-based.
+
+#### 5. Leigh Randall - Topspin Partners (Row 909)
+- **Title:** Managing Partner
+- **Email:** lrandall@topspincp.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/leigh-randall-80998/
+- **Source:** ZoomInfo pattern l***@topspincp.com, official team page topspincp.com
+- **Notes:** Co-Founder. 25+ years PE experience. Consumer products/services specialist. Mamaroneck, NY.
+
+#### 6. Rob Heyvaert - Motive Partners (Row 819)
+- **Title:** Founder & Managing Partner
+- **Email:** rheyvaert@motivepartners.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/rhmotivepartners/
+- **Source:** RocketReach/ZoomInfo pattern, official team page motivepartners.com
+- **Notes:** FinTech sector specialist. $1.5B+ raised. 150+ professionals. New York.
+
+#### 7. Tom Reardon - PSG Equity (Row 560)
+- **Title:** Managing Director
+- **Email:** treardon@psgequity.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/tom-reardon-1a7734/
+- **Source:** RocketReach pattern t******@psgequity.com, confirmed on team page
+- **Notes:** Boston-based software growth equity firm. Team page confirmed role.
+
+#### 8. Michael Moran - Brockway Moran & Partners (Row 732)
+- **Title:** Co-Founder & Managing Partner
+- **Email:** mmoran@brockwaymoran.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/michael-moran-93585625/
+- **Source:** ZoomInfo pattern, team page brockwaymoran.com/our-team/
+- **Notes:** 30+ years PE experience. Boca Raton, FL. Focus: middle market.
+
+#### 9. Stephen Brockway - Brockway Moran & Partners (Row 732)
+- **Title:** Co-Founder & Managing Partner
+- **Email:** sbrockway@brockwaymoran.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/stephen-brockway/
+- **Source:** Pattern inference, team page brockwaymoran.com/our-team/
+- **Notes:** 30+ years PE experience. Executive in Residence at Wake Forest. Boca Raton, FL.
+
+#### 10. Michael Duran - Mill Point Capital (Row 709)
+- **Title:** Founder & Managing Partner
+- **Email:** mduran@millpoint.com (inferred)
+- **LinkedIn:** https://www.linkedin.com/in/michael-duran/
+- **Source:** ZoomInfo pattern m***@millpoint.com, team page millpoint.com/team/
+- **Notes:** Founded Mill Point. Former Managing Director at Ripplewood Holdings. New York.
+
+### Additional Firms Researched (No Direct Contact Found)
+
+#### Keltic Financial Partners (Row 734)
+- **Status:** Limited online presence. Appears to be Tarrytown, NY-based. PitchBook profile exists.
+- **Notes:** May not be active PE firm or may be family office. No official website found.
+
+#### Wicks Group (Row 776)
+- **Firm:** wicksgroup.com | New York
+- **Notes:** Lower middle market PE. Founded 1989. Information, education, media sectors. No public individual emails.
+
 ## Time Investment
 - **Session 1:** ~45 minutes (15 firms)
 - **Session 2:** ~60 minutes (4 additional firms, 4 verified contacts)
-- **Total Firms Researched:** 19
-- **Total Verified Emails:** 6
-- **Sources Consulted:** 70+ web pages, press releases, firm websites, official PDFs
+- **Session 3:** ~50 minutes (10 contacts enriched across 8 firms, 3 verified)
+- **Total Firms Researched:** 29
+- **Total Verified Emails:** 9
+- **Total Inferred Emails:** 7
+- **Sources Consulted:** 100+ web pages, press releases, firm websites, official PDFs, data aggregators
 
 ---
-Generated: 2026-03-12 17:10 CST
+Generated: 2026-03-12 20:07 CST
