@@ -1,39 +1,60 @@
 # Thoma Bravo
 
-## Firm Overview
-- **Website**: https://www.thomabravo.com/
-- **Type**: Software-focused private equity (one of the largest)
-- **AUM**: $181+ billion
-- **HQ**: San Francisco, CA / Chicago, IL
-- **LinkedIn**: https://www.linkedin.com/company/thoma-bravo/
-- **Notable**: ~565 software/tech acquisitions representing ~$285B in enterprise value
+**Enrichment Date:** 2026-03-13  
+**Status:** Enriched  
+**AUM:** $130B+ (2023)  
+**Focus:** Enterprise software (exclusively)
 
-## Key Contact - Verified
-- **Name**: Orlando Bravo  
-- **Title**: Founder & Managing Partner
-- **LinkedIn**: https://www.linkedin.com/in/orlandobravo/
-- **Email**: (not publicly available - requires enrichment)
-- **Source**: Official Thoma Bravo team page
-- **Notes**: 
-  - Founder and managing partner
-  - Led Thoma Bravo's entry into software buyouts
-  - Built firm into largest software-focused investor globally
-  - Born and raised in Mayagüez, Puerto Rico
-  - Education: Brown University (B.S. Economics/Political Science, Phi Beta Kappa), Stanford Law (J.D.), Stanford GSB (MBA)
-  - Philanthropy: Bravo Family Foundation, $100M Rising Entrepreneurs Program (Puerto Rico)
-  - Active on X: @orlandobravotb
+## Key Contact
 
-## Outreach Notes
-- High-profile contact (billionaire, frequent media)
-- May be best approached through:
-  - Thoma Bravo portfolio operations team
-  - Referral/introduction from portfolio company
-  - LinkedIn InMail with strong value prop
+- **Name:** Orlando Bravo
+- **Title:** Founder & Managing Partner
+- **Email:** obravo@thomabravo.com (pattern from RocketReach o******@thomabravo.com)
+- **LinkedIn:** https://www.linkedin.com/in/orlandobravo/
+- **Source:** Official Thoma Bravo website + RocketReach
 
-## Research Status
-- ✅ Contact verified via official sources
-- ❌ Direct email not publicly available
-- 📌 Next: Alternative contact routes or portfolio company introduction
+## Firm Details
 
-## Last Updated
-2026-03-05 (PE Enrichment Cron Run)
+- **Location:** San Francisco, Chicago, Miami
+- **Founded:** 1980 (as Golder Thoma & Co.), restructured to Thoma Bravo
+- **Website:** https://www.thomabravo.com
+- **Investment Focus:** Enterprise software exclusively
+- **AUM:** $130B+ (as of 2023)
+- **Reputation:** #1 enterprise software PE firm globally
+- **Managing Partners (6 total):**
+  - Seth Boro
+  - Orlando Bravo
+  - Scott Crabill
+  - Lee Mitchell
+  - Holden Spaht
+  - Carl Thoma (original founder)
+
+## Research Notes
+
+- Founder & Managing Partner confirmed via:
+  - Official website: https://www.thomabravo.com/team/orlando-bravo
+  - Wikipedia: "Thoma Bravo is led by managing partners Seth Boro, Orlando Bravo, Scott Crabill, Lee Mitchell, Holden Spaht and Carl Thoma"
+  - RocketReach email verification: o******@thomabravo.com
+- Orlando Bravo is one of the most prominent PE investors in software globally
+- Based in Miami
+- Email pattern @thomabravo.com verified
+
+## Background
+
+- **Legacy:** Successor to Golder Thoma & Co. (founded 1980 by Stanley Golder and Carl Thoma)
+- **Focus Evolution:** Became exclusively focused on enterprise software acquisitions
+- **Investment Philosophy:** Active acquirer of enterprise software companies, known for operational improvements and strategic add-ons
+
+## Investment Profile
+
+- **Software focus:** Enterprise software, B2B SaaS, infrastructure software
+- **Deal size:** Mid-market to large-cap buyouts
+- **Strategy:** Buy-and-build, operational transformation
+- **Known for:** Particularly active in acquiring enterprise software companies
+
+## Next Steps
+
+- Direct email outreach to Orlando Bravo
+- Emphasize enterprise software/SaaS portfolio companies
+- Reference Thoma Bravo's $130B+ scale and software-exclusive focus
+- Highlight operational value-creation expertise
