@@ -9,24 +9,32 @@
 - **Status:** Enriched - 2026-03-05 ⚠️ IMPORTANT FINDING
 - **Tagline:** "People-Driven Private Equity"
 
-## KEY FINDING: Jacob Zodikoff
+## Verified Contacts (Apollo API - 2026-03-13)
 
-**CRITICAL INTEL:** Jacob Zodikoff was promoted to **Partner** at Alpine Investors in 2026 leadership promotions (announced November 2025). He is a REAL PERSON working at Alpine Investors, not a placeholder contact.
+### Primary Contact: Bill Allen - CFO
+- **Name:** Bill Allen
+- **Title:** Chief Financial Officer (promoted 2026)
+- **Email:** ballen@alpineinvestors.com ✓ verified
+- **Source:** Apollo API enrichment (2026-03-13)
+- **Status:** VERIFIED - Apollo email_status = "verified"
+- **Sheet Row:** 115
 
-### Verified Contact
-- **Name:** Jacob Zodikoff
-- **Title:** Partner (promoted 2026)
-- **Email:** Pattern likely jacob.zodikoff@alpineinvestors.com or jzodikoff@alpineinvestors.com
-- **Source:** Alpine Investors 2026 leadership promotions announcement (November 2025)
-- **LinkedIn:** Search "Jacob Zodikoff Alpine Investors"
-- **Status:** VERIFIED as real partner at Alpine
+### Additional Verified Contacts
+- **Will Chance** - Principal & CEO, Atlas
+  - Email: wchance@alpineinvestors.com ✓ verified
+  - Source: Apollo API (2026-03-13)
 
-### Other 2026 Promotions
-- **Bill Allen** - promoted to Chief Financial Officer
-- **Six Principal promotions** (names not specified in search results)
+- **Nora Davis** - CEO, Elevation
+  - Email: ndavis@alpineinvestors.com ✓ verified
+  - Source: Apollo API (2026-03-13)
+
+### Other 2026 Promotions (Historical Intel)
+- **Jacob Zodikoff** - promoted to Partner (2026)
+  - Source: Alpine Investors 2026 leadership promotions (November 2025)
+  - Note: Email pattern likely jacob.zodikoff@alpineinvestors.com or jzodikoff@alpineinvestors.com
 
 ### Founder & Leadership
-- **Graham Weaver** - Founder (listed in sheet as contact at row 115)
+- **Graham Weaver** - Founder
 
 ## Firm Profile
 People-driven private equity firm with focus on investing in exceptional people. Strong emphasis on talent development and "Force for Good" impact initiatives.
