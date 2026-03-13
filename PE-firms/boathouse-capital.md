@@ -27,7 +27,9 @@
 
 ### Leadership
 - **Bill Dyer** - Managing Partner
-  - Email pattern: bdyer@boathousecapital.com (RocketReach/Apollo.io verified pattern)
+  - **Email:** bill.dyer@boathousecapital.com (VERIFIED from official website team page + PDF)
+  - **LinkedIn:** https://www.linkedin.com/in/bill-dyer
+  - **Phone:** 610-977-2785
   - Location: Berwyn, PA
   - Background: Avid Duke basketball fan, 3 children
   

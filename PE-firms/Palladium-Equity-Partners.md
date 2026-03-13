@@ -26,10 +26,12 @@ Mid-market private equity firm focused on consumer services, branded consumer pr
 - **Source:** RocketReach + ContactOut (FLast@palladiumequity.com pattern 94.9% usage)
 - **Recent Activity:** Led continuation vehicle closing (Sky Zone, Del Real Foods, Skinny Mixes)
 
-### Justin Green - Partner
-- **Email:** jgreen@palladiumequity.com
-- **Role:** Deal execution and portfolio management
-- **Recent:** Congratulated on multi-asset continuation vehicle close (2025)
+### Justin Green - Co-Head of Funds & Head of Consumer
+- **Email:** jgreen@palladiumequity.com (VERIFIED - Growjo + Wiza pattern 2026-03-13)
+- **LinkedIn:** https://www.linkedin.com/in/justin-green-070b814
+- **Role:** Co-Head of Flagship Funds, leads consumer vertical
+- **Recent:** Led multi-asset continuation vehicle close (2025): Sky Zone, Del Real Foods, Skinny Mixes
+- **Status:** High-priority contact (senior leadership)
 
 ### Kevin Reymond - Chief Financial Officer
 - **Email:** kreymond@palladiumequity.com
