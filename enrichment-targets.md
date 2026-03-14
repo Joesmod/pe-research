@@ -1,39 +1,52 @@
-# PE Enrichment Targets - 2026-03-13 5:07 AM
+# PE Firms Needing Enrichment - 2026-03-13 21:37
 
-## High-Priority Targets (Empty Contact or Generic Email)
+## Criteria
+- Empty Contact Name OR
+- Generic email (info@, sales@, ir@, etc.) OR  
+- Status = "Research - No Email"
 
-### Need Both Name & Email
-1. **Sydecar** - http://www.sydecar.io - Has CEO name (Nik Talreja) but needs verification
-2. **Top Tier Capital Partners** - http://www.ttcp.com - Has David York info
-3. **Triton Pacific Capital Partners** - Has Asia Brumwell info
-4. **Village Global** - Has Anne Dwane info
-5. **BDA Partners** - http://www.bdapartners.com - Pham Phuoc listed but needs verification
+## High-Priority Targets
 
-### Need Direct Email (info@/sales@/generic)
-6. **Sydecar** - nik@sydecar.io listed - VERIFY
-7. **Bicycle Capital** - http://www.bicycle.capital - Shu Nyatta / shu@bicycle.capital - VERIFY
-8. **Black Dragon Capital** - Vineet Begwani / vbegwani@blackdragoncap.com - VERIFY
-9. **BlueWave Resource Partners** - Laura Danforth / laura@bluewaverp.com - VERIFY
-10. **Bruin Capital** - George Pyne / gpyne@bruincptl.com - VERIFY
+### Sagewind Capital
+- Co-Founder & CEO: Steve Lefkowitz
+- Status: Research - No Email
+- Website: sagewindcapital.com
 
-### Status: New - Unresearched (needs full research)
-11. **Burtch Works** - Jon Walker / jwalker@burtchworks.com
-12. **Butterfly Equity** - Dustin Beck / dustin@bfly.com
-13. **Callais Capital** - Harold Callais / harold.callais@callaiscapital.com
-14. **Centiva Capital** - Nicolas Vandeweerdt
-15. **Character Capital** - John Zeratsky
+### CIP Capital
+- Managing Director and COO contact needed
+- Status: Research - No Email
+- Domain issue: mvlak@cip-capital.com
 
-## Research Strategy
-- Apollo API for contact discovery
-- LinkedIn site searches
-- Company website team pages
-- Press releases and SEC filings
-- Conference speaker lists
-- Trade publication mentions
+### Patient Square Capital
+- Multiple contacts with inferred emails
+- Sam Saini - Head of Technology (INFERRED)
+- Ryan Peabody - Data Analytics Lead (INFERRED)
+- Karr Narula - Founding Partner, Head of Transformation (INFERRED)
 
-## Rules
-- ✅ ONLY use emails from official published sources
-- ❌ NEVER guess email patterns
-- ❌ NEVER hallucinate contact info
-- ✅ Note source in Notes column
-- ✅ Leave blank if not found
+### Endeavour Capital
+- Managing Partner: John von Schlegell
+- Email: jevs@endeavourcapital.com
+- Status: Enriched but marked as "DEAD END on email"
+
+### Diversis Capital
+- Managing Partner: Kevin Ma (deeply technical)
+- Status: Research - No Email
+- Notes: Website partially broken
+
+### Aurora Capital Partners
+- Partner: Gerald Parsky
+- Status: Research
+- No email found
+
+### Abry Partners
+- Chair: Jay Grossman
+- Status: Research
+- No email found
+
+### Pamlico Capital
+- No contact
+- Status: Research
+
+### Trivest Partners
+- No contact
+- Status: Research
