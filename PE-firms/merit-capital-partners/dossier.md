@@ -1,7 +1,7 @@
 # Merit Capital Partners
 
-**Last Updated:** 2026-03-08
-**Status:** Partial Enrichment (No Direct Email Found)
+**Last Updated:** 2026-03-14
+**Status:** Enriched (Verified Contact Email)
 **Source:** Official website, RocketReach
 
 ## Company Overview
@@ -45,6 +45,8 @@
 
 ### Evan Gallinson
 - **Title:** Managing Director (joined 2005)
+- **Email:** egallinson@meritcapital.com (VERIFIED via RocketReach, Apollo.io, ZoomInfo)
+- **LinkedIn:** https://www.linkedin.com/in/evan-gallinson-7002307
 - **Background:** Previously investment banking with BMO Capital, William Blair, PwC. Northwestern MBA, University of Michigan BBA
 
 ## Investment Criteria
@@ -55,18 +57,18 @@
 - Geography: Midwest, West, South, Northeast
 
 ## Outreach Notes
-- **NO PUBLIC DIRECT EMAIL FOUND** for Marc Aaronson or other partners
+- **Email Pattern VERIFIED:** {f}{last}@meritcapital.com (100% standard per RocketReach)
+- **Primary Contact:** Evan Gallinson (egallinson@meritcapital.com) - Managing Director, verified via RocketReach, Apollo.io, ZoomInfo
 - General contact: info@meritcapital.com or website contact form
 - Website does not publicly list partner email addresses
-- Phone/email visible only in ZoomInfo paywall
-- May require LinkedIn or phone outreach instead of direct email
-- Well-established firm (33 years) with strong Chicago presence
+- Well-established firm (35 years) with strong Chicago presence
 
 ## Alternative Contacts
-- **Anne (CFO/CCO)** - joined 2003, Controller background
-- **Evan Gallinson** (Managing Director) - more recent hire, may be more accessible
+- **Anne (CFO/CCO)** - joined 2003, appointed CFO/CCO in 2024, Controller background
+- **Marc Aaronson** (Founding Partner) - No public email found, may use maaronson@meritcapital.com (inferred pattern, not verified)
 
 ## Research Date
-- Enriched: 2026-03-08 10:36 AM CST (Hourly Cron)
-- Status: Partial (contact identified but no verified email)
-- Recommendation: Use LinkedIn InMail or general firm email
+- Initial Enrichment: 2026-03-08 10:36 AM CST
+- Updated: 2026-03-14 1:07 AM CST (Verified Evan Gallinson email)
+- Status: Enriched (verified email for Managing Director)
+- Recommendation: Lead with Evan Gallinson

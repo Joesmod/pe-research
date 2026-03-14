@@ -26,8 +26,8 @@
 
 **Jane C. Ingalls**  
 - **Title:** President, Chief Operating Officer  
-- **Email:** jingalls@bowrivercapital.com (inferred pattern)  
-- **LinkedIn:** Via team page  
+- **Email:** ingalls@bowrivercapital.com (VERIFIED via RocketReach + team page)  
+- **LinkedIn:** https://www.linkedin.com/in/jane-ingalls  
 - **Location:** Denver, CO
 
 **Gaurav Sharma**  
@@ -100,7 +100,8 @@ Bow River Capital is a Denver-based alternative asset manager with ~$2.5B+ in as
 
 ## Research Notes
 
-- Email pattern confirmed: [first initial][last name]@bowrivercapital.com
+- Email pattern VERIFIED: [last]@bowrivercapital.com (94.6% standard per RocketReach 2026-03-14)
+- Jane Ingalls email CONFIRMED: ingalls@bowrivercapital.com
 - General inquiry: info@bowrivercapital.com
 - Website: bowrivercapital.com
 - Full team list available at bowrivercapital.com/team
