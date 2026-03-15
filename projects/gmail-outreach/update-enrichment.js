@@ -1,84 +1,118 @@
 const { google } = require('googleapis');
 
-async function updateEnrichments() {
+async function updateSheet() {
   const auth = new google.auth.GoogleAuth({
     keyFile: 'service-account.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
-  
   const sheets = google.sheets({ version: 'v4', auth });
   const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
-  // Enrichments to update (row index is 1-based, first row is headers)
-  const updates = [
-    {
-      row: 759, // Long Ridge Partners
-      company: 'Long Ridge Equity Partners',
-      contactName: 'Jim Brown',
-      title: 'Founder & Managing Partner',
-      email: 'jbrown@long-ridge.com',
-      linkedIn: 'https://long-ridge.com/team/jim-brown/',
-      status: 'Enriched',
-      notes: 'Official team page. $1.75B AUM, financial/business tech focus. Also Kevin Bhatt (MP): kbhatt@long-ridge.com'
-    },
-    {
-      row: 757, // Kudu Investment Management
-      company: 'Kudu Investment Management, LLC',
-      contactName: 'Rob Jakacki',
-      title: 'Managing Partner, CEO, Co-CIO',
-      email: 'rjakacki@kuduinvestment.com',
-      linkedIn: 'https://www.kuduinvestment.com/our-team/',
-      status: 'Enriched',
-      notes: 'Official team page. GP stakes/alternative asset management.'
-    },
-    {
-      row: 764, // Merit Capital Partners
-      company: 'Merit Capital Partners',
-      contactName: 'Marc Aaronson',
-      title: 'Managing Partner (Founder)',
-      email: 'maaronson@meritcapital.com',
-      linkedIn: 'https://www.meritcapital.com/our-team/',
-      status: 'Enriched',
-      notes: 'Email format confirmed: [f][last]@meritcapital.com. $2.7B+ AUM, Chicago-based lower middle-market PE.'
-    },
-    {
-      row: 765, // Millennium Bridge Capital
-      company: 'Millennium Bridge Capital',
-      contactName: 'Brian Knitt',
-      title: 'Managing Director',
-      email: 'bknitt@mbclp.com',
-      linkedIn: 'https://www.millenniumbridge.com/team/',
-      status: 'Enriched',
-      notes: 'Email format: [f][last]@mbclp.com. Fund-of-funds/co-investment PE, Denver.'
-    }
-  ];
-  
-  // Prepare batch update
-  const data = updates.map(u => ({
-    range: `Sheet1!C${u.row}:I${u.row}`, // Columns C-I: Contact Name, Title, Email, LinkedIn, Status, Notes
-    values: [[u.contactName, u.title, u.email, u.linkedIn, u.status, u.notes]]
-  }));
-  
-  const batchUpdateRequest = {
+  // Read current sheet to find row numbers
+  const res = await sheets.spreadsheets.values.get({
     spreadsheetId,
-    resource: {
-      valueInputOption: 'RAW',
-      data: data
-    }
-  };
+    range: 'Sheet1!A:I',
+  });
   
-  try {
-    const result = await sheets.spreadsheets.values.batchUpdate(batchUpdateRequest);
-    console.log(JSON.stringify({
-      success: true,
-      updatedCells: result.data.totalUpdatedCells,
-      updatedRows: result.data.totalUpdatedRows,
-      firms: updates.map(u => u.company)
-    }, null, 2));
-  } catch (error) {
-    console.error('Error updating sheet:', error.message);
-    process.exit(1);
+  const rows = res.data.values;
+  const updates = [];
+  
+  // Find and update rows
+  for (let i = 0; i < rows.length; i++) {
+    const firmName = rows[i][0];
+    
+    // Evolution Credit Partners
+    if (firmName === 'Evolution Credit Partners') {
+      updates.push({
+        range: `Sheet1!B${i+1}:E${i+1}`,
+        values: [['Lisa Schwarzberg', 'Founding Partner, MD & COO', 'lschwarzberg@evolutioncreditpartners.com', 'https://www.linkedin.com/in/lisa-schwarzberg/']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      console.log(`Found Evolution Credit Partners at row ${i+1}`);
+    }
+    
+    // FTV Capital - update Arun Singh row
+    if (firmName === 'FTV Capital' && rows[i][2] === 'Arun Singh') {
+      updates.push({
+        range: `Sheet1!B${i+1}:E${i+1}`,
+        values: [['Brad Bernstein', 'Managing Partner', 'bbernstein@ftvcapital.com', 'https://www.linkedin.com/in/brad-bernstein-ftv/']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      console.log(`Found FTV Capital at row ${i+1}`);
+    }
+    
+    // Garden City Equity
+    if (firmName === 'Garden City Equity') {
+      updates.push({
+        range: `Sheet1!D${i+1}`,
+        values: [['mike@gardencityequity.com']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      console.log(`Found Garden City Equity at row ${i+1}`);
+    }
+    
+    // GiantLeap Capital
+    if (firmName === 'GiantLeap Capital') {
+      updates.push({
+        range: `Sheet1!D${i+1}`,
+        values: [['himanshu@giantleapcapital.com']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      console.log(`Found GiantLeap Capital at row ${i+1}`);
+    }
+    
+    // Graycliff Partners
+    if (firmName === 'Graycliff Partners') {
+      updates.push({
+        range: `Sheet1!D${i+1}`,
+        values: [['shindmarch@graycliffpartners.com']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      console.log(`Found Graycliff Partners at row ${i+1}`);
+    }
+    
+    // Hunter Point Capital
+    if (firmName === 'Hunter Point Capital') {
+      updates.push({
+        range: `Sheet1!B${i+1}:E${i+1}`,
+        values: [['Avshalom Kalichstein', 'CEO & Co-Founder', 'akalichstein@hunterpointcapital.com', 'https://www.linkedin.com/in/avshalom-kalichstein/']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      console.log(`Found Hunter Point Capital at row ${i+1}`);
+    }
+  }
+  
+  // Batch update
+  if (updates.length > 0) {
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId,
+      requestBody: {
+        data: updates,
+        valueInputOption: 'RAW',
+      },
+    });
+    console.log(`\nSuccessfully updated ${updates.length} cells across ${updates.length / 2} firms`);
+  } else {
+    console.log('No updates found');
   }
 }
 
-updateEnrichments().catch(console.error);
+updateSheet().catch(console.error);

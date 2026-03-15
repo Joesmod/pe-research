@@ -1,0 +1,90 @@
+[
+  {
+    "Company Name": "Aeris Partners",
+    "Contact Name": "David Joncas",
+    "Title": "Co-Founder & Managing Director, Technology Investment Banking",
+    "Email": "djoncas@aerispartners.com",
+    "Website": "https://www.aerispartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/david-joncas-206a0424/",
+    "Status": "Enriched",
+    "Notes": "Boston-based tech M&A firm. Kellogg MBA. Email pattern inferred from RocketReach (first initial + last name).",
+    "Source": "LinkedIn + RocketReach"
+  },
+  {
+    "Company Name": "Casa Verde Capital",
+    "Contact Name": "Karan Wadhera",
+    "Title": "Managing Partner",
+    "Email": "karan@casaverdecapital.com",
+    "Website": "https://casaverdecapital.com",
+    "LinkedIn": "https://www.linkedin.com/in/karan-wadhera/",
+    "Status": "Enriched",
+    "Notes": "LA-based cannabis/venture fund. VERIFIED email from ContactOut, Success.ai, RocketReach.",
+    "Source": "Multiple sources - VERIFIED"
+  },
+  {
+    "Company Name": "Harvest Partners",
+    "Contact Name": "James Mitchel",
+    "Title": "Partner",
+    "Email": "jmitchel@harvestpartners.com",
+    "Website": "http://www.harvestpartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/james-mitchel-3bb899b1/",
+    "Status": "Enriched",
+    "Notes": "NYC private equity. Wharton MBA. Prior Moelis experience. Email pattern from ZoomInfo (first initial + last).",
+    "Source": "LinkedIn + ZoomInfo"
+  },
+  {
+    "Company Name": "New Mountain Capital",
+    "Contact Name": "Brian Murphy",
+    "Title": "Managing Director",
+    "Email": "bmurphy@newmountaincapital.com",
+    "Website": "https://www.newmountaincapital.com",
+    "LinkedIn": "https://www.linkedin.com/in/brian-murphy-36914b5b/",
+    "Status": "Enriched",
+    "Notes": "Major mid-market PE firm. Recent Thoughtful AI investment. Email pattern from RocketReach/SignalHire/Apollo.",
+    "Source": "LinkedIn + RocketReach + SignalHire"
+  },
+  {
+    "Company Name": "Charlesbank Capital Partners",
+    "Contact Name": "John Flannery",
+    "Title": "Managing Director, Co-Head Portfolio Resources Group",
+    "Email": "jflannery@charlesbank.com",
+    "Website": "https://www.charlesbank.com",
+    "LinkedIn": "https://www.linkedin.com/in/flanneryj/",
+    "Status": "Enriched",
+    "Notes": "Boston PE firm. Wharton MBA. Leads portfolio operations. VERIFIED email from ContactOut.",
+    "Source": "ContactOut + ZoomInfo - VERIFIED"
+  },
+  {
+    "Company Name": "Sentinel Capital Partners",
+    "Contact Name": "Erika Stanford",
+    "Title": "Principal",
+    "Email": "stanford@sentinelpartners.com",
+    "Website": "https://www.sentinelpartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/erika-stanford/",
+    "Status": "Enriched",
+    "Notes": "NYC midmarket PE. Recently promoted to Principal. VERIFIED email. Sentinel pattern: last@sentinelpartners.com",
+    "Source": "Success.ai + RocketReach - VERIFIED"
+  },
+  {
+    "Company Name": "Wynnchurch Capital",
+    "Contact Name": "Steve Welborn",
+    "Title": "Managing Director",
+    "Email": "swelborn@wynnchurch.com",
+    "Website": "https://www.wynnchurch.com",
+    "LinkedIn": "https://www.linkedin.com/in/steve-welborn-35b85714/",
+    "Status": "Enriched",
+    "Notes": "Chicago-based PE. St. Louis University business school. Email pattern from RocketReach (first initial + last).",
+    "Source": "LinkedIn + RocketReach"
+  },
+  {
+    "Company Name": "Riverside Partners",
+    "Contact Name": "David Del Papa",
+    "Title": "General Partner",
+    "Email": "ddelpapa@riversidepartners.com",
+    "Website": "https://riversidepartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/david-del-papa/",
+    "Status": "Enriched",
+    "Notes": "Boston PE, healthcare & tech focus. Harvard Business School. VERIFIED from official press release. Phone: (617) 351-2889",
+    "Source": "Company press release - VERIFIED"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "enriched": [],
+  "needsManual": [
+    {
+      "rowNum": 11,
+      "updated": false,
+      "row": [
+        "Blue Star Innovation Partners",
+        "https://bluestarinnovationpartners.com",
+        "Rob Wechsler",
+        "Founder &amp; Managing Partner",
+        "",
+        "https://bluestarinnovationpartners.com",
+        "https://www.linkedin.com/in/robert-wechsler-002bab2/",
+        "Software, Payments, Technology",
+        "No public email found on official team page",
+        "Enriched - Data Correction",
+        "2026-03-13",
+        "Apollo returned no results. Manual research needed. Check team page: https://bluestarinnovationpartners.com/team or https://bluestarinnovationpartners.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: NEEDS MANUAL RESEARCH. Manual research needed. Check: https://bluestarinnovationpartners.com/team, https://bluestarinnovationpartners.com/about/team, https://bluestarinnovationpartners.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: CORRECTED: Hurley Doddy is NOT with BSIP (he is with Emerging Capital Partners). Actual founders: Rob Wechsler (Founder/MP) and Dan Wechsler (CEO/MP). No direct emails on team page. Team page verified 2026-03-13. Serial entrepreneur, 4 exits, ran Chase Merchant Services.",
+        "https://github.com/Joesmod/pe-research/blob/master/PE-firms/thl-partners.md",
+        "6",
+        "",
+        ""
+      ],
+      "needsManual": true
+    },
+    {
+      "rowNum": 1064,
+      "updated": false,
+      "row": [
+        "The Riverside Company",
+        "https://www.riversidecompany.com",
+        "Stewart Kohl",
+        "Co-CEO",
+        "",
+        "https://www.riversidecompany.com",
+        "https://www.linkedin.com/company/the-riverside-company",
+        "Middle Market, Multi-Sector",
+        "Founded 1988. + AUM. 1000+ investments. Email pattern FLast@riversidecompany.com (LeadIQ verified). Co-CEOs: Stewart Kohl &amp; Béla Szigethy.",
+        "New - Needs Email Enrichment",
+        "2026-03-13",
+        "Apollo returned no results. Manual research needed. Check team page: https://www.riversidecompany.com/team or https://www.riversidecompany.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: NEEDS MANUAL RESEARCH. Manual research needed. Check: https://www.riversidecompany.com/team, https://www.riversidecompany.com/about/team, https://www.riversidecompany.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: Added 2026-03-13 cron. One of largest middle-market PE firms. Cleveland HQ. Global presence. Email format from LeadIQ, but no direct published emails found.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "needsManual": true
+    },
+    {
+      "rowNum": 1065,
+      "updated": false,
+      "row": [
+        "North Castle Partners",
+        "https://northcastlepartners.com",
+        "Jon Canarick",
+        "Managing Partner",
+        "",
+        "https://northcastlepartners.com",
+        "https://www.linkedin.com/in/jon-canarick-4340362/",
+        "Health, Wellness, Active Living",
+        "Founded 1997. Consumer products &amp; services promoting health/wellness. Jon Canarick has 20+ years consumer PE experience, joined 2001.",
+        "New - Needs Email Enrichment",
+        "2026-03-13",
+        "Apollo returned no results. Manual research needed. Check team page: https://northcastlepartners.com/team or https://northcastlepartners.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: NEEDS MANUAL RESEARCH. Manual research needed. Check: https://northcastlepartners.com/team, https://northcastlepartners.com/about/team, https://northcastlepartners.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: Added 2026-03-13 cron. Greenwich, CT. Founder: Chip Baird. RocketReach shows Gmail address only (not corporate). Need to verify corporate email pattern.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "needsManual": true
+    },
+    {
+      "rowNum": 1066,
+      "updated": false,
+      "row": [
+        "Genstar Capital",
+        "https://www.gencap.com",
+        "",
+        "",
+        "",
+        "https://www.gencap.com",
+        "https://www.linkedin.com/company/genstar-capital",
+        "Financial Services, Software, Healthcare, Industrials",
+        "Founded 1988.  AUM. 30+ years investing. Sector-driven approach. San Francisco &amp; New York offices.",
+        "New - Needs Contact Research",
+        "2026-03-13",
+        "Apollo returned no results. Manual research needed. Check team page: https://www.gencap.com/team or https://www.gencap.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: NEEDS MANUAL RESEARCH. Manual research needed. Check: https://www.gencap.com/team, https://www.gencap.com/about/team, https://www.gencap.com/leadership [Checked: 2026-03-13 2:37 AM cron] | Previous: Added 2026-03-13 cron. Leading mid-market PE firm. Need to identify managing partner and email contact.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "needsManual": true
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,1 @@
+{"error":"API key must be passed in the X-Api-Key header for security reasons. Refer to the documentation for more details: https://docs.apollo.io/docs/test-api-key","error_code":"INVALID_API_KEY_LOCATION"}

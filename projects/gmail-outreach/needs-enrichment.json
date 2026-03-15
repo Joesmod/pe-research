@@ -1,0 +1,642 @@
+[
+  {
+    "rowIndex": 9,
+    "firmName": "https://www.aerispartners.com",
+    "currentTitle": "Brandon White",
+    "currentContact": "",
+    "currentEmail": "info@aerispartners.com",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 117,
+    "firmName": "https://www.kelticfp.com",
+    "currentTitle": "Steve Fischer",
+    "currentContact": "Partner",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/in/steve-fischer-86579415"
+  },
+  {
+    "rowIndex": 388,
+    "firmName": "http://www.aerispartners.com",
+    "currentTitle": "",
+    "currentContact": "",
+    "currentEmail": "info@aerispartners.com",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 390,
+    "firmName": "http://www.apexservicepartners.com",
+    "currentTitle": "",
+    "currentContact": "",
+    "currentEmail": "info@apexservicepartners.com",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 393,
+    "firmName": "http://www.bespokepartners.com",
+    "currentTitle": "",
+    "currentContact": "",
+    "currentEmail": "leadercommunity@bespokepartners.com",
+    "needsContact": true,
+    "needsEmail": false,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 620,
+    "firmName": "http://www.hrcap.com",
+    "currentTitle": "Andrew Sungsoo Kim",
+    "currentContact": "President & CEO",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/in/andrew-sungsoo-kim-377899a/"
+  },
+  {
+    "rowIndex": 621,
+    "firmName": "http://www.henkelsp.com",
+    "currentTitle": "Eleni Henkel",
+    "currentContact": "Founder and Partner",
+    "currentEmail": "info@henkelsp.com",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/in/elenihenkel/"
+  },
+  {
+    "rowIndex": 626,
+    "firmName": "http://www.jettcapital.com",
+    "currentTitle": "Sam Grauer",
+    "currentContact": "Partner",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/in/sam-grauer-4519606/"
+  },
+  {
+    "rowIndex": 630,
+    "firmName": "http://www.kinectcapital.org",
+    "currentTitle": "Trent Christensen",
+    "currentContact": "CEO and President",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/kinectcapital"
+  },
+  {
+    "rowIndex": 635,
+    "firmName": "http://www.loeb.nyc",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "Chief Investment Officer, Credit President",
+    "currentEmail": "info@midoceanpartners.com",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.midoceanpartners.com/people"
+  },
+  {
+    "rowIndex": 654,
+    "firmName": "http://www.odysseysearchpartners.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/odysseysearchpartners"
+  },
+  {
+    "rowIndex": 670,
+    "firmName": "http://www.scaleviewpartners.com",
+    "currentTitle": "ScaleView Partners",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/in/snodgrass/"
+  },
+  {
+    "rowIndex": 682,
+    "firmName": "http://www.tapadvisors.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "Founding Partner",
+    "currentEmail": "info@tapadvisors.com",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/in/karim-tabet-75352823/"
+  },
+  {
+    "rowIndex": 687,
+    "firmName": "http://www.valiantcapital.com",
+    "currentTitle": "Christopher R. Hansen",
+    "currentContact": "CEO, President, Founding Partner",
+    "currentEmail": "contact@valiantcapital.com",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://en.wikipedia.org/wiki/Chris_R._Hansen"
+  },
+  {
+    "rowIndex": 688,
+    "firmName": "http://www.vcm.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "Chairman & CEO",
+    "currentEmail": "ir@vcm.com",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/company/victory-capital/"
+  },
+  {
+    "rowIndex": 690,
+    "firmName": "http://www.wallstreetoasis.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/wall-street-oasis"
+  },
+  {
+    "rowIndex": 691,
+    "firmName": "http://www.wallstreetprep.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/wall-street-prep"
+  },
+  {
+    "rowIndex": 692,
+    "firmName": "http://www.wefunder.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/wefunder"
+  },
+  {
+    "rowIndex": 699,
+    "firmName": "http://www.altaparkcapital.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/alta-park-capital"
+  },
+  {
+    "rowIndex": 704,
+    "firmName": "http://www.apercen.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/apercen-partners"
+  },
+  {
+    "rowIndex": 708,
+    "firmName": "http://www.arrowmarkpartners.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/arrowmarkpartners"
+  },
+  {
+    "rowIndex": 719,
+    "firmName": "http://www.capitalallocators.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/capital-allocators"
+  },
+  {
+    "rowIndex": 724,
+    "firmName": "http://www.carmelcapitalpartners.com",
+    "currentTitle": "",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/carmelcapitalpartners"
+  },
+  {
+    "rowIndex": 737,
+    "firmName": "http://www.dspny.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/dynamics-search-partners"
+  },
+  {
+    "rowIndex": 741,
+    "firmName": "http://www.essexinvest.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/essex-investment-management"
+  },
+  {
+    "rowIndex": 744,
+    "firmName": "http://www.funden.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/funden"
+  },
+  {
+    "rowIndex": 753,
+    "firmName": "http://www.ilpa.org",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/institutional-limited-partners-association"
+  },
+  {
+    "rowIndex": 754,
+    "firmName": "http://www.im.partners",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/impintelligence"
+  },
+  {
+    "rowIndex": 756,
+    "firmName": "http://www.koinzcapital.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/koinzcapital"
+  },
+  {
+    "rowIndex": 770,
+    "firmName": "http://www.obra.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/obracapital"
+  },
+  {
+    "rowIndex": 773,
+    "firmName": "http://www.pathwaycapital.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/pathway-capital-management"
+  },
+  {
+    "rowIndex": 779,
+    "firmName": "http://www.quakecapital.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/quake-vc"
+  },
+  {
+    "rowIndex": 801,
+    "firmName": "http://www.tennenbaumcapital.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/tennenbaum-capital-partners-llc"
+  },
+  {
+    "rowIndex": 803,
+    "firmName": "http://www.tscmllc.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/timessquare-capital-management-llc"
+  },
+  {
+    "rowIndex": 804,
+    "firmName": "http://www.trianpartners.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/trian-fund-management-l-p-"
+  },
+  {
+    "rowIndex": 805,
+    "firmName": "http://www.trinitycapital.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/trinity-capital-inc"
+  },
+  {
+    "rowIndex": 807,
+    "firmName": "http://www.triplepointcapital.com",
+    "currentTitle": "Jim Labe",
+    "currentContact": "CEO",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 808,
+    "firmName": "http://www.kfpefund.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/unc-kenan-flagler-private-equity-fund"
+  },
+  {
+    "rowIndex": 816,
+    "firmName": "http://www.414c.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 817,
+    "firmName": "http://www.777part.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/777partners"
+  },
+  {
+    "rowIndex": 819,
+    "firmName": "http://www.accelerize360.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 822,
+    "firmName": "http://www.aduroadvisors.com",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "http://www.linkedin.com/company/aduro-advisors"
+  },
+  {
+    "rowIndex": 823,
+    "firmName": "http://www.aecadvisors.com",
+    "currentTitle": "Not PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 824,
+    "firmName": "http://www.affinity.co",
+    "currentTitle": "Not PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 826,
+    "firmName": "http://www.alarisearch.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 827,
+    "firmName": "http://www.alchemistx.net",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 829,
+    "firmName": "http://www.alkymi.io",
+    "currentTitle": "Not PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 830,
+    "firmName": "http://www.allraise.org",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 831,
+    "firmName": "http://www.allvuesystems.com",
+    "currentTitle": "Not PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 834,
+    "firmName": "http://www.arcisgolf.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 837,
+    "firmName": "http://www.ascensionadvisory.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 838,
+    "firmName": "http://www.atlantatechvillage.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 840,
+    "firmName": "http://www.atlassearchllc.com",
+    "currentTitle": "Not a PE Firm",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 850,
+    "firmName": "John Hatherly",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "jhatherly@wynnchurch.com",
+    "needsContact": true,
+    "needsEmail": false,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 853,
+    "firmName": "Karson Chang",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "kchang@peakrockcapital.com",
+    "needsContact": true,
+    "needsEmail": false,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 863,
+    "firmName": "Vinay Kashyap",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "vinay@mainsailpartners.com",
+    "needsContact": true,
+    "needsEmail": false,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 869,
+    "firmName": "Sunny Vanderbeck",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "svanderbeck@satoricapital.com",
+    "needsContact": true,
+    "needsEmail": false,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 871,
+    "firmName": "Willie E. Woods",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "wwoods@icvpartners.com",
+    "needsContact": true,
+    "needsEmail": false,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 908,
+    "firmName": "",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 909,
+    "firmName": "",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 910,
+    "firmName": "",
+    "currentTitle": "Jacob Zodikoff",
+    "currentContact": "",
+    "currentEmail": "",
+    "needsContact": true,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 914,
+    "firmName": "https://www.goodepartners.com/team/david",
+    "currentTitle": "David Oddi",
+    "currentContact": "Partner",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "Active"
+  },
+  {
+    "rowIndex": 915,
+    "firmName": "https://www.goodepartners.com/team/joe",
+    "currentTitle": "David Oddi",
+    "currentContact": "Partner",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "https://www.linkedin.com/company/goode-partners"
+  },
+  {
+    "rowIndex": 937,
+    "firmName": "https://www.riversidecompany.com",
+    "currentTitle": "Béla Szigethy",
+    "currentContact": "Founder & Partner",
+    "currentEmail": "",
+    "needsContact": false,
+    "needsEmail": true,
+    "status": "Active"
+  }
+]

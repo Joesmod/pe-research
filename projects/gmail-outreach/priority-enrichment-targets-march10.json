@@ -1,0 +1,11 @@
+{
+  "priority1": [],
+  "priority2": [],
+  "summary": {
+    "totalIssues": 72,
+    "noEmail": 0,
+    "genericEmail": 0,
+    "emptyContact": 0,
+    "mismatchedDomain": 72
+  }
+}

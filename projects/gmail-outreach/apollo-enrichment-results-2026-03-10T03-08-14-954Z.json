@@ -1,0 +1,86 @@
+[
+  {
+    "rowIndex": 988,
+    "firm": "Renovus Capital Partners",
+    "website": null,
+    "contactName": "",
+    "title": "CFO",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  },
+  {
+    "rowIndex": 989,
+    "firm": "Linsalata Capital Partners",
+    "website": null,
+    "contactName": "",
+    "title": "Partner / VP",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  },
+  {
+    "rowIndex": 990,
+    "firm": "High Road Capital Partners",
+    "website": null,
+    "contactName": "",
+    "title": "Partner",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  },
+  {
+    "rowIndex": 991,
+    "firm": "Pharos Capital Group",
+    "website": null,
+    "contactName": "",
+    "title": "Vice President",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  },
+  {
+    "rowIndex": 992,
+    "firm": "Shoreview Capital",
+    "website": null,
+    "contactName": "",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  },
+  {
+    "rowIndex": 635,
+    "firm": "Loeb.nyc",
+    "website": "http://www.loeb.nyc",
+    "contactName": "",
+    "title": "Vice President of Finance",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  },
+  {
+    "rowIndex": 763,
+    "firm": "Mercury Fund",
+    "website": "http://www.mercuryfund.com",
+    "contactName": "",
+    "title": "CFO",
+    "email": "",
+    "linkedIn": "",
+    "status": "Enriched",
+    "source": "Apollo API",
+    "verificationStatus": "No Email"
+  }
+]

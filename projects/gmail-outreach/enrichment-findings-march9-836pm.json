@@ -1,0 +1,162 @@
+[
+  {
+    "company": "Keltic Financial Partners",
+    "website": "https://www.kelticfp.com",
+    "status": "PARTIAL",
+    "findings": {
+      "contacts_found": [
+        {
+          "name": "Steve Fischer",
+          "title": "Partner",
+          "source": "RocketReach",
+          "email": "NOT_VERIFIED",
+          "notes": "Found on RocketReach - need to verify email pattern"
+        }
+      ],
+      "notes": "Small team, appears to be financial services. Need manual verification."
+    }
+  },
+  {
+    "company": "Atlantic Street Capital",
+    "website": "https://www.atlanticstreetcapital.com",
+    "status": "GOOD_LEAD",
+    "findings": {
+      "contacts_found": [
+        {
+          "name": "Peter Shabecoff",
+          "title": "Managing Partner",
+          "source": "LinkedIn",
+          "linkedIn": "https://www.linkedin.com/in/shabecoff-peter-0617005/",
+          "email": "NOT_FOUND",
+          "notes": "Senior leader, prime target. Has team page at atlanticstreetcapital.com/team2022.php"
+        },
+        {
+          "name": "Timothy Lewis",
+          "title": "Partner",
+          "source": "Press Release atlanticstreetcapital.com",
+          "email": "NOT_FOUND"
+        }
+      ],
+      "notes": "Operationally focused PE firm, lower middle market. Team page exists but emails not published."
+    }
+  },
+  {
+    "company": "Apercen Partners LLC",
+    "website": "http://www.apercen.com",
+    "status": "CONTACTS_FOUND",
+    "findings": {
+      "contacts_found": [
+        {
+          "name": "Stephanie Mazepa",
+          "title": "General Counsel",
+          "source": "RocketReach, ZoomInfo",
+          "email": "PATTERN_IDENTIFIED_NOT_VERIFIED",
+          "notes": "Email pattern appears to be firstinitial+lastname@apercen.com but NOT VERIFIED from official source"
+        },
+        {
+          "name": "Vivian Chang",
+          "title": "Senior Vice President FOS",
+          "source": "RocketReach, ZoomInfo",
+          "email": "PATTERN_IDENTIFIED_NOT_VERIFIED"
+        },
+        {
+          "name": "Joelle Lyons",
+          "title": "HR Director",
+          "source": "RocketReach, ZoomInfo, LinkedIn",
+          "email": "PATTERN_IDENTIFIED_NOT_VERIFIED"
+        }
+      ],
+      "notes": "Tax consulting firm for high net-worth individuals. Multiple senior contacts identified."
+    }
+  },
+  {
+    "company": "Carmel Capital Partners",
+    "website": "http://www.carmelcapitalpartners.com",
+    "status": "PHONE_ONLY",
+    "findings": {
+      "phone": "(858) 457-7544",
+      "contacts_found": [],
+      "notes": "San Diego based. ZoomInfo shows Silverman with 35+ years experience. Need deeper research on team page."
+    }
+  },
+  {
+    "company": "Essex Investment Management Company, LLC",
+    "website": "http://www.essexinvest.com",
+    "status": "GOOD_LEAD",
+    "findings": {
+      "phone": "617-342-3200",
+      "generic_email": "info@essexinvest.com",
+      "contacts_found": [
+        {
+          "name": "Nancy Prial",
+          "title": "Co-CEO and Senior Portfolio Manager",
+          "source": "LinkedIn",
+          "linkedIn": "https://www.linkedin.com/in/nancyprialcfa/",
+          "email": "NOT_FOUND",
+          "notes": "Prime target - Co-CEO level. CFA credential."
+        }
+      ],
+      "notes": "SEC registered investment adviser, growth equity portfolios for institutional clients. Boston based."
+    }
+  },
+  {
+    "company": "Girls Who Invest",
+    "website": "http://www.girlswhoinvest.org",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Non-profit organization. May not be appropriate target for PE outreach."
+  },
+  {
+    "company": "HSP - Henkel Search Partners",
+    "website": "http://www.henkelsp.com",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Executive search/recruiting firm. Not a PE firm - may not be appropriate target."
+  },
+  {
+    "company": "Kinect Capital",
+    "website": "http://www.kinectcapital.org",
+    "status": "NEEDS_RESEARCH",
+    "notes": ".org domain suggests non-profit. Verify if appropriate target."
+  },
+  {
+    "company": "Loeb.nyc",
+    "website": "http://www.loeb.nyc",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Unusual domain. Need to verify company type and relevance."
+  },
+  {
+    "company": "Odyssey Search Partners",
+    "website": "http://www.odysseysearchpartners.com",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Appears to be executive search firm. Verify if PE-related."
+  },
+  {
+    "company": "Capital Allocators",
+    "website": "http://www.capitalallocators.com",
+    "status": "NEEDS_RESEARCH",
+    "notes": "May be a podcast/media company rather than PE firm. Verify."
+  },
+  {
+    "company": "Dynamics Search Partners",
+    "website": "http://www.dspny.com",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Executive search firm. Likely not appropriate for PE outreach."
+  },
+  {
+    "company": "Funden",
+    "website": "http://www.funden.com",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Unknown company type. Needs research."
+  },
+  {
+    "company": "Institutional Limited Partners Association (ILPA)",
+    "website": "http://www.ilpa.org",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Industry association, not investment firm. Verify target appropriateness."
+  },
+  {
+    "company": "Investment Management Partners",
+    "website": "http://www.im.partners",
+    "status": "NEEDS_RESEARCH",
+    "notes": "Short domain. Need to verify company details and contacts."
+  }
+]

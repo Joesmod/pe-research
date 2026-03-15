@@ -1,0 +1,122 @@
+[
+  {
+    "rowIndex": 816,
+    "company": "414 Capital",
+    "contact": "",
+    "email": "",
+    "status": "M&A advisory and investment banking firm based in Mexico. Services PE firms but does not invest. Lindsey Wendler is MD.",
+    "reason": "no_contact"
+  },
+  {
+    "rowIndex": 763,
+    "company": "Mercury Fund",
+    "contact": "Blair Garrou",
+    "email": "blair@mercuryfund.com",
+    "status": "Enriched",
+    "reason": "generic_email"
+  },
+  {
+    "rowIndex": 9,
+    "company": "Aeris Partners",
+    "contact": "Brandon White",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Website down. Acquired by BlackRock in 2018 per LinkedIn/press coverage.",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 805,
+    "company": "Trinity Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Public BDC (NASDAQ: TRIN), venture debt/equipment financing focus. Not traditional mid-market PE.",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 807,
+    "company": "TriplePoint Capital",
+    "contact": "Jim Labe",
+    "email": "",
+    "status": "Equipment leasing and venture debt provider, not traditional PE. $9B+ in venture financing across 3,000+ companies.",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 819,
+    "company": "Accelerize 360",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 823,
+    "company": "AEC Advisors LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 824,
+    "company": "Affinity.co",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 826,
+    "company": "Alari Search, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 827,
+    "company": "AlchemistX",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 828,
+    "company": "ALCOR Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 829,
+    "company": "Alkymi",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 830,
+    "company": "All Raise",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  },
+  {
+    "rowIndex": 831,
+    "company": "Allvue Systems",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "no_email"
+  }
+]

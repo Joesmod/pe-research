@@ -1,0 +1,137 @@
+[
+  {
+    "rowNum": 5,
+    "company": "Regal Healthcare Capital Partners",
+    "contact": "Mike Ascione",
+    "email": "mascione@berkshirepartners.com",
+    "status": "Enriched",
+    "website": "http://www.berkshirepartners.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 7,
+    "company": "SDC Capital Partners",
+    "contact": "Abdul R. Hussein",
+    "email": "Co-Founder & Managing Partner",
+    "status": "Source: LinkedIn + VCSheet",
+    "website": "gjain@afore.vc",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 8,
+    "company": "Rockbridge Growth Equity, LLC",
+    "contact": "Joshua Liebow",
+    "email": "President & Founder",
+    "status": "Source: RocketReach + official website team page",
+    "website": "jconrad@agiscapital.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 12,
+    "company": "Casa Verde Capital",
+    "contact": "Karan Wadhera",
+    "email": "Founder & CEO",
+    "status": "Source: RocketReach + conference bios",
+    "website": "bgerstner@altimeter.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 15,
+    "company": "JLL Partners",
+    "contact": "Scott Anchin",
+    "email": "sanchin@hpspartners.com",
+    "status": "Enriched",
+    "website": "https://www.linkedin.com/in/scott-anchin",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 16,
+    "company": "Greater Sum Ventures",
+    "contact": "Sean Honey",
+    "email": "shoney@mainpostpartners.com",
+    "status": "Enriched",
+    "website": "",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 17,
+    "company": "Knox Capital",
+    "contact": "Barry Siadat",
+    "email": "Founder & Managing Partner",
+    "status": "Source: Emerging Manager Monthly directory",
+    "website": "djackson@authorcapital.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 19,
+    "company": "Palladium Equity Partners",
+    "contact": "Kenneth E. Aboussie, Jr.",
+    "email": "Co-Founder & Managing Partner",
+    "status": "Source: RocketReach + official team page",
+    "website": "sgardner@avenuecapital.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 20,
+    "company": "Charlesbank Capital Partners",
+    "contact": "Dominic Ang",
+    "email": "Managing Partner & Co-Founder",
+    "status": "Source: ContactOut + RocketReach",
+    "website": "ade@base10.vc",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 23,
+    "company": "HGGC",
+    "contact": "Kevin Schwartz",
+    "email": "Managing Director & Founder",
+    "status": "Source: RocketReach + official bio page",
+    "website": "godwyer@blackmorepartnersinc.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 26,
+    "company": "Incline Equity Partners",
+    "contact": "Andrew Weinstein",
+    "email": "Founder & CEO",
+    "status": "Source: ContactOut + ZoomInfo",
+    "website": "christopher@burchcreativecapital.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 30,
+    "company": "Sentinel Capital Partners",
+    "contact": "Josh Garrett",
+    "email": "garrett@sentinelpartners.com",
+    "status": "Enriched",
+    "website": "https://www.sentinelpartners.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 31,
+    "company": "Abry Partners",
+    "contact": "Jonathan Litinger",
+    "email": "Managing Partner",
+    "status": "Source: Apollo.io + official team page",
+    "website": "cgrigg@carouselcapital.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 46,
+    "company": "Motive Partners",
+    "contact": "Chris Williams",
+    "email": "chris.williams@motivepartners.com",
+    "status": "Enriched",
+    "website": "https://motivepartners.com",
+    "reason": "Bad email"
+  },
+  {
+    "rowNum": 48,
+    "company": "Riverside Partners",
+    "contact": "Steve Kaplan",
+    "email": "skaplan@riversidepartners.com",
+    "status": "Enriched",
+    "website": "https://riversidepartners.com",
+    "reason": "Bad email"
+  }
+]

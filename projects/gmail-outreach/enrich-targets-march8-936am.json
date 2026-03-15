@@ -1,0 +1,122 @@
+[
+  {
+    "rowIndex": 9,
+    "firm": "Aeris Partners",
+    "contactName": "Brandon White",
+    "email": "info@aerispartners.com",
+    "status": "Dead - M&A Advisory / Investment Bank",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 388,
+    "firm": "Aeris Partners",
+    "contactName": "",
+    "email": "info@aerispartners.com",
+    "status": "Dead - Investment Bank",
+    "reason": "Missing contact"
+  },
+  {
+    "rowIndex": 390,
+    "firm": "Apex Service Partners",
+    "contactName": "",
+    "email": "info@apexservicepartners.com",
+    "status": "Dead - Portfolio Company",
+    "reason": "Missing contact"
+  },
+  {
+    "rowIndex": 393,
+    "firm": "Bespoke Partners",
+    "contactName": "",
+    "email": "leadercommunity@bespokepartners.com",
+    "status": "Dead - Executive Search",
+    "reason": "Missing contact"
+  },
+  {
+    "rowIndex": 620,
+    "firm": "HRCap, Inc.",
+    "contactName": "Stella undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 621,
+    "firm": "HSP - Henkel Search Partners",
+    "contactName": "Alyson undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 626,
+    "firm": "Jett Capital Advisors",
+    "contactName": "Matt undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 630,
+    "firm": "Kinect Capital",
+    "contactName": "Danielle undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 654,
+    "firm": "Odyssey Search Partners",
+    "contactName": "Chris undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 670,
+    "firm": "ScaleView Partners",
+    "contactName": "ScaleView Partners",
+    "email": "",
+    "status": "Dead - Investment Bank",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 682,
+    "firm": "TAP Advisors",
+    "contactName": "David undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 687,
+    "firm": "Valiant Capital Management",
+    "contactName": "Matt undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 688,
+    "firm": "Victory Capital",
+    "contactName": "Denise undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 690,
+    "firm": "Wall Street Oasis",
+    "contactName": "Guus undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 691,
+    "firm": "Wall Street Prep",
+    "contactName": "Andrew undefined",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Missing email"
+  }
+]

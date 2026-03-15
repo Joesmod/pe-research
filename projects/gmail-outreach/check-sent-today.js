@@ -1,50 +1,80 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 
-function getAuth() {
-  const creds = JSON.parse(fs.readFileSync(__dirname + '/credentials.json'));
+async function checkSentToday() {
+  // Load OAuth2 credentials (same as send.js uses)
+  const creds = JSON.parse(fs.readFileSync('credentials.json'));
   const { client_id, client_secret } = creds.installed || creds.web;
   const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, 'http://localhost:3000/callback');
-  const tokens = JSON.parse(fs.readFileSync(__dirname + '/token.json'));
+  const tokens = JSON.parse(fs.readFileSync('token.json'));
   oAuth2Client.setCredentials(tokens);
-  return oAuth2Client;
-}
-
-async function run() {
-  const gmail = google.gmail({ version: 'v1', auth: getAuth() });
   
-  // Get today's date in YYYY/MM/DD format for Gmail query
-  const today = new Date();
-  const dateStr = `${today.getFullYear()}/${(today.getMonth()+1).toString().padStart(2,'0')}/${today.getDate().toString().padStart(2,'0')}`;
+  const gmail = google.gmail({ version: 'v1', auth: oAuth2Client });
   
-  console.log(`Searching for emails sent on ${dateStr}...`);
+  // Search for sent messages from today (March 9, 2026)
+  console.log('Checking sent mail for March 9, 2026...\n');
   
   const res = await gmail.users.messages.list({
     userId: 'me',
-    q: `in:sent after:${dateStr}`,
-    maxResults: 50
+    q: 'in:sent after:2026/03/09',
+    maxResults: 30
   });
   
-  const messages = res.data.messages || [];
-  console.log(`\nFound ${messages.length} sent emails today:\n`);
-  
-  for (const msg of messages) {
-    const full = await gmail.users.messages.get({
+  if (!res.data.messages || res.data.messages.length === 0) {
+    console.log('❌ No emails sent on March 9, 2026');
+    console.log('\nChecking last 10 sent messages...\n');
+    
+    const recentRes = await gmail.users.messages.list({
       userId: 'me',
-      id: msg.id,
-      format: 'full'
+      q: 'in:sent',
+      maxResults: 10
     });
     
-    const headers = full.data.payload.headers;
-    const to = headers.find(h => h.name === 'To')?.value || '';
-    const subject = headers.find(h => h.name === 'Subject')?.value || '';
-    const date = headers.find(h => h.name === 'Date')?.value || '';
-    
-    console.log(`To: ${to}`);
-    console.log(`Subject: ${subject}`);
-    console.log(`Date: ${date}`);
-    console.log('---');
+    for (const msg of recentRes.data.messages) {
+      const detail = await gmail.users.messages.get({
+        userId: 'me',
+        id: msg.id,
+        format: 'metadata',
+        metadataHeaders: ['To', 'Subject', 'Date']
+      });
+      
+      const headers = detail.data.payload.headers;
+      const to = headers.find(h => h.name === 'To')?.value;
+      const subject = headers.find(h => h.name === 'Subject')?.value;
+      const date = headers.find(h => h.name === 'Date')?.value;
+      
+      console.log(`${date}`);
+      console.log(`  To: ${to}`);
+      console.log(`  Subject: ${subject}\n`);
+    }
+    return;
   }
+  
+  console.log(`✅ Found ${res.data.messages.length} emails sent on March 9, 2026:\n`);
+  
+  const contacts = [];
+  
+  for (const msg of res.data.messages) {
+    const detail = await gmail.users.messages.get({
+      userId: 'me',
+      id: msg.id,
+      format: 'metadata',
+      metadataHeaders: ['To', 'Subject', 'Date']
+    });
+    
+    const headers = detail.data.payload.headers;
+    const to = headers.find(h => h.name === 'To')?.value;
+    const subject = headers.find(h => h.name === 'Subject')?.value;
+    const date = headers.find(h => h.name === 'Date')?.value;
+    
+    console.log(`${date}`);
+    console.log(`  To: ${to}`);
+    console.log(`  Subject: ${subject}\n`);
+    
+    contacts.push({ to, subject, date });
+  }
+  
+  console.log(`\nTotal sent today: ${contacts.length}`);
 }
 
-run().catch(console.error);
+checkSentToday().catch(console.error);

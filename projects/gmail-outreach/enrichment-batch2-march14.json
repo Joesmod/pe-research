@@ -1,0 +1,46 @@
+[
+  {
+    "row": 64,
+    "company": "American Securities",
+    "website": "https://www.american-securities.com",
+    "contact": "Michael Fisch",
+    "title": "Founder & CEO, Managing Partner",
+    "email": "mfisch@american-securities.com",
+    "linkedin": "https://www.linkedin.com/in/michaelfisch-americansecurities/",
+    "source": "RocketReach email pattern m******@american-securities.com; verified founder & CEO from american-securities.com/team. Founded 1994.",
+    "notes": "Pattern [first_initial][last]@american-securities.com. Top decision-maker. Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 78,
+    "company": "Lightyear Capital",
+    "website": "https://www.lycap.com",
+    "contact": "Natalie Ings",
+    "title": "Managing Director",
+    "email": "nings@lycap.com",
+    "linkedin": "https://www.lycap.com/bio/Natalie-Ings",
+    "source": "ZoomInfo email pattern i***@lycap.com; verified MD from lycap.com/bio. Chair of Audit Committee at Sidewalk Infrastructure Partners.",
+    "notes": "Pattern [first_initial][last]@lycap.com. Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 240,
+    "company": "JMI Equity",
+    "website": "https://www.jmi.com",
+    "contact": "Harry Gruner",
+    "title": "Co-Founder & Managing Partner",
+    "email": "hgruner@jmi.com",
+    "linkedin": "https://www.linkedin.com/in/harry-gruner-97b10826/",
+    "source": "Email pattern [first_initial][last]@jmi.com (90.1% RocketReach). Co-founded JMI 1992, 30+ years software PE experience.",
+    "notes": "Growth equity focused on software/AI. Baltimore HQ. Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 398,
+    "company": "CORE Industrial Partners",
+    "website": "https://coreipfund.com",
+    "contact": "John May",
+    "title": "Founder & Managing Partner",
+    "email": "john@coreipfund.com",
+    "linkedin": "https://coreipfund.com/team/",
+    "source": "Email pattern First@coreipfund.com (LeadIQ). Founder per official press releases. Oversees all firm activities.",
+    "notes": "$1.58B AUM, lower middle market industrial/manufacturing focus. Chicago-based. Enriched 2026-03-14 cron."
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-03-07T02:36:00-06:00",
+  "status": "PARTIAL_COMPLETION",
+  "environment_issue": "Node.js not available in execution context",
+  "approach": "Manual web research",
+  "firmsInvestigated": 3,
+  "decisionMakersIdentified": 5,
+  "emailsVerified": 0,
+  "sheetRowsUpdated": 0,
+  "findings": [
+    {
+      "company": "Sageview Capital",
+      "website": "https://www.sageviewcapital.com",
+      "contact": "Scott Stuart",
+      "title": "Co-Founder & Partner",
+      "email": null,
+      "linkedIn": "https://www.linkedin.com/in/scott-m-stuart/",
+      "source": "Official website team page",
+      "notes": "Email pattern found (s******@sageviewcapital.com) but not verified",
+      "needsApolloEnrichment": true
+    },
+    {
+      "company": "CCMP Capital",
+      "website": "https://www.ccmpcapital.com",
+      "contact": "Joe Scharfenberger",
+      "title": "Co-Managing Partner",
+      "email": null,
+      "emailRejected": "GrowthIR@ccmpcapital.com",
+      "rejectionReason": "Generic/functional IR email",
+      "linkedIn": null,
+      "source": "Official website contact page",
+      "needsApolloEnrichment": true
+    },
+    {
+      "company": "CCMP Capital",
+      "website": "https://www.ccmpcapital.com",
+      "contact": "Greg Brenneman",
+      "title": "Chairman",
+      "email": null,
+      "emailRejected": "ContactIR@ccmpcapital.com",
+      "rejectionReason": "Generic/functional IR email",
+      "linkedIn": null,
+      "source": "Official website contact page + Wikipedia",
+      "needsApolloEnrichment": true
+    },
+    {
+      "company": "Accel-KKR",
+      "website": "https://www.accel-kkr.com",
+      "contact": "Rob Palumbo",
+      "title": "Co-Managing Partner",
+      "email": null,
+      "linkedIn": "https://www.linkedin.com/in/rob-palumbo-canada/",
+      "source": "Official website team page",
+      "needsApolloEnrichment": true
+    },
+    {
+      "company": "Accel-KKR",
+      "website": "https://www.accel-kkr.com",
+      "contact": "Tom Barnds",
+      "title": "Co-Managing Partner",
+      "email": null,
+      "linkedIn": null,
+      "source": "Official website team page",
+      "needsApolloEnrichment": true
+    }
+  ],
+  "priorityFirmsForNextRun": [
+    "Riverwood Capital",
+    "Silver Oak Services Partners",
+    "STORY3 Capital Partners",
+    "Strategic Value Partners",
+    "Thrive Capital",
+    "American Industrial Partners",
+    "Wind Point Partners",
+    "Peak Rock Capital",
+    "Salt Creek Capital",
+    "Warren Equity Partners",
+    "Arsenal Capital Partners",
+    "Odyssey Investment Partners",
+    "Symphony Technology Group (STG)",
+    "Carousel Capital",
+    "The Riverside Company"
+  ],
+  "recommendations": [
+    "Fix Node.js availability in cron execution environment",
+    "Run apollo-enrich-cron.js with working environment",
+    "Process priorityFirmsForNextRun list",
+    "Use Apollo API for email verification",
+    "Update Google Sheet after email verification"
+  ],
+  "nextRun": "2026-03-07T03:36:00-06:00"
+}

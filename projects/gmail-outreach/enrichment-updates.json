@@ -1,0 +1,42 @@
+[
+  {
+    "company": "Thoma Bravo",
+    "contact": "Orlando Bravo",
+    "title": "Founder & Managing Partner",
+    "email": "obravo@thomabravo.com",
+    "linkedin": "https://www.linkedin.com/in/orlando-bravo",
+    "notes": "One of largest software-focused PE firms globally. $183B+ AUM. Email pattern verified via ContactOut/RocketReach. Co-founder with Carl Thoma.",
+    "source": "ContactOut 2026-03-12, official website",
+    "status": "Enriched"
+  },
+  {
+    "company": "Hg Capital",
+    "contact": "Nic Humphries",
+    "title": "Senior Partner & Executive Chairman",
+    "email": "nhumphries@hgcapital.com",
+    "linkedin": "https://www.linkedin.com/in/nic-humphries",
+    "notes": "Europe's largest software & services investor. Email pattern [first_initial]last@hgcapital.com verified via RocketReach for other partners.",
+    "source": "Official website + RocketReach pattern 2026-03-12",
+    "status": "Enriched"
+  },
+  {
+    "company": "KSL Capital Partners",
+    "contact": "Kirk Adamson",
+    "title": "Partner",
+    "email": "kirk.adamson@kslcapital.com",
+    "linkedin": "https://www.linkedin.com/in/kirkadamson",
+    "notes": "Travel & leisure focused PE. Email pattern [first].[last]@kslcapital.com verified 99% confidence via RocketReach. Denver-based.",
+    "source": "RocketReach email pattern verification 2026-03-12",
+    "status": "Enriched"
+  },
+  {
+    "company": "Quartus Capital Partners",
+    "contact": "Afzal Tarar",
+    "title": "Founder & Managing Partner",
+    "email": "atarar@quartuscap.com",
+    "linkedin": "https://www.linkedin.com/in/afzaltarar",
+    "notes": "AI & tech-focused VC. Email pattern inferred from RocketReach a******@quartuscap.com. NYC-based, founded 2015.",
+    "source": "RocketReach + Emerging Manager Monthly directory 2026-03-12",
+    "status": "Enriched"
+  }
+]

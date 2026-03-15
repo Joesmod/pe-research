@@ -1,0 +1,32 @@
+[
+  {
+    "row": 14,
+    "company": "ShoreView Industries",
+    "contactName": "Garrett Davis",
+    "title": "Vice President, Business Development",
+    "email": "garrett@shoreview.com",
+    "linkedIn": "https://www.linkedin.com/in/garrett-davis-78717328/",
+    "source": "Official company website - https://www.shoreview.com/team/garrett-davis/",
+    "status": "Enriched"
+  },
+  {
+    "row": 72,
+    "company": "Flyover Capital",
+    "contactName": "Keith Molzer",
+    "title": "Founding Managing Partner",
+    "email": "kmolzer@flyovercapital.com",
+    "linkedIn": "https://www.linkedin.com/in/keithmolzer/",
+    "source": "Official company website - https://www.flyovercapital.com/team/keith-molzer/",
+    "status": "Enriched"
+  },
+  {
+    "row": 92,
+    "company": "Webster Equity Partners",
+    "contactName": "David Malm",
+    "title": "Managing Partner",
+    "email": "dmalm@websterequitypartners.com",
+    "linkedIn": "https://www.linkedin.com/in/david-malm/",
+    "source": "Official company website - https://websterequitypartners.com/our-team/david-malm/",
+    "status": "Enriched"
+  }
+]

@@ -1,58 +1,86 @@
-const fs = require('fs');
+const { google } = require('googleapis');
 
-const data = JSON.parse(fs.readFileSync('_sheet1_dump.json', 'utf-8'));
-const headers = data[0];
-const rows = data.slice(1);
-
-console.log('Finding firms needing enrichment...\n');
-
-const needsEnrichment = [];
-
-rows.forEach((row, idx) => {
-  const company = row[0] || '';
-  const contactName = row[1] || '';
-  const title = row[2] || '';
-  const email = row[3] || '';
-  const website = row[4] || '';
-  const status = row[8] || '';
+async function findTargets() {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+  });
   
-  // Skip if already contacted
-  if (status === 'Contacted') return;
+  const sheets = google.sheets({ version: 'v4', auth });
+  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
-  // Check if needs enrichment
-  const emptyContact = !contactName || contactName.trim() === '';
-  const genericEmail = email && (
-    email.startsWith('info@') || 
-    email.startsWith('sales@') || 
-    email.startsWith('ir@') ||
-    email.startsWith('contact@') ||
-    email.startsWith('investor@')
-  );
+  const response = await sheets.spreadsheets.values.get({
+    spreadsheetId,
+    range: 'Sheet1!A:M'
+  });
   
-  if (emptyContact || genericEmail) {
-    needsEnrichment.push({
-      rowIndex: idx + 2, // +2 because: 1 for header, 1 for 1-based indexing
-      company,
-      contactName,
-      title,
-      email,
-      website,
-      status,
-      reason: emptyContact ? 'Empty contact' : 'Generic email'
-    });
+  const rows = response.data.values;
+  if (!rows || rows.length === 0) {
+    console.log('No data found');
+    return;
   }
-});
+  
+  console.log('=== ACTIVE FIRMS NEEDING ENRICHMENT ===\n');
+  let count = 0;
+  const targets = [];
+  
+  for (let i = 1; i < rows.length; i++) {
+    const row = rows[i];
+    const company = row[0] || '';
+    const contact = row[2] || '';
+    const title = row[3] || '';
+    const email = row[4] || '';
+    const website = row[5] || '';
+    const linkedin = row[6] || '';
+    const status = row[9] || '';
+    const notes = row[11] || '';
+    
+    // Skip Dead status
+    if (status.toLowerCase().includes('dead')) continue;
+    
+    // Skip if already enriched with a contact
+    if (status.toLowerCase().includes('enriched') && contact && email && !email.includes('info@') && !email.includes('sales@') && !email.includes('ir@') && !email.includes('contact@')) {
+      continue;
+    }
+    
+    // Check if needs enrichment
+    const hasEmptyContact = !contact || contact.trim() === '';
+    const hasGenericEmail = email && (email.includes('info@') || email.includes('sales@') || email.includes('ir@') || email.includes('contact@'));
+    const hasNoEmail = !email || email.trim() === '';
+    
+    if ((hasEmptyContact || hasGenericEmail || hasNoEmail) && count < 15) {
+      const target = {
+        row: i + 1,
+        company,
+        contact,
+        title,
+        email,
+        website,
+        linkedin,
+        status,
+        notes
+      };
+      
+      targets.push(target);
+      
+      console.log(`Row ${i + 1}: ${company}`);
+      console.log(`  Contact: ${contact || 'EMPTY'}`);
+      console.log(`  Title: ${title || 'EMPTY'}`);
+      console.log(`  Email: ${email || 'EMPTY'}`);
+      console.log(`  Website: ${website || 'EMPTY'}`);
+      console.log(`  LinkedIn: ${linkedin || 'EMPTY'}`);
+      console.log(`  Status: ${status || 'EMPTY'}`);
+      console.log('');
+      count++;
+    }
+  }
+  
+  console.log(`\nTotal active firms needing enrichment: ${count}`);
+  console.log('\n=== SAVING TO targets.json ===');
+  
+  const fs = require('fs');
+  fs.writeFileSync('enrichment-targets.json', JSON.stringify(targets, null, 2));
+  console.log('Saved to enrichment-targets.json');
+}
 
-console.log(`Found ${needsEnrichment.length} firms needing enrichment:\n`);
-
-needsEnrichment.slice(0, 20).forEach(firm => {
-  console.log(`Row ${firm.rowIndex}: ${firm.company}`);
-  console.log(`  Current contact: ${firm.contactName || '(empty)'}`);
-  console.log(`  Current email: ${firm.email || '(empty)'}`);
-  console.log(`  Website: ${firm.website}`);
-  console.log(`  Reason: ${firm.reason}`);
-  console.log('');
-});
-
-fs.writeFileSync('_enrichment_targets.json', JSON.stringify(needsEnrichment, null, 2));
-console.log(`✅ Saved ${needsEnrichment.length} targets to _enrichment_targets.json`);
+findTargets().catch(console.error);

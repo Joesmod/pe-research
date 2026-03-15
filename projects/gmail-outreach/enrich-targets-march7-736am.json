@@ -1,0 +1,137 @@
+[
+  {
+    "rowIndex": 116,
+    "companyName": "Keltic Financial Partners",
+    "contactName": "Steve Fischer",
+    "email": "",
+    "website": "https://www.kelticfp.com",
+    "status": "Dead",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 619,
+    "companyName": "HRCap, Inc.",
+    "contactName": "Andrew Sungsoo Kim",
+    "email": "",
+    "website": "http://www.hrcap.com",
+    "status": "Dead",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 620,
+    "companyName": "HSP - Henkel Search Partners",
+    "contactName": "Eleni Henkel",
+    "email": "info@henkelsp.com",
+    "website": "https://www.henkelsp.com",
+    "status": "Dead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 625,
+    "companyName": "Jett Capital Advisors",
+    "contactName": "Sam Grauer",
+    "email": "",
+    "website": "http://www.jettcapital.com",
+    "status": "Dead",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 629,
+    "companyName": "Kinect Capital",
+    "contactName": "Trent Christensen",
+    "email": "",
+    "website": "http://www.kinectcapital.org",
+    "status": "Dead",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 634,
+    "companyName": "Loeb.nyc",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@midoceanpartners.com",
+    "website": "",
+    "status": "Dead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 653,
+    "companyName": "Odyssey Search Partners",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.odysseysearchpartners.com",
+    "status": "Dead",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 669,
+    "companyName": "ScaleView Partners",
+    "contactName": "Jay Snodgrass",
+    "email": "info@scaleviewpartners.com",
+    "website": "",
+    "status": "Dead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 681,
+    "companyName": "TAP Advisors",
+    "contactName": "Jacob Zodikoff",
+    "email": "info@tapadvisors.com",
+    "website": "http://www.tapadvisors.com",
+    "status": "Dead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 686,
+    "companyName": "Valiant Capital Management",
+    "contactName": "Christopher R. Hansen",
+    "email": "contact@valiantcapital.com",
+    "website": "http://www.valiantcapital.com",
+    "status": "Dead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 687,
+    "companyName": "Victory Capital",
+    "contactName": "Jacob Zodikoff",
+    "email": "ir@vcm.com",
+    "website": "http://www.vcm.com",
+    "status": "Dead",
+    "reason": "Generic email"
+  },
+  {
+    "rowIndex": 689,
+    "companyName": "Wall Street Oasis",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wallstreetoasis.com",
+    "status": "Dead - Financial careers website (not PE)",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 690,
+    "companyName": "Wall Street Prep",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wallstreetprep.com",
+    "status": "Dead - Training company (not PE)",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 691,
+    "companyName": "Wefunder",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.wefunder.com",
+    "status": "Dead - Crowdfunding platform (not PE)",
+    "reason": "No email"
+  },
+  {
+    "rowIndex": 698,
+    "companyName": "Alta Park Capital, LP",
+    "contactName": "Jacob Zodikoff",
+    "email": "",
+    "website": "http://www.altaparkcapital.com",
+    "status": "Dead - Hedge Fund",
+    "reason": "No email"
+  }
+]

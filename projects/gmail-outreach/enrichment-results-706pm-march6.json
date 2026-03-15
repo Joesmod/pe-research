@@ -1,0 +1,112 @@
+[
+  {
+    "rowIndex": 759,
+    "company": "Long Ridge Partners",
+    "contactName": "Jim Brown",
+    "title": "Founder & Managing Partner",
+    "email": "jbrown@long-ridge.com",
+    "linkedIn": "https://www.linkedin.com/in/jim-brown-98233/",
+    "source": "Long Ridge website (long-ridge.com/team/jim-brown/)",
+    "status": "Enriched",
+    "notes": "Verified email from official company website"
+  },
+  {
+    "rowIndex": 757,
+    "company": "Kudu Investment Management, LLC",
+    "contactName": "Rob Jakacki",
+    "title": "Managing Partner, CEO, Co-CIO",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/rob-jakacki-740a0950/",
+    "source": "Kudu website (kuduinvestment.com/our-team/)",
+    "status": "Partial",
+    "notes": "Name and title confirmed from company website. Email pattern rjakacki@kuduinvestment.com found in ContactOut (not official source)."
+  },
+  {
+    "rowIndex": 759,
+    "company": "Long Ridge Partners",
+    "contactName": "Kevin Bhatt",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/kevin-bhatt/",
+    "source": "Long Ridge website",
+    "status": "Partial",
+    "notes": "Name and title from company website. Email pattern kbhatt@long-ridge.com found in ZoomInfo/success.ai (not official source)."
+  },
+  {
+    "rowIndex": 766,
+    "company": "Newflow Partners",
+    "contactName": "Jason Levine",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedIn": "https://www.linkedin.com/in/jasonmlevine/",
+    "source": "Newflow website (newflow.partners/team/)",
+    "status": "Partial",
+    "notes": "Name and title from company website. Email pattern jlevine@newflowpartners.com suggested by ZoomInfo (not official source)."
+  },
+  {
+    "rowIndex": 757,
+    "company": "Kudu Investment Management, LLC",
+    "contactName": "Charlie Ruffel",
+    "title": "Managing Partner, Chairman",
+    "email": "",
+    "linkedIn": "",
+    "source": "Kudu website",
+    "status": "Partial",
+    "notes": "Senior executive, alternative contact for same firm."
+  },
+  {
+    "rowIndex": 755,
+    "company": "King Street Capital Management",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "source": "Team page exists but no individual contacts listed",
+    "status": "Needs Research",
+    "notes": "Large firm (260+ employees, 90+ investment professionals, 10 Partners). Team page at kingstreet.com/Team does not list individual names."
+  },
+  {
+    "rowIndex": 765,
+    "company": "Millennium Bridge Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "source": "Limited web presence",
+    "status": "Needs Research",
+    "notes": "Denver-based, founded 2003. No team page found. May need LinkedIn research."
+  },
+  {
+    "rowIndex": 764,
+    "company": "Merit Capital Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "source": "Website exists but no team page",
+    "status": "Needs Research",
+    "notes": "Website at meritcapital.com has no team/about page with contacts."
+  },
+  {
+    "rowIndex": 758,
+    "company": "Left Lane Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "source": "Team page blocked by consent wall",
+    "status": "Needs Research",
+    "notes": "Website leftlane.com has team page but requires cookie consent, blocking access."
+  },
+  {
+    "rowIndex": 756,
+    "company": "Koinz Capital",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedIn": "",
+    "source": "Limited information",
+    "status": "Needs Research",
+    "notes": "May not be traditional PE firm - appears to be advisor/investor network platform."
+  }
+]

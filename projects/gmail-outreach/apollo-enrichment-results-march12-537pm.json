@@ -1,0 +1,167 @@
+{
+  "Sverica Capital Management": {
+    "domain": "sverica.com",
+    "sheetRows": [
+      208,
+      894,
+      938,
+      1037,
+      1046,
+      1049
+    ],
+    "contacts": [
+      {
+        "name": "Jordan Richards",
+        "title": "Managing Partner",
+        "email": "jordan@sverica.com",
+        "linkedin": "http://www.linkedin.com/in/jordan-richards-9514b45",
+        "organization": "Sverica Capital Management",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Ryan Harstad",
+        "title": "Partner",
+        "email": "ryan@sverica.com",
+        "linkedin": "http://www.linkedin.com/in/ryan-harstad-86646a17",
+        "organization": "Sverica Capital Management",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Franklin Shieh",
+        "title": "Vice President",
+        "email": "franklin@sverica.com",
+        "linkedin": "http://www.linkedin.com/in/franklinshieh",
+        "organization": "Sverica Capital Management",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Cooper Crowe",
+        "title": "Vice President",
+        "email": "cooper@sverica.com",
+        "linkedin": "http://www.linkedin.com/in/cooper-crowe-cfa-aa62875b",
+        "organization": "Sverica Capital Management",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Greg Hylant",
+        "title": "Vice President",
+        "email": "ghylant@sverica.com",
+        "linkedin": "http://www.linkedin.com/in/greg-hylant-57094113",
+        "organization": "Sverica Capital Management",
+        "verified": true,
+        "source": "Apollo.io"
+      }
+    ]
+  },
+  "WindPoint Partners": {
+    "domain": "wppartners.com",
+    "sheetRows": [
+      220,
+      842
+    ],
+    "contacts": [
+      {
+        "name": "Konrad Salaber",
+        "title": "Managing Director",
+        "email": "kas@wppartners.com",
+        "linkedin": "http://www.linkedin.com/in/salaber",
+        "organization": "Wind Point Partners",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Joe Lawler",
+        "title": "Managing Director",
+        "email": "jcl@wppartners.com",
+        "linkedin": "http://www.linkedin.com/in/joe-lawler-1021239",
+        "organization": "Wind Point Partners",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Sam Burchell",
+        "title": "Vice President",
+        "email": "sburchell@wppartners.com",
+        "linkedin": "http://www.linkedin.com/in/sam-burchell-797b68b3",
+        "organization": "Wind Point Partners",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Jake Behringer",
+        "title": "Vice President",
+        "email": "jbehringer@wppartners.com",
+        "linkedin": "http://www.linkedin.com/in/jake-behringer-17179b58",
+        "organization": "Wind Point Partners",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Trish Gilbert",
+        "title": "Chief Talent Officer",
+        "email": "tgilbert@wppartners.com",
+        "linkedin": "http://www.linkedin.com/in/trishgilbert",
+        "organization": "Wind Point Partners",
+        "verified": true,
+        "source": "Apollo.io"
+      }
+    ]
+  },
+  "Mercury Fund": {
+    "domain": "mercuryfund.com",
+    "sheetRows": [
+      763
+    ],
+    "contacts": [
+      {
+        "name": "Laura Halaby",
+        "title": "Venture Partner",
+        "email": "laura@apatat.co",
+        "linkedin": "http://www.linkedin.com/in/lgh",
+        "organization": "Mercury Fund",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Heath Butler",
+        "title": "Partner",
+        "email": "heath@mercuryfund.com",
+        "linkedin": "http://www.linkedin.com/in/heathbutler",
+        "organization": "Mercury Fund",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Samantha Lewis",
+        "title": "Partner",
+        "email": "samantha@mercuryfund.com",
+        "linkedin": "http://www.linkedin.com/in/samanthajolewis",
+        "organization": "Mercury Fund",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Aziz Gilani",
+        "title": "Managing Director",
+        "email": "aziz@mercuryfund.com",
+        "linkedin": "http://www.linkedin.com/in/texasvc",
+        "organization": "Mercury Fund",
+        "verified": true,
+        "source": "Apollo.io"
+      },
+      {
+        "name": "Aileen Allen",
+        "title": "Venture Partner",
+        "email": "aileen@mercuryfund.com",
+        "linkedin": "http://www.linkedin.com/in/aileen-allen",
+        "organization": "Mercury Fund",
+        "verified": true,
+        "source": "Apollo.io"
+      }
+    ]
+  }
+}

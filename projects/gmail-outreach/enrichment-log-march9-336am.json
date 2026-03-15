@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-09T08:41:25.737Z",
+  "date": "2026-03-09",
+  "time": "03:36 AM CST",
+  "enrichments": 3,
+  "details": [
+    {
+      "firm": "Bow River Capital",
+      "contact": "Greg J. Hiatrides",
+      "email": "hiatrides@bowrivercapital.com",
+      "row": 974
+    },
+    {
+      "firm": "Amulet Capital Partners",
+      "contact": "Avi Uttamchandani",
+      "email": "auttamchandani@amuletcapital.com",
+      "row": 975
+    },
+    {
+      "firm": "Trivest Partners",
+      "contact": "Reid Callaway",
+      "email": "rcallaway@trivest.com",
+      "row": 976
+    }
+  ]
+}

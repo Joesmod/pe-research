@@ -1,0 +1,47 @@
+[
+  {
+    "row": 39,
+    "company": "",
+    "contact": "Herbert Hooper",
+    "email": "",
+    "status": "Enriched",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 40,
+    "company": "",
+    "contact": "Lawrence Aldrich",
+    "email": "",
+    "status": "Contacted",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 494,
+    "company": "",
+    "contact": "Joe Lonsdale",
+    "email": "",
+    "status": "New - Unresearched",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 700,
+    "company": "",
+    "contact": "Kim Marvin",
+    "email": "",
+    "status": "Enriched",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 880,
+    "company": "",
+    "contact": "Joshua Schultz",
+    "email": "",
+    "status": "Partial",
+    "needsContact": false,
+    "needsEmail": true
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "row": 4,
+    "company": "Thesis Capital Partners",
+    "contact": "Ian J.H. Reynolds",
+    "title": "Partner",
+    "email": "ian@thesiscapital.com",
+    "website": "asteele@activantcapital.com",
+    "linkedin": "https://www.linkedin.com/company/thesis-capital",
+    "status": "Enriched - Web Research 2026-03-06",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 5,
+    "company": "Regal Healthcare Capital Partners",
+    "contact": "David Kim, MD, MBA",
+    "title": "Co-Founder & General Partner",
+    "email": "davidkim@regalhcp.com",
+    "website": "(none)",
+    "linkedin": "(none)",
+    "status": "RocketReach pattern d******@regalhcp.com (web research). Enriched 2026-03-07",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 6,
+    "company": "Regal Healthcare Capital Partners",
+    "contact": "Ben Brachot",
+    "title": "Co-Founder & Managing Director",
+    "email": "ben.brachot@dwightfunding.com",
+    "website": "https://www.linkedin.com/in/benbrachot/",
+    "linkedin": "Enriched",
+    "status": "Enriched - Web Research",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 15,
+    "company": "JLL Partners",
+    "contact": "Kevin Hammond",
+    "title": "Managing Partner",
+    "email": "khammond@jllpartners.com",
+    "website": "(none)",
+    "linkedin": "(none)",
+    "status": "Pattern inference (web research - unverified). Enriched 2026-03-07",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 20,
+    "company": "Charlesbank Capital Partners",
+    "contact": "Brandon White",
+    "title": "Managing Director & Co-Head, Flagship",
+    "email": "bwhite@charlesbank.com",
+    "website": "(none)",
+    "linkedin": "(none)",
+    "status": "ZoomInfo pattern b***@charlesbank.com (web research). Enriched 2026-03-07",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 30,
+    "company": "Sentinel Capital Partners",
+    "contact": "Eric Bommer",
+    "title": "Managing Partner",
+    "email": "bommer@sentinelpartners.com",
+    "website": "(none)",
+    "linkedin": "(none)",
+    "status": "RocketReach pattern b******@sentinelpartners.com (web research). Enriched 2026-03-07",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 31,
+    "company": "Abry Partners",
+    "contact": "Jay Grossman",
+    "title": "Managing Partner & Co-CEO",
+    "email": "jgrossman@abry.com",
+    "website": "(none)",
+    "linkedin": "Enriched",
+    "status": "ZoomInfo j***@abry.com + firm pattern [first_initial][last] (web research). Enriched 2026-03-07",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 56,
+    "company": "WindRose Health Investors",
+    "contact": "Oliver T. Moses",
+    "title": "Managing Partner",
+    "email": "moses@windrose.com",
+    "website": "https://windrose.com",
+    "linkedin": "https://www.linkedin.com/company/windrose-health-investors",
+    "status": "Researched",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 71,
+    "company": "Berkshire Partners",
+    "contact": "Eric Souza",
+    "title": "Monica Brand Engel",
+    "email": "Co-Founder & Managing Partner",
+    "website": "mengel@quona.com",
+    "linkedin": "https://www.linkedin.com/in/monicabrandengel/",
+    "status": "Source: RocketReach + official team page",
+    "reason": "Bad email format"
+  },
+  {
+    "row": 115,
+    "company": "Alpine Investors",
+    "contact": "Graham Weaver",
+    "title": "Founding Partner",
+    "email": "gweaver@alpineinvestors.com",
+    "website": "https://www.alpineinvestors.com",
+    "linkedin": "https://www.linkedin.com/in/graham-weaver-2b79/",
+    "status": "Enriched - Web Research 2026-03-08",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 128,
+    "company": "Kinderhook Industries",
+    "contact": "Robert Michalik",
+    "title": "Managing Director",
+    "email": "[email protected]",
+    "website": "https://www.kinderhook.com",
+    "linkedin": "https://www.linkedin.com/company/kinderhookindustries",
+    "status": "Enriched",
+    "reason": "Bad email format"
+  },
+  {
+    "row": 184,
+    "company": "Gridiron Capital",
+    "contact": "Kevin Jackson",
+    "title": "Managing Partner",
+    "email": "kjackson@gridironcapital.com",
+    "website": "https://www.gridironcapital.com",
+    "linkedin": "https://www.linkedin.com/in/kevin-jackson-6051614/",
+    "status": "Enriched - Web Research 2026-03-08",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 198,
+    "company": "Valeas Capital Partners",
+    "contact": "Rob Little",
+    "title": "Co-Founder & Managing Partner",
+    "email": "rob@valeas.com",
+    "website": "https://valeas.com",
+    "linkedin": "https://valeas.com/our-people/",
+    "status": "Researched",
+    "reason": "Unresearched"
+  },
+  {
+    "row": 242,
+    "company": "Cranemere Group",
+    "contact": "Kamil Salame",
+    "title": "Chief Executive Officer",
+    "email": "[email protected]",
+    "website": "https://www.cranemere.com",
+    "linkedin": "https://www.linkedin.com/in/kamil-salame/",
+    "status": "Enriched",
+    "reason": "Bad email format"
+  },
+  {
+    "row": 248,
+    "company": "Bregal Sagemount",
+    "contact": "Gene Yoon",
+    "title": "Managing Partner",
+    "email": "gene.yoon@sagemount.com",
+    "website": "https://www.sagemount.com",
+    "linkedin": "https://www.linkedin.com/company/bregal-sagemount",
+    "status": "Researched",
+    "reason": "Unresearched"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "firm": "Aeris Partners",
+    "rowIndex": 9,
+    "contactName": "David W. Joncas",
+    "title": "Managing Director & Co-Founder",
+    "email": "dwj@aerispartners.com",
+    "linkedIn": "https://www.linkedin.com/in/david-joncas-206a0424/",
+    "source": "Official company website + ContactOut verification",
+    "notes": "30 years tech M&A experience, co-founded Aeris Partners, extensive HCIT experience"
+  },
+  {
+    "firm": "Apex Service Partners",
+    "rowIndex": 390,
+    "contactName": "Scott Gaines",
+    "title": "Chief Operating Officer, Southeast Region",
+    "email": "NEEDS_VERIFICATION",
+    "linkedIn": "https://www.linkedin.com/in/scott-gaines/",
+    "source": "LinkedIn + ZoomInfo (masked email)",
+    "notes": "Operations executive, MBA from Pepperdine. Email pattern suggests sgaines@ but NOT verified on public source"
+  },
+  {
+    "firm": "Bespoke Partners",
+    "rowIndex": 393,
+    "contactName": "Eric Walczykowski",
+    "title": "Chief Executive Officer",
+    "email": "leadercommunity@bespokepartners.com",
+    "linkedIn": "https://www.linkedin.com/in/eric-walczykowski/",
+    "source": "Official company website contact",
+    "notes": "CEO, proven growth executive, $4.5B+ exits. General contact email found on site"
+  },
+  {
+    "firm": "Bespoke Partners",
+    "rowIndex": 393,
+    "contactName": "Kristie Nova",
+    "title": "Founding Partner, CEO Practice Lead",
+    "email": "leadercommunity@bespokepartners.com",
+    "linkedIn": "https://www.bespokepartners.com/news/bespoke-partners-taps-founder-kristie-nova-to-lead-ceo-search-practice/",
+    "source": "Official company website",
+    "notes": "Leads CEO search practice at Bespoke Partners"
+  }
+]

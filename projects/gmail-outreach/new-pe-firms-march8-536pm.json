@@ -1,0 +1,54 @@
+[
+  {
+    "Company": "Baymark Partners",
+    "Domain": "baymarkpartners.com",
+    "Contact Name": "David J. Hook",
+    "Email": "dhook@baymarkpartners.com",
+    "Title": "Founding Partner, Managing Partner",
+    "LinkedIn": "https://www.linkedin.com/in/david-hook-baymark/",
+    "Status": "New",
+    "Notes": "Dallas PE firm, $500M-$1B AUM, business services focus. 40+ yrs experience, 50+ investments. Email pattern confirmed.",
+    "Source": "Official website team page https://baymarkpartners.com/about/our-team/",
+    "AUM": "$500M-$1B",
+    "Focus": "Business services, healthcare, IT services, distribution"
+  },
+  {
+    "Company": "Baymark Partners",
+    "Domain": "baymarkpartners.com",
+    "Contact Name": "Anthony Ludlow",
+    "Email": "aludlow@baymarkpartners.com",
+    "Title": "Founder, General Counsel, CFO",
+    "LinkedIn": "",
+    "Status": "New",
+    "Notes": "Alternative contact at Baymark. 19 years M&A experience. Former Transition Capital Partners.",
+    "Source": "Official website team page",
+    "AUM": "$500M-$1B",
+    "Focus": "Business services, healthcare, IT services, distribution"
+  },
+  {
+    "Company": "Svoboda Capital Partners",
+    "Domain": "svoco.com",
+    "Contact Name": "John A. Svoboda",
+    "Email": "john@svoco.com",
+    "Title": "Co-Founder, Managing Director",
+    "LinkedIn": "",
+    "Status": "New",
+    "Notes": "Chicago PE firm, $400M+ committed capital, business services focus. Founded 1998, 50+ transactions. Email pattern needs verification (alt: jsvoboda@svoco.com). Phone: 312.267.8750",
+    "Source": "Official website https://svoco.com/our-team/ + Crunchbase",
+    "AUM": "$400M+",
+    "Focus": "Professional services, industrial & commercial services, transportation & logistics"
+  },
+  {
+    "Company": "Svoboda Capital Partners",
+    "Domain": "svoco.com",
+    "Contact Name": "David B. Rubin",
+    "Email": "drubin@svoco.com",
+    "Title": "Managing Director",
+    "LinkedIn": "",
+    "Status": "New",
+    "Notes": "Alternative contact at Svoboda Capital. Listed on Crunchbase and official website.",
+    "Source": "Official website + Crunchbase",
+    "AUM": "$400M+",
+    "Focus": "Professional services, industrial & commercial services, transportation & logistics"
+  }
+]

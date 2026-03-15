@@ -1,0 +1,372 @@
+[
+  {
+    "rowIndex": 9,
+    "company": "Aeris Partners",
+    "contact": "Brandon White",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.charlesbank.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 819,
+    "company": "Accelerize 360",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.accelerize360.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 823,
+    "company": "AEC Advisors LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.aecadvisors.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 824,
+    "company": "Affinity.co",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.affinity.co",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 826,
+    "company": "Alari Search, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.alarisearch.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 827,
+    "company": "AlchemistX",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.alchemistx.net",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 828,
+    "company": "ALCOR Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.alcorfund.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 829,
+    "company": "Alkymi",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.alkymi.io",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 830,
+    "company": "All Raise",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.allraise.org",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 831,
+    "company": "Allvue Systems",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.allvuesystems.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 832,
+    "company": "Anthemis Group",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.anthemis.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 834,
+    "company": "Arcis Golf",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.arcisgolf.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 837,
+    "company": "Ascension Advisory",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.ascensionadvisory.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 838,
+    "company": "Atlanta Tech Village",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.atlantatechvillage.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 839,
+    "company": "Atlas Private Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.atlaspep.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 840,
+    "company": "Atlas Search",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "http://www.atlassearchllc.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 843,
+    "company": "American Industrial Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.americanindustrial.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 844,
+    "company": "Wind Point Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.windpointpartners.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 856,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.peakrockcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 860,
+    "company": "CCMP Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.ccmpcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 867,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.peakrockcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 868,
+    "company": "Accel-KKR",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.accel-kkr.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 872,
+    "company": "Salt Creek Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://saltcreekcap.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 874,
+    "company": "Warren Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://warrenequity.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 878,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.peakrockcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 885,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.peakrockcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 887,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.peakrockcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 889,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.arsenalcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 891,
+    "company": "Odyssey Investment Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.odysseyinvestment.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 892,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.arsenalcapital.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 893,
+    "company": "Symphony Technology Group (STG)",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.stg.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 907,
+    "company": "Odyssey Investment Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.odysseyinvestment.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 908,
+    "company": "Muse",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 909,
+    "company": "Backstroke",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 910,
+    "company": "Satso",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 935,
+    "company": "Carousel Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "website": "",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "rowIndex": 937,
+    "company": "The Riverside Company",
+    "contact": "Béla Szigethy",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.riversidecompany.com/who-we-are/",
+    "needsContact": false,
+    "needsEmail": true
+  }
+]

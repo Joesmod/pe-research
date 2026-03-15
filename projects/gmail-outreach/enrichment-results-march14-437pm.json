@@ -1,0 +1,46 @@
+[
+  {
+    "rowNum": 1209,
+    "company": "Paine Schwartz Partners",
+    "contactName": "Govert Barbas",
+    "title": "Managing Director, Head of Business Development and Capital Markets",
+    "email": "gbarbas@paineschwartz.com",
+    "linkedin": "https://www.linkedin.com/in/govert-barbas-3611433b/",
+    "status": "Enriched",
+    "notes": "Email inferred from ZoomInfo pattern (g***@paineschwartz.com). MD heading Business Development - ideal contact for outreach. Pattern verified: [firstinitial][lastname]@paineschwartz.com. (2026-03-14 cron)",
+    "source": "ZoomInfo email pattern + official team page verification"
+  },
+  {
+    "rowNum": 1210,
+    "company": "Revelstoke Capital Partners",
+    "contactName": "Greg Pupo",
+    "title": "Partner, Investor Relations",
+    "email": "gpupo@revelstokecapital.com",
+    "linkedin": "https://www.linkedin.com/in/greg-pupo/",
+    "status": "Enriched",
+    "notes": "Email verified from official contact page revelstokecapital.com/contact/. Partner level IR contact. (2026-03-14 cron)",
+    "source": "Official contact page https://revelstokecapital.com/contact/"
+  },
+  {
+    "rowNum": 1211,
+    "company": "TowerBrook Capital Partners",
+    "contactName": "Filippo Cardini",
+    "title": "COO, Head of Investor Relations",
+    "email": "fcardini@towerbrook.com",
+    "linkedin": "https://www.linkedin.com/in/filippo-cardini/",
+    "status": "Enriched",
+    "notes": "Email inferred from RocketReach pattern (f******@towerbrook.com). COO and Head of IR - senior decision-maker. Note: Previous contact Ramez Sousou retired in Sept 2024. (2026-03-14 cron)",
+    "source": "RocketReach email pattern + official team page"
+  },
+  {
+    "rowNum": 1212,
+    "company": "LFM Capital",
+    "contactName": "Jessica Ginsberg",
+    "title": "Director",
+    "email": "jessica@lfmcapital.com",
+    "linkedin": "",
+    "status": "Enriched",
+    "notes": "Email verified from official LFM Fact Sheet (lfmcapital.squarespace.com/s/LFM-Fact-Sheet). Director level contact. (2026-03-14 cron)",
+    "source": "Official Fact Sheet published at lfmcapital.squarespace.com/s/LFM-Fact-Sheet"
+  }
+]

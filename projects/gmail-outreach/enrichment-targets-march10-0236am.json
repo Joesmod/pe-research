@@ -1,0 +1,90 @@
+[
+  {
+    "row": 18,
+    "company": "Gryphon Investors",
+    "contact": "R. David Andrews",
+    "title": "Founder & Co-CEO",
+    "email": "andrews@gryphoninvestors.com",
+    "website": "sgarden@avbinvest.com",
+    "status": "Enriched",
+    "notes": "SF-based PE. Co-CEOs Andrews & Orum. Jim Gallagher (MD, Head of BD) verified via Contacts sheet/Apollo. Replaced generic BD email. 2026-02-19 enrichment.",
+    "reason": "Generic email"
+  },
+  {
+    "row": 71,
+    "company": "Berkshire Partners",
+    "contact": "Eric Souza",
+    "title": "Monica Brand Engel",
+    "email": "Co-Founder & Managing Partner",
+    "website": "mengel@quona.com",
+    "status": "Source: RocketReach + official team page",
+    "notes": "UPGRADED from Greg Winter (Comms/Marketing). Eric Souza (CTO/CISO) verified via Contacts sheet/Apollo. Also: Josh Lutzker (MD, jlutzker@), Ben Levy (MD, blevy@), EJ Whelan (MD, ewhelan@). 10 verified contacts. CTO = ideal Gumbo target. 2026-02-19 enrichment.",
+    "reason": "Data misalignment"
+  },
+  {
+    "row": 115,
+    "company": "Alpine Investors",
+    "contact": "Graham Weaver",
+    "title": "Founding Partner",
+    "email": "gweaver@alpineinvestors.com",
+    "website": "https://www.alpineinvestors.com",
+    "status": "Enriched - Web Research 2026-03-08",
+    "notes": "Email pattern verified via ContactOut. Also: Billy Maguy, Dan Sanner, Mark Strauch (Founding Partners). PeopleFirst PE firm, $3B+ AUM. Source: alpineinvestors.com/teams, ContactOut",
+    "reason": "Generic email"
+  },
+  {
+    "row": 128,
+    "company": "Kinderhook Industries",
+    "contact": "Robert Michalik",
+    "title": "Managing Director",
+    "email": "[email protected]",
+    "website": "https://www.kinderhook.com",
+    "status": "Enriched",
+    "notes": "$8.5B committed capital. NYC. Founded 2003. 500+ investments. Healthcare services, environmental/business services, automotive/light manufacturing. $2.75B Fund 8 (Jun 2024, oversubscribed). Chris Michalik (MD). Paul Cifelli (MD). Liam Rogers email verified from kinderhook.com official press release (Fund 8 close, Jun 2024). Phone: 646-775-9991. 505 Fifth Ave 25th Fl, NYC. 2026-02-15 enrichment.",
+    "reason": "Data misalignment"
+  },
+  {
+    "row": 235,
+    "company": "AEA Investors",
+    "contact": "Chief Operating Officer and Partner",
+    "title": "tpryma@aeainvestors.com",
+    "email": "bhoesterey@aeainvestors.com",
+    "website": "http://www.linkedin.com/in/tom-pryma-99505724",
+    "status": "Enriched",
+    "notes": "Apollo API - 2026-03-03",
+    "reason": "Generic email"
+  },
+  {
+    "row": 242,
+    "company": "Cranemere Group",
+    "contact": "Kamil Salame",
+    "title": "Chief Executive Officer",
+    "email": "[email protected]",
+    "website": "https://www.cranemere.com",
+    "status": "Enriched",
+    "notes": "Minimal website, no contact emails published. Apollo empty. All methods exhausted 2026-02-19.",
+    "reason": "Data misalignment"
+  },
+  {
+    "row": 467,
+    "company": "Goode Partners",
+    "contact": "Partner",
+    "title": "doddi@goodepartners.com",
+    "email": "http://www.goodepartners.com/team/david",
+    "website": "Enriched",
+    "status": "Enriched",
+    "notes": "44.4% 6mo growth. Founded 2005. Rev: 15.3M. Apollo score: 18. Alts: David (Partner) | Joe (Partner Emeritus)",
+    "reason": "Data misalignment"
+  },
+  {
+    "row": 480,
+    "company": "Presidio Investors",
+    "contact": "Karl Schade",
+    "title": "Managing Partner & Founder",
+    "email": "karl@presidioinvestors.com",
+    "website": "http://www.presidioinvestors.com",
+    "status": "Enriched",
+    "notes": "16.7% 6mo growth. Founded 2007. Rev: 3.4M. Apollo score: 18. Alts: Wynee (Interim CEO) | Dirk (Principal) | Enriched 2026-03-03: Verified from ContactOut | Enriched 2026-03-03: Verified from ContactOut | Enriched 2026-03-03: Verified from ContactOut",
+    "reason": "Generic email"
+  }
+]

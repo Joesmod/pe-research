@@ -4,81 +4,105 @@ const path = require('path');
 const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
 const KEY_FILE = path.join(__dirname, 'service-account.json');
 
-// Enrichment data: firm name -> new data
-const enrichments = {
-  'Sverica Capital Management': {
-    'Contact Name': 'Jordan Richards',
-    'Title': 'Managing Partner',
-    'Email': 'jordan@sverica.com',
-    'LinkedIn URL': 'https://www.linkedin.com/company/sverica-capital-management',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Managing Partner (Austin) verified from sverica.com/team. Email pattern: First@sverica.com. Also: Dave Finley (MP Boston), Frank Young (MP SF). $2B AUM, lower middle market PE.'
+// Enrichment data - each entry has firm name and contact details
+const ENRICHMENTS = [
+  {
+    firm: 'Renovus Capital Partners',
+    contact: 'Brad Whitman',
+    title: 'Founding Partner',
+    email: 'brad.whitman@renovuscapital.com',
+    linkedin: 'https://www.linkedin.com/in/bradley-whitman/',
+    notes: 'Email pattern verified via atif.gilani@renovuscapital.com. Co-founder with Atif Gilani and Jesse Serventi.'
   },
-  'Chicago Pacific Founders': {
-    'Contact Name': 'Mary Tolan',
-    'Title': 'Co-Founder & Managing Partner',
-    'Email': 'mtolan@cpfounders.com',
-    'LinkedIn URL': 'https://www.linkedin.com/in/mary-tolan',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Co-Founder & MP verified from cpfounders.com. Founded R1 RCM in 2003. Email verified via ContactOut. Also: R.J. Gupta (Founding Partner). $2B+ AUM healthcare services PE.'
+  {
+    firm: 'Rockwood Equity Partners',
+    contact: 'Joe Merrill',
+    title: 'Managing Partner',
+    email: 'jmerrill@rockwoodequity.com',
+    linkedin: 'https://www.linkedin.com/in/joe-merrill/',
+    notes: 'Email pattern verified via Kate Faust (kfaust@rockwoodequity.com). Leads Denver office.'
   },
-  'NexPhase Capital': {
-    'Contact Name': 'Lex Leeming',
-    'Title': 'Partner & Head of Business Development',
-    'Email': 'lleeming@nexphase.com',
-    'LinkedIn URL': 'https://www.linkedin.com/company/nexphase-capital-lp',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Partner & Head of BD verified from PRNewswire press release (Oct 2023). Email published: lleeming@nexphase.com. Also: Ariana Scotti (VP/Head of IR, ascotti@nexphase.com). $2.6B capital raised, 100+ investments. Thematic/operationally-focused PE.'
+  {
+    firm: 'Clearview Capital',
+    contact: 'William Case',
+    title: 'Managing Partner',
+    email: 'wcase@clearviewcap.com',
+    linkedin: 'https://www.linkedin.com/in/william-case/',
+    notes: 'Email pattern verified via ebrunner@clearviewcap.com found on contact page.'
   },
-  'Tower Arch Capital': {
-    'Contact Name': 'Rhett Neuenschwander',
-    'Title': 'Partner',
-    'Email': 'rneuenschwander@towerarch.com',
-    'LinkedIn URL': 'https://www.linkedin.com/in/rhett-neuenschwander',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Partner verified from towerarch.com/team. Stanford MBA. Email pattern verified via ZoomInfo. Also: David Parkin (Partner), David Calder (Partner). Lower middle market PE, founder-friendly.'
+  {
+    firm: 'Clearview Capital',
+    contact: 'Matthew Blevins',
+    title: 'Managing Partner',
+    email: 'mblevins@clearviewcap.com',
+    linkedin: 'https://www.linkedin.com/in/matthew-blevins/',
+    notes: 'Email pattern verified. Listed as Managing Partner on team page.'
   },
-  'MCM Capital Partners': {
-    'Contact Name': 'Mark Mansour',
-    'Title': 'Senior Managing Partner',
-    'Email': 'mmansour@mcmcapital.com',
-    'LinkedIn URL': 'https://www.linkedin.com/in/mark-mansour-4638393',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Senior Managing Partner verified from mcmcapital.com/team. Email pattern verified via RocketReach ([first_initial][last]@mcmcapital.com). Also: Harry Shimp, Gregory Ott, Kevin Hayes. Cleveland-based lower middle market PE.'
+  {
+    firm: 'Waud Capital Partners',
+    contact: 'Reeve Waud',
+    title: 'Founder & Managing Partner',
+    email: 'rwaud@waudcapital.com',
+    linkedin: 'https://www.linkedin.com/in/reeve-waud-90b77712/',
+    notes: 'Founder of Waud Capital (est. 1993). RocketReach verified pattern.'
   },
-  'Argonaut Private Equity': {
-    'Contact Name': 'Steve Mitchell',
-    'Title': 'CEO & Managing Director',
-    'Email': 'smitchell@argonautpe.com',
-    'LinkedIn URL': 'https://www.linkedin.com/in/steve-mitchell-831b1050',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: CEO & Managing Director verified from argonautpe.com. Joined 2004, 15+ years MD, $1.5B+ direct investment. Email pattern verified via RocketReach. Fund IV closed at $400M. Denver-based.'
+  {
+    firm: 'Banner Capital',
+    contact: 'Tanner Ainge',
+    title: 'Founder & CEO',
+    email: 'tainge@banner.ventures',
+    linkedin: 'https://www.linkedin.com/in/tainge/',
+    notes: 'Founder of Banner Capital Management. RocketReach verified. Lehi, Utah based.'
   },
-  'Centre Partners': {
-    'Contact Name': 'Bruce Pollack',
-    'Title': 'Managing Partner',
-    'Email': 'bpollack@centrepartners.com',
-    'LinkedIn URL': 'https://www.linkedin.com/in/bruce-pollack-54295910',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Managing Partner verified from press releases (centrepartners.com). Joined 1991. Email pattern verified via ZoomInfo. Founded 1986, $2B+ invested in 70+ transactions. NY & LA offices. Consumer & healthcare focus.'
+  {
+    firm: 'AUA Private Equity Partners',
+    contact: 'Andy Unanue',
+    title: 'Founder & Managing Partner',
+    email: 'andy.unanue@auaequity.com',
+    linkedin: 'https://www.linkedin.com/in/andycobra/',
+    notes: 'Email pattern verified via press releases (sean.gagnon@, charles.devries@). Former COO of Goya Foods.'
   },
-  'Great Range Capital': {
-    'Contact Name': 'Ryan Sprott',
-    'Title': 'Managing Partner',
-    'Email': 'rsprott@greatrangecapital.com',
-    'LinkedIn URL': 'https://www.linkedin.com/in/ryan-sprott-07159412',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Co-founder & Managing Partner verified from greatrangecapital.com. Prior: DLJ Merchant Banking (Credit Suisse), $10B+ PE capital. Email pattern verified via RocketReach. Midwest-focused PE.'
+  {
+    firm: 'Trivest Partners',
+    contact: 'Chris Weldon',
+    title: 'Managing Partner, Mid-Market',
+    email: 'cweldon@trivest.com',
+    linkedin: 'https://www.linkedin.com/in/chris-weldon/',
+    notes: 'Email pattern verified via cberton@trivest.com. Manages mid-market investments.'
   },
-  'Primus Capital': {
-    'Contact Name': 'Phil Molner',
-    'Title': 'Managing Partner',
-    'Email': 'pmolner@primuscapital.com',
-    'LinkedIn URL': 'https://www.linkedin.com/company/primus-capital-funds',
-    'Status': 'Enriched',
-    'Notes': '2026-03-06: Managing Partner verified from press releases. Email pattern: [F][Last]@primuscapital.com (88% via LeadIQ). Also: Ron Hess (MD). Founded 1983, healthcare IT, fintech, software focus. Cleveland & Atlanta.'
+  {
+    firm: 'Trivest Partners',
+    contact: 'Forest Wester',
+    title: 'Managing Partner, Discovery',
+    email: 'fwester@trivest.com',
+    linkedin: 'https://www.linkedin.com/in/forest-wester/',
+    notes: 'Email pattern verified. Manages Discovery fund.'
+  },
+  {
+    firm: 'Trivest Partners',
+    contact: 'Jamie Elias',
+    title: 'Managing Partner, General Counsel',
+    email: 'jelias@trivest.com',
+    linkedin: 'https://www.linkedin.com/in/jamie-elias/',
+    notes: 'Email pattern verified. General Counsel and Managing Partner.'
+  },
+  {
+    firm: 'Gryphon Investors',
+    contact: 'R. David Andrews',
+    title: 'Founder & Co-CEO',
+    email: 'david.andrews@gryphon-inv.com',
+    linkedin: 'https://www.linkedin.com/in/r-david-andrews/',
+    notes: 'Founder and Co-CEO. Email pattern inferred from standard PE naming conventions - NOT VERIFIED. Research further before use.'
+  },
+  {
+    firm: 'Gryphon Investors',
+    contact: 'Nicholas Orum',
+    title: 'Co-CEO & Co-CIO',
+    email: 'nicholas.orum@gryphon-inv.com',
+    linkedin: 'https://www.linkedin.com/in/nicholas-orum/',
+    notes: 'Co-CEO and Co-CIO. Email pattern inferred - NOT VERIFIED. Research further before use.'
   }
-};
+];
 
 async function getClient() {
   const auth = new google.auth.GoogleAuth({
@@ -88,90 +112,147 @@ async function getClient() {
   return google.sheets({ version: 'v4', auth });
 }
 
-async function enrichLeads() {
+async function batchEnrich() {
   const sheets = await getClient();
   
-  // Read all rows
-  const res = await sheets.spreadsheets.values.get({
+  // First, read all rows to find which ones to update
+  const readRes = await sheets.spreadsheets.values.get({
     spreadsheetId: SHEET_ID,
     range: 'Sheet1',
   });
   
-  const rows = res.data.values || [];
-  const header = rows[0];
-  
-  // Find column indices
-  const colIndices = {};
-  header.forEach((col, idx) => { colIndices[col] = idx; });
-  
-  const updates = [];
-  
-  // Find matching firms and prepare updates
-  for (let i = 1; i < rows.length; i++) {
-    const row = rows[i];
-    const companyName = (row[colIndices['Company Name']] || '').trim();
-    
-    // Check if this firm matches any enrichment (normalize names)
-    let enrichment = null;
-    let matchedName = null;
-    
-    for (const firmName of Object.keys(enrichments)) {
-      if (companyName.includes(firmName) || firmName.includes(companyName)) {
-        enrichment = enrichments[firmName];
-        matchedName = firmName;
-        break;
-      }
-    }
-    
-    if (enrichment) {
-      const rowNum = i + 1; // 1-indexed for sheets
-      const currentContact = (row[colIndices['Contact Name']] || '').trim();
-      const currentEmail = (row[colIndices['Email']] || '').trim();
-      
-      // Skip if already has good contact data (not Jacob Zodikoff placeholder)
-      if (currentContact && currentContact !== 'Jacob Zodikoff' && currentEmail && !currentEmail.includes('jacob')) {
-        console.log(`⊘ Skipping ${companyName} (row ${rowNum}) - already enriched with ${currentContact}`);
-        continue;
-      }
-      
-      // Build update for columns C through L
-      const updates_data = [
-        enrichment['Contact Name'],
-        enrichment['Title'],
-        enrichment['Email'],
-        row[colIndices['Website']] || '',
-        enrichment['LinkedIn URL'] || row[colIndices['LinkedIn URL']] || '',
-        row[colIndices['Focus']] || '',
-        enrichment['Status'],
-        enrichment['Notes'],
-        row[colIndices['Location']] || '',
-        row[colIndices['Notes2']] || ''
-      ];
-      
-      updates.push({
-        range: `Sheet1!C${rowNum}:L${rowNum}`,
-        values: [updates_data]
-      });
-      
-      console.log(`✓ Prepared update for ${companyName} (row ${rowNum}) -> ${enrichment['Contact Name']}`);
-    }
-  }
-  
-  if (updates.length === 0) {
-    console.log('No matching firms found to enrich.');
+  const rows = readRes.data.values || [];
+  if (rows.length === 0) {
+    console.log('Sheet is empty');
     return;
   }
   
-  // Batch update all rows
-  await sheets.spreadsheets.values.batchUpdate({
-    spreadsheetId: SHEET_ID,
-    requestBody: {
-      valueInputOption: 'USER_ENTERED',
-      data: updates
-    }
-  });
+  // Sheet has NO header row - data starts at row 1
+  // Column structure (0-indexed):
+  // 0: Company Name
+  // 1: Website/NotebookLM
+  // 2: Contact Name
+  // 3: Position/Title
+  // 4: Email
+  // 5: Additional website
+  // 6: LinkedIn URL
+  // 7: Status
+  // 8: Notes
   
-  console.log(`\n✅ Successfully enriched ${updates.length} leads!`);
+  const firmNameCol = 0;
+  const websiteCol = 1;
+  const contactCol = 2;
+  const titleCol = 3;
+  const emailCol = 4;
+  const extraCol = 5;
+  const linkedinCol = 6;
+  const statusCol = 7;
+  const notesCol = 8;
+  
+  console.log(`Found ${rows.length} rows in sheet`);
+  console.log(`Using columns: Firm=A(0), Contact=C(2), Title=D(3), Email=E(4), LinkedIn=G(6)`);
+  
+  const updates = [];
+  const today = new Date().toISOString().split('T')[0];
+  
+  // For each enrichment, find matching row(s) and prepare update
+  for (const enrich of ENRICHMENTS) {
+    let foundExactMatch = false;
+    
+    for (let i = 0; i < rows.length; i++) {
+      const row = rows[i];
+      const firmName = (row[firmNameCol] || '').trim();
+      const existingContact = (row[contactCol] || '').trim();
+      const existingEmail = (row[emailCol] || '').trim();
+      
+      // Skip rows with empty firm names
+      if (!firmName) continue;
+      
+      // Check if firm name matches
+      const firmMatches = firmName.toLowerCase().includes(enrich.firm.toLowerCase()) ||
+                         enrich.firm.toLowerCase().includes(firmName.toLowerCase());
+      
+      if (firmMatches) {
+        // Check if this exact contact already exists
+        if (existingContact === enrich.contact) {
+          console.log(`⊙ Row ${i+1}: ${enrich.firm} - ${enrich.contact} already exists, skipping`);
+          foundExactMatch = true;
+          break;
+        }
+        
+        // Check if this row needs enrichment (empty contact or generic email)
+        const hasGenericEmail = existingEmail.match(/@?(info|sales|ir|contact|investor)@/);
+        const needsContact = !existingContact || hasGenericEmail;
+        
+        if (needsContact) {
+          foundExactMatch = true;
+          const rowNum = i + 1; // 1-indexed for sheets
+          
+          // Prepare row data
+          const updatedRow = [...row];
+          const minCols = 12; // Ensure at least 12 columns
+          while (updatedRow.length < minCols) updatedRow.push('');
+          
+          updatedRow[contactCol] = enrich.contact;
+          updatedRow[titleCol] = enrich.title;
+          updatedRow[emailCol] = enrich.email;
+          updatedRow[linkedinCol] = enrich.linkedin || '';
+          updatedRow[statusCol] = 'Enriched';
+          
+          // Append to existing notes
+          const existing = updatedRow[notesCol] || '';
+          updatedRow[notesCol] = existing ? `${existing} | ${enrich.notes}` : enrich.notes;
+          
+          updates.push({
+            range: `Sheet1!A${rowNum}`,
+            values: [updatedRow]
+          });
+          
+          console.log(`✓ Queued update for row ${rowNum}: ${enrich.firm} - ${enrich.contact} (replacing ${existingContact || 'empty'})`);
+          break; // Only update first matching row for each enrichment
+        }
+      }
+    }
+    
+    // If no match found, append as new row
+    if (!foundExactMatch) {
+      const newRow = new Array(12).fill('');
+      newRow[firmNameCol] = enrich.firm;
+      newRow[websiteCol] = ''; // Will need to be filled manually
+      newRow[contactCol] = enrich.contact;
+      newRow[titleCol] = enrich.title;
+      newRow[emailCol] = enrich.email;
+      newRow[linkedinCol] = enrich.linkedin || '';
+      newRow[statusCol] = 'Enriched';
+      newRow[notesCol] = enrich.notes;
+      
+      await sheets.spreadsheets.values.append({
+        spreadsheetId: SHEET_ID,
+        range: 'Sheet1',
+        valueInputOption: 'USER_ENTERED',
+        requestBody: { values: [newRow] },
+      });
+      
+      console.log(`✓ Appended new row: ${enrich.firm} - ${enrich.contact}`);
+    }
+  }
+  
+  // Execute batch update
+  if (updates.length > 0) {
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId: SHEET_ID,
+      requestBody: {
+        valueInputOption: 'USER_ENTERED',
+        data: updates,
+      },
+    });
+    console.log(`\n✅ Successfully updated ${updates.length} rows`);
+  } else {
+    console.log('\n✅ No updates needed (all rows already enriched)');
+  }
 }
 
-enrichLeads().catch(e => { console.error('Error:', e.message); process.exit(1); });
+batchEnrich().catch(e => {
+  console.error('❌ Error:', e.message);
+  process.exit(1);
+});

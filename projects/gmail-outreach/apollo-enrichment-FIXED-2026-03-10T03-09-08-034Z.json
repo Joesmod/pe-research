@@ -1,0 +1,79 @@
+[
+  {
+    "rowIndex": 988,
+    "firm": "Renovus Capital Partners",
+    "website": null,
+    "contactName": "Daniel Maine",
+    "title": "CFO",
+    "email": "daniel.maine@renovuscapital.com",
+    "linkedIn": "http://www.linkedin.com/in/dfmaine",
+    "status": "Enriched",
+    "source": "Apollo API"
+  },
+  {
+    "rowIndex": 989,
+    "firm": "Linsalata Capital Partners",
+    "website": null,
+    "contactName": "Mike Anderson",
+    "title": "Partner / VP",
+    "email": "",
+    "linkedIn": "http://www.linkedin.com/in/mike-anderson-8436b7142",
+    "status": "Partial",
+    "source": "Apollo API"
+  },
+  {
+    "rowIndex": 990,
+    "firm": "High Road Capital Partners",
+    "website": null,
+    "contactName": "Jeffrey Goodrich",
+    "title": "Partner",
+    "email": "jgoodrich@highroadcap.com",
+    "linkedIn": "http://www.linkedin.com/in/jeffrey-goodrich-25a32a4",
+    "status": "Enriched",
+    "source": "Apollo API"
+  },
+  {
+    "rowIndex": 991,
+    "firm": "Pharos Capital Group",
+    "website": null,
+    "contactName": "Ben Chesnut",
+    "title": "Vice President",
+    "email": "bchesnut@pharosfunds.com",
+    "linkedIn": "http://www.linkedin.com/in/ben-chesnut-8990074b",
+    "status": "Enriched",
+    "source": "Apollo API"
+  },
+  {
+    "rowIndex": 992,
+    "firm": "Shoreview Capital",
+    "website": null,
+    "contactName": "Sterling Worth",
+    "title": "Managing Partner",
+    "email": "sterling.worth@shoreviewcapitalpartners.com",
+    "linkedIn": "http://www.linkedin.com/in/sterling-worth-82896373",
+    "status": "Enriched",
+    "source": "Apollo API"
+  },
+  {
+    "rowIndex": 635,
+    "firm": "Loeb.nyc",
+    "website": "http://www.loeb.nyc",
+    "contactName": "Joseph Santonastaso",
+    "title": "Vice President of Finance",
+    "email": "",
+    "linkedIn": "http://www.linkedin.com/in/joseph-santonastaso-168545b",
+    "status": "Partial",
+    "source": "Apollo API"
+  },
+  {
+    "rowIndex": 763,
+    "firm": "Mercury Fund",
+    "website": "http://www.mercuryfund.com",
+    "contactName": "Andreas Galliker",
+    "title": "CFO",
+    "email": "andreas@mercuryfund.com",
+    "linkedIn": "http://www.linkedin.com/in/andreasgalliker",
+    "status": "Enriched",
+    "source": "Apollo API"
+  }
+]

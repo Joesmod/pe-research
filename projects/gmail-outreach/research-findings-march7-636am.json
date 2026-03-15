@@ -1,0 +1,37 @@
+[
+  {
+    "company": "Riverwood Capital",
+    "row": 785,
+    "status": "DEAD_END",
+    "reason": "Current contact 'Ben Veghte' does not appear to be with Riverwood Capital. Actual founders are Jeff Parks and Francisco Alvarez-Demalde. Email pattern is First@rwcm.com but no official published source found for direct emails. Only third-party tools (RocketReach, Growjo) showing patterns.",
+    "recommendation": "Replace contact with Jeff Parks (Co-Founder & Managing Partner). Suggest using pattern jeff@rwcm.com but mark as unverified.",
+    "researchDate": "2026-03-07T06:40:00Z"
+  },
+  {
+    "company": "Thrive Capital",
+    "row": 802,
+    "status": "DEAD_END",
+    "reason": "Joshua Kushner is correct contact (Founder & Managing Partner). Email pattern appears to be j*******@thrivecap.com but only found via third-party tools (RocketReach, Adapt.io). No official published source.",
+    "recommendation": "Keep Joshua Kushner as contact. Consider leaving email blank unless pattern can be verified from official source.",
+    "researchDate": "2026-03-07T06:42:00Z"
+  },
+  {
+    "company": "Tennenbaum Capital Partners",
+    "row": 801,
+    "status": "ACQUIRED",
+    "reason": "Tennenbaum Capital Partners was acquired by BlackRock. Now operates as BlackRock TCP Capital. Jacob Zodikoff is placeholder name.",
+    "recommendation": "Update company name to 'BlackRock TCP Capital' and research BlackRock contacts.",
+    "researchDate": "2026-03-07T06:44:00Z"
+  },
+  {
+    "company": "Trinity Capital",
+    "row": 805,
+    "status": "IN_PROGRESS",
+    "currentContact": "Kyle Brown",
+    "currentTitle": "CEO",
+    "reason": "Found CEO Kyle Brown from official IR page. Jacob Zodikoff is placeholder. Need to find verified email.",
+    "recommendation": "Replace Jacob Zodikoff with Kyle Brown (CEO). Research email from press releases or SEC filings.",
+    "source": "https://ir.trinitycap.com/governance/board-of-directors",
+    "researchDate": "2026-03-07T06:45:00Z"
+  }
+]

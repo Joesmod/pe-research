@@ -1,0 +1,751 @@
+[
+  {
+    "row": 378,
+    "company": "Regal Healthcare Capital Partners",
+    "website": "http://www.regalhcp.com",
+    "sector": "Healthcare",
+    "notes": "15.8% 6mo growth. Founded 2018. Apollo score: 20. Alts: Jon (Co-Founder and General Partner) | Domenico (Principal)"
+  },
+  {
+    "row": 380,
+    "company": "SDC Capital Partners",
+    "website": "http://www.sdccapitalpartners.com",
+    "sector": "Technology, Business Services, Infrastructure",
+    "notes": "4.2% 6mo growth. Founded 2017. Rev: 12.4M. Apollo score: 20. Alts: Pei (Principal) | Victoria (Principal)"
+  },
+  {
+    "row": 384,
+    "company": "Thesis Capital Partners",
+    "website": "http://www.thesiscapital.com",
+    "sector": "Media & Entertainment",
+    "notes": "120.0% 6mo growth. Founded 2017. Apollo score: 20. Alts: Ian (Partner) | Connor (Partner)"
+  },
+  {
+    "row": 386,
+    "company": "TT Capital Partners",
+    "website": "http://www.ttcapitalpartners.com",
+    "sector": "Healthcare, Technology, Business Services, Pharma",
+    "notes": "8.3% 6mo growth. Founded 2011. Rev: 10M. Apollo score: 20. Alts: Ryan (Partner / Principal) | Adam (Principal)"
+  },
+  {
+    "row": 387,
+    "company": "424 Capital",
+    "website": "http://www.424capital.com",
+    "sector": "",
+    "notes": "23.8% 6mo growth. Founded 2019. Rev: 3.6M. Apollo score: 19. Alts: Patrick (Principal) | Amit (Partner)"
+  },
+  {
+    "row": 388,
+    "company": "Aeris Partners",
+    "website": "http://www.aerispartners.com",
+    "sector": "Healthcare, Technology, Software/Technology, Consumer/Retail, Fintech, Energy",
+    "notes": "14.6% 6mo growth. Founded 2010. Rev: 5M. Apollo score: 19. Alts: Garin (Managing Director) | David (Co-Founder & Managing Director, Technology Investment Banking)"
+  },
+  {
+    "row": 389,
+    "company": "Alvarez & Marsal Capital",
+    "website": "http://www.a-mcapital.com",
+    "sector": "",
+    "notes": "15.0% 6mo growth. Founded 2011. Rev: 22.5M. Apollo score: 19. Alts: Matt (Managing Director) | Adam (Managing Director)"
+  },
+  {
+    "row": 390,
+    "company": "Apex Service Partners",
+    "website": "http://www.apexservicepartners.com",
+    "sector": "Business Services",
+    "notes": "17.4% 6mo growth. Founded 2019. Rev: 160.6M. Apollo score: 19. Alts: Will (Co-Chief Executive Officer) | AJ (Executive Chairman & Co-CEO)"
+  },
+  {
+    "row": 392,
+    "company": "Avenue Growth Partners",
+    "website": "http://www.avenuegp.com",
+    "sector": "",
+    "notes": "21.4% 6mo growth. Founded 2020. Rev: 127K. Apollo score: 19. Alts: Ryan (Co-Founder & Partner) | Oscar (Vice President)"
+  },
+  {
+    "row": 393,
+    "company": "Bespoke Partners",
+    "website": "http://www.bespokepartners.com",
+    "sector": "Technology, Software/Technology, Industrials, Business Services, Aerospace & Defense, Energy",
+    "notes": "12.4% 6mo growth. Founded 2011. Rev: 4.4M. Apollo score: 19. Alts: Emilie (Director, CEO Practice) | Savannah (Principal)"
+  },
+  {
+    "row": 394,
+    "company": "Blue Star Innovation Partners",
+    "website": "http://www.bluestarinnovationpartners.com",
+    "sector": "Technology, Software/Technology, Fintech, Business Services, Media & Entertainment, Distribution",
+    "notes": "35.7% 6mo growth. Founded 2017. Rev: 10.8M. Apollo score: 19. Alts: Matt (Principal) | Cameron (Partner)"
+  },
+  {
+    "row": 395,
+    "company": "Casa Verde Capital",
+    "website": "http://www.casaverdecapital.com",
+    "sector": "Software/Technology, Consumer/Retail, Government Services, Agriculture",
+    "notes": "20.0% 6mo growth. Founded 2015. Rev: 32.5M. Apollo score: 19. Alts: Tony (Vice President) | Alexander (Vice President of Finance)"
+  },
+  {
+    "row": 400,
+    "company": "Cornell Capital",
+    "website": "http://www.cornellcapllc.com",
+    "sector": "Industrials, Consumer, Financial Services, Business Services",
+    "notes": "25.9% 6mo growth. Founded 2013. Rev: 7M. Apollo score: 19. Alts: Robert (Managing Director) | Taylor (Managing Director)"
+  },
+  {
+    "row": 401,
+    "company": "Cowen Partners Executive Search",
+    "website": "http://www.cowenpartners.com",
+    "sector": "Healthcare, Technology, Consumer, Financial Services, Business Services, Manufacturing",
+    "notes": "15.4% 6mo growth. Founded 2015. Rev: 6M. Apollo score: 19. Alts: Sam (Managing Director) | Shawn (President, Founding Partner)"
+  },
+  {
+    "row": 402,
+    "company": "Crossplane Capital",
+    "website": "http://www.crossplanecapital.com",
+    "sector": "Industrials",
+    "notes": "14.3% 6mo growth. Founded 2018. Rev: 9M. Apollo score: 19. Alts: Cullen (Managing Director, Portfolio Talent) | Ben (Partner)"
+  },
+  {
+    "row": 404,
+    "company": "Dwight Funding",
+    "website": "http://www.dwightfunding.com",
+    "sector": "Consumer, Business Services, Media & Entertainment, Food & Beverage",
+    "notes": "10.5% 6mo growth. Founded 2014. Rev: 5M. Apollo score: 19. Alts: Daniel (Co-Founder & Managing Director) | Jessica (Managing Director, Head of Business Development)"
+  },
+  {
+    "row": 405,
+    "company": "Eir Partners",
+    "website": "http://www.eirpartners.com",
+    "sector": "Healthcare, Technology, Business Services, Pharma",
+    "notes": "16.7% 6mo growth. Founded 2015. Rev: 6M. Apollo score: 19. Alts: John (Operating Partner) | Jeff (Operating Partner)"
+  },
+  {
+    "row": 409,
+    "company": "Girls Who Invest",
+    "website": "http://www.girlswhoinvest.org",
+    "sector": "Media & Entertainment, Education",
+    "notes": "11.8% 6mo growth. Founded 2015. Rev: 13M. Apollo score: 19. Alts: Demetrius (Executive Assistant to Chief Executive Officer)"
+  },
+  {
+    "row": 410,
+    "company": "Goodwater Capital",
+    "website": "http://www.goodwatercap.com",
+    "sector": "Healthcare, Technology, Consumer, Consumer/Retail, Financial Services, Fintech",
+    "notes": "10.7% 6mo growth. Founded 2014. Rev: 5M. Apollo score: 19. Alts: Chi-Hua (Co-Founder & Managing Partner) | Eric (VP of Product and Principal)"
+  },
+  {
+    "row": 459,
+    "company": "Centerview Partners",
+    "website": "http://www.centerviewpartners.com",
+    "sector": "Business Services, Education",
+    "notes": "13.4% 6mo growth. Founded 2006. Rev: 1.9B. Apollo score: 18. Alts: Blair (Co-Founder & Partner) | Godefroy (Managing Director)"
+  },
+  {
+    "row": 464,
+    "company": "Financial Technology Partners / FT Partners",
+    "website": "http://www.ftpartners.com",
+    "sector": "Technology, Consumer, Financial Services, Fintech, Business Services, Media & Entertainment",
+    "notes": "22.1% 6mo growth. Founded 2001. Rev: 150M. Apollo score: 18. Alts: Max (Managing Director) | Tim (Managing Director)"
+  },
+  {
+    "row": 474,
+    "company": "Lineage Capital",
+    "website": "http://www.linkedin.com/in/mark-sullivan-9748874",
+    "sector": "Apollo verified email (2026-03-03)",
+    "notes": "14.3% 6mo growth. Founded 2003. Rev: 9M. Apollo score: 18. Alts: Brook (Partner) | Bill (Partner)"
+  },
+  {
+    "row": 486,
+    "company": "Sweetwater Private Equity",
+    "website": "http://www.linkedin.com/in/gregg-parise-aba87a6",
+    "sector": "Apollo verified email (2026-03-03)",
+    "notes": "41.7% 6mo growth. Founded 2016. Apollo score: 18. Alts: Ali (Principal) | Matt (Partner)"
+  },
+  {
+    "row": 488,
+    "company": "Terminus Capital Partners",
+    "website": "http://www.linkedin.com/in/alexwestern",
+    "sector": "Apollo verified email (2026-03-03)",
+    "notes": "Founded 2017. Rev: 7.6M. Apollo score: 18. Alts: John (Managing Director) | Dragana (Operating Partner)"
+  },
+  {
+    "row": 492,
+    "company": "Truelink Capital",
+    "website": "http://www.truelinkcap.com",
+    "sector": "Technology, Industrials, Business Services, Distribution",
+    "notes": "40.0% 6mo growth. Founded 2000. Rev: 5.4M. Apollo score: 18. Alts: Sam (Principal) | Rodman (Principal)"
+  },
+  {
+    "row": 493,
+    "company": "360 Equipment Finance",
+    "website": "http://www.360equipmentfinance.com",
+    "sector": "",
+    "notes": "14.3% 6mo growth. Founded 2010. Rev: 1.2M. Apollo score: 17. Alts: Lynn (Vice President Broker Relations) | Dana (Vice President of Strategic Partnerships)"
+  },
+  {
+    "row": 494,
+    "company": "8VC",
+    "website": "http://www.8vc.com",
+    "sector": "Healthcare, Technology, Financial Services, Business Services, Manufacturing, Aerospace & Defense",
+    "notes": "29.8% 6mo growth. Founded 2015. Rev: 20M. Apollo score: 17. Alts: Bela (Principal) | Kevin (Principal)"
+  },
+  {
+    "row": 495,
+    "company": "Acquisition.com",
+    "website": "http://www.acquisition.com",
+    "sector": "Media & Entertainment, Education",
+    "notes": "26.9% 6mo growth. Founded 2021. Rev: 250M. Apollo score: 17. Alts: Sharran (President & Managing Partner) | Ben (Managing Director at Acquisition.com)"
+  },
+  {
+    "row": 496,
+    "company": "Agora",
+    "website": "http://www.agorareal.com",
+    "sector": "Technology, Software/Technology, Business Services, Media & Entertainment, Real Estate, Distribution",
+    "notes": "17.0% 6mo growth. Founded 2019. Rev: 30.6M. Apollo score: 17"
+  },
+  {
+    "row": 497,
+    "company": "Altus Capital Partners",
+    "website": "http://www.altuscapitalpartners.com",
+    "sector": "Technology, Manufacturing, Food & Beverage, Environmental Services",
+    "notes": "-13.3% 6mo growth. Founded 2003. Rev: 14.6M. Apollo score: 17. Alts: Peter (Partner, Chief Financial Officer and Chief Compliance Officer)"
+  },
+  {
+    "row": 498,
+    "company": "Anplify",
+    "website": "http://www.anplify.com",
+    "sector": "",
+    "notes": "16.0% 6mo growth. Founded 2014. Rev: 1.7M. Apollo score: 17. Alts: Aditya (Co-Founder)"
+  },
+  {
+    "row": 499,
+    "company": "Arlington Capital Partners",
+    "website": "http://www.arlingtoncap.com",
+    "sector": "Healthcare, Technology, Software/Technology, Business Services, Manufacturing, Aerospace & Defense",
+    "notes": "7.5% 6mo growth. Founded 1999. Rev: 350M. Apollo score: 17. Alts: Gordon (Managing Director) | Ben (Managing Director)"
+  },
+  {
+    "row": 505,
+    "company": "Canoe Intelligence",
+    "website": "http://www.canoeintelligence.com",
+    "sector": "Technology, Business Services, Distribution, Insurance",
+    "notes": "11.8% 6mo growth. Founded 2017. Rev: 62.6M. Apollo score: 17. Alts: Josh (Office of the CEO) | Michael (Partner and Chief Strategy Officer)"
+  },
+  {
+    "row": 506,
+    "company": "Century Equity Partners",
+    "website": "http://www.cepfunds.com",
+    "sector": "Distribution",
+    "notes": "6.7% 6mo growth. Founded 1987. Rev: 7.3M. Apollo score: 17. Alts: Paul (Managing Director-Institutional) | Davis (Managing Partner)"
+  },
+  {
+    "row": 507,
+    "company": "Consonance Capital Partners",
+    "website": "http://www.consonancecapitalpartners.com",
+    "sector": "Healthcare, Business Services, Media & Entertainment, Distribution, Pharma",
+    "notes": "Founded 2005. Rev: 7.3M. Apollo score: 17. Alts: Benjamin (Managing Partner and Co- Founder) | Sapna (Principal)"
+  },
+  {
+    "row": 508,
+    "company": "Corbel Capital Partners",
+    "website": "http://www.corbelcap.com",
+    "sector": "",
+    "notes": "3.6% 6mo growth. Founded 2013. Apollo score: 17. Alts: Nassim (Principal) | Cyan (Principal)"
+  },
+  {
+    "row": 509,
+    "company": "Denham Capital Management",
+    "website": "http://www.denhamcapital.com",
+    "sector": "Energy, Infrastructure",
+    "notes": "7.0% 6mo growth. Founded 2004. Rev: 11.8M. Apollo score: 17. Alts: Timothy (Managing Director) | Carl (Founder and Managing Partner)"
+  },
+  {
+    "row": 512,
+    "company": "Equiton",
+    "website": "http://www.equiton.com",
+    "sector": "Business Services, Real Estate",
+    "notes": "13.8% 6mo growth. Founded 2014. Rev: 2.1M. Apollo score: 17. Alts: Anti (Partner) | Minh (Principal Solicitor)"
+  },
+  {
+    "row": 513,
+    "company": "Forerunner",
+    "website": "http://www.forerunnerventures.com",
+    "sector": "Healthcare, Technology, Consumer, Media & Entertainment, Education, Food & Beverage",
+    "notes": "25.0% 6mo growth. Founded 2012. Rev: 15M. Apollo score: 17. Alts: Fawzi (Principal) | Nicole (Partner)"
+  },
+  {
+    "row": 514,
+    "company": "Fried, Williams & Grice Conner LLP",
+    "website": "http://www.fwgc.law",
+    "sector": "Media & Entertainment, Real Estate",
+    "notes": "18.2% 6mo growth. Founded 2010. Rev: 9.3M. Apollo score: 17. Alts: Alana (Partner) | Steven (Partner)"
+  },
+  {
+    "row": 515,
+    "company": "Fulcrum Equity Partners",
+    "website": "http://www.fulcrumep.com",
+    "sector": "Healthcare, Software/Technology, Business Services, Media & Entertainment",
+    "notes": "Founded 2006. Rev: 5.3M. Apollo score: 17. Alts: Thomas (Co-Founder, Partner) | Brent (Principal)"
+  },
+  {
+    "row": 516,
+    "company": "Gain",
+    "website": "http://www.gain.ai",
+    "sector": "",
+    "notes": "29.9% 6mo growth. Founded 2018. Rev: 33.2M. Apollo score: 17. Alts: Frister (Co-Founder & Co-CEO) | Jitsoma (Global Talent Partner)"
+  },
+  {
+    "row": 517,
+    "company": "Greysteel",
+    "website": "http://www.greysteel.com",
+    "sector": "Consumer, Consumer/Retail, Business Services, Real Estate",
+    "notes": "27.4% 6mo growth. Founded 2012. Rev: 24.5M. Apollo score: 17. Alts: Ray (CEO) | John (Managing Director)"
+  },
+  {
+    "row": 518,
+    "company": "iConnections",
+    "website": "http://www.iconnections.io",
+    "sector": "Technology",
+    "notes": "19.0% 6mo growth. Founded 2020. Rev: 16.5M. Apollo score: 17. Alts: Tamra (Managing Director, Investor Relations) | Teddy (Managing Director, Investor Relations)"
+  },
+  {
+    "row": 519,
+    "company": "InTandem Capital Partners",
+    "website": "http://www.intandemcapital.com",
+    "sector": "Healthcare, Business Services",
+    "notes": "Founded 2003. Rev: 8M. Apollo score: 17. Alts: Greg (Managing Director) | Evan (Principal)"
+  },
+  {
+    "row": 520,
+    "company": "JMH Capital Partners, LLC",
+    "website": "http://www.jmhcapital.com",
+    "sector": "",
+    "notes": "Founded 2003. Rev: 10.5M. Apollo score: 17. Alts: Jerry (President) | John (Managing Partner)"
+  },
+  {
+    "row": 521,
+    "company": "Juniper Square",
+    "website": "http://www.junipersquare.com",
+    "sector": "Technology, Software/Technology, Business Services, Real Estate, Distribution",
+    "notes": "12.8% 6mo growth. Founded 2014. Rev: 139.8M. Apollo score: 17. Alts: Lou (Principal) | Tony (Managing Director, Private Equity and Credit)"
+  },
+  {
+    "row": 522,
+    "company": "Kirtland Capital Partners",
+    "website": "http://www.kirtlandcapital.com",
+    "sector": "",
+    "notes": "7.7% 6mo growth. Founded 1977. Rev: 9.6M. Apollo score: 17. Alts: Bill (Operating Partner) | Patrick (Vice President)"
+  },
+  {
+    "row": 524,
+    "company": "KPS Capital Partners",
+    "website": "http://www.kpsfund.com",
+    "sector": "Healthcare, Industrials, Consumer, Manufacturing, Media & Entertainment",
+    "notes": "9.8% 6mo growth. Founded 1991. Rev: 28M. Apollo score: 17. Alts: Rory (Managing Director) | Michael (Managing Director)"
+  },
+  {
+    "row": 526,
+    "company": "Makena Capital Management, LLC",
+    "website": "http://www.makenacap.com",
+    "sector": "",
+    "notes": "7.3% 6mo growth. Founded 2005. Rev: 5.7M. Apollo score: 17. Alts: Peter (Managing Director) | Bill (Managing Director)"
+  },
+  {
+    "row": 527,
+    "company": "Nasdaq Private Market",
+    "website": "http://www.nasdaqprivatemarket.com",
+    "sector": "Technology, Infrastructure",
+    "notes": "18.7% 6mo growth. Founded 2013. Rev: 62.2M. Apollo score: 17. Alts: Justine (Managing Director) | Jason (Managing Director)"
+  },
+  {
+    "row": 530,
+    "company": "One Rock Capital Partners, LLC",
+    "website": "http://www.onerock.com",
+    "sector": "",
+    "notes": "0.8% 6mo growth. Founded 2010. Apollo score: 17. Alts: Tony (CEO) | Theo (Principal)"
+  },
+  {
+    "row": 532,
+    "company": "Pershing Square Capital Management, L.P.",
+    "website": "http://www.pershingsquareholdings.com",
+    "sector": "Financial Services, Business Services, Media & Entertainment, Distribution",
+    "notes": "6.4% 6mo growth. Founded 2004. Rev: 1.7B. Apollo score: 17. Alts: Scott (Partner) | Josh (Principal Consultant)"
+  },
+  {
+    "row": 533,
+    "company": "Private Equity Partners",
+    "website": "http://www.privateequitypartners.com",
+    "sector": "",
+    "notes": "Rev: 12.8M. Apollo score: 17. Alts: Jean-Roger (Partner) | Carlo (Partner)"
+  },
+  {
+    "row": 534,
+    "company": "Quartus Capital Partners",
+    "website": "http://www.quartuscap.com",
+    "sector": "Technology, Software/Technology, Logistics & Distribution",
+    "notes": "10.0% 6mo growth. Founded 2015. Apollo score: 17. Alts: Afzal (Founder, Managing Partner & Chief Investment Officer) | Fazlur (Venture Partner)"
+  },
+  {
+    "row": 536,
+    "company": "Riveria Group",
+    "website": "http://www.riveriagroup.com",
+    "sector": "Media & Entertainment",
+    "notes": "14.3% 6mo growth. Founded 2011. Rev: 4.4M. Apollo score: 17"
+  },
+  {
+    "row": 537,
+    "company": "Rosecliff",
+    "website": "http://www.rosecliff.com",
+    "sector": "Technology, Consumer, Manufacturing, Media & Entertainment, Infrastructure",
+    "notes": "11.5% 6mo growth. Founded 2015. Rev: 27.5M. Apollo score: 17. Alts: Krish (Principal) | Connor (Principal)"
+  },
+  {
+    "row": 538,
+    "company": "Rotunda Capital Partners",
+    "website": "http://www.rotundacapital.com",
+    "sector": "Technology, Industrials, Business Services, Logistics & Distribution, Distribution, Infrastructure",
+    "notes": "Founded 2009. Rev: 10.7M. Apollo score: 17. Alts: Rohit (Partner) | Ellen (Operating Partner)"
+  },
+  {
+    "row": 539,
+    "company": "SFW Capital Partners",
+    "website": "http://www.sfwcap.com",
+    "sector": "Healthcare, Technology, Software/Technology, Industrials, Consumer, Life Sciences",
+    "notes": "-22.2% 6mo growth. Founded 2007. Rev: 15.7M. Apollo score: 17"
+  },
+  {
+    "row": 540,
+    "company": "Silicon Foundry",
+    "website": "http://www.sifoundry.com",
+    "sector": "",
+    "notes": "25.0% 6mo growth. Founded 2013. Rev: 3M. Apollo score: 17. Alts: Erik (Managing Director) | Tanya (Managing Director)"
+  },
+  {
+    "row": 542,
+    "company": "Stonepeak",
+    "website": "http://www.stonepeak.com",
+    "sector": "Industrials, Energy, Real Estate, Food & Beverage, Logistics & Distribution, Distribution",
+    "notes": "10.6% 6mo growth. Founded 2011. Rev: 104.1M. Apollo score: 17. Alts: Rashad (Managing Director, Partner Stonepeak Credit) | Daniel (Managing Director)"
+  },
+  {
+    "row": 543,
+    "company": "Sun Capital Partners, Inc.",
+    "website": "http://www.suncappart.com",
+    "sector": "Infrastructure",
+    "notes": "3.4% 6mo growth. Founded 1995. Rev: 50M. Apollo score: 17. Alts: Raj (Operating Partner / Managing Director) | Marc (Co-CEO)"
+  },
+  {
+    "row": 544,
+    "company": "Svoboda Capital Partners, LLC",
+    "website": "http://www.svoco.com",
+    "sector": "Industrials, Business Services, Logistics & Distribution",
+    "notes": "8.3% 6mo growth. Founded 1998. Rev: 5.4M. Apollo score: 17. Alts: Stephanie (CEO) | David (Managing Director)"
+  },
+  {
+    "row": 545,
+    "company": "Sydecar",
+    "website": "http://www.sydecar.io",
+    "sector": "",
+    "notes": "13.4% 6mo growth. Founded 2021. Rev: 1M. Apollo score: 17. Alts: David (Co-Founder) | Jin (Principal Engineer)"
+  },
+  {
+    "row": 546,
+    "company": "Top Tier Capital Partners",
+    "website": "http://www.ttcp.com",
+    "sector": "Technology",
+    "notes": "1.8% 6mo growth. Founded 1999. Rev: 8.8M. Apollo score: 17. Alts: Garth (Chief Executive Officer and General Partner) | Udi (Group Managing Partner & Co-Founder)"
+  },
+  {
+    "row": 547,
+    "company": "Triton Pacific Capital Partners, LLC",
+    "website": "http://www.tritonpacific.com",
+    "sector": "Healthcare, Technology, Business Services",
+    "notes": "5.9% 6mo growth. Founded 1996. Rev: 20M. Apollo score: 17. Alts: David (Operating Partner) | Michael (Vice President)"
+  },
+  {
+    "row": 548,
+    "company": "Velocity Capital Management",
+    "website": "http://www.velocitycm.com",
+    "sector": "Technology, Business Services, Media & Entertainment",
+    "notes": "33.3% 6mo growth. Founded 2021. Apollo score: 17. Alts: Pan (Operating Partner) | Nishant (Vice President)"
+  },
+  {
+    "row": 549,
+    "company": "Village Global",
+    "website": "http://www.villageglobal.com",
+    "sector": "Food & Beverage",
+    "notes": "10.3% 6mo growth. Founded 2017. Rev: 34M. Apollo score: 17. Alts: Amrit (General Partner) | Jacob (Venture Partner)"
+  },
+  {
+    "row": 561,
+    "company": "Aquiline",
+    "website": "http://www.aquiline.com",
+    "sector": "Technology, Financial Services, Business Services, Infrastructure",
+    "notes": "13.3% 6mo growth. Founded 2005. Rev: 35M. Apollo score: 16. Alts: Bill (Managing Director) | Bruce (Principal)"
+  },
+  {
+    "row": 563,
+    "company": "Archer Capital Group",
+    "website": "https://www.linkedin.com/in/gregmartin72",
+    "sector": "Enriched",
+    "notes": "7.1% 6mo growth. Founded 2010. Rev: 7.9M. Apollo score: 16. Alts: Lucas (Partner) | Rahil (Managing Principal)"
+  },
+  {
+    "row": 564,
+    "company": "Arrowroot Capital Management",
+    "website": "http://www.arrowrootcapital.com",
+    "sector": "Software/Technology",
+    "notes": "Founded 2014. Rev: 4.4M. Apollo score: 16. Alts: Clem (Partner) | Steve (Partner and Chief Financial Officer)"
+  },
+  {
+    "row": 566,
+    "company": "Avathon Capital",
+    "website": "http://www.avathoncapital.com",
+    "sector": "Enriched - Needs Email",
+    "notes": "9.1% 6mo growth. Founded 2015. Rev: 3.6M. Apollo score: 16. Alts: Shawn (Principal) | Nishaad (Principal)"
+  },
+  {
+    "row": 567,
+    "company": "AVB Invest",
+    "website": "http://www.avbinvest.com",
+    "sector": "Enriched - Needs Email",
+    "notes": "800.0% 6mo growth. Founded 2020. Apollo score: 16"
+  },
+  {
+    "row": 570,
+    "company": "BDA Partners",
+    "website": "http://www.bdapartners.com",
+    "sector": "Technology, Industrials, Consumer, Consumer/Retail, Business Services, Pharma",
+    "notes": "10.2% 6mo growth. Founded 1996. Rev: 57.2M. Apollo score: 16. Alts: Alexander (Managing Director) | Dominik (Managing Director)"
+  },
+  {
+    "row": 571,
+    "company": "Betcher Financial Group",
+    "website": "http://www.betcherfg.com",
+    "sector": "Financial Services, Business Services, Media & Entertainment, Distribution, Insurance",
+    "notes": "11.1% 6mo growth. Founded 2000. Rev: 10M. Apollo score: 16"
+  },
+  {
+    "row": 572,
+    "company": "Bicycle Capital",
+    "website": "http://www.bicycle.capital",
+    "sector": "",
+    "notes": "25.0% 6mo growth. Founded 2022. Apollo score: 16. Alts: Natalia (Principal) | Matthew (Partner)"
+  },
+  {
+    "row": 573,
+    "company": "Black Dragon Capital",
+    "website": "http://www.blackdragoncap.com",
+    "sector": "Technology, Fintech, Media & Entertainment",
+    "notes": "13.3% 6mo growth. Founded 2013. Apollo score: 16. Alts: Kevin (Partner) | Michelle (Vice President of Product Management)"
+  },
+  {
+    "row": 574,
+    "company": "BlueWave Resource Partners",
+    "website": "http://www.bluewaverp.com",
+    "sector": "Technology, Software/Technology, Business Services",
+    "notes": "5.0% 6mo growth. Founded 2014. Rev: 3M. Apollo score: 16. Alts: Rachel (Vice President, Sales & Recruiting)"
+  },
+  {
+    "row": 575,
+    "company": "Bruin Capital",
+    "website": "http://www.bruincptl.com",
+    "sector": "Technology, Media & Entertainment",
+    "notes": "18.9% 6mo growth. Founded 2015. Apollo score: 16. Alts: Jeffrey (Partner) | Brendan (Vice President)"
+  },
+  {
+    "row": 576,
+    "company": "Burtch Works",
+    "website": "http://www.burtchworks.com",
+    "sector": "Healthcare, Technology, Industrials, Consumer/Retail, Financial Services, Business Services",
+    "notes": "20.6% 6mo growth. Founded 2009. Rev: 4.2M. Apollo score: 16"
+  },
+  {
+    "row": 577,
+    "company": "Butterfly Equity",
+    "website": "http://www.bfly.com",
+    "sector": "Technology, Software/Technology, Business Services, Manufacturing, Food & Beverage, Distribution",
+    "notes": "2.2% 6mo growth. Founded 2016. Rev: 8.7M. Apollo score: 16. Alts: Adam (Co-Founder, Co-CEO) | Francesco (Managing Director)"
+  },
+  {
+    "row": 578,
+    "company": "Callais Capital",
+    "website": "http://www.callaiscapital.com",
+    "sector": "",
+    "notes": "42.9% 6mo growth. Founded 2014. Apollo score: 16"
+  },
+  {
+    "row": 581,
+    "company": "Centiva Capital",
+    "website": "http://www.centivacapital.com",
+    "sector": "",
+    "notes": "2.8% 6mo growth. Founded 2016. Rev: 87.2M. Apollo score: 16. Alts: Shiva (Principal Software Engineer) | Karim (Co-Founder, Deputy Chief Investment Officer)"
+  },
+  {
+    "row": 583,
+    "company": "Character Capital",
+    "website": "http://www.character.vc",
+    "sector": "Healthcare, Technology, Software/Technology, Industrials, Consumer/Retail, Business Services",
+    "notes": "25.0% 6mo growth. Founded 2021. Apollo score: 16. Alts: Eli (Co-Founder and General Partner) | Jake (General Partner)"
+  },
+  {
+    "row": 586,
+    "company": "Constitution Capital Partners",
+    "website": "http://www.concp.com",
+    "sector": "",
+    "notes": "6.3% 6mo growth. Founded 2008. Apollo score: 16. Alts: Curtis (Managing Director) | Joe (Managing Director)"
+  },
+  {
+    "row": 588,
+    "company": "D1 Capital Partners L.P.",
+    "website": "http://www.d1capitalgroup.com",
+    "sector": "",
+    "notes": "9.2% 6mo growth. Founded 2018. Apollo score: 16. Alts: Jake (Principal) | Jonathan (Partner)"
+  },
+  {
+    "row": 591,
+    "company": "Dhanani Private Equity Group",
+    "website": "http://www.dhananipeg.com",
+    "sector": "Technology, Consumer/Retail, Business Services, Energy, Real Estate, Food & Beverage",
+    "notes": "Founded 2011. Rev: 6M. Apollo score: 16. Alts: Nikhil (President) | Imran (Principal Attorney)"
+  },
+  {
+    "row": 592,
+    "company": "District Partners",
+    "website": "http://www.districtpartnersllc.com",
+    "sector": "Healthcare, Technology, Financial Services, Business Services, Media & Entertainment",
+    "notes": "22.6% 6mo growth. Founded 2019. Apollo score: 16. Alts: Eric (Managing Director, Information Technology & Digital Transformation) | Login (VP, Operations)"
+  },
+  {
+    "row": 593,
+    "company": "Drake Star",
+    "website": "http://www.drakestar.com",
+    "sector": "Technology, Software/Technology, Industrials, Consumer, Consumer/Retail, Fintech",
+    "notes": "29.4% 6mo growth. Founded 2004. Rev: 72.2M. Apollo score: 16. Alts: Albert-Louis (Principal) | Gregoire (Principal)"
+  },
+  {
+    "row": 594,
+    "company": "Drive Capital",
+    "website": "http://www.drivecapital.com",
+    "sector": "Technology",
+    "notes": "2.4% 6mo growth. Founded 2012. Rev: 3.3M. Apollo score: 16. Alts: Molly (Partner) | Masha (Partner)"
+  },
+  {
+    "row": 595,
+    "company": "East 57th Street Partners",
+    "website": "http://www.e57partners.com",
+    "sector": "Technology, Business Services",
+    "notes": "7.7% 6mo growth. Founded 2014. Rev: 3.3M. Apollo score: 16"
+  },
+  {
+    "row": 596,
+    "company": "Eastward Partners Inc.",
+    "website": "http://www.eastwardpartners.com",
+    "sector": "Business Services",
+    "notes": "23.8% 6mo growth. Founded 2015. Apollo score: 16. Alts: Brian (Managing Director, Private Equity & Venture Capital) | Brett (Partner, Head of Private Equity)"
+  },
+  {
+    "row": 597,
+    "company": "ECA Partners",
+    "website": "http://www.eca-partners.com",
+    "sector": "Healthcare, Technology, Software/Technology, Industrials, Consumer, Consumer/Retail",
+    "notes": "0.4% 6mo growth. Founded 2010. Rev: 50.2M. Apollo score: 16. Alts: Burton (Managing Director) | Dan (Senior Director - CEO & Value Creation Practice)"
+  },
+  {
+    "row": 598,
+    "company": "Eckuity Capital",
+    "website": "http://www.eckuity.com",
+    "sector": "Healthcare, Technology, Software/Technology, Consumer, Business Services, Education/EdTech",
+    "notes": "40.0% 6mo growth. Founded 2021. Apollo score: 16. Alts: Youssef (Founder / Managing Partner) | Michael (Principal)"
+  },
+  {
+    "row": 599,
+    "company": "ECP Growth",
+    "website": "http://www.ecpgrowth.com",
+    "sector": "Technology, Industrials, Consumer, Manufacturing, Food & Beverage",
+    "notes": "28.6% 6mo growth. Founded 2009. Rev: 15.8M. Apollo score: 16. Alts: Andreas (Chairman & Co-Founder) | Tyler (Vice President)"
+  },
+  {
+    "row": 600,
+    "company": "EdgeCase Capital Partners",
+    "website": "http://www.edgecasecap.com",
+    "sector": "",
+    "notes": "9.4% 6mo growth. Founded 2021. Apollo score: 16. Alts: Shay (Partner)"
+  },
+  {
+    "row": 601,
+    "company": "Energy Impact Partners",
+    "website": "http://www.energyimpactpartners.com",
+    "sector": "Technology, Software/Technology, Industrials, Consumer, Energy, Infrastructure",
+    "notes": "7.7% 6mo growth. Founded 2015. Rev: 15M. Apollo score: 16. Alts: Mickey (CEO) | Harry (Managing Partner & CEO - EIP Credit)"
+  },
+  {
+    "row": 602,
+    "company": "EquityZen",
+    "website": "http://www.equityzen.com",
+    "sector": "",
+    "notes": "1.7% 6mo growth. Founded 2013. Rev: 18.5M. Apollo score: 16. Alts: Alex (VP, People Ops)"
+  },
+  {
+    "row": 603,
+    "company": "Erez Capital",
+    "website": "http://www.erezcapital.io",
+    "sector": "",
+    "notes": "12.7% 6mo growth. Founded 2022. Apollo score: 16. Alts: Christopher (General Partner) | Jeffrey (Venture Partner)"
+  },
+  {
+    "row": 604,
+    "company": "Evolution Credit Partners",
+    "website": "http://www.evolutioncreditpartners.com",
+    "sector": "",
+    "notes": "18.9% 6mo growth. Founded 2018. Apollo score: 16. Alts: Michael (Managing Partner and Co-Founder) | Rene (Managing Partner and Co-founder)"
+  },
+  {
+    "row": 605,
+    "company": "F6S",
+    "website": "http://www.f6s.com",
+    "sector": "",
+    "notes": "11.3% 6mo growth. Founded 2011. Rev: 19M. Apollo score: 16. Alts: Egidijus (Co-Founder) | Andrej (Co-Founder)"
+  },
+  {
+    "row": 607,
+    "company": "Flyover Capital",
+    "website": "http://www.flyovercapital.com",
+    "sector": "Technology, Software/Technology, Media & Entertainment, Distribution",
+    "notes": "9.1% 6mo growth. Founded 2014. Rev: 2.6M. Apollo score: 16. Alts: Tristan (Managing Partner) | Keith (General Partner)"
+  },
+  {
+    "row": 608,
+    "company": "FTV Capital",
+    "website": "http://www.ftvcapital.com",
+    "sector": "Media & Entertainment",
+    "notes": "10.4% 6mo growth. Founded 1998. Rev: 23M. Apollo score: 16. Alts: Shoma (Principal) | Adam (Principal)"
+  },
+  {
+    "row": 609,
+    "company": "Further Global Capital Management",
+    "website": "http://www.furtherglobal.com",
+    "sector": "Financial Services, Business Services",
+    "notes": "Founded 2017. Rev: 4.5M. Apollo score: 16. Alts: Max (Founding Partner) | Richard (Founding Partner)"
+  },
+  {
+    "row": 610,
+    "company": "Garden City Equity",
+    "website": "http://www.gardencityequity.com",
+    "sector": "Technology, Energy",
+    "notes": "21.1% 6mo growth. Founded 2020. Apollo score: 16. Alts: Nick (Principal)"
+  },
+  {
+    "row": 612,
+    "company": "Graycliff Partners LP",
+    "website": "http://www.graycliffpartners.com",
+    "sector": "Industrials, Business Services, Manufacturing, Media & Entertainment, Education, Distribution",
+    "notes": "10.0% 6mo growth. Founded 2011. Rev: 15.7M. Apollo score: 16. Alts: Taylor (Managing Director) | Matt (Principal)"
+  },
+  {
+    "row": 613,
+    "company": "Griffin Capital Company, LLC",
+    "website": "http://www.griffincapital.com",
+    "sector": "Real Estate",
+    "notes": "15.2% 6mo growth. Founded 1995. Rev: 459.9M. Apollo score: 16. Alts: Michael (Managing Director, Portfolio Management) | David (Co-CEO | Griffin Capital Residential Partners)"
+  }
+]

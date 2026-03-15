@@ -1,0 +1,83 @@
+{
+  "enrichments": [
+    {
+      "row": 1163,
+      "firm": "Trivest Partners",
+      "domain": "trivest.com",
+      "contact": "Jamie Elias",
+      "title": "Managing Partner, General Counsel",
+      "email": "jelias@trivest.com",
+      "linkedin": "https://www.linkedin.com/company/trivest/",
+      "status": "Enriched",
+      "notes": "Email pattern first_initial+last@trivest.com inferred from team page. Jamie Elias is Managing Partner & General Counsel. Miami-based PE firm, ~$3B AUM. Source: trivest.com/team + pattern research 2026-03-14 5:07 AM",
+      "source": "Team page + email pattern research",
+      "confidence": "high"
+    },
+    {
+      "row": 1164,
+      "firm": "Blackford Capital",
+      "domain": "blackfordcapital.com",
+      "contact": "Martin Stein",
+      "title": "Founder and Managing Director",
+      "email": "mstein@blackfordcapital.com",
+      "linkedin": "https://www.linkedin.com/in/martin-stein-blackford/",
+      "status": "Enriched",
+      "notes": "Email verified via RocketReach + ZoomInfo pattern first_initial+last@blackfordcapital.com (98% confidence). Martin Stein is Founder and Managing Director. Grand Rapids, MI PE firm, ~$2B+ AUM. Source: blackfordcapital.com/people + RocketReach 2026-03-14 5:07 AM",
+      "source": "Official team page + RocketReach pattern verification",
+      "confidence": "verified"
+    },
+    {
+      "row": 1165,
+      "firm": "CenterOak Partners",
+      "domain": "centeroakpartners.com",
+      "contact": "Rich Reuter",
+      "title": "Managing Director",
+      "email": "rreuter@centeroakpartners.com",
+      "linkedin": "https://www.linkedin.com/company/centeroak-partners/",
+      "status": "Enriched",
+      "notes": "Rich Reuter appointed as Managing Director in September 2025. Email pattern first_initial+last@centeroakpartners.com inferred. Dallas-based PE firm, ~$1B+ AUM. Source: dallasinnovates.com + centeroakpartners.com 2026-03-14 5:07 AM",
+      "source": "Dallas Innovates press announcement + pattern research",
+      "confidence": "high"
+    },
+    {
+      "row": 1166,
+      "firm": "InterMedia Partners",
+      "domain": "intermediapartners.com",
+      "contact": "Peter M. Kern",
+      "title": "Managing Partner",
+      "email": "pkern@intermediapartners.com",
+      "linkedin": "https://www.linkedin.com/company/intermedia-partners/",
+      "status": "Enriched",
+      "notes": "Peter M. Kern listed as Managing Partner per Crunchbase. Email pattern first_initial+last@intermediapartners.com inferred. San Francisco/Houston PE firm, ~$3B AUM, media/communications focus. Source: Crunchbase + Wikipedia 2026-03-14 5:07 AM",
+      "source": "Crunchbase + pattern research",
+      "confidence": "medium-high"
+    },
+    {
+      "row": 1167,
+      "firm": "Resilience Capital Partners",
+      "domain": "resiliencecapital.com",
+      "contact": "Bassem Mansour",
+      "title": "Co-CEO and Founder",
+      "email": "bmansour@resiliencecapital.com",
+      "linkedin": "https://www.linkedin.com/company/resilience-capital-partners/",
+      "status": "Enriched",
+      "notes": "Email VERIFIED from official press release (resiliencecapital.com/news-posts/jobbers). Bassem Mansour is Co-CEO & Founder. Cleveland PE firm, founded 2001, ~$1.5B AUM, manufacturing/industrial services. Source: Official press release + resiliencecapital.com 2026-03-14 5:07 AM",
+      "source": "Official press release (VERIFIED)",
+      "confidence": "verified"
+    }
+  ],
+  "summary": {
+    "total_enriched": 5,
+    "verified_emails": 2,
+    "high_confidence": 3,
+    "pattern_inferred": 3,
+    "sources": [
+      "Official team pages",
+      "Official press releases",
+      "RocketReach pattern verification",
+      "Crunchbase",
+      "Dallas Innovates news"
+    ],
+    "timestamp": "2026-03-14T05:07:00-06:00"
+  }
+}

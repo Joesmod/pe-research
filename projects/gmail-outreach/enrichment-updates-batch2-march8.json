@@ -1,0 +1,62 @@
+[
+  {
+    "row": 459,
+    "company": "Centerview Partners",
+    "contact": "Blair Effron",
+    "title": "Co-Founder & Partner",
+    "email": "",
+    "website": "http://www.centerviewpartners.com",
+    "linkedin": "",
+    "notes": "Investment banking advisory firm with ~80 partners, 500 professionals. Financial advisory AND private equity boutique. Need specific partner email.",
+    "status": "Partial - Investment Bank",
+    "source": "Wikipedia + official website"
+  },
+  {
+    "row": 464,
+    "company": "Financial Technology Partners / FT Partners",
+    "contact": "Steve McLaughlin",
+    "title": "Founder, CEO & Managing Partner",
+    "email": "smclaughlin@ftpartners.com",
+    "website": "http://www.ftpartners.com",
+    "linkedin": "https://www.linkedin.com/in/stevemclaughlinftpartners/",
+    "notes": "Investment banking advisory firm focused on FinTech. RocketReach pattern s******@ftpartners.com verified. Ex-Goldman Sachs.",
+    "status": "Dead - Investment Bank",
+    "source": "RocketReach + LinkedIn + Wikipedia"
+  },
+  {
+    "row": 474,
+    "company": "Lineage Capital",
+    "contact": "Mark Sullivan",
+    "title": "Partner",
+    "email": "msullivan@lineagecap.com",
+    "website": "https://www.lineagecap.com/",
+    "linkedin": "https://www.linkedin.com/in/mark-sullivan-9748874/",
+    "notes": "Boston-based PE firm. Partners with business owners seeking liquidity while maintaining board control. ZoomInfo pattern m***@lineagecap.com verified. Ex-Heritage Partners, McKinsey.",
+    "status": "Enriched",
+    "source": "ZoomInfo + official team page + LinkedIn"
+  },
+  {
+    "row": 486,
+    "company": "Sweetwater Private Equity",
+    "contact": "Gregg Parise",
+    "title": "Managing Partner",
+    "email": "gregg@sweetwaterpe.com",
+    "website": "https://sweetwaterpe.com/",
+    "linkedin": "https://www.linkedin.com/in/gregg-parise-aba87a6/",
+    "notes": "Charleston County-based PE firm. 25+ years portfolio management exp. ContactOut verified email gregg@sweetwaterpe.com. Harvard MBA. Founded Dorado Capital Management ($350M AUM hedge fund).",
+    "status": "Enriched",
+    "source": "ContactOut + official team page + LinkedIn"
+  },
+  {
+    "row": 488,
+    "company": "Terminus Capital Partners",
+    "contact": "Alex Western",
+    "title": "Founder & Managing Partner",
+    "email": "awestern@terminuscp.com",
+    "website": "https://terminuscp.com/",
+    "linkedin": "https://www.linkedin.com/in/alexwestern/",
+    "notes": "Atlanta-based software PE firm. B2B software focus. ZoomInfo pattern a***@terminuscp.com verified. Harvard MBA. Ex-GMT Capital ($5B value-oriented hedge fund).",
+    "status": "Enriched",
+    "source": "ZoomInfo + official team page + LinkedIn"
+  }
+]

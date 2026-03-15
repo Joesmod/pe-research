@@ -1,0 +1,122 @@
+[
+  {
+    "rowIndex": 101,
+    "company": "Littlejohn & Co",
+    "contact": "Managing Partner",
+    "title": "amiranda@littlejohnllc.com",
+    "email": "https://www.linkedin.com/in/antonio-miranda/",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 144,
+    "company": "Highlander Partners",
+    "contact": "President & CEO",
+    "title": "jhull@highlander-partners.com",
+    "email": "https://www.linkedin.com/in/jeff-hull/",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 286,
+    "company": "Banneker Partners",
+    "contact": "Principal",
+    "title": "Stephen Davis",
+    "email": "Managing Partner",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 560,
+    "company": "Apogem Capital",
+    "contact": "Anna Reed",
+    "title": "Anna Reed",
+    "email": "Managing Director - Healthcare Leveraged Finance",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 564,
+    "company": "Arrowroot Capital Management",
+    "contact": "Matthew J. Safaii",
+    "title": "Matthew J. Safaii",
+    "email": "Managing Partner",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 569,
+    "company": "Base10 Partners",
+    "contact": "Jackie Chen",
+    "title": "Jackie Chen",
+    "email": "Investor",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 572,
+    "company": "Bicycle Capital",
+    "contact": "Shu Nyatta",
+    "title": "Shu Nyatta",
+    "email": "Managing Partner",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 574,
+    "company": "BlueWave Resource Partners",
+    "contact": "Laura Danforth",
+    "title": "Laura Danforth",
+    "email": "President",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 604,
+    "company": "Evolution Credit Partners",
+    "contact": "John-Carl Barone",
+    "title": "John-Carl Barone",
+    "email": "Managing Director",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 608,
+    "company": "FTV Capital",
+    "contact": "Arun Singh",
+    "title": "Arun Singh",
+    "email": "Principal",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 610,
+    "company": "Garden City Equity",
+    "contact": "Michael Arrieta",
+    "title": "Michael Arrieta",
+    "email": "Founder & CEO",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 611,
+    "company": "GiantLeap Capital",
+    "contact": "Himanshu Sekhar",
+    "title": "Himanshu Sekhar",
+    "email": "Co-Founder & Managing Partner",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 612,
+    "company": "Graycliff Partners LP",
+    "contact": "Stephen Hindmarch",
+    "title": "Stephen Hindmarch",
+    "email": "Partner",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 620,
+    "company": "HRCap, Inc.",
+    "contact": "Andrew Sungsoo Kim",
+    "title": "Andrew Sungsoo Kim",
+    "email": "Founder, President & CEO",
+    "reason": "Data misalignment - columns shifted"
+  },
+  {
+    "rowIndex": 622,
+    "company": "Hunter Point Capital LP",
+    "contact": "Alvin Butler",
+    "title": "Brian Blaney, CFA",
+    "email": "Managing Director",
+    "reason": "Data misalignment - columns shifted"
+  }
+]

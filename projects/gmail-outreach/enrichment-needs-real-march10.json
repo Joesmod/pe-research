@@ -1,0 +1,52 @@
+[
+  {
+    "row": 71,
+    "company": "Berkshire Partners",
+    "contact": "Eric Souza",
+    "title": "Monica Brand Engel",
+    "email": "Co-Founder & Managing Partner",
+    "website": "mengel@quona.com",
+    "status": "Source: RocketReach + official team page",
+    "issues": [
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 128,
+    "company": "Kinderhook Industries",
+    "contact": "Robert Michalik",
+    "title": "Managing Director",
+    "email": "[email protected]",
+    "website": "https://www.kinderhook.com",
+    "status": "Enriched",
+    "issues": [
+      "Placeholder email",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 242,
+    "company": "Cranemere Group",
+    "contact": "Kamil Salame",
+    "title": "Chief Executive Officer",
+    "email": "[email protected]",
+    "website": "https://www.cranemere.com",
+    "status": "Enriched",
+    "issues": [
+      "Placeholder email",
+      "Invalid email format"
+    ]
+  },
+  {
+    "row": 467,
+    "company": "Goode Partners",
+    "contact": "Partner",
+    "title": "doddi@goodepartners.com",
+    "email": "http://www.goodepartners.com/team/david",
+    "website": "Enriched",
+    "status": "Enriched",
+    "issues": [
+      "Invalid email format"
+    ]
+  }
+]

@@ -1,42 +1,33 @@
 const { google } = require('googleapis');
 
 const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-const SERVICE_ACCOUNT_FILE = 'service-account.json';
+const SERVICE_ACCOUNT_FILE = './service-account.json';
 
-async function checkStructure() {
+async function main() {
   const auth = new google.auth.GoogleAuth({
     keyFile: SERVICE_ACCOUNT_FILE,
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
-  
+
   const sheets = google.sheets({ version: 'v4', auth });
   
   const response = await sheets.spreadsheets.values.get({
     spreadsheetId: SHEET_ID,
-    range: 'Sheet1!A:I',
+    range: 'Sheet1!A1:L10',
   });
+
+  const rows = response.data.values;
   
-  const rows = response.data.values || [];
-  const header = rows[0];
-  
-  console.log('Header:', header);
-  console.log('\nColumn indices:');
-  header.forEach((col, idx) => {
-    console.log(`  ${idx}: ${col}`);
+  console.log('\n📋 First 10 rows of the sheet:\n');
+  rows.forEach((row, i) => {
+    console.log(`Row ${i + 1}:`);
+    console.log(`  A: ${row[0] || '[empty]'}`);
+    console.log(`  B: ${row[1] || '[empty]'}`);
+    console.log(`  C: ${row[2] || '[empty]'}`);
+    console.log(`  D: ${row[3] || '[empty]'}`);
+    console.log(`  E: ${row[4] || '[empty]'}`);
+    console.log('');
   });
-  
-  console.log('\nLooking for target firms:');
-  const targetFirms = ['Clearhaven Partners', 'Star Mountain Capital', 'Silas Capital', 'Spectrum Search Partners', 'Provident Healthcare Partners', 'Amity Search Partners'];
-  
-  for (let i = 1; i < rows.length; i++) {
-    const row = rows[i];
-    const company = row[0] || '';
-    
-    if (targetFirms.some(firm => company.includes(firm) || firm.includes(company))) {
-      console.log(`\nRow ${i + 1}: ${company}`);
-      console.log('  Data:', row.slice(0, 9));
-    }
-  }
 }
 
-checkStructure().catch(console.error);
+main().catch(console.error);

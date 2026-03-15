@@ -1,0 +1,67 @@
+[
+  {
+    "rowIndex": 988,
+    "firm": "Renovus Capital Partners",
+    "website": "https://renovuscapital.com",
+    "contactName": "Atif Gilani",
+    "title": "Founding Partner",
+    "email": "",
+    "linkedin": "https://theorg.com/org/renovus-capital-partners",
+    "sector": "Education, Healthcare Services, Professional Services, Technology Services",
+    "portfolio": "100+ portfolio and add-on investments",
+    "status": "Enriched - LinkedIn/Website",
+    "notes": "Wayne, PA. $2B+ committed capital. Founded 2010. Knowledge and Talent industry focus. Jason Tanker (MD, Tech Services). Website lists team but no direct emails found."
+  },
+  {
+    "rowIndex": 989,
+    "firm": "Linsalata Capital Partners",
+    "website": "",
+    "contactName": "Eric Bacon",
+    "title": "Co-President & Senior Managing Director",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/eric-bacon-48411557/",
+    "sector": "Aerospace & Defense, Automotive Aftermarket, Building Products, Business Services",
+    "portfolio": "Lower middle market buyout firm",
+    "status": "Enriched - LinkedIn",
+    "notes": "Cleveland, OH. Founded 1984. 5900 Landerbrook Drive. Website appears inactive. Middle market PE firm."
+  },
+  {
+    "rowIndex": 990,
+    "firm": "High Road Capital Partners",
+    "website": "https://www.highroadcap.com",
+    "contactName": "Robert Fitzsimmons",
+    "title": "Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/robert-fitzsimmons-7b85558/",
+    "sector": "Middle Market - diverse sectors",
+    "portfolio": "Smaller end of middle market",
+    "status": "Enriched - LinkedIn/Website",
+    "notes": "Formed 2007. $470M+ committed capital. 80+ years combined team experience. New York based."
+  },
+  {
+    "rowIndex": 991,
+    "firm": "Pharos Capital Group",
+    "website": "https://www.pharosfunds.com",
+    "contactName": "Kneeland Youngblood",
+    "title": "Founding Partner & Chief Investment Officer",
+    "email": "",
+    "linkedin": "https://www.pharosfunds.com/our-team.php",
+    "sector": "Healthcare Services, Healthcare IT, Outsourced Care Management",
+    "portfolio": "50+ companies (physician-founded PE firm)",
+    "status": "Enriched - Website",
+    "notes": "Dallas & Nashville. Physician-founded firm focused on healthcare companies that lower cost of care, improve outcomes, expand access. 27+ years healthcare investment experience (Youngblood)."
+  },
+  {
+    "rowIndex": 992,
+    "firm": "Shoreview Capital",
+    "website": "https://www.shoreview.com",
+    "contactName": "Peter Zimmerman",
+    "title": "Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/peter-zimmerman-a9b4a918/",
+    "sector": "Engineered Products, Distribution, Industrial Services, Business Services, Healthcare, Niche Consumer",
+    "portfolio": "Family/entrepreneurial-owned companies",
+    "status": "Enriched - LinkedIn (NOTE: Likely duplicate of ShoreView Industries row 13)",
+    "notes": "Minneapolis, MN. 222 S 9th St Suite 3300. Founded 2002. $1.3B+ committed capital across 4 funds. Lower-middle market focus. Full name: ShoreView Industries, LLC."
+  }
+]

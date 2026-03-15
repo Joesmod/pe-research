@@ -1,0 +1,22 @@
+[
+  {
+    "row": 1061,
+    "company": "Rehab Medical",
+    "contact": "Patrick McGinley",
+    "title": "Founder and CEO",
+    "email": "pmcginley@rehabmedical.com",
+    "linkedin": "https://www.linkedin.com/in/patrick-mcginley-rehab/",
+    "source": "Rehab Medical press releases, Crunchbase, public records",
+    "notes": "Enriched via manual research 2026-03-13. Founder and CEO since founding, 2022 Midwest Entrepreneur of the Year."
+  },
+  {
+    "row": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contact": "Anthony Wilson",
+    "title": "CEO and Fund Manager",
+    "email": "awilson@kenan-flagler.unc.edu",
+    "linkedin": "https://www.linkedin.com/in/anthonywilsonunc/",
+    "source": "UNC Kenan-Flagler PE Fund website, RocketReach",
+    "notes": "Enriched via manual research 2026-03-13. CEO and Fund Manager for student-run PE fund."
+  }
+]

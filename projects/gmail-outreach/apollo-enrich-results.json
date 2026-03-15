@@ -1,0 +1,450 @@
+{
+  "enriched": {
+    "id": "60f02483a1d5ef0001d83f66",
+    "first_name": "Jordan",
+    "last_name": "Richards",
+    "name": "Jordan Richards",
+    "linkedin_url": "http://www.linkedin.com/in/jordan-richards-9514b45",
+    "title": "Managing Partner",
+    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+    "twitter_url": null,
+    "github_url": null,
+    "facebook_url": null,
+    "extrapolated_email_confidence": null,
+    "headline": "Managing Partner at Sverica Capital Management",
+    "organization_id": "5d0a7a65a3ae6167db983ee4",
+    "employment_history": [
+      {
+        "_id": "69ae83648b971d0001fbd7c4",
+        "created_at": null,
+        "current": true,
+        "degree": null,
+        "description": null,
+        "emails": null,
+        "end_date": null,
+        "grade_level": null,
+        "kind": null,
+        "major": null,
+        "org_matched_by_name": false,
+        "organization_id": "5d0a7a65a3ae6167db983ee4",
+        "organization_name": "Sverica Capital Management",
+        "raw_address": null,
+        "start_date": "2009-01-01",
+        "title": "Managing Partner",
+        "updated_at": null,
+        "id": "69ae83648b971d0001fbd7c4",
+        "key": "69ae83648b971d0001fbd7c4"
+      },
+      {
+        "_id": "69ae83648b971d0001fbd7c5",
+        "created_at": null,
+        "current": false,
+        "degree": null,
+        "description": null,
+        "emails": null,
+        "end_date": "2008-01-01",
+        "grade_level": null,
+        "kind": null,
+        "major": null,
+        "org_matched_by_name": false,
+        "organization_id": "55920d667369641981923d00",
+        "organization_name": "Pequot Capital Management",
+        "raw_address": null,
+        "start_date": "2006-01-01",
+        "title": "Vice President",
+        "updated_at": null,
+        "id": "69ae83648b971d0001fbd7c5",
+        "key": "69ae83648b971d0001fbd7c5"
+      },
+      {
+        "_id": "69ae83648b971d0001fbd7c6",
+        "created_at": null,
+        "current": false,
+        "degree": null,
+        "description": null,
+        "emails": null,
+        "end_date": "2006-01-01",
+        "grade_level": null,
+        "kind": null,
+        "major": null,
+        "org_matched_by_name": false,
+        "organization_id": "54a22f23746869331840e813",
+        "organization_name": "Citadel Investment Group",
+        "raw_address": null,
+        "start_date": "2004-01-01",
+        "title": "Research Analyst",
+        "updated_at": null,
+        "id": "69ae83648b971d0001fbd7c6",
+        "key": "69ae83648b971d0001fbd7c6"
+      },
+      {
+        "_id": "69ae83648b971d0001fbd7c7",
+        "created_at": null,
+        "current": false,
+        "degree": null,
+        "description": null,
+        "emails": null,
+        "end_date": "2002-01-01",
+        "grade_level": null,
+        "kind": null,
+        "major": null,
+        "org_matched_by_name": false,
+        "organization_id": null,
+        "organization_name": "JPMorgan Partners",
+        "raw_address": null,
+        "start_date": "2000-01-01",
+        "title": "Associate",
+        "updated_at": null,
+        "id": "69ae83648b971d0001fbd7c7",
+        "key": "69ae83648b971d0001fbd7c7"
+      },
+      {
+        "_id": "69ae83648b971d0001fbd7c8",
+        "created_at": null,
+        "current": false,
+        "degree": null,
+        "description": null,
+        "emails": null,
+        "end_date": "2000-01-01",
+        "grade_level": null,
+        "kind": null,
+        "major": null,
+        "org_matched_by_name": false,
+        "organization_id": "5592214d73696418b7c98400",
+        "organization_name": "Donaldson, Lufkin & Jenrette",
+        "raw_address": null,
+        "start_date": "1998-01-01",
+        "title": "Analyst",
+        "updated_at": null,
+        "id": "69ae83648b971d0001fbd7c8",
+        "key": "69ae83648b971d0001fbd7c8"
+      }
+    ],
+    "street_address": "",
+    "city": "Austin",
+    "state": "Texas",
+    "country": "United States",
+    "postal_code": null,
+    "formatted_address": "Austin, TX, USA",
+    "time_zone": "America/Chicago",
+    "email": "jordan@sverica.com",
+    "email_status": "verified",
+    "organization": {
+      "id": "5d0a7a65a3ae6167db983ee4",
+      "name": "Sverica Capital Management",
+      "website_url": "http://www.sverica.com",
+      "blog_url": null,
+      "angellist_url": null,
+      "linkedin_url": "http://www.linkedin.com/company/sverica-capital-management",
+      "twitter_url": "https://twitter.com/sverica",
+      "facebook_url": null,
+      "primary_phone": {
+        "number": "+1 617-695-0221",
+        "source": "Owler",
+        "sanitized_number": "+16176950221"
+      },
+      "languages": [
+        "English"
+      ],
+      "alexa_ranking": null,
+      "phone": "+1 617-695-0221",
+      "linkedin_uid": "53420",
+      "founded_year": 2001,
+      "publicly_traded_symbol": null,
+      "publicly_traded_exchange": null,
+      "logo_url": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/697d6fcaa46a12000151f5b9/picture",
+      "crunchbase_url": null,
+      "primary_domain": "sverica.com",
+      "sic_codes": [
+        "6712"
+      ],
+      "naics_codes": [
+        "5239"
+      ],
+      "sanitized_phone": "+16176950221",
+      "industry": "investment management",
+      "estimated_num_employees": 26,
+      "keywords": [
+        "business services",
+        "healthcare",
+        "high value industrial",
+        "software",
+        "technology",
+        "technology services",
+        "value creation strategies",
+        "sector focus: technology, healthcare, industrial, business services",
+        "organic growth",
+        "talent cultivation",
+        "analytical support",
+        "business intelligence",
+        "lower middle-market",
+        "data-driven insights",
+        "other financial investment activities",
+        "healthcare technology",
+        "strategic acquisitions",
+        "b2b",
+        "financial planning",
+        "industry expertise",
+        "infrastructure building",
+        "industrial manufacturing",
+        "industrial",
+        "management support",
+        "market leader development",
+        "strategic guidance",
+        "reinvesting profits",
+        "financial services",
+        "data analytics",
+        "cloud services",
+        "control buyouts",
+        "collaborative partnership",
+        "services",
+        "digital transformation",
+        "long-term value creation",
+        "long-term growth",
+        "risk management",
+        "management consulting",
+        "growth equity",
+        "portfolio management",
+        "private equity",
+        "talent development",
+        "non-control investments",
+        "growth investing",
+        "growth-oriented",
+        "manufacturing",
+        "health care",
+        "health, wellness & fitness",
+        "hospital & health care",
+        "information technology & services",
+        "analytics",
+        "cloud computing",
+        "enterprise software",
+        "enterprises",
+        "computer software",
+        "mechanical or industrial engineering"
+      ],
+      "organization_revenue_printed": "15.6M",
+      "organization_revenue": 15600000,
+      "industries": [
+        "investment management"
+      ],
+      "secondary_industries": [],
+      "snippets_loaded": true,
+      "industry_tag_id": "5567e0bc7369641d11550200",
+      "industry_tag_hash": {
+        "investment management": "5567e0bc7369641d11550200"
+      },
+      "retail_location_count": 0,
+      "raw_address": "One Boston Place, 201 Washington Street, Ste. 3910, Boston, MA 02108, US",
+      "street_address": "1 Washington St",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "postal_code": "02108",
+      "country": "United States",
+      "owned_by_organization_id": null,
+      "short_description": "Sverica Capital Management is a lower middle market private equity firm founded in 2001, focusing on growth-oriented investments in healthcare, technology/business services, and advanced industrial sectors. With $2 billion in committed capital across six funds, Sverica has completed 47 platform investments and operates offices in Austin, Boston, and San Francisco. The firm employs a \"business builder\" approach, actively supporting portfolio companies to enhance their growth strategies.\n\nSverica targets leading companies in the lower middle market, particularly those with recurring revenue or replicable unit economics. The firm primarily engages in control buyouts, investing in companies with enterprise values under $250 million. Its core sectors include technology, healthcare, and advanced industrial, with a focus on companies that demonstrate strong market fundamentals and high returns on invested capital. The team at Sverica is composed of professionals with diverse backgrounds, emphasizing a collaborative approach to foster growth and implement ESG policies across its operations.",
+      "suborganizations": [
+        {
+          "id": "54a1b7547468695860a3b20a",
+          "name": "gener8",
+          "website_url": "http://www.gener8.net"
+        },
+        {
+          "id": "54a1badb74686949e730f20b",
+          "name": "Synoptek",
+          "website_url": "http://www.synoptek.com"
+        },
+        {
+          "id": "5569ae0a73696425db107500",
+          "name": "Electronic Source Company",
+          "website_url": "http://www.electronic-source.com"
+        },
+        {
+          "id": "54a1a83474686949e72b5305",
+          "name": "Cytracom",
+          "website_url": "http://www.cytracom.com"
+        },
+        {
+          "id": "5f3fdf9b023cd80001096a04",
+          "name": "Indusa",
+          "website_url": null
+        },
+        {
+          "id": "54a1299769702db878a67c01",
+          "name": "gener8 : Consumables",
+          "website_url": null
+        }
+      ],
+      "num_suborganizations": 6,
+      "annual_revenue_printed": "15.6M",
+      "annual_revenue": 15600000,
+      "total_funding": 1707712000,
+      "total_funding_printed": "1.7B",
+      "latest_funding_round_date": "2023-03-01T00:00:00.000+00:00",
+      "latest_funding_stage": "Other",
+      "funding_events": [
+        {
+          "id": "6430ac88f89f5b000140478a",
+          "date": "2023-03-01T00:00:00.000+00:00",
+          "news_url": null,
+          "type": "Other",
+          "investors": "",
+          "amount": "750M",
+          "currency": "$"
+        },
+        {
+          "id": "615d747cd4464c000103a9f9",
+          "date": "2019-10-01T00:00:00.000+00:00",
+          "news_url": null,
+          "type": "Other",
+          "investors": "",
+          "amount": "450M",
+          "currency": "$"
+        },
+        {
+          "id": "615d747cd4464c000103a9fb",
+          "date": "2016-03-01T00:00:00.000+00:00",
+          "news_url": null,
+          "type": "Other",
+          "investors": "",
+          "amount": "275M",
+          "currency": "$"
+        },
+        {
+          "id": "615d747cd4464c000103a9fd",
+          "date": "2015-08-01T00:00:00.000+00:00",
+          "news_url": null,
+          "type": "Other",
+          "investors": "",
+          "amount": "232.7M",
+          "currency": "$"
+        }
+      ],
+      "technology_names": [
+        "AI",
+        "Circle",
+        "CloudFlare Hosting",
+        "Constant Contact",
+        "Data Analytics",
+        "Google Analytics",
+        "Google Font API",
+        "Google Tag Manager",
+        "Microsoft Office 365",
+        "Mobile Friendly",
+        "Outlook",
+        "Remote",
+        "Vimeo",
+        "WordPress.org"
+      ],
+      "current_technologies": [
+        {
+          "uid": "ai",
+          "name": "AI",
+          "category": "Other"
+        },
+        {
+          "uid": "circle",
+          "name": "Circle",
+          "category": "Financial Software"
+        },
+        {
+          "uid": "cloudflare_hosting",
+          "name": "CloudFlare Hosting",
+          "category": "Hosting"
+        },
+        {
+          "uid": "constant_contact",
+          "name": "Constant Contact",
+          "category": "Email Marketing"
+        },
+        {
+          "uid": "data analytics",
+          "name": "Data Analytics",
+          "category": "Analytics and Tracking"
+        },
+        {
+          "uid": "google_analytics",
+          "name": "Google Analytics",
+          "category": "Analytics and Tracking"
+        },
+        {
+          "uid": "google_font_api",
+          "name": "Google Font API",
+          "category": "Fonts"
+        },
+        {
+          "uid": "google_tag_manager",
+          "name": "Google Tag Manager",
+          "category": "Tag Management"
+        },
+        {
+          "uid": "office_365",
+          "name": "Microsoft Office 365",
+          "category": "Other"
+        },
+        {
+          "uid": "mobile_friendly",
+          "name": "Mobile Friendly",
+          "category": "Other"
+        },
+        {
+          "uid": "outlook",
+          "name": "Outlook",
+          "category": "Email Providers"
+        },
+        {
+          "uid": "remote",
+          "name": "Remote",
+          "category": "Other"
+        },
+        {
+          "uid": "vimeo",
+          "name": "Vimeo",
+          "category": "Online Video Platforms"
+        },
+        {
+          "uid": "wordpress_org",
+          "name": "WordPress.org",
+          "category": "CMS"
+        }
+      ],
+      "org_chart_root_people_ids": [],
+      "org_chart_sector": null,
+      "org_chart_removed": null,
+      "org_chart_show_department_filter": null,
+      "organization_headcount_six_month_growth": null,
+      "organization_headcount_twelve_month_growth": null,
+      "organization_headcount_twenty_four_month_growth": null
+    },
+    "intent_strength": null,
+    "show_intent": false,
+    "email_domain_catchall": false,
+    "revealed_for_current_team": true,
+    "departments": [],
+    "subdepartments": [],
+    "functions": [],
+    "seniority": "partner"
+  },
+  "all_people": [
+    {
+      "id": "60f02483a1d5ef0001d83f66",
+      "first_name": "Jordan",
+      "last_name_hint": "Ri***s",
+      "title": "Managing Partner",
+      "has_email": true
+    },
+    {
+      "id": "66f6a23c269e4e0001ab0cd0",
+      "first_name": "Ryan",
+      "last_name_hint": "Ha***d",
+      "title": "Partner",
+      "has_email": true
+    },
+    {
+      "id": "57d7339aa6da98647857276a",
+      "first_name": "Michael",
+      "last_name_hint": "Do***y",
+      "title": "Partner",
+      "has_email": true
+    }
+  ]
+}

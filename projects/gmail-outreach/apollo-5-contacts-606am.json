@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Herbert Hooper",
+    "title": "Managing Partner",
+    "company": "Ampersand Capital Partners",
+    "domain": "ampersandcapital.com",
+    "foundEmail": null,
+    "error": "Request failed with status code 422"
+  },
+  {
+    "name": "Lawrence Aldrich",
+    "title": "President",
+    "company": "Aldrich Capital Partners",
+    "domain": "aldrichcap.com",
+    "foundEmail": null,
+    "error": "Request failed with status code 422"
+  },
+  {
+    "name": "Joe Lonsdale",
+    "title": "Founder Managing Partner",
+    "company": "8VC",
+    "domain": "8vc.com",
+    "foundEmail": null,
+    "error": "Request failed with status code 422"
+  },
+  {
+    "name": "Kim Marvin",
+    "title": "Managing Partner",
+    "company": "American Industrial Partners",
+    "domain": "americanindustrial.com",
+    "foundEmail": null,
+    "error": "Request failed with status code 422"
+  },
+  {
+    "name": "Joshua Schultz",
+    "title": "Operating Partner",
+    "company": "Arsenal Capital Partners",
+    "domain": "arsenalcapital.com",
+    "foundEmail": null,
+    "error": "Request failed with status code 422"
+  }
+]

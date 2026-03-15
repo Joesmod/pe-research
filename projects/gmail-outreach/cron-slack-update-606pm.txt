@@ -1,0 +1,18 @@
+🔬 PE Research Cron - 6:06 PM Friday
+
+✅ VERIFIED: 11 of 15 priority firms (73% success)
+📧 Enriched with direct emails + LinkedIn profiles
+⚠️ 2 contacts need manual review (A&M Capital, Apex Service Partners)
+
+Ready for Google Sheet update in next run.
+
+Top verified contacts:
+• Anthony Stec (Amulet Capital) - Principal
+• Rob Delaney (Carrick Capital) - Managing Director
+• Dawn Owens (TT Capital) - CEO & Partner
+• Todd Aaron (SDC Capital) - Founder & MP
+• Karan Wadhera (Casa Verde) - Managing Partner
+...and 6 more
+
+📊 124 unresearched firms remaining in pipeline
+⏭️ Next: Sheet update + dossier creation + git push (7:06 PM run)

@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-03-11T15:37:00-06:00",
+  "run_type": "hourly_cron",
+  "summary": {
+    "total_needing_enrichment": 54,
+    "processed": 15,
+    "successful_partial": 10,
+    "failed": 5,
+    "apollo_api_credits_required": true
+  },
+  "enrichments": [
+    {
+      "row": 176,
+      "firm": "Hg Capital",
+      "contact": "Connor Da***g",
+      "title": "Vice President",
+      "status": "partial",
+      "notes": "Apollo API - last name obfuscated, no email/LinkedIn"
+    },
+    {
+      "row": 261,
+      "firm": "RoundTable Healthcare Partners",
+      "contact": "James Do***n",
+      "title": "Vice President",
+      "status": "partial"
+    },
+    {
+      "row": 276,
+      "firm": "Harkness Capital Partners",
+      "contact": "Anthony Pi***e",
+      "title": "Vice President",
+      "status": "partial"
+    },
+    {
+      "row": 282,
+      "firm": "Ronin Equity Partners",
+      "contact": "Jesse Yao",
+      "title": "Managing Partner",
+      "status": "partial",
+      "notes": "Full last name obtained"
+    },
+    {
+      "row": 283,
+      "firm": "Station Partners",
+      "contact": "William Ga***n",
+      "title": "Partner and Chief Operating Officer",
+      "status": "partial"
+    },
+    {
+      "row": 285,
+      "firm": "Sentinel Capital Partners",
+      "contact": "Elvira Lee",
+      "title": "Vice President",
+      "status": "partial",
+      "notes": "Full last name obtained"
+    },
+    {
+      "row": 286,
+      "firm": "Banneker Partners",
+      "contact": "Justin Ro***h",
+      "title": "Vice President",
+      "status": "partial"
+    },
+    {
+      "row": 300,
+      "firm": "Avante Capital Partners",
+      "contact": "Karel Ig***o",
+      "title": "Vice President",
+      "status": "partial"
+    },
+    {
+      "row": 305,
+      "firm": "Bertram Capital",
+      "contact": "Sean Ho***h",
+      "title": "Vice President",
+      "status": "partial"
+    },
+    {
+      "row": 306,
+      "firm": "Mountaingate Capital",
+      "contact": "Corbin Ba***s",
+      "title": "Vice President",
+      "status": "partial"
+    }
+  ],
+  "needs_manual_research": [
+    {
+      "firm": "Keltic Financial Partners",
+      "reason": "Not found via Apollo",
+      "research_note": "Acquired by Ares Management LP - may no longer operate independently",
+      "priority": "low"
+    },
+    {
+      "firm": "Thomas H. Lee Partners",
+      "reason": "Not found via Apollo",
+      "research_note": "Found MDs on LinkedIn: Mark Bean, Ganesh Rao, Todd Abbrecht, Gregory White",
+      "priority": "high"
+    },
+    {
+      "firm": "WindPoint Partners",
+      "reason": "Not found via Apollo",
+      "priority": "medium"
+    },
+    {
+      "firm": "Harvest Partners (SCF)",
+      "reason": "Not found via Apollo",
+      "research_note": "SCF may indicate Special Situations/Credit fund",
+      "priority": "medium"
+    },
+    {
+      "firm": "The Jordan Company (TJC)",
+      "reason": "Not found via Apollo",
+      "priority": "high"
+    }
+  ],
+  "recommendations": {
+    "data_sources": [
+      "Consider Apollo API paid tier for full contact data",
+      "Use RocketReach or Hunter.io for email verification",
+      "Manual LinkedIn research for top priority firms"
+    ],
+    "next_steps": [
+      "Process remaining 39 leads in next cron run",
+      "Add 3-5 new mid-market PE firms if time permits",
+      "Focus on firms with domains for email pattern inference"
+    ]
+  }
+}

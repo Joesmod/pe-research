@@ -1,0 +1,137 @@
+[
+  {
+    "rowIndex": 9,
+    "company": "",
+    "contact": "Brandon White",
+    "email": "",
+    "status": "Partial",
+    "website": "https://www.charlesbank.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 690,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Financial careers website (not PE)",
+    "website": "http://www.wallstreetoasis.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 691,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Training company (not PE)",
+    "website": "http://www.wallstreetprep.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 692,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Crowdfunding platform (not PE)",
+    "website": "http://www.wefunder.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 699,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Hedge Fund",
+    "website": "http://www.altaparkcapital.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 704,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.apercen.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 724,
+    "company": "",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "",
+    "reason": "Missing contact"
+  },
+  {
+    "rowIndex": 733,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Hedge Fund",
+    "website": "http://www.davidsonkempner.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 737,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.dspny.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 741,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Asset Manager",
+    "website": "http://www.essexinvest.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 750,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - VC Firm",
+    "website": "http://www.hcp.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 753,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Trade association (not PE)",
+    "website": "http://www.ilpa.org",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 754,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.im.partners",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 756,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.koinzcapital.com",
+    "reason": "Missing email"
+  },
+  {
+    "rowIndex": 801,
+    "company": "",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Website down. Acquired by BlackRock in 2018 per LinkedIn/press coverage.",
+    "website": "http://www.tennenbaumcapital.com",
+    "reason": "Missing email"
+  }
+]

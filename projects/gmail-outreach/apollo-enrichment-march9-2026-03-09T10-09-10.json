@@ -1,0 +1,38 @@
+[
+  {
+    "firm": "Bow River Capital",
+    "contact": "Greg J. Hiatrides",
+    "title": "Partner, Head of Private Equity",
+    "domain": "bowrivercapital.com",
+    "first_name": "Greg",
+    "last_name": "Hiatrides",
+    "foundEmail": "hiatrides@bowrivercapital.com",
+    "foundTitle": "Managing Director",
+    "foundLinkedIn": "http://www.linkedin.com/in/gregory-hiatrides-a1684a32",
+    "status": "SUCCESS"
+  },
+  {
+    "firm": "Amulet Capital Partners",
+    "contact": "Avi Uttamchandani",
+    "title": "Partner",
+    "domain": "amuletcapital.com",
+    "first_name": "Avi",
+    "last_name": "Uttamchandani",
+    "foundEmail": "auttamchandani@amuletcapital.com",
+    "foundTitle": "Partner",
+    "foundLinkedIn": "http://www.linkedin.com/in/avi-uttamchandani-79b89512",
+    "status": "SUCCESS"
+  },
+  {
+    "firm": "Trivest Partners",
+    "contact": "Reid Callaway",
+    "title": "Managing Director",
+    "domain": "trivestpartners.com",
+    "first_name": "Reid",
+    "last_name": "Callaway",
+    "foundEmail": "rcallaway@trivest.com",
+    "foundTitle": "Managing Director",
+    "foundLinkedIn": "http://www.linkedin.com/in/reid-callaway-45920018",
+    "status": "SUCCESS"
+  }
+]

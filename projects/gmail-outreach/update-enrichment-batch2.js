@@ -1,64 +1,126 @@
 const { google } = require('googleapis');
 
-async function updateEnrichments() {
+async function updateSheet() {
   const auth = new google.auth.GoogleAuth({
     keyFile: 'service-account.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
-  
   const sheets = google.sheets({ version: 'v4', auth });
   const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
-  // Second batch of enrichments
-  const updates = [
-    {
-      row: 777, // Palladium Equity Partners
-      company: 'Palladium Equity Partners',
-      contactName: 'Marcos Rodriguez',
-      title: 'Founder, Chairman & CEO',
-      email: 'mrodriguez@palladiumequity.com',
-      linkedIn: 'https://www.palladiumequity.com/',
-      status: 'Enriched',
-      notes: 'Official company site. $3B AUM, middle-market PE, NY-based. Multiple sectors.'
-    },
-    {
-      row: 771, // OceanSound Partners
-      company: 'OceanSound Partners',
-      contactName: 'Ted Coons',
-      title: 'Co-Founder & Partner',
-      email: 'tcoons@oceansoundpartners.com',
-      linkedIn: 'https://oceansoundpartners.com/',
-      status: 'Enriched',
-      notes: 'Email format: [f][last]@oceansoundpartners.com. NY-based, gov/enterprise tech focus.'
-    }
-  ];
-  
-  // Prepare batch update
-  const data = updates.map(u => ({
-    range: `Sheet1!C${u.row}:I${u.row}`,
-    values: [[u.contactName, u.title, u.email, u.linkedIn, u.status, u.notes]]
-  }));
-  
-  const batchUpdateRequest = {
+  // Read current sheet to find row numbers
+  const res = await sheets.spreadsheets.values.get({
     spreadsheetId,
-    resource: {
-      valueInputOption: 'RAW',
-      data: data
-    }
-  };
+    range: 'Sheet1!A:I',
+  });
   
-  try {
-    const result = await sheets.spreadsheets.values.batchUpdate(batchUpdateRequest);
-    console.log(JSON.stringify({
-      success: true,
-      updatedCells: result.data.totalUpdatedCells,
-      updatedRows: result.data.totalUpdatedRows,
-      firms: updates.map(u => u.company)
-    }, null, 2));
-  } catch (error) {
-    console.error('Error updating sheet:', error.message);
-    process.exit(1);
+  const rows = res.data.values;
+  const updates = [];
+  
+  // Find and update rows
+  for (let i = 0; i < rows.length; i++) {
+    const firmName = rows[i][0];
+    const contactName = rows[i][2] || '';
+    
+    // Pathway Capital Management - Bryan Nelson
+    if (firmName === 'Pathway Capital Management' && contactName.includes('Bryan')) {
+      updates.push({
+        range: `Sheet1!D${i+1}`,
+        values: [['bnelson@pathwaycapital.com']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      updates.push({
+        range: `Sheet1!H${i+1}`,
+        values: [['Found via team page and RocketReach pattern match']]
+      });
+      console.log(`Found Pathway Capital Management at row ${i+1}`);
+    }
+    
+    // Ridgemont Equity Partners - Add John Shimp
+    if (firmName === 'Ridgemont Equity Partners') {
+      updates.push({
+        range: `Sheet1!B${i+1}:E${i+1}`,
+        values: [['John Shimp', 'Managing Partner', 'jshipm@ridgemontep.com', 'https://www.linkedin.com/in/john-shimp-91a73927/']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      updates.push({
+        range: `Sheet1!H${i+1}`,
+        values: [['Found via RocketReach; email pattern FLast@ridgemontep.com']]
+      });
+      console.log(`Found Ridgemont Equity Partners at row ${i+1}`);
+    }
+    
+    // TowerBrook Capital Partners - Add Karim Saddi
+    if (firmName === 'TowerBrook Capital Partners') {
+      updates.push({
+        range: `Sheet1!B${i+1}:E${i+1}`,
+        values: [['Karim Saddi', 'Co-CEO & Managing Partner', 'ksaddi@towerbrook.com', 'https://www.linkedin.com/in/karim-saddi-455067173/']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      updates.push({
+        range: `Sheet1!H${i+1}`,
+        values: [['Found via RocketReach pattern match']]
+      });
+      console.log(`Found TowerBrook Capital Partners at row ${i+1}`);
+    }
+    
+    // Graycliff Partners - Add Stephen Hindmarch email
+    if (firmName === 'Graycliff Partners') {
+      updates.push({
+        range: `Sheet1!D${i+1}`,
+        values: [['shindmarch@graycliffpartners.com']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      updates.push({
+        range: `Sheet1!H${i+1}`,
+        values: [['Email found via ContactOut']]
+      });
+      console.log(`Found Graycliff Partners at row ${i+1}`);
+    }
+    
+    // Hunter Point Capital - Add Avshalom Kalichstein
+    if (firmName === 'Hunter Point Capital') {
+      updates.push({
+        range: `Sheet1!B${i+1}:E${i+1}`,
+        values: [['Avshalom Kalichstein', 'CEO & Co-Founder', 'akalichstein@hunterpointcapital.com', 'https://www.linkedin.com/company/hunterpointcapital/']]
+      });
+      updates.push({
+        range: `Sheet1!I${i+1}`,
+        values: [['Enriched']]
+      });
+      updates.push({
+        range: `Sheet1!H${i+1}`,
+        values: [['CEO found via company website']]
+      });
+      console.log(`Found Hunter Point Capital at row ${i+1}`);
+    }
+  }
+  
+  // Batch update
+  if (updates.length > 0) {
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId,
+      requestBody: {
+        data: updates,
+        valueInputOption: 'RAW',
+      },
+    });
+    console.log(`\nSuccessfully updated ${updates.length} cells`);
+  } else {
+    console.log('No updates found');
   }
 }
 
-updateEnrichments().catch(console.error);
+updateSheet().catch(console.error);

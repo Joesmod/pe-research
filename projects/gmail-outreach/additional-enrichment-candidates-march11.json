@@ -1,0 +1,137 @@
+[
+  {
+    "row": 117,
+    "company": "Keltic Financial Partners",
+    "contact": "Steve Fischer",
+    "title": "Partner",
+    "email": "",
+    "status": "Inactive - Website Offline",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 176,
+    "company": "Hg Capital",
+    "contact": "Connor Da***g",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 261,
+    "company": "RoundTable Healthcare Partners",
+    "contact": "James Do***n",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 276,
+    "company": "Harkness Capital Partners",
+    "contact": "Anthony Pi***e",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 277,
+    "company": "Frontenac Company",
+    "contact": "Walter Florence",
+    "title": "Managing Partner",
+    "email": "wflorence@frontenac.com",
+    "status": "Partial",
+    "reason": "Needs verification"
+  },
+  {
+    "row": 282,
+    "company": "Ronin Equity Partners",
+    "contact": "Jesse Yao",
+    "title": "Managing Partner",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 283,
+    "company": "Station Partners",
+    "contact": "William Ga***n",
+    "title": "Partner and Chief Operating Officer",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 285,
+    "company": "Sentinel Capital Partners",
+    "contact": "Elvira Lee",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 286,
+    "company": "Banneker Partners",
+    "contact": "Justin Ro***h",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 300,
+    "company": "Avante Capital Partners",
+    "contact": "Karel Ig***o",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 305,
+    "company": "Bertram Capital",
+    "contact": "Sean Ho***h",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 306,
+    "company": "Mountaingate Capital",
+    "contact": "Corbin Ba***s",
+    "title": "Vice President",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Has contact, missing email"
+  },
+  {
+    "row": 417,
+    "company": "Juno Capital Partners",
+    "contact": "Sherwin Jiang",
+    "title": "Managing Director",
+    "email": "sjiang@junocapitalpartners.com",
+    "status": "Partial",
+    "reason": "Needs verification"
+  },
+  {
+    "row": 434,
+    "company": "Silas Capital",
+    "contact": "Brian Thorne",
+    "title": "Partner",
+    "email": "brian@silascapital.com",
+    "status": "Partial",
+    "reason": "Needs verification"
+  },
+  {
+    "row": 465,
+    "company": "Fisher Lynch Capital",
+    "contact": "Marshall Bartlett",
+    "title": "Managing Director",
+    "email": "mbartlett@fisherlynch.com",
+    "status": "Partial",
+    "reason": "Needs verification"
+  }
+]

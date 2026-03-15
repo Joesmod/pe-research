@@ -1,0 +1,150 @@
+[
+  {
+    "rowIndex": 67,
+    "company": "Bow River Capital",
+    "website": "https://www.bowrivercapital.com",
+    "contact": "Jane Ingalls",
+    "title": "Media Contact",
+    "email": "",
+    "status": "Enriched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "No email",
+    "apolloResults": [
+      {
+        "title": "Chief Executive Officer",
+        "apolloId": "6114ed85071b300001dbcb95"
+      },
+      {
+        "title": "Founder and Chief Executive Officer",
+        "apolloId": "66f254d8a12e2700014ef236"
+      },
+      {
+        "title": "Partner & Managing Director",
+        "apolloId": "66f5b5d268e9e7000167de43"
+      }
+    ]
+  },
+  {
+    "rowIndex": 575,
+    "company": "Bruin Capital",
+    "website": "http://www.bruincptl.com",
+    "contact": "George Pyne",
+    "title": "Founder & CEO",
+    "email": "",
+    "status": "New - Unresearched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "No email",
+    "apolloResults": [
+      {
+        "title": "COO",
+        "apolloId": "54a628a87468692cf0986fc6"
+      },
+      {
+        "title": "Founder & CEO",
+        "apolloId": "66f671820d608300017c3a48"
+      },
+      {
+        "title": "Chief Operating Officer",
+        "apolloId": "5b235600a6da9880039668c8"
+      }
+    ]
+  },
+  {
+    "rowIndex": 577,
+    "company": "Butterfly Equity",
+    "website": "http://www.bfly.com",
+    "contact": "Dustin Beck",
+    "title": "Co-Founder & Co-CEO",
+    "email": "",
+    "status": "New - Unresearched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "No email",
+    "apolloResults": [
+      {
+        "title": "CEO, Managing Partner, Co-Founder",
+        "apolloId": "66fa2fcf9901a20001f0f8f8"
+      },
+      {
+        "title": "Co-Founder, Co-CEO",
+        "apolloId": "66f32a650769480001234031"
+      },
+      {
+        "title": "Managing Director",
+        "apolloId": "6825ba34e955470001316b01"
+      }
+    ]
+  },
+  {
+    "rowIndex": 578,
+    "company": "Callais Capital",
+    "website": "http://www.callaiscapital.com",
+    "contact": "Harold Callais",
+    "title": "Managing Partner + CIO",
+    "email": "",
+    "status": "Enriched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "No email",
+    "apolloResults": [
+      {
+        "title": "Managing Partner / Chief Investment Officer",
+        "apolloId": "6113d55c6d416d000189f2dc"
+      }
+    ]
+  },
+  {
+    "rowIndex": 583,
+    "company": "Character Capital",
+    "website": "http://www.character.vc",
+    "contact": "John Zeratsky",
+    "title": "John Zeratsky",
+    "email": "",
+    "status": "New - Unresearched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "No email",
+    "apolloResults": [
+      {
+        "title": "Co-Founder & General Partner",
+        "apolloId": "66f228163d93ef0001e9a3e5"
+      },
+      {
+        "title": "Chief Executive Officer, Founder, and Managing Principal",
+        "apolloId": "60a6cd37f861c5000109015d"
+      },
+      {
+        "title": "Co-Founder and General Partner",
+        "apolloId": "66ed67f6b35f570001886609"
+      }
+    ]
+  },
+  {
+    "rowIndex": 1009,
+    "company": "Accel-KKR",
+    "website": "",
+    "contact": "Rob Palumbo",
+    "title": "Co-Managing Partner",
+    "email": "inquiries@accel-kkr.com",
+    "status": "Researched - Generic Email Only",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "Generic email: inquiries@accel-kkr.com",
+    "apolloResults": [
+      {
+        "title": "President and Chief Executive Officer",
+        "apolloId": "66f2c4626d36cd0001757277"
+      },
+      {
+        "title": "Managing Partner",
+        "apolloId": "66f78cf2d075000001e61818"
+      },
+      {
+        "title": "Managing Director",
+        "apolloId": "66f9080bde27170001f34217"
+      }
+    ]
+  }
+]

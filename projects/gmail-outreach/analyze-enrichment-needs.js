@@ -1,46 +1,61 @@
-const fs = require('fs');
+const { google } = require('googleapis');
 
-// Read the sheet data - remove BOM if present
-const buffer = fs.readFileSync('sheet-current.json');
-let rawData = buffer.toString('utf8');
-
-// Remove BOM if present (UTF-8 BOM is EF BB BF)
-if (rawData.charCodeAt(0) === 0xFEFF) {
-  rawData = rawData.slice(1);
-}
-
-const data = JSON.parse(rawData);
-
-// Skip header row
-const firms = data.slice(1);
-
-// Filter firms needing enrichment
-const needsEnrichment = firms.filter(row => {
-  const contactName = row[1];
-  const email = row[3];
-  
-  // Needs enrichment if:
-  // 1. No contact name
-  // 2. No email
-  // 3. Generic email (info@, sales@, ir@, contact@)
-  return !contactName || 
-         !email || 
-         email.match(/^(info|sales|ir|contact)@/i);
+const auth = new google.auth.GoogleAuth({
+  keyFile: 'service-account.json',
+  scopes: ['https://www.googleapis.com/auth/spreadsheets']
 });
 
-console.log(`Total firms in sheet: ${firms.length}`);
-console.log(`Firms needing enrichment: ${needsEnrichment.length}`);
-console.log(`\nFirst 20 firms needing enrichment:\n`);
-
-needsEnrichment.slice(0, 20).forEach((row, i) => {
-  const firmName = row[0];
-  const contactName = row[1] || 'EMPTY';
-  const email = row[3] || 'EMPTY';
-  const status = row[8] || 'Unknown';
+(async () => {
+  const sheets = google.sheets({ version: 'v4', auth: await auth.getClient() });
+  const res = await sheets.spreadsheets.values.get({
+    spreadsheetId: '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4',
+    range: 'Sheet1!A1:J100'
+  });
   
-  console.log(`${i+1}. ${firmName}`);
-  console.log(`   Contact: ${contactName}`);
-  console.log(`   Email: ${email}`);
-  console.log(`   Status: ${status}`);
-  console.log('');
-});
+  const rows = res.data.values;
+  if (!rows) {
+    console.log('No data found.');
+    return;
+  }
+  
+  const headers = rows[0];
+  console.log('Column mapping:');
+  headers.forEach((h, i) => console.log(`  ${i}: ${h}`));
+  
+  console.log('\n\nFirms needing enrichment:\n' + '='.repeat(120));
+  
+  let needsEnrichmentCount = 0;
+  
+  for (let i = 1; i < rows.length; i++) {
+    const row = rows[i];
+    const firm = row[0] || '';
+    const notebookLM = row[1] || '';
+    const contactName = row[2] || '';
+    const title = row[3] || '';
+    const email = row[4] || '';
+    const website = row[5] || '';
+    const linkedin = row[6] || '';
+    const status = row[9] || '';
+    
+    // Check for various enrichment needs
+    const missingContact = !contactName || contactName.startsWith('http');
+    const missingEmail = !email || email.includes('info@') || email.includes('sales@') || email.includes('ir@');
+    const missingTitle = !title || title.startsWith('http');
+    const emailLooksWrong = email && !email.includes('@');
+    
+    if ((missingContact || missingEmail || missingTitle || emailLooksWrong) && firm) {
+      needsEnrichmentCount++;
+      console.log(`\nRow ${i+1}: ${firm}`);
+      console.log(`  Status: ${status}`);
+      console.log(`  Issues:`);
+      if (missingContact) console.log(`    - Missing/invalid Contact Name: '${contactName}'`);
+      if (missingTitle) console.log(`    - Missing/invalid Title: '${title}'`);
+      if (missingEmail) console.log(`    - Missing/generic Email: '${email}'`);
+      if (emailLooksWrong) console.log(`    - Email format issue: '${email}'`);
+      console.log(`  Website: ${website}`);
+      console.log(`  LinkedIn: ${linkedin}`);
+    }
+  }
+  
+  console.log(`\n\nTotal firms needing enrichment: ${needsEnrichmentCount}`);
+})();

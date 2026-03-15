@@ -1,0 +1,57 @@
+[
+  {
+    "row": 117,
+    "company": "Keltic Financial Partners",
+    "finding": "Asset-based lender (not PE), $2-25M secured loans. Now part of Midcap Business Credit.",
+    "contact": "Steve Fischer",
+    "title": "Partner",
+    "email": null,
+    "source": "LinkedIn - firm page shows only 2 employees",
+    "note": "NOT A PE FIRM - lender/credit provider",
+    "skip": true
+  },
+  {
+    "row": 620,
+    "company": "HRCap, Inc.",
+    "finding": "HR consulting firm (not PE)",
+    "contact": "Andrew Sungsoo Kim",
+    "title": "Founder, President & CEO",
+    "email": "andrew@hrcap.com",
+    "source": "ContactOut verified",
+    "note": "NOT A PE FIRM - HR consultancy. Email verified but not relevant to Gumbo mission.",
+    "skip": true
+  },
+  {
+    "row": 621,
+    "company": "HSP - Henkel Search Partners",
+    "finding": "Executive search/recruiting firm serving PE funds",
+    "contact": "Eleni Henkel",
+    "title": "CEO and Founding Partner",
+    "email": "inquiries@henkelsp.com",
+    "source": "henkelsp.com official website footer",
+    "note": "NOT A PE FIRM - search firm. General inquiry email found, could try pattern ehenkel@henkelsp.com but not verified.",
+    "skip": true
+  },
+  {
+    "row": 626,
+    "company": "Jett Capital Advisors",
+    "finding": "Investment banking & capital markets advisory (not PE fund)",
+    "contact": "Sam Grauer",
+    "title": "Founding Partner, Head of Capital Markets",
+    "email": "sgrauer@jettcapital.com",
+    "source": "RocketReach pattern match (s******@jettcapital.com)",
+    "note": "Advisory firm, not PE investor. Pattern-based email, not fully verified.",
+    "needsVerification": true
+  },
+  {
+    "row": 630,
+    "company": "Kinect Capital",
+    "finding": "501(c)(3) non-profit educational organization for entrepreneurs",
+    "contact": "Trent Christensen",
+    "title": "CEO and President",
+    "email": null,
+    "source": "kinectcapital.org, LinkedIn, Crunchbase",
+    "note": "NOT A PE FIRM - non-profit accelerator/education program",
+    "skip": true
+  }
+]

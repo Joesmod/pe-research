@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-09T13:39:22.330Z",
+  "totalRows": 992,
+  "needingEnrichment": 127,
+  "processed": 15,
+  "enriched": 10,
+  "successRate": "66.7%",
+  "contacts": [
+    {
+      "company": "Long Point Capital",
+      "name": "Will Albertus",
+      "title": "Principal",
+      "email": "walbertus@lpcfund.com",
+      "linkedin": "http://www.linkedin.com/in/will-albertus-5876605",
+      "source": "Apollo"
+    },
+    {
+      "company": "Pine Brook Partners",
+      "name": "Connor Johns",
+      "title": "Vice President - Energy",
+      "email": "cjohns@pinebrookpartners.com",
+      "linkedin": "http://www.linkedin.com/in/connor-johns-a51a25b0",
+      "source": "Apollo"
+    },
+    {
+      "company": "Marlin Equity Partners",
+      "name": "James Markarian",
+      "title": "CTO",
+      "email": "jmarkarian@marlinoperations.com",
+      "linkedin": "http://www.linkedin.com/in/jamesmarkarian",
+      "source": "Apollo"
+    },
+    {
+      "company": "BV Investment Partners",
+      "name": "Maggie Carter",
+      "title": "President and COO",
+      "email": "mcarter@bvlp.com",
+      "linkedin": "http://www.linkedin.com/in/maggie-carter-064b0b8",
+      "source": "Apollo"
+    },
+    {
+      "company": "Sheridan Capital Partners",
+      "name": "Stephen Lestyan",
+      "title": "Vice President",
+      "email": "stephen.lestyan@sheridancp.com",
+      "linkedin": "http://www.linkedin.com/in/slestyan",
+      "source": "Apollo"
+    },
+    {
+      "company": "Siris Capital Group",
+      "name": "John Abram",
+      "title": "Vice President",
+      "email": "abram@siris.com",
+      "linkedin": "http://www.linkedin.com/in/john-abram-7ab380b0",
+      "source": "Apollo"
+    },
+    {
+      "company": "AEA Investors",
+      "name": "Tom Pryma",
+      "title": "Chief Operating Officer and Partner",
+      "email": "tpryma@aeainvestors.com",
+      "linkedin": "http://www.linkedin.com/in/tom-pryma-99505724",
+      "source": "Apollo"
+    },
+    {
+      "company": "FFL Partners",
+      "name": "Jake Lavan",
+      "title": "Vice President",
+      "email": "jlavan@fflpartners.com",
+      "linkedin": "http://www.linkedin.com/in/jakelavan",
+      "source": "Apollo"
+    },
+    {
+      "company": "Oak HC/FT",
+      "name": "Maddie Hilal",
+      "title": "Vice President",
+      "email": "maddie@oakhcft.com",
+      "linkedin": "http://www.linkedin.com/in/maddie-hilal",
+      "source": "Apollo"
+    },
+    {
+      "company": "JMI Equity",
+      "name": "Randy Guttman",
+      "title": "General Partner & COO",
+      "email": "rguttman@jmi.com",
+      "linkedin": "http://www.linkedin.com/in/randy-guttman-1589346",
+      "source": "Apollo"
+    }
+  ]
+}

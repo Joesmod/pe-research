@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Ridgemont Equity Partners",
+    "domain": "ridgemontep.com",
+    "website": "https://ridgemontep.com",
+    "focus": "Business & industrial services, healthcare, technology-enabled services",
+    "aum": "~$6B",
+    "contacts": [
+      {
+        "title": "CTO & VP of Digital",
+        "verified": false
+      },
+      {
+        "title": "VP Digital & CTO",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP Digital",
+        "verified": false
+      },
+      {
+        "title": "Executive Vice President Digital Solutions & Chief Technology Officer",
+        "verified": false
+      },
+      {
+        "title": "EVP, Technology & Chief Digital Officer",
+        "verified": false
+      }
+    ],
+    "bestContact": {
+      "title": "CTO & VP of Digital",
+      "verified": false
+    }
+  },
+  {
+    "name": "Gridiron Capital",
+    "domain": "gridironcapital.com",
+    "website": "https://gridironcapital.com",
+    "focus": "Business services, healthcare services, tech-enabled services",
+    "aum": "~$2B",
+    "contacts": [
+      {
+        "title": "CTO & VP of Digital",
+        "verified": false
+      },
+      {
+        "title": "VP Digital & CTO",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP Digital",
+        "verified": false
+      },
+      {
+        "title": "Executive Vice President Digital Solutions & Chief Technology Officer",
+        "verified": false
+      },
+      {
+        "title": "EVP, Technology & Chief Digital Officer",
+        "verified": false
+      }
+    ],
+    "bestContact": {
+      "title": "CTO & VP of Digital",
+      "verified": false
+    }
+  },
+  {
+    "name": "Norwest Equity Partners",
+    "domain": "nep.com",
+    "website": "https://nep.com",
+    "focus": "Healthcare services, business services, technology-enabled services",
+    "aum": "~$7.5B",
+    "contacts": [
+      {
+        "title": "VP Digital & CTO",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP of Digital",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP Digital",
+        "verified": false
+      },
+      {
+        "title": "Executive Vice President Digital Solutions & Chief Technology Officer",
+        "verified": false
+      },
+      {
+        "title": "EVP, Technology & Chief Digital Officer",
+        "verified": false
+      }
+    ],
+    "bestContact": {
+      "title": "VP Digital & CTO",
+      "verified": false
+    }
+  },
+  {
+    "name": "Goldner Hawn",
+    "domain": "goldhawn.com",
+    "website": "https://goldhawn.com",
+    "focus": "Business services, healthcare, tech-enabled services",
+    "aum": "~$1.5B",
+    "contacts": [
+      {
+        "title": "CTO & VP of Digital",
+        "verified": false
+      },
+      {
+        "title": "VP Digital & CTO",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP Digital",
+        "verified": false
+      },
+      {
+        "title": "Executive Vice President Digital Solutions & Chief Technology Officer",
+        "verified": false
+      },
+      {
+        "title": "EVP, Technology & Chief Digital Officer",
+        "verified": false
+      }
+    ],
+    "bestContact": {
+      "title": "CTO & VP of Digital",
+      "verified": false
+    }
+  },
+  {
+    "name": "Great Hill Partners",
+    "domain": "greathillpartners.com",
+    "website": "https://greathillpartners.com",
+    "focus": "Software, digital commerce, healthcare IT, tech-enabled services",
+    "aum": "~$14B",
+    "contacts": [
+      {
+        "title": "VP Digital & CTO",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP of Digital",
+        "verified": false
+      },
+      {
+        "title": "CTO & VP Digital",
+        "verified": false
+      },
+      {
+        "title": "Executive Vice President Digital Solutions & Chief Technology Officer",
+        "verified": false
+      },
+      {
+        "title": "EVP, Technology & Chief Digital Officer",
+        "verified": false
+      }
+    ],
+    "bestContact": {
+      "title": "VP Digital & CTO",
+      "verified": false
+    }
+  }
+]

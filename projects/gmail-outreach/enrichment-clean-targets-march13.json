@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-03-13T22:39:57.225Z",
+  "targets": [
+    {
+      "rowIndex": 2,
+      "company": "Audax Private Equity",
+      "website": "https://www.audaxprivateequity.com",
+      "contact": "Ken MacFadyen",
+      "email": "media@audaxprivateequity.com",
+      "status": "Enriched",
+      "reason": "Generic email"
+    },
+    {
+      "rowIndex": 67,
+      "company": "Bow River Capital",
+      "website": "https://www.bowrivercapital.com",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 575,
+      "company": "Bruin Capital",
+      "website": "http://www.bruincptl.com",
+      "contact": "George Pyne",
+      "email": "",
+      "status": "New - Unresearched",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 577,
+      "company": "Butterfly Equity",
+      "website": "http://www.bfly.com",
+      "contact": "Dustin Beck",
+      "email": "",
+      "status": "New - Unresearched",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 578,
+      "company": "Callais Capital",
+      "website": "http://www.callaiscapital.com",
+      "contact": "Harold Callais",
+      "email": "",
+      "status": "New - Unresearched",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 583,
+      "company": "Character Capital",
+      "website": "http://www.character.vc",
+      "contact": "John Zeratsky",
+      "email": "",
+      "status": "New - Unresearched",
+      "reason": "No email"
+    }
+  ]
+}

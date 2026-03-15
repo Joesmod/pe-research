@@ -1,0 +1,57 @@
+[
+  {
+    "rowNum": 11,
+    "company": "Blue Star Innovation Partners",
+    "contact": "Hurley Doddy",
+    "title": "Founder & CEO",
+    "email": null,
+    "emailStatus": null,
+    "phone": "",
+    "linkedin": "https://www.linkedin.com/in/hurleydoddy",
+    "found": true
+  },
+  {
+    "rowNum": 25,
+    "company": "Huron Capital",
+    "contact": "Fabio Sattin",
+    "title": "Founder & Managing Partner",
+    "email": null,
+    "emailStatus": null,
+    "phone": "",
+    "linkedin": "https://www.linkedin.com/in/fabiosattin",
+    "found": true
+  },
+  {
+    "rowNum": 240,
+    "company": "JMI Equity",
+    "contact": "Harry Gruner",
+    "title": "Managing Partner",
+    "email": "hgruner@jmi.com",
+    "emailStatus": "verified",
+    "phone": "",
+    "linkedin": "http://www.linkedin.com/in/harry-gruner-97b10826",
+    "found": true
+  },
+  {
+    "rowNum": 561,
+    "company": "Aquiline",
+    "contact": "Vincenzo Ruffa",
+    "title": "Managing Partner",
+    "email": "vlr@aquiline.com",
+    "emailStatus": "verified",
+    "phone": "",
+    "linkedin": "http://www.linkedin.com/in/vincenzolaruffa",
+    "found": true
+  },
+  {
+    "rowNum": 1058,
+    "company": "Kinzie Capital Partners",
+    "contact": "Suzanne Yoon",
+    "title": "Executive Chair",
+    "email": "syoon@chelsealighting.com",
+    "emailStatus": "verified",
+    "phone": "",
+    "linkedin": "http://www.linkedin.com/in/suzanneyoon",
+    "found": true
+  }
+]

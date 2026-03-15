@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-10T07:12:47.032Z",
+  "batch": 2,
+  "enrichmentCount": 2,
+  "firms": [
+    {
+      "company": "Altus Capital Partners",
+      "contact": "Russell J. Greenberg",
+      "email": "rgreenberg@altuscapitalpartners.com",
+      "verificationSource": " altuscapitalpartners"
+    },
+    {
+      "company": "Consonance Capital Partners",
+      "contact": "Mitchell J. Blutt, MD",
+      "email": "mblutt@consonancecapitalpartners.com",
+      "verificationSource": " consonancecapitalpartners"
+    }
+  ]
+}

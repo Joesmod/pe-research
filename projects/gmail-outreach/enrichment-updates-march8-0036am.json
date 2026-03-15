@@ -1,0 +1,90 @@
+[
+  {
+    "rowIndex": 828,
+    "company": "ALCOR Fund",
+    "contact": "George Molakal",
+    "title": "Chief Executive Officer",
+    "email": "georgemolakal@alcorfund.com",
+    "linkedin": "https://www.linkedin.com/company/alcor-fund",
+    "status": "Enriched",
+    "notes": "Global PE & investment banking firm. Buyouts, M&A, PE investments across 60+ countries. Verified via ContactOut.",
+    "source": "ContactOut, Crunchbase, LinkedIn"
+  },
+  {
+    "rowIndex": 816,
+    "company": "414 Capital",
+    "status": "Dead Lead - Advisory Firm",
+    "notes": "M&A advisory and investment banking firm based in Mexico. Services PE firms but does not invest.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 9,
+    "company": "Aeris Partners",
+    "status": "Dead Lead - Advisory Firm",
+    "notes": "M&A advisory firm for software/SaaS transactions. Serves PE firms but does not invest. $40B+ deal value advised.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "status": "Dead Lead - Acquired",
+    "notes": "Acquired by BlackRock in 2018. Website down. No longer operating independently.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 805,
+    "company": "Trinity Capital",
+    "status": "Dead Lead - BDC",
+    "notes": "Public BDC (NASDAQ: TRIN). Venture debt and equipment financing focus, not traditional mid-market PE.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 807,
+    "company": "TriplePoint Capital",
+    "status": "Dead Lead - Venture Debt",
+    "notes": "Equipment leasing and venture debt provider. $9B+ in venture financing. Not traditional PE.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 819,
+    "company": "Accelerize 360",
+    "status": "Dead Lead - Consultant",
+    "notes": "Salesforce consulting firm serving PE, insurance, banking. Not a PE firm - technology consultant.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 823,
+    "company": "AEC Advisors LLC",
+    "status": "Dead Lead - Advisory Firm",
+    "notes": "M&A advisory for AEC (architecture/engineering/construction) industry. Hosts PE events but not a PE firm.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 824,
+    "company": "Affinity.co",
+    "status": "Dead Lead - Software Vendor",
+    "notes": "CRM and relationship intelligence software vendor serving PE/VC firms. Not a PE firm.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 829,
+    "company": "Alkymi",
+    "status": "Dead Lead - Software Vendor",
+    "notes": "AI-powered data automation software vendor for private markets and PE firms. Not a PE firm.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 830,
+    "company": "All Raise",
+    "status": "Dead Lead - Nonprofit",
+    "notes": "Nonprofit organization advancing women in venture capital. Not a PE firm.",
+    "action": "mark_dead"
+  },
+  {
+    "rowIndex": 831,
+    "company": "Allvue Systems",
+    "status": "Dead Lead - Software Vendor",
+    "notes": "Software vendor providing accounting, IR, and portfolio management solutions to PE firms. Not a PE firm.",
+    "action": "mark_dead"
+  }
+]

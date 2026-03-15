@@ -1,0 +1,650 @@
+[
+  {
+    "row": 2,
+    "company": "Audax Private Equity",
+    "contact": "Ambarish Gupta",
+    "title": "Founder & CEO",
+    "email": "ambarish@basisvectors.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 3,
+    "company": "424 Capital",
+    "contact": "Alexander \"Sandy\" Kemper",
+    "title": "Founder & CEO",
+    "email": "skemper@c2fo.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 6,
+    "company": "Regal Healthcare Capital Partners",
+    "contact": "Ben Brachot",
+    "title": "Co-Founder & Managing Director",
+    "email": "ben.brachot@dwightfunding.com",
+    "status": "Enriched - Web Research",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 10,
+    "company": "Alvarez & Marsal Capital",
+    "contact": "Rich Lawson",
+    "title": "CEO & Co-Founder",
+    "email": "rlawson@hggc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 11,
+    "company": "Blue Star Innovation Partners",
+    "contact": "Coddy Johnson",
+    "title": "Partner",
+    "email": "cjohnson@goodwatercap.com",
+    "status": "2026-03-05",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 14,
+    "company": "ShoreView Industries",
+    "contact": "Richard Erickson",
+    "title": "Co-Founder & Managing Director",
+    "email": "rerickson@lightviewcapital.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 16,
+    "company": "Greater Sum Ventures",
+    "contact": "Sean Honey",
+    "title": "Managing Partner",
+    "email": "shoney@mainpostpartners.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 21,
+    "company": "Trilantic North America",
+    "contact": "Tim DeVries",
+    "title": "Managing Partner",
+    "email": "tdevries@nep.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 28,
+    "company": "Seidler Equity Partners",
+    "contact": "Ryan Milligan",
+    "title": "Partner",
+    "email": "ryan@parkergale.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 33,
+    "company": "Nautic Partners",
+    "contact": "Andrew Sandler",
+    "title": "Managing Director & Portfolio Manager",
+    "email": "asandler@sandlercap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 38,
+    "company": "Vesey Street Capital Partners",
+    "contact": "Adam Feinstein",
+    "title": "Founder & General Partner",
+    "email": "adam@vscpllc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 42,
+    "company": "MBF Healthcare Partners",
+    "contact": "Jack Euston",
+    "title": "Business Development",
+    "email": "jeuston@mbfhp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 44,
+    "company": "TA Associates",
+    "contact": "Hythem El-Nazer",
+    "title": "Co-Managing Partner",
+    "email": "helnazer@ta.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 45,
+    "company": "IK Partners",
+    "contact": "Christopher Masek",
+    "title": "CEO",
+    "email": "christopher.masek@ikinvest.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 51,
+    "company": "Genstar Capital",
+    "contact": "Darren Tan",
+    "title": "Vice President",
+    "email": "dtan@gencap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 52,
+    "company": "Summit Partners",
+    "contact": "Media Contact",
+    "title": "sbarr@summitpartners.com",
+    "email": "rrutledge@gencap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 54,
+    "company": "Svoboda Capital Partners",
+    "contact": "Tom Brooker",
+    "title": "Managing Director & Operating Partner",
+    "email": "tbrooker@svoco.com",
+    "status": "Contacted",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 78,
+    "company": "Lightyear Capital",
+    "contact": "Mark Vassallo",
+    "title": "Managing Partner",
+    "email": "mark.vassallo@lycap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 80,
+    "company": "Hidden Harbor Capital Partners",
+    "contact": "Tucker Coates",
+    "title": "Principal, Business Development",
+    "email": "tcoates@hh-cp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 100,
+    "company": "Hellman & Friedman",
+    "contact": "Patrick Healy",
+    "title": "CEO",
+    "email": "patrick@hf.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 108,
+    "company": "CI Capital Partners",
+    "contact": "Theodore Karklins",
+    "title": "Managing Partner",
+    "email": "tkarklins@cicapllc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 110,
+    "company": "Sun Capital Partners",
+    "contact": "Matthew Garff",
+    "title": "Senior Managing Director & Partner",
+    "email": "mgarff@suncappart.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 112,
+    "company": "Levine Leichtman Capital Partners",
+    "contact": "Lauren Leichtman",
+    "title": "Co-Founder & President",
+    "email": "lleichtman@llcp.com",
+    "status": "Contacted",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 122,
+    "company": "RFE Investment Partners",
+    "contact": "Peter Reiter",
+    "title": "Partner",
+    "email": "preiter@rfeip.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 137,
+    "company": "Bertram Capital",
+    "contact": "Jeff Drazan",
+    "title": "Managing Partner",
+    "email": "jeff@bcap.com",
+    "status": "Contacted",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 148,
+    "company": "H.I.G. Capital",
+    "contact": "Sami Mnaymneh",
+    "title": "Founder, Co-CEO & Co-Executive Chairman",
+    "email": "smnaymneh@hig.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 155,
+    "company": "Insight Partners",
+    "contact": "James Fisher",
+    "title": "Vice President",
+    "email": "jfisher@thomabravo.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 156,
+    "company": "TPG Capital",
+    "contact": "Shareholder Contact",
+    "title": "shareholders@tpg.com",
+    "email": "pcoffin@twincp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 158,
+    "company": "Welsh Carson Anderson & Stowe",
+    "contact": "Kevin Gordon",
+    "title": "Principal",
+    "email": "kgordon@wcas.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 167,
+    "company": "Pritzker Private Capital",
+    "contact": "Paul Carbone",
+    "title": "Co-Founder & President",
+    "email": "pcarbone@ppcpartners.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 169,
+    "company": "Madison Dearborn Partners",
+    "contact": "Colin Leonard",
+    "title": "O.P.S. Managing Director, Human Capital",
+    "email": "cleonard@clearlake.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 170,
+    "company": "JC Flowers & Co",
+    "contact": "Christopher Flowers",
+    "title": "CEO & Managing Director",
+    "email": "cflowers@jcfco.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 181,
+    "company": "Kohlberg Kravis Roberts Healthcare",
+    "contact": "Bhavit Patel",
+    "title": "Managing Director, Client and Partner Group",
+    "email": "bhavit.patel@kkr.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 185,
+    "company": "Thompson Street Capital Partners",
+    "contact": "Harry Holiday",
+    "title": "Chief Operating Officer",
+    "email": "hharry@tscp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 189,
+    "company": "Norwest Equity Partners",
+    "contact": "Tim DeVries",
+    "title": "Managing General Partner",
+    "email": "tdevries@nep.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 204,
+    "company": "Midwest Growth Partners",
+    "contact": "Zane Hendricks",
+    "title": "Managing Director",
+    "email": "zane.hendricks@mgpfund.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 212,
+    "company": "Long Point Capital",
+    "contact": "Principal",
+    "title": "walbertus@lpcfund.com",
+    "email": "evonstroh@lpcfund.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 225,
+    "company": "CID Capital",
+    "contact": "Tom Shaw",
+    "title": "Managing Director",
+    "email": "tom@cidcap.com",
+    "status": "Contacted",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 230,
+    "company": "BV Investment Partners",
+    "contact": "President and COO",
+    "title": "mcarter@bvlp.com",
+    "email": "swilder@bvlp.com",
+    "status": "Contacted",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 231,
+    "company": "Clayton Dubilier & Rice (CD&R)",
+    "contact": "Vikas Sinha",
+    "title": "Operating Partner & Chief Technology Officer",
+    "email": "VSinha@cdr-inc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 239,
+    "company": "Oak HC/FT",
+    "contact": "Vice President",
+    "title": "maddie@oakhcft.com",
+    "email": "annie@oakhcft.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 240,
+    "company": "JMI Equity",
+    "contact": "General Partner & COO",
+    "title": "rguttman@jmi.com",
+    "email": "jim@jmiconsulting.org",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 256,
+    "company": "Oak Investment Partners",
+    "contact": "COO & CFO",
+    "title": "games@oakvc.com",
+    "email": "games@oakvc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 260,
+    "company": "MSD Partners",
+    "contact": "Partner & Chief Technology Officer",
+    "title": "Partner & Chief Technology Officer",
+    "email": "bshinn@bdtmsd.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 262,
+    "company": "Swander Pace Capital",
+    "contact": "Tyler Matlock",
+    "title": "Managing Director",
+    "email": "tyler@spcap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 283,
+    "company": "Station Partners",
+    "contact": "Christopher Kozina",
+    "title": "Operating Partner, Lead",
+    "email": "ckozina@wisc.edu",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 288,
+    "company": "Kayne Partners",
+    "contact": "Nishita Cummings",
+    "title": "Managing Partner, Co-Head of Growth Equity",
+    "email": "ncummings@compositioncap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 295,
+    "company": "Dynamic Core Capital Partners",
+    "contact": "Thomas Caracciolo",
+    "title": "Founding Partner",
+    "email": "caracciolo@dubinclark.com",
+    "status": "Contacted",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 305,
+    "company": "Bertram Capital",
+    "contact": "Tom Beerle",
+    "title": "Partner",
+    "email": "tbeerle@bcap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 307,
+    "company": "Argonaut Private Equity",
+    "contact": "Anil Khatod",
+    "title": "Sr. Partner & Managing Director",
+    "email": "akhatod@kfoc.net",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 320,
+    "company": "Southfield Capital",
+    "contact": "N. Canderan",
+    "title": "Business Development",
+    "email": "ncanderan@civc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 329,
+    "company": "Pritzker Group Private Capital",
+    "contact": "Jeff Carlson",
+    "title": "Head of Technology",
+    "email": "jcarlson@ppcpartners.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 348,
+    "company": "Longshore Capital Partners",
+    "contact": "John Hennegan",
+    "title": "Founding Partner",
+    "email": "jhennegan@shorecp.com",
+    "status": "Researched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 361,
+    "company": "K1 Investment Management",
+    "contact": "Ron Cano",
+    "title": "Managing Partner",
+    "email": "rcano@k1.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 366,
+    "company": "Alternative Investment Management, LLC",
+    "contact": "Jon Harris",
+    "title": "Chief Executive Officer",
+    "email": "jon@aim13.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 372,
+    "company": "District Capital Partners",
+    "contact": "Marty Schnider",
+    "title": "Managing Director",
+    "email": "mschnider@dcp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 379,
+    "company": "Rockbridge Growth Equity, LLC",
+    "contact": "Spencer Hughes",
+    "title": "Vice President",
+    "email": "spencer@rbequity.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 383,
+    "company": "Susquehanna Growth Equity (SGE)",
+    "contact": "Scott Feldman",
+    "title": "Managing Director",
+    "email": "scott.feldman@sgep.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 385,
+    "company": "Transition Capital Partners",
+    "contact": "Andy Foskey",
+    "title": "Managing Partner",
+    "email": "andy@tcplp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 413,
+    "company": "HPS Investment Partners, LLC",
+    "contact": "Scott Kapnick",
+    "title": "Co-Founder & Managing Partner",
+    "email": "scott.kapnick@hpspartners.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 420,
+    "company": "Lee Equity Partners, LLC",
+    "contact": "Alexis Wise",
+    "title": "Senior VP, Strategic Operating Team",
+    "email": "alexis.wise@kslcapital.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 425,
+    "company": "Monomoy Capital Partners",
+    "contact": "Justin Hillenbrand",
+    "title": "Co-Founder / Co - CEO",
+    "email": "jhillenbrand@mcpfunds.com",
+    "status": "Researched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 430,
+    "company": "Pelican Energy Partners LP",
+    "contact": "Sam Veselka",
+    "title": "Managing Director",
+    "email": "sveselka@pep-lp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 441,
+    "company": "Turn/River Capital",
+    "contact": "Dominic Ang",
+    "title": "Founder & Managing Partner",
+    "email": "dang@turnriver.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 443,
+    "company": "W Capital Partners",
+    "contact": "Katherine Dowley",
+    "title": "Vice President of Investor Relations",
+    "email": "kdowley@wcapgroup.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 462,
+    "company": "DW Healthcare Partners",
+    "contact": "Liz Null",
+    "title": "Senior Vice President, Business Development",
+    "email": "liz@dwhp.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 468,
+    "company": "Health Enterprise Partners",
+    "contact": "Ezra Mehlman",
+    "title": "Managing Partner",
+    "email": "emehlman@hepfund.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 469,
+    "company": "Invision Capital",
+    "contact": "Robert Castillo",
+    "title": "Founder & Managing Director",
+    "email": "RCastillo@invcg.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 478,
+    "company": "Palm Beach Capital",
+    "contact": "Mike Schmickle",
+    "title": "Partner",
+    "email": "mschmickle@pbcap.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 485,
+    "company": "Stronghold Investment Management",
+    "contact": "Quin Cogdell",
+    "title": "Managing Director",
+    "email": "quin.cogdell@srp-ok.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 490,
+    "company": "The Global Impact Investing Network",
+    "contact": "Jessica Rose",
+    "title": "Contact",
+    "email": "jrose@thegiin.org",
+    "status": "Enriched - Email found on website contact page. GIIN is a nonprofit network, not a PE firm.",
+    "issues": "Mismatched Domain"
+  },
+  {
+    "row": 494,
+    "company": "8VC",
+    "contact": "Joe Lonsdale",
+    "title": "Founder & Managing Partner",
+    "email": "joe@8vc.com",
+    "status": "Enriched",
+    "issues": "Mismatched Domain"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "company": "Audax Private Equity",
+    "website": "http://www.basisvectors.com",
+    "contacts": [
+      {
+        "name": "Ambarish Gupta",
+        "email": "ambarish@basisvectors.com",
+        "row": 1
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 1
+  },
+  {
+    "company": "424 Capital",
+    "website": "http://www.c2fo.com",
+    "contacts": [
+      {
+        "name": "Alexander \"Sandy\" Kemper",
+        "email": "skemper@c2fo.com",
+        "row": 2
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 2
+  },
+  {
+    "company": "Thesis Capital Partners",
+    "website": "asteele@activantcapital.com",
+    "contacts": [
+      {
+        "name": "Ian J.H. Reynolds",
+        "email": "ian@thesiscapital.com",
+        "row": 3
+      }
+    ],
+    "status": "Enriched - Web Research 2026-03-06",
+    "firstRow": 3
+  },
+  {
+    "company": "Regal Healthcare Capital Partners",
+    "website": "https://www.linkedin.com/in/benbrachot/",
+    "contacts": [
+      {
+        "name": "Ben Brachot",
+        "email": "ben.brachot@dwightfunding.com",
+        "row": 5
+      }
+    ],
+    "status": "Enriched - Web Research",
+    "firstRow": 5
+  },
+  {
+    "company": "Aeris Partners",
+    "website": "https://www.linkedin.com/in/david-joncas-206a0424/",
+    "contacts": [
+      {
+        "name": "David Joncas",
+        "email": "dwj@aerispartners.com",
+        "row": 8
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 8
+  },
+  {
+    "company": "Alvarez & Marsal Capital",
+    "website": "https://www.hggc.com",
+    "contacts": [
+      {
+        "name": "Rich Lawson",
+        "email": "rlawson@hggc.com",
+        "row": 9
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 9
+  },
+  {
+    "company": "Casa Verde Capital",
+    "website": "https://www.sentinelpartners.com",
+    "contacts": [
+      {
+        "name": "Karan Wadhera",
+        "email": "karan@casaverdecapital.com",
+        "row": 11
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 11
+  },
+  {
+    "company": "Gryphon Investors",
+    "website": "sgarden@avbinvest.com",
+    "contacts": [
+      {
+        "name": "R. David Andrews",
+        "email": "andrews@gryphoninvestors.com",
+        "row": 17
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 17
+  },
+  {
+    "company": "HGGC",
+    "website": "https://www.hggc.com",
+    "contacts": [
+      {
+        "name": "Rich Lawson",
+        "email": "rlawson@hggc.com",
+        "row": 22
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 22
+  },
+  {
+    "company": "Parthenon Capital Partners",
+    "website": "https://www.parthenoncapital.com",
+    "contacts": [
+      {
+        "name": "Brian P. Golson",
+        "email": "briang@parthenoncapital.com",
+        "row": 31
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 31
+  },
+  {
+    "company": "GTCR",
+    "website": "https://www.gtcr.com",
+    "contacts": [
+      {
+        "name": "Mark Anderson",
+        "email": "manderson@gtcr.com",
+        "row": 33
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 33
+  },
+  {
+    "company": "Lee Equity Partners",
+    "website": "https://www.leeequity.com",
+    "contacts": [
+      {
+        "name": "Mark Gormley",
+        "email": "mgormley@leeequity.com",
+        "row": 34
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 34
+  },
+  {
+    "company": "Amulet Capital",
+    "website": "https://amuletcapital.com",
+    "contacts": [
+      {
+        "name": "Jay Rose",
+        "email": "jrose@amuletcapital.com",
+        "row": 36
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 36
+  },
+  {
+    "company": "Vesey Street Capital Partners",
+    "website": "https://www.vscpllc.com",
+    "contacts": [
+      {
+        "name": "Adam Feinstein",
+        "email": "adam@vscpllc.com",
+        "row": 37
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 37
+  },
+  {
+    "company": "Ampersand Capital Partners",
+    "website": "https://www.ampersandcapital.com",
+    "contacts": [
+      {
+        "name": "Herbert Hooper",
+        "email": "hhh@ampersandcapital.com",
+        "row": 38
+      }
+    ],
+    "status": "Enriched",
+    "firstRow": 38
+  }
+]

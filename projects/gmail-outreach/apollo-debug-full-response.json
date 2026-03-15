@@ -1,0 +1,189 @@
+{
+  "total_entries": 8,
+  "people": [
+    {
+      "id": "60f02483a1d5ef0001d83f66",
+      "first_name": "Jordan",
+      "last_name_obfuscated": "Ri***s",
+      "title": "Managing Partner",
+      "last_refreshed_at": "2026-03-07T06:32:45.000+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "66f6a23c269e4e0001ab0cd0",
+      "first_name": "Ryan",
+      "last_name_obfuscated": "Ha***d",
+      "title": "Partner",
+      "last_refreshed_at": "2026-03-07T06:48:39.000+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "66f8c8a81cc13a0001fc3bf8",
+      "first_name": "Franklin",
+      "last_name_obfuscated": "Sh***h",
+      "title": "Vice President",
+      "last_refreshed_at": "2026-02-22T23:34:18.180+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "65b2336f515d670001bbe7c0",
+      "first_name": "Cooper",
+      "last_name_obfuscated": "Cr***e",
+      "title": "Vice President",
+      "last_refreshed_at": "2026-02-24T07:39:12.000+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "54c193d17468691639e3ea23",
+      "first_name": "Greg",
+      "last_name_obfuscated": "Hy***t",
+      "title": "Vice President",
+      "last_refreshed_at": "2026-03-09T10:26:37.000+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "57d7339aa6da98647857276a",
+      "first_name": "Michael",
+      "last_name_obfuscated": "Do***y",
+      "title": "Partner",
+      "last_refreshed_at": "2026-03-08T16:23:52.000+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "54a5d3af74686934422da2ab",
+      "first_name": "George",
+      "last_name_obfuscated": "Ag***s",
+      "title": "Chief Financial Officer",
+      "last_refreshed_at": "2026-03-12T03:15:46.917+00:00",
+      "has_email": true,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    },
+    {
+      "id": "54a475aa7468693442cb3549",
+      "first_name": "Douglas",
+      "last_name_obfuscated": "Pa***n",
+      "title": "Vice President",
+      "last_refreshed_at": "2026-02-24T11:08:44.000+00:00",
+      "has_email": false,
+      "has_city": true,
+      "has_state": true,
+      "has_country": true,
+      "has_direct_phone": "Yes",
+      "organization": {
+        "name": "Sverica Capital Management",
+        "has_industry": true,
+        "has_phone": true,
+        "has_city": true,
+        "has_state": true,
+        "has_country": true,
+        "has_zip_code": true,
+        "has_revenue": true,
+        "has_employee_count": true
+      }
+    }
+  ]
+}

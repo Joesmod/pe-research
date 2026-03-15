@@ -1,0 +1,64 @@
+Type,Row,Company,Email,Status,Last Contacted
+UPDATE,543,"Sun Capital Partners, Inc.","mgarff@suncappart.com",Contacted,2026-03-09T14:43:25.000Z
+UPDATE,149,"Searchlight Capital Partners","mscheggia@searchlightcap.com",Contacted,2026-03-09T14:42:58.000Z
+UPDATE,200,"Resurgens Technology Partners","fred@resurgenstech.com",Contacted,2026-03-09T14:42:49.000Z
+UPDATE,201,"Brentwood Associates","rfoltz@brentwood.com",Contacted,2026-03-09T14:42:46.000Z
+UPDATE,202,"Kainos Capital","dreader@kainoscapital.com",Contacted,2026-03-09T14:42:44.000Z
+UPDATE,203,"Ascend Partners","richard@ascendpartners.com",Contacted,2026-03-09T14:42:41.000Z
+UPDATE,204,"Midwest Growth Partners","zane.hendricks@mgpfund.com",Contacted,2026-03-09T14:42:39.000Z
+UPDATE,217,"Centerfield Capital Partners","troy@centerfieldcapital.com",Contacted,2026-03-09T14:42:37.000Z
+UPDATE,842,"Wind Point Partners","nbrown@wppartners.com",Contacted,2026-03-09T14:42:34.000Z
+UPDATE,106,"Frontenac Company","rkuehl@frontenac.com",Contacted,2026-03-09T14:42:32.000Z
+UPDATE,46,"Motive Partners","chris.williams@motivepartners.com",Contacted,2026-03-05T14:38:56.000Z
+UPDATE,842,"Wind Point Partners","nbrown@wppartners.com",Contacted,2026-03-05T14:38:46.000Z
+UPDATE,217,"Centerfield Capital Partners","troy@centerfieldcapital.com",Contacted,2026-03-05T14:38:44.000Z
+UPDATE,204,"Midwest Growth Partners","zane.hendricks@mgpfund.com",Contacted,2026-03-05T14:38:41.000Z
+UPDATE,203,"Ascend Partners","richard@ascendpartners.com",Contacted,2026-03-05T14:38:39.000Z
+UPDATE,202,"Kainos Capital","dreader@kainoscapital.com",Contacted,2026-03-05T14:38:36.000Z
+UPDATE,201,"Brentwood Associates","rfoltz@brentwood.com",Contacted,2026-03-05T14:38:34.000Z
+UPDATE,200,"Resurgens Technology Partners","fred@resurgenstech.com",Contacted,2026-03-05T14:38:31.000Z
+UPDATE,274,"Bertram Capital","tlong@bcap.com",Contacted,2026-03-04T14:37:18.000Z
+UPDATE,988,"Renovus Capital Partners","jason.tanker@renovuscapital.com",Contacted,2026-03-04T14:37:08.000Z
+UPDATE,25,"Huron Capital","lierardi@huroncapital.com",Contacted,2026-03-04T14:37:05.000Z
+UPDATE,329,"Pritzker Group Private Capital","jcarlson@ppcpartners.com",Contacted,2026-03-04T14:26:48.000Z
+UPDATE,141,"GI Partners","bderby@gipartners.com",Contacted,2026-03-04T14:26:46.000Z
+UPDATE,183,"Summit Park","tduncan@summitparkllc.com",Contacted,2026-03-04T14:26:43.000Z
+UPDATE,118,"Angeles Equity Partners","max@angelesequity.com",Contacted,2026-03-04T14:26:38.000Z
+UPDATE,47,"GreyLion","jody@greylion.com",Contacted,2026-03-03T15:50:42.000Z
+UPDATE,43,"Havencrest Capital Management","mshofner@havencrest.com",Contacted,2026-03-03T15:50:37.000Z
+UPDATE,200,"Resurgens Technology Partners","fred@resurgenstech.com",Contacted,2026-03-03T15:50:34.000Z
+UPDATE,72,"Argosy Private Equity","jcunningham@argosycapital.com",Contacted,2026-03-03T15:50:32.000Z
+UPDATE,968,"HCI Equity Partners","tfrend@hciequity.com",Contacted,2026-03-03T15:50:30.000Z
+UPDATE,184,"Gridiron Capital","kjackson@gridironcapital.com",Contacted,2026-03-03T15:50:25.000Z
+UPDATE,80,"Hidden Harbor Capital Partners","tcoates@hh-cp.com",Contacted,2026-03-03T15:50:20.000Z
+UPDATE,46,"Motive Partners","chris.williams@motivepartners.com",Contacted,2026-03-03T15:50:17.000Z
+UPDATE,936,"CapStreet","MLewis@capstreet.com",Contacted,2026-03-03T15:50:05.000Z
+UPDATE,60,"PSG Equity","william.aliber@psgequity.com",Contacted,2026-03-03T15:49:50.000Z
+UPDATE,49,"Francisco Partners","brian.maury@franciscopartners.com",Contacted,2026-03-03T15:49:47.000Z
+UPDATE,49,"Francisco Partners","brian.maury@franciscopartners.com",Contacted,2026-03-02T16:04:06.000Z
+UPDATE,201,"Brentwood Associates","rfoltz@brentwood.com",Contacted,2026-03-02T15:36:41.000Z
+UPDATE,202,"Kainos Capital","dreader@kainoscapital.com",Contacted,2026-03-02T15:36:38.000Z
+UPDATE,203,"Ascend Partners","richard@ascendpartners.com",Contacted,2026-03-02T15:36:35.000Z
+UPDATE,204,"Midwest Growth Partners","zane.hendricks@mgpfund.com",Contacted,2026-03-02T15:36:32.000Z
+UPDATE,315,"Mountaingate Capital","sfisher@mountaingate.com",Contacted,2026-03-02T15:36:27.000Z
+UPDATE,951,"Serent Capital","tom.miller@serentcapital.com",Contacted,2026-02-27T15:37:50.000Z
+UPDATE,213,"Excellere Partners","junertl@excellere.com",Contacted,2026-02-27T15:36:57.000Z
+UPDATE,306,"Mountaingate Capital","scho@mountaingate.com",Contacted,2026-02-27T15:36:54.000Z
+UPDATE,857,"Marlin Equity Partners","npingelton@marlinequity.com",Contacted,2026-02-27T15:36:27.000Z
+UPDATE,311,"Mill Point Capital","rsummers@millpoint.com",Contacted,2026-02-27T15:36:05.000Z
+UPDATE,326,"Pfingsten Partners","dbolzan@pfingsten.com",Contacted,2026-02-27T15:36:02.000Z
+NEW,,"Stellus Capital Management","vgarcia@stelluscapital.com",Contacted,Mon, 9 Mar 2026 07:43:29 -0700
+NEW,,"Prospect Partners","emaurer@prospect-partners.com",Contacted,Mon, 9 Mar 2026 07:43:27 -0700
+NEW,,"CM Equity Partners","dwilson@soundgrowthpartners.com",Contacted,Mon, 9 Mar 2026 07:43:22 -0700
+NEW,,"Tonka Bay Equity Partners","kkielhorn@tonkabayequity.com",Contacted,Mon, 9 Mar 2026 09:43:20 -0500
+NEW,,"Vector Capital","dbaylor@vectorcapital.com",Contacted,Mon, 9 Mar 2026 09:43:17 -0500
+NEW,,"Kinderhook Industries","pcifelli@kinderhook.com",Contacted,Mon, 9 Mar 2026 09:43:15 -0500
+NEW,,"Stellex Capital Management","ozhao@stellexcapital.com",Contacted,Mon, 9 Mar 2026 09:43:13 -0500
+NEW,,"Leeds Equity Partners","eric.geveda@leedsequity.com",Contacted,Mon, 9 Mar 2026 09:43:10 -0500
+NEW,,"Topspin Partners","lguthart@topspinpartners.com",Contacted,Mon, 9 Mar 2026 09:43:08 -0500
+NEW,,"Blue Wolf Capital Partners","cthomas@bluewolfcapital.com",Contacted,Mon, 9 Mar 2026 09:43:05 -0500
+NEW,,"Highlander Partners","cthomas@highlander-partners.com",Contacted,Mon, 9 Mar 2026 09:43:03 -0500
+NEW,,"H.I.G. Capital","razevedo@hig.com",Contacted,Mon, 9 Mar 2026 09:43:01 -0500
+NEW,,"Warburg Pincus","issam.abedin@warburgpincus.com",Contacted,Mon, 9 Mar 2026 09:42:56 -0500
+NEW,,"Thoma Bravo","mwerner@thomabravo.com",Contacted,Mon, 9 Mar 2026 09:42:53 -0500
+NEW,,"Thomas H. Lee Partners","jcarlisle@thl.com",Contacted,Mon, 9 Mar 2026 09:42:51 -0500

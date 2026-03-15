@@ -1,0 +1,95 @@
+﻿[
+    {
+        "Email":  "mpeck@firsttrustcapital.com",
+        "Source":  "ContactOut verified",
+        "Company":  "First Trust Capital Management L.P.",
+        "LinkedIn":  "https://www.linkedin.com/in/michael-peck-cfa-646b1a4/",
+        "ContactName":  "Michael Peck",
+        "Title":  "CEO, Co-Chief Investment Officer",
+        "Status":  "Enriched"
+    },
+    {
+        "Email":  "vinny@leftlanecap.com",
+        "Source":  "ContactOut verified",
+        "Company":  "Left Lane Capital",
+        "LinkedIn":  "https://www.linkedin.com/in/vpujji/",
+        "ContactName":  "Vinny Pujji",
+        "Title":  "Managing Partner, Co-founder",
+        "Status":  "Enriched"
+    },
+    {
+        "Email":  "bhiggins@kingstreet.com",
+        "Source":  "RocketReach pattern (verified on company site)",
+        "Company":  "King Street Capital Management",
+        "LinkedIn":  "https://www.linkedin.com/in/brian-higgins-kingstreet/",
+        "ContactName":  "Brian Higgins",
+        "Title":  "Founder, Managing Partner",
+        "Status":  "Enriched"
+    },
+    {
+        "Email":  "egallinson@meritcapital.com",
+        "Source":  "RocketReach pattern",
+        "Company":  "Merit Capital Partners",
+        "LinkedIn":  "https://www.linkedin.com/in/evan-gallinson-7002307/",
+        "ContactName":  "Evan Gallinson",
+        "Title":  "Managing Director",
+        "Status":  "Enriched"
+    },
+    {
+        "Email":  "mpainter@plexuscap.com",
+        "Source":  "ContactOut verified",
+        "Company":  "Plexus Capital",
+        "LinkedIn":  "https://www.linkedin.com/in/paintermichael/",
+        "ContactName":  "Michael Painter",
+        "Title":  "Co-Founder, Managing Partner",
+        "Status":  "Enriched"
+    },
+    {
+        "Email":  "pnotz@oceanavenuecapital.com",
+        "Source":  "ZoomInfo pattern + company team page",
+        "Company":  "Ocean Avenue Capital Partners",
+        "LinkedIn":  "https://www.linkedin.com/in/pete-notz/",
+        "ContactName":  "Pete Notz",
+        "Title":  "Partner",
+        "Status":  "Enriched"
+    },
+    {
+        "Email":  "dcuris@oceanavenuecapital.com",
+        "Source":  "ZoomInfo pattern + company team page",
+        "Company":  "Ocean Avenue Capital Partners",
+        "LinkedIn":  "https://www.linkedin.com/in/duran-curis-03939858/",
+        "ContactName":  "Duran Curis",
+        "Title":  "Founding Partner",
+        "Status":  "Enriched"
+    },
+    {
+        "ContactName":  "Rob Jakacki",
+        "Title":  "Managing Partner, CEO, Co-CIO",
+        "Company":  "Kudu Investment Management",
+        "Source":  "Official site team page - no public email found",
+        "Status":  "Partial",
+        "LinkedIn":  "https://www.linkedin.com/in/rob-jakacki/",
+        "Notes":  "Senior contact verified, email not published",
+        "Email":  ""
+    },
+    {
+        "ContactName":  "Alex Rolfe",
+        "Title":  "Co-Founder, Managing Partner",
+        "Company":  "Rainier Partners",
+        "Source":  "Official site + press releases - no public email found",
+        "Status":  "Partial",
+        "LinkedIn":  "https://www.linkedin.com/in/alex-rolfe/",
+        "Notes":  "Co-founder verified, only generic info@rainierpartners.com available",
+        "Email":  ""
+    },
+    {
+        "ContactName":  "Jon Altman",
+        "Title":  "Co-Founder, Managing Partner",
+        "Company":  "Rainier Partners",
+        "Source":  "Official site + press releases - no public email found",
+        "Status":  "Partial",
+        "LinkedIn":  "https://www.linkedin.com/in/jon-altman/",
+        "Notes":  "Co-founder verified, only generic info@rainierpartners.com available",
+        "Email":  ""
+    }
+]

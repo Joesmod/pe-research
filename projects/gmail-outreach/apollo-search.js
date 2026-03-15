@@ -1,56 +1,80 @@
-const axios = require('axios');
+// Apollo.io People Search - Find verified emails for PE contacts
+const https = require('https');
 
 const APOLLO_API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
-async function searchPeople(firmName, titles = ['Partner', 'Managing Partner', 'Managing Director', 'CEO', 'CFO', 'COO', 'CTO']) {
-  try {
-    const response = await axios.post('https://api.apollo.io/api/v1/mixed_people/api_search', {
-      q_organization_name: firmName,
-      person_titles: titles,
-      per_page: 5
-    }, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Cache-Control': 'no-cache',
-        'X-Api-Key': APOLLO_API_KEY
-      }
+async function searchPerson(firstName, lastName, companyName) {
+  return new Promise((resolve, reject) => {
+    const postData = JSON.stringify({
+      first_name: firstName,
+      last_name: lastName,
+      organization_name: companyName,
+      api_key: APOLLO_API_KEY
     });
     
-    if (response.data && response.data.people) {
-      // Log first person to see structure
-      if (response.data.people.length > 0) {
-        console.log('Sample person object:', JSON.stringify(response.data.people[0], null, 2));
+    const options = {
+      hostname: 'api.apollo.io',
+      port: 443,
+      path: '/v1/people/match',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': postData.length,
+        'Cache-Control': 'no-cache'
       }
-      
-      return response.data.people.map(person => ({
-        name: person.first_name + ' ' + person.last_name,
-        title: person.title,
-        email: person.email,
-        linkedin: person.linkedin_url,
-        organization: person.organization?.name || person.organization_name
-      }));
-    }
+    };
     
-    return [];
-  } catch (error) {
-    console.error(`Error searching ${firmName}:`, error.response?.data || error.message);
-    return [];
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', (chunk) => { data += chunk; });
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(data));
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+    
+    req.on('error', reject);
+    req.write(postData);
+    req.end();
+  });
+}
+
+async function main() {
+  const searches = [
+    { first: 'Rob', last: 'Wechsler', company: 'Blue Star Innovation Partners' },
+    { first: 'Dan', last: 'Wechsler', company: 'Blue Star Innovation Partners' },
+    { first: 'Jim', last: 'Mahoney', company: 'Huron Capital' },
+    { first: 'Brian', last: 'Demkowicz', company: 'Huron Capital' }
+  ];
+  
+  console.log('Searching Apollo.io for verified PE contacts...\n');
+  
+  for (const search of searches) {
+    console.log(`Searching: ${search.first} ${search.last} @ ${search.company}`);
+    try {
+      const result = await searchPerson(search.first, search.last, search.company);
+      
+      if (result.person) {
+        const { name, title, email, linkedin_url, organization } = result.person;
+        console.log(`✅ FOUND: ${name}`);
+        console.log(`   Title: ${title}`);
+        console.log(`   Email: ${email || '(not available)'}`);
+        console.log(`   LinkedIn: ${linkedin_url || '(not available)'}`);
+        console.log(`   Company: ${organization?.name || search.company}`);
+      } else {
+        console.log(`❌ No match found`);
+      }
+    } catch (error) {
+      console.log(`❌ Error: ${error.message}`);
+    }
+    console.log('');
+    
+    // Rate limiting
+    await new Promise(resolve => setTimeout(resolve, 1000));
   }
 }
 
-// Test with Gridiron Capital
-(async () => {
-  console.log('Searching Gridiron Capital...\n');
-  const results = await searchPeople('Gridiron Capital');
-  
-  if (results.length > 0) {
-    results.forEach((person, idx) => {
-      console.log(`${idx + 1}. ${person.name}`);
-      console.log(`   Title: ${person.title}`);
-      console.log(`   Email: ${person.email || 'Not available'}`);
-      console.log(`   LinkedIn: ${person.linkedin || 'Not available'}\n`);
-    });
-  } else {
-    console.log('No results found.');
-  }
-})();
+main();

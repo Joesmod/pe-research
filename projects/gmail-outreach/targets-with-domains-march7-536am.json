@@ -1,0 +1,167 @@
+[
+  {
+    "row": 785,
+    "company": "Riverwood Capital",
+    "contact": "Ben Veghte",
+    "email": "",
+    "title": "Co-Founder & Managing Partner",
+    "status": "Partial",
+    "website": "",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.tennenbaumcapital.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 802,
+    "company": "Thrive Capital",
+    "contact": "Joshua Kushner",
+    "email": "",
+    "title": "Founder & Managing Partner",
+    "status": "Partial",
+    "website": "https://www.thrivecap.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 803,
+    "company": "TimesSquare Capital Management, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.tscmllc.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 804,
+    "company": "Trian Fund Management, L.P.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.trianpartners.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 805,
+    "company": "Trinity Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.trinitycapital.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 806,
+    "company": "Trinity Investors",
+    "contact": "Jacob Zodikoff",
+    "email": "clientrelations@trinityinvestors.com",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.trinityinvestors.com",
+    "needsContact": true,
+    "needsEmail": false
+  },
+  {
+    "row": 807,
+    "company": "TriplePoint Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.triplepointcapital.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.kfpefund.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 811,
+    "company": "Wildcat Capital Management",
+    "contact": "David Bonderman",
+    "email": "",
+    "title": "Founder",
+    "status": "Partial",
+    "website": "http://www.wildcatcap.com",
+    "needsContact": false,
+    "needsEmail": true
+  },
+  {
+    "row": 813,
+    "company": "Yellowstone Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.yellowstonecapital.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 815,
+    "company": "26North",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.26n.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 816,
+    "company": "414 Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.414c.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 817,
+    "company": "777 Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.777part.com",
+    "needsContact": true,
+    "needsEmail": true
+  },
+  {
+    "row": 818,
+    "company": "A-Grade Investments",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "title": "",
+    "status": "Partial",
+    "website": "http://www.agradeinvestments.com",
+    "needsContact": true,
+    "needsEmail": true
+  }
+]

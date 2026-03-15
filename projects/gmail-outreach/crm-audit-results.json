@@ -1,0 +1,1654 @@
+{
+  "alreadyUpdated": [
+    {
+      "sent": {
+        "to": "aepstein@sterlingpartners.com",
+        "subject": "AI for Sterling Partners Portfolio Operations",
+        "date": "2026-03-04T14:37:35.000Z",
+        "dateStr": "Wed, 4 Mar 2026 08:37:35 -0600"
+      },
+      "crm": {
+        "row": 41,
+        "company": "Sterling Partners",
+        "contactName": "Avi Epstein",
+        "email": "aepstein@sterlingpartners.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-23T15:26:53.752Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "kevin@diversis.com",
+        "subject": "AI for Diversis Capital Portfolio",
+        "date": "2026-03-04T14:37:10.000Z",
+        "dateStr": "Wed, 4 Mar 2026 06:37:10 -0800"
+      },
+      "crm": {
+        "row": 88,
+        "company": "Diversis Capital",
+        "contactName": "Kevin Ma",
+        "email": "kevin@diversis.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-23T15:26:53.752Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "garrett@sentinelpartners.com",
+        "subject": "AI for Sentinel Portfolio Companies",
+        "date": "2026-03-04T14:26:33.000Z",
+        "dateStr": "Wed, 4 Mar 2026 06:26:33 -0800"
+      },
+      "crm": {
+        "row": 285,
+        "company": "Sentinel Capital Partners",
+        "contactName": "Josh Garrett",
+        "email": "garrett@sentinelpartners.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:38:10.621Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "neal.sainani@serentcapital.com",
+        "subject": "AI Product Strategy for Serent Portfolio",
+        "date": "2026-03-04T14:26:28.000Z",
+        "dateStr": "Wed, 4 Mar 2026 06:26:28 -0800"
+      },
+      "crm": {
+        "row": 63,
+        "company": "Serent Capital",
+        "contactName": "Neal Sainani",
+        "email": "neal.sainani@serentcapital.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:38:10.621Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "otarajano@millpoint.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:27.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:27 -0600"
+      },
+      "crm": {
+        "row": 186,
+        "company": "Mill Point Capital",
+        "contactName": "Orestes Tarajano",
+        "email": "otarajano@millpoint.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "knoggle@aligncp.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:10.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:10 -0600"
+      },
+      "crm": {
+        "row": 24,
+        "company": "Align Capital Partners",
+        "contactName": "Katie Noggle",
+        "email": "knoggle@aligncp.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-25T14:06:53.488Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "a.ray@comvest.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:49:57.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:49:57 -0600"
+      },
+      "crm": {
+        "row": 111,
+        "company": "Comvest Partners",
+        "contactName": "Alex Ray / Derek Katchis",
+        "email": "a.ray@comvest.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-19T14:00:00Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "ali@metamoragrowth.com",
+        "subject": "AI-powered growth for SaaS and tech roll-ups",
+        "date": "2026-02-27T15:38:08.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:38:08 -0600"
+      },
+      "crm": {
+        "row": 98,
+        "company": "Metamora Growth Partners",
+        "contactName": "Ali Evans",
+        "email": "ali@metamoragrowth.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:38:10.621Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "jjohnson@blackfordcapital.com",
+        "subject": "AI automation for manufacturing and distribution portfolios",
+        "date": "2026-02-27T15:37:55.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:37:55 -0600"
+      },
+      "crm": {
+        "row": 130,
+        "company": "Blackford Capital",
+        "contactName": "Jeffrey Johnson",
+        "email": "jjohnson@blackfordcapital.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:38:10.621Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "garrett@sentinelpartners.com",
+        "subject": "AI automation for lower midmarket services companies",
+        "date": "2026-02-27T15:37:48.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:37:48 -0600"
+      },
+      "crm": {
+        "row": 285,
+        "company": "Sentinel Capital Partners",
+        "contactName": "Josh Garrett",
+        "email": "garrett@sentinelpartners.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:38:10.621Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "mundt@rhonegroup.com",
+        "subject": "AI automation for professional services and industrial portfolios",
+        "date": "2026-02-27T15:37:05.000Z",
+        "dateStr": "Sat, 28 Feb 2026 00:37:05 +0900"
+      },
+      "crm": {
+        "row": 205,
+        "company": "Rhône Group",
+        "contactName": "Patrick Mundt",
+        "email": "mundt@rhonegroup.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "abatlaw@generalatlantic.com",
+        "subject": "AI engineering for growth-stage healthcare and technology platforms",
+        "date": "2026-02-27T15:37:02.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:37:02 -0600"
+      },
+      "crm": {
+        "row": 206,
+        "company": "General Atlantic",
+        "contactName": "Anish Batlaw",
+        "email": "abatlaw@generalatlantic.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "angusc@clairvest.com",
+        "subject": "AI tools for multi-sector services portfolio optimization",
+        "date": "2026-02-27T15:36:49.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:49 -0600"
+      },
+      "crm": {
+        "row": 218,
+        "company": "Clairvest Group",
+        "contactName": "Angus Cole",
+        "email": "angusc@clairvest.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "tarshisneil@torquest.com",
+        "subject": "AI automation for Canadian services and healthcare portfolios",
+        "date": "2026-02-27T15:36:46.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:46 -0600"
+      },
+      "crm": {
+        "row": 219,
+        "company": "Torquest Partners",
+        "contactName": "Jonathan Neil",
+        "email": "tarshisneil@torquest.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "tom@cidcap.com",
+        "subject": "AI-driven efficiency for business services and staffing portfolios",
+        "date": "2026-02-27T15:36:38.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:38 -0600"
+      },
+      "crm": {
+        "row": 225,
+        "company": "CID Capital",
+        "contactName": "Tom Shaw",
+        "email": "tom@cidcap.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "barmstrong@lmpartners.com",
+        "subject": "AI automation for insurance and fintech portfolio companies",
+        "date": "2026-02-27T15:36:35.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:35 -0600"
+      },
+      "crm": {
+        "row": 226,
+        "company": "Lovell Minnick Partners",
+        "contactName": "Brad Armstrong",
+        "email": "barmstrong@lmpartners.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "jmoberg@cortecgroup.com",
+        "subject": "AI tools for healthcare and consumer portfolio operations",
+        "date": "2026-02-27T15:36:33.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:33 -0600"
+      },
+      "crm": {
+        "row": 227,
+        "company": "Cortec Group",
+        "contactName": "Jesse Moberg",
+        "email": "jmoberg@cortecgroup.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "nattenborough@goldengatecap.com",
+        "subject": "AI automation for financial services and software portfolio companies",
+        "date": "2026-02-27T15:36:30.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:30 -0600"
+      },
+      "crm": {
+        "row": 228,
+        "company": "Golden Gate Capital",
+        "contactName": "Neale Attenborough",
+        "email": "nattenborough@goldengatecap.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "caracciolo@dubinclark.com",
+        "subject": "AI tools for specialty services portfolio optimization",
+        "date": "2026-02-27T15:36:13.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:13 -0600"
+      },
+      "crm": {
+        "row": 295,
+        "company": "Dynamic Core Capital Partners",
+        "contactName": "Thomas Caracciolo",
+        "email": "caracciolo@dubinclark.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "bmichaud@littlejohnllc.com",
+        "subject": "AI automation for industrial and transportation portfolio companies",
+        "date": "2026-02-27T15:36:11.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:11 -0600"
+      },
+      "crm": {
+        "row": 299,
+        "company": "Littlejohn & Co.",
+        "contactName": "Brian Michaud",
+        "email": "bmichaud@littlejohnllc.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "aspector@onerockcapital.com",
+        "subject": "AI automation for One Rock portfolio operations",
+        "date": "2026-02-27T15:35:59.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:35:59 -0600"
+      },
+      "crm": {
+        "row": 340,
+        "company": "One Rock Capital Partners",
+        "contactName": "Allison Spector",
+        "email": "aspector@onerockcapital.com",
+        "status": "Contacted",
+        "lastContacted": "2026-02-27T15:37:08.202Z"
+      }
+    }
+  ],
+  "needsUpdate": [
+    {
+      "sent": {
+        "to": "mgarff@suncappart.com",
+        "subject": "Tech stack for Sun Capital Partners",
+        "date": "2026-03-09T14:43:25.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:43:25 -0500"
+      },
+      "crm": {
+        "row": 543,
+        "company": "Sun Capital Partners, Inc.",
+        "contactName": "Matthew Garff",
+        "email": "mgarff@suncappart.com",
+        "status": "New - Unresearched"
+      }
+    },
+    {
+      "sent": {
+        "to": "mscheggia@searchlightcap.com",
+        "subject": "Tech stack for Searchlight Capital Partners",
+        "date": "2026-03-09T14:42:58.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:58 -0500"
+      },
+      "crm": {
+        "row": 149,
+        "company": "Searchlight Capital Partners",
+        "contactName": "Michele Scheggia",
+        "email": "mscheggia@searchlightcap.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "fred@resurgenstech.com",
+        "subject": "Tech stack for Resurgens Technology Partners",
+        "date": "2026-03-09T14:42:49.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:49 -0500"
+      },
+      "crm": {
+        "row": 200,
+        "company": "Resurgens Technology Partners",
+        "contactName": "Fred Sturgis",
+        "email": "fred@resurgenstech.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "rfoltz@brentwood.com",
+        "subject": "Tech stack for Brentwood Associates",
+        "date": "2026-03-09T14:42:46.000Z",
+        "dateStr": "Mon, 9 Mar 2026 07:42:46 -0700"
+      },
+      "crm": {
+        "row": 201,
+        "company": "Brentwood Associates",
+        "contactName": "Ryan Foltz",
+        "email": "rfoltz@brentwood.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "dreader@kainoscapital.com",
+        "subject": "Tech stack for Kainos Capital",
+        "date": "2026-03-09T14:42:44.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:44 -0500"
+      },
+      "crm": {
+        "row": 202,
+        "company": "Kainos Capital",
+        "contactName": "Doug Reader",
+        "email": "dreader@kainoscapital.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "richard@ascendpartners.com",
+        "subject": "Tech stack for Ascend Partners",
+        "date": "2026-03-09T14:42:41.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:41 -0500"
+      },
+      "crm": {
+        "row": 203,
+        "company": "Ascend Partners",
+        "contactName": "Richard Park",
+        "email": "richard@ascendpartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "zane.hendricks@mgpfund.com",
+        "subject": "Tech stack for Midwest Growth Partners",
+        "date": "2026-03-09T14:42:39.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:39 -0500"
+      },
+      "crm": {
+        "row": 204,
+        "company": "Midwest Growth Partners",
+        "contactName": "Zane Hendricks",
+        "email": "zane.hendricks@mgpfund.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "troy@centerfieldcapital.com",
+        "subject": "Tech stack for Centerfield Capital Partners",
+        "date": "2026-03-09T14:42:37.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:37 -0500"
+      },
+      "crm": {
+        "row": 217,
+        "company": "Centerfield Capital Partners",
+        "contactName": "Troy Clark",
+        "email": "troy@centerfieldcapital.com",
+        "status": "Replied - Warm Intro Offered",
+        "lastContacted": "2026-02-25"
+      }
+    },
+    {
+      "sent": {
+        "to": "nbrown@wppartners.com",
+        "subject": "Tech stack for WindPoint Partners",
+        "date": "2026-03-09T14:42:34.000Z",
+        "dateStr": "Mon, 9 Mar 2026 09:42:34 -0500"
+      },
+      "crm": {
+        "row": 842,
+        "company": "Wind Point Partners",
+        "contactName": "Nathan Brown",
+        "email": "nbrown@wppartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "rkuehl@frontenac.com",
+        "subject": "Tech stack for Frontenac Company",
+        "date": "2026-03-09T14:42:32.000Z",
+        "dateStr": "Mon, 9 Mar 2026 07:42:32 -0700"
+      },
+      "crm": {
+        "row": 106,
+        "company": "Frontenac Company",
+        "contactName": "Ronald Kuehl",
+        "email": "rkuehl@frontenac.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "chris.williams@motivepartners.com",
+        "subject": "Motive Partners portfolio: AI that works now",
+        "date": "2026-03-05T14:38:56.000Z",
+        "dateStr": "Thu, 5 Mar 2026 06:38:56 -0800"
+      },
+      "crm": {
+        "row": 46,
+        "company": "Motive Partners",
+        "contactName": "Chris Williams",
+        "email": "chris.williams@motivepartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "nbrown@wppartners.com",
+        "subject": "WindPoint Partners portfolio: AI that works now",
+        "date": "2026-03-05T14:38:46.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:46 -0600"
+      },
+      "crm": {
+        "row": 842,
+        "company": "Wind Point Partners",
+        "contactName": "Nathan Brown",
+        "email": "nbrown@wppartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "troy@centerfieldcapital.com",
+        "subject": "Centerfield Capital Partners portfolio: AI that works now",
+        "date": "2026-03-05T14:38:44.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:44 -0600"
+      },
+      "crm": {
+        "row": 217,
+        "company": "Centerfield Capital Partners",
+        "contactName": "Troy Clark",
+        "email": "troy@centerfieldcapital.com",
+        "status": "Replied - Warm Intro Offered",
+        "lastContacted": "2026-02-25"
+      }
+    },
+    {
+      "sent": {
+        "to": "zane.hendricks@mgpfund.com",
+        "subject": "Midwest Growth Partners portfolio: AI that works now",
+        "date": "2026-03-05T14:38:41.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:41 -0600"
+      },
+      "crm": {
+        "row": 204,
+        "company": "Midwest Growth Partners",
+        "contactName": "Zane Hendricks",
+        "email": "zane.hendricks@mgpfund.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "richard@ascendpartners.com",
+        "subject": "Ascend Partners portfolio: AI that works now",
+        "date": "2026-03-05T14:38:39.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:39 -0600"
+      },
+      "crm": {
+        "row": 203,
+        "company": "Ascend Partners",
+        "contactName": "Richard Park",
+        "email": "richard@ascendpartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "dreader@kainoscapital.com",
+        "subject": "Kainos Capital portfolio: AI that works now",
+        "date": "2026-03-05T14:38:36.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:36 -0600"
+      },
+      "crm": {
+        "row": 202,
+        "company": "Kainos Capital",
+        "contactName": "Doug Reader",
+        "email": "dreader@kainoscapital.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "rfoltz@brentwood.com",
+        "subject": "Brentwood Associates portfolio: AI that works now",
+        "date": "2026-03-05T14:38:34.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:34 -0600"
+      },
+      "crm": {
+        "row": 201,
+        "company": "Brentwood Associates",
+        "contactName": "Ryan Foltz",
+        "email": "rfoltz@brentwood.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "fred@resurgenstech.com",
+        "subject": "Resurgens Technology Partners portfolio: AI that works now",
+        "date": "2026-03-05T14:38:31.000Z",
+        "dateStr": "Thu, 5 Mar 2026 08:38:31 -0600"
+      },
+      "crm": {
+        "row": 200,
+        "company": "Resurgens Technology Partners",
+        "contactName": "Fred Sturgis",
+        "email": "fred@resurgenstech.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "tlong@bcap.com",
+        "subject": "AI for Bertram Capital Portfolio",
+        "date": "2026-03-04T14:37:18.000Z",
+        "dateStr": "Wed, 4 Mar 2026 08:37:18 -0600"
+      },
+      "crm": {
+        "row": 274,
+        "company": "Bertram Capital",
+        "contactName": "Tom Long",
+        "email": "tlong@bcap.com",
+        "status": "DUPLICATE"
+      }
+    },
+    {
+      "sent": {
+        "to": "jason.tanker@renovuscapital.com",
+        "subject": "AI for Renovus Capital Portfolio",
+        "date": "2026-03-04T14:37:08.000Z",
+        "dateStr": "Wed, 4 Mar 2026 08:37:08 -0600"
+      },
+      "crm": {
+        "row": 988,
+        "company": "Renovus Capital Partners",
+        "contactName": "Atif Gilani",
+        "email": "jason.tanker@renovuscapital.com",
+        "status": "Enriched",
+        "lastContacted": "Wayne, PA. $2B+ committed capital. Founded 2010. Knowledge and Talent industry focus (education, healthcare services, professional services, tech services). 100+ portfolio companies. Team: Jason Tanker (MD, Tech Services), Daniel Maine (CFO). Website active but no direct emails published."
+      }
+    },
+    {
+      "sent": {
+        "to": "lierardi@huroncapital.com",
+        "subject": "AI for Huron Capital Portfolio Companies",
+        "date": "2026-03-04T14:37:05.000Z",
+        "dateStr": "Wed, 4 Mar 2026 08:37:05 -0600"
+      },
+      "crm": {
+        "row": 25,
+        "company": "Huron Capital",
+        "contactName": "Leah Ierardi",
+        "email": "lierardi@huroncapital.com",
+        "status": "Investment banking advisory firm (M&A), not PE investor. Partners focus on advisory work.",
+        "lastContacted": "Dead - Investment Bank"
+      }
+    },
+    {
+      "sent": {
+        "to": "jcarlson@ppcpartners.com",
+        "subject": "AI Technology Strategy for Pritzker Private Capital",
+        "date": "2026-03-04T14:26:48.000Z",
+        "dateStr": "Wed, 4 Mar 2026 08:26:48 -0600"
+      },
+      "crm": {
+        "row": 329,
+        "company": "Pritzker Group Private Capital",
+        "contactName": "Jeff Carlson",
+        "email": "jcarlson@ppcpartners.com",
+        "status": "Enriched",
+        "lastContacted": "Email pattern from RocketReach"
+      }
+    },
+    {
+      "sent": {
+        "to": "bderby@gipartners.com",
+        "subject": "AI for GI Partners Portfolio Operations",
+        "date": "2026-03-04T14:26:46.000Z",
+        "dateStr": "Wed, 4 Mar 2026 06:26:46 -0800"
+      },
+      "crm": {
+        "row": 141,
+        "company": "GI Partners",
+        "contactName": "Brett Derby",
+        "email": "bderby@gipartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "tduncan@summitparkllc.com",
+        "subject": "AI Innovation for Summit Park Portfolio",
+        "date": "2026-03-04T14:26:43.000Z",
+        "dateStr": "Wed, 4 Mar 2026 08:26:43 -0600"
+      },
+      "crm": {
+        "row": 183,
+        "company": "Summit Park",
+        "contactName": "Tom Duncan",
+        "email": "tduncan@summitparkllc.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "max@angelesequity.com",
+        "subject": "AI for Angeles Equity Portfolio",
+        "date": "2026-03-04T14:26:38.000Z",
+        "dateStr": "Wed, 4 Mar 2026 06:26:38 -0800"
+      },
+      "crm": {
+        "row": 118,
+        "company": "Angeles Equity Partners",
+        "contactName": "Max Schechter",
+        "email": "max@angelesequity.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "jody@greylion.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:42.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:42 -0600"
+      },
+      "crm": {
+        "row": 47,
+        "company": "GreyLion",
+        "contactName": "Jody Shechtman",
+        "email": "jody@greylion.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "mshofner@havencrest.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:37.000Z",
+        "dateStr": "Tue, 3 Mar 2026 07:50:37 -0800"
+      },
+      "crm": {
+        "row": 43,
+        "company": "Havencrest Capital Management",
+        "contactName": "Matthew Shofner",
+        "email": "mshofner@havencrest.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "fred@resurgenstech.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:34.000Z",
+        "dateStr": "Tue, 3 Mar 2026 07:50:34 -0800"
+      },
+      "crm": {
+        "row": 200,
+        "company": "Resurgens Technology Partners",
+        "contactName": "Fred Sturgis",
+        "email": "fred@resurgenstech.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "jcunningham@argosycapital.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:32.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:32 -0600"
+      },
+      "crm": {
+        "row": 72,
+        "company": "Argosy Private Equity",
+        "contactName": "Jason Cunningham",
+        "email": "jcunningham@argosycapital.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "tfrend@hciequity.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:30.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:30 -0600"
+      },
+      "crm": {
+        "row": 968,
+        "company": "HCI Equity Partners",
+        "contactName": "Tim Frend",
+        "email": "tfrend@hciequity.com",
+        "status": "Enriched",
+        "lastContacted": "Email verified from official HCI press releases (Oct 2023, Nov 2025). Also: Michael Allen (mallen@hciequity.com), Nate Novak (nnovak@hciequity.com), Douglas McCormick (Managing Partner/Co-Founder). Pattern: firstinitiallastname@hciequity.com [2026-03-08 cron]"
+      }
+    },
+    {
+      "sent": {
+        "to": "kjackson@gridironcapital.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:25.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:25 -0600"
+      },
+      "crm": {
+        "row": 184,
+        "company": "Gridiron Capital",
+        "contactName": "Kevin Jackson",
+        "email": "kjackson@gridironcapital.com",
+        "status": "Enriched - Web Research 2026-03-08"
+      }
+    },
+    {
+      "sent": {
+        "to": "tcoates@hh-cp.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:20.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:20 -0600"
+      },
+      "crm": {
+        "row": 80,
+        "company": "Hidden Harbor Capital Partners",
+        "contactName": "Tucker Coates",
+        "email": "tcoates@hh-cp.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "chris.williams@motivepartners.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:17.000Z",
+        "dateStr": "Tue, 3 Mar 2026 07:50:17 -0800"
+      },
+      "crm": {
+        "row": 46,
+        "company": "Motive Partners",
+        "contactName": "Chris Williams",
+        "email": "chris.williams@motivepartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "MLewis@capstreet.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:50:05.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:50:05 -0600"
+      },
+      "crm": {
+        "row": 936,
+        "company": "CapStreet",
+        "contactName": "Michelle A. Lewis",
+        "email": "MLewis@capstreet.com",
+        "status": "Enriched",
+        "lastContacted": "Source: CapStreet blog post (verified)"
+      }
+    },
+    {
+      "sent": {
+        "to": "william.aliber@psgequity.com",
+        "subject": "Quick question about AI across your portfolio",
+        "date": "2026-03-03T15:49:50.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:49:50 -0600"
+      },
+      "crm": {
+        "row": 60,
+        "company": "PSG Equity",
+        "contactName": "Bill Aliber",
+        "email": "william.aliber@psgequity.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "brian.maury@franciscopartners.com",
+        "subject": "Francisco Partners: AI infrastructure for your portfolio",
+        "date": "2026-03-03T15:49:47.000Z",
+        "dateStr": "Tue, 3 Mar 2026 09:49:47 -0600"
+      },
+      "crm": {
+        "row": 49,
+        "company": "Francisco Partners",
+        "contactName": "Brian Maury",
+        "email": "brian.maury@franciscopartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "brian.maury@franciscopartners.com",
+        "subject": "Francisco Partners portfolio automation",
+        "date": "2026-03-02T16:04:06.000Z",
+        "dateStr": "Mon, 2 Mar 2026 10:04:06 -0600"
+      },
+      "crm": {
+        "row": 49,
+        "company": "Francisco Partners",
+        "contactName": "Brian Maury",
+        "email": "brian.maury@franciscopartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "rfoltz@brentwood.com",
+        "subject": "AI automation for healthcare services portfolios",
+        "date": "2026-03-02T15:36:41.000Z",
+        "dateStr": "Mon, 2 Mar 2026 10:36:41 -0500"
+      },
+      "crm": {
+        "row": 201,
+        "company": "Brentwood Associates",
+        "contactName": "Ryan Foltz",
+        "email": "rfoltz@brentwood.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "dreader@kainoscapital.com",
+        "subject": "AI-driven ops automation for Kainos Capital portfolio companies",
+        "date": "2026-03-02T15:36:38.000Z",
+        "dateStr": "Mon, 2 Mar 2026 09:36:38 -0600"
+      },
+      "crm": {
+        "row": 202,
+        "company": "Kainos Capital",
+        "contactName": "Doug Reader",
+        "email": "dreader@kainoscapital.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "richard@ascendpartners.com",
+        "subject": "AI automation for healthcare services portfolios",
+        "date": "2026-03-02T15:36:35.000Z",
+        "dateStr": "Mon, 2 Mar 2026 09:36:35 -0600"
+      },
+      "crm": {
+        "row": 203,
+        "company": "Ascend Partners",
+        "contactName": "Richard Park",
+        "email": "richard@ascendpartners.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "zane.hendricks@mgpfund.com",
+        "subject": "AI-driven ops automation for Midwest Growth Partners portfolio companies",
+        "date": "2026-03-02T15:36:32.000Z",
+        "dateStr": "Mon, 2 Mar 2026 09:36:32 -0600"
+      },
+      "crm": {
+        "row": 204,
+        "company": "Midwest Growth Partners",
+        "contactName": "Zane Hendricks",
+        "email": "zane.hendricks@mgpfund.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "sfisher@mountaingate.com",
+        "subject": "Operational AI for industrial services portfolios",
+        "date": "2026-03-02T15:36:27.000Z",
+        "dateStr": "Mon, 2 Mar 2026 09:36:27 -0600"
+      },
+      "crm": {
+        "row": 315,
+        "company": "Mountaingate Capital",
+        "contactName": "Stew Fisher",
+        "email": "sfisher@mountaingate.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "tom.miller@serentcapital.com",
+        "subject": "AI tools for B2B software and tech-enabled services portfolios",
+        "date": "2026-02-27T15:37:50.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:37:50 -0600"
+      },
+      "crm": {
+        "row": 951,
+        "company": "Serent Capital",
+        "contactName": "Tom Miller",
+        "email": "tom.miller@serentcapital.com",
+        "status": "Enriched",
+        "lastContacted": "2026-03-08T02:09:36.391Z"
+      }
+    },
+    {
+      "sent": {
+        "to": "junertl@excellere.com",
+        "subject": "AI tools for lower middle market services platforms",
+        "date": "2026-02-27T15:36:57.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:57 -0600"
+      },
+      "crm": {
+        "row": 213,
+        "company": "Excellere Partners",
+        "contactName": "Justin Unertl",
+        "email": "junertl@excellere.com",
+        "status": "DUPLICATE"
+      }
+    },
+    {
+      "sent": {
+        "to": "scho@mountaingate.com",
+        "subject": "AI automation for marketing services and buy-and-build platforms",
+        "date": "2026-02-27T15:36:54.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:54 -0600"
+      },
+      "crm": {
+        "row": 306,
+        "company": "Mountaingate Capital",
+        "contactName": "Sue Cho",
+        "email": "scho@mountaingate.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "npingelton@marlinequity.com",
+        "subject": "AI-powered operations for technology and services portfolios",
+        "date": "2026-02-27T15:36:27.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:27 -0600"
+      },
+      "crm": {
+        "row": 857,
+        "company": "Marlin Equity Partners",
+        "contactName": "Nathan Pingelton",
+        "email": "npingelton@marlinequity.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "rsummers@millpoint.com",
+        "subject": "AI tools for tech services and BPO portfolio operations",
+        "date": "2026-02-27T15:36:05.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:05 -0600"
+      },
+      "crm": {
+        "row": 311,
+        "company": "Mill Point Capital",
+        "contactName": "Richard Summers",
+        "email": "rsummers@millpoint.com",
+        "status": "Enriched"
+      }
+    },
+    {
+      "sent": {
+        "to": "dbolzan@pfingsten.com",
+        "subject": "AI-powered operations for manufacturing and distribution portfolios",
+        "date": "2026-02-27T15:36:02.000Z",
+        "dateStr": "Fri, 27 Feb 2026 09:36:02 -0600"
+      },
+      "crm": {
+        "row": 326,
+        "company": "Pfingsten Partners",
+        "contactName": "Denny Bolzan",
+        "email": "dbolzan@pfingsten.com",
+        "status": "Enriched"
+      }
+    }
+  ],
+  "notInCRM": [
+    {
+      "to": "vgarcia@stelluscapital.com",
+      "subject": "Tech stack for Stellus Capital Management",
+      "date": "2026-03-09T14:43:29.000Z",
+      "dateStr": "Mon, 9 Mar 2026 07:43:29 -0700"
+    },
+    {
+      "to": "emaurer@prospect-partners.com",
+      "subject": "Tech stack for Prospect Partners",
+      "date": "2026-03-09T14:43:27.000Z",
+      "dateStr": "Mon, 9 Mar 2026 07:43:27 -0700"
+    },
+    {
+      "to": "dwilson@soundgrowthpartners.com",
+      "subject": "Tech stack for CM Equity Partners",
+      "date": "2026-03-09T14:43:22.000Z",
+      "dateStr": "Mon, 9 Mar 2026 07:43:22 -0700"
+    },
+    {
+      "to": "kkielhorn@tonkabayequity.com",
+      "subject": "Tech stack for Tonka Bay Equity Partners",
+      "date": "2026-03-09T14:43:20.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:20 -0500"
+    },
+    {
+      "to": "dbaylor@vectorcapital.com",
+      "subject": "Tech stack for Vector Capital",
+      "date": "2026-03-09T14:43:17.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:17 -0500"
+    },
+    {
+      "to": "pcifelli@kinderhook.com",
+      "subject": "Tech stack for Kinderhook Industries",
+      "date": "2026-03-09T14:43:15.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:15 -0500"
+    },
+    {
+      "to": "ozhao@stellexcapital.com",
+      "subject": "Tech stack for Stellex Capital Management",
+      "date": "2026-03-09T14:43:13.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:13 -0500"
+    },
+    {
+      "to": "eric.geveda@leedsequity.com",
+      "subject": "Tech stack for Leeds Equity Partners",
+      "date": "2026-03-09T14:43:10.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:10 -0500"
+    },
+    {
+      "to": "lguthart@topspinpartners.com",
+      "subject": "Tech stack for Topspin Partners",
+      "date": "2026-03-09T14:43:08.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:08 -0500"
+    },
+    {
+      "to": "cthomas@bluewolfcapital.com",
+      "subject": "Tech stack for Blue Wolf Capital Partners",
+      "date": "2026-03-09T14:43:05.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:05 -0500"
+    },
+    {
+      "to": "cthomas@highlander-partners.com",
+      "subject": "Tech stack for Highlander Partners",
+      "date": "2026-03-09T14:43:03.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:03 -0500"
+    },
+    {
+      "to": "razevedo@hig.com",
+      "subject": "Tech stack for H.I.G. Capital",
+      "date": "2026-03-09T14:43:01.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:43:01 -0500"
+    },
+    {
+      "to": "issam.abedin@warburgpincus.com",
+      "subject": "Tech stack for Warburg Pincus",
+      "date": "2026-03-09T14:42:56.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:42:56 -0500"
+    },
+    {
+      "to": "mwerner@thomabravo.com",
+      "subject": "Tech stack for Thoma Bravo",
+      "date": "2026-03-09T14:42:53.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:42:53 -0500"
+    },
+    {
+      "to": "jcarlisle@thl.com",
+      "subject": "Tech stack for Thomas H. Lee Partners",
+      "date": "2026-03-09T14:42:51.000Z",
+      "dateStr": "Mon, 9 Mar 2026 09:42:51 -0500"
+    },
+    {
+      "to": "dstencel@lycap.com",
+      "subject": "Lightyear Capital portfolio: AI that works now",
+      "date": "2026-03-05T14:39:28.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:28 -0600"
+    },
+    {
+      "to": "rmorrow@stephensgroup.com",
+      "subject": "The Stephens Group portfolio: AI that works now",
+      "date": "2026-03-05T14:39:25.000Z",
+      "dateStr": "Thu, 5 Mar 2026 06:39:25 -0800"
+    },
+    {
+      "to": "rsoukup@bluepointcapital.com",
+      "subject": "Blue Point Capital Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:39:23.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:23 -0600"
+    },
+    {
+      "to": "prajeevan@gennx360.com",
+      "subject": "GenNx360 Capital Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:39:20.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:20 -0600"
+    },
+    {
+      "to": "kfirtel@transomcap.com",
+      "subject": "Transom Capital Group portfolio: AI that works now",
+      "date": "2026-03-05T14:39:18.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:18 -0600"
+    },
+    {
+      "to": "sharma@bowrivercapital.com",
+      "subject": "Bow River Capital portfolio: AI that works now",
+      "date": "2026-03-05T14:39:15.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:15 -0600"
+    },
+    {
+      "to": "msand@american-securities.com",
+      "subject": "American Securities portfolio: AI that works now",
+      "date": "2026-03-05T14:39:13.000Z",
+      "dateStr": "Thu, 5 Mar 2026 06:39:13 -0800"
+    },
+    {
+      "to": "tallen@adventinternational.com",
+      "subject": "Advent International portfolio: AI that works now",
+      "date": "2026-03-05T14:39:11.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:11 -0600"
+    },
+    {
+      "to": "cjt@qc-inc.com",
+      "subject": "Quad-C Management portfolio: AI that works now",
+      "date": "2026-03-05T14:39:08.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:08 -0600"
+    },
+    {
+      "to": "eshuey@summitpartners.com",
+      "subject": "Summit Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:39:06.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:06 -0600"
+    },
+    {
+      "to": "smusselman@llrpartners.com",
+      "subject": "LLR Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:39:03.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:03 -0600"
+    },
+    {
+      "to": "mmagliochetti@riversidepartners.com",
+      "subject": "Riverside Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:39:01.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:39:01 -0600"
+    },
+    {
+      "to": "chip@greylion.com",
+      "subject": "GreyLion portfolio: AI that works now",
+      "date": "2026-03-05T14:38:58.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:38:58 -0600"
+    },
+    {
+      "to": "mcabrera@mbfhp.com",
+      "subject": "MBF Healthcare Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:38:53.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:38:53 -0600"
+    },
+    {
+      "to": "chris@vscpllc.com",
+      "subject": "Vesey Street Capital Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:38:51.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:38:51 -0600"
+    },
+    {
+      "to": "czimmerman@amuletcapital.com",
+      "subject": "Amulet Capital portfolio: AI that works now",
+      "date": "2026-03-05T14:38:48.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:38:48 -0600"
+    },
+    {
+      "to": "jcarlisle@thl.com",
+      "subject": "Thomas H. Lee Partners portfolio: AI that works now",
+      "date": "2026-03-05T14:38:29.000Z",
+      "dateStr": "Thu, 5 Mar 2026 08:38:29 -0600"
+    },
+    {
+      "to": "bobby@aldrichcap.com",
+      "subject": "AI Technology for Aldrich Capital Portfolio",
+      "date": "2026-03-04T14:37:33.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:33 -0800"
+    },
+    {
+      "to": "cbrucato@abry.com",
+      "subject": "AI for Abry Partners Portfolio",
+      "date": "2026-03-04T14:37:30.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:30 -0800"
+    },
+    {
+      "to": "jonathanb@cgep.com",
+      "subject": "AI for Compass Group Portfolio Companies",
+      "date": "2026-03-04T14:37:28.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:28 -0800"
+    },
+    {
+      "to": "rweishaupt@gaugecapital.com",
+      "subject": "AI for Gauge Capital Portfolio Marketing",
+      "date": "2026-03-04T14:37:25.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:25 -0800"
+    },
+    {
+      "to": "ishaikh@shorecp.com",
+      "subject": "AI Technology for Shore Capital Portfolio",
+      "date": "2026-03-04T14:37:23.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:23 -0800"
+    },
+    {
+      "to": "tfagan@revelstokecapital.com",
+      "subject": "AI for Revelstoke Portfolio Companies",
+      "date": "2026-03-04T14:37:20.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:20 -0800"
+    },
+    {
+      "to": "i.baron@comvest.com",
+      "subject": "AI for Comvest Portfolio Companies",
+      "date": "2026-03-04T14:37:15.000Z",
+      "dateStr": "Wed, 4 Mar 2026 08:37:15 -0600"
+    },
+    {
+      "to": "dbellaire@waudcapital.com",
+      "subject": "AI for Waud Capital Portfolio Operations",
+      "date": "2026-03-04T14:37:13.000Z",
+      "dateStr": "Wed, 4 Mar 2026 08:37:13 -0600"
+    },
+    {
+      "to": "chris.ritchie@greatersumventures.com",
+      "subject": "AI Technology for Greater Sum Portfolio",
+      "date": "2026-03-04T14:37:03.000Z",
+      "dateStr": "Wed, 4 Mar 2026 08:37:03 -0600"
+    },
+    {
+      "to": "r.bhavsar@jllpartners.com",
+      "subject": "AI for JLL Partners Portfolio Companies",
+      "date": "2026-03-04T14:37:00.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:37:00 -0800"
+    },
+    {
+      "to": "rverma@gennx360.biz",
+      "subject": "AI for GenNx360 Portfolio",
+      "date": "2026-03-04T14:26:40.000Z",
+      "dateStr": "Wed, 4 Mar 2026 08:26:40 -0600"
+    },
+    {
+      "to": "hreynolds@hggc.com",
+      "subject": "AI Solutions for HGGC Tech Portfolio",
+      "date": "2026-03-04T14:26:35.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:26:35 -0800"
+    },
+    {
+      "to": "gmittal@thl.com",
+      "subject": "AI Value Creation at THL Partners",
+      "date": "2026-03-04T14:26:30.000Z",
+      "dateStr": "Wed, 4 Mar 2026 08:26:30 -0600"
+    },
+    {
+      "to": "cy.barton@revelstokecapital.com",
+      "subject": "AI for Revelstoke Portfolio Companies",
+      "date": "2026-03-04T14:26:25.000Z",
+      "dateStr": "Wed, 4 Mar 2026 06:26:25 -0800"
+    },
+    {
+      "to": "justin.clonts@trilantic.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:39.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:50:39 -0600"
+    },
+    {
+      "to": "jessica@lfmcapital.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:22.000Z",
+      "dateStr": "Tue, 3 Mar 2026 07:50:22 -0800"
+    },
+    {
+      "to": "kfirtel@transomcap.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:15.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:50:15 -0600"
+    },
+    {
+      "to": "apeix@gaugecapital.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:12.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:50:12 -0600"
+    },
+    {
+      "to": "aharris@alpineinvestors.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:07.000Z",
+      "dateStr": "Tue, 3 Mar 2026 07:50:07 -0800"
+    },
+    {
+      "to": "balvarez@roarkcapital.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:02.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:50:02 -0600"
+    },
+    {
+      "to": "jchang@roarkcapital.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:50:00.000Z",
+      "dateStr": "Tue, 3 Mar 2026 07:50:00 -0800"
+    },
+    {
+      "to": "jberman@tzpgroup.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:49:55.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:49:55 -0600"
+    },
+    {
+      "to": "jpconte@gencap.com",
+      "subject": "Genstar Capital: AI infrastructure for your portfolio",
+      "date": "2026-03-03T15:49:52.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:49:52 -0600"
+    },
+    {
+      "to": "dkhouri@ta.com",
+      "subject": "TA Associates: AI infrastructure for your portfolio",
+      "date": "2026-03-03T15:49:45.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:49:45 -0600"
+    },
+    {
+      "to": "joe.rubino@gtcr.com",
+      "subject": "Quick question about AI across your portfolio",
+      "date": "2026-03-03T15:49:42.000Z",
+      "dateStr": "Tue, 3 Mar 2026 09:49:42 -0600"
+    },
+    {
+      "to": "jarnold@hf.com",
+      "subject": "Hellman & Friedman portfolio automation",
+      "date": "2026-03-02T16:04:13.000Z",
+      "dateStr": "Mon, 2 Mar 2026 10:04:13 -0600"
+    },
+    {
+      "to": "tpanozzo@graham-allen.com",
+      "subject": "Graham Partners portfolio automation",
+      "date": "2026-03-02T16:04:11.000Z",
+      "dateStr": "Mon, 2 Mar 2026 10:04:11 -0600"
+    },
+    {
+      "to": "lwiggers@argosyprivateequity.com",
+      "subject": "Argosy Private Equity portfolio automation",
+      "date": "2026-03-02T16:04:08.000Z",
+      "dateStr": "Mon, 2 Mar 2026 11:04:08 -0500"
+    },
+    {
+      "to": "jbarbetta@ta.com",
+      "subject": "TA Associates portfolio automation",
+      "date": "2026-03-02T16:04:03.000Z",
+      "dateStr": "Mon, 2 Mar 2026 11:04:03 -0500"
+    },
+    {
+      "to": "spoole@ridgemontep.com",
+      "subject": "AI automation for healthcare services portfolios",
+      "date": "2026-03-02T15:36:29.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:29 -0600"
+    },
+    {
+      "to": "gmacneill@accel-kkr.com",
+      "subject": "AI value creation for Accel-KKR's tech portfolio",
+      "date": "2026-03-02T15:36:24.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:24 -0600"
+    },
+    {
+      "to": "jnakache@marlinequity.com",
+      "subject": "AI automation for healthcare services portfolios",
+      "date": "2026-03-02T15:36:21.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:21 -0600"
+    },
+    {
+      "to": "gklein@littlejohnllc.com",
+      "subject": "Operational AI for industrial services portfolios",
+      "date": "2026-03-02T15:36:18.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:18 -0600"
+    },
+    {
+      "to": "amoney@fflpartners.com",
+      "subject": "AI automation for healthcare services portfolios",
+      "date": "2026-03-02T15:36:16.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:16 -0600"
+    },
+    {
+      "to": "abesso@millpoint.com",
+      "subject": "AI value creation for Mill Point Capital's tech portfolio",
+      "date": "2026-03-02T15:36:13.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:13 -0600"
+    },
+    {
+      "to": "mchoung@onerockcapital.com",
+      "subject": "AI infrastructure for One Rock Capital Partners's portfolio expansion",
+      "date": "2026-03-02T15:36:10.000Z",
+      "dateStr": "Mon, 2 Mar 2026 09:36:10 -0600"
+    },
+    {
+      "to": "\"lemlisttester2@gmail.com\" <lemlisttester2@gmail.com>",
+      "subject": "Before grapes, alligators were only crocodiles?",
+      "date": "2026-03-02T04:35:36.000Z",
+      "dateStr": "Sun, 1 Mar 2026 22:35:36 -0600"
+    },
+    {
+      "to": "Sofiia Rapatska <sofiiar@warmy.io>",
+      "subject": "Re: Email deliverability consultation",
+      "date": "2026-03-02T03:51:06.000Z",
+      "dateStr": "Sun, 1 Mar 2026 21:51:06 -0600"
+    },
+    {
+      "to": "rgundry@excellere.com",
+      "subject": "AI automation for lower middle market services platforms",
+      "date": "2026-02-27T15:38:06.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:38:06 -0600"
+    },
+    {
+      "to": "paul.matthews@endeavour-capital.com",
+      "subject": "AI tools for Pacific Northwest services and tech portfolios",
+      "date": "2026-02-27T15:38:04.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:38:04 -0600"
+    },
+    {
+      "to": "dgorton@tailwind.com",
+      "subject": "AI automation for middle market healthcare and services",
+      "date": "2026-02-27T15:38:01.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:38:01 -0600"
+    },
+    {
+      "to": "mbrandys@shorecp.com",
+      "subject": "AI tools for healthcare and knowledge services platforms",
+      "date": "2026-02-27T15:37:57.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:57 -0600"
+    },
+    {
+      "to": "ckolb@quadcp.com",
+      "subject": "AI for education, healthcare, and professional services portfolios",
+      "date": "2026-02-27T15:37:53.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:53 -0600"
+    },
+    {
+      "to": "gbenson@hggc.com",
+      "subject": "AI-powered value creation for tech and services portfolios",
+      "date": "2026-02-27T15:37:46.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:46 -0600"
+    },
+    {
+      "to": "gmittal@thl.com",
+      "subject": "AI implementation across healthcare and software portfolios",
+      "date": "2026-02-27T15:37:44.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:44 -0600"
+    },
+    {
+      "to": "kpark@harvestmp.com",
+      "subject": "AI ops for middle-market services companies",
+      "date": "2026-02-27T15:37:42.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:42 -0600"
+    },
+    {
+      "to": "athimmaya@flexpointford.com",
+      "subject": "AI-powered automation for financial services and healthcare",
+      "date": "2026-02-27T15:37:39.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:39 -0600"
+    },
+    {
+      "to": "wrichter@llcp.com",
+      "subject": "AI tools for franchising and business services portfolios",
+      "date": "2026-02-27T15:37:37.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:37 -0600"
+    },
+    {
+      "to": "erichsu@trivecapital.com",
+      "subject": "AI automation for mid-market services and industrial companies",
+      "date": "2026-02-27T15:37:35.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:35 -0600"
+    },
+    {
+      "to": "jgwozdz@edisonpartners.com",
+      "subject": "AI implementation for fintech and enterprise software portfolios",
+      "date": "2026-02-27T15:37:33.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:33 -0600"
+    },
+    {
+      "to": "jroberts@trivest.com",
+      "subject": "AI-powered ops for founder-owned business portfolios",
+      "date": "2026-02-27T15:37:31.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:31 -0600"
+    },
+    {
+      "to": "berger@windrose.com",
+      "subject": "AI tools for healthcare IT and outsourced care management",
+      "date": "2026-02-27T15:37:28.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:28 -0600"
+    },
+    {
+      "to": "mrude@cresseyco.com",
+      "subject": "AI automation for healthcare services and health IT portfolios",
+      "date": "2026-02-27T15:37:26.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:26 -0600"
+    },
+    {
+      "to": "apetersen@nautic.com",
+      "subject": "AI-driven efficiency for healthcare and industrial services",
+      "date": "2026-02-27T15:37:24.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:24 -0600"
+    },
+    {
+      "to": "mollyk@parthenoncapital.com",
+      "subject": "AI tools for financial services and healthcare portfolio ops",
+      "date": "2026-02-27T15:37:22.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:22 -0600"
+    },
+    {
+      "to": "eric.haufler@inclineequity.com",
+      "subject": "AI automation for distribution and manufacturing portfolios",
+      "date": "2026-02-27T15:37:20.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:20 -0600"
+    },
+    {
+      "to": "mogrady@palladiumequity.com",
+      "subject": "Scaling AI across multi-sector portfolio companies",
+      "date": "2026-02-27T15:37:18.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:37:18 -0600"
+    },
+    {
+      "to": "gmorgan@ridgemontep.com",
+      "subject": "AI-driven value creation for services and industrial portfolios",
+      "date": "2026-02-27T15:37:00.000Z",
+      "dateStr": "Sat, 28 Feb 2026 00:37:00 +0900"
+    },
+    {
+      "to": "ecrawford@platteriverequity.com",
+      "subject": "AI-powered operations for business and healthcare services companies",
+      "date": "2026-02-27T15:36:52.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:36:52 -0600"
+    },
+    {
+      "to": "jgantz@pinebrookpartners.com",
+      "subject": "AI tools for financial services and insurance portfolio operations",
+      "date": "2026-02-27T15:36:41.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:36:41 -0600"
+    },
+    {
+      "to": "jgarrison@bvlp.com",
+      "subject": "AI tools for tech-enabled services and healthcare IT companies",
+      "date": "2026-02-27T15:36:24.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:36:24 -0600"
+    },
+    {
+      "to": "nicholas.rowland@sheridancp.com",
+      "subject": "AI automation for healthcare services portfolio operations",
+      "date": "2026-02-27T15:36:22.000Z",
+      "dateStr": "Sat, 28 Feb 2026 00:36:22 +0900"
+    },
+    {
+      "to": "calamai@siris.com",
+      "subject": "AI engineering for tech-enabled services and data portfolios",
+      "date": "2026-02-27T15:36:19.000Z",
+      "dateStr": "Sat, 28 Feb 2026 00:36:19 +0900"
+    },
+    {
+      "to": "akamel@aeainvestors.com",
+      "subject": "AI-first automation for mid-market portfolio companies",
+      "date": "2026-02-27T15:36:16.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:36:16 -0600"
+    },
+    {
+      "to": "rduggal@fflpartners.com",
+      "subject": "AI-driven growth tools for financial and business services",
+      "date": "2026-02-27T15:36:08.000Z",
+      "dateStr": "Fri, 27 Feb 2026 09:36:08 -0600"
+    }
+  ]
+}

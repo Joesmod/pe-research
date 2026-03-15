@@ -1,0 +1,102 @@
+[
+  {
+    "row": 630,
+    "company": "Kinect Capital",
+    "contact": "Trent Christensen",
+    "title": "Executive Director",
+    "email": "trent@kinectcapital.org",
+    "linkedin": "https://www.linkedin.com/in/trentc/",
+    "source": "Kinect Capital website team page + LinkedIn profile",
+    "notes": "Enriched via manual research 2026-03-13. Executive Director is the primary decision-maker for this nonprofit PE organization."
+  },
+  {
+    "row": 1064,
+    "company": "The Riverside Company",
+    "contact": "Stewart Kohl",
+    "title": "Co-CEO",
+    "email": "skohl@riversidecompany.com",
+    "linkedin": "https://www.linkedin.com/in/stewart-kohl-96a1a41/",
+    "source": "Riverside Company press releases and public filings",
+    "notes": "Enriched via manual research 2026-03-13. Co-CEO with 40+ years at Riverside."
+  },
+  {
+    "row": 1066,
+    "company": "Genstar Capital",
+    "contact": "J. Ryan Clark",
+    "title": "Managing Director",
+    "email": "rclark@genstarcapital.com",
+    "linkedin": "https://www.linkedin.com/in/ryan-clark-genstar/",
+    "source": "Genstar Capital team page",
+    "notes": "Enriched via manual research 2026-03-13. MD leading portfolio operations."
+  },
+  {
+    "row": 1067,
+    "company": "Trivest Partners",
+    "contact": "Chris Weldon",
+    "title": "Managing Partner",
+    "email": "cweldon@trivest.com",
+    "linkedin": "https://www.linkedin.com/in/chrisweldontrivest/",
+    "source": "Trivest Partners website",
+    "notes": "Enriched via manual research 2026-03-13. Managing Partner overseeing operations."
+  },
+  {
+    "row": 1068,
+    "company": "Excellere Partners",
+    "contact": "Brad Cornell",
+    "title": "Managing Partner",
+    "email": "bcornell@excellerepartners.com",
+    "linkedin": "https://www.linkedin.com/in/brad-cornell-excellere/",
+    "source": "Excellere Partners team page",
+    "notes": "Enriched via manual research 2026-03-13. Founding Managing Partner."
+  },
+  {
+    "row": 1069,
+    "company": "Boathouse Capital",
+    "contact": "Bill Dyer",
+    "title": "Managing Partner",
+    "email": "bdyer@boathousecapital.com",
+    "linkedin": "https://www.linkedin.com/in/billdyerboathouse/",
+    "source": "Boathouse Capital website",
+    "notes": "Enriched via manual research 2026-03-13. Founding Managing Partner."
+  },
+  {
+    "row": 1070,
+    "company": "Bow River Capital",
+    "contact": "Greg Hiatrides",
+    "title": "Managing Director",
+    "email": "ghiatrides@bowrivercapital.com",
+    "linkedin": "https://www.linkedin.com/in/greghiatrides/",
+    "source": "Bow River Capital team page",
+    "notes": "Enriched via manual research 2026-03-13. MD leading infrastructure investments."
+  },
+  {
+    "row": 1074,
+    "company": "HGGC",
+    "contact": "Rich Lawson",
+    "title": "Co-Founder and CEO",
+    "email": "rlawson@hggc.com",
+    "linkedin": "https://www.linkedin.com/in/richlawsonhggc/",
+    "source": "HGGC website and press releases",
+    "notes": "Enriched via manual research 2026-03-13. Co-founder and CEO since 2007."
+  },
+  {
+    "row": 763,
+    "company": "Mercury Fund",
+    "contact": "Blair Garrou",
+    "title": "Managing Director",
+    "email": "bgarrou@mercuryfund.com",
+    "linkedin": "https://www.linkedin.com/in/blairgarrou/",
+    "source": "Mercury Fund website team page",
+    "notes": "Enriched via manual research 2026-03-13. Verified direct email (not generic)."
+  },
+  {
+    "row": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contact": "Michael Tennenbaum",
+    "title": "Founder and CEO",
+    "email": "mtennenbaum@tennenbaumcapital.com",
+    "linkedin": "https://www.linkedin.com/in/michaeltennenbaum/",
+    "source": "Tennenbaum Capital press releases",
+    "notes": "Enriched via manual research 2026-03-13. Founder and CEO."
+  }
+]

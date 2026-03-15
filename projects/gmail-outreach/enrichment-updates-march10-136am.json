@@ -1,0 +1,30 @@
+[
+  {
+    "row": 1011,
+    "company": "Bow River Capital",
+    "updates": {
+      "Contact Name": "Blair E. Richardson",
+      "Title": "Founder & CEO",
+      "Email": "richardson@bowrivercapital.com",
+      "LinkedIn": "https://www.linkedin.com/in/blair-richardson-a4755613/",
+      "Status": "Enriched",
+      "Notes": "Verified via RocketReach/LeadIQ. Email pattern [last]@bowrivercapital.com confirmed (94.6% confidence). CEO & Founder. Denver-based. Source: bowrivercapital.com/team + multiple verification services."
+    },
+    "source": "RocketReach, LeadIQ, bowrivercapital.com/team",
+    "confidence": "High"
+  },
+  {
+    "row": 1012,
+    "company": "Coalesce Capital",
+    "updates": {
+      "Contact Name": "Stephanie Geveda",
+      "Title": "Founder & Managing Partner",
+      "Email": "sgeveda@coalescecap.com",
+      "LinkedIn": "https://www.linkedin.com/in/stephanie-geveda/",
+      "Status": "Enriched",
+      "Notes": "Email verified via ContactOut. Founder & Managing Partner. $900M debut fund closed Feb 2024. Ex-Warburg Pincus. Focus: business services. Source: coalescecap.com + ContactOut."
+    },
+    "source": "ContactOut, coalescecap.com",
+    "confidence": "High"
+  }
+]

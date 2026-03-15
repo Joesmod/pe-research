@@ -1,0 +1,74 @@
+[
+  {
+    "rowIndex": 67,
+    "company": "Bow River Capital",
+    "website": "https://www.bowrivercapital.com",
+    "enrichedContact": {
+      "name": "Matt Warta",
+      "title": "Chief Executive Officer",
+      "email": null,
+      "linkedin": "http://www.linkedin.com/in/matt-warta",
+      "apolloId": "6114ed85071b300001dbcb95"
+    }
+  },
+  {
+    "rowIndex": 575,
+    "company": "Bruin Capital",
+    "website": "http://www.bruincptl.com",
+    "enrichedContact": {
+      "name": "Tony Crispino",
+      "title": "COO",
+      "email": "tcrispino@bruincptl.com",
+      "linkedin": "http://www.linkedin.com/in/tony-crispino-3b19341a",
+      "apolloId": "54a628a87468692cf0986fc6"
+    }
+  },
+  {
+    "rowIndex": 577,
+    "company": "Butterfly Equity",
+    "website": "http://www.bfly.com",
+    "enrichedContact": {
+      "name": "Adam Waglay",
+      "title": "CEO, Managing Partner, Co-Founder",
+      "email": "adam@butterflyequity.com",
+      "linkedin": "http://www.linkedin.com/in/adam-waglay-49862b5",
+      "apolloId": "66fa2fcf9901a20001f0f8f8"
+    }
+  },
+  {
+    "rowIndex": 578,
+    "company": "Callais Capital",
+    "website": "http://www.callaiscapital.com",
+    "enrichedContact": {
+      "name": "Harold Callais",
+      "title": "Managing Partner / Chief Investment Officer",
+      "email": "harold.callais@callaiscapital.com",
+      "linkedin": "http://www.linkedin.com/in/hjc2",
+      "apolloId": "6113d55c6d416d000189f2dc"
+    }
+  },
+  {
+    "rowIndex": 583,
+    "company": "Character Capital",
+    "website": "http://www.character.vc",
+    "enrichedContact": {
+      "name": "John Zeratsky",
+      "title": "Co-Founder & General Partner",
+      "email": "jz@character.vc",
+      "linkedin": "http://www.linkedin.com/in/johnzeratsky",
+      "apolloId": "66f228163d93ef0001e9a3e5"
+    }
+  },
+  {
+    "rowIndex": 1009,
+    "company": "Accel-KKR",
+    "website": "",
+    "enrichedContact": {
+      "name": "Anthony Rotoli",
+      "title": "President and Chief Executive Officer",
+      "email": "anthony.rotoli@accel-kkr.com",
+      "linkedin": "http://www.linkedin.com/in/anthonyrotoli",
+      "apolloId": "66f2c4626d36cd0001757277"
+    }
+  }
+]

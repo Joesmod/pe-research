@@ -1,0 +1,74 @@
+[
+  {
+    "company": "Mercury Fund",
+    "website": "http://www.mercuryfund.com",
+    "title": "Chief Operating Officer",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:13.387Z"
+  },
+  {
+    "company": "Riverside Company",
+    "website": "https://www.riversidecompany.com",
+    "title": "Managing Director",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:14.527Z"
+  },
+  {
+    "company": "GenCap",
+    "website": "https://www.gencap.com",
+    "title": "CTO",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:15.698Z"
+  },
+  {
+    "company": "Trivest",
+    "website": "https://www.trivest.com",
+    "title": "Partner, Chief Operating Officer",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:17.142Z"
+  },
+  {
+    "company": "Excellere Partners",
+    "website": "https://excellere.com",
+    "title": "Principal",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:18.568Z"
+  },
+  {
+    "company": "Boathouse Capital",
+    "website": "https://boathousecapital.com",
+    "title": "Principal",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:19.741Z"
+  },
+  {
+    "company": "Bow River Capital",
+    "website": "https://www.bowrivercapital.com",
+    "title": "Chief Executive Officer",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:20.909Z"
+  },
+  {
+    "company": "Ampersand Capital",
+    "website": "https://ampersandcapital.com",
+    "title": "Principal",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:22.017Z"
+  },
+  {
+    "company": "HGGC",
+    "website": "https://www.hggc.com",
+    "title": "CEO",
+    "verified": false,
+    "source": "Apollo API",
+    "timestamp": "2026-03-13T14:10:23.151Z"
+  }
+]

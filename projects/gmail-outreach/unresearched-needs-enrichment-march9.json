@@ -1,0 +1,50 @@
+[
+  {
+    "row": 974,
+    "rowIndex": 973,
+    "firm": "Bow River Capital",
+    "domain": "",
+    "contact": "Greg J. Hiatrides",
+    "email": "",
+    "title": "Partner, Head of Private Equity",
+    "linkedin": "https://www.bowrivercapital.com/team",
+    "website": "https://www.bowrivercapital.com",
+    "sector": "Healthcare Services, Infrastructure Services, Industrial Services, Tech-Enabled Business Services",
+    "status": "Researched",
+    "notes": "Email not publicly available. General contact: info@bowrivercapital.com. Dossier created in pe-research/PE-firms/bow-river-capital/",
+    "needsEnrichment": true,
+    "issue": "No email"
+  },
+  {
+    "row": 975,
+    "rowIndex": 974,
+    "firm": "Amulet Capital Partners",
+    "domain": "",
+    "contact": "Avi Uttamchandani",
+    "email": "",
+    "title": "Partner",
+    "linkedin": "https://www.linkedin.com/company/amulet-capital-partners",
+    "website": "https://amuletcapital.com",
+    "sector": "Healthcare (Life Sciences Outsourcing, Healthcare Providers, Payor Services)",
+    "status": "Researched",
+    "notes": "Email not publicly available. LinkedIn outreach recommended. Dossier created in pe-research/PE-firms/amulet-capital-partners/",
+    "needsEnrichment": true,
+    "issue": "No email"
+  },
+  {
+    "row": 976,
+    "rowIndex": 975,
+    "firm": "Trivest Partners",
+    "domain": "",
+    "contact": "Reid Callaway",
+    "email": "",
+    "title": "Managing Director",
+    "linkedin": "https://www.linkedin.com/company/trivestpartners",
+    "website": "https://www.trivestpartners.com",
+    "sector": "Business Services, Healthcare, Niche Manufacturing, Value-Added Distribution, Consumer & Retail",
+    "status": "Researched",
+    "notes": "Email not publicly available. Company-first approach, founder-friendly. Dossier created in pe-research/PE-firms/trivest-partners/",
+    "needsEnrichment": true,
+    "issue": "No email"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "firmName": "Aeris Partners",
+    "website": "https://www.aerispartners.com",
+    "contactName": "David W. Joncas",
+    "title": "Managing Director & Co-Founder",
+    "email": "dwj@aerispartners.com",
+    "linkedin": "https://www.linkedin.com/in/david-joncas-206a0424/",
+    "notes": "Tech M&A investment bank, FINRA/SIPC member. Source: ContactOut verified",
+    "status": "Enriched"
+  },
+  {
+    "firmName": "Apex Service Partners",
+    "website": "https://apexservicepartners.com",
+    "contactName": "AJ Brown",
+    "title": "CEO & Executive Chairman",
+    "email": "ajbrown@apexservicepartners.com",
+    "linkedin": "https://www.linkedin.com/in/ajbrown16/",
+    "notes": "HVAC/Plumbing/Electrical platform, Alpine Investors-backed. Source: ContactOut + TheOrg verified",
+    "status": "Enriched"
+  },
+  {
+    "firmName": "Valiant Capital",
+    "website": "https://valiant-capital.com",
+    "contactName": "Lou Gonzalez",
+    "title": "Managing Partner & Co-Founder",
+    "email": "lou@valiant-capital.com",
+    "linkedin": "https://www.linkedin.com/in/lou-gonzalez-36b96212/",
+    "notes": "Real estate and finance focus, Houston-based. Source: Company website team page",
+    "status": "Enriched"
+  }
+]

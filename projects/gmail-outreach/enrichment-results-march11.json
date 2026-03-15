@@ -1,0 +1,93 @@
+{
+  "enrichedContacts": [
+    {
+      "row": 306,
+      "company": "Mountaingate Capital",
+      "contact": "Bennett Thompson",
+      "title": "Managing Director, Co-Founder",
+      "email": "bthompson@mountaingate.com",
+      "linkedin": "https://www.linkedin.com/in/bennett-thompson-b780358/",
+      "source": "success.ai verified, mountaingate.com official press releases",
+      "status": "Enriched",
+      "notes": "Co-Founder and Managing Director, phone 303-390-5001"
+    },
+    {
+      "row": 306,
+      "company": "Mountaingate Capital",
+      "contact": "Sue Cho",
+      "title": "Managing Director",
+      "email": "s[masked]@mountaingate.com",
+      "linkedin": "https://www.linkedin.com/in/sue-cho-44733714/",
+      "source": "RocketReach/ZoomInfo (pattern masked)",
+      "status": "Partially Enriched",
+      "notes": "Managing Director, 20+ years PE experience, rejoined firm 2022"
+    },
+    {
+      "row": 741,
+      "company": "Essex Investment Management Company, LLC",
+      "contact": "Nancy Prial",
+      "title": "Co-CEO and Senior Portfolio Manager",
+      "email": "n[masked]@essexinvest.com",
+      "linkedin": "https://www.linkedin.com/in/nancyprialcfa/",
+      "source": "RocketReach/ZoomInfo (pattern masked), essexinvest.com team page",
+      "status": "Partially Enriched",
+      "notes": "Co-CEO, joined Essex 2005, CFA"
+    },
+    {
+      "row": 493,
+      "company": "360 Equipment Finance",
+      "contact": "Kip Amstutz",
+      "title": "CEO, President and Partner",
+      "email": "k[masked]@360equipmentfinance.com",
+      "linkedin": "https://www.linkedin.com/in/kip-amstutz-64603431/",
+      "source": "RocketReach (pattern masked), 360equipmentfinance.com about page",
+      "status": "Partially Enriched",
+      "notes": "Founded with Larry Amstutz (father) in 2001, established Mantis Financial"
+    }
+  ],
+  "needsFurtherResearch": [
+    {
+      "row": 117,
+      "company": "Keltic Financial Partners",
+      "issue": "Appears to be Keltic Financial Services (not PE, more credit/lending)",
+      "notes": "Steve Fischer listed as Partner at Keltic Financial Services, but unclear if this is the right firm"
+    },
+    {
+      "row": 176,
+      "company": "Hg Capital",
+      "issue": "Large UK-based PE firm ($110B+ AUM), needs UK-specific contact",
+      "notes": "Connor Da***g name incomplete in sheet. Hg Capital has 400+ employees across London, Munich, SF, Singapore, NYC. Need specific contact person."
+    },
+    {
+      "row": 285,
+      "company": "Sentinel Capital Partners",
+      "issue": "Only generic info@sentinelpartners.com found",
+      "notes": "Team page exists but individual emails not publicly listed. Operating Partners Frank Richardson and Thomas Fitzpatrick identified but no direct emails"
+    },
+    {
+      "row": 305,
+      "company": "Bertram Capital",
+      "issue": "Email pattern found ([first_initial][last]@bcap.com) but need specific person",
+      "notes": "Ingrid Swenson is Partner/Managing Director/CFO. Generic pr@bcap.com exists. Need to identify technology/operations contact"
+    },
+    {
+      "row": 635,
+      "company": "Loeb.nyc",
+      "issue": "Jacob Zodikoff is at Alpine Investors, not Loeb.nyc",
+      "notes": "Mismatch in sheet data. Jacob Zodikoff email: j[masked]@alpine-investors.com at Alpine Investors"
+    },
+    {
+      "row": 704,
+      "company": "Apercen Partners LLC",
+      "issue": "NOT A PE FIRM - tax consulting for PE/VC partners",
+      "notes": "Apercen is a tax services firm that serves PE/VC clients, not a PE firm itself. Should be removed from PE outreach list."
+    }
+  ],
+  "verifiedEmailDomains": {
+    "mountaingate.com": "@mountaingate.com",
+    "essexinvest.com": "@essexinvest.com",
+    "360equipmentfinance.com": "@360equipmentfinance.com",
+    "bcap.com": "@bcap.com (Bertram Capital pattern: [first_initial][last])",
+    "sentinelpartners.com": "info@sentinelpartners.com (generic only)"
+  }
+}

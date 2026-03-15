@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-13T16:09:26.579Z",
+  "enrichedCount": 3,
+  "updates": [
+    {
+      "company": "Sumeru Equity Partners",
+      "contact": "George Kadifa",
+      "title": "Co-Founder and Managing Director",
+      "email": "gkadifa@sumeruequity.com",
+      "source": "Source: sumeruequity.com/team, LinkedIn, RocketReach pattern"
+    },
+    {
+      "company": "Banneker Partners",
+      "contact": "Stephen Davis",
+      "title": "Managing Partner",
+      "email": "sdavis@bannekerpartners.com",
+      "source": "Source: bannekerpartners.com/team, ContactOut"
+    },
+    {
+      "company": "Ampersand Capital Partners",
+      "contact": "Herb Hooper",
+      "title": "Managing Partner",
+      "email": "hhooper@ampersandcapital.com",
+      "source": "Source: ampersandcapital.com, RocketReach pattern (replaced generic info@ email)"
+    }
+  ]
+}

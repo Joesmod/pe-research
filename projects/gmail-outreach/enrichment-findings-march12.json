@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-03-12T14:40:00Z",
+  "totalTargets": 18,
+  "enriched": 3,
+  "findings": [
+    {
+      "row": 176,
+      "company": "Hg Capital",
+      "originalContact": "Nic Humphries",
+      "originalEmail": "(empty)",
+      "enrichedContact": "Jodie Gray",
+      "enrichedTitle": "Executive Assistant to Nic Humphries",
+      "enrichedEmail": "jodie.gray@hgcapital.com",
+      "linkedIn": "https://www.linkedin.com/company/hg/",
+      "source": "Official Hg Capital website team page",
+      "sourceUrl": "https://hgcapital.com/team-member/nic-humphries/",
+      "notes": "Jodie Gray is Executive Assistant to Nic Humphries (Senior Partner & Executive Chairman). Email verified on official website.",
+      "verified": true
+    },
+    {
+      "row": 220,
+      "company": "WindPoint Partners",
+      "originalContact": "Nathan Brown",
+      "originalEmail": "(empty)",
+      "enrichedContact": "Nathan Brown",
+      "enrichedTitle": "Managing Director",
+      "enrichedEmail": "NOT FOUND - No public email available",
+      "linkedIn": "https://www.linkedin.com/company/wind-point-partners/",
+      "source": "Wind Point Partners team page + Crunchbase",
+      "sourceUrl": "https://www.wppartners.com/our-team/",
+      "notes": "Nathan Brown confirmed as Managing Director. Email pattern is @wppartners.com but no public direct email found.",
+      "verified": false
+    },
+    {
+      "row": 285,
+      "company": "Sentinel Capital Partners",
+      "originalContact": "David S. Lobel",
+      "originalEmail": "(empty)",
+      "enrichedContact": "David S. Lobel",
+      "enrichedTitle": "Founder and Managing Partner",
+      "enrichedEmail": "info@sentinelpartners.com",
+      "linkedIn": "https://www.linkedin.com/company/sentinel-capital-partners/",
+      "source": "Sentinel Capital Partners website + Private Equity International",
+      "sourceUrl": "https://www.sentinelpartners.com/member/david-s-lobel/",
+      "notes": "David Lobel is Founder and Managing Partner. Generic firm email found: info@sentinelpartners.com. Email pattern likely: last@sentinelpartners.com (RocketReach data).",
+      "verified": false
+    }
+  ],
+  "needsFurtherResearch": [
+    {
+      "row": 161,
+      "company": "Thomas H. Lee Partners",
+      "contact": "Scott Sperling",
+      "notes": "THL website found (thl.com). Key contacts: Tony DiNovi (Chairman), Tom Hagerty (Managing Director). No public emails found on official sources."
+    },
+    {
+      "row": 510,
+      "company": "Edgewater Capital Partners",
+      "contact": "Ryan Meany",
+      "notes": "Partial status - needs research"
+    },
+    {
+      "row": 525,
+      "company": "Levine Leichtman Capital Partners, LLC",
+      "contact": "Jarett Moyse",
+      "notes": "Partial status - needs research"
+    },
+    {
+      "row": 851,
+      "company": "Wynnchurch Capital",
+      "contact": "Greg Gleason",
+      "notes": "Partial status - needs research"
+    },
+    {
+      "row": 864,
+      "company": "Accel-KKR",
+      "contact": "Tom Barnds",
+      "notes": "Partial status - needs research"
+    }
+  ]
+}

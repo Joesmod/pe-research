@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-03-07T17:42:14.347Z",
+  "runId": "march7-2026-1136am",
+  "enrichments": [
+    {
+      "row": 23,
+      "company": "HGGC",
+      "contactName": "Rich Lawson",
+      "title": "CEO & Co-Founder",
+      "email": "rlawson@hggc.com",
+      "linkedin": "https://www.linkedin.com/in/richlawson-hggc/",
+      "website": "https://www.hggc.com",
+      "status": "Enriched",
+      "notes": "Source: ContactOut - verified email. HGGC is a mid-market PE firm with $10B+ AUM"
+    },
+    {
+      "row": 5,
+      "company": "Regal Healthcare Capital Partners",
+      "contactName": "David Kim, MD, MBA",
+      "title": "Co-Founder & General Partner",
+      "email": "",
+      "linkedin": "https://www.regalhcp.com/team/davidkim",
+      "website": "https://www.regalhcp.com",
+      "status": "Partial",
+      "notes": "Co-Founder identified, domain @regalhcp.com confirmed. Healthcare-focused PE (founded 2017). Email verification needed via RocketReach/ZoomInfo"
+    },
+    {
+      "row": 20,
+      "company": "Charlesbank Capital Partners",
+      "contactName": "Brandon White",
+      "title": "Managing Director & Co-Head, Flagship",
+      "email": "",
+      "linkedin": "https://www.charlesbank.com/team/brandon-white/",
+      "website": "https://www.charlesbank.com",
+      "status": "Partial",
+      "notes": "Managing Director identified, domain @charlesbank.com confirmed (Boston-based, founded 1997). Email pattern confirmed via RocketReach/ZoomInfo"
+    },
+    {
+      "row": 30,
+      "company": "Sentinel Capital Partners",
+      "contactName": "Eric Bommer",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.sentinelpartners.com/member/eric-d-bommer/",
+      "website": "https://www.sentinelpartners.com",
+      "status": "Partial",
+      "notes": "Managing Partner (promoted March 2025), domain @sentinelpartners.com confirmed, pattern: last@sentinelpartners.com (94.9%). Email verification needed"
+    },
+    {
+      "row": 15,
+      "company": "JLL Partners",
+      "contactName": "Kevin Hammond",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.jllpartners.com/team/",
+      "website": "https://www.jllpartners.com",
+      "status": "Partial",
+      "notes": "Managing Partner (leads industrials vertical), domain @jllpartners.com confirmed. Founded 1988, NYC-based. Email verification needed"
+    },
+    {
+      "row": 31,
+      "company": "Abry Partners",
+      "contactName": "Jay Grossman",
+      "title": "Managing Partner & Co-CEO",
+      "email": "",
+      "linkedin": "https://abry.com/team-member/jay-grossman/",
+      "website": "https://abry.com",
+      "status": "Partial",
+      "notes": "Co-CEO & Chair of Abry, domain @abry.com confirmed, pattern: [first_initial][last]@abry.com (77.6%). Boston-based, $13.7B AUM. Email pattern confirmed via RocketReach/ZoomInfo"
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "verified": 1,
+    "partial": 5,
+    "avgAUM": "~$5B+ per firm",
+    "domains": [
+      "www.hggc.com",
+      "www.regalhcp.com",
+      "www.charlesbank.com",
+      "www.sentinelpartners.com",
+      "www.jllpartners.com",
+      "abry.com"
+    ]
+  },
+  "nextSteps": [
+    "For Partial entries: verify emails via RocketReach/ZoomInfo/Apollo subscriptions",
+    "Email patterns identified and ready for verification",
+    "All firms are mid-market+ PE with strong service-sector focus",
+    "Consider adding 3-5 new firms if time permits in next run"
+  ]
+}

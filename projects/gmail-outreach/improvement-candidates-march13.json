@@ -1,0 +1,168 @@
+[
+  {
+    "rowNum": 2,
+    "company": "Audax Private Equity",
+    "website": "https://www.audaxprivateequity.com",
+    "contact": "Andrew Wilson",
+    "title": "Partner",
+    "email": "awilson@auroracap.com",
+    "status": "Enriched - Inferred",
+    "reason": [
+      "Status shows inferred/pattern"
+    ]
+  },
+  {
+    "rowNum": 3,
+    "company": "424 Capital",
+    "website": "https://424capital.com",
+    "contact": "Bill Dyer",
+    "title": "Managing Partner",
+    "email": "bill.dyer@boathousecapital.com",
+    "status": "Enriched",
+    "reason": []
+  },
+  {
+    "rowNum": 5,
+    "company": "Regal Healthcare Capital Partners",
+    "website": "https://www.regalhcp.com",
+    "contact": "David Kim, MD, MBA",
+    "title": "Co-Founder & General Partner",
+    "email": "davidkim@regalhcp.com",
+    "status": "RocketReach pattern d******@regalhcp.com (web research). Enriched 2026-03-07",
+    "reason": [
+      "Status shows inferred/pattern"
+    ]
+  },
+  {
+    "rowNum": 10,
+    "company": "Alvarez & Marsal Capital",
+    "website": "https://www.a-mcapital.com",
+    "contact": "Ryan McCarthy",
+    "title": "Partner",
+    "email": "rmccarthy@a-mcapital.com",
+    "status": "Enriched",
+    "reason": [
+      "Notes mention pattern/inferred"
+    ]
+  },
+  {
+    "rowNum": 12,
+    "company": "Casa Verde Capital",
+    "website": "https://casaverdecapital.com",
+    "contact": "Bret Wiener",
+    "title": "CEO & Founder",
+    "email": "bwiener@gemspring.com",
+    "status": "Enriched",
+    "reason": [
+      "Notes mention pattern/inferred"
+    ]
+  },
+  {
+    "rowNum": 15,
+    "company": "JLL Partners",
+    "website": "https://www.jllpartners.com",
+    "contact": "Kevin Hammond",
+    "title": "Managing Partner",
+    "email": "k.hammond@jllpartners.com",
+    "status": "Enriched",
+    "reason": []
+  },
+  {
+    "rowNum": 16,
+    "company": "Greater Sum Ventures",
+    "website": "https://www.greatersumventures.com",
+    "contact": "Lisa Stinnett",
+    "title": "Managing Partner",
+    "email": "lstinnett@greatersumventures.com",
+    "status": "Enriched",
+    "reason": []
+  },
+  {
+    "rowNum": 18,
+    "company": "Gryphon Investors",
+    "website": "https://www.gryphon-inv.com",
+    "contact": "R. David Andrews",
+    "title": "Founder & Co-CEO",
+    "email": "andrews@gryphoninvestors.com",
+    "status": "Enriched",
+    "reason": []
+  },
+  {
+    "rowNum": 20,
+    "company": "Charlesbank Capital Partners",
+    "website": "https://notebooklm.google.com/notebook/b891ee0f-4c85-4f53-a328-dd12734a9d13",
+    "contact": "Brandon White",
+    "title": "Managing Director & Co-Head, Flagship",
+    "email": "bwhite@charlesbank.com",
+    "status": "ZoomInfo pattern b***@charlesbank.com (web research). Enriched 2026-03-07",
+    "reason": [
+      "Status shows inferred/pattern"
+    ]
+  },
+  {
+    "rowNum": 25,
+    "company": "Huron Capital",
+    "website": "https://www.huroncapital.com",
+    "contact": "Jim Mahoney",
+    "title": "Managing Partner",
+    "email": "jmahoney@huroncapital.com",
+    "status": "Enriched",
+    "reason": [
+      "Notes mention pattern/inferred"
+    ]
+  },
+  {
+    "rowNum": 29,
+    "company": "Compass Group Equity Partners",
+    "website": "https://www.cgep.com",
+    "contact": "Justin Green",
+    "title": "Co-Head of Funds & Head of Consumer",
+    "email": "jgreen@palladiumequity.com",
+    "status": "Enriched - Updated 2026-03-12",
+    "reason": []
+  },
+  {
+    "rowNum": 31,
+    "company": "Abry Partners",
+    "website": "Jeff White",
+    "contact": "jwhite@skyviewcapital.com",
+    "title": "Managing Director, Business Development",
+    "email": "jgrossman@abry.com",
+    "status": "Enriched",
+    "reason": [
+      "Notes mention pattern/inferred"
+    ]
+  },
+  {
+    "rowNum": 35,
+    "company": "Lee Equity Partners",
+    "website": "https://www.leeequity.com",
+    "contact": "dmalm@websterequitypartners.com",
+    "title": "Partner",
+    "email": "mgormley@leeequity.com",
+    "status": "Enriched - Updated 2026-03-12",
+    "reason": []
+  },
+  {
+    "rowNum": 39,
+    "company": "Ampersand Capital Partners",
+    "website": "https://www.ampersandcapital.com",
+    "contact": "Herbert Hooper",
+    "title": "Managing General Partner",
+    "email": "hhooper@ampersandcapital.com",
+    "status": "Enriched - Updated 2026-03-12",
+    "reason": []
+  },
+  {
+    "rowNum": 48,
+    "company": "Riverside Partners",
+    "website": "https://riversidepartners.com",
+    "contact": "Maxwell Zalev",
+    "title": "Chairman & CEO",
+    "email": "mzalev@riversidepartners.com",
+    "status": "Boston-based PE, tech & healthcare focus. 30+ years experience. Email pattern m******@riversidepartners.com from RocketReach. | Source: RocketReach email pattern 2026-03-12",
+    "reason": [
+      "Status shows inferred/pattern"
+    ]
+  }
+]

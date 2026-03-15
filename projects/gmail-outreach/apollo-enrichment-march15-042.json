@@ -1,0 +1,258 @@
+[
+  {
+    "rowIndex": 7,
+    "firm": "SDC Capital Partners",
+    "title": "Chief Financial Officer",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "Chief Financial Officer and Chief Compliance Officer",
+        "verified": false
+      },
+      {
+        "title": "Managing Director, Operations & Finance",
+        "verified": false
+      },
+      {
+        "title": "Principal",
+        "verified": false
+      },
+      {
+        "title": "Principal",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 10,
+    "firm": "Alvarez & Marsal Capital",
+    "title": "Chief Financial Officer",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "Partner, Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 11,
+    "firm": "Blue Star Innovation Partners",
+    "title": "COO & Partner",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "COO & Partner",
+        "verified": false
+      },
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Principal",
+        "verified": false
+      },
+      {
+        "title": "Partner",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 12,
+    "firm": "Casa Verde Capital",
+    "title": "Managing Partner",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Managing Partner",
+        "verified": false
+      },
+      {
+        "title": "Vice President",
+        "verified": false
+      },
+      {
+        "title": "VP of Finance at Casa Verde Capital",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 13,
+    "firm": "Cornell Capital",
+    "title": "Chief Operating Officer",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Chief Operating Officer",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Principal",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 19,
+    "firm": "Palladium Equity Partners",
+    "contactName": "Erick Bronner",
+    "title": "",
+    "email": "ebronner@palladiumequity.com",
+    "linkedin": "",
+    "emailStatus": "not_found",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: No contacts found",
+    "allContacts": []
+  },
+  {
+    "rowIndex": 23,
+    "firm": "HGGC",
+    "title": "Chief Financial Officer",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "CEO",
+        "verified": false
+      },
+      {
+        "title": "Chief Executive Officer & Co-Founder",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      },
+      {
+        "title": "Managing Partner and President",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 27,
+    "firm": "Roark Capital Group",
+    "title": "Chief Financial Officer",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "Vice President Operations",
+        "verified": false
+      },
+      {
+        "title": "Vice President - Operations",
+        "verified": false
+      },
+      {
+        "title": "Managing Director",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 28,
+    "firm": "Seidler Equity Partners",
+    "title": "Chief Financial Officer",
+    "linkedin": "",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: undefined",
+    "allContacts": [
+      {
+        "title": "Chief Financial Officer",
+        "verified": false
+      },
+      {
+        "title": "Principal",
+        "verified": false
+      },
+      {
+        "title": "Partner",
+        "verified": false
+      },
+      {
+        "title": "Partner",
+        "verified": false
+      },
+      {
+        "title": "Partner",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "rowIndex": 32,
+    "firm": "Parthenon Capital Partners",
+    "contactName": "Brian Golson",
+    "title": "",
+    "email": "bgolson@parthenoncapital.com",
+    "linkedin": "",
+    "emailStatus": "not_found",
+    "verified": false,
+    "notes": "Apollo API 2026-03-15: No contacts found",
+    "allContacts": []
+  }
+]

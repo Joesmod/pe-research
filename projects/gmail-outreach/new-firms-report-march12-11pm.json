@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-03-13T04:11:02.042Z",
+  "firms_attempted": 4,
+  "firms_added": 0,
+  "firms_failed": 4,
+  "added": [],
+  "failed": [
+    {
+      "name": "HGGC",
+      "website": "https://www.hggc.com",
+      "sector": "Business Services, Technology, Healthcare Services",
+      "notes": "~$7B AUM, mid-market PE firm",
+      "error": "Not found in Apollo"
+    },
+    {
+      "name": "Svoboda Capital",
+      "website": "https://svoco.com",
+      "sector": "Business Services, Professional Services, Transportation & Logistics",
+      "notes": "Chicago-based, middle market growth companies",
+      "error": "Not found in Apollo"
+    },
+    {
+      "name": "WILsquare Capital",
+      "website": "https://www.wilsquare.com",
+      "sector": "Business Services, Niche Manufacturing, Distribution",
+      "notes": "St. Louis-based, lower-middle market, Midwest/Southern U.S. focus",
+      "error": "Not found in Apollo"
+    },
+    {
+      "name": "Abry Partners",
+      "website": "https://abry.com",
+      "sector": "Communications, Media, Information, Business Services",
+      "notes": "Middle market, experienced firm",
+      "error": "Not found in Apollo"
+    }
+  ]
+}

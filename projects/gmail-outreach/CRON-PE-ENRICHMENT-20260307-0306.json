@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-03-07T09:08:41.155Z",
+  "totalNeeds": 62,
+  "processed": 15,
+  "enriched": 0,
+  "failed": 15,
+  "results": [],
+  "failedList": [
+    {
+      "company": "Pzena Investment Management",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Riviera Partners",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Roebling Capital Partners",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "RRML Capital Resources",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Sculptor Capital Management",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Silver Oak Services Partners",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "STORY3 Capital Partners",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Strategic Value Partners",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Tennenbaum Capital Partners, LLC",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Thrive Capital",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "TimesSquare Capital Management, LLC",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Trian Fund Management, L.P.",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "Trinity Capital",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "TriplePoint Capital",
+      "reason": "No contacts found"
+    },
+    {
+      "company": "UNC Kenan-Flagler Private Equity Fund",
+      "reason": "No contacts found"
+    }
+  ]
+}

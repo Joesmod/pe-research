@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-03-07T10:36:00.000Z",
+  "runTime": "Saturday, March 7th, 2026 — 4:36 AM (America/Chicago)",
+  "duration": "~60 minutes",
+  "status": "LIMITED_SUCCESS",
+  "totalNeedsEnrichment": 56,
+  "processedThisRun": 10,
+  "enrichedWithEmails": 0,
+  "apolloApiStatus": "FAILED_422_ERRORS",
+  "manualResearchResults": {
+    "firmsResearched": 10,
+    "decisionMakersIdentified": 10,
+    "publishedEmailsFound": 0,
+    "genericEmailsFound": 10
+  },
+  "findings": {
+    "riverwood_capital": {
+      "website": "riverwoodcapital.com",
+      "genericEmails": ["info@rwcm.com", "press@rwcm.com", "cco@rwcm.com"],
+      "publishedDirectEmails": "NONE"
+    },
+    "tennenbaum_capital": {
+      "website": "tennenbaumcapital.com",
+      "keyPeople": [
+        "Howard Levkowitz - Co-founder & Managing Partner",
+        "Michael Tennenbaum - Co-founder & Senior Managing Partner Emeritus",
+        "Philip Tseng - Managing Partner",
+        "Michael Leitner - Managing Partner"
+      ],
+      "publishedDirectEmails": "NONE"
+    },
+    "thrive_capital": {
+      "website": "thrivecap.com",
+      "keyPeople": ["Joshua Kushner - Founder & Managing Partner"],
+      "thirdPartyData": "Obfuscated emails on RocketReach/Adapt.io (NOT official sources)",
+      "publishedDirectEmails": "NONE"
+    },
+    "trinity_capital": {
+      "website": "trinitycapital.com",
+      "keyPeople": [
+        "Ben Malcolmson - Head of Investor Relations",
+        "Lauren Cosentino - Business Development",
+        "Cory Cramer - Business Development"
+      ],
+      "publishedDirectEmails": "NONE"
+    }
+  },
+  "coreChallenge": "Mid-market PE firms do not publish individual partner emails on official sources",
+  "recommendations": [
+    "Consider LinkedIn Sales Navigator subscription (~$80/month)",
+    "Purchase Apollo email enrichment credits (~$99/month)",
+    "Try Hunter.io API for email finding (~$49/month)",
+    "Pivot to LinkedIn InMail outreach",
+    "Accept generic email (info@) outreach with strong personalization",
+    "Segment firms by email accessibility tier",
+    "Focus on firms that DO publish emails (like Mercury Fund)",
+    "Clean placeholder data (Jacob Zodikoff appears 40+ times)",
+    "Search conference speaker bios for published emails"
+  ],
+  "sheetUpdates": 0,
+  "filesCreated": [
+    "CRON-COMPLETION-MARCH7-436AM.md",
+    "CRON-PE-ENRICHMENT-20260307-0436.json"
+  ],
+  "githubStatus": "NO_COMMITS",
+  "nextAction": "RECOMMEND_STRATEGY_PIVOT"
+}

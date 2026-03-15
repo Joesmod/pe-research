@@ -1,0 +1,57 @@
+[
+  {
+    "row": 2,
+    "company": "Audax Private Equity",
+    "website": "https://www.audaxprivateequity.com",
+    "contact": "David Santoni",
+    "title": "Managing Director, Head of Business Development",
+    "email": "dsantoni@audaxprivateequity.com",
+    "linkedin": "https://www.linkedin.com/in/dsantoni/",
+    "source": "RocketReach email pattern d******@audaxprivateequity.com; verified title from LinkedIn. MD focused on business development.",
+    "notes": "Pattern [first_initial][last]@audaxprivateequity.com (48.9% confidence per RocketReach). Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 18,
+    "company": "Gryphon Investors",
+    "website": "https://www.gryphon-inv.com",
+    "contact": "Nicholas Orum",
+    "title": "Co-CEO & Co-CIO",
+    "email": "norum@gryphoninvestors.com",
+    "linkedin": "https://www.gryphon-inv.com/team/nick-orum/",
+    "source": "Email domain @gryphoninvestors.com confirmed by Datanyze; pattern [first_initial][last]. Co-founder (1995), top decision-maker.",
+    "notes": "Alt contact: R. David Andrews (Co-CEO, randrews@gryphoninvestors.com likely). Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 222,
+    "company": "Accel-KKR",
+    "website": "https://www.accel-kkr.com",
+    "contact": "Tom Barnds",
+    "title": "Co-Managing Partner",
+    "email": "tbarnds@accel-kkr.com",
+    "linkedin": "https://www.linkedin.com/in/tom-barnds-6083525/",
+    "source": "RocketReach email pattern t******@accel-kkr.com; verified title from accel-kkr.com/team. Co-Managing Partner (Founding Partner).",
+    "notes": "Alt: Rob Palumbo (Co-Managing Partner, rpalumbo@accel-kkr.com likely). Pattern [first_initial][last]@ (48.9%). Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 545,
+    "company": "Sydecar",
+    "website": "http://www.sydecar.io",
+    "contact": "Nik Talreja",
+    "title": "Co-Founder & CEO",
+    "email": "nik@sydecar.io",
+    "linkedin": "https://www.linkedin.com/in/niktalreja/",
+    "source": "RocketReach & GrowJo show n******@sydecar.io. Likely nik@ given founder status. CEO of SPV/fund admin platform.",
+    "notes": "Founded 2021, Inc. 5000 fastest-growing. Alt pattern: ntalreja@sydecar.io. Enriched 2026-03-14 cron."
+  },
+  {
+    "row": 546,
+    "company": "Top Tier Capital Partners",
+    "website": "http://www.ttcp.com",
+    "contact": "David York",
+    "title": "Chairman, Founder & Managing Director",
+    "email": "dyork@ttcp.com",
+    "linkedin": "https://www.ttcp.com/team",
+    "source": "Email pattern [first_initial][last]@ttcp.com confirmed by RocketReach (100%). Also: kberry@ttcp.com published on SignalHire.",
+    "notes": "VC fund-of-funds, LP investing. SF-based. Enriched 2026-03-14 cron."
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-03-09T13:39:31.320Z",
+  "status": "pending_write",
+  "note": "Found contacts but hit Google Sheets rate limit. Update manually or wait 1 hour for quota reset.",
+  "contacts": [
+    {
+      "company": "Tenex Capital Management",
+      "name": "Michael Green",
+      "title": "CEO",
+      "source": "Apollo"
+    },
+    {
+      "company": "Behrman Capital",
+      "name": "Kern Vijayvargiya",
+      "title": "Vice President",
+      "source": "Apollo"
+    },
+    {
+      "company": "Oak Investment Partners",
+      "name": "Grace Ames",
+      "title": "COO & CFO",
+      "source": "Apollo"
+    },
+    {
+      "company": "MSD Partners",
+      "name": "Bong Shinn",
+      "title": "Partner & Chief Technology Officer",
+      "email": "bshinn@bdtmsd.com",
+      "source": "Apollo"
+    },
+    {
+      "company": "RoundTable Healthcare Partners",
+      "name": "James Dorman",
+      "title": "Vice President",
+      "source": "Apollo"
+    },
+    {
+      "company": "Harkness Capital Partners",
+      "name": "Christina Christopoulos",
+      "title": "Vice President",
+      "source": "Apollo"
+    },
+    {
+      "company": "Ronin Equity Partners",
+      "name": "Jack Burke",
+      "title": "Principal",
+      "source": "Apollo"
+    },
+    {
+      "company": "Station Partners",
+      "name": "William Gadsden",
+      "title": "Partner and Chief Operating Officer",
+      "source": "Apollo"
+    },
+    {
+      "company": "Sentinel Capital Partners",
+      "name": "Michael Griffin",
+      "title": "Vice President",
+      "source": "Apollo"
+    },
+    {
+      "company": "Banneker Partners",
+      "name": "Justin Goschie",
+      "title": "Vice President",
+      "source": "Apollo"
+    }
+  ]
+}

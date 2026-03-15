@@ -1,0 +1,252 @@
+[
+  {
+    "company": "Frontenac Company",
+    "gumboScore": 325,
+    "name": "Ron Kuehl",
+    "title": "",
+    "email": "rkuehl@frontenac.com",
+    "verification": "needs_verification",
+    "linkedin": "",
+    "bio": "frontenac.com/team loads partially. JS-rendered content. Chicago-based firm. NEEDS browser-based scraping or Apollo enrichment. Feb 2026."
+  },
+  {
+    "company": "WindPoint Partners",
+    "gumboScore": 221,
+    "name": "Nathan Brown",
+    "title": "Managing Director",
+    "email": "nbrown@wppartners.com",
+    "verification": "Researched",
+    "linkedin": "https://www.linkedin.com/in/nathan-brown-82bb71169/",
+    "bio": "SOURCE: RocketReach verified. Joined Wind Point 1997. Sits on multiple boards: Central Moloney, Envera Systems, MOREgroup, Nelson Global, Pavion, Vertex, Voyant Beauty."
+  },
+  {
+    "company": "Centerfield Capital Partners",
+    "gumboScore": 218,
+    "name": "Troy Clark",
+    "title": "Partner",
+    "email": "troy@centerfieldcapital.com",
+    "verification": "verified",
+    "linkedin": "http://www.linkedin.com/in/troy-clark-b29a2691",
+    "bio": "No public data found"
+  },
+  {
+    "company": "Midwest Growth Partners",
+    "gumboScore": 205,
+    "name": "Zane Hendricks",
+    "title": "Managing Director",
+    "email": "zane.hendricks@mgpfund.com",
+    "verification": "verified",
+    "linkedin": "http://www.linkedin.com/in/zane-hendricks",
+    "bio": "No public data found"
+  },
+  {
+    "company": "Ascend Partners",
+    "gumboScore": 204,
+    "name": "Richard Park",
+    "title": "Partner",
+    "email": "richard@ascendpartners.com",
+    "verification": "verified",
+    "linkedin": "http://www.linkedin.com/in/richard-park-md-2a380a16",
+    "bio": ""
+  },
+  {
+    "company": "Kainos Capital",
+    "gumboScore": 203,
+    "name": "Doug Reader",
+    "title": "Senior Managing Director",
+    "email": "dreader@kainoscapital.com",
+    "verification": "verified",
+    "linkedin": "http://www.linkedin.com/in/doug-reader-40ba733",
+    "bio": ""
+  },
+  {
+    "company": "Brentwood Associates",
+    "gumboScore": 202,
+    "name": "Ryan Foltz",
+    "title": "Managing Director",
+    "email": "rfoltz@brentwood.com",
+    "verification": "verified",
+    "linkedin": "http://www.linkedin.com/in/ryan-foltz-4884a29",
+    "bio": ""
+  },
+  {
+    "company": "Resurgens Technology Partners",
+    "gumboScore": 201,
+    "name": "Fred Sturgis",
+    "title": "Managing Director",
+    "email": "fred@resurgenstech.com",
+    "verification": "verified",
+    "linkedin": "http://www.linkedin.com/in/fred-sturgis-548124",
+    "bio": ""
+  },
+  {
+    "company": "Thomas H. Lee Partners",
+    "gumboScore": 162,
+    "name": "Jim Carlisle",
+    "title": "Managing Director, Head of Technology & Business Solutions",
+    "email": "jcarlisle@thl.com",
+    "verification": "Researched",
+    "linkedin": "https://www.linkedin.com/in/jim-carlisle-282a9a31/",
+    "bio": "SOURCE: ContactOut verified email. MD and Head of Tech vertical, Automation Fund lead. Named to GrowthCap Top 25 Software Investors 2024."
+  },
+  {
+    "company": "Thoma Bravo",
+    "gumboScore": 155,
+    "name": "Max Werner",
+    "title": "AVP, Assistant Controller",
+    "email": "mwerner@thomabravo.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/maxwerner1",
+    "bio": ""
+  },
+  {
+    "company": "Warburg Pincus",
+    "gumboScore": 154,
+    "name": "Issam Abedin",
+    "title": "Managing Director",
+    "email": "issam.abedin@warburgpincus.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/issam-abedin-364b0344",
+    "bio": ""
+  },
+  {
+    "company": "Searchlight Capital Partners",
+    "gumboScore": 150,
+    "name": "Michele Scheggia",
+    "title": "Managing Director",
+    "email": "mscheggia@searchlightcap.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/michele-scheggia-a9056557",
+    "bio": ""
+  },
+  {
+    "company": "H.I.G. Capital",
+    "gumboScore": 149,
+    "name": "Rodrigo Azevedo",
+    "title": "Principal",
+    "email": "razevedo@hig.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/rodrigo-azevedo-b097a42b",
+    "bio": ""
+  },
+  {
+    "company": "Highlander Partners",
+    "gumboScore": 145,
+    "name": "Cory Thomas",
+    "title": "Managing Director",
+    "email": "cthomas@highlander-partners.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/davidlolsen",
+    "bio": ""
+  },
+  {
+    "company": "Blue Wolf Capital Partners",
+    "gumboScore": 144,
+    "name": "Chris Thomas",
+    "title": "Operating Partner",
+    "email": "cthomas@bluewolfcapital.com",
+    "verification": "Researched",
+    "linkedin": "https://www.bluewolfcapital.com/team/chris-thomas/",
+    "bio": "SOURCE: Company site + email pattern (Kate Spaziani: k******@bluewolfcapital.com). 25+ years in Building Products, financial/operational management focus."
+  },
+  {
+    "company": "Topspin Partners",
+    "gumboScore": 140,
+    "name": "Leo Guthart",
+    "title": "Managing Partner",
+    "email": "lguthart@topspinpartners.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/leo-guthart-91a42716",
+    "bio": ""
+  },
+  {
+    "company": "Leeds Equity Partners",
+    "gumboScore": 136,
+    "name": "Eric Geveda",
+    "title": "Managing Director",
+    "email": "eric.geveda@leedsequity.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/eric-geveda-5587854",
+    "bio": ""
+  },
+  {
+    "company": "Stellex Capital Management",
+    "gumboScore": 132,
+    "name": "Olivia Zhao",
+    "title": "Managing Director",
+    "email": "ozhao@stellexcapital.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/olivia-zhao-71814a66",
+    "bio": ""
+  },
+  {
+    "company": "Kinderhook Industries",
+    "gumboScore": 129,
+    "name": "Paul Cifelli",
+    "title": "Managing Director",
+    "email": "pcifelli@kinderhook.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/paul-cifelli-4a51258",
+    "bio": ""
+  },
+  {
+    "company": "Vector Capital",
+    "gumboScore": 127,
+    "name": "David Baylor",
+    "title": "Chief Operating Officer",
+    "email": "dbaylor@vectorcapital.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/david-baylor-a70a90198",
+    "bio": ""
+  },
+  {
+    "company": "Tonka Bay Equity Partners",
+    "gumboScore": 124,
+    "name": "Kam Kielhorn",
+    "title": "Partner",
+    "email": "kkielhorn@tonkabayequity.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/kam-kielhorn-12bb0b33",
+    "bio": ""
+  },
+  {
+    "company": "CM Equity Partners",
+    "gumboScore": 120,
+    "name": "Daniel Wilson",
+    "title": "Private Equity",
+    "email": "dwilson@soundgrowthpartners.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/wilsondanielp",
+    "bio": ""
+  },
+  {
+    "company": "Sun Capital Partners",
+    "gumboScore": 111,
+    "name": "Matthew Garff",
+    "title": "Senior Managing Director & Partner",
+    "email": "mgarff@suncappart.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/matthew-garff-a2b254b",
+    "bio": ""
+  },
+  {
+    "company": "Prospect Partners",
+    "gumboScore": 106,
+    "name": "Erik Maurer",
+    "title": "Partner",
+    "email": "emaurer@prospect-partners.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/erikmaurer",
+    "bio": ""
+  },
+  {
+    "company": "Stellus Capital Management",
+    "gumboScore": 103,
+    "name": "Victoria Garcia",
+    "title": "Managing Director",
+    "email": "vgarcia@stelluscapital.com",
+    "verification": "New",
+    "linkedin": "http://www.linkedin.com/in/victoria-garcia-51a5075",
+    "bio": ""
+  }
+]

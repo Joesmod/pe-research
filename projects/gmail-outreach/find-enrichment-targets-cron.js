@@ -1,52 +1,103 @@
-const fs = require('fs');
-const data = JSON.parse(fs.readFileSync('current-sheet-data.json', 'utf8'));
+const { google } = require('googleapis');
 
-const genericEmailPatterns = /^(info@|contact@|sales@|ir@|admin@|support@)/i;
-
-// Skip header
-const rows = data.slice(1);
-
-const needsEnrichment = rows.map((row, idx) => {
-  const rowNum = idx + 2; // +2 because: +1 for header, +1 for 1-indexed
-  const [company, notebookLM, contactName, title, email, website, linkedin, sector, portfolio, status, lastContacted, notes, companyInfo] = row;
+async function findTargets() {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+  });
   
-  // Needs enrichment if:
-  // 1. Missing contact name
-  // 2. Missing email
-  // 3. Generic email pattern
-  // 4. Status is not "Contacted" or "Enriched"
+  const sheets = google.sheets({ version: 'v4', auth });
+  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
-  const missingContact = !contactName || contactName.trim() === '';
-  const missingEmail = !email || email.trim() === '';
-  const hasGenericEmail = email && genericEmailPatterns.test(email);
-  const notEnriched = status !== 'Enriched' && status !== 'Contacted';
+  const response = await sheets.spreadsheets.values.get({
+    spreadsheetId,
+    range: 'Sheet1!A1:P500'
+  });
   
-  if ((missingContact || missingEmail || hasGenericEmail) && company) {
-    return {
-      rowNum,
-      company,
-      website,
-      contactName: contactName || '',
-      email: email || '',
-      status: status || '',
-      reason: missingContact ? 'Missing contact name' : 
-              missingEmail ? 'Missing email' : 
-              hasGenericEmail ? 'Generic email' : 'Other',
-      linkedin,
-      notebookLM
-    };
+  const rows = response.data.values;
+  if (!rows || rows.length === 0) {
+    console.log('No data found');
+    return;
   }
-  return null;
-}).filter(x => x !== null);
+  
+  const headers = rows[0];
+  const companyIdx = 0; // Column A
+  const contactIdx = 2;  // Column C
+  const titleIdx = 3;    // Column D
+  const emailIdx = 4;    // Column E
+  const websiteIdx = 5;  // Column F
+  const statusIdx = 9;   // Column J
+  const notesIdx = 11;   // Column L
+  
+  const targets = [];
+  
+  for (let i = 1; i < rows.length; i++) {
+    const row = rows[i];
+    const company = row[companyIdx] || '';
+    const contact = row[contactIdx] || '';
+    const title = row[titleIdx] || '';
+    const email = row[emailIdx] || '';
+    const website = row[websiteIdx] || '';
+    const status = row[statusIdx] || '';
+    const notes = row[notesIdx] || '';
+    
+    // Skip dead/inactive firms
+    if (status.toLowerCase().includes('dead') || 
+        status.toLowerCase().includes('inactive') ||
+        status.toLowerCase().includes('merged') ||
+        status.toLowerCase().includes('acquired')) {
+      continue;
+    }
+    
+    // Check if needs enrichment
+    const noContact = !contact || contact.trim() === '';
+    const noEmail = !email || email.trim() === '';
+    const genericEmail = email && (
+      email.toLowerCase().includes('info@') || 
+      email.toLowerCase().includes('sales@') ||
+      email.toLowerCase().includes('ir@') ||
+      email.toLowerCase().includes('contact@') ||
+      email.toLowerCase().includes('investor')
+    );
+    
+    // Email doesn't have @ = data misalignment
+    const badEmail = email && !email.includes('@') && email.length > 5;
+    
+    if ((noContact || noEmail || genericEmail || badEmail) && company) {
+      targets.push({
+        row: i + 1,
+        company,
+        contact,
+        title,
+        email,
+        website,
+        status,
+        notes,
+        reason: noContact ? 'No contact name' : 
+                noEmail ? 'No email' : 
+                genericEmail ? 'Generic email' : 
+                badEmail ? 'Data misalignment' : 'Unknown'
+      });
+    }
+    
+    if (targets.length >= 15) break;
+  }
+  
+  console.log(`\n=== ENRICHMENT TARGETS (${targets.length} firms) ===\n`);
+  targets.forEach(t => {
+    console.log(`Row ${t.row}: ${t.company}`);
+    console.log(`  Contact: "${t.contact}" ${!t.contact ? '❌' : '✓'}`);
+    console.log(`  Email: "${t.email}" ${!t.email || t.email.includes('info@') || !t.email.includes('@') ? '❌' : '✓'}`);
+    console.log(`  Website: ${t.website || 'N/A'}`);
+    console.log(`  Status: ${t.status || 'N/A'}`);
+    console.log(`  Reason: ${t.reason}`);
+    console.log('');
+  });
+  
+  // Save to JSON
+  const fs = require('fs');
+  fs.writeFileSync('enrichment-targets-march10-0236am.json', JSON.stringify(targets, null, 2));
+  console.log(`Saved ${targets.length} targets to enrichment-targets-march10-0236am.json`);
+}
 
-console.log(`Total rows needing enrichment: ${needsEnrichment.length}`);
-console.log(`\nFirst 20 targets:`);
-needsEnrichment.slice(0, 20).forEach(target => {
-  console.log(`\nRow ${target.rowNum}: ${target.company}`);
-  console.log(`  Current: ${target.contactName || '(no name)'} - ${target.email || '(no email)'}`);
-  console.log(`  Reason: ${target.reason}`);
-  console.log(`  Website: ${target.website || '(none)'}`);
-});
-
-fs.writeFileSync('enrichment-targets-march4-7am.json', JSON.stringify(needsEnrichment, null, 2));
-console.log(`\nSaved ${needsEnrichment.length} targets to enrichment-targets-march4-7am.json`);
+findTargets().catch(console.error);

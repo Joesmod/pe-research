@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-03-13T09:38:54.702Z",
+  "enriched": 0,
+  "failed": 14,
+  "details": {
+    "successes": [],
+    "failures": [
+      {
+        "rowNum": 14,
+        "company": "ShoreView Industries",
+        "contact": "Thomas D'Ovidio",
+        "email": "info@shoreview.com",
+        "status": "Partially Enriched",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 129,
+        "company": "Pharos Capital Group",
+        "contact": "Kneeland Youngblood",
+        "email": "info@pharosfunds.com",
+        "status": "Partially Enriched",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 630,
+        "company": "Kinect Capital",
+        "contact": "Danielle undefined",
+        "email": "",
+        "status": "Dead - Not PE Firm",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 763,
+        "company": "Mercury Fund",
+        "contact": "Blair Garrou",
+        "email": "blair@mercuryfund.com",
+        "status": "Enriched",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 801,
+        "company": "Tennenbaum Capital Partners, LLC",
+        "contact": "Jacob Zodikoff",
+        "email": "",
+        "status": "Dead - Not PE/VC firm",
+        "issue": "Generic/missing email",
+        "reason": "No contacts found"
+      },
+      {
+        "rowNum": 808,
+        "company": "UNC Kenan-Flagler Private Equity Fund",
+        "contact": "Jacob Zodikoff",
+        "email": "",
+        "status": "Dead - Student-run PE fund, team rotates annually, not suitable for outreach",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 909,
+        "company": "Backstroke",
+        "contact": "Jacob Zodikoff",
+        "email": "",
+        "status": "Dead - Not PE/VC",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 910,
+        "company": "Satso",
+        "contact": "Jacob Zodikoff",
+        "email": "",
+        "status": "Dead - Not PE/VC",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 1061,
+        "company": "Rehab Medical",
+        "contact": "Kevin Gearheart",
+        "email": "",
+        "status": "Dead - Not Investment Firm",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 1064,
+        "company": "The Riverside Company",
+        "contact": "Stewart Kohl",
+        "email": "",
+        "status": "Enriched - Needs Manual Verification",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 1066,
+        "company": "Genstar Capital",
+        "contact": "J. Ryan Clark",
+        "email": "",
+        "status": "Enriched - Needs Manual Verification",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 1067,
+        "company": "Trivest Partners",
+        "contact": "Chris Weldon",
+        "email": "",
+        "status": "Enriched - Needs Email Verification",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 1068,
+        "company": "Excellere Partners",
+        "contact": "Brad Cornell",
+        "email": "",
+        "status": "Enriched - Needs Email Verification",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      },
+      {
+        "rowNum": 1069,
+        "company": "Boathouse Capital",
+        "contact": "Bill Dyer",
+        "email": "",
+        "status": "Enriched - Needs Email Verification",
+        "issue": "Generic/missing email",
+        "reason": "No verified email"
+      }
+    ]
+  }
+}

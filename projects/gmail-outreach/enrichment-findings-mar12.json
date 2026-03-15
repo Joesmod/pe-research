@@ -1,0 +1,48 @@
+{
+  "enrichment_run": "2026-03-12_02:07AM",
+  "verified_contacts": [
+    {
+      "row": 49,
+      "company": "Apax Partners",
+      "contact_name": "Seth Brody",
+      "title": "Partner, Global Head of Operational Excellence",
+      "linkedin_url": "https://www.linkedin.com/in/seth-brody-6721511/",
+      "team_page": "https://www.apax.com/people/our-team/seth-brody/",
+      "email_status": "Not published - needs Apollo/pattern verification",
+      "notes": "Joined 2008, based in New York. Verified from official team page."
+    },
+    {
+      "row": 728,
+      "company": "Pritzker Group Private Capital",
+      "contact_name": "Ryan Roberts",
+      "title": "Investment Partner, Co-Head Services Team",
+      "source_url": "https://www.pehub.com/2017/01/roberts-joins/",
+      "email_status": "Not published - needs Apollo/pattern verification",
+      "notes": "Previously Madison Dearborn Partners. Harvard MBA, Princeton BA Economics."
+    },
+    {
+      "row": 728,
+      "company": "Pritzker Group Private Capital",
+      "contact_name": "Paul Carbone",
+      "title": "Managing Partner",
+      "source_url": "https://www.pehub.com/2017/01/roberts-joins/",
+      "email_status": "Not published - needs Apollo/pattern verification",
+      "notes": "Quoted in press releases. Senior leadership."
+    },
+    {
+      "row": 699,
+      "company": "Kayne Partners",
+      "contact_name": "Leon Chen",
+      "title": "Managing Partner, Growth Equity",
+      "team_page": "https://kaynecapital.com/people/leon-chen/",
+      "email_status": "Not published - needs Apollo/pattern verification",
+      "notes": "Joined 2012, promoted to Managing Partner. GrowthCap Award winner."
+    }
+  ],
+  "strategy_notes": [
+    "PE firms rarely publish direct employee emails due to security/spam concerns",
+    "Verified contacts from official team pages, press releases, and SEC filings",
+    "Next step: Use Apollo API for email enrichment with verified names/titles",
+    "Alternative: Check for email patterns from press contacts or IR pages"
+  ]
+}

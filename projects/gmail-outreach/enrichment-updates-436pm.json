@@ -1,0 +1,50 @@
+[
+  {
+    "rowIndex": 7,
+    "company": "SDC Capital Partners",
+    "updates": {
+      "contactName": "Todd Aaron",
+      "title": "Founder and Managing Partner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/company/sdc-capital-partners",
+      "status": "Needs Apollo Enrichment",
+      "notes": "Verified via official team page (sdccapitalpartners.com/team/). Todd Aaron is Founder & Managing Partner. Original contact 'Abdul R. Hussein' not found on current team. Research date: 2026-03-06"
+    },
+    "source": "Official website team page",
+    "verified": true
+  },
+  {
+    "rowIndex": 8,
+    "company": "Rockbridge Growth Equity, LLC",
+    "updates": {
+      "contactName": "Kevin Prokop",
+      "title": "Managing Partner & Co-Founder",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/kevin-prokop",
+      "status": "Needs Apollo Enrichment",
+      "notes": "Verified via official team page (rbequity.com/team-member/kevin-prokop/). Kevin Prokop is Managing Partner & Co-Founder (along with Brian Hermelin). Original contact 'Joshua Liebow' not affiliated with firm (works at Manulife IM). Research date: 2026-03-06"
+    },
+    "source": "Official website team page",
+    "verified": true,
+    "alternativeContact": {
+      "name": "Brian Hermelin",
+      "title": "Managing Partner & Co-Founder",
+      "linkedin": "https://www.linkedin.com/in/brian-hermelin-6518b86/",
+      "note": "Co-founder, equally suitable contact"
+    }
+  },
+  {
+    "rowIndex": 12,
+    "company": "Casa Verde Capital",
+    "updates": {
+      "contactName": "Karan Wadhera",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/karan-wadhera/",
+      "status": "Needs Apollo Enrichment",
+      "notes": "Verified via official team page (casaverdecapital.com/team/). Title correction: Managing Partner (not Founder & CEO as listed in sheet). Research date: 2026-03-06"
+    },
+    "source": "Official website team page",
+    "verified": true
+  }
+]

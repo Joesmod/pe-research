@@ -1,0 +1,86 @@
+[
+  {
+    "row": 176,
+    "company": "Hg Capital",
+    "contact": "Connor Da***g",
+    "title": "Vice President",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "N/A",
+    "status": "Enriched",
+    "priority": "HIGH",
+    "issues": [
+      "Empty email"
+    ]
+  },
+  {
+    "row": 234,
+    "company": "The Jordan Company (TJC)",
+    "contact": "General Inquiry",
+    "title": "N/A",
+    "email": "N/A",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/company/the-jordan-company",
+    "status": "Needs Manual Research",
+    "priority": "HIGH",
+    "issues": [
+      "Invalid email"
+    ]
+  },
+  {
+    "row": 285,
+    "company": "Sentinel Capital Partners",
+    "contact": "Managing Director",
+    "title": "knise@sentinelpartners.com",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "https://www.sentinelpartners.com/team/",
+    "status": "Enriched",
+    "priority": "HIGH",
+    "issues": [
+      "Empty email"
+    ]
+  },
+  {
+    "row": 305,
+    "company": "Bertram Capital",
+    "contact": "Managing Director",
+    "title": "jeff@bcap.com",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "N/A",
+    "status": "Enriched",
+    "priority": "HIGH",
+    "issues": [
+      "Empty email"
+    ]
+  },
+  {
+    "row": 493,
+    "company": "360 Equipment Finance",
+    "contact": "Kip Amstutz",
+    "title": "Founder",
+    "email": "(empty)",
+    "website": "",
+    "linkedin": "",
+    "status": "Researched - No Public Contact",
+    "priority": "HIGH",
+    "issues": [
+      "Empty email"
+    ]
+  },
+  {
+    "row": 276,
+    "company": "Harkness Capital Partners",
+    "contact": "Partner",
+    "title": "ihandsman@harknesscapital.com",
+    "email": "ihandsman@harknesscapital.com",
+    "website": "",
+    "linkedin": "http://www.linkedin.com/in/ian-handsman-0181b311",
+    "status": "Enriched",
+    "priority": "LOW",
+    "issues": [
+      "Contact is job title only"
+    ]
+  }
+]

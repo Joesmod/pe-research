@@ -1,0 +1,47 @@
+[
+  {
+    "firm": "Abry Partners",
+    "website": "https://abry.com/",
+    "aum": "$5.4B",
+    "focus": "Business services, communications, media, information services, healthcare, financial services, insurance",
+    "location": "Boston, MA",
+    "notes": "Over $90B of investments since 1989. 63 investment professionals. Recently active in financial services, insurance, healthcare deals. Strong services focus.",
+    "fit": "Excellent - right in the sweet spot for AUM and heavy services orientation"
+  },
+  {
+    "firm": "Bow River Capital",
+    "website": "https://www.bowrivercapital.com/",
+    "aum": "~$2.5B",
+    "focus": "Healthcare services, industrials, lower-middle-market software",
+    "location": "Denver, CO (U.S.-based)",
+    "notes": "Mid-market private equity firm with focus on healthcare services and industrials",
+    "fit": "Good - services-heavy, mid-market size"
+  },
+  {
+    "firm": "Gauge Capital",
+    "website": "https://gaugecapital.com/",
+    "aum": "Mid-market (size not disclosed)",
+    "focus": "Service businesses: business services, healthcare services, consumer services, food services",
+    "location": "Southlake, TX (Dallas area)",
+    "notes": "Founded 2013. 133 investments. Shared control and majority investments in growth-oriented service businesses. Lower-middle to mid-market.",
+    "fit": "Excellent - pure services focus across multiple sectors"
+  },
+  {
+    "firm": "Linden Capital Partners",
+    "website": "https://www.linden.com/",
+    "aum": "Mid-market (20+ years experience)",
+    "focus": "Healthcare and life sciences: medical products, specialty distribution, pharmaceutical, healthcare services",
+    "location": "Chicago, IL",
+    "notes": "Founded 2004. Strong value creation program. Focus on developing middle-market healthcare companies.",
+    "fit": "Good - healthcare services focus, established mid-market player"
+  },
+  {
+    "firm": "Amulet Capital",
+    "website": "https://amuletcapital.com/",
+    "aum": "Mid-market (recently launched)",
+    "focus": "Healthcare: life sciences outsourcing, healthcare providers, payor/payor services",
+    "location": "Not disclosed",
+    "notes": "Healthcare-focused PE with deep sector expertise. Multiple platform investments and add-on acquisitions.",
+    "fit": "Good - healthcare services focus, mid-market"
+  }
+]

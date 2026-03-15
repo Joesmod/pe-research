@@ -1,0 +1,44 @@
+[
+  {
+    "firm": "Renovus Capital Partners",
+    "rowIndex": 988,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  },
+  {
+    "firm": "Linsalata Capital Partners",
+    "rowIndex": 989,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  },
+  {
+    "firm": "High Road Capital Partners",
+    "rowIndex": 990,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  },
+  {
+    "firm": "Pharos Capital Group",
+    "rowIndex": 991,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  },
+  {
+    "firm": "Shoreview Capital",
+    "rowIndex": 992,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  },
+  {
+    "firm": "Loeb.nyc",
+    "rowIndex": 635,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  },
+  {
+    "firm": "Mercury Fund",
+    "rowIndex": 763,
+    "status": "API_ERROR",
+    "error": "This endpoint is deprecated for API callers. Please use the new mixed_people/api_search endpoint: https://docs.apollo.io/reference/people-api-search."
+  }
+]

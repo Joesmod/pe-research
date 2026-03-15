@@ -1,0 +1,52 @@
+[
+  {
+    "rowNum": 909,
+    "company": "Backstroke",
+    "contactName": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "website": "",
+    "linkedin": "",
+    "status": "Dead - Not PE/VC"
+  },
+  {
+    "rowNum": 910,
+    "company": "Satso",
+    "contactName": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "website": "",
+    "linkedin": "",
+    "status": "Dead - Not PE/VC"
+  },
+  {
+    "rowNum": 1073,
+    "company": "Ampersand Capital Partners",
+    "contactName": "Herb Hooper",
+    "title": "",
+    "email": "info@ampersandcapital.com",
+    "website": "",
+    "linkedin": "",
+    "status": "Enriched"
+  },
+  {
+    "rowNum": 1075,
+    "company": "Sumeru Equity Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://sumeruequity.com",
+    "linkedin": "https://www.linkedin.com/company/sumeru-equity-partners",
+    "status": "Research"
+  },
+  {
+    "rowNum": 1076,
+    "company": "Banneker Partners",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "website": "https://www.bannekerpartners.com",
+    "linkedin": "https://www.linkedin.com/company/banneker-partners",
+    "status": "Research"
+  }
+]

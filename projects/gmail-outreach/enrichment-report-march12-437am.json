@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-03-12T09:40:43.807Z",
+  "enriched": [
+    {
+      "row": 276,
+      "company": "Harkness Capital Partners",
+      "contact": {
+        "name": "Ted Dardani",
+        "title": "Partner",
+        "email": "tdardani@harknesscapital.com",
+        "linkedin": "http://www.linkedin.com/in/ted-dardani-bb1192101"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 285,
+      "company": "Sentinel Capital Partners",
+      "contact": {
+        "name": "Josh Garrett",
+        "title": "Managing Director",
+        "email": "garrett@sentinelpartners.com",
+        "linkedin": "http://www.linkedin.com/in/josh-garrett-1549567"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 305,
+      "company": "Bertram Capital",
+      "contact": {
+        "name": "Jeff Drazan",
+        "title": "Managing Director",
+        "email": "jeff@bcap.com",
+        "linkedin": "http://www.linkedin.com/in/jeff-drazan-61196"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 310,
+      "company": "Argonaut Private Equity",
+      "contact": {
+        "name": "Anil Khatod",
+        "title": "Sr. Partner & Managing Director",
+        "email": "akhatod@kfoc.net",
+        "linkedin": "http://www.linkedin.com/in/anilkhatod"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 311,
+      "company": "Mill Point Capital",
+      "contact": {
+        "name": "Aileen Wang",
+        "title": "Partner",
+        "email": "awang@millpoint.com",
+        "linkedin": "http://www.linkedin.com/in/aileen-wang-7a936052"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 319,
+      "company": "CIVC Partners",
+      "contact": {
+        "name": "Wright null",
+        "title": "Partner",
+        "email": "jwright@civc.com",
+        "linkedin": "http://www.linkedin.com/in/j-d-wright-8b161517"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 335,
+      "company": "Odyssey Investment Partners",
+      "contact": {
+        "name": "Brian Kwait",
+        "title": "Chief Executive Officer",
+        "email": "bkwait@odysseyinvestment.com",
+        "linkedin": "http://www.linkedin.com/in/brian-kwait-60a0ab247"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 478,
+      "company": "Palm Beach Capital",
+      "contact": {
+        "name": "Mike Schmickle",
+        "title": "Partner",
+        "email": "mschmickle@pbcap.com",
+        "linkedin": "http://www.linkedin.com/in/mike-schmickle-839115bb"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 500,
+      "company": "Aurora Capital Partners",
+      "contact": {
+        "name": "Andrew Wilson",
+        "title": "Partner",
+        "email": "awilson@auroracap.com",
+        "linkedin": "http://www.linkedin.com/in/andrew-wilson-b4346410"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 511,
+      "company": "Emerging Capital Partners - ECP",
+      "contact": {
+        "name": "Carolyn Campbell",
+        "title": "Managing Partner, Ceo/coo and Founder",
+        "email": "campbellc@ecpinvestments.com",
+        "linkedin": "http://www.linkedin.com/in/-carolyn-campbell"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 525,
+      "company": "Levine Leichtman Capital Partners, LLC",
+      "contact": {
+        "name": "Tannaz Chapman",
+        "title": "Managing Director",
+        "email": "tchapman@llcp.com",
+        "linkedin": "http://www.linkedin.com/in/tannaz-chapman-6041192"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 531,
+      "company": "Peninsula Capital Partners L.L.C.",
+      "contact": {
+        "name": "Chris Gessner",
+        "title": "Partner",
+        "email": "gessner@peninsulafunds.com",
+        "linkedin": "http://www.linkedin.com/in/chris-gessner-cfa-150b497"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 535,
+      "company": "RA Capital Management",
+      "contact": {
+        "name": "Joshua Resnick",
+        "title": "Partner and Senior Managing Director",
+        "email": "jresnick@racap.com",
+        "linkedin": "http://www.linkedin.com/in/joshuaresnick"
+      },
+      "source": "Apollo API"
+    },
+    {
+      "row": 851,
+      "company": "Wynnchurch Capital",
+      "contact": {
+        "name": "Alexis Underwood",
+        "title": "Managing Director/Operating Partner",
+        "email": "aunderwood@wynnchurch.com",
+        "linkedin": "http://www.linkedin.com/in/alexisunderwood"
+      },
+      "source": "Apollo API"
+    }
+  ],
+  "failed": [
+    {
+      "row": 223,
+      "company": "Harvest Partners (SCF)",
+      "note": "Has name in title field"
+    }
+  ]
+}

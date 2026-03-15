@@ -1,0 +1,319 @@
+[
+  {
+    "rowNum": 410,
+    "firm": "Goodwater Capital",
+    "contact": "Chi-Hua Chien",
+    "email": "",
+    "website": "",
+    "status": "Researched - No Public Email",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Goodwater Capital",
+      "http://www.goodwatercap.com",
+      "Chi-Hua Chien",
+      "Co-Founder & Managing Partner",
+      "",
+      "",
+      "https://www.linkedin.com/in/chihuachien",
+      "",
+      "",
+      "Researched - No Public Email"
+    ]
+  },
+  {
+    "rowNum": 493,
+    "firm": "360 Equipment Finance",
+    "contact": "Kip Amstutz",
+    "email": "",
+    "website": "",
+    "status": "Researched - No Public Contact",
+    "reason": "NO_EMAIL",
+    "row": [
+      "360 Equipment Finance",
+      "http://www.360equipmentfinance.com",
+      "Kip Amstutz",
+      "Founder",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Researched - No Public Contact"
+    ]
+  },
+  {
+    "rowNum": 513,
+    "firm": "Forerunner",
+    "contact": "Kirsten Green",
+    "email": "",
+    "website": "",
+    "status": "Researched - Email Unverified",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Forerunner",
+      "http://www.forerunnerventures.com",
+      "Kirsten Green",
+      "Founder & Managing Partner",
+      "",
+      "",
+      "https://www.forerunnerventures.com/team/kirsten-green",
+      "",
+      "",
+      "Researched - Email Unverified"
+    ]
+  },
+  {
+    "rowNum": 566,
+    "firm": "Avathon Capital",
+    "contact": "Jason Rosenberg",
+    "email": "Managing Partner",
+    "website": "http://www.avathoncapital.com",
+    "status": "New - Unresearched",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Avathon Capital",
+      "http://www.avathoncapital.com",
+      "Jason Rosenberg",
+      "Jason Rosenberg",
+      "Managing Partner",
+      "http://www.avathoncapital.com",
+      "http://www.linkedin.com/company/avathon-capital",
+      "Enriched - Needs Email",
+      "Source: Avathon press releases - Early childhood education focus, formerly Sterling Partners",
+      "New - Unresearched"
+    ]
+  },
+  {
+    "rowNum": 567,
+    "firm": "AVB Invest",
+    "contact": "Serge Garden",
+    "email": "Founder and President",
+    "website": "http://www.avbinvest.com",
+    "status": "New - Unresearched",
+    "reason": "NO_EMAIL",
+    "row": [
+      "AVB Invest",
+      "http://www.avbinvest.com",
+      "Serge Garden",
+      "Serge Garden",
+      "Founder and President",
+      "http://www.avbinvest.com",
+      "http://www.linkedin.com/company/avb-invest",
+      "Enriched - Needs Email",
+      "Source: AVB Invest website, RocketReach - Innovation and future tech focus",
+      "New - Unresearched"
+    ]
+  },
+  {
+    "rowNum": 629,
+    "firm": "Keystone Capital",
+    "contact": "Managing Partner",
+    "email": "https://keystonecapital.com",
+    "website": "https://www.linkedin.com/company/keystonecapitalmanagementlp",
+    "status": "Email pattern: {first_initial}{last}@keystonecapital.com (96.8%). Kent Dauten (Chairman): kdauten@keystonecapital.com. Source: Official press release (BusinessWire).",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Keystone Capital",
+      "Scott Gwilliam",
+      "Managing Partner",
+      "sgwilliam@keystonecapital.com",
+      "https://keystonecapital.com",
+      "https://www.linkedin.com/company/keystonecapitalmanagementlp",
+      "",
+      "",
+      "Enriched",
+      "Email pattern: {first_initial}{last}@keystonecapital.com (96.8%). Kent Dauten (Chairman): kdauten@keystonecapital.com. Source: Official press release (BusinessWire).",
+      "Email from Keystone press release. Chicago-based PE firm."
+    ]
+  },
+  {
+    "rowNum": 763,
+    "firm": "Mercury Fund",
+    "contact": "Blair Garrou",
+    "email": "blair@mercuryfund.com",
+    "website": "http://www.mercuryfund.com",
+    "status": "Enriched",
+    "reason": "GENERIC_EMAIL",
+    "row": [
+      "Mercury Fund",
+      "http://www.mercuryfund.com",
+      "Blair Garrou",
+      "Managing Partner",
+      "blair@mercuryfund.com",
+      "http://www.mercuryfund.com",
+      "https://www.linkedin.com/in/blairgarrou",
+      "",
+      "Houston-based early-stage VC. Also Adjunct Professor at Rice University. Email verified via ContactOut. Source: mercuryfund.com/team + ContactOut (2026-03-06)",
+      "Enriched"
+    ]
+  },
+  {
+    "rowNum": 764,
+    "firm": "Merit Capital Partners",
+    "contact": "Marc Aaronson",
+    "email": "CFO",
+    "website": "andreas@mercuryfund.com",
+    "status": "Partial - LinkedIn Only",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Merit Capital Partners",
+      "http://www.meritcapital.com",
+      "Marc Aaronson",
+      "Andreas Galliker",
+      "CFO",
+      "andreas@mercuryfund.com",
+      "http://www.linkedin.com/in/andreasgalliker",
+      "Enriched",
+      "Managing Director, Chicago-based PE firm founded 1993, $2.2B AUM, focus on manufacturing/distribution/services. Other partners: Daniel E. Pansing, Joseph A. Polaneczky. Email not published. Source: meritcapital.com/our-team/ (2026-03-06)",
+      "Partial - LinkedIn Only"
+    ]
+  },
+  {
+    "rowNum": 928,
+    "firm": "Renovus Capital Partners",
+    "contact": "https://www.renovuscapital.com",
+    "email": "North America",
+    "website": "$2B+",
+    "status": "",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Renovus Capital Partners",
+      "$2B+",
+      "https://www.renovuscapital.com",
+      "Business Services, Healthcare Services, Industrial Services",
+      "North America",
+      "$2B+",
+      "2010",
+      "30+"
+    ]
+  },
+  {
+    "rowNum": 934,
+    "firm": "Amulet Capital Partners",
+    "contact": "Managing Partner & Co-Founder",
+    "email": "https://www.linkedin.com/company/amulet-capital-partners",
+    "website": "Enriched",
+    "status": "Partial",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Amulet Capital Partners",
+      "Ramsey Frank",
+      "Managing Partner & Co-Founder",
+      "rfrank@amuletcapital.com",
+      "https://www.linkedin.com/company/amulet-capital-partners",
+      "Enriched",
+      "Email pattern verified via ZoomInfo/RocketReach. Healthcare-focused mid-market PE, Greenwich CT.",
+      "",
+      "Crunchbase + RocketReach",
+      "Partial",
+      "Mid-market PE, business services focus, $1B+ AUM"
+    ]
+  },
+  {
+    "rowNum": 940,
+    "firm": "Monroe Capital",
+    "contact": "Chairman & CEO",
+    "email": "https://www.linkedin.com/company/monroe-capital",
+    "website": "Enriched",
+    "status": "",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Monroe Capital",
+      "Theodore Koenig",
+      "Chairman & CEO",
+      "tkoenig@monroecap.com",
+      "https://www.linkedin.com/company/monroe-capital",
+      "Enriched",
+      "Email found in SEC filing (Federal Register 2022-27043). Direct contact confirmed.",
+      "",
+      "SEC filing + official press releases"
+    ]
+  },
+  {
+    "rowNum": 989,
+    "firm": "Linsalata Capital Partners",
+    "contact": "Eric Bacon",
+    "email": "CFO",
+    "website": "daniel.maine@renovuscapital.com",
+    "status": "Enriched - 2026-03-09 | RocketReach pattern inference (first_initial+last@domain)",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Linsalata Capital Partners",
+      "",
+      "Eric Bacon",
+      "Daniel Maine",
+      "CFO",
+      "daniel.maine@renovuscapital.com",
+      "http://www.linkedin.com/in/dfmaine",
+      "Enriched",
+      "",
+      "Enriched - 2026-03-09 | RocketReach pattern inference (first_initial+last@domain)",
+      "Cleveland, OH (5900 Landerbrook Drive). Founded 1984. Lower middle market buyout firm. Sectors: aerospace & defense, automotive aftermarket, building products, business services. Website inactive. LinkedIn active."
+    ]
+  },
+  {
+    "rowNum": 991,
+    "firm": "Pharos Capital Group",
+    "contact": "Kneeland Youngblood",
+    "email": "Partner",
+    "website": "jgoodrich@highroadcap.com",
+    "status": "Enriched",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Pharos Capital Group",
+      "https://www.pharosfunds.com",
+      "Kneeland Youngblood",
+      "Jeffrey Goodrich",
+      "Partner",
+      "jgoodrich@highroadcap.com",
+      "http://www.linkedin.com/in/jeffrey-goodrich-25a32a4",
+      "Enriched",
+      "Email pattern verified via RocketReach (98% confidence: first_initial+last@pharosfunds.com). Physician-founded PE firm, founded 1998, Dallas/Nashville-based. Focus: value-based healthcare. $25-50M equity investments. Chairman serves on Caltech Board, Milken Institute. Source: RocketReach + pharosfunds.com official website (2026-03-09)",
+      "Enriched",
+      "Dallas & Nashville. Physician-founded PE firm. Healthcare services, healthcare IT, outsourced care management. 50+ companies. Focus: lower cost of care, improve outcomes, expand access. Youngblood: 27+ years healthcare investment experience."
+    ]
+  },
+  {
+    "rowNum": 992,
+    "firm": "Shoreview Capital",
+    "contact": "Peter Zimmerman",
+    "email": "Vice President",
+    "website": "bchesnut@pharosfunds.com",
+    "status": "Enriched - 2026-03-09 | RocketReach email pattern (87% confidence: first_initial+last@domain). Note: Row marked as likely duplicate of ShoreView Industries row 13",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Shoreview Capital",
+      "https://www.shoreview.com",
+      "Peter Zimmerman",
+      "Ben Chesnut",
+      "Vice President",
+      "bchesnut@pharosfunds.com",
+      "http://www.linkedin.com/in/ben-chesnut-8990074b",
+      "Enriched",
+      "",
+      "Enriched - 2026-03-09 | RocketReach email pattern (87% confidence: first_initial+last@domain). Note: Row marked as likely duplicate of ShoreView Industries row 13",
+      "Full name: ShoreView Industries, LLC. Minneapolis, MN (222 S 9th St Suite 3300). Founded 2002. $1.3B+ committed capital (4 funds). Lower-middle market. Sectors: engineered products, distribution, industrial services, business services, healthcare, niche consumer. Family/entrepreneurial-owned company focus. Other partners: Brett Habstritt, Adam Reeves, Eric Paquette."
+    ]
+  },
+  {
+    "rowNum": 993,
+    "firm": "Gryphon Investors",
+    "contact": "Nicholas Orum",
+    "email": "Managing Partner",
+    "website": "sterling.worth@shoreviewcapitalpartners.com",
+    "status": "Enriched - 2026-03-09",
+    "reason": "NO_EMAIL",
+    "row": [
+      "Gryphon Investors",
+      "https://www.gryphoninvestors.com",
+      "Nicholas Orum",
+      "Sterling Worth",
+      "Managing Partner",
+      "sterling.worth@shoreviewcapitalpartners.com",
+      "http://www.linkedin.com/in/sterling-worth-82896373",
+      "Enriched",
+      "Co-founded 1995 with R. David Andrews. $5B+ AUM. 75+ platform investments.",
+      "Enriched - 2026-03-09"
+    ]
+  }
+]

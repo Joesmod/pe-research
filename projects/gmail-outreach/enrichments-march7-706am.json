@@ -1,0 +1,74 @@
+[
+  {
+    "row": 801,
+    "company": "BlackRock TCP Capital Corp",
+    "contact": "Phil Tseng",
+    "title": "Chairman, CEO & Co-CIO",
+    "email": "investor.relations@tcpcapital.com",
+    "linkedin": "https://www.blackrock.com/institutions/en-global/biographies/phil-tseng",
+    "status": "Enriched",
+    "notes": "Formerly Tennenbaum Capital Partners, acquired by BlackRock 2018. IR email is official contact.",
+    "source": "https://tcpcapital.com/investor-relations/governance/management-and-investment-committee/",
+    "researchDate": "2026-03-07T13:06:00Z"
+  },
+  {
+    "row": 804,
+    "company": "Trian Partners",
+    "contact": "Nelson Peltz",
+    "title": "CEO & Founding Partner",
+    "email": "IR@trianpartners.com",
+    "linkedin": "https://www.linkedin.com/in/nelson-peltz",
+    "status": "Enriched",
+    "notes": "Official IR email from contact page. Co-founded with Peter May and Ed Garden.",
+    "source": "https://trianpartners.com/contact-us/",
+    "researchDate": "2026-03-07T13:08:00Z"
+  },
+  {
+    "row": 805,
+    "company": "Trinity Capital Inc.",
+    "contact": "Kyle Brown",
+    "title": "Chief Executive Officer",
+    "email": "ir@trincapinvestment.com",
+    "linkedin": "https://www.linkedin.com/in/kyle-brown",
+    "status": "Enriched",
+    "notes": "Public company (NASDAQ: TRIN). Ben Malcolmson is Head of Investor Relations.",
+    "source": "https://ir.trinitycap.com/resources/investor-faqs",
+    "researchDate": "2026-03-07T13:08:00Z"
+  },
+  {
+    "row": 807,
+    "company": "TriplePoint Capital",
+    "contact": "Jim Labe",
+    "title": "Co-CEO & Co-Founder",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/jim-labe",
+    "status": "Partial",
+    "notes": "Sajal Srivastava is Co-CEO. No direct official email found. IR handled by IGB Group (lberman@igbir.com).",
+    "source": "https://www.triplepointcapital.com/people/",
+    "researchDate": "2026-03-07T13:09:00Z"
+  },
+  {
+    "row": 815,
+    "company": "26North",
+    "contact": "Josh Harris",
+    "title": "Founder",
+    "email": "ir@26n.com",
+    "linkedin": "https://www.linkedin.com/in/josh-harris",
+    "status": "Enriched",
+    "notes": "Founded 2022. Multi-asset class platform. Mark Weinberg is Head of Private Equity.",
+    "source": "https://www.26n.com/contact",
+    "researchDate": "2026-03-07T13:10:00Z"
+  },
+  {
+    "row": 816,
+    "company": "414 Capital",
+    "contact": "Ariel Fischman",
+    "title": "Founder & Director",
+    "email": "info@414capital.com",
+    "linkedin": "https://www.linkedin.com/in/arielfischman",
+    "status": "Enriched",
+    "notes": "Investment banking / M&A advisory firm (not traditional PE). Most active in Latin America. Raquel Gutiérrez is COO.",
+    "source": "https://www.414capital.com/team.aspx",
+    "researchDate": "2026-03-07T13:10:00Z"
+  }
+]

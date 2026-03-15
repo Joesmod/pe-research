@@ -1,0 +1,52 @@
+[
+  {
+    "row": 49,
+    "company": "Apax Partners",
+    "contact_name": "Seth Brody",
+    "title": "Partner",
+    "email": "Not found",
+    "linkedin": "",
+    "phone": "",
+    "apollo_verified": true
+  },
+  {
+    "row": 728,
+    "company": "Pritzker Group Private Capital",
+    "contact_name": "Ryan Roberts",
+    "title": "Investment Partner",
+    "email": "Not found",
+    "linkedin": "",
+    "phone": "",
+    "apollo_verified": true
+  },
+  {
+    "row": 728,
+    "company": "Pritzker Group Private Capital",
+    "contact_name": "Paul Carbone",
+    "title": "Managing Partner",
+    "email": "Not found",
+    "linkedin": "",
+    "phone": "",
+    "apollo_verified": true
+  },
+  {
+    "row": 699,
+    "company": "Kayne Partners",
+    "contact_name": "Leon Chen",
+    "title": "Managing Partner",
+    "email": "Not found",
+    "linkedin": "",
+    "phone": "",
+    "apollo_verified": true
+  },
+  {
+    "row": 560,
+    "company": "PSG Equity",
+    "contact_name": "Tom Reardon",
+    "title": "Managing Director",
+    "email": "Not found",
+    "linkedin": "",
+    "phone": "",
+    "apollo_verified": true
+  }
+]

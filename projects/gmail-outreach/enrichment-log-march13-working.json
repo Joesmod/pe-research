@@ -1,0 +1,26 @@
+[
+  {
+    "row": 909,
+    "company": "Backstroke",
+    "contact": "Brian Smith",
+    "title": "Chief Technology Officer",
+    "email": "brian@backstroke.com",
+    "linkedin": "http://www.linkedin.com/in/brpsmith",
+    "apolloId": "6817e194bea2b5000193f077",
+    "isGeneric": false,
+    "totalFound": 2,
+    "status": "enriched"
+  },
+  {
+    "row": 910,
+    "company": "Satso",
+    "contact": "Alan Maggi",
+    "title": "CEO",
+    "email": "alan.maggi@satsolucoes.com.br",
+    "linkedin": "http://www.linkedin.com/in/alanmaggi",
+    "apolloId": "57ded48da6da987af125a0dd",
+    "isGeneric": false,
+    "totalFound": 11,
+    "status": "enriched"
+  }
+]

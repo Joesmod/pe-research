@@ -1,0 +1,122 @@
+[
+  {
+    "row": 168,
+    "company": "Clearlake Capital Group",
+    "contact": "José E. Feliciano",
+    "title": "Co-Founder & Managing Partner",
+    "email": "jfeliciano@clearlake.com",
+    "website": "https://clearlake.com/",
+    "linkedin": "https://www.linkedin.com/in/josefeliciano/",
+    "notes": "$80B+ AUM PE firm. Founded 2006. Tech, industrials, consumer focus. Email pattern: firstlast@clearlake.com verified from press releases.",
+    "status": "Enriched",
+    "source": "Official website team page + LinkedIn + press releases (pgilligan@clearlake.com verified)"
+  },
+  {
+    "row": 401,
+    "company": "Cowen Partners Executive Search",
+    "contact": "Shawn Cole",
+    "title": "President & Founding Partner",
+    "email": "scole@cowenpartners.com",
+    "website": "https://cowenpartners.com/",
+    "linkedin": "https://www.linkedin.com/in/coleshawn",
+    "notes": "Executive search/recruiting firm - NOT PE. RocketReach verified email.",
+    "status": "Dead - Executive Search Firm",
+    "source": "RocketReach + official website"
+  },
+  {
+    "row": 404,
+    "company": "Dwight Funding",
+    "contact": "",
+    "title": "",
+    "email": "info@dwightfunding.com",
+    "website": "https://dwightfunding.com/",
+    "linkedin": "",
+    "notes": "Growth capital/fintech lender for consumer brands. NYC-based. Need specific decision-maker contact.",
+    "status": "Research - Needs Email",
+    "source": "Official website"
+  },
+  {
+    "row": 405,
+    "company": "Eir Partners",
+    "contact": "Alex Antwan",
+    "title": "Private Equity Professional",
+    "email": "aantwan@eirpartners.com",
+    "website": "https://eirpartners.com/",
+    "linkedin": "",
+    "notes": "Miami-based PE firm. Healthcare technology and tech-enabled services focus. RocketReach pattern a******@eirpartners.com verified.",
+    "status": "Enriched",
+    "source": "RocketReach + official website"
+  },
+  {
+    "row": 409,
+    "company": "Girls Who Invest",
+    "contact": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.girlswhoinvest.org",
+    "linkedin": "",
+    "notes": "Educational nonprofit encouraging women to enter investing careers - NOT a PE firm.",
+    "status": "Dead - Nonprofit",
+    "source": "Website review"
+  },
+  {
+    "row": 410,
+    "company": "Goodwater Capital",
+    "contact": "Coddy Johnson",
+    "title": "Partner",
+    "email": "info@goodwatercap.com",
+    "website": "http://www.goodwatercap.com",
+    "linkedin": "https://www.linkedin.com/company/goodwater-capital",
+    "notes": "Consumer tech VC firm. Need specific partner email - team page access limited. Generic email only.",
+    "status": "Partial",
+    "source": "LinkedIn + official website"
+  },
+  {
+    "row": 413,
+    "company": "HPS Investment Partners, LLC",
+    "contact": "Scott Kapnick",
+    "title": "Co-Founder & Managing Partner",
+    "email": "scott.kapnick@hpspartners.com",
+    "website": "http://www.hpspartners.com",
+    "linkedin": "",
+    "notes": "Alternative credit manager. Founded 2007. Now BlackRock subsidiary (2025). $100B+ AUM. ContactOut verified email. Alternatives: Scot French, Michael Patterson (co-founders).",
+    "status": "Enriched",
+    "source": "ContactOut + Wikipedia + official team page"
+  },
+  {
+    "row": 414,
+    "company": "I Squared Capital",
+    "contact": "Sadek Wahba, Ph.D.",
+    "title": "Founder, Chairman & Managing Partner",
+    "email": "sadek.wahba@isquaredcapital.com",
+    "website": "http://www.isquaredcapital.com",
+    "linkedin": "",
+    "notes": "Infrastructure-focused PE. $50B AUM, 300 employees. ContactOut verified email. Alternative: Gautam Bhandari (Co-Founder & Managing Partner).",
+    "status": "Enriched",
+    "source": "ContactOut + Wikipedia + Forbes"
+  },
+  {
+    "row": 416,
+    "company": "Jump Capital",
+    "contact": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.jumpcap.com",
+    "linkedin": "https://www.linkedin.com/company/jump-capital",
+    "notes": "Chicago-based VC firm. Team page exists but no individual names extracted. Need deeper research for specific partners.",
+    "status": "Research - Needs Email",
+    "source": "Official website + LinkedIn"
+  },
+  {
+    "row": 418,
+    "company": "Kline Hill Partners",
+    "contact": "",
+    "title": "",
+    "email": "",
+    "website": "http://www.klinehill.com",
+    "linkedin": "https://www.linkedin.com/company/kline-hill-partners-llc",
+    "notes": "PE secondary market specialist. Greenwich, CT. Founded 2015. $B+ AUM, 25+ professionals. Small-deal focus. Need specific partner contacts.",
+    "status": "Research - Needs Email",
+    "source": "Official website + PitchBook + LinkedIn"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-03-11T20:40:29.931Z",
+  "processed": 15,
+  "successful": 10,
+  "enrichments": [
+    {
+      "rowIndex": 117,
+      "firm": "Keltic Financial Partners",
+      "contact": "",
+      "title": "",
+      "email": "",
+      "linkedin": "",
+      "source": "Not found"
+    },
+    {
+      "rowIndex": 161,
+      "firm": "Thomas H. Lee Partners",
+      "contact": "",
+      "title": "",
+      "email": "",
+      "linkedin": "",
+      "source": "Not found"
+    },
+    {
+      "rowIndex": 176,
+      "firm": "Hg Capital",
+      "contact": "Connor Da***g",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 220,
+      "firm": "WindPoint Partners",
+      "contact": "",
+      "title": "",
+      "email": "",
+      "linkedin": "",
+      "source": "Not found"
+    },
+    {
+      "rowIndex": 223,
+      "firm": "Harvest Partners (SCF)",
+      "contact": "",
+      "title": "",
+      "email": "",
+      "linkedin": "",
+      "source": "Not found"
+    },
+    {
+      "rowIndex": 234,
+      "firm": "The Jordan Company (TJC)",
+      "contact": "",
+      "title": "",
+      "email": "",
+      "linkedin": "",
+      "source": "Not found"
+    },
+    {
+      "rowIndex": 261,
+      "firm": "RoundTable Healthcare Partners",
+      "contact": "James Do***n",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 276,
+      "firm": "Harkness Capital Partners",
+      "contact": "Anthony Pi***e",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 282,
+      "firm": "Ronin Equity Partners",
+      "contact": "Jesse Yao",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 283,
+      "firm": "Station Partners",
+      "contact": "William Ga***n",
+      "title": "Partner and Chief Operating Officer",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 285,
+      "firm": "Sentinel Capital Partners",
+      "contact": "Elvira Lee",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 286,
+      "firm": "Banneker Partners",
+      "contact": "Justin Ro***h",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 300,
+      "firm": "Avante Capital Partners",
+      "contact": "Karel Ig***o",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 305,
+      "firm": "Bertram Capital",
+      "contact": "Sean Ho***h",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    },
+    {
+      "rowIndex": 306,
+      "firm": "Mountaingate Capital",
+      "contact": "Corbin Ba***s",
+      "title": "Vice President",
+      "email": "",
+      "linkedin": "",
+      "source": "Apollo API"
+    }
+  ]
+}

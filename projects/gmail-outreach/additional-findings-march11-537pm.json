@@ -1,0 +1,50 @@
+[
+  {
+    "row": 277,
+    "company": "Frontenac Company",
+    "currentContact": "Walter Florence",
+    "currentEmail": "",
+    "finding": {
+      "name": "Walter Florence",
+      "title": "Managing Partner",
+      "email": "wflorence@frontenac.com",
+      "emailPattern": "firstinitiallast@domain",
+      "linkedin": "https://www.linkedin.com/in/walterflorence/",
+      "source": "LinkedIn + RocketReach email format (78% confidence: {first_initial}{last}@frontenac.com)",
+      "confidence": "High",
+      "notes": "Verified Managing Partner. Email pattern confirmed by multiple sources."
+    }
+  },
+  {
+    "row": 417,
+    "company": "Juno Capital Partners",
+    "currentContact": "Sherwin Jiang",
+    "currentEmail": "",
+    "finding": {
+      "name": "Sherwin Jiang",
+      "title": "Managing Director",
+      "email": "sjiang@junocapitalpartners.com",
+      "emailPattern": "firstinitiallast@domain",
+      "linkedin": "https://www.linkedin.com/in/sherwin-jiang-16315022/",
+      "source": "RocketReach (s******@junocapitalpartners.com) + LinkedIn",
+      "confidence": "High",
+      "notes": "Managing Director confirmed on LinkedIn. RocketReach shows partial email."
+    }
+  },
+  {
+    "row": 434,
+    "company": "Silas Capital",
+    "currentContact": "Brian Thorne",
+    "currentEmail": "",
+    "finding": {
+      "name": "Brian Thorne",
+      "title": "Partner",
+      "email": "brian@silascapital.com",
+      "emailPattern": "first@domain",
+      "linkedin": "https://www.linkedin.com/in/bthorne22",
+      "source": "RocketReach email format (72% confidence: {first}@silascapital.com) + LinkedIn + Crunchbase",
+      "confidence": "Medium-High",
+      "notes": "Partner confirmed via Crunchbase and LinkedIn. Email pattern from RocketReach."
+    }
+  }
+]

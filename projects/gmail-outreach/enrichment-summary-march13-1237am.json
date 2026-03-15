@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-13T05:41:08.306Z",
+  "verified": [
+    "Harry Gruner (JMI Equity): hgruner@jmi.com",
+    "Vincenzo La Ruffa (Aquiline): vlr@aquiline.com",
+    "Suzanne Yoon (Kinzie Capital Partners): syoon@chelsealighting.com"
+  ],
+  "noEmail": [
+    "Hurley Doddy (Blue Star Innovation Partners)",
+    "Jim Mahoney (Huron Capital)"
+  ],
+  "markedDead": [
+    "Backstroke (Not PE)",
+    "Satso (Not PE)",
+    "Rehab Medical (Not Investment Firm)"
+  ],
+  "corrections": [
+    "Huron Capital: Changed contact from Fabio Sattin to Jim Mahoney"
+  ]
+}

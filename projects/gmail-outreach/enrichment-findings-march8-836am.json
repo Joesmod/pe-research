@@ -1,0 +1,112 @@
+[
+  {
+    "rowIndex": 9,
+    "firmName": "Aeris Partners",
+    "finding": "VERIFIED: M&A advisory/investment bank (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "Aeris Partners is an M&A advisory firm specializing in tech/healthcare vertical software. Contact: info@aerispartners.com, (617) 751-4010, Boston MA"
+  },
+  {
+    "rowIndex": 117,
+    "firmName": "Keltic Financial Partners",
+    "finding": "NOT VERIFIED: Unable to find website or confirm PE status. May be financial services.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Needs research - unclear PE status",
+    "notes": "Steve Fischer listed as Partner on LinkedIn. Could not find official website at kelticfp.com."
+  },
+  {
+    "rowIndex": 390,
+    "firmName": "Apex Service Partners",
+    "finding": "PORTFOLIO COMPANY, not a PE firm. Backed by Alpine Investors.",
+    "contactName": "Will Matson",
+    "title": "Business Development",
+    "email": "Wmatson@apexservicepartners.com",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm (Portfolio Co)",
+    "notes": "Apex Service Partners is an HVAC/plumbing/electrical platform company backed by Alpine Investors PE. Contact found for biz dev, not PE outreach."
+  },
+  {
+    "rowIndex": 393,
+    "firmName": "Bespoke Partners",
+    "finding": "VERIFIED: Executive search/recruiting firm (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "Bespoke Partners is a leading executive search firm for PE-backed software companies. Based in San Diego."
+  },
+  {
+    "rowIndex": 621,
+    "firmName": "Hensel Phelps",
+    "finding": "VERIFIED: Construction company (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "Hensel Phelps is a major general contractor/construction company. CEO: Jeff Wenaas. HQ: Greeley, CO. Email: info@henkelsp.com is generic."
+  },
+  {
+    "rowIndex": 626,
+    "firmName": "Jett Capital",
+    "finding": "VERIFIED: Investment banking/advisory firm (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "Jett Capital Advisors is an investment banking and capital markets advisory firm (energy/natural resources focus). Established 2013, NYC."
+  },
+  {
+    "rowIndex": 630,
+    "firmName": "Kinect Capital",
+    "finding": "VERIFIED: Non-profit entrepreneurship org (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "Kinect Capital is a non-profit organization that helps entrepreneurs become more investable and connects them to capital. Based in Salt Lake City."
+  },
+  {
+    "rowIndex": 654,
+    "firmName": "Odyssey Search Partners",
+    "finding": "VERIFIED: Executive search/recruiting firm (NOT a PE firm)",
+    "contactName": "Adam Kahn",
+    "title": "Co-Founder",
+    "email": "info@ospsearch.com",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "Odyssey Search Partners is an executive search firm placing investment professionals in PE/HF/family office sectors. Founded 2010 by Adam Kahn & Anthony Keizner. (212) 750-5677"
+  },
+  {
+    "rowIndex": 670,
+    "firmName": "Scaleview Partners",
+    "finding": "VERIFIED: Investment bank (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "ScaleView Partners is an Austin-based investment bank helping tech founders with M&A and capital raises. Founded 2021. NOT a PE firm."
+  },
+  {
+    "rowIndex": 682,
+    "firmName": "TAP Advisors",
+    "finding": "VERIFIED: M&A/investment banking advisory (NOT a PE firm)",
+    "contactName": "",
+    "title": "",
+    "email": "info@tapadvisors.com",
+    "linkedin": "",
+    "status": "Dead - Not a PE firm",
+    "notes": "TAP Advisors is a New York-based M&A, strategic and corporate finance advisory investment banking firm. Founded 2010. Generic email: info@tapadvisors.com"
+  }
+]

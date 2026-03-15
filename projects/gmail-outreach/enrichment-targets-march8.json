@@ -1,0 +1,152 @@
+[
+  {
+    "row": 621,
+    "company": "HSP - Henkel Search Partners",
+    "website": "http://www.henkelsp.com",
+    "contactName": "Alyson undefined",
+    "title": "Chief Financial Officer",
+    "email": "",
+    "status": "Apollo enriched - 2026-03-08",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 682,
+    "company": "TAP Advisors",
+    "website": "http://www.tapadvisors.com",
+    "contactName": "David undefined",
+    "title": "Partner",
+    "email": "",
+    "status": "Unresearched",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 687,
+    "company": "Valiant Capital Management",
+    "website": "http://www.valiantcapital.com",
+    "contactName": "Christopher R. Hansen",
+    "title": "Founder",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 688,
+    "company": "Victory Capital",
+    "website": "http://www.vcm.com",
+    "contactName": "Matthew Dennis",
+    "title": "Chief of Staff, Director of Investor Relations",
+    "email": "ir@vcm.com",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 690,
+    "company": "Wall Street Oasis",
+    "website": "http://www.wallstreetoasis.com",
+    "contactName": "Patrick Curtis",
+    "title": "CEO and Founder",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 692,
+    "company": "Wefunder",
+    "website": "http://www.wefunder.com",
+    "contactName": "Nicholas Tommarello",
+    "title": "Founder and CEO",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 763,
+    "company": "Mercury Fund",
+    "website": "http://www.mercuryfund.com",
+    "contactName": "Blair Garrou",
+    "title": "Managing Partner",
+    "email": "blair@mercuryfund.com",
+    "status": "Enriched",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "website": "http://www.tennenbaumcapital.com",
+    "contactName": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "status": "Website down. Acquired by BlackRock in 2018 per LinkedIn/press coverage.",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 805,
+    "company": "Trinity Capital",
+    "website": "http://www.trinitycapital.com",
+    "contactName": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "status": "Public BDC (NASDAQ: TRIN), venture debt/equipment financing focus. Not traditional mid-market PE.",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 807,
+    "company": "TriplePoint Capital",
+    "website": "http://www.triplepointcapital.com",
+    "contactName": "Jim Labe",
+    "title": "CEO",
+    "email": "",
+    "status": "Equipment leasing and venture debt provider, not traditional PE. $9B+ in venture financing across 3,000+ companies.",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 908,
+    "company": "Muse",
+    "website": "",
+    "contactName": "Assia Grazioli-Venier",
+    "title": "Co-Founder and Managing Partner",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 909,
+    "company": "Backstroke",
+    "website": "",
+    "contactName": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 910,
+    "company": "Satso",
+    "website": "",
+    "contactName": "Jacob Zodikoff",
+    "title": "",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 937,
+    "company": "The Riverside Company",
+    "website": "https://www.riversidecompany.com",
+    "contactName": "Béla Szigethy",
+    "title": "Founder & Partner",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  },
+  {
+    "row": 963,
+    "company": "Svoboda Capital Partners",
+    "website": "https://svoco.com",
+    "contactName": "John Svoboda",
+    "title": "Managing Director",
+    "email": "",
+    "status": "Partial",
+    "reason": "Generic/missing email"
+  }
+]

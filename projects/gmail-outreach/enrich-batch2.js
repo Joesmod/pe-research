@@ -3,93 +3,134 @@ const { google } = require('googleapis');
 async function enrichBatch2() {
   const auth = new google.auth.GoogleAuth({
     keyFile: 'service-account.json',
-    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
   
   const sheets = google.sheets({ version: 'v4', auth });
   const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
-  // Second batch of enrichment updates
-  const updates = [
+  // Additional enrichments
+  const enrichments = [
     {
-      range: 'Sheet1!C20:J20', // Turn/River Capital (row 20)
-      values: [[
-        'Dominic Ang',
-        'Founder & Managing Partner',
-        'dominic@turnrivercapital.com',
-        'http://www.turnrivercapital.com',
-        'https://www.linkedin.com/in/dominicang',
-        'Software, Technology, B2B SaaS',
-        'Email verified via ContactOut. SF-based tech PE. Ex-Advent International, Vector Capital. Specializes in spin-outs, buyouts of tech companies.',
-        'Enriched'
-      ]]
+      firmName: 'HCI Equity Partners',
+      contactName: 'Douglas McCormick',
+      title: 'Co-Founder, Managing Partner & CIO',
+      email: '',
+      linkedin: 'https://www.linkedin.com/in/douglasmccormick',
+      status: 'Needs Manual Research',
+      notes: 'Co-Founder & CIO - former Morgan Stanley IB, West Point graduate, author of Family Inc. No direct email on official site.',
+      source: 'https://www.hciequity.com/our-people/doug-mccormick/'
     },
     {
-      range: 'Sheet1!C18:J18', // SunTx Capital (row 18)
-      values: [[
-        'Ned N. Fleming III',
-        'Founder & Managing Partner',
-        'nfleming@suntx.com',
-        'http://www.suntxcapitalpartners.com',
-        'https://www.linkedin.com/in/ned-n-fleming-iii-8bb34484',
-        'Infrastructure, Industrials, Construction',
-        'Email pattern n***@suntx.com verified via ZoomInfo/RocketReach. Dallas-based. Board member Construction Partners Inc (public). Harvard MBA.',
-        'Enriched'
-      ]]
+      firmName: 'Gryphon Investors',
+      contactName: 'R. David Andrews',
+      title: 'Founder & Co-CEO',
+      email: '',
+      linkedin: '',
+      status: 'Needs Manual Research',
+      notes: 'Founder & Co-CEO with Nicholas Orum as Co-CEO/Co-CIO. Team page available but no individual emails listed.',
+      source: 'https://www.gryphon-inv.com/team/'
     },
     {
-      range: 'Sheet1!C2:J2', // Basis Vectors Capital (row 2)
-      values: [[
-        'Ambarish Gupta',
-        'Founder & CEO',
-        'ambarish@basisvectors.com',
-        'http://www.basisvectors.com',
-        'https://www.linkedin.com/in/ambarishngupta',
-        'AI, SaaS, Vertical Software',
-        'Email pattern a*******@basisvectors.com verified via Growjo. $50M fund. Ex-Knowlarity founder. NYC-based. Carnegie Mellon MBA.',
-        'Enriched'
-      ]]
+      firmName: 'Pamlico Capital',
+      contactName: 'Watts Hamrick',
+      title: 'Managing Partner',
+      email: '',
+      linkedin: 'https://www.linkedin.com/in/watts-hamrick-98912069',
+      status: 'Needs Manual Research',
+      notes: 'Managing Partner - joined Pamlico in 1988. Charlotte-based. No direct email on official site.',
+      source: 'LinkedIn'
     },
     {
-      range: 'Sheet1!C3:J3', // C2FO (row 3)
-      values: [[
-        'Alexander "Sandy" Kemper',
-        'Founder & CEO',
-        'skemper@c2fo.com',
-        'http://www.c2fo.com',
-        'https://www.linkedin.com/in/alexander-sandy-kemper-b2366812',
-        'FinTech, Supply Chain Finance, Working Capital',
-        'Email pattern s***@c2fo.com verified via ZoomInfo/Growjo. KC-based. Investors: Peter Thiel, Temasek. Customers: Amazon, Costco.',
-        'Enriched'
-      ]]
+      firmName: 'Brighton Park Capital',
+      contactName: 'Mark Dzialga',
+      title: 'Founder & Managing Partner',
+      email: '',
+      linkedin: 'https://www.linkedin.com/in/mark-dzialga-109893172',
+      status: 'Needs Manual Research',
+      notes: 'Founder & MP - previously Managing Director at General Atlantic. Investment Committee member.',
+      source: 'https://www.bpc.com/team/mark-f-dzialga'
     }
   ];
+
+  // Read current sheet data
+  const result = await sheets.spreadsheets.values.get({
+    spreadsheetId,
+    range: 'Sheet1!A:I',
+  });
   
-  console.log('Updating Google Sheet with batch 2 enrichments...');
-  
-  for (const update of updates) {
-    try {
-      await sheets.spreadsheets.values.update({
+  const rows = result.data.values;
+  console.log(`Found ${rows.length} total rows in sheet`);
+
+  // Process each enrichment
+  for (const enrich of enrichments) {
+    let rowIndex = -1;
+    for (let i = 1; i < rows.length; i++) {
+      const firmName = rows[i][0] || '';
+      if (firmName.toLowerCase().includes(enrich.firmName.toLowerCase())) {
+        rowIndex = i;
+        break;
+      }
+    }
+
+    if (rowIndex === -1) {
+      console.log(`⚠️  Firm not found: ${enrich.firmName}`);
+      continue;
+    }
+
+    const updates = [];
+    
+    if (enrich.contactName) {
+      updates.push({
+        range: `Sheet1!C${rowIndex + 1}`,
+        values: [[enrich.contactName]]
+      });
+    }
+    
+    if (enrich.title) {
+      updates.push({
+        range: `Sheet1!D${rowIndex + 1}`,
+        values: [[enrich.title]]
+      });
+    }
+    
+    if (enrich.linkedin) {
+      updates.push({
+        range: `Sheet1!G${rowIndex + 1}`,
+        values: [[enrich.linkedin]]
+      });
+    }
+    
+    if (enrich.status) {
+      updates.push({
+        range: `Sheet1!H${rowIndex + 1}`,
+        values: [[enrich.status]]
+      });
+    }
+    
+    const existingNotes = rows[rowIndex][8] || '';
+    const newNotes = existingNotes 
+      ? `${existingNotes} | ${enrich.notes}` 
+      : enrich.notes;
+    
+    updates.push({
+      range: `Sheet1!I${rowIndex + 1}`,
+      values: [[newNotes]]
+    });
+
+    if (updates.length > 0) {
+      await sheets.spreadsheets.values.batchUpdate({
         spreadsheetId,
-        range: update.range,
-        valueInputOption: 'RAW',
         requestBody: {
-          values: update.values
+          data: updates,
+          valueInputOption: 'RAW'
         }
       });
-      console.log(`✓ Updated ${update.range}`);
-    } catch (error) {
-      console.error(`✗ Failed to update ${update.range}:`, error.message);
+      console.log(`✅ Updated: ${enrich.firmName} (Row ${rowIndex + 1})`);
     }
   }
-  
-  console.log('\n=== BATCH 2 ENRICHMENT SUMMARY ===');
-  console.log('Additional firms enriched: 4');
-  console.log('1. Turn/River Capital - Dominic Ang (Founder/MP) - dominic@turnrivercapital.com');
-  console.log('2. SunTx Capital - Ned Fleming (Founder/MP) - nfleming@suntx.com');
-  console.log('3. Basis Vectors Capital - Ambarish Gupta (Founder/CEO) - ambarish@basisvectors.com');
-  console.log('4. C2FO - Sandy Kemper (Founder/CEO) - skemper@c2fo.com');
-  console.log('\nRunning total: 8 firms enriched');
+
+  console.log('\n🎯 Batch 2 enrichment complete!');
 }
 
 enrichBatch2().catch(console.error);

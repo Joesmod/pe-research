@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-03-13T22:39:25.436Z",
+  "totalRows": 1184,
+  "needsEnrichment": 23,
+  "targetedForEnrichment": 15,
+  "leads": [
+    {
+      "rowIndex": 2,
+      "company": "Audax Private Equity",
+      "website": "https://www.audaxprivateequity.com",
+      "contact": "Ken MacFadyen",
+      "email": "media@audaxprivateequity.com",
+      "status": "Enriched",
+      "notes": "Apollo-verified. Zoe Overstreet (VP BD). Also: Meghan Carter (VP BD), Patrick Wood (VP BD), Matthew Gosselin (MD), Jason Ellis (MD), Stephen Weaver (MD). 9 verified contacts total. 2026-02-19 enrichment.",
+      "reason": "Generic email"
+    },
+    {
+      "rowIndex": 67,
+      "company": "Bow River Capital",
+      "website": "https://www.bowrivercapital.com",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched",
+      "notes": "Mid-market PE with software growth equity focus. Denver-based. Email pattern inferred from RocketReach h******@bowrivercapital.com (likely ghiatrides). Source: ZoomInfo, bowrivercapital.com/team",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 575,
+      "company": "Bruin Capital",
+      "website": "http://www.bruincptl.com",
+      "contact": "George Pyne",
+      "email": "",
+      "status": "New - Unresearched",
+      "notes": "18.9% 6mo growth. Founded 2015. Apollo score: 16. Alts: Jeffrey (Partner) | Brendan (Vice President)",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 577,
+      "company": "Butterfly Equity",
+      "website": "http://www.bfly.com",
+      "contact": "Dustin Beck",
+      "email": "",
+      "status": "New - Unresearched",
+      "notes": "2.2% 6mo growth. Founded 2016. Rev: 8.7M. Apollo score: 16. Alts: Adam (Co-Founder, Co-CEO) | Francesco (Managing Director)",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 578,
+      "company": "Callais Capital",
+      "website": "http://www.callaiscapital.com",
+      "contact": "Harold Callais",
+      "email": "",
+      "status": "New - Unresearched",
+      "notes": "42.9% 6mo growth. Founded 2014. Apollo score: 16",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 583,
+      "company": "Character Capital",
+      "website": "http://www.character.vc",
+      "contact": "John Zeratsky",
+      "email": "",
+      "status": "New - Unresearched",
+      "notes": "25.0% 6mo growth. Founded 2021. Apollo score: 16. Alts: Eli (Co-Founder and General Partner) | Jake (General Partner)",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 909,
+      "company": "Backstroke",
+      "website": "Brian Smith",
+      "contact": "Chief Technology Officer",
+      "email": "",
+      "status": "Dead - Not PE/VC",
+      "notes": "NOT a private equity or venture capital firm. Previously noted Steve had proposal call (~$70K/mo) that did not pan out. 2026-03-13 verification.",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 910,
+      "company": "Satso",
+      "website": "Alan Maggi",
+      "contact": "CEO",
+      "email": "",
+      "status": "Dead - Not PE/VC",
+      "notes": "NOT a private equity or venture capital firm. Pro-sobriety SaaS needing CTO/dev. Steve followed up, did not pan out. 2026-03-13 verification.",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 947,
+      "company": "Bow River Capital",
+      "website": "https://www.bowrivercapital.com",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched",
+      "notes": "Mid-market PE, $2.5B+ AUM. Raised $590M for Fund III (2023). Denver-based. Focus on services roll-ups and value creation. Email pattern inferred. Enriched 2026-03-07.",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 948,
+      "company": "Bow River Capital",
+      "website": "https://www.bowrivercapital.com",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched - Web Research 2026-03-07",
+      "notes": "",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 952,
+      "company": "Bow River Capital",
+      "website": "",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "2026-03-12",
+      "notes": "Manual research only - not found in Apollo.io",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 955,
+      "company": "Bow River Capital",
+      "website": "",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched - Denver-based, ~$2.5B AUM. Email format: last@bowrivercapital.com. Source: bowrivercapital.com/team",
+      "notes": "",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 974,
+      "company": "Bow River Capital",
+      "website": "",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched",
+      "notes": "Apollo: No contacts found | 2026-03-09",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 1011,
+      "company": "Bow River Capital",
+      "website": "https://www.bowrivercapital.com",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched",
+      "notes": "Email not publicly available. Generic: info@bowrivercapital.com. Phone: Listed on website.",
+      "reason": "No email"
+    },
+    {
+      "rowIndex": 1018,
+      "company": "Bow River Capital",
+      "website": "https://www.bowrivercapital.com",
+      "contact": "Jane Ingalls",
+      "email": "",
+      "status": "Enriched",
+      "notes": "Added 2026-03-11 - Research sweep | Focuses on Evergreen Private Equity | Source: Bow River Evergreen website",
+      "reason": "No email"
+    }
+  ]
+}

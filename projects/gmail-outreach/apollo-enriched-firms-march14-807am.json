@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Rockwood Equity",
+    "domain": "rockwoodequity.com",
+    "website": "https://www.rockwoodequity.com",
+    "sector": "Lower middle-market PE, B2B services, healthcare, aerospace & defense",
+    "notes": "Offices in Cleveland, Denver, NYC. Portfolio includes 24+ companies.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Needs Manual Research",
+    "enrichmentNotes": "Apollo search returned no results. Needs manual research."
+  },
+  {
+    "company": "Linden Capital Partners",
+    "domain": "linden.com",
+    "website": "https://www.linden.com",
+    "sector": "Middle-market healthcare & life sciences",
+    "notes": "Structured Capital Fund II at $400M (2024). Chicago-based.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Needs Manual Research",
+    "enrichmentNotes": "Apollo search returned no results. Needs manual research."
+  },
+  {
+    "company": "Lightyear Capital",
+    "domain": "lycap.com",
+    "website": "https://www.lycap.com",
+    "sector": "Financial services, fintech, healthcare, business services",
+    "notes": "Founded 2000, NYC-based, sector-specialist PE firm ~$5B+ AUM.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Needs Manual Research",
+    "enrichmentNotes": "Apollo search returned no results. Needs manual research."
+  },
+  {
+    "company": "One Equity Partners",
+    "domain": "oneequity.com",
+    "website": "https://www.oneequity.com",
+    "sector": "Middle market industrial, healthcare, technology",
+    "notes": "North America and Europe focus.",
+    "contactName": "",
+    "title": "",
+    "email": "",
+    "linkedin": "",
+    "status": "Needs Manual Research",
+    "enrichmentNotes": "Apollo search returned no results. Needs manual research."
+  }
+]

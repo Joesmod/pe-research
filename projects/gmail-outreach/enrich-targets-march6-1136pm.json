@@ -1,0 +1,706 @@
+[
+  {
+    "row": 690,
+    "company": "Wall Street Oasis",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Financial careers website (not PE)",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 691,
+    "company": "Wall Street Prep",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Training company (not PE)",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 692,
+    "company": "Wefunder",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Crowdfunding platform (not PE)",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 699,
+    "company": "Alta Park Capital, LP",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Hedge Fund",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 704,
+    "company": "Apercen Partners LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 708,
+    "company": "ArrowMark Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Asset Manager",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 719,
+    "company": "Capital Allocators",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Podcast/Media",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 724,
+    "company": "Carmel Capital Partners",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing contact name"
+  },
+  {
+    "row": 733,
+    "company": "Davidson Kempner Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Hedge Fund",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 737,
+    "company": "Dynamics Search Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 741,
+    "company": "Essex Investment Management Company, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Asset Manager",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 744,
+    "company": "Funden",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm (fundraising platform)",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 750,
+    "company": "Highland Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - VC Firm",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 753,
+    "company": "Institutional Limited Partners Association (ILPA)",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Trade association (not PE)",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 754,
+    "company": "Investment Management Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 756,
+    "company": "Koinz Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 762,
+    "company": "Manulife | Comvest Credit Partners",
+    "contact": "Robert O'Sullivan",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 763,
+    "company": "Mercury Fund",
+    "contact": "Blair Garrou",
+    "email": "blair@mercuryfund.com",
+    "status": "Enriched",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 770,
+    "company": "Obra Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 773,
+    "company": "Pathway Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Not Direct PE",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 778,
+    "company": "Pzena Investment Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 779,
+    "company": "Quake Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Dead - Early Stage VC",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 785,
+    "company": "Riverwood Capital",
+    "contact": "Sr. Director, Marketing & Communications",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 786,
+    "company": "Riviera Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 788,
+    "company": "Roebling Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 789,
+    "company": "RRML Capital Resources",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 790,
+    "company": "Sageview Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 792,
+    "company": "Sculptor Capital Management",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 794,
+    "company": "Silver Oak Services Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 799,
+    "company": "STORY3 Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 800,
+    "company": "Strategic Value Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 801,
+    "company": "Tennenbaum Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 802,
+    "company": "Thrive Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 803,
+    "company": "TimesSquare Capital Management, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 804,
+    "company": "Trian Fund Management, L.P.",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 805,
+    "company": "Trinity Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 807,
+    "company": "TriplePoint Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 808,
+    "company": "UNC Kenan-Flagler Private Equity Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 811,
+    "company": "Wildcat Capital Management",
+    "contact": "David Bonderman",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 813,
+    "company": "Yellowstone Capital Partners, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 815,
+    "company": "26North",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 816,
+    "company": "414 Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 817,
+    "company": "777 Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 818,
+    "company": "A-Grade Investments",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 819,
+    "company": "Accelerize 360",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 821,
+    "company": "ACRE",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 822,
+    "company": "Aduro Advisors",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 823,
+    "company": "AEC Advisors LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 824,
+    "company": "Affinity.co",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 825,
+    "company": "AgFunder",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 826,
+    "company": "Alari Search, LLC",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 827,
+    "company": "AlchemistX",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 828,
+    "company": "ALCOR Fund",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 829,
+    "company": "Alkymi",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 830,
+    "company": "All Raise",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 831,
+    "company": "Allvue Systems",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 832,
+    "company": "Anthemis Group",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 833,
+    "company": "Anzu Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 834,
+    "company": "Arcis Golf",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 835,
+    "company": "Arctos",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 836,
+    "company": "Argand Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 837,
+    "company": "Ascension Advisory",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 838,
+    "company": "Atlanta Tech Village",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 839,
+    "company": "Atlas Private Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 840,
+    "company": "Atlas Search",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 843,
+    "company": "American Industrial Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 844,
+    "company": "Wind Point Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 856,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 860,
+    "company": "CCMP Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 867,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 868,
+    "company": "Accel-KKR",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 872,
+    "company": "Salt Creek Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 874,
+    "company": "Warren Equity Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 878,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 885,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 887,
+    "company": "Peak Rock Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 889,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 891,
+    "company": "Odyssey Investment Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 892,
+    "company": "Arsenal Capital Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 893,
+    "company": "Symphony Technology Group (STG)",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 907,
+    "company": "Odyssey Investment Partners",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 908,
+    "company": "Muse",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 909,
+    "company": "Backstroke",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 910,
+    "company": "Satso",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 914,
+    "company": "Goode Partners",
+    "contact": "David Oddi",
+    "email": "",
+    "status": "Verified from official website team page",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 915,
+    "company": "Goode Partners",
+    "contact": "David Oddi",
+    "email": "",
+    "status": "Enriched",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 935,
+    "company": "Carousel Capital",
+    "contact": "Jacob Zodikoff",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  },
+  {
+    "row": 937,
+    "company": "The Riverside Company",
+    "contact": "Béla Szigethy",
+    "email": "",
+    "status": "Partial",
+    "reason": "Missing/generic email"
+  }
+]

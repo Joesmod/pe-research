@@ -1,0 +1,62 @@
+[
+  {
+    "Company Name": "HRCap, Inc.",
+    "Contact Name": "Andrew Sungsoo Kim",
+    "Title": "President & CEO",
+    "Email": "andrew@hrcap.com",
+    "LinkedIn": "https://www.linkedin.com/in/andrew-sungsoo-kim-377899a/",
+    "Status": "Enriched",
+    "Portfolio Companies": "Source: ContactOut (verified). Founded HRCap 2000, 35+ years HR/org leadership expertise. Ridgefield Park, NJ."
+  },
+  {
+    "Company Name": "Jett Capital Advisors",
+    "Contact Name": "Sam Grauer",
+    "Title": "Founding Partner, Head of Capital Markets",
+    "Email": "sgrauer@jettcapital.com",
+    "LinkedIn": "https://www.linkedin.com/in/sam-grauer-4519606/",
+    "Status": "Enriched",
+    "Portfolio Companies": "Source: RocketReach pattern. Global leader in special situations and project finance advisory. NYC-based."
+  },
+  {
+    "Company Name": "ScaleView Partners",
+    "Contact Name": "Gabe Wilcox",
+    "Title": "Co-Founder & Partner",
+    "Email": "gabe@scaleviewpartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/gabe-wilcox/",
+    "Status": "Enriched - Investment Bank",
+    "Portfolio Companies": "Source: RocketReach pattern. Investment bank for tech M&A. Former founder (MineralSoft exit 2018), M&A banker, PE investor. Austin, TX."
+  },
+  {
+    "Company Name": "Apex Service Partners",
+    "Contact Name": "Scott Gaines",
+    "Title": "COO, Southeast Region",
+    "Email": "sgaines@apexservicepartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/scott-gaines/",
+    "Status": "Enriched - Platform Co",
+    "Portfolio Companies": "Source: RocketReach pattern. HVAC/plumbing/electrical platform backed by Alpine Investors. 8000+ employees. Tampa, FL."
+  },
+  {
+    "Company Name": "Bespoke Partners",
+    "Contact Name": "Eric Walczykowski",
+    "Title": "CEO",
+    "Email": "eric.w@bespokepartners.com",
+    "LinkedIn": "https://www.linkedin.com/in/eric-walczykowski/",
+    "Status": "Enriched - Search Firm",
+    "Portfolio Companies": "Source: ContactOut (verified). Executive search firm for software/SaaS. Growth exec, $4.5B+ exits. San Diego, CA."
+  },
+  {
+    "Company Name": "Kinect Capital",
+    "Status": "Dead - Not PE",
+    "Portfolio Companies": "501(c)(3) non-profit educational organization. Not a PE firm."
+  },
+  {
+    "Company Name": "Aeris Partners",
+    "Status": "Dead - Not PE",
+    "Portfolio Companies": "Investment bank / M&A advisory. Not a PE investor."
+  },
+  {
+    "Company Name": "Odyssey Search Partners",
+    "Status": "Dead - Not PE",
+    "Portfolio Companies": "Executive search firm placing investment professionals. Not a PE firm."
+  }
+]

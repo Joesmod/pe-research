@@ -1,130 +1,126 @@
 const { google } = require('googleapis');
-const key = require('./service-account.json');
-
-const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-
-// Enriched leads with verified contact information
-const enrichedLeads = [
-  {
-    row: 8, // AgIS Capital
-    contactName: 'Jeffrey Conrad',
-    title: 'President & Founder',
-    email: 'jconrad@agiscapital.com',
-    linkedin: 'https://www.linkedin.com/in/jeffrey-conrad-cfa-b265202/',
-    status: 'Enriched',
-    notes: 'Source: RocketReach + official website team page'
-  },
-  {
-    row: 12, // Altimeter
-    contactName: 'Brad Gerstner',
-    title: 'Founder & CEO',
-    email: 'bgerstner@altimeter.com',
-    linkedin: 'https://www.linkedin.com/in/bradgerstner/',
-    status: 'Enriched',
-    notes: 'Source: RocketReach + conference bios'
-  },
-  {
-    row: 17, // Author Capital
-    contactName: 'Duane Jackson',
-    title: 'Founder & Managing Partner',
-    email: 'djackson@authorcapital.com',
-    linkedin: 'https://www.linkedin.com/in/dujackson/',
-    status: 'Enriched',
-    notes: 'Source: Emerging Manager Monthly directory'
-  },
-  {
-    row: 18, // AVB Invest
-    contactName: 'Serge Garden',
-    title: 'Founder & President',
-    email: 'sgarden@avbinvest.com',
-    linkedin: 'https://www.linkedin.com/company/avb-invest',
-    status: 'Enriched',
-    notes: 'Source: RocketReach + official contact page'
-  },
-  {
-    row: 19, // Avenue Capital
-    contactName: 'Sonia Gardner',
-    title: 'Co-Founder & Managing Partner',
-    email: 'sgardner@avenuecapital.com',
-    linkedin: 'https://www.linkedin.com/in/sonia-gardner-812a801ba/',
-    status: 'Enriched',
-    notes: 'Source: RocketReach + official team page'
-  },
-  {
-    row: 23, // Blackmore Partners
-    contactName: 'Gerald O\'Dwyer',
-    title: 'Managing Director & Founder',
-    email: 'godwyer@blackmorepartnersinc.com',
-    linkedin: 'https://www.linkedin.com/in/geraldodwyer/',
-    status: 'Enriched',
-    notes: 'Source: RocketReach + official bio page'
-  },
-  {
-    row: 26, // Burch Creative Capital
-    contactName: 'Christopher Burch',
-    title: 'Founder & CEO',
-    email: 'christopher@burchcreativecapital.com',
-    linkedin: 'https://www.linkedin.com/in/christopher-burch-116531123/',
-    status: 'Enriched',
-    notes: 'Source: ContactOut + ZoomInfo'
-  },
-  {
-    row: 31, // Carousel Capital
-    contactName: 'Charles Grigg',
-    title: 'Managing Partner',
-    email: 'cgrigg@carouselcapital.com',
-    linkedin: 'https://www.linkedin.com/in/charles-grigg-2839793/',
-    status: 'Enriched',
-    notes: 'Source: Apollo.io + official team page'
-  },
-  {
-    row: 4, // Activant Capital
-    contactName: 'Andrew Steele',
-    title: 'Partner',
-    email: 'asteele@activantcapital.com',
-    linkedin: 'https://www.linkedin.com/in/andrew-steele-562308a0/',
-    status: 'Enriched',
-    notes: 'Source: Adapt.io + official team page'
-  }
-];
 
 async function updateSheet() {
   const auth = new google.auth.GoogleAuth({
-    credentials: key,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
-
+  
   const sheets = google.sheets({ version: 'v4', auth });
-
-  console.log(`Updating ${enrichedLeads.length} leads in Google Sheet...`);
-
-  for (const lead of enrichedLeads) {
-    const range = `Sheet1!D${lead.row}:J${lead.row}`;
+  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+  
+  // Define the enrichment data
+  const enrichments = [
+    {
+      row: 1202, // Svoboda Capital Partners
+      company: 'Svoboda Capital Partners',
+      contact: 'Tom Brooker',
+      title: 'Managing Director & Operating Partner',
+      email: 'tbrooker@svoco.com',
+      website: 'https://svoco.com',
+      linkedin: 'https://www.linkedin.com/in/tom-brooker-4aa87b15/',
+      status: 'Enriched',
+      notes: 'Email verified via ContactOut. Chicago-based PE firm, $400M+ AUM, founded 1998, focuses on business services.'
+    },
+    {
+      row: 1203, // GenNx360 Capital Partners
+      company: 'GenNx360 Capital Partners',
+      contact: 'Carmen Rojas',
+      title: 'Director of Investor Relations',
+      email: 'crojas@gennx360.com',
+      website: 'https://gennx360.com',
+      linkedin: '',
+      status: 'Enriched',
+      notes: 'Email from PR Newswire press release (Jan 2025). NYC-based PE firm, founded 2006, industrial & business services focus.'
+    },
+    {
+      row: 1204, // WILsquare Capital
+      company: 'WILsquare Capital',
+      contact: 'Bill Willhite',
+      title: 'Managing Partner & Co-Founder',
+      email: 'bwillhite@WILsquare.com',
+      website: 'https://www.wilsquare.com',
+      linkedin: '',
+      status: 'Enriched',
+      notes: 'Email from official website contact page. St. Louis-based PE firm, lower middle-market, Midwest & South focus.'
+    },
+    {
+      row: 1198, // Rockwood Equity (replacing Brett Keith)
+      company: 'Rockwood Equity',
+      contact: 'Kate Faust',
+      title: 'Partner, Business Development',
+      email: 'kfaust@rockwoodequity.com',
+      website: 'https://www.rockwoodequity.com',
+      linkedin: 'https://www.linkedin.com/in/katefaust',
+      status: 'Enriched',
+      notes: 'Email pattern verified via RocketReach (first_initial+last@domain, 100%). Lower middle-market PE, 25 years experience.'
+    },
+    {
+      row: 1199, // Linden Capital Partners (replacing Anthony B. Davis)
+      company: 'Linden Capital Partners',
+      contact: 'Prab Chawla',
+      title: 'Managing Director',
+      email: 'pchawla@lindenllc.com',
+      website: 'https://www.linden.com',
+      linkedin: 'https://www.linkedin.com/in/prabchawla/',
+      status: 'Enriched',
+      notes: 'Email pattern verified via RocketReach (first_initial+last@lindenllc.com, 99%). Chicago-based, healthcare-focused PE.'
+    },
+    {
+      row: 1201, // One Equity Partners (replacing J.B. Cherry)
+      company: 'One Equity Partners',
+      contact: 'David Lippin',
+      title: 'Partner, Head of Investor Relations',
+      email: 'david.lippin@oneequity.com',
+      website: 'https://www.oneequity.com',
+      linkedin: 'https://www.linkedin.com/in/david-lippin-5921775/',
+      status: 'Enriched',
+      notes: 'Email pattern verified via RocketReach (first.last@oneequity.com, 99.4%). Middle-market PE, industrial/healthcare/tech sectors.'
+    }
+  ];
+  
+  console.log(`\n=== UPDATING ${enrichments.length} LEADS IN GOOGLE SHEET ===\n`);
+  
+  for (const item of enrichments) {
+    const range = `Sheet1!A${item.row}:L${item.row}`;
+    
+    // Column mapping:
+    // A=Company, B=NotebookLM, C=Contact Name, D=Title, E=Email, F=Website, G=LinkedIn, H=Status, I=Notes
     const values = [[
-      lead.contactName,
-      lead.title,
-      lead.email,
-      lead.linkedin,
-      lead.status,
-      '',  // Date Sent (empty for now)
-      lead.notes
+      item.company,
+      '', // NotebookLM column (leave empty)
+      item.contact,
+      item.title,
+      item.email,
+      item.website,
+      item.linkedin,
+      item.status,
+      item.notes,
+      '', // Status (duplicate? leave empty)
+      '', // Last Contacted
+      ''  // Notes (duplicate? leave empty)
     ]];
-
+    
     try {
       await sheets.spreadsheets.values.update({
-        spreadsheetId: SHEET_ID,
+        spreadsheetId,
         range,
         valueInputOption: 'RAW',
         resource: { values }
       });
-      console.log(`✓ Updated row ${lead.row}: ${lead.contactName} at ${enrichedLeads.find(l => l.row === lead.row)?.email}`);
+      
+      console.log(`✓ Row ${item.row}: ${item.company} → ${item.contact} (${item.email})`);
     } catch (error) {
-      console.error(`✗ Failed to update row ${lead.row}:`, error.message);
+      console.error(`✗ Row ${item.row}: ${item.company} - Error:`, error.message);
     }
   }
-
-  console.log('\nEnrichment complete!');
-  console.log(`Total leads enriched: ${enrichedLeads.length}`);
+  
+  console.log(`\n=== ENRICHMENT COMPLETE ===`);
+  console.log(`Total leads enriched: ${enrichments.length}`);
+  console.log(`\nNext steps:`);
+  console.log(`1. Verify updates in Google Sheet`);
+  console.log(`2. Update GitHub dossiers in pe-research/PE-firms/`);
+  console.log(`3. Commit and push to https://github.com/Joesmod/pe-research`);
 }
 
 updateSheet().catch(console.error);

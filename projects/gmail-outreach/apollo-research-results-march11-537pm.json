@@ -1,0 +1,56 @@
+[
+  {
+    "row": 567,
+    "company": "AVB Invest",
+    "contact": "Serge Garden",
+    "email": "team@avbinvest.com",
+    "status": "Partial - Generic Contact Only",
+    "website": "https://avbinvest.com",
+    "apolloContacts": []
+  },
+  {
+    "row": 117,
+    "company": "Keltic Financial Partners",
+    "contact": "Steve Fischer",
+    "email": "",
+    "status": "Inactive - Website Offline",
+    "website": "https://www.kelticfp.com",
+    "apolloContacts": []
+  },
+  {
+    "row": 410,
+    "company": "Goodwater Capital",
+    "contact": "Chi-Hua Chien",
+    "email": "",
+    "status": "Researched - No Public Email",
+    "website": "",
+    "apolloContacts": []
+  },
+  {
+    "row": 493,
+    "company": "360 Equipment Finance",
+    "contact": "Kip Amstutz",
+    "email": "",
+    "status": "Researched - No Public Contact",
+    "website": "",
+    "apolloContacts": []
+  },
+  {
+    "row": 513,
+    "company": "Forerunner",
+    "contact": "Kirsten Green",
+    "email": "",
+    "status": "Researched - Email Unverified",
+    "website": "",
+    "apolloContacts": []
+  },
+  {
+    "row": 566,
+    "company": "Avathon Capital",
+    "contact": "Jason Rosenberg",
+    "email": "",
+    "status": "Enriched - Contact Verified",
+    "website": "https://avathoncapital.com",
+    "apolloContacts": []
+  }
+]

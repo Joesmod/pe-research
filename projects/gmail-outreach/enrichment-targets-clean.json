@@ -1,0 +1,27 @@
+[
+    {
+        "Email":  "",
+        "Company":  "Bow River Capital",
+        "LinkedIn":  "https://www.bowrivercapital.com/team",
+        "Website":  "https://www.bowrivercapital.com",
+        "ContactName":  "Greg J. Hiatrides",
+        "Reason":  "Generic/missing email"
+    },
+    {
+        "Email":  "",
+        "Company":  "Amulet Capital Partners",
+        "LinkedIn":  "https://www.linkedin.com/company/amulet-capital-partners",
+        "Website":  "https://amuletcapital.com",
+        "ContactName":  "Avi Uttamchandani",
+        "Reason":  "Generic/missing email"
+    },
+    {
+        "Email":  "",
+        "Company":  "Trivest Partners",
+        "LinkedIn":  "https://www.linkedin.com/company/trivestpartners",
+        "Website":  "https://www.trivestpartners.com",
+        "ContactName":  "Reid Callaway",
+        "Reason":  "Generic/missing email"
+    }
+]
+

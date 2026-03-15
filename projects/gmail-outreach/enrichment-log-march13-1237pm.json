@@ -1,0 +1,22 @@
+[
+  {
+    "row": 909,
+    "company": "Backstroke",
+    "contact": "Brian",
+    "title": "Chief Technology Officer",
+    "email": "",
+    "linkedin": "",
+    "totalFound": 2,
+    "status": "enriched"
+  },
+  {
+    "row": 910,
+    "company": "Satso",
+    "contact": "Alan",
+    "title": "CEO",
+    "email": "",
+    "linkedin": "",
+    "totalFound": 11,
+    "status": "enriched"
+  }
+]

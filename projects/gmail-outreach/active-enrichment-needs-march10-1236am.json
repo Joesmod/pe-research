@@ -1,0 +1,24 @@
+[
+  {
+    "row": 724,
+    "company": "Carmel Capital Partners",
+    "contact": "Russell Silberstein",
+    "email": "",
+    "website": "",
+    "status": "Enriched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "Missing/Generic Email"
+  },
+  {
+    "row": 763,
+    "company": "Mercury Fund",
+    "contact": "Blair Garrou",
+    "email": "blair@mercuryfund.com",
+    "website": "http://www.mercuryfund.com",
+    "status": "Enriched",
+    "needsContact": false,
+    "needsEmail": true,
+    "reason": "Missing/Generic Email"
+  }
+]

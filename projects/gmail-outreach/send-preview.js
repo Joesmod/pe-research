@@ -1,59 +1,42 @@
-const fs = require('fs');
-const { google } = require('googleapis');
+const { sendEmail } = require('./send.js');
 
-const CREDS_PATH = __dirname + '/credentials.json';
-const TOKEN_PATH = __dirname + '/token.json';
+const previewEmail = {
+  to: 'alex@hellogumbo.com',
+  subject: '[PREVIEW] One Rock + AI: Operational Analytics for Portfolio Companies',
+  body: `<p><strong>PREVIEW - Do not send batch until approved</strong></p>
 
-function getAuth() {
-  const creds = JSON.parse(fs.readFileSync(CREDS_PATH));
-  const { client_id, client_secret } = creds.installed || creds.web;
-  const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, 'http://localhost:3000/callback');
-  const tokens = JSON.parse(fs.readFileSync(TOKEN_PATH));
-  oAuth2Client.setCredentials(tokens);
-  return oAuth2Client;
-}
+<p><em>This is email 1 of 25. Full batch script: batch-emails-2026-03-12.js</em></p>
 
-async function sendEmail(to, subject, body) {
-  const auth = getAuth();
-  const gmail = google.gmail({ version: 'v1', auth });
+<hr>
 
-  const raw = Buffer.from(
-    `From: Jim from Gumbo <jim@hellogumbo.com>\r\nTo: ${to}\r\nSubject: ${subject}\r\nContent-Type: text/html; charset=utf-8\r\n\r\n<div dir="ltr">${body}</div>`
-  ).toString('base64url');
+<p><strong>To:</strong> aspector@onerockcapital.com (Allison Spector, Managing Director, Head of Sustainability at One Rock Capital Partners)</p>
+<p><strong>Subject:</strong> One Rock + AI: Operational Analytics for Portfolio Companies</p>
 
-  const res = await gmail.users.messages.send({
-    userId: 'me',
-    requestBody: { raw },
-  });
+<hr>
 
-  return res.data.id;
-}
+<p>Allison,</p>
 
-async function sendPreview() {
-  const batch = JSON.parse(fs.readFileSync('email-batch.json', 'utf8'));
-  const firstEmail = batch[0];
-  
-  const previewSubject = `[PREVIEW] ${firstEmail.subject}`;
-  const previewBody = `<strong>PREVIEW - First email from today's batch (25 total)</strong><br><br>
-<strong>Original Recipient:</strong> ${firstEmail.name} &lt;${firstEmail.to}&gt;<br>
-<strong>Company:</strong> ${firstEmail.company}<br>
-<strong>Subject:</strong> ${firstEmail.subject}<br><br>
-<hr><br>
-${firstEmail.body}
-<br><hr><br>
-<strong>📊 Batch Summary:</strong><br>
-- Total emails: ${batch.length}<br>
-- All recipients: Score 8-9, verified, tech/AI/value creation roles<br>
-- No companies contacted in last 7 days<br>
-- BCC'd jeff@ and alex@ on all sends<br><br>
-<strong>Awaiting your approval to send the remaining ${batch.length - 1} emails.</strong>`;
+<p>One Rock's sustainability-led value creation is unique in mid-market PE. As you drive ESG improvements across portfolio companies, there's a massive opportunity to layer in AI-powered operational analytics.</p>
 
-  console.log('📧 Sending preview to alex@hellogumbo.com...\n');
-  
-  const messageId = await sendEmail('alex@hellogumbo.com', previewSubject, previewBody);
-  
-  console.log(`✅ Preview sent (ID: ${messageId})\n`);
-  console.log(`First email preview: ${firstEmail.name} at ${firstEmail.company}`);
-}
+<p>We're <a href="https://hellogumbo.com">Gumbo</a>, an AI consultancy that helps PE firms embed intelligence into their portcos without the heavy lift. We've helped firms like yours turn operational data (supply chain, energy usage, workforce planning) into real-time decision support - and it directly improves sustainability metrics.</p>
 
-sendPreview().catch(console.error);
+<p>Would you be open to a brief call? I'd love to show you how we're helping sustainability-focused firms accelerate value creation with AI.</p>
+
+<p>Best,<br>
+Jim<br>
+<a href="https://hellogumbo.com">Gumbo</a></p>
+
+<hr>
+
+<p><strong>Batch summary:</strong> 25 emails to PE contacts with Gumbo Score >= 8, verified emails, prioritizing tech/AI/value creation roles. No company contacted in last 7 days. Script ready but NOT executed.</p>`,
+  from: 'Jim from Gumbo'
+};
+
+sendEmail(
+  previewEmail.to,
+  previewEmail.subject,
+  previewEmail.body,
+  previewEmail.from
+).then(() => {
+  console.log('✓ Preview sent to Alex');
+}).catch(console.error);

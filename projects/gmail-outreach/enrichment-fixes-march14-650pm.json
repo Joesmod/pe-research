@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-03-14T23:42:06.954Z",
+  "fixedRows": 8,
+  "details": [
+    {
+      "row": 629,
+      "company": "Keystone Capital",
+      "contact": "Scott Gwilliam",
+      "email": "sgwilliam@keystonecapital.com",
+      "status": "Enriched"
+    },
+    {
+      "row": 777,
+      "company": "Prospect Capital Management",
+      "contact": "John Barry",
+      "email": "jbarry@prospectstreet.com",
+      "status": "Enriched"
+    },
+    {
+      "row": 851,
+      "company": "Wynnchurch Capital",
+      "contact": "John Hatherly",
+      "email": "jhatherly@wynnchurch.com",
+      "status": "Enriched"
+    },
+    {
+      "row": 864,
+      "company": "Accel-KKR",
+      "contact": "Tom Barnds",
+      "email": "tbarnds@accel-kkr.com",
+      "status": "Enriched - Email Needs Verification"
+    },
+    {
+      "row": 868,
+      "company": "Accel-KKR",
+      "contact": "Rob Palumbo",
+      "email": "rpalumbo@accel-kkr.com",
+      "status": "Enriched - Email Needs Verification"
+    },
+    {
+      "row": 934,
+      "company": "Amulet Capital Partners",
+      "contact": "Ramsey Frank",
+      "email": "rfrank@amuletcapital.com",
+      "status": "Enriched"
+    },
+    {
+      "row": 940,
+      "company": "Monroe Capital",
+      "contact": "Theodore Koenig",
+      "email": "tkoenig@monroecap.com",
+      "status": "Enriched"
+    },
+    {
+      "row": 998,
+      "company": "Edison Partners",
+      "contact": "Chris Sugden",
+      "email": "csugden@edisonpartners.com",
+      "status": "Enriched"
+    }
+  ]
+}

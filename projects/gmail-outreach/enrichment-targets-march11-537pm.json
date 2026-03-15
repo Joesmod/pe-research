@@ -1,0 +1,20 @@
+[
+  {
+    "row": 567,
+    "company": "AVB Invest",
+    "contact": "Serge Garden",
+    "email": "team@avbinvest.com",
+    "status": "Partial - Generic Contact Only",
+    "website": "https://avbinvest.com",
+    "reason": "Generic email"
+  },
+  {
+    "row": 621,
+    "company": "HSP - Henkel Search Partners",
+    "contact": "",
+    "email": "",
+    "status": "Dead - Not PE Firm",
+    "website": "http://www.henkelsp.com",
+    "reason": "No contact"
+  }
+]

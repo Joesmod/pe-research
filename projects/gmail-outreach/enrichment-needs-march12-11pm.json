@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-03-13T04:09:45.781Z",
+  "total_rows": 999,
+  "needs_enrichment": 3,
+  "candidates": [
+    {
+      "rowNum": 630,
+      "company": "Kinect Capital",
+      "contact": "Danielle undefined",
+      "email": "",
+      "title": "Editor and Associate Director of Marketing",
+      "website": "http://www.kinectcapital.org",
+      "linkedin": "",
+      "status": "dead - not pe firm",
+      "reasons": "No email"
+    },
+    {
+      "rowNum": 801,
+      "company": "Tennenbaum Capital Partners, LLC",
+      "contact": "Jacob Zodikoff",
+      "email": "",
+      "title": "",
+      "website": "http://www.tennenbaumcapital.com",
+      "linkedin": "http://www.linkedin.com/company/tennenbaum-capital-partners-llc",
+      "status": "dead - not pe/vc firm",
+      "reasons": "No email"
+    },
+    {
+      "rowNum": 808,
+      "company": "UNC Kenan-Flagler Private Equity Fund",
+      "contact": "Jacob Zodikoff",
+      "email": "",
+      "title": "",
+      "website": "http://www.kfpefund.com",
+      "linkedin": "http://www.linkedin.com/company/unc-kenan-flagler-private-equity-fund",
+      "status": "dead - student-run pe fund, team rotates annually, not suitable for outreach",
+      "reasons": "No email"
+    }
+  ]
+}

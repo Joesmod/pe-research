@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Serent Capital",
+    "contactName": "Kevin Frick",
+    "title": "Partner",
+    "email": "kevin.frick@serentcapital.com",
+    "linkedinUrl": "http://www.linkedin.com/in/kevinfrick",
+    "website": "http://www.serentcapital.com",
+    "status": "Enriched",
+    "notes": "Apollo verified - March 7, 2026. $5.9B AUM, B2B software/tech-enabled services, founder-led companies. Austin, TX.",
+    "source": "Apollo API",
+    "aum": "$5.9B",
+    "focus": "B2B software, tech-enabled services",
+    "location": "San Francisco / Austin"
+  },
+  {
+    "company": "Serent Capital",
+    "contactName": "Lance Fenton",
+    "title": "Partner",
+    "email": "lance.fenton@serentcapital.com",
+    "linkedinUrl": "http://www.linkedin.com/in/lancefenton",
+    "website": "http://www.serentcapital.com",
+    "status": "Enriched",
+    "notes": "Apollo verified - March 7, 2026. Second contact at Serent Capital.",
+    "source": "Apollo API",
+    "aum": "$5.9B",
+    "focus": "B2B software, tech-enabled services",
+    "location": "San Francisco / Austin"
+  },
+  {
+    "company": "Level Equity",
+    "contactName": "Charles Chen",
+    "title": "Partner",
+    "email": "cchen@levelequity.com",
+    "linkedinUrl": "http://www.linkedin.com/in/charles-chen-a483a6",
+    "website": "http://www.levelequity.com",
+    "status": "Enriched",
+    "notes": "Apollo verified - March 7, 2026. Mid-market technology PE firm, Boston-based.",
+    "source": "Apollo API",
+    "aum": "Mid-market",
+    "focus": "Software, technology",
+    "location": "Boston, MA"
+  },
+  {
+    "company": "Peak Rock Capital",
+    "contactName": "Yunus Jaffrey",
+    "title": "Managing Director",
+    "email": "jaffrey@peakrockcapital.com",
+    "linkedinUrl": "http://www.linkedin.com/in/yunusjaffrey",
+    "website": "http://www.peakrockcapital.com",
+    "status": "Enriched",
+    "notes": "Apollo verified - March 7, 2026. Middle-market PE, manufacturing/distribution/business services focus.",
+    "source": "Apollo API",
+    "aum": "Middle-market",
+    "focus": "Manufacturing, distribution, business services",
+    "location": "Austin, TX"
+  }
+]

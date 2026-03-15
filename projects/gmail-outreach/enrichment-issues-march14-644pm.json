@@ -1,0 +1,137 @@
+[
+  {
+    "rowIndex": 629,
+    "company": "Keystone Capital",
+    "website": "Scott Gwilliam",
+    "contactName": "Managing Partner",
+    "title": "sgwilliam@keystonecapital.com",
+    "email": "https://keystonecapital.com",
+    "issue": "Generic title as name"
+  },
+  {
+    "rowIndex": 777,
+    "company": "Prospect Capital Management",
+    "website": "John Barry",
+    "contactName": "Chairman & CEO",
+    "title": "jbarry@prospectstreet.com",
+    "email": "https://www.linkedin.com/in/john-barry/",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 851,
+    "company": "Wynnchurch Capital",
+    "website": "",
+    "contactName": "John Hatherly",
+    "title": "Managing Partner",
+    "email": "https://www.linkedin.com/in/johnhatherly",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 864,
+    "company": "Accel-KKR",
+    "website": "",
+    "contactName": "Tom Barnds",
+    "title": "Co-Managing Partner",
+    "email": "Rob Palumbo",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 868,
+    "company": "Accel-KKR",
+    "website": "https://www.accel-kkr.com",
+    "contactName": "Tom Barnds",
+    "title": "Co-Managing Partner",
+    "email": "Rob Palumbo",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 928,
+    "company": "Renovus Capital Partners",
+    "website": "$2B+",
+    "contactName": "https://www.renovuscapital.com",
+    "title": "Business Services, Healthcare Services, Industrial Services",
+    "email": "North America",
+    "issue": "URL as name"
+  },
+  {
+    "rowIndex": 929,
+    "company": "SV Capital",
+    "website": "$1.5B+",
+    "contactName": "https://www.svcap.com",
+    "title": "Business Services, Technology-Enabled Services",
+    "email": "North America",
+    "issue": "URL as name"
+  },
+  {
+    "rowIndex": 934,
+    "company": "Amulet Capital Partners",
+    "website": "Ramsey Frank",
+    "contactName": "Managing Partner & Co-Founder",
+    "title": "rfrank@amuletcapital.com",
+    "email": "https://www.linkedin.com/company/amulet-capital-partners",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 940,
+    "company": "Monroe Capital",
+    "website": "Theodore Koenig",
+    "contactName": "Chairman & CEO",
+    "title": "tkoenig@monroecap.com",
+    "email": "https://www.linkedin.com/company/monroe-capital",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 943,
+    "company": "Tritium Partners",
+    "website": "",
+    "contactName": "David Lack",
+    "title": "Managing Partner & Co-Founder",
+    "email": "https://www.linkedin.com/in/davidlack",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 953,
+    "company": "Cressey & Company",
+    "website": "",
+    "contactName": "Bryan Cressey",
+    "title": "Managing Partner",
+    "email": "https://www.linkedin.com/in/bryan-cressey/",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 992,
+    "company": "Shoreview Capital",
+    "website": "https://www.shoreview.com",
+    "contactName": "Peter Zimmerman",
+    "title": "Ben Chesnut",
+    "email": "Vice President",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 993,
+    "company": "Gryphon Investors",
+    "website": "https://www.gryphoninvestors.com",
+    "contactName": "R. David Andrews",
+    "title": "Founder & Co-CEO",
+    "email": "R. David Andrews",
+    "issue": "URL as email"
+  },
+  {
+    "rowIndex": 998,
+    "company": "Edison Partners",
+    "website": "Chris Sugden",
+    "contactName": "Managing Partner",
+    "title": "csugden@edisonpartners.com",
+    "email": "https://www.edisonpartners.com",
+    "issue": "Generic title as name"
+  },
+  {
+    "rowIndex": 1004,
+    "company": "Brighton Park Capital",
+    "website": "https://www.bpc.com",
+    "contactName": "Mark Dzialga",
+    "title": "Founder & Managing Partner",
+    "email": "Mark Dzialga",
+    "issue": "URL as email"
+  }
+]

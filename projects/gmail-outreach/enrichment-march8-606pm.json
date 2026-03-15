@@ -1,0 +1,91 @@
+[
+  {
+    "firm": "Mercury Fund",
+    "contacts": [
+      {
+        "name": "Adrian Fortino",
+        "title": "General Partner",
+        "email": "adrian@mercuryfund.com",
+        "linkedin": "https://www.linkedin.com/in/adrianfortino/",
+        "source": "Official website team page + LinkedIn",
+        "notes": "Leads Midwest office (Ann Arbor). Focus: Enterprise SaaS, Industrial IoT"
+      },
+      {
+        "name": "Aziz Gilani",
+        "title": "General Partner",
+        "email": "aziz@mercuryfund.com",
+        "linkedin": "https://www.linkedin.com/in/azizgilani/",
+        "source": "Official website team page",
+        "notes": "Focus: Enterprise SaaS, Cloud, Data Science. Kauffman Fellow, NVCA Service Award"
+      },
+      {
+        "name": "Samantha Lewis",
+        "title": "Partner",
+        "email": "samantha@mercuryfund.com",
+        "linkedin": "",
+        "source": "Official website team page",
+        "notes": "Focus: Power theme (blockchain, data platforms, fintech). Active Kauffman Fellow"
+      },
+      {
+        "name": "Heath Butler",
+        "title": "Partner",
+        "email": "heath@mercuryfund.com",
+        "linkedin": "",
+        "source": "Official website + ContactOut verification",
+        "notes": "Focus: Work-Tech, Fin-Tech, Sports-Tech. Host of Mercury podcast 'Go Slow to Grow Fast'"
+      }
+    ],
+    "emailPattern": "firstname@mercuryfund.com",
+    "patternVerified": true,
+    "priority": "HIGH"
+  },
+  {
+    "firm": "GTCR",
+    "contacts": [
+      {
+        "name": "Collin Roche",
+        "title": "Co-CEO and Managing Director",
+        "email": "croche@gtcr.com",
+        "linkedin": "https://www.linkedin.com/in/collinroche/",
+        "source": "ContactOut verification + press releases",
+        "notes": "Co-CEO since 2022. Industry group leadership restructuring"
+      },
+      {
+        "name": "Dean Mihas",
+        "title": "Co-CEO",
+        "email": "dmihas@gtcr.com",
+        "linkedin": "",
+        "source": "Press release (March 2022) + inferred pattern",
+        "notes": "Co-CEO with Collin Roche"
+      }
+    ],
+    "emailPattern": "firstinitiallastname@gtcr.com",
+    "patternVerified": true,
+    "priority": "MEDIUM"
+  },
+  {
+    "firm": "Audax Private Equity",
+    "contacts": [
+      {
+        "name": "Geoffrey Rehnert",
+        "title": "Co-CEO, Co-Founder, Executive Chairman",
+        "email": "grehnert@audaxgroup.com",
+        "linkedin": "https://www.linkedin.com/in/geoffrey-rehnert/",
+        "source": "ZoomInfo pattern verification + official website",
+        "notes": "Co-founded Audax in 1999. Chairs investment committee"
+      },
+      {
+        "name": "Marc Wolpow",
+        "title": "Co-CEO, Co-Founder",
+        "email": "mwolpow@audaxgroup.com",
+        "linkedin": "",
+        "source": "Official website + inferred pattern",
+        "notes": "Co-founded with Geoffrey Rehnert in 1999"
+      }
+    ],
+    "emailPattern": "firstinitiallastname@audaxgroup.com",
+    "patternVerified": true,
+    "priority": "MEDIUM",
+    "dataIssue": "Current contact (Ambarish Gupta) has wrong domain: basisvectors.com instead of audaxgroup.com"
+  }
+]

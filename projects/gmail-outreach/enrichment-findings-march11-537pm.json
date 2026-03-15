@@ -1,0 +1,66 @@
+[
+  {
+    "row": 567,
+    "company": "AVB Invest",
+    "currentContact": "Serge Garden",
+    "currentEmail": "team@avbinvest.com",
+    "finding": {
+      "name": "Serge Garden",
+      "title": "Founder & President",
+      "email": "serge@avbinvest.com",
+      "emailPattern": "firstname@domain",
+      "linkedin": "https://www.linkedin.com/in/serge-garden-87852659",
+      "source": "RocketReach + LinkedIn",
+      "confidence": "High",
+      "notes": "Confirmed founder from RocketReach (s******@avbinvest.com). Also found Oleg Novikov as Software Engineer."
+    }
+  },
+  {
+    "row": 410,
+    "company": "Goodwater Capital",
+    "currentContact": "Chi-Hua Chien",
+    "currentEmail": "",
+    "finding": {
+      "name": "Chi-Hua Chien",
+      "title": "Co-Founder & Managing Partner",
+      "email": "cchien@goodwatercap.com",
+      "emailPattern": "firstinitiallastname@domain",
+      "linkedin": "https://www.linkedin.com/in/chchien",
+      "source": "RocketReach + VCSheet + Crunchbase",
+      "confidence": "High",
+      "notes": "Domain confirmed as goodwatercap.com. Pattern c******@goodwatercap.com from RocketReach."
+    }
+  },
+  {
+    "row": 513,
+    "company": "Forerunner",
+    "currentContact": "Kirsten Green",
+    "currentEmail": "",
+    "finding": {
+      "name": "Kirsten Green",
+      "title": "Founder & Managing Partner",
+      "email": "kirsten@forerunnerventures.com",
+      "emailPattern": "firstname@domain",
+      "linkedin": "https://www.linkedin.com/in/kirstenagreen",
+      "source": "VCSheet + Company Website",
+      "confidence": "Medium-High",
+      "notes": "Twitter handle @kirstenagreen. Forerunner Ventures official site confirmed."
+    }
+  },
+  {
+    "row": 566,
+    "company": "Avathon Capital",
+    "currentContact": "Jason Rosenberg",
+    "currentEmail": "",
+    "finding": {
+      "name": "Jason Rosenberg",
+      "title": "Managing Partner",
+      "email": "jrosenberg@avathoncapital.com",
+      "emailPattern": "firstinitiallastname@domain",
+      "linkedin": "https://www.linkedin.com/in/jrosenberg1/",
+      "source": "Company website + LinkedIn",
+      "confidence": "Medium-High",
+      "notes": "Active on Avathon press releases as Managing Partner. LinkedIn /in/jrosenberg1"
+    }
+  }
+]

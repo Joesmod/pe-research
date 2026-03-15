@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-03-07T17:40:51.531Z",
+  "enrichments": [
+    {
+      "row": 10,
+      "contactName": "Rich Lawson",
+      "title": "CEO & Co-Founder",
+      "email": "rlawson@hggc.com",
+      "linkedin": "https://www.linkedin.com/in/richlawson-hggc/",
+      "website": "https://www.hggc.com",
+      "status": "Enriched",
+      "notes": "Source: ContactOut - verified email"
+    },
+    {
+      "row": 5,
+      "contactName": "David Kim, MD, MBA",
+      "title": "Co-Founder & General Partner",
+      "email": "",
+      "linkedin": "https://www.regalhcp.com/team/davidkim",
+      "website": "https://www.regalhcp.com",
+      "status": "Partial",
+      "notes": "Co-Founder identified, domain @regalhcp.com confirmed, email verification needed"
+    },
+    {
+      "row": 9,
+      "contactName": "Brandon White",
+      "title": "Managing Director & Co-Head, Flagship",
+      "email": "",
+      "linkedin": "https://www.charlesbank.com/team/brandon-white/",
+      "website": "https://www.charlesbank.com",
+      "status": "Partial",
+      "notes": "Managing Director identified, domain @charlesbank.com confirmed, email verification needed"
+    },
+    {
+      "row": 12,
+      "contactName": "Eric Bommer",
+      "title": "Managing Partner",
+      "email": "",
+      "linkedin": "https://www.sentinelpartners.com/member/eric-d-bommer/",
+      "website": "https://www.sentinelpartners.com",
+      "status": "Partial",
+      "notes": "Managing Partner identified, domain @sentinelpartners.com confirmed (pattern: last@domain), email verification needed"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "verified": 1,
+    "partial": 3
+  }
+}
