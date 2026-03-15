@@ -56,18 +56,24 @@
 - Jacob Roche - Chief Financial Officer
 - Derrek Drozdyk - Managing Partner, TGIF
 
-**General Contact (Verified):**
-- **Email:** info@trivest.com
+**Published Contacts (Verified):**
+- **General Email:** info@trivest.com
+- **Chris Berton** - Paralegal
+  - **Email:** cberton@trivest.com
+  - **Source:** https://www.trivest.com/refer-a-business/ (March 15, 2026)
+  - **Notes:** Listed as contact for intermediary agreements. Can route inquiries internally.
+- **Chris Norton** - Sr. Associate, Operations & Investor Relations
+  - **Role:** Operations & IR contact
+  - **Source:** Team page, ContactOut listings
 - **Phone:** (305) 858-2200
-- **Source:** Official factsheet (trivest.com, March 9 2026)
 - **Offices:** Miami | Charlotte | Chicago | Los Angeles | Philadelphia | Toronto
 
 ## Research Notes
 
 - **Added:** 2026-03-09
-- **Updated:** 2026-03-09 4:36 PM CT (Hourly Enrichment Run)
-- **Source:** Web research (official website trivest.com, factsheet PDF, team page)
-- **Status:** Partial - General contact verified (info@trivest.com), individual partner emails NOT publicly available
+- **Updated:** 2026-03-15 12:07 PM CT (Hourly Enrichment Run - Sunday)
+- **Source:** Web research (official website trivest.com, factsheet PDF, team page, referral program page)
+- **Status:** Partial - General contact + one employee email verified (cberton@trivest.com), partner emails NOT publicly available
 - **Priority:** High - founder-friendly culture, services focus, $3.3B+ AUM
 - **Team Structure:** Multiple funds (Mid-Market, Discovery, Recognition, TGIF, PSG). Large team (100+ people).
 - **Key Decision Makers:** Troy Templeton (Chairman), Chris Weldon (Managing Partner, Mid-Market), Forest Wester (Managing Partner, Discovery)
