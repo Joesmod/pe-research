@@ -8,17 +8,17 @@
 
 ## Key Contacts
 
-### Matthew Garff
+### Matthew Garff (✅ VERIFIED)
 - **Title:** Senior Managing Director & Partner
 - **Role:** Co-Head of US Transaction Team
 - **Office:** Los Angeles
 - **Tenure:** 23+ years at Sun Capital
 - **Focus Sectors:** Services, food, consumer
+- **Email:** mgarff@suncappart.com (pattern verified: [first_initial][last]@suncappart.com per RocketReach 87.5%)
 - **LinkedIn:** https://www.linkedin.com/in/matthew-garff-a2b254b/
 - **Prior Experience:** The Carlyle Group
 - **Source:** Official team page - suncappart.com/team/matthew-n-garff
-- **Status:** No public email found
-- **Last Updated:** 2026-03-12
+- **Enriched:** 2026-03-14
 
 ### Rossen Georgiev
 - **Title:** Managing Director & Co-Head of US Transaction Team

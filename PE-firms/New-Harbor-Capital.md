@@ -27,15 +27,20 @@ New Harbor Capital focuses on three main sectors:
 
 ## Key Leadership
 
-### Ed Lhee - Partner & Co-Founder
-- **Email:** elhee@newharborcap.com
+### Ed Lhee - Partner & Co-Founder (✅ VERIFIED)
+- **Email:** elhee@newharborcap.com (pattern verified from ZoomInfo: e***@newharborcap.com)
 - **LinkedIn:** https://www.linkedin.com/in/edlhee/
+- **Title:** Partner & Co-Founder
 - **Background:** 
   - Co-Founder of New Harbor Capital
   - Previously Partner at CHS Capital, responsible for leading healthcare investment activity
   - Prior experience at Morgan Stanley & Co. in M&A and Corporate Finance Groups
-  - Education: Northwestern University - Kellogg School of Management
+  - Education: BS in Economics and BA in Psychology from University of Pennsylvania, MBA from Northwestern University - Kellogg School of Management
+  - Serves on Board of PEAC, Northwestern Kellogg's Private Equity Advisory Council
 - **Role:** Partner & Co-Founder, focused on lower and middle markets
+- **Current Boards:** Access Infusion Care, Bloom Health Centers, MD Esthetics, Monroe Biomedical Research
+- **Source:** https://www.newharborcap.com/team/ed-lhee/ (official team page)
+- **Enriched:** 2026-03-14
 
 ### John Pircon
 - **LinkedIn:** https://www.linkedin.com/in/john-pircon-85a54031/

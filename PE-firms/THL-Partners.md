@@ -50,11 +50,20 @@ THL focuses investment activity across four industry sectors:
   - Extensive board experience
 - **Role:** Chairman, Management Committee
 
-### Tom Hagerty - Managing Director
-- **Email:** thagerty@thl.com
+### Thomas Hagerty - Managing Director (✅ VERIFIED)
+- **Email:** thagerty@thl.com (pattern verified: [first_initial][last]@thl.com per RocketReach 91.6%)
 - **LinkedIn:** https://www.linkedin.com/in/tom-hagerty-a8a330135/
 - **Location:** Boston
-- **Role:** Managing Director, Management Committee
+- **Title:** Managing Director, Management Committee member
+- **Tenure:** Joined THL in 1988 (35+ years)
+- **Focus:** Financial Technology & Services, Healthcare, Technology & Business Solutions
+- **Background:**
+  - Member of Management Committee (confirmed via Wikipedia)
+  - Prior: Morgan Stanley & Co. Mergers and Acquisitions Department
+  - Board experience: Black Knight Inc., Ceridian HCM Holdings Inc., Dun & Bradstreet Corporation, FleetCor Technologies Inc., Fidelity National Financial
+  - Investor in multiple sectors across THL's portfolio
+- **Source:** Wikipedia, Berklee profile, official team pages
+- **Enriched:** 2026-03-14
 
 ### Dan (COO and Head of SRG)
 - **Role:** COO and Head of the Strategic Resources Group (SRG)
