@@ -1,31 +1,36 @@
 # Excellere Partners
 
-**Website:** https://excellere.com  
-**Headquarters:** Denver, CO  
-**Founded:** 2015  
-**AUM:** ~$2.5B  
+## Overview
+- **Website**: https://excellere.com
+- **Alternative**: https://excellerepartners.com
+- **Focus**: Healthcare, Business Services, Industrial Growth
+- **Location**: Denver, CO
+- **Strategy**: Operationally-focused growth equity
 
-## Focus
-Healthcare services private equity
+## Key Contacts
 
-## Key Contact
-**Brad Cornell**  
-Managing Partner & Founding Partner  
-Email: bcornell@excellerepartners.com  
-LinkedIn: https://www.linkedin.com/in/brad-cornell-excellere/  
+### Brad Cornell
+- **Title**: Managing Partner
+- **Email**: bcornell@excellerepartners.com (verified via ContactOut, Adapt, RocketReach)
+- **Phone**: +1-303-765-****
+- **LinkedIn**: https://www.linkedin.com/in/brad-cornell-016325a3
+- **Background**:
+  - Former Director at Lake Capital
+  - Current/former board seats: Parcelshield Holdings, Two Labs Pharma Services, TrialCard, Personable Insurance, Integrated Petroleum Technologies, G2 Integrated Solutions
+  - Education: University of Pennsylvania - Wharton School
 
-## Notes
-- Email pattern verified via RocketReach (b******@)
-- Healthcare-focused PE firm with $2.5B+ AUM
-- Recent exit: Two Labs to Envision Pharma Group (GHO Capital portfolio company)
-- Managing Partner per excellere.com press releases
-- Promoted team members in Nov 2022: Eric, Ross, Mike
+## Email Format
+- **Pattern**: first_initial + last@excellerepartners.com (primary)
+- **Alternative**: @excellere.com
+- **Confidence**: High - verified across ContactOut, Adapt.io, RocketReach
 
-## Research Date
-2026-03-17 (Hourly cron enrichment)
+## Investment Focus
+- Healthcare services and technology
+- Business services with recurring revenue
+- Industrial growth companies
+- Focus on operational value creation
 
-## Source
-- excellere.com/news-item/excellere-partners-announces-promotions/
-- RocketReach
-- Apollo.io
-- LinkedIn
+## Enrichment Status
+- **Last Updated**: 2026-03-25
+- **Enrichment Quality**: Very High - Email verified across 3 independent sources
+- **Source**: ContactOut, Adapt.io, RocketReach, company website
