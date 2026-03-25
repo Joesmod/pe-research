@@ -1,16 +1,21 @@
 # ShoreView Industries (aka Shoreview Capital)
 
 ## Status
-**Enriched** - Contact Identified (March 9, 2026)
-**NOTE:** Likely DUPLICATE of existing row 13 in spreadsheet
+**Enriched** - Contact Verified (March 13, 2026)
+**Row 14** - Garrett Davis (VP Business Development) verified
 
 ## Key Contact
-- **Name:** Peter Zimmerman
-- **Title:** Partner (leads Diversified Industrials Group)
-- **Email:** NOT FOUND
-- **LinkedIn:** https://www.linkedin.com/in/peter-zimmerman-a9b4a918/
+- **Name:** Garrett Davis
+- **Title:** Vice President, Business Development
+- **Email:** garrett@shoreview.com (VERIFIED from official team page)
+- **LinkedIn:** https://www.linkedin.com/in/garrett-davis-78717328/
 - **Company LinkedIn:** https://www.linkedin.com/company/shoreview-industries-llc
 - **Location:** Minneapolis, MN
+
+## Alternative Contacts
+- **Peter Zimmerman** - Partner (Diversified Industrials Group)
+  - LinkedIn: https://www.linkedin.com/in/peter-zimmerman-a9b4a918/
+  - Email: NOT FOUND
 
 ## Firm Overview
 - **Type:** Private Equity (Lower Middle Market)
@@ -62,14 +67,20 @@ Focus on:
 - LinkedIn active (1,107 followers)
 
 ## Existing Contact in Database
-**WARNING:** Spreadsheet row 13 already has:
+**Row 14 (Updated 2026-03-13):**
 - **Company:** ShoreView Industries
 - **Contact:** Garrett Davis
-- **Title:** Business Development
+- **Title:** Vice President, Business Development
 - **Email:** garrett@shoreview.com
-- **Status:** Contacted (2026-02-27)
+- **LinkedIn:** https://www.linkedin.com/in/garrett-davis-78717328/
+- **Website:** https://www.shoreview.com
+- **Status:** Enriched - Web Research 2026-03-13
 
-Row 992 "Shoreview Capital" is likely a duplicate entry without the full name.
+**Background:**
+- Joined ShoreView in 2019
+- Responsible for deal origination and developing relationships with deal sources
+- Previously investment banking associate at Piper Sandler (Minneapolis)
+- B.S. in Accounting from Montana State University, M.B.A. from University of Minnesota - Carlson School of Management
 
 ## Value Proposition Angle
 - Operational improvements for founder/family-owned businesses
@@ -108,6 +119,6 @@ Row 992 "Shoreview Capital" is likely a duplicate entry without the full name.
 - 9 partners = consider multi-point outreach strategy if high priority
 
 ---
-*Last Updated: March 9, 2026 9:44 AM CST*
+*Last Updated: March 13, 2026 5:39 AM CST*
 *Research: Jim (PE Research Cron - Hourly Enrichment)*
-*DUPLICATE WARNING: See Row 13 for existing contact (Garrett Davis)*
+*Contact VERIFIED: Garrett Davis email found on official team page*

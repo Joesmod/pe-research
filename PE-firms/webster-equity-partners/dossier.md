@@ -1,6 +1,6 @@
 # Webster Equity Partners
 
-**Status:** Enriched 2026-03-12  
+**Status:** Enriched 2026-03-13 (Re-verified)  
 **AUM:** $600M+  
 **Focus:** Mid-market healthcare services and branded consumer
 
@@ -8,9 +8,10 @@
 
 **David Malm**  
 - **Title:** Managing Partner  
-- **Email:** dmalm@websterequitypartners.com (inferred from PitchBook pattern "dm")  
+- **Email:** dmalm@websterequitypartners.com (✅ VERIFIED - official website team page)  
 - **LinkedIn:** https://www.linkedin.com/in/david-malm/  
 - **Location:** Waltham, MA
+- **Source:** https://websterequitypartners.com/team-member/ (published 2024-03-29)
 
 ## Firm Overview
 

@@ -10,7 +10,9 @@
 ## Key Contact
 - **Name:** Suzanne Yoon
 - **Title:** Founder, Managing Partner, Chief Investment Officer
-- **Email:** syoon@kinziecp.com (verified via RocketReach 2026-03-12)
+- **Email (Primary):** syoon@chelsealighting.com (Apollo verified 2026-03-13)
+- **Email (Alternate):** syoon@kinziecp.com (RocketReach 2026-03-12)
+- **Note:** Apollo returned portfolio company email domain (chelsealighting.com); may indicate active role in portfolio operations
 - **LinkedIn:** https://www.linkedin.com/in/suzanneyoon/
 - **Phone:** (312) 809-2490 (main office)
 

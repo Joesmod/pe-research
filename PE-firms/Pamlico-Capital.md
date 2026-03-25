@@ -31,7 +31,23 @@
 ## Key Team Members
 - **Team size:** ~10 investment professionals
 - **Experience:** Deep lower middle-market expertise
-- **Note:** Specific team member details not yet researched
+
+### L. Watts Hamrick III - Managing Partner (✅ VERIFIED)
+- **Email:** watts.hamrick@pamlicocapital.com (verified from official website)
+- **LinkedIn:** https://www.linkedin.com/in/watts-hamrick-98912069/
+- **Title:** Managing Partner (since 2005)
+- **Experience:** Joined firm in 1988 (35+ years)
+- **Focus:** Services & Digital Infrastructure industries
+- **Source:** https://www.pamlicocapital.com/team/l-watts-hamrick-iii (official team page)
+- **Enriched:** 2026-03-14
+
+### Eric Eubank, II - Partner (✅ VERIFIED)
+- **Email:** eric.eubank@pamlicocapital.com (verified from official website)
+- **LinkedIn:** https://www.linkedin.com/in/eric-eubank-70062231
+- **Focus:** Healthcare, Services, and Software industries
+- **Board Seats:** Silverline (current)
+- **Source:** https://www.pamlicocapital.com/team/eric-eubank-ii (official team page)
+- **Enriched:** 2026-03-12
 
 ## Contact Information
 - **Website:** www.pamlicocapital.com (verify)

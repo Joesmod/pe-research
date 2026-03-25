@@ -19,11 +19,16 @@
 **Quote:** "Our investment in OTC is a great case study of how we work with our businesses to develop and grow together. This is the third liquidity event for our firm this year..."  
 **Research Date:** 2026-03-12
 
-### Senior Team (per Wikipedia 2025)
-- Ron Kuehl
-- Michael Langdon
+### Ron Kuehl
+**Title:** Managing Partner  
+**Email:** rkuehl@frontenac.com (VERIFIED from ContactOut 2026-03-13)  
+**LinkedIn:** https://www.linkedin.com/in/ron-kuehl-74a217a2  
+**Source:** ContactOut + Wikipedia (2025) lists as senior team member
+
+### Other Senior Team (per Wikipedia 2025)
+- Michael Langdon (Managing Director - mlangdon@frontenac.com pattern)
 - Joe Rondinelli
-- Elizabeth Williamson
+- Elizabeth Williamson (Managing Director - ewilliamson@frontenac.com pattern)
 
 ## Research Notes
 

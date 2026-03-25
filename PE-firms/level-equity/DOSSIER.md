@@ -1,64 +1,38 @@
 # Level Equity
 
-## Overview
-- **Website:** levelequity.com
-- **Type:** Private Equity - Growth Capital
-- **Focus:** Lower middle market software and technology-enabled businesses
-- **AUM:** $6.4 Billion
-- **Founded:** 2009
-- **Headquarters:** New York, NY (Two Grand Central Tower, 140 East 45th Street, 42nd Floor)
+**Website:** https://www.levelequity.com  
+**Focus:** Software and technology-enabled businesses  
+**AUM:** $6.4B
 
-## Primary Contact
-- **Name:** Ben Levin
-- **Title:** Co-Founder and CEO
-- **Email:** ben@levelequity.com
-- **Phone:** (212) 660-2475
-- **LinkedIn:** https://www.linkedin.com/in/ben-levin-level-equity
-- **Source:** Official website team page (verified 2026-03-08)
+## Key Contact
 
-## Secondary Contact
-- **Name:** Sarah Sommer
-- **Title:** Co-Founder and Partner
-- **Email:** [pattern: firstname@levelequity.com]
-- **Source:** Official website team page
+**Name:** Ben Levin  
+**Title:** Co-Founder & CEO  
+**Email:** blevin@levelequity.com  
+**LinkedIn:** https://www.linkedin.com/in/benjamin-levin-a3116
 
-## Key Team Members
-- Barry Osherow - Partner, Structured Capital
-- Charles Chen - Partner
-- Gautam Gupta - Partner
-- Nick Berardo - Partner
-- Chris Isaac - Partner
-- Ray Carey - Head of NextLevel Operations
-- Nate Linn - Partner and Chief Operating Officer
+## Research Notes
 
-## Investment Strategy
-- **Transaction Types:**
-  - Minority Growth Capital
-  - Majority Growth Equity & Recaps
-  - Structured Equity & Credit Solutions
-- **Geographies:** North America, Europe, Israel, Australia & New Zealand
-- **Sector Focus:** B2B Software in non-cyclical industries with growing tech spend & durable business models
+- **Source:** Web research + RocketReach email format verification
+- **Last Updated:** 2026-03-14
+- **Enrichment Status:** Verified
+- **Email Pattern:** first_initial+last@levelequity.com (93.9% verified via RocketReach)
+- **Other Key Contacts:** George McCulloch (Co-Founder), Sarah Sommer (Co-Founder)
+- **Portfolio Size:** 125+ investments
+- **Geography:** North America, Europe, Australia, New Zealand
+- **Value Creation:** NextLevel Operations (in-house value creation engine)
 
-## Portfolio Highlights
-- 125+ investments since inception
-- 550+ add-on acquisitions completed
-- Notable companies: Tripleseat, Fusion Risk, Planet DDS, Instaclustr, CloudCheckr, simPRO
+## Firm Profile
 
-## Value Creation
-- **NextLevel Operations:** In-house value creation engine
-- Dedicated operating partners
-- Focus areas: Go-to-Market, Retention, Revenue Operations, Marketing, Change Management, Technology, AI
+Level Equity is a middle-market private investment firm founded in 2009 by Ben Levin, George McCulloch, and Sarah Sommer. The firm focuses on providing growth capital to rapidly growing software and technology-enabled businesses. They invest across the capital structure and emphasize operational support through their NextLevel Operations platform.
 
-## Enrichment Details
-- **Enriched Date:** 2026-03-08
-- **Status:** Fully Enriched
-- **Research Method:** Official website team page, verified email from levelequity.com contact pages
-- **Email Pattern:** firstname@levelequity.com (verified for CEO)
+## Outreach Strategy
 
-## Notes
-- Lower middle market focus makes them ideal for our outreach
-- Strong tech/SaaS focus aligns with AI automation offerings
-- Active value creation model suggests receptivity to operational improvement tools
-- Email verified from official source - HIGH CONFIDENCE
-- Team of 60+ investment professionals + 15+ dedicated operating partners
-- Testimonials emphasize partnership approach and support for management teams
+- **Target:** Co-Founder & CEO - top-level decision-maker
+- **Value Prop:** AI-powered transformation for software portfolio companies
+- **Angles:** Growth acceleration, digital transformation, operational excellence
+- **Next Steps:** Emphasize experience with tech-enabled services and scalable platforms
+
+---
+
+*Dossier created by automated PE research enrichment - 2026-03-14*

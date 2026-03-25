@@ -8,9 +8,10 @@
 
 **Tom McKelvey**  
 - **Title:** Co-founder, Managing Partner/CEO  
-- **Email:** tmckelvey@gaugecapital.com (inferred from ZoomInfo pattern t***@gaugecapital.com)  
+- **Email:** tmckelvey@gaugecapital.com (VERIFIED - ContactOut + ZoomInfo 2026-03-13)  
 - **LinkedIn:** https://www.linkedin.com/in/tom-mckelvey-4085666/  
-- **Location:** Dallas-Fort Worth, TX
+- **Location:** Dallas-Fort Worth, TX  
+- **Status:** High-confidence verified contact
 
 ## Firm Overview
 

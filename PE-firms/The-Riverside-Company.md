@@ -12,6 +12,7 @@ Global private equity firm targeting smaller end of middle market with 1,000+ in
 
 ### Stewart Kohl - Co-CEO
 - **Email:** skohl@riversidecompany.com
+- **Phone:** +1-216-344-1040 (Cleveland), +1-212-265-6575 (NY)
 - **Location:** Cleveland HQ
 - **LinkedIn:** https://www.linkedin.com/in/stewart-kohl/
 - **Source:** Company website + email format verified (FLast@riversidecompany.com 94%+ usage)

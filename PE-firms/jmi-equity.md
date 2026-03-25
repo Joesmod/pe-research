@@ -20,9 +20,10 @@ JMI Equity has focused on software and AI-driven companies for 30+ years through
   - Board observer: OpenSesame
   
 - **Harry Gruner** - Co-Founder & Co-Managing General Partner
-  - Email: harry.gruner@jmi.com (pattern inferred)
+  - Email: hgruner@jmi.com (Apollo verified 2026-03-13)
   - Co-founded JMI in 1992
   - 30+ years working with software companies
+  - LinkedIn: https://www.linkedin.com/in/harry-gruner
 
 ## Portfolio Companies (Current)
 - **Agiloft** - Contract lifecycle management

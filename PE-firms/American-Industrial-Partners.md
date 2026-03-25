@@ -53,4 +53,16 @@ Flat, consensus-driven organization with:
 - Engineers
 - Operating executives
 
-**Last Updated:** 2026-03-08 (Cron enrichment)
+**Last Updated:** 2026-03-13 (Cron enrichment - verified email pattern)
+
+## Email Pattern Verification (2026-03-13)
+- **Primary Format:** `first`@americanindustrial.com
+- **Confidence:** 69.2% (RocketReach)
+- **Alternative Format:** `first_initial` + `last`@americanindustrial.com (secondary)
+- **Sources:** RocketReach, LeadIQ, ContactOut, ZoomInfo
+- **Verification:** Kim Marvin confirmed as Managing Partner via Wikipedia, Bloomberg, official website
+
+## Additional Managing Partners (Wikipedia 2026)
+- **Kim Marvin** - Managing Partner (Transactions)
+- **John Becker** - Managing Partner
+- **Dino Cusumano** - Managing Partner

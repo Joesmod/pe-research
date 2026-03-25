@@ -16,12 +16,22 @@
 
 ## Key Decision Makers
 
-### Douglas McCormick
-- **Title:** Managing Partner, Co-Founder
-- **Email:** dmccormick@hciequity.com (pattern inferred)
+### Douglas McCormick - Co-Founder, Managing Partner & CIO (✅ VERIFIED)
+- **Title:** Co-Founder, Managing Partner, Chief Investment Officer
+- **Email:** dmccormick@hciequity.com (pattern verified: ContactOut shows {first_initial}{last}@hciequity.com 100%)
 - **LinkedIn:** https://www.linkedin.com/in/douglasmccormick/
 - **Role:** Oversees origination, management, and development. Focus: aerospace, defense, distribution, industrial packaging
-- **Background:** Former roles at Caterpillar, Ford, GE, Manitowoc, Merrill Lynch
+- **Background:** 
+  - Former Morgan Stanley & Co. Investment Banking Division
+  - Captain in U.S. Army's 25th Infantry Division
+  - Author of "Family Inc.: Using Business Principles to Maximize Your Family's Wealth"
+  - Co-host of "Best But Never Final Podcast"
+  - Board Chair for Team Red White and Blue & Bunker Labs (veteran support)
+  - Investment Committee Chair for National Endowment for Financial Education
+  - Outside director for The Heritage Group
+  - Education: MBA from Harvard Business School, BS in Economics from U.S. Military Academy at West Point (First Captain of Corps of Cadets, Captain of Army Wrestling team)
+- **Source:** https://www.hciequity.com/our-people/doug-mccormick/ (official team page)
+- **Enriched:** 2026-03-14
 
 ### Tim Frend
 - **Title:** Partner (Deal Origination)

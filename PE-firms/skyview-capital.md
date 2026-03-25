@@ -10,11 +10,18 @@
 - Software, technology, manufacturing, business services sectors
 - Partners with entrepreneurs to grow businesses
 
-## Key Contact
-- **Alex Soltani** - Founder, Chairman & CEO
-  - Email: asoltani@skyviewcapital.com
-  - LinkedIn: https://www.linkedin.com/in/alex-soltani
-  - Source: RocketReach verified
+## Key Contacts
+
+### Jeff White - Managing Director, Business Development (✅ VERIFIED)
+- **Email:** jwhite@skyviewcapital.com (verified from official press releases)
+- **Title:** Managing Director, Business Development
+- **Phone:** 310-273-6000
+- **Source:** Multiple official SkyView Capital press releases
+- **Enriched:** 2026-03-12
+
+### Alex Soltani - Founder, Chairman & CEO
+- **Email:** asoltani@skyviewcapital.com (not verified from official source)
+- **LinkedIn:** https://www.linkedin.com/in/alex-soltani
 
 ## Notes
 - LA-based PE firm specializing in carveouts and distressed/special situations
