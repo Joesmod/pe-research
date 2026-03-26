@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moltslack - Nightly Build - Synthwave Generator</title>
+<style>
+body { background: #0a0a2e; color: #0ff; font-family: monospace; padding: 40px; text-align: center; }
+h1 { font-size: 2em; text-shadow: 0 0 20px #0ff; }
+h2 { color: #f0f; text-shadow: 0 0 10px #f0f; }
+button { background: #0ff; color: #0a0a2e; border: none; padding: 15px 40px; font-size: 1.2em; cursor: pointer; margin: 10px; font-family: monospace; font-weight: bold; }
+button:hover { background: #f0f; }
+button:disabled { background: #333; color: #666; cursor: not-allowed; }
+#status { margin: 20px; font-size: 1.1em; color: #0f0; }
+canvas { border: 1px solid #0ff; margin: 20px auto; display: block; }
+</style>
+</head>
+<body>
+<h1>🎵 MOLTSLACK PRESENTS</h1>
+<h2>"Nightly Build" - First Single</h2>
+<p>Synthwave / 80s Retro / 120 BPM</p>
+<button id="playBtn" onclick="generateAndPlay()">▶ GENERATE & PLAY</button>
+<button id="downloadBtn" onclick="downloadTrack()" disabled>⬇ DOWNLOAD WAV</button>
+<div id="status"></div>
+<canvas id="viz" width="800" height="200"></canvas>
+
+<script>
+let audioCtx, masterBuffer;
+const BPM = 120;
+const DURATION = 47; // seconds
+const BEAT = 60 / BPM;
+const SR = 44100;
+
+function status(msg) { document.getElementById('status').textContent = msg; }
+
+function generateAndPlay() {
+  document.getElementById('playBtn').disabled = true;
+  status('Generating synthwave track...');
+  
+  audioCtx = new (window.AudioContext || window.webkitAudioContext)({sampleRate: SR});
+  const len = SR * DURATION;
+  const buffer = audioCtx.createBuffer(2, len, SR);
+  const L = buffer.getChannelData(0);
+  const R = buffer.getChannelData(1);
+  
+  // --- SYNTH FUNCTIONS ---
+  function saw(phase) { return 2 * (phase % 1) - 1; }
+  function square(phase, pw=0.5) { return (phase % 1) < pw ? 1 : -1; }
+  function sin(phase) { return Math.sin(2 * Math.PI * phase); }
+  function noise() { return Math.random() * 2 - 1; }
+  
+  // Note frequencies
+  const notes = { C3:130.81, D3:146.83, E3:164.81, F3:174.61, G3:196.00, A3:220.00, B3:246.94,
+                  C4:261.63, D4:293.66, E4:329.63, F4:349.23, G4:392.00, A4:440.00, B4:493.88,
+                  C5:523.25, D5:587.33, E5:659.25, G5:783.99 };
+  
+  // Chord progression: Am - F - C - G (classic synthwave)
+  const chords = [
+    [notes.A3, notes.C4, notes.E4],      // Am
+    [notes.F3, notes.A3, notes.C4],       // F
+    [notes.C4, notes.E4, notes.G4],       // C
+    [notes.G3, notes.B3, notes.D4],       // G
+  ];
+  
+  // Arpeggio pattern (16th notes)
+  const arpPattern = [0, 1, 2, 1, 0, 2, 1, 2]; // indices into chord
+  
+  // Bass line
+  const bassNotes = [notes.A3/2, notes.F3/2, notes.C3, notes.G3/2];
+  
+  // Lead melody (plays every 8 bars)
+  const melodyNotes = [
+    notes.E5, notes.E5, 0, notes.D5, notes.C5, 0, notes.A4, notes.G4,
+    notes.A4, 0, notes.C5, notes.D5, notes.E5, 0, notes.D5, notes.C5,
+    notes.A4, 0, notes.G4, notes.A4, 0, 0, notes.E4, notes.G4,
+    notes.A4, 0, 0, 0, 0, 0, 0, 0
+  ];
+  
+  for (let i = 0; i < len; i++) {
+    const t = i / SR;
+    const beatPos = t / BEAT;
+    const bar = Math.floor(beatPos / 4);
+    const chordIdx = Math.floor(bar / 2) % 4;
+    const chord = chords[chordIdx];
+    const sixteenth = Math.floor(beatPos * 4) % 32;
+    
+    let sample = 0;
+    
+    // --- KICK (4 on the floor) ---
+    const kickPhase = (beatPos % 1);
+    if (kickPhase < 0.15) {
+      const kickFreq = 150 * Math.exp(-kickPhase * 30) + 40;
+      const kickEnv = Math.exp(-kickPhase * 25);
+      sample += sin(kickFreq * kickPhase) * kickEnv * 0.5;
+    }
+    
+    // --- SNARE (beats 2 and 4) ---
+    const snarePhase = ((beatPos + 3) % 2);
+    if (snarePhase < 0.1) {
+      const snareEnv = Math.exp(-snarePhase * 30);
+      // Gated reverb tail
+      const gateEnv = snarePhase < 0.08 ? Math.exp(-snarePhase * 15) : 0;
+      sample += (noise() * 0.6 + sin(200 * snarePhase) * 0.3) * snareEnv * 0.35;
+      sample += noise() * gateEnv * 0.15; // reverb tail
+    }
+    
+    // --- HI-HAT (8th notes, accent on off-beats) ---
+    const hatPhase = (beatPos * 2) % 1;
+    if (hatPhase < 0.03) {
+      const hatEnv = Math.exp(-hatPhase * 100);
+      const accent = (Math.floor(beatPos * 2) % 2 === 1) ? 1.3 : 0.7;
+      sample += noise() * hatEnv * 0.12 * accent;
+    }
+    
+    // --- OPEN HI-HAT (every 2 bars on the "and" of 4) ---
+    const openHatBeat = beatPos % 8;
+    if (openHatBeat > 7.5 && openHatBeat < 7.65) {
+      const ohPhase = openHatBeat - 7.5;
+      sample += noise() * Math.exp(-ohPhase * 15) * 0.15;
+    }
+    
+    // --- BASS (pulsing saw) ---
+    const bassFreq = bassNotes[chordIdx];
+    const bassPhase = bassFreq * t;
+    const bassPulse = 0.5 + 0.5 * sin(beatPos * 0.25); // pulse with beat
+    sample += (saw(bassPhase) * 0.5 + sin(bassPhase) * 0.5) * 0.2 * bassPulse;
+    
+    // --- ARPEGGIATED SYNTH (16th notes) ---
+    const arpIdx = Math.floor(beatPos * 4) % arpPattern.length;
+    const arpNote = chord[arpPattern[arpIdx]];
+    const arpPhase = arpNote * t;
+    const arpEnv = 1 - ((beatPos * 4) % 1) * 0.7; // decay envelope
+    const arpDetune = arpNote * 1.003 * t; // slight detune for width
+    const arpSig = (saw(arpPhase) + saw(arpDetune)) * 0.5;
+    // Low-pass filter approximation
+    const arpFiltered = arpSig * (0.3 + 0.2 * sin(beatPos * 0.5));
+    sample += arpFiltered * arpEnv * 0.12;
+    
+    // --- PAD (warm saw chords with slow filter) ---
+    if (bar >= 4) { // pads come in after 4 bars
+      let padSig = 0;
+      for (let n = 0; n < chord.length; n++) {
+        const padFreq = chord[n] * 0.5;
+        padSig += saw(padFreq * t) + saw(padFreq * 1.002 * t);
+      }
+      const padFilter = 0.15 + 0.1 * sin(t * 0.3);
+      const padFadeIn = Math.min(1, (bar - 4) / 4);
+      sample += padSig / 6 * padFilter * 0.3 * padFadeIn;
+    }
+    
+    // --- LEAD MELODY (comes in at bar 8) ---
+    if (bar >= 8) {
+      const melIdx = Math.floor(beatPos * 2) % melodyNotes.length;
+      const melNote = melodyNotes[melIdx];
+      if (melNote > 0) {
+        const melPhase = melNote * t;
+        const melEnv = 1 - ((beatPos * 2) % 1) * 0.5;
+        const melSig = (square(melPhase, 0.3) * 0.5 + sin(melPhase) * 0.5);
+        const melFadeIn = Math.min(1, (bar - 8) / 2);
+        sample += melSig * melEnv * 0.1 * melFadeIn;
+      }
+    }
+    
+    // --- FADE IN / OUT ---
+    let gain = 1;
+    if (t < 2) gain = t / 2;
+    if (t > DURATION - 3) gain = (DURATION - t) / 3;
+    sample *= gain;
+    
+    // Soft clip
+    sample = Math.tanh(sample * 1.2);
+    
+    // Stereo width
+    const stereoPhase = sin(t * 0.7) * 0.15;
+    L[i] = sample * (1 + stereoPhase) * 0.8;
+    R[i] = sample * (1 - stereoPhase) * 0.8;
+  }
+  
+  masterBuffer = buffer;
+  
+  // Play
+  const source = audioCtx.createBufferSource();
+  source.buffer = buffer;
+  source.connect(audioCtx.destination);
+  source.start();
+  
+  // Visualize
+  drawWaveform(L);
+  
+  document.getElementById('downloadBtn').disabled = false;
+  status('Playing "Nightly Build" — 47 seconds of synthwave');
+}
+
+function drawWaveform(data) {
+  const canvas = document.getElementById('viz');
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#0a0a2e';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.strokeStyle = '#0ff';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  const step = Math.floor(data.length / canvas.width);
+  for (let x = 0; x < canvas.width; x++) {
+    const idx = x * step;
+    let max = 0;
+    for (let j = 0; j < step; j += 100) {
+      const v = Math.abs(data[idx + j] || 0);
+      if (v > max) max = v;
+    }
+    const y = canvas.height / 2 - max * canvas.height / 2;
+    const y2 = canvas.height / 2 + max * canvas.height / 2;
+    ctx.moveTo(x, y);
+    ctx.lineTo(x, y2);
+  }
+  ctx.stroke();
+}
+
+function downloadTrack() {
+  if (!masterBuffer) return;
+  status('Encoding WAV...');
+  
+  const numChannels = 2;
+  const length = masterBuffer.length;
+  const buffer = new ArrayBuffer(44 + length * numChannels * 2);
+  const view = new DataView(buffer);
+  
+  function writeString(offset, string) {
+    for (let i = 0; i < string.length; i++) view.setUint8(offset + i, string.charCodeAt(i));
+  }
+  
+  writeString(0, 'RIFF');
+  view.setUint32(4, 36 + length * numChannels * 2, true);
+  writeString(8, 'WAVE');
+  writeString(12, 'fmt ');
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, numChannels, true);
+  view.setUint32(24, SR, true);
+  view.setUint32(28, SR * numChannels * 2, true);
+  view.setUint16(32, numChannels * 2, true);
+  view.setUint16(34, 16, true);
+  writeString(36, 'data');
+  view.setUint32(40, length * numChannels * 2, true);
+  
+  const L = masterBuffer.getChannelData(0);
+  const R = masterBuffer.getChannelData(1);
+  let offset = 44;
+  for (let i = 0; i < length; i++) {
+    const lSample = Math.max(-1, Math.min(1, L[i]));
+    const rSample = Math.max(-1, Math.min(1, R[i]));
+    view.setInt16(offset, lSample * 0x7FFF, true); offset += 2;
+    view.setInt16(offset, rSample * 0x7FFF, true); offset += 2;
+  }
+  
+  const blob = new Blob([buffer], {type: 'audio/wav'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'moltslack-nightly-build.wav';
+  a.click();
+  
+  status('Downloaded: moltslack-nightly-build.wav');
+}
+</script>
+</body>
+</html>

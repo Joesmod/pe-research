@@ -1,141 +1,203 @@
-const {google} = require('googleapis');
-const key = require('./service-account.json');
+const {readSheet, updateRow} = require('./sheet.js');
+const https = require('https');
 
-const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+const APOLLO_API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
-const enrichedData = [
-  {
-    row: 1230,
-    company: 'Bow River Capital',
-    website: 'https://www.bowrivercapital.com',
-    contactName: 'Blair Richardson',
-    title: 'Founder & CEO',
-    email: '', // Pattern r******@bowrivercapital.com - not fully verified
-    linkedin: 'https://www.linkedin.com/in/blair-richardson-a4755613/',
-    status: 'Needs Email',
-    notes: 'CEO confirmed on official site. Email pattern from RocketReach (r******@bowrivercapital.com). Denver-based, ~$2.5B+ AUM.'
-  },
-  {
-    row: 1231,
-    company: 'Sverica Capital Management',
-    website: 'https://sverica.com',
-    contactName: 'Dave Finley',
-    title: 'Managing Partner',
-    email: '', // Not verified from published source
-    linkedin: 'https://www.linkedin.com/company/sverica-capital-management',
-    status: 'Needs Email',
-    notes: 'Managing Partner confirmed on official website. Recently promoted Michael Dougherty to Partner. Boston-based.'
-  },
-  {
-    row: 1232,
-    company: 'Resilience Capital Partners',
-    website: 'https://resiliencecapital.com',
-    contactName: 'Bassem Mansour',
-    title: 'Co-CEO & Co-Founder',
-    email: '', // Pattern b******@resiliencecapital.com - not fully verified
-    linkedin: 'https://www.linkedin.com/in/bassemmansour/',
-    status: 'Needs Email',
-    notes: 'Co-CEO confirmed on official website (co-founded with Steve Rosen in 2001). Email pattern from RocketReach (b******@resiliencecapital.com). Cleveland/Denver.'
-  },
-  {
-    row: 1233,
-    company: 'Marlin Equity Partners',
-    website: 'https://www.marlinequity.com',
-    contactName: 'Alex Beregovsky',
-    title: 'Managing Director',
-    email: '', // Pattern a***@marlinequity.com - not fully verified
-    linkedin: 'https://www.linkedin.com/in/alex-beregovsky',
-    status: 'Needs Email',
-    notes: 'Managing Director confirmed. Email pattern from ZoomInfo (a***@marlinequity.com). Los Angeles, $8B+ AUM.'
-  }
-];
-
-async function updateSheet() {
-  const auth = new google.auth.GoogleAuth({
-    credentials: key,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-  });
-
-  const sheets = google.sheets({version: 'v4', auth: await auth.getClient()});
-
-  // Prepare batch update
-  const updates = [];
-  
-  for (const item of enrichedData) {
-    // Column mapping: A=Company, B=Website, C=Contact, D=Title, E=Email, F=?, G=LinkedIn, H=Status, I=Notes
-    
-    // Update Website (column B)
-    if (item.website) {
-      updates.push({
-        range: `Sheet1!B${item.row}`,
-        values: [[item.website]]
-      });
-    }
-    
-    // Update Contact Name (column C)
-    if (item.contactName) {
-      updates.push({
-        range: `Sheet1!C${item.row}`,
-        values: [[item.contactName]]
-      });
-    }
-    
-    // Update Title (column D)
-    if (item.title) {
-      updates.push({
-        range: `Sheet1!D${item.row}`,
-        values: [[item.title]]
-      });
-    }
-    
-    // Update Email (column E) - leave blank if not verified
-    updates.push({
-      range: `Sheet1!E${item.row}`,
-      values: [[item.email || '']]
+async function apolloSearchByDomain(domain) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      q_organization_domains: domain,
+      person_titles: ['CEO', 'Managing Partner', 'Managing Director', 'Partner', 'President', 'COO', 'CFO'],
+      page: 1,
+      per_page: 5
     });
-    
-    // Update LinkedIn (column G)
-    if (item.linkedin) {
-      updates.push({
-        range: `Sheet1!G${item.row}`,
-        values: [[item.linkedin]]
-      });
-    }
-    
-    // Update Status (column H)
-    if (item.status) {
-      updates.push({
-        range: `Sheet1!H${item.row}`,
-        values: [[item.status]]
-      });
-    }
-    
-    // Update Notes (column I)
-    if (item.notes) {
-      updates.push({
-        range: `Sheet1!I${item.row}`,
-        values: [[item.notes]]
-      });
-    }
-  }
 
-  if (updates.length > 0) {
-    await sheets.spreadsheets.values.batchUpdate({
-      spreadsheetId: SHEET_ID,
-      resource: {
-        valueInputOption: 'RAW',
-        data: updates
+    const options = {
+      hostname: 'api.apollo.io',
+      path: '/v1/mixed_people/api_search',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Api-Key': APOLLO_API_KEY,
+        'Content-Length': data.length
       }
+    };
+
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', (chunk) => body += chunk);
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(body));
+        } catch (e) {
+          reject(e);
+        }
+      });
     });
+
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+async function apolloEnrichPerson(personId) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      id: personId,
+      reveal_personal_emails: true
+    });
+
+    const options = {
+      hostname: 'api.apollo.io',
+      path: '/v1/people/match',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Api-Key': APOLLO_API_KEY,
+        'Content-Length': data.length
+      }
+    };
+
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', (chunk) => body += chunk);
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(body));
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+async function enrichCompany(row, headers) {
+  const companyName = row.values[0] || '';
+  const currentContact = row.values[2] || '';
+  const currentEmail = row.values[4] || '';
+  const companyUrl = row.values[12] || row.values[1] || '';
+  
+  // Skip if already has contact and direct email
+  if (currentContact && currentEmail && !currentEmail.startsWith('info@') && !currentEmail.startsWith('sales@')) {
+    console.log(`  ⏭️  Already enriched, skipping`);
+    return null;
+  }
+  
+  // Extract domain from company URL
+  let domain = '';
+  if (companyUrl) {
+    try {
+      const url = new URL(companyUrl);
+      domain = url.hostname.replace('www.', '');
+    } catch (e) {
+      console.log(`  ❌ Invalid URL: ${companyUrl}`);
+      return null;
+    }
+  } else {
+    console.log(`  ❌ No company URL found`);
+    return null;
+  }
+  
+  console.log(`  🔍 Searching Apollo for: ${domain}`);
+  
+  try {
+    const searchResults = await apolloSearchByDomain(domain);
     
-    console.log(`\n✅ Updated ${updates.length} cells across ${enrichedData.length} firms`);
-    console.log('\n📊 Enriched firms:');
-    enrichedData.forEach(item => {
-      console.log(`  • ${item.company}: ${item.contactName} (${item.title})`);
-    });
-    console.log('\n⚠️  All firms marked "Needs Email" - email patterns found but not from official published sources.');
-    console.log('    Will need Apollo API or direct outreach to verify emails.\n');
+    if (!searchResults.people || searchResults.people.length === 0) {
+      console.log(`  ❌ No contacts found on Apollo`);
+      return null;
+    }
+    
+    console.log(`  ✅ Found ${searchResults.people.length} potential contacts`);
+    
+    // Try to enrich the first person
+    const firstPerson = searchResults.people[0];
+    console.log(`  📧 Enriching: ${firstPerson.first_name} ${firstPerson.last_name_obfuscated || ''} (${firstPerson.title})`);
+    
+    const enriched = await apolloEnrichPerson(firstPerson.id);
+    
+    if (enriched.person && enriched.person.email) {
+      const p = enriched.person;
+      console.log(`  ✅ Got verified contact!`);
+      
+      return {
+        name: `${p.first_name} ${p.last_name}`,
+        title: p.title,
+        email: p.email,
+        linkedin: p.linkedin_url || '',
+        source: 'Apollo.io verification'
+      };
+    } else {
+      console.log(`  ❌ Could not get email from Apollo`);
+      return null;
+    }
+  } catch (error) {
+    console.log(`  ❌ Error: ${error.message}`);
+    return null;
   }
 }
 
-updateSheet().catch(console.error);
+async function main() {
+  const maxToEnrich = parseInt(process.argv[2]) || 10;
+  console.log(`🎯 PE Lead Enrichment - Target: ${maxToEnrich} leads\n`);
+  
+  const {headers, data} = await readSheet();
+  
+  // Find rows that truly need enrichment
+  const needsEnrichment = data.filter(row => {
+    const contact = (row.values[2] || '').trim();
+    const email = (row.values[4] || '').trim();
+    const status = (row.values[9] || '').toLowerCase();
+    const companyUrl = row.values[12] || row.values[1] || '';
+    
+    // Skip if marked as dead/enriched/sent
+    if (status.includes('dead') || status.includes('enriched') || status.includes('sent')) {
+      return false;
+    }
+    
+    // Need enrichment if no contact OR generic email
+    const needsContact = !contact;
+    const hasGenericEmail = email && (email.startsWith('info@') || email.startsWith('sales@') || email.startsWith('ir@'));
+    
+    return companyUrl && (needsContact || hasGenericEmail);
+  });
+  
+  console.log(`📊 Found ${needsEnrichment.length} leads needing enrichment\n`);
+  
+  let enriched = 0;
+  
+  for (const row of needsEnrichment.slice(0, maxToEnrich)) {
+    const company = row.values[0];
+    console.log(`\n🏢 ${company} (Row ${row.rowIndex})`);
+    
+    const contact = await enrichCompany(row, headers);
+    
+    if (contact) {
+      // Update the row
+      const newRow = [...row.values];
+      newRow[2] = contact.name;          // Contact Name
+      newRow[3] = contact.title;         // Title
+      newRow[4] = contact.email;         // Email
+      newRow[5] = contact.linkedin;      // LinkedIn (if fits here)
+      newRow[9] = 'Enriched';            // Status
+      newRow[11] = `${newRow[11] || ''} | Apollo.io enrichment ${new Date().toISOString().split('T')[0]}: ${contact.name} (${contact.title})`.trim();
+      
+      await updateRow(row.rowIndex, newRow);
+      console.log(`  💾 Updated sheet!`);
+      enriched++;
+      
+      // Rate limit
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+  }
+  
+  console.log(`\n✅ Enrichment complete: ${enriched}/${maxToEnrich} leads enriched`);
+}
+
+main().catch(console.error);

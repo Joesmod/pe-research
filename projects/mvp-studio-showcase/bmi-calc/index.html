@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelancer Rate Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0f1a;--surface:#111827;--border:#1f2937;--blue:#6366f1;--cyan:#06b6d4;--green:#22c55e;--yellow:#fbbf24;--red:#ef4444;--text:#e2e8f0}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.container{max-width:700px;margin:0 auto;padding:20px}
+a.back{display:inline-block;color:#4b5563;text-decoration:none;font-size:.85rem;margin-bottom:8px}a.back:hover{color:var(--cyan)}
+h1{text-align:center;font-size:clamp(1.6rem,5vw,2.4rem);font-weight:900;background:linear-gradient(135deg,var(--blue),var(--cyan),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:16px 0 4px}
+.subtitle{text-align:center;color:#6b7280;font-size:.9rem;margin-bottom:28px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:24px;margin-bottom:16px}
+.field{margin-bottom:18px}
+.field:last-child{margin-bottom:0}
+.field label{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;color:#9ca3af;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.field label .val{color:var(--cyan);font-size:1rem;font-weight:800}
+input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:8px;background:var(--border);border-radius:4px;outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:var(--blue);cursor:pointer;border:3px solid var(--bg)}
+input[type=number]{width:100%;background:rgba(255,255,255,.05);border:2px solid var(--border);border-radius:12px;padding:12px 16px;color:var(--text);font-family:inherit;font-size:1.1rem;font-weight:700;outline:none;transition:border .2s}
+input[type=number]:focus{border-color:var(--blue)}
+.rates{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+.rate-card{background:rgba(99,102,241,.08);border:2px solid rgba(99,102,241,.2);border-radius:16px;padding:20px;text-align:center}
+.rate-card.primary{background:rgba(6,182,212,.1);border-color:rgba(6,182,212,.3)}
+.rate-label{font-size:.7rem;color:#9ca3af;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.rate-value{font-size:clamp(1.4rem,4vw,2.2rem);font-weight:900;color:var(--cyan)}
+.rate-card.primary .rate-value{color:var(--green)}
+.rate-sub{font-size:.75rem;color:#6b7280;margin-top:2px}
+.market{text-align:center;padding:16px;font-size:1rem;font-weight:700;border-radius:12px;margin-bottom:16px}
+.market.above{background:rgba(34,197,94,.1);color:var(--green);border:1px solid rgba(34,197,94,.2)}
+.market.below{background:rgba(239,68,68,.1);color:var(--red);border:1px solid rgba(239,68,68,.2)}
+.market.average{background:rgba(251,191,36,.1);color:var(--yellow);border:1px solid rgba(251,191,36,.2)}
+.tips{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:20px}
+.tips h3{font-size:.85rem;color:#9ca3af;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px}
+.tip{padding:10px 14px;border-radius:12px;background:rgba(99,102,241,.05);margin-bottom:8px;font-size:.85rem;line-height:1.5;display:flex;gap:8px;align-items:start}
+.tip:last-child{margin-bottom:0}
+.tip .icon{flex-shrink:0;font-size:1.1rem}
+@media(max-width:500px){.rates{grid-template-columns:1fr}.rate-card{padding:14px}}
+</style>
+</head>
+<body>
+<div class="container">
+<a class="back" href="../">← Back to Showcase</a>
+<h1>💼 Freelancer Rate Calculator</h1>
+<p class="subtitle">Know your worth. Charge accordingly.</p>
+
+<div class="card">
+<div class="field">
+<label>Desired Annual Income <span class="val" id="salaryVal">$80,000</span></label>
+<input type="range" id="salary" min="20000" max="300000" step="5000" value="80000">
+</div>
+<div class="field">
+<label>Hours per Week <span class="val" id="hoursVal">30</span></label>
+<input type="range" id="hours" min="10" max="60" step="1" value="30">
+</div>
+<div class="field">
+<label>Billable Weeks per Year <span class="val" id="weeksVal">46</span></label>
+<input type="range" id="weeks" min="20" max="52" step="1" value="46">
+</div>
+<div class="field">
+<label>Annual Business Expenses ($)</label>
+<input type="number" id="expenses" value="5000" min="0" step="500">
+</div>
+<div class="field">
+<label>Profit Margin <span class="val" id="marginVal">20%</span></label>
+<input type="range" id="margin" min="0" max="50" step="5" value="20">
+</div>
+</div>
+
+<div class="rates" id="rates">
+<div class="rate-card primary">
+<div class="rate-label">Hourly Rate</div>
+<div class="rate-value" id="hourlyRate">$0</div>
+<div class="rate-sub">your minimum</div>
+</div>
+<div class="rate-card">
+<div class="rate-label">Day Rate (8h)</div>
+<div class="rate-value" id="dayRate">$0</div>
+<div class="rate-sub">per project day</div>
+</div>
+<div class="rate-card">
+<div class="rate-label">Monthly Rate</div>
+<div class="rate-value" id="monthlyRate">$0</div>
+<div class="rate-sub">retainer pricing</div>
+</div>
+</div>
+
+<div class="market" id="market"></div>
+
+<div class="tips">
+<h3>💡 Pro Tips</h3>
+<div class="tip"><span class="icon">🏦</span><span><strong>Don't forget taxes!</strong> Set aside 25-35% for self-employment tax, federal & state income tax.</span></div>
+<div class="tip"><span class="icon">🤒</span><span><strong>Factor in sick days.</strong> You don't get PTO — that's why billable weeks matter.</span></div>
+<div class="tip"><span class="icon">📈</span><span><strong>Raise rates annually.</strong> At minimum, match inflation. Your skills grow — your rate should too.</span></div>
+<div class="tip"><span class="icon">🎯</span><span><strong>Value-based pricing wins.</strong> If your work saves a client $100K, charging $5K is a bargain for them.</span></div>
+<div class="tip"><span class="icon">⏰</span><span><strong>Track non-billable time.</strong> Admin, emails, invoicing — you probably only bill 60-70% of hours worked.</span></div>
+<div class="tip"><span class="icon">🛡️</span><span><strong>Get insurance.</strong> Health, liability, E&O — budget $300-600/mo for coverage.</span></div>
+</div>
+</div>
+
+<script>
+const MARKET_AVG=75; // average freelancer hourly rate for comparison
+const salary=document.getElementById('salary');
+const hours=document.getElementById('hours');
+const weeks=document.getElementById('weeks');
+const expenses=document.getElementById('expenses');
+const margin=document.getElementById('margin');
+
+function fmt(n){return'$'+n.toLocaleString('en-US',{maximumFractionDigits:0})}
+
+function calc(){
+  const s=+salary.value,h=+hours.value,w=+weeks.value,e=+expenses.value,m=+margin.value;
+  document.getElementById('salaryVal').textContent=fmt(s);
+  document.getElementById('hoursVal').textContent=h;
+  document.getElementById('weeksVal').textContent=w;
+  document.getElementById('marginVal').textContent=m+'%';
+  
+  const totalNeeded=(s+e)*(1+m/100);
+  const billableHours=h*w;
+  const hourly=totalNeeded/billableHours;
+  const day=hourly*8;
+  const monthly=totalNeeded/12;
+  
+  document.getElementById('hourlyRate').textContent=fmt(Math.ceil(hourly));
+  document.getElementById('dayRate').textContent=fmt(Math.ceil(day));
+  document.getElementById('monthlyRate').textContent=fmt(Math.ceil(monthly));
+  
+  const diff=((hourly-MARKET_AVG)/MARKET_AVG*100);
+  const mkt=document.getElementById('market');
+  if(Math.abs(diff)<5){
+    mkt.className='market average';
+    mkt.textContent=`📊 Right at market average (~$${MARKET_AVG}/hr)`;
+  }else if(diff>0){
+    mkt.className='market above';
+    mkt.textContent=`📈 ${Math.round(diff)}% above market average ($${MARKET_AVG}/hr) — premium positioning!`;
+  }else{
+    mkt.className='market below';
+    mkt.textContent=`📉 ${Math.round(Math.abs(diff))}% below market average ($${MARKET_AVG}/hr) — consider raising your rate`;
+  }
+}
+
+[salary,hours,weeks,expenses,margin].forEach(el=>el.addEventListener('input',calc));
+calc();
+</script>
+</body>
+</html>

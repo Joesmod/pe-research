@@ -1,93 +1,224 @@
 const { google } = require('googleapis');
+const path = require('path');
 
-async function batchUpdate() {
+const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+const KEY_FILE = path.join(__dirname, 'service-account.json');
+
+// Enriched contact data - ONLY INCLUDE VERIFIED EMAILS FROM OFFICIAL SOURCES
+const enrichments = [
+  {
+    company: 'Tenex Capital Management',
+    contact: 'Stephens Johnson',
+    title: 'Partner',
+    email: 'sjohnson@tenexcm.com',
+    linkedin: 'https://www.linkedin.com/company/tenex-capital',
+    status: 'Enriched',
+    notes: 'Email verified from official Tenex PDF tearsheet (June 2024)'
+  },
+  {
+    company: 'Tenex Capital Management',
+    contact: 'Kevin Doyle',
+    title: 'Partner',
+    email: 'kdoyle@tenexcm.com',
+    linkedin: 'https://www.linkedin.com/company/tenex-capital',
+    status: 'Enriched',
+    notes: 'Email verified from official Tenex PDF tearsheet (June 2024)'
+  },
+  // Contacts found with strong LinkedIn presence - NO EMAIL (per strict instructions)
+  {
+    company: 'PSG',
+    contact: 'Mark Hastings',
+    title: 'CEO & Co-Founder',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/mark-hastings-482b2816',
+    status: 'Needs Email',
+    notes: 'Contact verified via LinkedIn & company website. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Charlesbank Capital Partners',
+    contact: 'Michael Choe',
+    title: 'Managing Partner, CEO, Co-Head Flagship',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/michael-choe-220b128',
+    status: 'Needs Email',
+    notes: 'Contact verified via LinkedIn & Charlesbank website. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'New Water Capital',
+    contact: 'Jason Neimark',
+    title: 'Partner & Founder',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/jason-neimark',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website & LinkedIn. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Clearview Capital',
+    contact: 'Bill Case',
+    title: 'Managing Partner',
+    email: '',
+    linkedin: 'https://www.linkedin.com/company/clearview-capital',
+    status: 'Needs Email',
+    notes: 'Contact verified via Bloomberg & LinkedIn. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Ronin Equity Partners',
+    contact: 'David Feierstein',
+    title: 'Co-Founder & Managing Partner',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/david-feierstein',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website & LinkedIn. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Soundcore Capital Partners',
+    contact: 'Jarrett Turner',
+    title: 'Founder & Managing Partner',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/jarrett-turner',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website & LinkedIn. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'NewSpring Capital',
+    contact: 'Michael DiPiano',
+    title: 'Managing General Partner & Co-Founder',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/michael-dipiano',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website & LinkedIn. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Excellere Partners',
+    contact: 'Brad Cornell',
+    title: 'Managing Partner',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/brad-cornell-016325a3',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website press releases. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Platte River Equity',
+    contact: 'Peter Calamari',
+    title: 'Managing Director',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/peter-calamari',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Bregal Sagemount',
+    contact: 'Gene Yoon',
+    title: 'Managing Partner & Co-Founder',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/gene-yoon',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website & Wikipedia. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Arsenal Capital Partners',
+    contact: 'Joelle Marquis',
+    title: 'President & Senior Partner',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/joelle-marquis',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website. Email pattern identified but not from official source.'
+  },
+  {
+    company: 'Cove Hill Partners',
+    contact: 'Andrew Balson',
+    title: 'Founder & Managing Partner',
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/andrew-balson-246299b7',
+    status: 'Needs Email',
+    notes: 'Contact verified via company website & LinkedIn. Email pattern identified but not from official source.'
+  }
+];
+
+async function getClient() {
   const auth = new google.auth.GoogleAuth({
-    keyFile: 'service-account.json',
-    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+    keyFile: KEY_FILE,
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  });
+  return google.sheets({ version: 'v4', auth });
+}
+
+async function batchEnrich() {
+  const sheets = await getClient();
+  
+  // Read all data first
+  const res = await sheets.spreadsheets.values.get({
+    spreadsheetId: SHEET_ID,
+    range: 'Sheet1',
   });
   
-  const sheets = google.sheets({ version: 'v4', auth });
-  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+  const rows = res.data.values || [];
+  const header = rows[0];
   
-  // First, read the sheet to find exact row positions
-  const result = await sheets.spreadsheets.values.get({
-    spreadsheetId,
-    range: 'Sheet1!A:I'
-  });
+  // Find column indices
+  const companyIdx = header.indexOf('Company');
+  const contactIdx = header.indexOf('Contact Name');
+  const titleIdx = header.indexOf('Position/Title');
+  const emailIdx = header.indexOf('Email');
+  const linkedinIdx = header.indexOf('LinkedIn');
+  const statusIdx = header.indexOf('Status');
+  const notesIdx = header.indexOf('Notes');
   
-  const rows = result.data.values;
+  console.log('Column mapping:', { companyIdx, contactIdx, titleIdx, emailIdx, linkedinIdx, statusIdx, notesIdx });
+  
   const updates = [];
   
-  // Find rows by company name
-  rows.forEach((row, index) => {
-    const rowNum = index + 1;
-    const company = row[0] || '';
-    
-    // Update American Industrial Partners if found
-    if (company.includes('American Industrial Partners')) {
-      updates.push({
-        range: 'Sheet1!C' + rowNum + ':I' + rowNum,
-        values: [['Kim Marvin', 'General Partner', 'kmarvin@americanindustrial.com', 'https://www.linkedin.com/in/kim-marvin', 'https://americanindustrial.com', 'Enriched - Email Inferred', 'Source: Bloomberg/Wikipedia verified as General Partner. Email pattern inferred. NYC-based mid-market industrial PE, founded 1988.']]
-      });
-    }
-    
-    // Update Volition Capital if found
-    if (company.includes('Volition Capital')) {
-      updates.push({
-        range: 'Sheet1!C' + rowNum + ':I' + rowNum,
-        values: [['Sean Cantwell', 'Managing Partner & Co-Founder', 'scantwell@volitioncapital.com', 'https://www.linkedin.com/in/sean-cantwell-59070a4/', 'https://volitioncapital.com', 'Enriched', 'Source: RocketReach verified. Boston-based growth equity, software/tech-enabled services focus.']]
-      });
-    }
-    
-    // Update Kinect Capital if found (mark as dead)
-    if (company.includes('Kinect Capital')) {
-      updates.push({
-        range: 'Sheet1!H' + rowNum + ':I' + rowNum,
-        values: [['Dead - Not PE', '501(c)(3) educational non-profit for entrepreneurs. Contact: James Kemp (James@kinectcapital.org). NOT an investment firm.']]
-      });
-    }
-    
-    // Update GTMfund if found (mark as dead)
-    if (company.includes('GTMfund') || company.includes('GTM fund')) {
-      updates.push({
-        range: 'Sheet1!H' + rowNum + ':I' + rowNum,
-        values: [['Dead - Not PE', 'VC fund/network with 350+ LP members. Not a traditional PE firm. Community-based investment model.']]
-      });
-    }
-    
-    // Update Hark Capital if found (mark as dead)
-    if (company.includes('Hark Capital')) {
-      updates.push({
-        range: 'Sheet1!H' + rowNum + ':I' + rowNum,
-        values: [['Dead - Not PE', 'Provides non-dilutive loans to PE/VC portfolio companies. Not a traditional PE investor.']]
-      });
-    }
-    
-    // Update 360 Equipment Finance if found (mark as dead)
-    if (company.includes('360 Equipment Finance')) {
-      updates.push({
-        range: 'Sheet1!H' + rowNum + ':I' + rowNum,
-        values: [['Dead - Not PE', 'Equipment leasing/financing company. Contact: Kip Amstutz (Founder). NOT a PE firm.']]
-      });
-    }
-  });
-  
-  // Execute updates
-  for (const update of updates) {
-    try {
-      await sheets.spreadsheets.values.update({
-        spreadsheetId,
-        range: update.range,
-        valueInputOption: 'RAW',
-        resource: { values: update.values }
-      });
-      console.log('Updated: ' + update.range);
-    } catch (err) {
-      console.error('Error updating ' + update.range + ':', err.message);
+  // Match enrichments to rows
+  for (const enrich of enrichments) {
+    for (let i = 1; i < rows.length; i++) {
+      const row = rows[i];
+      const rowCompany = row[companyIdx] || '';
+      
+      // Match company name (flexible matching)
+      if (rowCompany.toLowerCase().includes(enrich.company.toLowerCase()) ||
+          enrich.company.toLowerCase().includes(rowCompany.toLowerCase())) {
+        
+        const rowNum = i + 1; // 1-indexed for Sheets
+        
+        // Prepare update data
+        const updateData = [...row]; // Copy existing row
+        updateData[contactIdx] = enrich.contact;
+        updateData[titleIdx] = enrich.title;
+        updateData[emailIdx] = enrich.email;
+        updateData[linkedinIdx] = enrich.linkedin;
+        updateData[statusIdx] = enrich.status;
+        updateData[notesIdx] = enrich.notes;
+        
+        updates.push({
+          range: `Sheet1!A${rowNum}:${String.fromCharCode(65 + header.length - 1)}${rowNum}`,
+          values: [updateData]
+        });
+        
+        console.log(`Matched: ${enrich.company} -> Row ${rowNum}`);
+        break; // Move to next enrichment after first match
+      }
     }
   }
   
-  console.log('Batch update complete. ' + updates.length + ' rows updated.');
+  console.log(`\nPrepared ${updates.length} updates`);
+  
+  if (updates.length > 0) {
+    // Batch update
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId: SHEET_ID,
+      requestBody: {
+        valueInputOption: 'USER_ENTERED',
+        data: updates
+      }
+    });
+    
+    console.log('✅ Successfully enriched leads in Google Sheet');
+  } else {
+    console.log('⚠️  No matches found');
+  }
 }
 
-batchUpdate().catch(console.error);
+batchEnrich().catch(e => {
+  console.error('Error:', e.message);
+  process.exit(1);
+});

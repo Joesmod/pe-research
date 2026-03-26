@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sound Board</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a14;color:#e0e0e0;min-height:100vh;padding:24px}
+header{text-align:center;margin-bottom:32px}
+.back{display:inline-flex;align-items:center;gap:4px;color:#888;text-decoration:none;font-size:.9rem;font-weight:500;margin-bottom:12px;transition:color .2s}
+.back:hover{color:#fff}
+header h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;background:linear-gradient(135deg,#f43f5e,#f97316,#eab308,#22c55e,#3b82f6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+header p{color:#666;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;max-width:900px;margin:0 auto 32px}
+.sound-btn{position:relative;border:none;border-radius:16px;padding:28px 12px;cursor:pointer;font-family:inherit;color:#fff;font-weight:700;font-size:1rem;display:flex;flex-direction:column;align-items:center;gap:8px;transition:transform .15s,box-shadow .15s;overflow:hidden;-webkit-tap-highlight-color:transparent}
+.sound-btn:active,.sound-btn.pressed{transform:scale(.92)}
+.sound-btn:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.sound-btn .emoji{font-size:2.2rem}
+.sound-btn .label{font-size:.85rem;opacity:.9}
+.ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.3);transform:scale(0);animation:ripple-anim .5s ease-out;pointer-events:none}
+@keyframes ripple-anim{to{transform:scale(4);opacity:0}}
+.controls{text-align:center;margin-bottom:24px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.ctrl-btn{padding:10px 20px;border:2px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.05);color:#ccc;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .2s}
+.ctrl-btn:hover{border-color:rgba(255,255,255,.25);color:#fff;background:rgba(255,255,255,.1)}
+.ctrl-btn.recording{border-color:#f43f5e;color:#f43f5e;animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(244,63,94,.4)}50%{box-shadow:0 0 0 8px rgba(244,63,94,0)}}
+.sequence-info{text-align:center;color:#666;font-size:.85rem;margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+<a href="../" class="back">← Back to Showcase</a>
+<h1>🔊 Sound Board</h1>
+<p>Tap buttons to make noise. Record sequences to replay!</p>
+</header>
+<div class="controls">
+<button class="ctrl-btn" id="recBtn" onclick="toggleRecord()">⏺ Record Sequence</button>
+<button class="ctrl-btn" id="playBtn" onclick="playSequence()" disabled>▶ Play Sequence</button>
+<button class="ctrl-btn" onclick="clearSequence()">🗑 Clear</button>
+</div>
+<div class="sequence-info" id="seqInfo"></div>
+<div class="grid" id="grid"></div>
+<script>
+let ctx;
+function getCtx(){if(!ctx)ctx=new(window.AudioContext||window.webkitAudioContext)();return ctx}
+
+const sounds=[
+{name:'Click',emoji:'👆',color:'#6366f1',fn:clickSound},
+{name:'Pop',emoji:'🫧',color:'#a855f7',fn:popSound},
+{name:'Ding',emoji:'🔔',color:'#eab308',fn:dingSound},
+{name:'Whoosh',emoji:'💨',color:'#3b82f6',fn:whooshSound},
+{name:'Boop',emoji:'👾',color:'#ec4899',fn:boopSound},
+{name:'Zap',emoji:'⚡',color:'#f43f5e',fn:zapSound},
+{name:'Coin',emoji:'🪙',color:'#f97316',fn:coinSound},
+{name:'Laser',emoji:'🔫',color:'#22c55e',fn:laserSound},
+{name:'Drum',emoji:'🥁',color:'#8b5cf6',fn:drumSound},
+{name:'Bell',emoji:'🛎️',color:'#14b8a6',fn:bellSound},
+{name:'Chirp',emoji:'🐦',color:'#06b6d4',fn:chirpSound},
+{name:'Wub',emoji:'🎵',color:'#d946ef',fn:wubSound},
+];
+
+function clickSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.value=1200;g.gain.setValueAtTime(.3,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.05);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.05)}
+function popSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(600,c.currentTime);o.frequency.exponentialRampToValueAtTime(200,c.currentTime+.15);g.gain.setValueAtTime(.4,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.15);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.15)}
+function dingSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.value=880;g.gain.setValueAtTime(.3,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.8);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.8)}
+function whooshSound(){const c=getCtx(),n=c.createBufferSource(),buf=c.createBuffer(1,c.sampleRate*.3,c.sampleRate),d=buf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,2);n.buffer=buf;const f=c.createBiquadFilter();f.type='bandpass';f.frequency.setValueAtTime(1000,c.currentTime);f.frequency.exponentialRampToValueAtTime(200,c.currentTime+.3);f.Q.value=1;n.connect(f);f.connect(c.destination);n.start()}
+function boopSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(300,c.currentTime);o.frequency.exponentialRampToValueAtTime(150,c.currentTime+.2);g.gain.setValueAtTime(.4,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.2);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.2)}
+function zapSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sawtooth';o.frequency.setValueAtTime(800,c.currentTime);o.frequency.exponentialRampToValueAtTime(50,c.currentTime+.15);g.gain.setValueAtTime(.3,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.15);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.15)}
+function coinSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='square';o.frequency.setValueAtTime(987,c.currentTime);o.frequency.setValueAtTime(1318,c.currentTime+.08);g.gain.setValueAtTime(.2,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.3);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.3)}
+function laserSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sawtooth';o.frequency.setValueAtTime(1500,c.currentTime);o.frequency.exponentialRampToValueAtTime(100,c.currentTime+.3);g.gain.setValueAtTime(.2,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.3);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.3)}
+function drumSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(150,c.currentTime);o.frequency.exponentialRampToValueAtTime(40,c.currentTime+.15);g.gain.setValueAtTime(.5,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.15);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.15);const n=c.createBufferSource(),buf=c.createBuffer(1,c.sampleRate*.1,c.sampleRate),d=buf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,3);n.buffer=buf;const g2=c.createGain();g2.gain.setValueAtTime(.5,c.currentTime);g2.gain.exponentialRampToValueAtTime(.001,c.currentTime+.1);n.connect(g2);g2.connect(c.destination);n.start()}
+function bellSound(){const c=getCtx(),freqs=[523,659,784];freqs.forEach(f=>{const o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.15,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+1);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+1)})}
+function chirpSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(2000,c.currentTime);o.frequency.exponentialRampToValueAtTime(4000,c.currentTime+.05);o.frequency.exponentialRampToValueAtTime(2500,c.currentTime+.1);g.gain.setValueAtTime(.2,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.15);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.15)}
+function wubSound(){const c=getCtx(),o=c.createOscillator(),g=c.createGain(),lfo=c.createOscillator(),lg=c.createGain();o.type='sawtooth';o.frequency.value=80;lfo.type='sine';lfo.frequency.value=15;lg.gain.value=50;lfo.connect(lg);lg.connect(o.frequency);g.gain.setValueAtTime(.3,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.4);o.connect(g);g.connect(c.destination);o.start();lfo.start();o.stop(c.currentTime+.4);lfo.stop(c.currentTime+.4)}
+
+const grid=document.getElementById('grid');
+sounds.forEach((s,i)=>{
+const btn=document.createElement('button');
+btn.className='sound-btn';
+btn.style.background=`linear-gradient(135deg,${s.color},${s.color}dd)`;
+btn.innerHTML=`<span class="emoji">${s.emoji}</span><span class="label">${s.name}</span>`;
+btn.addEventListener('pointerdown',e=>{
+const r=document.createElement('span');r.className='ripple';
+const rect=btn.getBoundingClientRect();
+const sz=Math.max(rect.width,rect.height)*2;
+r.style.width=r.style.height=sz+'px';
+r.style.left=(e.clientX-rect.left-sz/2)+'px';
+r.style.top=(e.clientY-rect.top-sz/2)+'px';
+btn.appendChild(r);
+setTimeout(()=>r.remove(),500);
+btn.classList.add('pressed');
+setTimeout(()=>btn.classList.remove('pressed'),150);
+s.fn();
+if(recording){sequence.push({index:i,time:Date.now()-recStart})}
+});
+grid.appendChild(btn);
+});
+
+let recording=false,recStart=0,sequence=[];
+function toggleRecord(){
+const btn=document.getElementById('recBtn');
+if(!recording){recording=true;recStart=Date.now();sequence=[];btn.textContent='⏹ Stop';btn.classList.add('recording');document.getElementById('seqInfo').textContent='Recording...'}
+else{recording=false;btn.textContent='⏺ Record Sequence';btn.classList.remove('recording');document.getElementById('playBtn').disabled=sequence.length===0;document.getElementById('seqInfo').textContent=sequence.length?`${sequence.length} sounds recorded`:''}
+}
+function playSequence(){
+if(!sequence.length)return;
+document.getElementById('playBtn').disabled=true;
+sequence.forEach((s,i)=>{
+setTimeout(()=>{
+sounds[s.index].fn();
+const btn=grid.children[s.index];btn.classList.add('pressed');setTimeout(()=>btn.classList.remove('pressed'),150);
+if(i===sequence.length-1)document.getElementById('playBtn').disabled=false;
+},s.time);
+});
+}
+function clearSequence(){sequence=[];document.getElementById('playBtn').disabled=true;document.getElementById('seqInfo').textContent='';document.getElementById('recBtn').textContent='⏺ Record Sequence';document.getElementById('recBtn').classList.remove('recording');recording=false}
+</script>
+</body>
+</html>

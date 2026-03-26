@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scope Tracker — Change Order & Scope Creep Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <h1><span>📐</span> Scope Tracker</h1>
+  <div id="headerActions"></div>
+</header>
+
+<div class="container" id="app"></div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal" id="modalContent"></div>
+</div>
+
+<!-- Print View -->
+<div class="print-view" id="printView"></div>
+
+<script>
+const LS_KEY = 'scope_tracker_data';
+const $ = s => document.querySelector(s);
+const $$ = s => document.querySelectorAll(s);
+
+// Data
+function loadData() {
+  try { return JSON.parse(localStorage.getItem(LS_KEY)) || { projects: [] }; }
+  catch { return { projects: [] }; }
+}
+function saveData(d) { localStorage.setItem(LS_KEY, JSON.stringify(d)); }
+function genId() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+function money(n) { return '$' + Number(n||0).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}); }
+function pct(n) { return Math.round(n * 100) + '%'; }
+
+let data = loadData();
+let currentProject = null;
+
+// Routing
+function render() {
+  if (currentProject) renderProject();
+  else renderList();
+}
+
+// ============ PROJECT LIST ============
+function renderList() {
+  $('#headerActions').innerHTML = '';
+  const projects = data.projects;
+  let html = '<div class="project-list fade-in">';
+  projects.forEach(p => {
+    const stats = calcStats(p);
+    const color = stats.creepPct <= 0.10 ? 'var(--green)' : stats.creepPct <= 0.25 ? 'var(--yellow)' : 'var(--red)';
+    const badgeClass = stats.creepPct <= 0.10 ? 'badge-green' : stats.creepPct <= 0.25 ? 'badge-yellow' : 'badge-red';
+    html += `<div class="project-card" onclick="openProject('${p.id}')">
+      <h3>${esc(p.name)}</h3>
+      <div class="client">${esc(p.client)} · Started ${p.startDate||'N/A'}</div>
+      <div class="stats">
+        <span>Quote: <strong>${money(p.quoteAmount)}</strong></span>
+        <span>Changes: <strong>${p.changeOrders.length}</strong></span>
+        <span class="badge ${badgeClass}">${stats.creepPct > 0 ? '+' : ''}${pct(stats.creepPct)} creep</span>
+      </div>
+      <div class="creep-bar" style="width:${Math.min(100, (1+stats.creepPct)*100)}%;background:${color}"></div>
+    </div>`;
+  });
+  html += `<div class="add-project-card" onclick="showProjectModal()">＋ New Project</div>`;
+  html += '</div>';
+  if (!projects.length) {
+    html = `<div class="empty fade-in"><div class="icon">📐</div><p>No projects yet. Create your first project to start tracking scope.</p>
+    <br><button class="btn" onclick="showProjectModal()">＋ New Project</button></div>`;
+  }
+  $('#app').innerHTML = html;
+}
+
+// ============ PROJECT DETAIL ============
+function renderProject() {
+  const p = data.projects.find(x => x.id === currentProject);
+  if (!p) { currentProject = null; render(); return; }
+  const s = calcStats(p);
+  const color = s.creepPct <= 0.10 ? 'var(--green)' : s.creepPct <= 0.25 ? 'var(--yellow)' : 'var(--red)';
+  const colorName = s.creepPct <= 0.10 ? 'green' : s.creepPct <= 0.25 ? 'yellow' : 'red';
+
+  $('#headerActions').innerHTML = `<div style="display:flex;gap:.5rem">
+    <button class="btn-ghost btn-sm" onclick="showExport('${p.id}')">📄 Export</button>
+    <button class="btn-ghost btn-sm btn-danger" onclick="deleteProject('${p.id}')">🗑</button>
+  </div>`;
+
+  const origW = s.totalScope > 0 ? Math.max(15, Math.round(s.origCost / (s.origCost + s.approvedCOCost) * 100)) : 50;
+  const creepW = 100 - origW;
+
+  let html = `<div class="fade-in">
+  <div class="back-btn" onclick="currentProject=null;render()">← All Projects</div>
+  <div class="detail-header">
+    <div>
+      <h2>${esc(p.name)}</h2>
+      <div class="meta">${esc(p.client)} · Started ${p.startDate||'N/A'}</div>
+      ${p.scopeDesc ? `<div class="meta" style="margin-top:.25rem;max-width:600px">${esc(p.scopeDesc)}</div>` : ''}
+    </div>
+    <button class="btn" onclick="showProjectModal('${p.id}')">✏️ Edit</button>
+  </div>
+
+  <!-- Scope Creep Meter -->
+  <div class="creep-meter">
+    <div class="creep-pct" style="color:${color}">${s.creepPct > 0 ? '+' : ''}${pct(s.creepPct)} Scope Creep</div>
+    <div class="meter-track">
+      <div class="meter-fill-orig" style="width:${origW}%"></div>
+      <div class="meter-fill-creep" style="left:${origW}%;width:${s.approvedCOCost > 0 ? creepW : 0}%;background:${color}"></div>
+    </div>
+    <div class="meter-labels">
+      <span>Original: ${money(s.origCost)}</span>
+      <span>Change Orders: ${money(s.approvedCOCost)}</span>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="dash-grid">
+    <div class="dash-card">
+      <div class="label">Original Quote</div>
+      <div class="value">${money(p.quoteAmount)}</div>
+    </div>
+    <div class="dash-card">
+      <div class="label">Current Total</div>
+      <div class="value" style="color:${color}">${money(s.currentTotal)}</div>
+      <div class="sub">${money(s.approvedCOCost)} in changes</div>
+    </div>
+    <div class="dash-card">
+      <div class="label">Hours Impact</div>
+      <div class="value">${s.origHours}h → ${s.currentHours}h</div>
+      <div class="sub">+${s.coHours}h from changes</div>
+    </div>
+    <div class="dash-card">
+      <div class="label">Pending Approval</div>
+      <div class="value" style="color:var(--orange)">${money(s.pendingCost)}</div>
+      <div class="sub">${s.pendingCount} change order${s.pendingCount!==1?'s':''}</div>
+    </div>
+  </div>
+
+  <!-- Scope Items -->
+  <div class="section">
+    <div class="section-header">
+      <h3>📋 Scope Items</h3>
+      <button class="btn btn-sm" onclick="showScopeItemModal('${p.id}')">＋ Add Item</button>
+    </div>
+    ${p.scopeItems.length ? `<div style="overflow-x:auto"><table class="scope-table">
+      <thead><tr><th>Deliverable</th><th>Hours</th><th>Cost</th><th></th></tr></thead>
+      <tbody>${p.scopeItems.map((si,i) => `<tr>
+        <td>${esc(si.name)}</td><td>${si.hours}h</td><td>${money(si.cost)}</td>
+        <td class="actions">
+          <button class="btn-ghost btn-sm" onclick="showScopeItemModal('${p.id}',${i})">✏️</button>
+          <button class="btn-ghost btn-sm" onclick="deleteScopeItem('${p.id}',${i})">✕</button>
+        </td>
+      </tr>`).join('')}
+      <tr style="font-weight:700"><td>Total</td><td>${s.origHours}h</td><td>${money(s.origCost)}</td><td></td></tr>
+      </tbody></table></div>` : '<div class="empty"><p>No scope items defined yet.</p></div>'}
+  </div>
+
+  <!-- Change Orders -->
+  <div class="section">
+    <div class="section-header">
+      <h3>📝 Change Orders</h3>
+    </div>
+    <!-- Quick Add -->
+    <div class="quick-add">
+      <h4>⚡ Quick Add Change Order</h4>
+      <div class="qa-row">
+        <input id="qaDesc" placeholder="Description (e.g. Add login page)" style="flex:2">
+        <input id="qaHours" type="number" placeholder="Hours" min="0" step=".5">
+        <input id="qaCost" type="number" placeholder="Cost $" min="0" step=".01">
+        <select id="qaStatus"><option value="pending">Pending</option><option value="approved">Approved</option><option value="rejected">Rejected</option></select>
+        <button class="btn btn-sm" onclick="quickAddCO('${p.id}')">Add</button>
+      </div>
+    </div>
+    <div class="co-list">
+    ${p.changeOrders.length ? p.changeOrders.map((co,i) => `<div class="co-card">
+      <div class="co-header">
+        <div class="co-title">${esc(co.description)}</div>
+        <span class="badge badge-${co.status}">${co.status}</span>
+      </div>
+      <div class="co-meta">
+        <span>⏱ ${co.hours}h</span>
+        <span>💰 ${money(co.cost)}</span>
+        <span>📅 ${co.date||'N/A'}</span>
+      </div>
+      ${co.notes ? `<div class="co-desc">${esc(co.notes)}</div>` : ''}
+      <div class="co-actions">
+        ${co.status==='pending' ? `<button class="btn-sm btn-green" onclick="setCOStatus('${p.id}',${i},'approved')">✓ Approve</button>
+        <button class="btn-sm btn-danger" onclick="setCOStatus('${p.id}',${i},'rejected')">✕ Reject</button>` : ''}
+        <button class="btn-ghost btn-sm" onclick="showCOModal('${p.id}',${i})">✏️ Edit</button>
+        <button class="btn-ghost btn-sm" onclick="showClientView('${p.id}',${i})">📨 Client View</button>
+        <button class="btn-ghost btn-sm" onclick="deleteCO('${p.id}',${i})">🗑</button>
+      </div>
+    </div>`).join('') : '<div class="empty"><p>No change orders yet. Use Quick Add above to log one fast.</p></div>'}
+    </div>
+  </div>
+  </div>`;
+  $('#app').innerHTML = html;
+}
+
+// ============ CALCULATIONS ============
+function calcStats(p) {
+  const origCost = p.scopeItems.reduce((a,x) => a + Number(x.cost||0), 0);
+  const origHours = p.scopeItems.reduce((a,x) => a + Number(x.hours||0), 0);
+  const approved = p.changeOrders.filter(c => c.status === 'approved');
+  const pending = p.changeOrders.filter(c => c.status === 'pending');
+  const approvedCOCost = approved.reduce((a,x) => a + Number(x.cost||0), 0);
+  const coHours = approved.reduce((a,x) => a + Number(x.hours||0), 0);
+  const pendingCost = pending.reduce((a,x) => a + Number(x.cost||0), 0);
+  const base = Math.max(Number(p.quoteAmount||0), origCost, 1);
+  const currentTotal = base + approvedCOCost;
+  const creepPct = approvedCOCost / base;
+  return { origCost, origHours, approvedCOCost, coHours, pendingCost, pendingCount: pending.length, currentTotal, creepPct, currentHours: origHours + coHours, totalScope: origCost + approvedCOCost };
+}
+
+// ============ MODALS ============
+function openModal(html) { $('#modalContent').innerHTML = html; $('#modalOverlay').classList.add('active'); }
+function closeModal() { $('#modalOverlay').classList.remove('active'); }
+
+function showProjectModal(editId) {
+  const p = editId ? data.projects.find(x => x.id === editId) : null;
+  openModal(`<h2>${p ? 'Edit' : 'New'} Project</h2>
+    <div class="form-row"><label>Project Name</label><input id="pName" value="${esc(p?.name||'')}"></div>
+    <div class="form-row"><label>Client</label><input id="pClient" value="${esc(p?.client||'')}"></div>
+    <div class="form-row"><label>Scope Description</label><textarea id="pDesc">${esc(p?.scopeDesc||'')}</textarea></div>
+    <div class="form-grid">
+      <div class="form-row"><label>Quote Amount ($)</label><input id="pQuote" type="number" min="0" step=".01" value="${p?.quoteAmount||''}"></div>
+      <div class="form-row"><label>Start Date</label><input id="pDate" type="date" value="${p?.startDate||new Date().toISOString().slice(0,10)}"></div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn" onclick="saveProject('${editId||''}')">Save</button>
+    </div>`);
+  setTimeout(() => $('#pName').focus(), 50);
+}
+
+function saveProject(editId) {
+  const name = $('#pName').value.trim();
+  if (!name) { $('#pName').style.borderColor='var(--red)'; return; }
+  if (editId) {
+    const p = data.projects.find(x => x.id === editId);
+    p.name = name; p.client = $('#pClient').value.trim();
+    p.scopeDesc = $('#pDesc').value.trim(); p.quoteAmount = Number($('#pQuote').value)||0;
+    p.startDate = $('#pDate').value;
+  } else {
+    data.projects.push({ id: genId(), name, client: $('#pClient').value.trim(),
+      scopeDesc: $('#pDesc').value.trim(), quoteAmount: Number($('#pQuote').value)||0,
+      startDate: $('#pDate').value, scopeItems: [], changeOrders: [] });
+  }
+  saveData(data); closeModal(); render();
+}
+
+function showScopeItemModal(pid, idx) {
+  const p = data.projects.find(x => x.id === pid);
+  const si = idx !== undefined ? p.scopeItems[idx] : null;
+  openModal(`<h2>${si ? 'Edit' : 'Add'} Scope Item</h2>
+    <div class="form-row"><label>Deliverable</label><input id="siName" value="${esc(si?.name||'')}"></div>
+    <div class="form-grid">
+      <div class="form-row"><label>Estimated Hours</label><input id="siHours" type="number" min="0" step=".5" value="${si?.hours||''}"></div>
+      <div class="form-row"><label>Cost ($)</label><input id="siCost" type="number" min="0" step=".01" value="${si?.cost||''}"></div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn" onclick="saveScopeItem('${pid}',${idx !== undefined ? idx : -1})">Save</button>
+    </div>`);
+  setTimeout(() => $('#siName').focus(), 50);
+}
+
+function saveScopeItem(pid, idx) {
+  const p = data.projects.find(x => x.id === pid);
+  const name = $('#siName').value.trim();
+  if (!name) return;
+  const item = { name, hours: Number($('#siHours').value)||0, cost: Number($('#siCost').value)||0 };
+  if (idx >= 0) p.scopeItems[idx] = item;
+  else p.scopeItems.push(item);
+  saveData(data); closeModal(); render();
+}
+
+function deleteScopeItem(pid, idx) {
+  if (!confirm('Remove this scope item?')) return;
+  data.projects.find(x => x.id === pid).scopeItems.splice(idx, 1);
+  saveData(data); render();
+}
+
+function showCOModal(pid, idx) {
+  const p = data.projects.find(x => x.id === pid);
+  const co = idx !== undefined ? p.changeOrders[idx] : null;
+  openModal(`<h2>${co ? 'Edit' : 'Add'} Change Order</h2>
+    <div class="form-row"><label>Description</label><input id="coDesc" value="${esc(co?.description||'')}"></div>
+    <div class="form-row"><label>Notes / Details</label><textarea id="coNotes">${esc(co?.notes||'')}</textarea></div>
+    <div class="form-grid">
+      <div class="form-row"><label>Hours</label><input id="coHours" type="number" min="0" step=".5" value="${co?.hours||''}"></div>
+      <div class="form-row"><label>Cost Impact ($)</label><input id="coCost" type="number" min="0" step=".01" value="${co?.cost||''}"></div>
+    </div>
+    <div class="form-grid">
+      <div class="form-row"><label>Status</label><select id="coStatus">
+        <option value="pending" ${co?.status==='pending'?'selected':''}>Pending</option>
+        <option value="approved" ${co?.status==='approved'?'selected':''}>Approved</option>
+        <option value="rejected" ${co?.status==='rejected'?'selected':''}>Rejected</option>
+      </select></div>
+      <div class="form-row"><label>Date</label><input id="coDate" type="date" value="${co?.date||new Date().toISOString().slice(0,10)}"></div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn" onclick="saveCO('${pid}',${idx !== undefined ? idx : -1})">Save</button>
+    </div>`);
+  setTimeout(() => $('#coDesc').focus(), 50);
+}
+
+function saveCO(pid, idx) {
+  const p = data.projects.find(x => x.id === pid);
+  const desc = $('#coDesc').value.trim();
+  if (!desc) return;
+  const co = { description: desc, notes: $('#coNotes').value.trim(), hours: Number($('#coHours').value)||0,
+    cost: Number($('#coCost').value)||0, status: $('#coStatus').value, date: $('#coDate').value };
+  if (idx >= 0) p.changeOrders[idx] = co;
+  else p.changeOrders.push(co);
+  saveData(data); closeModal(); render();
+}
+
+function quickAddCO(pid) {
+  const desc = $('#qaDesc').value.trim();
+  if (!desc) { $('#qaDesc').style.borderColor='var(--red)'; return; }
+  const p = data.projects.find(x => x.id === pid);
+  p.changeOrders.push({ description: desc, notes: '', hours: Number($('#qaHours').value)||0,
+    cost: Number($('#qaCost').value)||0, status: $('#qaStatus').value, date: new Date().toISOString().slice(0,10) });
+  saveData(data); render();
+}
+
+function setCOStatus(pid, idx, status) {
+  data.projects.find(x => x.id === pid).changeOrders[idx].status = status;
+  saveData(data); render();
+}
+
+function deleteCO(pid, idx) {
+  if (!confirm('Delete this change order?')) return;
+  data.projects.find(x => x.id === pid).changeOrders.splice(idx, 1);
+  saveData(data); render();
+}
+
+function openProject(id) { currentProject = id; render(); }
+
+function deleteProject(id) {
+  if (!confirm('Delete this project and all its data?')) return;
+  data.projects = data.projects.filter(x => x.id !== id);
+  saveData(data); currentProject = null; render();
+}
+
+// ============ CLIENT VIEW ============
+function showClientView(pid, idx) {
+  const p = data.projects.find(x => x.id === pid);
+  const co = p.changeOrders[idx];
+  const pv = $('#printView');
+  pv.innerHTML = `<div class="print-actions">
+    <button class="btn" onclick="window.print()">🖨 Print / Save PDF</button>
+    <button class="btn-ghost" onclick="$('#printView').classList.remove('active')">✕ Close</button>
+  </div>
+  <div class="client-view">
+    <h2>Change Order Request</h2>
+    <table>
+      <tr><th>Project</th><td>${esc(p.name)}</td></tr>
+      <tr><th>Client</th><td>${esc(p.client)}</td></tr>
+      <tr><th>Date</th><td>${co.date||'N/A'}</td></tr>
+      <tr><th>Status</th><td>${co.status.toUpperCase()}</td></tr>
+    </table>
+    <h3 style="margin-top:1.5rem;font-size:1rem">Description</h3>
+    <p style="margin:.5rem 0;font-size:.9rem">${esc(co.description)}</p>
+    ${co.notes ? `<p style="font-size:.85rem;color:#555">${esc(co.notes)}</p>` : ''}
+    <table>
+      <tr><th>Additional Hours</th><td>${co.hours}h</td></tr>
+      <tr><th>Cost Impact</th><td>${money(co.cost)}</td></tr>
+    </table>
+    <div class="sig">
+      <div class="sig-line">Client Signature / Date</div>
+      <div class="sig-line">Provider Signature / Date</div>
+    </div>
+  </div>`;
+  pv.classList.add('active');
+}
+
+// ============ EXPORT ============
+function showExport(pid) {
+  const p = data.projects.find(x => x.id === pid);
+  const s = calcStats(p);
+  const pv = $('#printView');
+  const approved = p.changeOrders.filter(c => c.status === 'approved');
+  const pending = p.changeOrders.filter(c => c.status === 'pending');
+  const rejected = p.changeOrders.filter(c => c.status === 'rejected');
+
+  function coRows(list) {
+    return list.map(c => `<tr><td>${esc(c.description)}</td><td>${c.hours}h</td><td>${money(c.cost)}</td><td>${c.date||''}</td></tr>`).join('');
+  }
+
+  pv.innerHTML = `<div class="print-actions">
+    <button class="btn" onclick="window.print()">🖨 Print / Save PDF</button>
+    <button class="btn-ghost" onclick="$('#printView').classList.remove('active')">✕ Close</button>
+  </div>
+  <div class="client-view">
+    <h2>Scope & Change Order Summary</h2>
+    <table>
+      <tr><th>Project</th><td>${esc(p.name)}</td></tr>
+      <tr><th>Client</th><td>${esc(p.client)}</td></tr>
+      <tr><th>Start Date</th><td>${p.startDate||'N/A'}</td></tr>
+      <tr><th>Original Quote</th><td>${money(p.quoteAmount)}</td></tr>
+      <tr><th>Scope Creep</th><td>${s.creepPct > 0 ? '+' : ''}${pct(s.creepPct)}</td></tr>
+    </table>
+    <h3 style="margin-top:1.5rem;font-size:1rem">Original Scope Items</h3>
+    <table><thead><tr><th>Deliverable</th><th>Hours</th><th>Cost</th></tr></thead>
+    <tbody>${p.scopeItems.map(si => `<tr><td>${esc(si.name)}</td><td>${si.hours}h</td><td>${money(si.cost)}</td></tr>`).join('')}
+    <tr class="total-row"><td>Total</td><td>${s.origHours}h</td><td>${money(s.origCost)}</td></tr></tbody></table>
+
+    ${approved.length ? `<h3 style="margin-top:1.5rem;font-size:1rem">Approved Change Orders (${approved.length})</h3>
+    <table><thead><tr><th>Description</th><th>Hours</th><th>Cost</th><th>Date</th></tr></thead>
+    <tbody>${coRows(approved)}</tbody></table>` : ''}
+
+    ${pending.length ? `<h3 style="margin-top:1.5rem;font-size:1rem">Pending Change Orders (${pending.length})</h3>
+    <table><thead><tr><th>Description</th><th>Hours</th><th>Cost</th><th>Date</th></tr></thead>
+    <tbody>${coRows(pending)}</tbody></table>` : ''}
+
+    ${rejected.length ? `<h3 style="margin-top:1.5rem;font-size:1rem;color:#999">Rejected (${rejected.length})</h3>
+    <table><thead><tr><th>Description</th><th>Hours</th><th>Cost</th><th>Date</th></tr></thead>
+    <tbody>${coRows(rejected)}</tbody></table>` : ''}
+
+    <table style="margin-top:1.5rem">
+      <tr class="total-row"><td>Original Quote</td><td colspan="2">${money(p.quoteAmount)}</td></tr>
+      <tr class="total-row"><td>Approved Changes</td><td colspan="2">${money(s.approvedCOCost)}</td></tr>
+      <tr class="total-row" style="font-size:1.1rem"><td>Current Total</td><td colspan="2">${money(s.currentTotal)}</td></tr>
+    </table>
+  </div>`;
+  pv.classList.add('active');
+}
+
+// ============ UTILS ============
+function esc(s) { if (!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+// Keyboard
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    if ($('#printView').classList.contains('active')) $('#printView').classList.remove('active');
+    else closeModal();
+  }
+});
+
+// Init
+render();
+</script>
+</body>
+</html>

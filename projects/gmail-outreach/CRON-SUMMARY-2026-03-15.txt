@@ -1,0 +1,109 @@
+PE RESEARCH & ENRICHMENT - HOURLY CRON RUN
+Sunday, March 15, 2026 @ 12:07 PM CT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 RESULTS SUMMARY
+
+Target: Enrich 10-15 leads with empty contact names or generic emails
+Researched: 15 rows (6 unique firms)
+Enriched: 0 leads with direct partner emails ❌
+Partial Success: 1 firm with employee email ✅
+
+New Firms Added: 1 (BC Partners - published contacts)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔍 RESEARCH FINDINGS
+
+✅ TRIVEST PARTNERS - Verified Contact Found
+   • Chris Berton (Paralegal): cberton@trivest.com
+   • Source: https://www.trivest.com/refer-a-business/
+   • Can route business dev inquiries internally
+
+✅ BC PARTNERS - New Firm (Published Contacts)
+   • Luke Charalambous (Head of Comms): luke.charalambous@bcpartners.com
+   • Phone: +44 7775 180 721
+   • IR: investor.relations@bcpartners.com
+   • AUM: €30B+ (upper mid-market/large cap tier)
+
+❌ NO DIRECT EMAILS FOUND (Public Sources Only):
+   • Gryphon Investors - R. David Andrews
+   • Accel-KKR - Tom Barnds
+   • Newflow Partners - Jason Levine
+   • Wynnchurch Capital - John Hatherly
+   • Riverside Company - Stewart Kohl
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  CHALLENGE IDENTIFIED
+
+STRICT CONSTRAINT: "ONLY use emails found on official published sources. NEVER GUESS patterns."
+
+REALITY: ~90% of PE firms DO NOT publish individual partner emails publicly
+- Most use contact forms or generic emails (info@, ir@, bd@)
+- Third-party databases (Apollo, RocketReach, ZoomInfo) have emails but behind paywalls
+- Email patterns can be inferred but not verified from public sources
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 RECOMMENDATIONS
+
+Option A: Relax Email Requirements
+   → Allow paid contact databases (Apollo, RocketReach)
+   → Could enrich 80-90% of leads with verified-but-not-public emails
+
+Option B: Focus on Accessible Targets
+   → Prioritize firms that DO publish contacts
+   → Accept generic IR/BD emails as entry points
+   → Longer sales cycles but compliant approach
+
+Option C: Multi-Channel Strategy
+   → LinkedIn InMail for partners
+   → Generic emails + phone routing
+   → Relationship building vs direct contact
+
+Option D: Pivot to New Lead Generation
+   → Add firms with public contacts only
+   → Build pipeline with "low-hanging fruit"
+   → More volume, less friction
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 FILES CREATED
+
+• cron-report-march15-sunday.md - Full detailed report
+• enrichment-findings-march15.md - Research methodology & notes
+• enrichment-targets-march15.json - 15 target leads analyzed
+• apollo-enrichment-march15.js - API search script (obfuscation issue)
+• apollo-test-single.js - API testing tool
+• CRON-SUMMARY-2026-03-15.txt - This summary
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 GITHUB UPDATES
+
+Repository: https://github.com/Joesmod/pe-research
+Commit: cb1fa13 "Enrichment research - March 15 hourly run"
+
+Changes:
+• Updated: PE-firms/trivest-partners/dossier.md
+• Created: PE-firms/bc-partners/dossier.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏭️  NEXT STEPS
+
+AWAITING DIRECTION:
+1. Should I invest in Apollo credits for bulk enrichment?
+2. Relax public-only email constraint to include high-confidence patterns?
+3. Pivot to new firm generation (public contacts only)?
+4. Update sheet with LinkedIn URLs and titles only (no emails)?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STATUS: ⚠️  BLOCKED on enrichment per strict public-source-only requirement
+RECOMMENDATION: Clarify email source standards or shift strategy
+
+— Jim 🫡
+PE Research & Enrichment Agent

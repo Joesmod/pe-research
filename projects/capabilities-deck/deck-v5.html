@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gumbo — Capabilities</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  :root {
+    --blue: #2563EB;
+    --blue-light: #F5F7FA;
+    --dark: #111;
+    --gray: #555;
+    --light-gray: #f7f8fa;
+    --gutter: 24px;
+    --margin: 0.6in;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+
+  .page {
+    padding: var(--margin);
+    height: 11in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  /* ── Header ── */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--dark);
+    margin-bottom: 0;
+  }
+
+  .logo-svg { width: 90px; height: auto; }
+
+  .tagline {
+    font-size: 8pt;
+    color: var(--gray);
+    text-align: right;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+  }
+
+  /* ── Headline ── */
+  .headline-block {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 40px;
+    margin-bottom: 0;
+  }
+
+  .headline-block h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    color: var(--dark);
+    line-height: 1.2;
+  }
+
+  .headline-block h1 span { color: var(--blue); }
+
+  .headline-block .intro {
+    font-size: 9.5pt;
+    color: var(--gray);
+    line-height: 1.5;
+    align-self: end;
+  }
+
+  /* ── Section dividers ── */
+  .section-divider {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 0;
+  }
+
+  /* ── Section labels — Space Grotesk ── */
+  h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7.5pt;
+    font-weight: 600;
+    color: var(--dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+
+  /* ── Pillars ── */
+  .pillars-section { margin-bottom: 0; }
+
+  .pillars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--gutter);
+  }
+
+  .pillar .num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7.5pt;
+    font-weight: 600;
+    color: var(--gray);
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .pillar h3 {
+    font-size: 10pt;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--dark);
+  }
+
+  .pillar p {
+    font-size: 8.5pt;
+    color: var(--gray);
+    line-height: 1.45;
+  }
+
+  /* ── Timeline — simple horizontal dots (compact) ── */
+  .timeline-section {
+    padding-top: 0;
+  }
+
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    position: relative;
+    padding: 0 8px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    right: 30px;
+    height: 2px;
+    background: #ddd;
+  }
+
+  .timeline-item {
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .timeline-item .dot {
+    width: 10px;
+    height: 10px;
+    background: var(--dark);
+    border-radius: 50%;
+    margin: 0 auto 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .timeline-item .time {
+    font-size: 9pt;
+    font-weight: 700;
+    color: var(--dark);
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .timeline-item .desc {
+    font-size: 8pt;
+    color: var(--gray);
+    line-height: 1.3;
+  }
+
+  /* ── Footer — minimal ── */
+  .footer {
+    margin-top: 0;
+    padding-top: 14px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-cta {
+    font-size: 10pt;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  .footer-contact {
+    font-size: 8pt;
+    color: var(--gray);
+    text-align: right;
+  }
+
+  .footer-contact a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /* ── Page 2 ── */
+  .page-break { page-break-before: always; }
+
+  /* ── Case studies ── */
+  .case-studies-section { margin-bottom: 28px; }
+
+  .case-studies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gutter);
+  }
+
+  .case-study {
+    background: var(--light-gray);
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+
+  .case-study .cs-type {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7.5pt;
+    color: var(--gray);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .case-study h3 {
+    font-size: 10.5pt;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: var(--dark);
+  }
+
+  .case-study .cs-desc {
+    font-size: 8.5pt;
+    color: var(--gray);
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .case-study ul {
+    font-size: 8.5pt;
+    color: var(--gray);
+    line-height: 1.45;
+    margin: 0 0 0 14px;
+    padding: 0;
+  }
+
+  .case-study li { margin-bottom: 2px; }
+  .case-study li::marker { color: var(--dark); }
+
+  /* ── Why Gumbo — compact ── */
+  .why-section { margin-bottom: 24px; }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px var(--gutter);
+  }
+
+  .why-card strong {
+    font-size: 8.5pt;
+    color: var(--dark);
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .why-card span {
+    font-size: 8pt;
+    color: var(--gray);
+    line-height: 1.35;
+  }
+
+  /* ── Pull quote ── */
+  .pull-quote {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .pull-quote blockquote {
+    font-size: 13pt;
+    font-weight: 500;
+    color: var(--dark);
+    line-height: 1.4;
+    border-left: 3px solid var(--dark);
+    padding-left: 16px;
+    flex: 3;
+  }
+
+  .pull-quote cite {
+    font-size: 8pt;
+    color: var(--gray);
+    font-style: normal;
+    flex: 1;
+    text-align: right;
+  }
+
+  /* ── Footer p2 ── */
+  .footer-minimal {
+    margin-top: 24px;
+    padding-top: 14px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-logo { width: 65px; height: auto; }
+
+  .footer-minimal .fr {
+    font-size: 8pt;
+    color: var(--gray);
+    text-align: right;
+  }
+
+  .footer-minimal .fr a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  @media print {
+    body { padding: 0; }
+    .page { padding: var(--margin); }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════ PAGE 1 ════════ -->
+<div class="page">
+
+<div class="header">
+  <svg class="logo-svg" viewBox="0 0 145.135 44.069" xmlns="http://www.w3.org/2000/svg"><path d="M 123.46 6.24 L 138.902 6.24 L 138.902 12.999 L 145.135 12.999 L 145.135 31.079 L 138.902 31.079 L 138.902 37.829 L 123.46 37.829 L 123.46 44.069 L 21.676 44.069 L 21.676 37.829 L 6.228 37.829 L 6.228 31.075 L 0 31.075 L 0 12.995 L 6.227 12.995 L 6.227 6.239 L 21.674 6.239 L 21.674 0 L 123.459 0 L 123.459 6.24 Z" fill="#111111"/><path d="M 23.047 29.534 C 22.353 29.534 21.782 29.275 21.328 28.756 C 20.875 28.238 20.65 27.592 20.65 26.829 L 20.65 16.74 C 20.65 15.963 20.875 15.317 21.329 14.803 C 21.783 14.29 22.354 14.035 23.047 14.035 L 37.303 14.035 C 37.997 14.035 38.568 14.291 39.022 14.804 C 39.475 15.317 39.701 15.963 39.701 16.74 L 39.701 19.444 L 32.139 19.444 L 32.139 18.795 C 32.139 18.306 31.964 17.948 31.613 17.733 C 31.261 17.518 30.773 17.41 30.153 17.41 C 29.534 17.41 29.07 17.518 28.718 17.733 C 28.367 17.948 28.191 18.306 28.191 18.794 L 28.191 24.77 C 28.191 25.26 28.371 25.616 28.733 25.832 C 29.094 26.047 29.582 26.154 30.202 26.154 C 30.822 26.154 31.28 26.047 31.628 25.832 C 31.974 25.616 32.145 25.26 32.145 24.77 L 32.145 23.881 L 29.465 23.881 L 29.465 20.438 L 39.705 20.438 L 39.705 29.529 L 34.023 29.529 L 34.023 27.323 L 33.828 27.323 C 33.77 27.973 33.53 28.501 33.106 28.912 C 32.682 29.323 32.145 29.528 31.496 29.528 L 23.047 29.528 Z M 43.614 29.534 C 42.921 29.534 42.35 29.275 41.897 28.757 C 41.442 28.239 41.218 27.592 41.218 26.829 L 41.218 14.036 L 48.759 14.036 L 48.759 23.949 C 48.759 24.585 48.955 25.04 49.345 25.313 C 49.735 25.588 50.257 25.725 50.921 25.725 C 51.585 25.725 52.102 25.592 52.478 25.323 C 52.854 25.059 53.039 24.604 53.039 23.969 L 53.039 14.031 L 59.95 14.031 L 59.95 26.825 C 59.95 27.588 59.727 28.233 59.271 28.751 C 58.819 29.269 58.247 29.529 57.554 29.529 L 43.619 29.529 Z M 61.585 29.534 L 61.585 14.035 L 70.508 14.035 L 73.686 18.775 L 73.856 18.775 L 77.034 14.035 L 84.745 14.035 L 84.745 29.534 L 77.38 29.534 L 77.38 22.976 L 77.209 22.976 L 72.543 29.534 L 71.85 29.534 L 67.184 22.951 L 66.989 22.951 L 66.989 29.534 Z M 86.516 29.534 L 86.516 14.035 L 103.062 14.035 C 103.697 14.035 104.214 14.266 104.62 14.731 C 105.025 15.194 105.224 15.767 105.224 16.462 L 105.224 19.014 C 105.224 19.748 105.035 20.32 104.653 20.726 C 104.273 21.132 103.741 21.352 103.067 21.396 L 103.067 21.611 C 103.79 21.656 104.356 21.885 104.775 22.306 C 105.195 22.726 105.4 23.319 105.4 24.081 L 105.4 27.088 C 105.4 27.798 105.201 28.379 104.795 28.844 C 104.39 29.309 103.873 29.538 103.238 29.538 L 86.516 29.538 Z M 93.945 19.924 L 96.928 19.924 C 97.245 19.924 97.469 19.807 97.606 19.567 C 97.742 19.328 97.811 19.014 97.811 18.628 C 97.811 18.207 97.742 17.89 97.606 17.665 C 97.469 17.44 97.24 17.328 96.928 17.328 L 93.945 17.328 Z M 93.945 26.243 L 96.991 26.243 C 97.352 26.243 97.591 26.111 97.713 25.851 C 97.835 25.592 97.899 25.245 97.899 24.815 C 97.899 24.384 97.835 24.022 97.713 23.778 C 97.591 23.533 97.347 23.411 96.991 23.411 L 93.945 23.411 Z M 108.964 29.534 C 108.271 29.534 107.699 29.275 107.245 28.756 C 106.792 28.238 106.567 27.592 106.567 26.829 L 106.567 16.74 C 106.567 15.963 106.792 15.317 107.245 14.803 C 107.699 14.29 108.271 14.035 108.964 14.035 L 123.22 14.035 C 123.913 14.035 124.484 14.291 124.938 14.804 C 125.392 15.317 125.617 15.963 125.617 16.74 L 125.617 26.829 C 125.617 27.592 125.392 28.238 124.938 28.756 C 124.484 29.275 123.913 29.534 123.22 29.534 Z M 116.114 25.92 C 116.719 25.92 117.193 25.817 117.539 25.607 C 117.886 25.397 118.056 25.04 118.056 24.535 L 118.056 19.059 C 118.056 18.554 117.881 18.193 117.529 17.978 C 117.178 17.762 116.69 17.655 116.07 17.655 C 115.45 17.655 114.987 17.757 114.635 17.968 C 114.284 18.178 114.108 18.535 114.108 19.039 L 114.108 24.516 C 114.108 25.02 114.288 25.382 114.649 25.597 C 115.011 25.812 115.499 25.92 116.119 25.92 Z" fill="#ffffff"/></svg>
+  <div class="tagline">AI Implementation &amp; Technology<br>for Private Equity Portfolios</div>
+</div>
+
+<div class="headline-block">
+  <h1>Your <span>AI partner</span><br>across the portfolio.</h1>
+  <p class="intro">We help PE firms and their portfolio companies unlock value through AI-driven operations, custom agent development, and dedicated technology teams.</p>
+</div>
+
+<hr class="section-divider">
+
+<div class="pillars-section">
+  <h2>What We Do</h2>
+  <div class="pillars">
+    <div class="pillar">
+      <span class="num">01</span>
+      <h3>AI-Centric Audit</h3>
+      <p>We examine workflows across your portfolio to identify where AI delivers the highest ROI — a prioritized action plan tied to real operational gains.</p>
+    </div>
+    <div class="pillar">
+      <span class="num">02</span>
+      <h3>Agentic Development</h3>
+      <p>Custom AI agents embedded in your operations that research, communicate, and execute tasks independently. Not chatbots — autonomous workflows.</p>
+    </div>
+    <div class="pillar">
+      <span class="num">03</span>
+      <h3>Engineering Pods</h3>
+      <p>Small, focused teams for product builds, legacy refactors, and system optimizations. Your portfolio's on-demand engineering department, shipping weekly.</p>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<div class="timeline-section">
+  <h2>How We Engage</h2>
+  <div class="timeline">
+    <div class="timeline-item"><div class="dot"></div><span class="time">Day 1</span><span class="desc">Scoping &amp; system access</span></div>
+    <div class="timeline-item"><div class="dot"></div><span class="time">Week 1</span><span class="desc">Audit complete or first agent live</span></div>
+    <div class="timeline-item"><div class="dot"></div><span class="time">Weeks 2–4</span><span class="desc">Full team operational</span></div>
+    <div class="timeline-item"><div class="dot"></div><span class="time">Ongoing</span><span class="desc">Optimization &amp; expansion</span></div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-cta">Let's talk implementation.</div>
+  <div class="footer-contact">
+    jeff@hellogumbo.com · <a href="https://hellogumbo.com">hellogumbo.com</a>
+  </div>
+</div>
+
+</div>
+
+<!-- ════════ PAGE 2 ════════ -->
+<div class="page page-break">
+
+<div class="header">
+  <svg class="logo-svg" viewBox="0 0 145.135 44.069" xmlns="http://www.w3.org/2000/svg"><path d="M 123.46 6.24 L 138.902 6.24 L 138.902 12.999 L 145.135 12.999 L 145.135 31.079 L 138.902 31.079 L 138.902 37.829 L 123.46 37.829 L 123.46 44.069 L 21.676 44.069 L 21.676 37.829 L 6.228 37.829 L 6.228 31.075 L 0 31.075 L 0 12.995 L 6.227 12.995 L 6.227 6.239 L 21.674 6.239 L 21.674 0 L 123.459 0 L 123.459 6.24 Z" fill="#111111"/><path d="M 23.047 29.534 C 22.353 29.534 21.782 29.275 21.328 28.756 C 20.875 28.238 20.65 27.592 20.65 26.829 L 20.65 16.74 C 20.65 15.963 20.875 15.317 21.329 14.803 C 21.783 14.29 22.354 14.035 23.047 14.035 L 37.303 14.035 C 37.997 14.035 38.568 14.291 39.022 14.804 C 39.475 15.317 39.701 15.963 39.701 16.74 L 39.701 19.444 L 32.139 19.444 L 32.139 18.795 C 32.139 18.306 31.964 17.948 31.613 17.733 C 31.261 17.518 30.773 17.41 30.153 17.41 C 29.534 17.41 29.07 17.518 28.718 17.733 C 28.367 17.948 28.191 18.306 28.191 18.794 L 28.191 24.77 C 28.191 25.26 28.371 25.616 28.733 25.832 C 29.094 26.047 29.582 26.154 30.202 26.154 C 30.822 26.154 31.28 26.047 31.628 25.832 C 31.974 25.616 32.145 25.26 32.145 24.77 L 32.145 23.881 L 29.465 23.881 L 29.465 20.438 L 39.705 20.438 L 39.705 29.529 L 34.023 29.529 L 34.023 27.323 L 33.828 27.323 C 33.77 27.973 33.53 28.501 33.106 28.912 C 32.682 29.323 32.145 29.528 31.496 29.528 L 23.047 29.528 Z M 43.614 29.534 C 42.921 29.534 42.35 29.275 41.897 28.757 C 41.442 28.239 41.218 27.592 41.218 26.829 L 41.218 14.036 L 48.759 14.036 L 48.759 23.949 C 48.759 24.585 48.955 25.04 49.345 25.313 C 49.735 25.588 50.257 25.725 50.921 25.725 C 51.585 25.725 52.102 25.592 52.478 25.323 C 52.854 25.059 53.039 24.604 53.039 23.969 L 53.039 14.031 L 59.95 14.031 L 59.95 26.825 C 59.95 27.588 59.727 28.233 59.271 28.751 C 58.819 29.269 58.247 29.529 57.554 29.529 L 43.619 29.529 Z M 61.585 29.534 L 61.585 14.035 L 70.508 14.035 L 73.686 18.775 L 73.856 18.775 L 77.034 14.035 L 84.745 14.035 L 84.745 29.534 L 77.38 29.534 L 77.38 22.976 L 77.209 22.976 L 72.543 29.534 L 71.85 29.534 L 67.184 22.951 L 66.989 22.951 L 66.989 29.534 Z M 86.516 29.534 L 86.516 14.035 L 103.062 14.035 C 103.697 14.035 104.214 14.266 104.62 14.731 C 105.025 15.194 105.224 15.767 105.224 16.462 L 105.224 19.014 C 105.224 19.748 105.035 20.32 104.653 20.726 C 104.273 21.132 103.741 21.352 103.067 21.396 L 103.067 21.611 C 103.79 21.656 104.356 21.885 104.775 22.306 C 105.195 22.726 105.4 23.319 105.4 24.081 L 105.4 27.088 C 105.4 27.798 105.201 28.379 104.795 28.844 C 104.39 29.309 103.873 29.538 103.238 29.538 L 86.516 29.538 Z M 93.945 19.924 L 96.928 19.924 C 97.245 19.924 97.469 19.807 97.606 19.567 C 97.742 19.328 97.811 19.014 97.811 18.628 C 97.811 18.207 97.742 17.89 97.606 17.665 C 97.469 17.44 97.24 17.328 96.928 17.328 L 93.945 17.328 Z M 93.945 26.243 L 96.991 26.243 C 97.352 26.243 97.591 26.111 97.713 25.851 C 97.835 25.592 97.899 25.245 97.899 24.815 C 97.899 24.384 97.835 24.022 97.713 23.778 C 97.591 23.533 97.347 23.411 96.991 23.411 L 93.945 23.411 Z M 108.964 29.534 C 108.271 29.534 107.699 29.275 107.245 28.756 C 106.792 28.238 106.567 27.592 106.567 26.829 L 106.567 16.74 C 106.567 15.963 106.792 15.317 107.245 14.803 C 107.699 14.29 108.271 14.035 108.964 14.035 L 123.22 14.035 C 123.913 14.035 124.484 14.291 124.938 14.804 C 125.392 15.317 125.617 15.963 125.617 16.74 L 125.617 26.829 C 125.617 27.592 125.392 28.238 124.938 28.756 C 124.484 29.275 123.913 29.534 123.22 29.534 Z M 116.114 25.92 C 116.719 25.92 117.193 25.817 117.539 25.607 C 117.886 25.397 118.056 25.04 118.056 24.535 L 118.056 19.059 C 118.056 18.554 117.881 18.193 117.529 17.978 C 117.178 17.762 116.69 17.655 116.07 17.655 C 115.45 17.655 114.987 17.757 114.635 17.968 C 114.284 18.178 114.108 18.535 114.108 19.039 L 114.108 24.516 C 114.108 25.02 114.288 25.382 114.649 25.597 C 115.011 25.812 115.499 25.92 116.119 25.92 Z" fill="#ffffff"/></svg>
+  <div class="tagline">Capabilities</div>
+</div>
+
+<div class="case-studies-section">
+  <h2>Case Studies</h2>
+  <div class="case-studies">
+    <div class="case-study">
+      <span class="cs-type">Agentic AI</span>
+      <h3>Agentic Business Development</h3>
+      <p class="cs-desc"><strong>B2B services company</strong> — scale outbound sales without adding headcount.</p>
+      <ul>
+        <li>Coordinated AI agent team for end-to-end outreach</li>
+        <li>Automated target research, contact enrichment, lead scoring</li>
+        <li>Personalized outreach drafting and CRM management</li>
+        <li>Live reply detection with human handoff at decision points</li>
+        <li>Replaced multi-person SDR function, running 24/7</li>
+      </ul>
+    </div>
+    <div class="case-study">
+      <span class="cs-type">Engineering Pod</span>
+      <h3>DermSquared</h3>
+      <p class="cs-desc"><strong>Digital health platform</strong> — faster shipping and infrastructure modernization.</p>
+      <ul>
+        <li>Embedded agent-first engineering pod shipping weekly</li>
+        <li>Restructured revenue-driving content templates</li>
+        <li>Rebuilt core component library, refactored bottlenecks</li>
+        <li>Launched modular SEO for traditional and AI-driven discovery</li>
+        <li>Result: faster iterations, cleaner infrastructure, scalable platform</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="why-section">
+  <h2>Why PE Firms Choose Gumbo</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <strong>Portfolio-wide leverage</strong>
+      <span>One engagement model that scales across all portfolio companies</span>
+    </div>
+    <div class="why-card">
+      <strong>Speed to value</strong>
+      <span>Agents and tools ship in days, not quarters</span>
+    </div>
+    <div class="why-card">
+      <strong>Custom over generic</strong>
+      <span>Built for your specific workflows, not off-the-shelf SaaS</span>
+    </div>
+    <div class="why-card">
+      <strong>Partnership model</strong>
+      <span>Extension of your team with founder-level attention</span>
+    </div>
+    <div class="why-card">
+      <strong>Human-in-the-loop</strong>
+      <span>Autonomous execution with human oversight at every decision point</span>
+    </div>
+    <div class="why-card">
+      <strong>AI-native delivery</strong>
+      <span>We use the same AI methods we deploy for clients</span>
+    </div>
+  </div>
+</div>
+
+<div class="pull-quote">
+  <blockquote>"They deployed agents in our first week that replaced an entire manual workflow. The speed was unlike anything we'd seen."</blockquote>
+  <cite>— Portfolio Operations Lead</cite>
+</div>
+
+<div class="footer-minimal">
+  <div class="fl">
+    <svg class="footer-logo" viewBox="0 0 145.135 44.069" xmlns="http://www.w3.org/2000/svg"><path d="M 123.46 6.24 L 138.902 6.24 L 138.902 12.999 L 145.135 12.999 L 145.135 31.079 L 138.902 31.079 L 138.902 37.829 L 123.46 37.829 L 123.46 44.069 L 21.676 44.069 L 21.676 37.829 L 6.228 37.829 L 6.228 31.075 L 0 31.075 L 0 12.995 L 6.227 12.995 L 6.227 6.239 L 21.674 6.239 L 21.674 0 L 123.459 0 L 123.459 6.24 Z" fill="#111111"/><path d="M 23.047 29.534 C 22.353 29.534 21.782 29.275 21.328 28.756 C 20.875 28.238 20.65 27.592 20.65 26.829 L 20.65 16.74 C 20.65 15.963 20.875 15.317 21.329 14.803 C 21.783 14.29 22.354 14.035 23.047 14.035 L 37.303 14.035 C 37.997 14.035 38.568 14.291 39.022 14.804 C 39.475 15.317 39.701 15.963 39.701 16.74 L 39.701 19.444 L 32.139 19.444 L 32.139 18.795 C 32.139 18.306 31.964 17.948 31.613 17.733 C 31.261 17.518 30.773 17.41 30.153 17.41 C 29.534 17.41 29.07 17.518 28.718 17.733 C 28.367 17.948 28.191 18.306 28.191 18.794 L 28.191 24.77 C 28.191 25.26 28.371 25.616 28.733 25.832 C 29.094 26.047 29.582 26.154 30.202 26.154 C 30.822 26.154 31.28 26.047 31.628 25.832 C 31.974 25.616 32.145 25.26 32.145 24.77 L 32.145 23.881 L 29.465 23.881 L 29.465 20.438 L 39.705 20.438 L 39.705 29.529 L 34.023 29.529 L 34.023 27.323 L 33.828 27.323 C 33.77 27.973 33.53 28.501 33.106 28.912 C 32.682 29.323 32.145 29.528 31.496 29.528 L 23.047 29.528 Z M 43.614 29.534 C 42.921 29.534 42.35 29.275 41.897 28.757 C 41.442 28.239 41.218 27.592 41.218 26.829 L 41.218 14.036 L 48.759 14.036 L 48.759 23.949 C 48.759 24.585 48.955 25.04 49.345 25.313 C 49.735 25.588 50.257 25.725 50.921 25.725 C 51.585 25.725 52.102 25.592 52.478 25.323 C 52.854 25.059 53.039 24.604 53.039 23.969 L 53.039 14.031 L 59.95 14.031 L 59.95 26.825 C 59.95 27.588 59.727 28.233 59.271 28.751 C 58.819 29.269 58.247 29.529 57.554 29.529 L 43.619 29.529 Z M 61.585 29.534 L 61.585 14.035 L 70.508 14.035 L 73.686 18.775 L 73.856 18.775 L 77.034 14.035 L 84.745 14.035 L 84.745 29.534 L 77.38 29.534 L 77.38 22.976 L 77.209 22.976 L 72.543 29.534 L 71.85 29.534 L 67.184 22.951 L 66.989 22.951 L 66.989 29.534 Z M 86.516 29.534 L 86.516 14.035 L 103.062 14.035 C 103.697 14.035 104.214 14.266 104.62 14.731 C 105.025 15.194 105.224 15.767 105.224 16.462 L 105.224 19.014 C 105.224 19.748 105.035 20.32 104.653 20.726 C 104.273 21.132 103.741 21.352 103.067 21.396 L 103.067 21.611 C 103.79 21.656 104.356 21.885 104.775 22.306 C 105.195 22.726 105.4 23.319 105.4 24.081 L 105.4 27.088 C 105.4 27.798 105.201 28.379 104.795 28.844 C 104.39 29.309 103.873 29.538 103.238 29.538 L 86.516 29.538 Z M 93.945 19.924 L 96.928 19.924 C 97.245 19.924 97.469 19.807 97.606 19.567 C 97.742 19.328 97.811 19.014 97.811 18.628 C 97.811 18.207 97.742 17.89 97.606 17.665 C 97.469 17.44 97.24 17.328 96.928 17.328 L 93.945 17.328 Z M 93.945 26.243 L 96.991 26.243 C 97.352 26.243 97.591 26.111 97.713 25.851 C 97.835 25.592 97.899 25.245 97.899 24.815 C 97.899 24.384 97.835 24.022 97.713 23.778 C 97.591 23.533 97.347 23.411 96.991 23.411 L 93.945 23.411 Z M 108.964 29.534 C 108.271 29.534 107.699 29.275 107.245 28.756 C 106.792 28.238 106.567 27.592 106.567 26.829 L 106.567 16.74 C 106.567 15.963 106.792 15.317 107.245 14.803 C 107.699 14.29 108.271 14.035 108.964 14.035 L 123.22 14.035 C 123.913 14.035 124.484 14.291 124.938 14.804 C 125.392 15.317 125.617 15.963 125.617 16.74 L 125.617 26.829 C 125.617 27.592 125.392 28.238 124.938 28.756 C 124.484 29.275 123.913 29.534 123.22 29.534 Z M 116.114 25.92 C 116.719 25.92 117.193 25.817 117.539 25.607 C 117.886 25.397 118.056 25.04 118.056 24.535 L 118.056 19.059 C 118.056 18.554 117.881 18.193 117.529 17.978 C 117.178 17.762 116.69 17.655 116.07 17.655 C 115.45 17.655 114.987 17.757 114.635 17.968 C 114.284 18.178 114.108 18.535 114.108 19.039 L 114.108 24.516 C 114.108 25.02 114.288 25.382 114.649 25.597 C 115.011 25.812 115.499 25.92 116.119 25.92 Z" fill="#ffffff"/></svg>
+  </div>
+  <div class="fr">
+    jeff@hellogumbo.com · <a href="https://hellogumbo.com">hellogumbo.com</a>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>

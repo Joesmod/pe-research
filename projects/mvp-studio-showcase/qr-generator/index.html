@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Code Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a14;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:32px 20px}
+.back{color:#888;text-decoration:none;font-size:.9rem;font-weight:500;align-self:flex-start;margin-bottom:20px;transition:color .2s}
+.back:hover{color:#fff}
+h1{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:800;background:linear-gradient(135deg,#6366f1,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;text-align:center}
+.subtitle{color:#666;margin-bottom:32px;text-align:center}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:32px;width:100%;max-width:480px}
+.field{margin-bottom:20px}
+.field label{display:block;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:#888;margin-bottom:8px}
+.field input[type="text"]{width:100%;padding:12px 16px;border:2px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(0,0,0,.3);color:#e0e0e0;font-family:inherit;font-size:1rem;outline:none;transition:border-color .2s}
+.field input[type="text"]:focus{border-color:#6366f1}
+.color-row{display:flex;gap:16px}
+.color-row .field{flex:1}
+.color-pick{display:flex;align-items:center;gap:10px}
+.color-pick input[type="color"]{width:40px;height:40px;border:none;border-radius:8px;cursor:pointer;background:none;padding:0}
+.color-pick input[type="color"]::-webkit-color-swatch-wrapper{padding:0}
+.color-pick input[type="color"]::-webkit-color-swatch{border:2px solid rgba(255,255,255,.15);border-radius:6px}
+.color-pick span{font-family:'Courier New',monospace;font-size:.9rem;color:#aaa}
+.btn{width:100%;padding:14px;border:none;border-radius:12px;font-family:inherit;font-size:1rem;font-weight:700;cursor:pointer;transition:all .2s;margin-bottom:12px}
+.btn-gen{background:linear-gradient(135deg,#6366f1,#06b6d4);color:#fff}
+.btn-gen:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(99,102,241,.4)}
+.btn-dl{background:rgba(255,255,255,.08);color:#ccc}
+.btn-dl:hover{background:rgba(255,255,255,.15);color:#fff}
+.qr-area{text-align:center;margin-top:24px}
+.qr-area img{border-radius:16px;background:#fff;padding:16px;max-width:100%;transition:opacity .3s}
+.qr-area.loading img{opacity:.3}
+.empty{color:#555;font-size:.9rem;padding:60px 0}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back to Showcase</a>
+<h1>📱 QR Code Generator</h1>
+<p class="subtitle">Turn any text or URL into a scannable QR code</p>
+<div class="card">
+<div class="field">
+<label>Text or URL</label>
+<input type="text" id="textInput" placeholder="https://example.com" value="https://github.com">
+</div>
+<div class="color-row">
+<div class="field">
+<label>Foreground</label>
+<div class="color-pick">
+<input type="color" id="fgColor" value="#6366f1">
+<span id="fgHex">#6366f1</span>
+</div>
+</div>
+<div class="field">
+<label>Background</label>
+<div class="color-pick">
+<input type="color" id="bgColor" value="#ffffff">
+<span id="bgHex">#ffffff</span>
+</div>
+</div>
+</div>
+<button class="btn btn-gen" onclick="generate()">Generate QR Code</button>
+<button class="btn btn-dl" id="dlBtn" onclick="download()" style="display:none">⬇ Download PNG</button>
+<div class="qr-area" id="qrArea">
+<div class="empty">Enter text above and click Generate</div>
+</div>
+</div>
+<script>
+const fgColor=document.getElementById('fgColor'),bgColor=document.getElementById('bgColor');
+const fgHex=document.getElementById('fgHex'),bgHex=document.getElementById('bgHex');
+fgColor.addEventListener('input',()=>fgHex.textContent=fgColor.value);
+bgColor.addEventListener('input',()=>bgHex.textContent=bgColor.value);
+
+let currentUrl='';
+
+function generate(){
+const text=document.getElementById('textInput').value.trim();
+if(!text)return;
+const fg=fgColor.value.replace('#','');
+const bg=bgColor.value.replace('#','');
+const url=`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(text)}&color=${fg}&bgcolor=${bg}&format=png`;
+const area=document.getElementById('qrArea');
+area.innerHTML=`<img src="${url}" alt="QR Code" crossorigin="anonymous">`;
+area.classList.add('loading');
+const img=area.querySelector('img');
+img.onload=()=>{area.classList.remove('loading');document.getElementById('dlBtn').style.display='block'};
+img.onerror=()=>{area.innerHTML='<div class="empty">Failed to generate. Try again.</div>';area.classList.remove('loading')};
+currentUrl=url;
+}
+
+function download(){
+const img=document.querySelector('#qrArea img');
+if(!img)return;
+const canvas=document.createElement('canvas');
+canvas.width=300;canvas.height=300;
+const c=canvas.getContext('2d');
+c.drawImage(img,0,0,300,300);
+const a=document.createElement('a');
+a.href=canvas.toDataURL('image/png');
+a.download='qrcode.png';
+a.click();
+}
+
+document.getElementById('textInput').addEventListener('keydown',e=>{if(e.key==='Enter')generate()});
+generate();
+</script>
+</body>
+</html>

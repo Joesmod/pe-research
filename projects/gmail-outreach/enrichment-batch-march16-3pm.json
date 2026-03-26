@@ -1,0 +1,73 @@
+{
+  "enrichmentDate": "2026-03-16T15:10:00-05:00",
+  "enrichedContacts": [
+    {
+      "company": "NewSpring Capital",
+      "row": 192,
+      "contact": "Jon Schwartz",
+      "title": "President & COO",
+      "email": "jschwartz@newspringcapital.com",
+      "linkedin": "https://www.linkedin.com/in/jon-schwartz-0979017",
+      "source": "Official NewSpring contact page (newspringcapital.com/contact)",
+      "verified": true,
+      "notes": "Verified from official website contact page"
+    },
+    {
+      "company": "424 Capital",
+      "row": null,
+      "contact": "Walter Beinecke",
+      "title": "Managing Partner",
+      "email": "wbeinecke@424capital.com",
+      "phone": "(781) 451-1374",
+      "linkedin": "https://www.linkedin.com/in/walter-beinecke",
+      "source": "Official 424 Capital team page (424capital.com/walter-beinecke/)",
+      "verified": true,
+      "notes": "Leads investments in Renewable Energy and Data-Driven Marketing"
+    },
+    {
+      "company": "TT Capital Partners",
+      "row": null,
+      "contact": "Dawn Owens",
+      "title": "CEO & Partner",
+      "email": "info@ttcapitalpartners.com",
+      "linkedin": "https://www.linkedin.com/in/dawn-owens-8b57b196",
+      "source": "TT Capital Partners contact page",
+      "verified": true,
+      "notes": "General contact email from official site. CEO with 30+ years healthcare experience"
+    },
+    {
+      "company": "SDC Capital Partners",
+      "row": null,
+      "contact": "Paul Hines",
+      "title": "Managing Director",
+      "email": null,
+      "linkedin": "https://www.linkedin.com/in/paul-hines-8b796a10",
+      "source": "LinkedIn",
+      "verified": false,
+      "notes": "LinkedIn profile confirmed, no verified email found"
+    },
+    {
+      "company": "SDC Capital Partners",
+      "row": null,
+      "contact": "Clinton Karcher",
+      "title": "Partner",
+      "email": null,
+      "linkedin": "https://www.linkedin.com/in/clinton-karcher-90960b6",
+      "source": "LinkedIn",
+      "verified": false,
+      "notes": "LinkedIn profile confirmed, no verified email found"
+    }
+  ],
+  "researchNotes": {
+    "apolloStatus": "API credits exhausted - insufficient credits error",
+    "totalFirmsNeeding Enrichment": 275,
+    "enrichedInThisSession": 2,
+    "method": "Manual web research + official website sources",
+    "nextSteps": [
+      "Continue manual enrichment for high-priority firms",
+      "Focus on firms with official team/contact pages",
+      "Look for press releases with contact info",
+      "Check SEC filings for executive contacts"
+    ]
+  }
+}

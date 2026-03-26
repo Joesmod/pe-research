@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drawing Canvas</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:16px;gap:16px}
+.back{color:#888;text-decoration:none;font-size:.85rem;align-self:flex-start;transition:color .2s}
+.back:hover{color:#fff}
+h1{font-size:1.8rem;font-weight:800;background:linear-gradient(135deg,#ec4899,#f97316,#eab308);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;background:#1a1a2e;padding:14px 20px;border-radius:16px;max-width:820px;width:100%}
+.tool-group{display:flex;align-items:center;gap:8px}
+.tool-btn{padding:8px 16px;border:none;border-radius:10px;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;background:#252540;color:#e0e0e0;transition:all .15s}
+.tool-btn:hover{background:#353560}
+.tool-btn.active{background:linear-gradient(135deg,#6366f1,#a855f7);color:#fff}
+.tool-btn.danger{background:#3b1a1a;color:#f87171}
+.tool-btn.danger:hover{background:#5b2a2a}
+.tool-btn.save{background:#1a3b2a;color:#4ade80}
+.tool-btn.save:hover{background:#2a5b3a}
+label{font-size:.8rem;color:#888}
+input[type=range]{width:80px;accent-color:#a855f7}
+input[type=color]{width:32px;height:32px;border:none;border-radius:8px;cursor:pointer;background:none;padding:0}
+.palette{display:flex;gap:4px}
+.swatch{width:24px;height:24px;border-radius:6px;border:2px solid transparent;cursor:pointer;transition:transform .12s}
+.swatch:hover{transform:scale(1.15)}
+.swatch.active{border-color:#fff;transform:scale(1.1)}
+.canvas-wrap{border-radius:16px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,.5);line-height:0}
+canvas{cursor:crosshair;touch-action:none}
+.size-val{font-size:.8rem;color:#a78bfa;font-weight:600;min-width:28px;text-align:center}
+@media(max-width:500px){.toolbar{gap:8px;padding:10px 12px}}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back to Showcase</a>
+<h1>🎨 Drawing Canvas</h1>
+<div class="toolbar">
+  <div class="tool-group">
+    <button class="tool-btn active" id="brushBtn" onclick="setTool('brush')">🖌️ Brush</button>
+    <button class="tool-btn" id="eraserBtn" onclick="setTool('eraser')">🧹 Eraser</button>
+  </div>
+  <div class="tool-group">
+    <label>Size</label>
+    <input type="range" id="size" min="1" max="50" value="5" oninput="brushSize=+this.value;document.getElementById('sizeVal').textContent=this.value">
+    <span class="size-val" id="sizeVal">5</span>
+  </div>
+  <div class="tool-group">
+    <input type="color" id="colorPicker" value="#ffffff" oninput="brushColor=this.value;updatePalette()">
+    <div class="palette" id="palette"></div>
+  </div>
+  <div class="tool-group">
+    <button class="tool-btn" onclick="undo()">↩ Undo</button>
+    <button class="tool-btn danger" onclick="clearCanvas()">🗑️ Clear</button>
+    <button class="tool-btn save" onclick="download()">💾 Save</button>
+  </div>
+</div>
+<div class="canvas-wrap">
+  <canvas id="c"></canvas>
+</div>
+
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const PRESETS = ['#ffffff','#ef4444','#f97316','#eab308','#22c55e','#3b82f6','#8b5cf6','#ec4899','#000000'];
+let brushSize = 5, brushColor = '#ffffff', tool = 'brush';
+let drawing = false, undoStack = [];
+
+function resize() {
+  const w = Math.min(800, window.innerWidth - 32);
+  const h = Math.min(600, window.innerHeight - 220);
+  // Save current image
+  const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  canvas.width = w; canvas.height = h;
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h);
+  ctx.putImageData(img, 0, 0);
+}
+
+function init() {
+  const w = Math.min(800, window.innerWidth - 32);
+  const h = Math.min(600, window.innerHeight - 220);
+  canvas.width = w; canvas.height = h;
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h);
+  saveState();
+  renderPalette();
+}
+
+function saveState() {
+  undoStack.push(canvas.toDataURL());
+  if (undoStack.length > 21) undoStack.shift();
+}
+
+function undo() {
+  if (undoStack.length <= 1) return;
+  undoStack.pop();
+  const img = new Image();
+  img.onload = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); ctx.drawImage(img, 0, 0); };
+  img.src = undoStack[undoStack.length - 1];
+}
+
+function setTool(t) {
+  tool = t;
+  document.getElementById('brushBtn').classList.toggle('active', t === 'brush');
+  document.getElementById('eraserBtn').classList.toggle('active', t === 'eraser');
+}
+
+function getPos(e) {
+  const r = canvas.getBoundingClientRect();
+  const t = e.touches ? e.touches[0] : e;
+  return [t.clientX - r.left, t.clientY - r.top];
+}
+
+function startDraw(e) {
+  drawing = true;
+  const [x, y] = getPos(e);
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.lineWidth = brushSize;
+  ctx.strokeStyle = tool === 'eraser' ? '#ffffff' : brushColor;
+  // Draw a dot for single clicks
+  ctx.lineTo(x + 0.1, y + 0.1);
+  ctx.stroke();
+}
+
+function draw(e) {
+  if (!drawing) return;
+  e.preventDefault();
+  const [x, y] = getPos(e);
+  ctx.lineTo(x, y);
+  ctx.stroke();
+}
+
+function stopDraw() {
+  if (!drawing) return;
+  drawing = false;
+  saveState();
+}
+
+canvas.addEventListener('mousedown', startDraw);
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', stopDraw);
+canvas.addEventListener('mouseleave', stopDraw);
+canvas.addEventListener('touchstart', e => { e.preventDefault(); startDraw(e); }, { passive: false });
+canvas.addEventListener('touchmove', e => { draw(e); }, { passive: false });
+canvas.addEventListener('touchend', stopDraw);
+
+function clearCanvas() {
+  if (!confirm('Clear the entire canvas?')) return;
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+  saveState();
+}
+
+function download() {
+  const a = document.createElement('a');
+  a.download = 'drawing.png';
+  a.href = canvas.toDataURL();
+  a.click();
+}
+
+function renderPalette() {
+  document.getElementById('palette').innerHTML = PRESETS.map(c =>
+    `<div class="swatch ${c===brushColor?'active':''}" style="background:${c}" onclick="brushColor='${c}';document.getElementById('colorPicker').value='${c}';updatePalette()"></div>`
+  ).join('');
+}
+
+function updatePalette() { renderPalette(); }
+
+init();
+</script>
+</body>
+</html>

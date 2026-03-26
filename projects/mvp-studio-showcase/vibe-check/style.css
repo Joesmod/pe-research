@@ -1,0 +1,29 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;min-height:100vh;transition:background 1s ease;background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);color:#e0e0e0;overflow-x:hidden}
+.app{max-width:700px;margin:0 auto;padding:20px;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+header{text-align:center;padding:40px 0 20px}
+.back{color:rgba(255,255,255,.5);text-decoration:none;font-size:.9rem;transition:color .2s}.back:hover{color:#fff}
+header h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;margin:12px 0 8px}
+header p{opacity:.7;font-size:1.05rem}
+.moods{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;padding:24px 0;max-width:500px}
+.mood-btn{background:rgba(255,255,255,.1);border:2px solid transparent;border-radius:16px;padding:14px 20px;cursor:pointer;transition:all .3s;font-size:1rem;font-family:inherit;color:#fff;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:80px}
+.mood-btn:hover{background:rgba(255,255,255,.2);transform:translateY(-4px)}
+.mood-btn.active{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.2);transform:scale(1.05)}
+.mood-emoji{font-size:2rem}
+.mood-label{font-size:.75rem;font-weight:600;opacity:.8}
+.content-area{width:100%;max-width:600px;padding:20px 0;flex:1}
+.loader{text-align:center;padding:40px}
+.spinner{width:40px;height:40px;border:3px solid rgba(255,255,255,.15);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;margin:0 auto}
+@keyframes spin{to{transform:rotate(360deg)}}
+.vibe-card{background:rgba(255,255,255,.08);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:32px;text-align:center;animation:cardIn .5s ease}
+@keyframes cardIn{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:translateY(0) scale(1)}}
+.vibe-type{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;opacity:.6;margin-bottom:16px}
+.vibe-text{font-size:1.25rem;line-height:1.6;font-weight:500;margin-bottom:8px}
+.vibe-source{font-size:.85rem;opacity:.5;margin-bottom:24px;font-style:italic}
+.vibe-actions{display:flex;gap:10px;justify-content:center}
+.btn{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.15);color:#fff;padding:10px 20px;border-radius:12px;font-family:inherit;font-size:.9rem;font-weight:600;cursor:pointer;transition:all .25s}
+.btn:hover{background:rgba(255,255,255,.22);transform:translateY(-2px)}
+.btn-copy{background:rgba(255,255,255,.06)}
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(100px);background:rgba(0,0,0,.85);color:#fff;padding:12px 24px;border-radius:14px;font-size:.9rem;font-weight:600;transition:transform .35s ease;z-index:200;backdrop-filter:blur(10px)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+@media(max-width:500px){.mood-btn{padding:10px 14px;min-width:70px}.mood-emoji{font-size:1.5rem}.vibe-text{font-size:1.1rem}.vibe-card{padding:24px}}

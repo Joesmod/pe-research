@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit Converter</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+.back{position:fixed;top:20px;left:20px;color:#888;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}.back:hover{color:#a78bfa}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;background:linear-gradient(135deg,#06b6d4,#6366f1,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-top:60px;text-align:center}
+.tabs{display:flex;gap:8px;margin-top:32px;flex-wrap:wrap;justify-content:center;padding:0 16px}
+.tab{padding:10px 20px;border-radius:10px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);color:#888;font-family:'Inter',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .2s}
+.tab.active,.tab:hover{background:rgba(99,102,241,.2);color:#a78bfa;border-color:rgba(99,102,241,.3)}
+.converter{margin-top:32px;width:90%;max-width:480px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:32px;display:flex;flex-direction:column;gap:20px}
+.field{display:flex;flex-direction:column;gap:8px}
+.field label{font-size:.8rem;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:1px}
+.field select,.field input{padding:14px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);color:#fff;font-family:'Inter',sans-serif;font-size:1rem;outline:none;transition:border-color .2s;width:100%}
+.field select:focus,.field input:focus{border-color:#6366f1}
+.field select option{background:#1a1a2e;color:#fff}
+.swap-row{display:flex;justify-content:center}
+.swap-btn{width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.15);background:rgba(99,102,241,.1);color:#a78bfa;font-size:1.3rem;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center}
+.swap-btn:hover{background:rgba(99,102,241,.3);transform:rotate(180deg)}
+.result-box{padding:20px;border-radius:14px;background:rgba(99,102,241,.08);border:1px solid rgba(99,102,241,.15);text-align:center;min-height:60px;display:flex;align-items:center;justify-content:center}
+.result-val{font-size:clamp(1.2rem,3vw,1.8rem);font-weight:700;color:#c4b5fd;word-break:break-all}
+.formula{margin-top:4px;font-size:.8rem;color:#666;text-align:center}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<h1>📐 Unit Converter</h1>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="converter">
+<div class="field"><label>Value</label><input type="number" id="inputVal" value="1" step="any"></div>
+<div class="field"><label>From</label><select id="fromUnit"></select></div>
+<div class="swap-row"><button class="swap-btn" onclick="swapUnits()" title="Swap">⇅</button></div>
+<div class="field"><label>To</label><select id="toUnit"></select></div>
+<div class="result-box"><span class="result-val" id="result">—</span></div>
+<div class="formula" id="formula"></div>
+</div>
+
+<script>
+const cats={
+  Length:{units:['Meter','Kilometer','Centimeter','Millimeter','Mile','Yard','Foot','Inch'],toBase:{Meter:1,Kilometer:1000,Centimeter:.01,Millimeter:.001,Mile:1609.344,Yard:.9144,Foot:.3048,Inch:.0254}},
+  Weight:{units:['Kilogram','Gram','Milligram','Pound','Ounce','Ton (metric)'],toBase:{Kilogram:1,Gram:.001,Milligram:1e-6,Pound:.453592,Ounce:.0283495,'Ton (metric)':1000}},
+  Temperature:{units:['Celsius','Fahrenheit','Kelvin'],special:true},
+  Speed:{units:['m/s','km/h','mph','Knots'],toBase:{'m/s':1,'km/h':1/3.6,'mph':.44704,Knots:.514444}},
+  Data:{units:['Byte','Kilobyte','Megabyte','Gigabyte','Terabyte','Bit'],toBase:{Byte:1,Kilobyte:1024,Megabyte:1048576,Gigabyte:1073741824,Terabyte:1099511627776,Bit:.125}}
+};
+
+let currentCat='Length';
+
+function init(){
+  const tabsEl=document.getElementById('tabs');
+  Object.keys(cats).forEach(c=>{
+    const b=document.createElement('button');b.className='tab'+(c===currentCat?' active':'');b.textContent=c;
+    b.onclick=()=>{currentCat=c;document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));b.classList.add('active');populateUnits();convert()};
+    tabsEl.appendChild(b);
+  });
+  populateUnits();convert();
+}
+
+function populateUnits(){
+  const cat=cats[currentCat],f=document.getElementById('fromUnit'),t=document.getElementById('toUnit');
+  f.innerHTML='';t.innerHTML='';
+  cat.units.forEach((u,i)=>{f.add(new Option(u,u));t.add(new Option(u,u))});
+  if(cat.units.length>1)t.selectedIndex=1;
+}
+
+function convert(){
+  const val=parseFloat(document.getElementById('inputVal').value),from=document.getElementById('fromUnit').value,to=document.getElementById('toUnit').value,cat=cats[currentCat];
+  if(isNaN(val)){document.getElementById('result').textContent='—';return}
+  let result;
+  if(cat.special){
+    let c=val;
+    if(from==='Fahrenheit')c=(val-32)*5/9;else if(from==='Kelvin')c=val-273.15;
+    if(to==='Celsius')result=c;else if(to==='Fahrenheit')result=c*9/5+32;else result=c+273.15;
+  }else{
+    const base=val*cat.toBase[from];result=base/cat.toBase[to];
+  }
+  const fmt=Math.abs(result)<.001&&result!==0?result.toExponential(6):parseFloat(result.toPrecision(10));
+  document.getElementById('result').textContent=`${fmt} ${to}`;
+  document.getElementById('formula').textContent=`${val} ${from} = ${fmt} ${to}`;
+}
+
+function swapUnits(){
+  const f=document.getElementById('fromUnit'),t=document.getElementById('toUnit'),[fv,tv]=[f.value,t.value];f.value=tv;t.value=fv;convert();
+}
+
+document.getElementById('inputVal').addEventListener('input',convert);
+document.getElementById('fromUnit').addEventListener('change',convert);
+document.getElementById('toUnit').addEventListener('change',convert);
+init();
+</script>
+</body>
+</html>

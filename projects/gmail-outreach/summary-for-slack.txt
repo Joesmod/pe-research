@@ -1,0 +1,99 @@
+🎯 PE OUTREACH BATCH READY - 25 EMAILS
+
+Preview email sent to alex@hellogumbo.com - awaiting approval before sending full batch.
+
+CRITERIA:
+• Gumbo Score >= 8 (mostly 9s)
+• Verified emails only
+• Prioritized tech/AI/value creation roles (CTOs, Portfolio Ops, etc.)
+• No company contacted in last 7 days
+• 1 contact per company max
+
+TOP 25 RECIPIENTS:
+
+1. [341] One Rock Capital Partners - Allison Spector (Managing Director, Head of Sustainability)
+   aspector@onerockcapital.com
+
+2. [300] Littlejohn & Co. - Brian Michaud (Managing Director)
+   bmichaud@littlejohnllc.com
+
+3. [297] Union Capital Associates - William Ogden (Managing Director)
+   bill@unioncapitalassociates.com
+
+4. [234] Siris Capital Group - Dave Calamai (Managing Director)
+   calamai@siris.com
+
+5. [231] BV Investment Partners - Justin Garrison (Managing Director)
+   jgarrison@bvlp.com
+
+6. [230] Marlin Equity Partners - Nathan Pingelton (Managing Director)
+   npingelton@marlinequity.com
+
+7. [229] Golden Gate Capital - Neale Attenborough (Managing Director)
+   nattenborough@goldengatecap.com
+
+8. [228] Cortec Group - Jesse Moberg (Managing Director)
+   jmoberg@cortecgroup.com
+
+9. [226] CID Capital - Tom Shaw (Managing Director)
+   tom@cidcap.com
+
+10. [225] Pine Brook Partners - Joe Gantz (Managing Director)
+    jgantz@pinebrookpartners.com
+
+11. [223] Accel-KKR - Rachel Spasser (Managing Director)
+    rspasser@accel-kkr.com
+
+12. [219] Clairvest Group - Angus Cole (Managing Director, Partner)
+    angusc@clairvest.com
+
+13. [216] Platte River Equity - Eric Crawford (Managing Director)
+    ecrawford@platteriverequity.com
+
+14. [215] Mountaingate Capital - Sue Cho (Managing Director)
+    scho@mountaingate.com
+
+15. [207] General Atlantic - Anish Batlaw (Managing Director)
+    abatlaw@generalatlantic.com
+
+16. [206] Rhône Group - Patrick Mundt (Managing Director)
+    mundt@rhonegroup.com
+
+17. [205] Midwest Growth Partners - Zane Hendricks (Managing Director)
+    zane.hendricks@mgpfund.com
+
+18. [203] Kainos Capital - Doug Reader (Senior Managing Director)
+    dreader@kainoscapital.com
+
+19. [202] Brentwood Associates - Ryan Foltz (Managing Director)
+    rfoltz@brentwood.com
+
+20. [201] Resurgens Technology Partners - Fred Sturgis (Managing Director)
+    fred@resurgenstech.com
+
+21. [9] Charlesbank Capital Partners - John Flannery (Managing Director, Head of Portfolio Resources Group)
+    jflannery@charlesbank.com
+
+22. [9] GTCR - Joe Rubino (Managing Director & CTO, Co-Head of Portfolio Resources Group)
+    joe.rubino@gtcr.com
+
+23. [9] Huron Capital - Leah Ierardi (Vice President - Head of Business Development and ExecFactor Investment Strategy)
+    lierardi@huroncapital.com
+
+24. [9] JLL Partners - Raj Bhavsar (Managing Director/Chief Technology Officer)
+    r.bhavsar@jllpartners.com
+
+25. [9] Renovus Capital Partners - Jason Tanker (Managing Director)
+    jason.tanker@renovuscapital.com
+
+PERSONALIZATION:
+Each email is customized based on:
+• Recipient's specific role (CTO, Portfolio Ops, Value Creation, etc.)
+• Firm's sector focus (tech, services, healthcare, etc.)
+• Relevant AI use cases for PE value creation
+
+BATCH SCRIPT READY:
+batch-send-pe-outreach.js (DO NOT RUN without approval)
+
+NEXT STEP:
+Alex - please review preview email and reply with approval to send full batch.

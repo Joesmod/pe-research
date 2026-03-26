@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cold Email Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Cold Email Generator</h1>
+  <p class="subtitle">Generate personalized B2B outreach emails for AI consulting</p>
+
+  <div class="layout">
+    <div class="main">
+      <div class="card">
+        <h2>✉️ Prospect Details</h2>
+        <div class="form-grid">
+          <label>Prospect Company Name<input type="text" id="company" placeholder="e.g. Acme Corp"></label>
+          <label>Industry
+            <select id="industry">
+              <option>Healthcare</option><option>Finance & Banking</option><option>Manufacturing</option>
+              <option>Retail & E-commerce</option><option>Legal</option><option>Real Estate</option>
+              <option>Insurance</option><option>Logistics</option><option>SaaS / Tech</option><option>Other</option>
+            </select>
+          </label>
+          <label class="full">Specific Pain Point Observed<textarea id="pain" placeholder="e.g. I noticed your team manually processes hundreds of invoices weekly..."></textarea></label>
+          <label>Your Name<input type="text" id="sender" placeholder="e.g. Alex Johnson"></label>
+          <label>Your Company<input type="text" id="senderCo" placeholder="e.g. AI Solutions Co"></label>
+        </div>
+        <button class="btn" onclick="generate()">Generate 3 Email Variants</button>
+      </div>
+
+      <div class="emails" id="emails"></div>
+    </div>
+
+    <div class="sidebar">
+      <div class="card">
+        <h2>💡 Cold Email Tips</h2>
+        <div class="tip"><h4>Keep it under 200 words</h4><p>Short emails get 2x more replies. Respect their time.</p></div>
+        <div class="tip"><h4>Personalize the first line</h4><p>Reference something specific about their company. Generic = deleted.</p></div>
+        <div class="tip"><h4>One clear CTA</h4><p>Don't ask for a call AND a reply AND a click. Pick one ask.</p></div>
+        <div class="tip"><h4>No buzzwords</h4><p>Skip "leverage," "synergy," "cutting-edge." Be human and specific.</p></div>
+        <div class="tip"><h4>Subject line matters</h4><p>Keep it short (4-7 words), relevant, and curiosity-driven.</p></div>
+        <div class="tip"><h4>Follow up 2-3 times</h4><p>Most replies come on the 2nd or 3rd follow-up. Space them 3-5 days apart.</p></div>
+        <div class="tip"><h4>Send Tue-Thu, 8-10 AM</h4><p>Best open rates happen mid-week, early morning in prospect's timezone.</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function generate() {
+  const co = document.getElementById('company').value.trim();
+  const ind = document.getElementById('industry').value;
+  const pain = document.getElementById('pain').value.trim();
+  const sender = document.getElementById('sender').value.trim() || 'Alex';
+  const senderCo = document.getElementById('senderCo').value.trim() || 'our team';
+
+  if (!co || !pain) { alert('Please enter company name and pain point.'); return; }
+
+  const variants = [
+    {
+      title: 'Direct Approach',
+      tag: 'Straight to the point',
+      subject: `Quick question about ${co}'s ${ind.toLowerCase()} operations`,
+      body: `Hi there,
+
+I came across ${co} and noticed something: ${pain}
+
+For context, we help ${ind.toLowerCase()} companies automate exactly this kind of work. Most of our clients cut 15-30 hours per week off similar processes within the first month.
+
+No complex setup — we typically get a pilot running in under 2 weeks.
+
+Would a 15-minute call this week make sense to see if there's a fit?
+
+Best,
+${sender}
+${senderCo}`
+    },
+    {
+      title: 'Consultative Approach',
+      tag: 'Lead with insight',
+      subject: `Idea for ${co} — re: ${ind.toLowerCase()} automation`,
+      body: `Hi there,
+
+I've been researching ${ind.toLowerCase()} companies and ${co} caught my attention. Specifically: ${pain}
+
+This is a pattern we see a lot. The hidden cost isn't just the hours — it's the error rate, employee burnout, and the opportunity cost of what your team could be doing instead.
+
+I put together a quick framework for how companies like yours typically approach this. Happy to share it — no pitch, just a useful resource.
+
+Would that be helpful?
+
+${sender}
+${senderCo}`
+    },
+    {
+      title: 'Case Study Approach',
+      tag: 'Social proof driven',
+      subject: `How a ${ind.toLowerCase()} company solved what ${co} is facing`,
+      body: `Hi there,
+
+We recently worked with a ${ind.toLowerCase()} company that had a similar challenge to what I noticed at ${co}: ${pain}
+
+They were spending 30+ hours/week on it. After implementing a focused AI workflow, they reduced that to under 5 hours — and cut errors by 80%.
+
+The whole thing took 10 days from kickoff to live.
+
+I'd love to share the specifics and explore whether something similar could work for ${co}. Open to a quick chat this week?
+
+${sender}
+${senderCo}`
+    }
+  ];
+
+  const el = document.getElementById('emails');
+  el.innerHTML = variants.map((v, i) => `
+    <div class="email-card">
+      <button class="copy-btn" onclick="copyEmail(this, ${i})">📋 Copy</button>
+      <h3>${v.title}</h3>
+      <span class="tag">${v.tag}</span>
+      <div class="subject">Subject: ${v.subject}</div>
+      <div class="body">${v.body}</div>
+    </div>
+  `).join('');
+  el.style.display = 'block';
+  el.scrollIntoView({behavior:'smooth'});
+
+  window._emails = variants;
+}
+
+function copyEmail(btn, i) {
+  const e = window._emails[i];
+  const text = `Subject: ${e.subject}\n\n${e.body}`;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copy'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+</body>
+</html>

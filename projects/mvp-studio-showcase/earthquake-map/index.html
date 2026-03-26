@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Earthquake Map</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;height:100vh;display:flex;flex-direction:column}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:rgba(10,10,15,.95);border-bottom:1px solid rgba(255,255,255,.08);flex-wrap:wrap;gap:10px;z-index:1000;position:relative}
+.top-bar h1{font-size:1.2rem;font-weight:800;background:linear-gradient(135deg,#ef4444,#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.top-bar a{color:#6366f1;text-decoration:none;font-size:.85rem;font-weight:600}
+.controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.controls label{font-size:.8rem;color:#888}
+.controls input[type=range]{width:120px;accent-color:#ef4444}
+.controls .mag-val{font-size:.85rem;font-weight:700;color:#f97316;min-width:30px}
+#map{flex:1;z-index:1}
+.stats-panel{position:absolute;bottom:24px;left:24px;z-index:1000;background:rgba(10,10,15,.92);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px 20px;min-width:200px}
+.stats-panel h3{font-size:.8rem;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
+.stat-row{display:flex;justify-content:space-between;margin-bottom:6px;font-size:.9rem}
+.stat-row .v{font-weight:700;color:#f97316}
+.legend{position:absolute;bottom:24px;right:24px;z-index:1000;background:rgba(10,10,15,.92);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px 20px}
+.legend h3{font-size:.8rem;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px;font-size:.8rem}
+.legend-dot{width:14px;height:14px;border-radius:50%;flex-shrink:0}
+.refresh-badge{font-size:.75rem;color:#22c55e;display:flex;align-items:center;gap:4px}
+.refresh-badge::before{content:'';width:6px;height:6px;background:#22c55e;border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@media(max-width:640px){.stats-panel,.legend{position:relative;bottom:auto;left:auto;right:auto;border-radius:0;border:none;border-top:1px solid rgba(255,255,255,.08)}.stats-panel{order:1}.legend{order:2}}
+</style>
+</head>
+<body>
+<div class="top-bar">
+<div style="display:flex;align-items:center;gap:16px">
+<a href="../">← Back</a>
+<h1>🌍 Earthquake Map</h1>
+</div>
+<div class="controls">
+<label>Min Magnitude:</label>
+<input type="range" id="magSlider" min="0" max="7" step="0.5" value="0">
+<span class="mag-val" id="magVal">0+</span>
+<span class="refresh-badge">Live</span>
+</div>
+</div>
+<div id="map"></div>
+<div class="stats-panel" id="stats">
+<h3>Today's Stats</h3>
+<div class="stat-row"><span>Total</span><span class="v" id="totalQ">—</span></div>
+<div class="stat-row"><span>Largest</span><span class="v" id="largestQ">—</span></div>
+<div class="stat-row"><span>Average</span><span class="v" id="avgQ">—</span></div>
+</div>
+<div class="legend">
+<h3>Depth (km)</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#22c55e"></div> 0–30 (shallow)</div>
+<div class="legend-row"><div class="legend-dot" style="background:#eab308"></div> 30–100</div>
+<div class="legend-row"><div class="legend-dot" style="background:#f97316"></div> 100–300</div>
+<div class="legend-row"><div class="legend-dot" style="background:#ef4444"></div> 300+</div>
+<h3 style="margin-top:12px">Magnitude</h3>
+<div class="legend-row"><div class="legend-dot" style="width:8px;height:8px;background:#888"></div> < 2.5</div>
+<div class="legend-row"><div class="legend-dot" style="width:14px;height:14px;background:#888"></div> 2.5 – 5</div>
+<div class="legend-row"><div class="legend-dot" style="width:22px;height:22px;background:#888"></div> 5+</div>
+</div>
+<script>
+const map=L.map('map',{zoomControl:false}).setView([20,0],2);
+L.control.zoom({position:'topright'}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+attribution:'© CartoDB © OSM',maxZoom:18
+}).addTo(map);
+let quakeLayer=L.layerGroup().addTo(map);
+let allFeatures=[];
+function depthColor(d){return d<30?'#22c55e':d<100?'#eab308':d<300?'#f97316':'#ef4444'}
+function magRadius(m){return Math.max(3,Math.pow(2,m)*1.2)}
+function renderQuakes(){
+const minMag=+document.getElementById('magSlider').value;
+quakeLayer.clearLayers();
+const filtered=allFeatures.filter(f=>(f.properties.mag||0)>=minMag);
+filtered.forEach(f=>{
+const[lng,lat,depth]=f.geometry.coordinates;
+const mag=f.properties.mag||0;
+const c=L.circleMarker([lat,lng],{radius:magRadius(mag),fillColor:depthColor(depth),color:'rgba(255,255,255,.3)',weight:1,fillOpacity:.8});
+const t=new Date(f.properties.time).toLocaleString();
+c.bindPopup(`<div style="font-family:Inter,sans-serif"><strong>M${mag.toFixed(1)}</strong><br>${f.properties.place}<br>Depth: ${depth.toFixed(1)} km<br>${t}</div>`);
+quakeLayer.addLayer(c);
+});
+const mags=filtered.map(f=>f.properties.mag||0);
+document.getElementById('totalQ').textContent=filtered.length;
+document.getElementById('largestQ').textContent=mags.length?'M'+Math.max(...mags).toFixed(1):'—';
+document.getElementById('avgQ').textContent=mags.length?'M'+(mags.reduce((a,b)=>a+b,0)/mags.length).toFixed(1):'—';
+}
+async function fetchQuakes(){
+try{
+const r=await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
+const d=await r.json();
+allFeatures=d.features;
+renderQuakes();
+}catch(e){console.error('Fetch error',e)}
+}
+document.getElementById('magSlider').addEventListener('input',e=>{
+document.getElementById('magVal').textContent=e.target.value+'+';
+renderQuakes();
+});
+fetchQuakes();
+setInterval(fetchQuakes,60000);
+</script>
+</body>
+</html>

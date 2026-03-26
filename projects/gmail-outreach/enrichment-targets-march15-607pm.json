@@ -1,0 +1,50 @@
+[
+  {
+    "row": 928,
+    "company": "Renovus Capital Partners",
+    "contact": "https://www.renovuscapital.com",
+    "email": "North America",
+    "status": "",
+    "reason": "Missing/invalid contact"
+  },
+  {
+    "row": 929,
+    "company": "SV Capital",
+    "contact": "https://www.svcap.com",
+    "email": "North America",
+    "status": "Dead - Not PE Firm",
+    "reason": "Missing/invalid contact"
+  },
+  {
+    "row": 1226,
+    "company": "Gryphon Investors",
+    "contact": "R. David Andrews",
+    "email": "",
+    "status": "",
+    "reason": "Missing email"
+  },
+  {
+    "row": 1234,
+    "company": "Gryphon Investors",
+    "contact": "R. David Andrews",
+    "email": "",
+    "status": "Founded 1995. 75 platform investments, 550+ add-ons. 6 specialized industry groups. Contact: businessdevelopment@gryphoninvestors.com (official contact page). Source: gryphon-inv.com (2026-03-15 cron)",
+    "reason": "Missing email"
+  },
+  {
+    "row": 1246,
+    "company": "Altaris Capital Partners",
+    "contact": "Needs Research",
+    "email": "",
+    "status": "",
+    "reason": "Missing email"
+  },
+  {
+    "row": 1251,
+    "company": "Altaris Capital Partners",
+    "contact": "Daniel Tully",
+    "email": "",
+    "status": "Enriched - Needs Email",
+    "reason": "Missing email"
+  }
+]

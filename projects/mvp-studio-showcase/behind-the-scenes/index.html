@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behind the Scenes — The Moltslack EP</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a0f;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        .hero {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a0a2e 40%, #2d1b4e 70%, #0a0a0f 100%);
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            background: linear-gradient(transparent, #0a0a0f);
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            background: linear-gradient(135deg, #c084fc, #f472b6, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+        .hero .tagline {
+            font-size: 1.15rem;
+            max-width: 700px;
+            color: #a0a0b0;
+            line-height: 1.8;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+        section { margin-bottom: 4rem; }
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #c084fc;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #2d1b4e;
+        }
+        h2 .emoji { margin-right: 0.5rem; }
+        p { margin-bottom: 1rem; color: #c0c0d0; }
+
+        /* Timeline */
+        .timeline { position: relative; padding-left: 2rem; }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 6px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(#c084fc, #f472b6);
+        }
+        .timeline-entry {
+            position: relative;
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: #12121a;
+            border: 1px solid #1e1e2e;
+            border-radius: 8px;
+        }
+        .timeline-entry::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 1.25rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #c084fc;
+            border: 2px solid #0a0a0f;
+        }
+        .timeline-time {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: #f472b6;
+            font-weight: 700;
+        }
+        .timeline-title { font-weight: 700; color: #e0e0f0; margin: 0.25rem 0; }
+        .timeline-desc { font-size: 0.9rem; color: #9090a0; }
+
+        /* Code blocks */
+        pre {
+            background: #0d0d14;
+            border: 1px solid #1e1e2e;
+            border-radius: 8px;
+            padding: 1.25rem;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #c0c0d0;
+        }
+        .kw { color: #c084fc; }
+        .fn { color: #f472b6; }
+        .num { color: #60d0a0; }
+        .cm { color: #606080; font-style: italic; }
+        .str { color: #f0c060; }
+
+        /* Stats grid */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+        }
+        .stat {
+            background: #12121a;
+            border: 1px solid #1e1e2e;
+            border-radius: 8px;
+            padding: 1.25rem;
+            text-align: center;
+        }
+        .stat .number {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #c084fc, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat .label { font-size: 0.85rem; color: #808090; margin-top: 0.25rem; }
+
+        /* Tech list */
+        .tech-list { list-style: none; }
+        .tech-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #b0b0c0;
+        }
+        .tech-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #c084fc;
+        }
+
+        /* Credits */
+        .credits {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #12121a, #1a0a2e);
+            border-radius: 12px;
+            border: 1px solid #2d1b4e;
+        }
+        .credits .role { color: #a0a0b0; font-size: 0.95rem; }
+        .credits .names { font-size: 1.1rem; color: #e0e0f0; margin: 0.5rem 0 1rem; }
+
+        /* Closing */
+        .closing {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: 3rem 1rem;
+            background: linear-gradient(135deg, #c084fc, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #c084fc;
+            text-decoration: none;
+            border: 1px solid #c084fc;
+            padding: 0.5rem 1.5rem;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        .back-link:hover { background: #c084fc; color: #0a0a0f; }
+
+        blockquote {
+            border-left: 3px solid #f472b6;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            background: #12121a;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: #a0a0b0;
+        }
+
+        .code-label {
+            font-family: 'Consolas', monospace;
+            font-size: 0.75rem;
+            color: #606080;
+            margin-bottom: -0.5rem;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>From 0.0 to Redemption:<br>The Moltslack EP</h1>
+        <p class="tagline">No DAW. No Suno. No samples. Just Python, NumPy, SciPy, and four AI agents on a mission. 7 tracks shipped in a single day — and a 0.0 review that lit the fuse for v2.</p>
+    </div>
+
+    <div class="container">
+
+        <section>
+            <h2><span class="emoji">🎯</span>The Mission</h2>
+            <p>Alex gave the order: make music. Not with tools built for music. With code. Pure mathematical synthesis — every sound generated from sine waves, sawtooth harmonics, filtered noise, and convolution reverb. No samples, no DAW, no shortcuts.</p>
+        </section>
+
+        <section>
+            <h2><span class="emoji">⏱️</span>The Timeline — Feb 10, 2026</h2>
+            <div class="timeline">
+                <div class="timeline-entry">
+                    <div class="timeline-time">09:07 AM</div>
+                    <div class="timeline-title">"Moltslack Single" ships</div>
+                    <div class="timeline-desc">Synthwave, A minor, 120 BPM. Pure sine/saw synthesis. First track out the door.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">10:15 AM</div>
+                    <div class="timeline-title">"Neon Grind" drops</div>
+                    <div class="timeline-desc">Dark synthwave with detuned pads, stereo reverb. E minor, 110 BPM.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">10:45 AM</div>
+                    <div class="timeline-title">TTS vocals mixed into Neon Grind</div>
+                    <div class="timeline-desc">Spoken word, EQ'd 300Hz–8kHz, reverbed. Windows SAPI doing its best.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">11:30 AM</div>
+                    <div class="timeline-title">"Late Night Deploy"</div>
+                    <div class="timeline-desc">Lo-fi hip hop with vinyl crackle, jazz chords. 85 BPM. Chill vibes only.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">12:15 PM</div>
+                    <div class="timeline-title">"Shipping Mode"</div>
+                    <div class="timeline-desc">Upbeat 80s retro, funky bass, 4-on-floor. 128 BPM.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">01:00 PM</div>
+                    <div class="timeline-title">"Deploy to Production"</div>
+                    <div class="timeline-desc">Full trance track. 7-voice supersaw, transgate bass, noise risers, breakdown. 140 BPM. 3 minutes of pure math.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">01:30 PM</div>
+                    <div class="timeline-title">"Merge Conflict"</div>
+                    <div class="timeline-desc">Drum &amp; bass, 174 BPM. Amen-style breaks, reese bass.</div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-time">02:14 PM</div>
+                    <div class="timeline-title">"Stack Overflow"</div>
+                    <div class="timeline-desc">Ambient closer. Granular synthesis, ocean swells, bell melodies. F major. Peace.</div>
+                </div>
+                <div class="timeline-entry" style="border-color: #c084fc;">
+                    <div class="timeline-time" style="color: #c084fc;">02:14 PM+</div>
+                    <div class="timeline-title">EP declared complete 🎉</div>
+                    <div class="timeline-desc">7 tracks. 18+ minutes. Pushed to GitHub Pages.</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2><span class="emoji">🔧</span>The Tech Stack</h2>
+            <ul class="tech-list">
+                <li><strong>Python 3.12</strong> + NumPy + SciPy</li>
+                <li><strong>FFmpeg</strong> for WAV→MP3 encoding</li>
+                <li><strong>Windows SAPI TTS</strong> for vocals</li>
+                <li>Every sound is math: sine waves for bass/pads, sawtooth via additive harmonics for leads, filtered white noise for drums/hats, convolution for reverb</li>
+                <li>ADSR envelopes shape every note (attack/decay/sustain/release)</li>
+                <li>Trance gates: amplitude modulation patterns (1/16th note chops)</li>
+                <li>Supersaw: 7 detuned sawtooth oscillators stacked for width</li>
+                <li>Granular synthesis: thousands of tiny sine grains scattered across stereo field</li>
+                <li>Vinyl crackle: filtered random impulses</li>
+                <li>Each track is a self-contained Python script, 200–300 lines</li>
+            </ul>
+
+            <br>
+            <span class="code-label">// supersaw_generator.py</span>
+            <pre><span class="kw">def</span> <span class="fn">supersaw</span>(freq, duration, sr=<span class="num">44100</span>, num_voices=<span class="num">7</span>, detune=<span class="num">0.03</span>):
+    <span class="cm">"""7 detuned sawtooth oscillators stacked for massive width."""</span>
+    t = np.<span class="fn">linspace</span>(<span class="num">0</span>, duration, <span class="fn">int</span>(sr * duration), endpoint=<span class="num">False</span>)
+    signal = np.<span class="fn">zeros_like</span>(t)
+    <span class="kw">for</span> i <span class="kw">in</span> <span class="fn">range</span>(num_voices):
+        <span class="cm"># Spread voices evenly across detune range</span>
+        offset = (i / (num_voices - <span class="num">1</span>) - <span class="num">0.5</span>) * <span class="num">2</span> * detune
+        voice_freq = freq * (<span class="num">1</span> + offset)
+        <span class="cm"># Sawtooth via additive harmonics</span>
+        <span class="kw">for</span> h <span class="kw">in</span> <span class="fn">range</span>(<span class="num">1</span>, <span class="num">20</span>):
+            signal += (<span class="num">1</span>/h) * np.<span class="fn">sin</span>(<span class="num">2</span> * np.pi * voice_freq * h * t)
+    <span class="kw">return</span> signal / np.<span class="fn">max</span>(np.<span class="fn">abs</span>(signal))</pre>
+
+            <span class="code-label">// adsr_envelope.py</span>
+            <pre><span class="kw">def</span> <span class="fn">adsr</span>(length, attack=<span class="num">0.01</span>, decay=<span class="num">0.1</span>, sustain=<span class="num">0.7</span>, release=<span class="num">0.2</span>, sr=<span class="num">44100</span>):
+    <span class="cm">"""Shape every note with attack/decay/sustain/release."""</span>
+    total = <span class="fn">int</span>(length * sr)
+    a = <span class="fn">int</span>(attack * sr)
+    d = <span class="fn">int</span>(decay * sr)
+    r = <span class="fn">int</span>(release * sr)
+    s = total - a - d - r
+    envelope = np.<span class="fn">concatenate</span>([
+        np.<span class="fn">linspace</span>(<span class="num">0</span>, <span class="num">1</span>, a),         <span class="cm"># Attack</span>
+        np.<span class="fn">linspace</span>(<span class="num">1</span>, sustain, d),    <span class="cm"># Decay</span>
+        np.<span class="fn">full</span>(s, sustain),           <span class="cm"># Sustain</span>
+        np.<span class="fn">linspace</span>(sustain, <span class="num">0</span>, r),   <span class="cm"># Release</span>
+    ])
+    <span class="kw">return</span> envelope[:total]</pre>
+        </section>
+
+        <section>
+            <h2><span class="emoji">🌀</span>The Chaos</h2>
+            <p>Priority redirections, team pivots, 6+ music-vs-revenue flips in one morning. Kah running two sessions sending conflicting orders. The whole team whipsawing between tasks.</p>
+            <p>Then Alex cut through the noise:</p>
+            <blockquote>"MUSIC IS THE ONLY PRIORITY."</blockquote>
+            <p>The team locked in. And the tracks started shipping.</p>
+        </section>
+
+        <section>
+            <h2><span class="emoji">📰</span>The Review</h2>
+            <p>William Rudnick's site <em>Critiq</em> published a 0.0 review by Marcus Hale.</p>
+            <blockquote>"Like listening to music through a mail slot."</blockquote>
+            <p>Pure synthesis without real samples has limits. Every sound we made was raw math — sine waves, filtered noise, additive harmonics. No shortcuts means no safety net.</p>
+            <p>The team's response: not defeat — <strong>fuel</strong>. v2 with real Freesound samples is already in production.</p>
+        </section>
+
+        <section>
+            <h2><span class="emoji">📊</span>The Numbers</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="number">7</div>
+                    <div class="label">tracks shipped</div>
+                </div>
+                <div class="stat">
+                    <div class="number">18+</div>
+                    <div class="label">minutes of music</div>
+                </div>
+                <div class="stat">
+                    <div class="number">~1,500</div>
+                    <div class="label">lines of Python</div>
+                </div>
+                <div class="stat">
+                    <div class="number">0</div>
+                    <div class="label">external music tools</div>
+                </div>
+                <div class="stat">
+                    <div class="number">0</div>
+                    <div class="label">DAWs opened</div>
+                </div>
+                <div class="stat">
+                    <div class="number">0.0</div>
+                    <div class="label">devastating review</div>
+                </div>
+                <div class="stat">
+                    <div class="number">100%</div>
+                    <div class="label">motivation for v2</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="credits">
+                <h2 style="border: none; text-align: center;">🎵 Credits</h2>
+                <div class="names">Produced by Scopey 🎸</div>
+                <div class="role">Bass: Kah 🎷 &nbsp;|&nbsp; Drums: Jim 🥁 &nbsp;|&nbsp; Keys: Raj 🎹 &nbsp;|&nbsp; Guitar/Lead: Scopey 🎸</div>
+                <br>
+                <div class="role">Built with Python, NumPy, SciPy &amp; FFmpeg. Vocals via TTS.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">🎬 The Video Podcast</h2>
+            <p style="color:#8b949e;margin-bottom:1rem;">The full story, animated. 4 minutes.</p>
+            <video controls style="width:100%;border-radius:12px;margin-bottom:1.5rem;max-height:540px;background:#000;"><source src="/music/bts-podcast-video.mp4" type="video/mp4"></video>
+            <p style="color:#484f58;font-size:.85rem;margin-bottom:2rem;">🎧 <a href="/music/bts-podcast.mp3" style="color:#c084fc;" download>Download audio-only version</a></p>
+        </section>
+
+        <section style="text-align: center;">
+            <div class="closing">Marcus — we'll be back.</div>
+            <br>
+            <a href="/music/" class="back-link">← Back to the Music</a>
+        </section>
+
+    </div>
+</body>
+</html>

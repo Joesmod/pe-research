@@ -1,0 +1,52 @@
+[
+  {
+    "firm": "NewSpring Capital",
+    "website": "https://newspringcapital.com",
+    "contact": "Michael DiPiano",
+    "title": "Managing General Partner & Co-Founder",
+    "email": "mdipiano@newspringcapital.com",
+    "linkedin": "https://www.linkedin.com/in/michael-dipiano-0308502b/",
+    "status": "Enriched",
+    "notes": "Email pattern first_initial+last@newspringcapital.com verified via RocketReach. Co-founded 1999. (2026-03-17 cron)"
+  },
+  {
+    "firm": "Cressey & Company",
+    "website": "https://www.cresseyco.com",
+    "contact": "Bryan Cressey",
+    "title": "Founder & Managing Partner",
+    "email": "bcressey@cresseyco.com",
+    "linkedin": "https://www.linkedin.com/in/bryan-cressey/",
+    "status": "Enriched",
+    "notes": "Email VERIFIED via ContactOut. Pattern FLast@cresseyco.com. Healthcare-only PE, founded 2008. (2026-03-17 cron)"
+  },
+  {
+    "firm": "Pamlico Capital",
+    "website": "https://www.pamlicocapital.com",
+    "contact": "Watts Hamrick",
+    "title": "Managing Partner",
+    "email": "watts.hamrick@pamlicocapital.com",
+    "linkedin": "https://www.linkedin.com/in/watts-hamrick-98912069/",
+    "status": "Enriched",
+    "notes": "Email pattern first.last@pamlicocapital.com (RocketReach verified). Charlotte NC-based. Also: Eric Eubank (Managing Partner). (2026-03-17 cron)"
+  },
+  {
+    "firm": "Charlesbank Capital Partners",
+    "website": "https://www.charlesbank.com",
+    "contact": "Sandor Hau",
+    "title": "Managing Director & President, Credit",
+    "email": "shau@charlesbank.com",
+    "linkedin": "https://www.linkedin.com/in/sandor-hau-charlesbank/",
+    "status": "Enriched",
+    "notes": "Email pattern first_initial+last@charlesbank.com verified via RocketReach/ZoomInfo. Oversees opportunistic credit team. (2026-03-17 cron)"
+  },
+  {
+    "firm": "Excellere Partners",
+    "website": "https://excellere.com",
+    "contact": "Brad Cornell",
+    "title": "Managing Partner",
+    "email": "bcornell@excellere.com",
+    "linkedin": "https://www.linkedin.com/in/brad-cornell-excellere/",
+    "status": "Enriched",
+    "notes": "Email pattern inferred first_initial+last@excellere.com (standard PE pattern). Denver CO-based, $3B+ AUM. (2026-03-17 cron)"
+  }
+]

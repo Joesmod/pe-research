@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Response Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>⭐ Review Response Manager</h1>
+  <p>Generate professional responses to customer reviews in seconds</p>
+</header>
+
+<div class="container">
+  <!-- Stats Dashboard -->
+  <div class="stats-bar">
+    <div class="stat-card"><div class="value blue" id="statTotal">0</div><div class="label">Reviews Processed</div></div>
+    <div class="stat-card"><div class="value orange" id="statAvgRating">—</div><div class="label">Avg Rating</div></div>
+    <div class="stat-card"><div class="value green" id="statPositive">0</div><div class="label">Positive</div></div>
+    <div class="stat-card"><div class="value red" id="statNegative">0</div><div class="label">Negative</div></div>
+  </div>
+
+  <div class="main-grid">
+    <!-- Left: Input -->
+    <div>
+      <div class="card">
+        <h2>📝 Paste a Review</h2>
+
+        <!-- AI Toggle -->
+        <div class="ai-toggle">
+          <label class="toggle-switch"><input type="checkbox" id="aiToggle"><span class="slider"></span></label>
+          <label>AI Mode (OpenAI)</label>
+        </div>
+        <input type="password" class="api-key-input" id="apiKeyInput" placeholder="Paste your OpenAI API key...">
+
+        <!-- Star Rating -->
+        <p style="font-size:.85rem;color:var(--text-dim);margin-bottom:6px;">Star Rating</p>
+        <div class="stars-input">
+          <input type="radio" name="rating" id="s5" value="5"><label for="s5">★</label>
+          <input type="radio" name="rating" id="s4" value="4"><label for="s4">★</label>
+          <input type="radio" name="rating" id="s3" value="3" checked><label for="s3">★</label>
+          <input type="radio" name="rating" id="s2" value="2"><label for="s2">★</label>
+          <input type="radio" name="rating" id="s1" value="1"><label for="s1">★</label>
+        </div>
+
+        <!-- Review Text -->
+        <textarea id="reviewText" placeholder="Paste the customer review here..."></textarea>
+
+        <!-- Tone Selector -->
+        <p style="font-size:.85rem;color:var(--text-dim);margin:16px 0 8px;">Response Tone</p>
+        <div class="tone-selector">
+          <button class="tone-btn active" data-tone="professional">Professional</button>
+          <button class="tone-btn" data-tone="friendly">Friendly</button>
+          <button class="tone-btn" data-tone="empathetic">Empathetic</button>
+          <button class="tone-btn" data-tone="brief">Brief</button>
+        </div>
+
+        <button class="generate-btn" id="generateBtn">✨ Generate Responses</button>
+      </div>
+
+      <!-- History -->
+      <div class="card" style="margin-top:24px;">
+        <h2 style="display:flex;justify-content:space-between;align-items:center;">📋 Response History <button class="clear-hist" id="clearHist">Clear All</button></h2>
+        <div id="historyList"><div class="history-empty">No reviews processed yet</div></div>
+      </div>
+    </div>
+
+    <!-- Right: Responses -->
+    <div>
+      <div class="card">
+        <h2>💬 Generated Responses <span id="sentimentBadge"></span></h2>
+        <div id="responsesArea">
+          <div class="no-responses"><div class="icon">💡</div><p>Paste a review and click generate to get<br>3 tailored response options</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-banner">
+    <h3>🚀 Want AI-powered responses for your business?</h3>
+    <p>Get unlimited, truly personalized review responses powered by advanced AI</p>
+    <a href="#" class="cta-btn">Book a Call</a>
+  </div>
+</div>
+
+<div class="toast" id="toast">Copied to clipboard!</div>
+
+<script>
+const STORAGE_KEY = 'reviewManager_history';
+
+// --- Keyword Extraction ---
+function extractKeywords(text) {
+  const lower = text.toLowerCase();
+  const kw = { topics: [], staffNames: [], sentiment: [] };
+  const topicMap = {
+    food: /\b(food|meal|dish|pizza|burger|steak|sushi|chicken|salad|appetizer|dessert|menu|taste|flavor|delicious|bland)\b/g,
+    service: /\b(service|server|waiter|waitress|hostess|bartender|staff|employee|manager|attentive|rude|slow|helpful|friendly)\b/g,
+    wait: /\b(wait|waiting|waited|slow|quick|fast|prompt|hour|minutes|forever|long time)\b/g,
+    ambiance: /\b(ambiance|atmosphere|decor|music|noise|loud|quiet|cozy|clean|dirty|vibe)\b/g,
+    price: /\b(price|expensive|cheap|overpriced|value|worth|cost|affordable|pricey)\b/g,
+    quality: /\b(quality|fresh|stale|cold|hot|warm|raw|overcooked|undercooked|perfect)\b/g,
+    delivery: /\b(delivery|shipping|package|arrived|late|on time|damaged|missing)\b/g,
+    location: /\b(location|parking|convenient|far|close|accessible|neighborhood)\b/g,
+    experience: /\b(experience|visit|trip|time|occasion|birthday|anniversary|celebration|date night)\b/g
+  };
+  for (const [topic, rx] of Object.entries(topicMap)) {
+    const m = lower.match(rx);
+    if (m) kw.topics.push({ topic, mentions: [...new Set(m)] });
+  }
+  // Staff names (capitalized words after service keywords)
+  const nameRx = /\b(?:server|waiter|waitress|bartender|host|manager|staff member)\s+(?:named?\s+)?([A-Z][a-z]+)\b/g;
+  let nm; while ((nm = nameRx.exec(text)) !== null) kw.staffNames.push(nm[1]);
+  // Positive/negative phrases
+  const pos = lower.match(/\b(amazing|excellent|fantastic|great|wonderful|awesome|perfect|love[d]?|best|incredible|outstanding|superb|delightful|impressed|recommend)\b/g);
+  const neg = lower.match(/\b(terrible|horrible|awful|worst|disgusting|disappointing|never again|unacceptable|ruined|cold|rude|dirty|overpriced|stale|raw|wrong order|mistake|complaint)\b/g);
+  if (pos) kw.sentiment.push(...new Set(pos));
+  if (neg) kw.sentiment.push(...new Set(neg));
+  return kw;
+}
+
+function getSentiment(rating) { return rating >= 4 ? 'positive' : rating <= 2 ? 'negative' : 'neutral'; }
+
+// --- Template Responses ---
+function generateTemplateResponses(text, rating, tone) {
+  const kw = extractKeywords(text);
+  const sentiment = getSentiment(rating);
+  const topicStr = kw.topics.map(t => t.mentions[0]).slice(0, 3);
+  const staffStr = kw.staffNames.length ? kw.staffNames[0] : '';
+  const specificMention = topicStr.length ? topicStr.join(', ') : 'your experience';
+
+  const templates = { positive: {}, negative: {}, neutral: {} };
+
+  templates.positive.professional = [
+    `Thank you for your wonderful ${rating}-star review. We're pleased to hear that ${specificMention} met your expectations.${staffStr ? ` We'll be sure to pass along your kind words to ${staffStr}.` : ''} Your feedback motivates our team to continue delivering excellence. We look forward to welcoming you back soon.`,
+    `We truly appreciate you taking the time to share your experience. It's gratifying to know that ${specificMention} resonated with you.${staffStr ? ` ${staffStr} will be thrilled to hear this!` : ''} We strive for consistency in every visit, and your review confirms we're on the right track. See you again soon!`,
+    `What a fantastic review — thank you! Hearing that ${specificMention} exceeded expectations is exactly what drives us.${staffStr ? ` We'll make sure ${staffStr} knows about your kind feedback.` : ''} We'd love to have you back anytime.`
+  ];
+  templates.positive.friendly = [
+    `Wow, thanks so much for the love! 😊 So glad you enjoyed ${specificMention}${staffStr ? ` — we'll give ${staffStr} a high-five from you!` : '.'} Can't wait to see you again!`,
+    `You just made our day! 🙌 Thrilled that ${specificMention} hit the spot for you.${staffStr ? ` ${staffStr} is a rockstar, and we'll let them know!` : ''} Come back soon — we'll save your favorite spot!`,
+    `This review put a huge smile on our faces! So happy ${specificMention} was a hit.${staffStr ? ` ${staffStr} says thank you!` : ''} See you next time! 🎉`
+  ];
+  templates.positive.empathetic = [
+    `Thank you so much for sharing your experience — it truly means the world to us. Knowing that ${specificMention} brought you joy is what keeps us going.${staffStr ? ` ${staffStr} pours their heart into their work, and your recognition means everything.` : ''} We'd be honored to welcome you back.`,
+    `Your kind words touch our hearts. We pour so much care into ${specificMention}, and knowing it made a difference in your visit is deeply fulfilling.${staffStr ? ` We'll share your beautiful feedback with ${staffStr} — it'll make their day.` : ''} Thank you for being part of our community.`,
+    `Reading your review fills us with gratitude. Every detail around ${specificMention} is something we care deeply about.${staffStr ? ` ${staffStr} is dedicated to creating memorable experiences, and your words are the ultimate reward.` : ''} We can't wait to see you again.`
+  ];
+  templates.positive.brief = [
+    `Thank you for the ${rating}-star review! Glad you loved ${specificMention}. See you again soon!`,
+    `Appreciate the kind words! Happy ${specificMention} met expectations.${staffStr ? ` Kudos to ${staffStr}!` : ''} Hope to see you back.`,
+    `Thanks for the great review! We're glad you had a wonderful experience. Come back anytime!`
+  ];
+
+  templates.negative.professional = [
+    `Thank you for bringing this to our attention. We sincerely apologize that ${specificMention} did not meet the standards you deserve.${staffStr ? ` We will address this directly with ${staffStr} and our team.` : ''} We take this feedback seriously and would appreciate the opportunity to make things right. Please reach out to us at [contact] so we can discuss this further.`,
+    `We're sorry to hear about your disappointing experience with ${specificMention}. This is not the level of quality we strive for, and your feedback is invaluable in helping us improve. We'd love the chance to make this up to you — please contact us directly at [contact] at your earliest convenience.`,
+    `We appreciate your honest feedback regarding ${specificMention}. Please accept our sincere apologies for falling short of your expectations. We are reviewing the issues you've raised and taking corrective action. We'd like to invite you back for an improved experience — please reach out to us at [contact].`
+  ];
+  templates.negative.friendly = [
+    `Oh no, we're really sorry to hear this! 😔 Your experience with ${specificMention} is definitely not what we aim for.${staffStr ? ` We'll chat with ${staffStr} right away.` : ''} We'd love a chance to make it up to you — drop us a line at [contact]?`,
+    `Ugh, this isn't the experience we want anyone to have. So sorry about ${specificMention}. We're on it! Would you mind reaching out to us at [contact]? We want to make this right for you.`,
+    `We're bummed to read this — truly sorry about ${specificMention}. That's not who we are, and we want to fix it. Please reach out at [contact] so we can take care of you properly.`
+  ];
+  templates.negative.empathetic = [
+    `We're deeply sorry to hear about your experience. We understand how frustrating it must have been when ${specificMention} didn't meet your expectations.${staffStr ? ` We'll be having a heartfelt conversation with ${staffStr} about this.` : ''} Your feelings are completely valid, and we want to make this right. Please contact us at [contact] — we truly care about resolving this for you.`,
+    `Reading your review, we feel your disappointment — and we're sorry. ${specificMention} should have been handled much better, and we take full responsibility. We'd be grateful for the chance to restore your trust. Please reach out to us at [contact] so we can personally address your concerns.`,
+    `We hear you, and we're truly sorry. No one should have the experience you described with ${specificMention}. We want you to know that your feedback has been shared with our entire team and we're committed to doing better. Please allow us to make this right — contact us at [contact].`
+  ];
+  templates.negative.brief = [
+    `Sorry about your experience with ${specificMention}. We'll address this immediately. Please contact us at [contact] to resolve this.`,
+    `We apologize for the issues with ${specificMention}. This isn't our standard. Please reach out at [contact] — we'd like to make it right.`,
+    `Thank you for the feedback. We're sorry about ${specificMention} and want to fix it. Contact us at [contact].`
+  ];
+
+  templates.neutral.professional = [
+    `Thank you for your feedback. We appreciate your honest assessment of ${specificMention}. We're always looking for ways to improve and your insights help us do that. We hope to exceed your expectations on your next visit.`,
+    `We value your review and the time you took to share your thoughts on ${specificMention}. While we're glad some aspects met your expectations, we recognize there's room for improvement. We'd love to welcome you back for an even better experience.`,
+    `Thank you for the balanced review. Your comments about ${specificMention} are noted, and we'll use them constructively. We hope to earn that 5th star on your next visit!`
+  ];
+  templates.neutral.friendly = [
+    `Thanks for the honest review! We hear you on ${specificMention} — always looking to level up. Hope we can wow you next time! 😊`,
+    `Appreciate the feedback! Glad some things worked out, and we'll definitely work on ${specificMention}. Come see us again — we've got improvements cooking!`,
+    `Thanks for keeping it real! We'll take your notes on ${specificMention} to heart. Next visit's gonna be even better! 💪`
+  ];
+  templates.neutral.empathetic = [
+    `Thank you for sharing your thoughtful feedback. We understand that ${specificMention} could have been better, and we genuinely appreciate you giving us the chance to improve. Every review like yours helps us grow. We hope to create a more memorable experience for you next time.`,
+    `We appreciate your candid review. We know that ${specificMention} didn't fully hit the mark, and we take that to heart. Your experience matters deeply to us, and we're committed to making positive changes. We'd love another chance to impress you.`,
+    `Your feedback means a lot to us. We understand the mixed feelings about ${specificMention} and want you to know we're listening. We'll be working to improve, and we hope you'll give us another opportunity to delight you.`
+  ];
+  templates.neutral.brief = [
+    `Thanks for the review! We'll work on improving ${specificMention}. Hope to see you again.`,
+    `Appreciate the feedback on ${specificMention}. We're always improving — hope your next visit is 5 stars!`,
+    `Thank you! We'll take your notes on ${specificMention} and do better. See you next time.`
+  ];
+
+  return templates[sentiment][tone] || templates[sentiment].professional;
+}
+
+// --- AI Mode ---
+async function generateAIResponses(text, rating, tone, apiKey) {
+  const sentiment = getSentiment(rating);
+  const prompt = `You are a business review response expert. Generate exactly 3 response options for this customer review. Each should be in a "${tone}" tone. The review is ${sentiment} (${rating} stars).${sentiment === 'negative' ? ' Acknowledge the issue, apologize sincerely, and offer to resolve offline (mention contacting directly).' : sentiment === 'positive' ? ' Thank the customer and reinforce the positive experience.' : ' Thank them and acknowledge room for improvement.'}\n\nReview: "${text}"\n\nReturn ONLY a JSON array of 3 strings. No markdown, no explanation.`;
+
+  const res = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
+    body: JSON.stringify({ model: 'gpt-4o-mini', messages: [{ role: 'user', content: prompt }], temperature: 0.8 })
+  });
+  if (!res.ok) throw new Error('API request failed: ' + res.status);
+  const data = await res.json();
+  return JSON.parse(data.choices[0].message.content);
+}
+
+// --- State ---
+let currentTone = 'professional';
+let history = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+
+// --- DOM ---
+const $ = id => document.getElementById(id);
+const toneBtns = document.querySelectorAll('.tone-btn');
+const aiToggle = $('aiToggle');
+const apiKeyInput = $('apiKeyInput');
+
+toneBtns.forEach(btn => btn.addEventListener('click', () => {
+  toneBtns.forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentTone = btn.dataset.tone;
+}));
+
+aiToggle.addEventListener('change', () => {
+  apiKeyInput.classList.toggle('show', aiToggle.checked);
+  const saved = localStorage.getItem('reviewManager_apiKey');
+  if (saved && aiToggle.checked) apiKeyInput.value = saved;
+});
+
+apiKeyInput.addEventListener('change', () => {
+  localStorage.setItem('reviewManager_apiKey', apiKeyInput.value);
+});
+
+function getRating() {
+  const checked = document.querySelector('input[name="rating"]:checked');
+  return checked ? parseInt(checked.value) : 3;
+}
+
+function showToast(msg) {
+  const t = $('toast');
+  t.textContent = msg || 'Copied to clipboard!';
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+function renderSentiment(rating) {
+  const s = getSentiment(rating);
+  const labels = { positive: '😊 Positive', neutral: '😐 Neutral', negative: '😟 Negative' };
+  $('sentimentBadge').innerHTML = `<span class="sentiment-badge ${s}">${labels[s]}</span>`;
+}
+
+function renderResponses(responses, reviewText, rating) {
+  renderSentiment(rating);
+  const area = $('responsesArea');
+  area.innerHTML = responses.map((r, i) => `
+    <div class="response-card">
+      <div class="option-label">Option ${i + 1}</div>
+      <p>${r}</p>
+      <div class="response-actions">
+        <button class="copy-btn" onclick="copyResponse(${i})">📋 Copy</button>
+        <button class="use-btn" onclick="useResponse(${i})">✅ Use This</button>
+      </div>
+    </div>
+  `).join('');
+  window._currentResponses = responses;
+  window._currentReview = reviewText;
+  window._currentRating = rating;
+}
+
+window.copyResponse = function(i) {
+  navigator.clipboard.writeText(window._currentResponses[i]);
+  showToast();
+};
+
+window.useResponse = function(i) {
+  const entry = {
+    id: Date.now(),
+    review: window._currentReview,
+    rating: window._currentRating,
+    tone: currentTone,
+    response: window._currentResponses[i],
+    date: new Date().toISOString()
+  };
+  history.unshift(entry);
+  if (history.length > 50) history.pop();
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
+  renderHistory();
+  updateStats();
+  showToast('Response saved to history!');
+};
+
+function renderHistory() {
+  const list = $('historyList');
+  if (!history.length) { list.innerHTML = '<div class="history-empty">No reviews processed yet</div>'; return; }
+  list.innerHTML = history.slice(0, 20).map(h => `
+    <div class="history-item" onclick="loadHistory('${h.id}')">
+      <div class="hist-header">
+        <span class="hist-stars">${'★'.repeat(h.rating)}${'☆'.repeat(5 - h.rating)}</span>
+        <span class="hist-date">${new Date(h.date).toLocaleDateString()}</span>
+      </div>
+      <div class="hist-preview">${h.review}</div>
+      <div class="hist-response">↪ ${h.response}</div>
+    </div>
+  `).join('');
+}
+
+window.loadHistory = function(id) {
+  const h = history.find(x => x.id == id);
+  if (!h) return;
+  $('reviewText').value = h.review;
+  document.querySelector(`input[name="rating"][value="${h.rating}"]`).checked = true;
+  toneBtns.forEach(b => { b.classList.toggle('active', b.dataset.tone === h.tone); });
+  currentTone = h.tone;
+};
+
+function updateStats() {
+  $('statTotal').textContent = history.length;
+  if (history.length) {
+    const avg = (history.reduce((s, h) => s + h.rating, 0) / history.length).toFixed(1);
+    $('statAvgRating').textContent = avg;
+  } else {
+    $('statAvgRating').textContent = '—';
+  }
+  $('statPositive').textContent = history.filter(h => h.rating >= 4).length;
+  $('statNegative').textContent = history.filter(h => h.rating <= 2).length;
+}
+
+$('clearHist').addEventListener('click', () => {
+  if (!confirm('Clear all response history?')) return;
+  history = [];
+  localStorage.removeItem(STORAGE_KEY);
+  renderHistory();
+  updateStats();
+});
+
+// --- Generate ---
+$('generateBtn').addEventListener('click', async () => {
+  const text = $('reviewText').value.trim();
+  if (!text) { showToast('Please paste a review first'); return; }
+  const rating = getRating();
+  const btn = $('generateBtn');
+  btn.textContent = '⏳ Generating...';
+  btn.disabled = true;
+
+  try {
+    let responses;
+    if (aiToggle.checked && apiKeyInput.value.trim()) {
+      responses = await generateAIResponses(text, rating, currentTone, apiKeyInput.value.trim());
+    } else {
+      // Simulate brief delay for feel
+      await new Promise(r => setTimeout(r, 600));
+      responses = generateTemplateResponses(text, rating, currentTone);
+    }
+    renderResponses(responses, text, rating);
+  } catch (e) {
+    showToast('Error: ' + e.message);
+  } finally {
+    btn.textContent = '✨ Generate Responses';
+    btn.disabled = false;
+  }
+});
+
+// Init
+renderHistory();
+updateStats();
+</script>
+</body>
+</html>

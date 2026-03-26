@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lead Qualifier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <h1>⚡ Lead Qualifier</h1>
+  <p class="subtitle">Score and qualify leads for AI tool demos</p>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="qualify">Qualify Lead</button>
+    <button class="tab" data-tab="history">Lead History</button>
+  </div>
+
+  <!-- QUALIFY TAB -->
+  <div class="panel active" id="qualify">
+    <div class="card">
+      <h2>Company Info</h2>
+      <div class="form-grid">
+        <label class="field">Company Name<input type="text" id="companyName" placeholder="Acme Corp"></label>
+        <label class="field">Website URL<input type="url" id="website" placeholder="https://"></label>
+        <label class="field">Industry
+          <select id="industry">
+            <option value="">Select…</option>
+            <option>Restaurant/Food Service</option><option>Healthcare</option><option>Legal</option>
+            <option>Consulting</option><option>Real Estate</option><option>Retail/E-commerce</option>
+            <option>Construction</option><option>Manufacturing</option><option>Marketing Agency</option>
+            <option>Financial Services</option><option>Technology</option><option>Other</option>
+          </select>
+        </label>
+        <label class="field">Company Size
+          <select id="companySize">
+            <option value="">Select…</option>
+            <option value="1-10">1-10 employees</option><option value="11-50">11-50 employees</option>
+            <option value="51-200">51-200 employees</option><option value="200+">200+ employees</option>
+          </select>
+        </label>
+        <label class="field">Annual Revenue
+          <select id="revenue">
+            <option value="">Select…</option>
+            <option value="<100k">Under $100K</option><option value="100k-500k">$100K - $500K</option>
+            <option value="500k-1m">$500K - $1M</option><option value="1m-5m">$1M - $5M</option>
+            <option value="5m-20m">$5M - $20M</option><option value="20m+">$20M+</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Current Tech Stack</h2>
+      <div class="checkbox-grid" id="techStack">
+        <label class="cb"><input type="checkbox" value="spreadsheets">Uses spreadsheets</label>
+        <label class="cb"><input type="checkbox" value="website">Has website</label>
+        <label class="cb"><input type="checkbox" value="crm">Uses CRM</label>
+        <label class="cb"><input type="checkbox" value="accounting">Uses accounting software</label>
+        <label class="cb"><input type="checkbox" value="social">Has social media</label>
+        <label class="cb"><input type="checkbox" value="ai">Uses AI tools already</label>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Pain Points</h2>
+      <div class="checkbox-grid" id="painPoints">
+        <label class="cb"><input type="checkbox" value="reviews">Managing reviews</label>
+        <label class="cb"><input type="checkbox" value="documents">Document processing</label>
+        <label class="cb"><input type="checkbox" value="financial">Financial tracking</label>
+        <label class="cb"><input type="checkbox" value="proposals">Proposal creation</label>
+        <label class="cb"><input type="checkbox" value="email">Email outreach</label>
+        <label class="cb"><input type="checkbox" value="scope">Scope/project management</label>
+        <label class="cb"><input type="checkbox" value="legal">Legal compliance</label>
+        <label class="cb"><input type="checkbox" value="communication">Customer communication</label>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin:20px 0">
+      <button class="btn" onclick="scoreLead()">Score This Lead</button>
+    </div>
+
+    <div class="result-panel" id="result">
+      <div class="card score-display">
+        <div class="score-circle" id="scoreCircle"></div>
+        <div style="margin:8px 0">
+          <span class="priority-badge" id="priorityBadge"></span>
+          <span class="grade-badge" id="gradeBadge"></span>
+        </div>
+        <p style="color:var(--text-muted);font-size:.9rem" id="scoreSummary"></p>
+      </div>
+      <div class="card">
+        <h2>🛠 Recommended Demo Tools</h2>
+        <ul class="tools-list" id="toolsList"></ul>
+      </div>
+      <div class="card">
+        <h2>💬 Suggested Talking Points</h2>
+        <ul class="talking-points" id="talkingPoints"></ul>
+      </div>
+      <div style="text-align:center;margin:16px 0;display:flex;gap:10px;justify-content:center">
+        <button class="btn" onclick="saveLead()">💾 Save Lead</button>
+        <button class="btn btn-outline" onclick="resetForm()">New Lead</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HISTORY TAB -->
+  <div class="panel" id="history">
+    <div class="history-controls">
+      <select id="filterGrade" onchange="renderHistory()">
+        <option value="">All Grades</option>
+        <option>A</option><option>B</option><option>C</option><option>D</option>
+      </select>
+      <select id="sortBy" onchange="renderHistory()">
+        <option value="date">Sort: Newest</option>
+        <option value="score">Sort: Highest Score</option>
+        <option value="name">Sort: Name</option>
+      </select>
+      <button class="btn btn-sm btn-outline" onclick="exportCSV()">📥 Export CSV</button>
+      <button class="btn btn-sm btn-danger" onclick="clearHistory()">🗑 Clear All</button>
+    </div>
+    <div class="card" style="overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th>Company</th><th>Industry</th><th>Score</th><th>Grade</th><th>Priority</th><th>Date</th><th></th>
+        </tr></thead>
+        <tbody id="historyBody"></tbody>
+      </table>
+      <div class="empty" id="emptyMsg">No leads scored yet</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const TOOLS = [
+  {name:'ROI Calculator',url:'https://joesmod.github.io/mvp-studio-showcase/roi-calculator/',painPoints:['financial','proposals'],desc:'Show potential cost savings'},
+  {name:'Cold Email Generator',url:'https://joesmod.github.io/mvp-studio-showcase/cold-email-generator/',painPoints:['email','communication'],desc:'AI-powered outreach automation'},
+  {name:'Non-Compete Checker',url:'https://joesmod.github.io/mvp-studio-showcase/non-compete-checker/',painPoints:['legal','documents'],desc:'Legal compliance analysis'},
+  {name:'Scope Tracker',url:'https://joesmod.github.io/mvp-studio-showcase/scope-tracker/',painPoints:['scope','documents'],desc:'Project scope management'},
+  {name:'Review Manager',url:'https://joesmod.github.io/mvp-studio-showcase/review-manager/',painPoints:['reviews','communication'],desc:'Automated review handling'},
+  {name:'Proposal Generator',url:'https://joesmod.github.io/mvp-studio-showcase/proposal-generator/',painPoints:['proposals','documents'],desc:'Generate professional proposals fast'},
+  {name:'AI Bookkeeper',url:'https://joesmod.github.io/mvp-studio-showcase/ai-bookkeeper/',painPoints:['financial'],desc:'Automated financial tracking'},
+];
+
+const INDUSTRY_SCORES = {'Restaurant/Food Service':14,'Healthcare':18,'Legal':17,'Consulting':16,'Real Estate':13,'Retail/E-commerce':15,'Construction':14,'Manufacturing':13,'Marketing Agency':16,'Financial Services':17,'Technology':10,Other:11};
+const SIZE_SCORES = {'1-10':10,'11-50':20,'51-200':20,'200+':12};
+const REV_SCORES = {'<100k':6,'100k-500k':12,'500k-1m':16,'1m-5m':20,'5m-20m':18,'20m+':14};
+
+let lastResult = null;
+
+// Tabs
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab,.panel').forEach(e=>e.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById(t.dataset.tab).classList.add('active');
+  if(t.dataset.tab==='history') renderHistory();
+});
+
+function getChecked(id){return [...document.querySelectorAll(`#${id} input:checked`)].map(c=>c.value)}
+
+function scoreLead(){
+  const name=document.getElementById('companyName').value.trim();
+  const industry=document.getElementById('industry').value;
+  const size=document.getElementById('companySize').value;
+  const revenue=document.getElementById('revenue').value;
+  if(!name||!industry||!size||!revenue) return alert('Please fill in all company info fields.');
+
+  const tech=getChecked('techStack');
+  const pains=getChecked('painPoints');
+
+  // Score calc
+  let score=0;
+  score+=INDUSTRY_SCORES[industry]||10;
+  score+=SIZE_SCORES[size]||10;
+  score+=REV_SCORES[revenue]||8;
+
+  // Tech gaps: fewer tools = more opportunity (max 6 tools, each unchecked = ~3.5pts, max ~21)
+  const techGap=6-tech.length;
+  score+=Math.round(techGap*3.5);
+
+  // Pain points (max 8, each = ~2.5pts, max 20)
+  score+=Math.round(pains.length*2.5);
+
+  score=Math.min(100,Math.max(0,score));
+
+  const grade=score>=80?'A':score>=60?'B':score>=40?'C':'D';
+  const priority=score>=75?'Hot':score>=50?'Warm':'Cold';
+
+  // Match tools
+  const matched=TOOLS.filter(t=>t.painPoints.some(p=>pains.includes(p)));
+  // If few matches, add ROI calculator as default
+  if(matched.length===0) matched.push(TOOLS[0]);
+
+  // Talking points
+  const points=[];
+  if(techGap>=4) points.push('Significant tech gaps — position AI tools as a modernization path');
+  if(tech.includes('spreadsheets')&&!tech.includes('crm')) points.push('Still using spreadsheets without CRM — highlight automation & data consolidation');
+  if(tech.includes('ai')) points.push('Already using AI — frame as expanding their AI toolkit, not starting from scratch');
+  if(pains.includes('financial')) points.push('Financial pain points — lead with ROI Calculator and AI Bookkeeper demos');
+  if(pains.includes('reviews')) points.push('Review management is a pain — show Review Manager for quick wins');
+  if(pains.includes('email')||pains.includes('communication')) points.push('Outreach/communication struggles — Cold Email Generator is a strong opener');
+  if(pains.includes('legal')) points.push('Legal compliance concerns — Non-Compete Checker shows immediate value');
+  if(pains.includes('proposals')) points.push('Proposal creation bottleneck — Proposal Generator demo converts well');
+  if(size==='11-50'||size==='51-200') points.push('Sweet spot company size — enough complexity to need tools, small enough to decide fast');
+  if(size==='200+') points.push('Larger org — expect longer sales cycle, find the internal champion');
+  if(points.length===0) points.push('Standard qualification — focus on their specific pain points in the demo');
+
+  lastResult={name,website:document.getElementById('website').value,industry,size,revenue,tech,pains,score,grade,priority,matched,points,date:new Date().toISOString()};
+
+  // Render
+  const circle=document.getElementById('scoreCircle');
+  circle.textContent=score;
+  circle.className='score-circle grade-'+grade;
+  document.getElementById('priorityBadge').textContent=priority;
+  document.getElementById('priorityBadge').className='priority-badge priority-'+priority;
+  document.getElementById('gradeBadge').textContent='Grade: '+grade;
+  document.getElementById('gradeBadge').style.color=`var(--grade-${grade.toLowerCase()})`;
+  document.getElementById('scoreSummary').textContent=`${name} • ${industry} • ${size} employees`;
+
+  document.getElementById('toolsList').innerHTML=matched.map(t=>`<li><a href="${t.url}" target="_blank">${t.name}</a> — ${t.desc}</li>`).join('');
+  document.getElementById('talkingPoints').innerHTML=points.map(p=>`<li>${p}</li>`).join('');
+
+  document.getElementById('result').classList.add('show');
+  document.getElementById('result').scrollIntoView({behavior:'smooth'});
+}
+
+function saveLead(){
+  if(!lastResult) return;
+  const leads=JSON.parse(localStorage.getItem('qualifiedLeads')||'[]');
+  lastResult.id=Date.now();
+  leads.push(lastResult);
+  localStorage.setItem('qualifiedLeads',JSON.stringify(leads));
+  alert('Lead saved!');
+}
+
+function resetForm(){
+  document.querySelectorAll('#qualify input,#qualify select').forEach(e=>{if(e.type==='checkbox')e.checked=false;else e.value='';});
+  document.getElementById('result').classList.remove('show');
+  lastResult=null;
+}
+
+function getLeads(){return JSON.parse(localStorage.getItem('qualifiedLeads')||'[]')}
+
+function renderHistory(){
+  let leads=getLeads();
+  const grade=document.getElementById('filterGrade').value;
+  if(grade) leads=leads.filter(l=>l.grade===grade);
+  const sort=document.getElementById('sortBy').value;
+  if(sort==='score') leads.sort((a,b)=>b.score-a.score);
+  else if(sort==='name') leads.sort((a,b)=>a.name.localeCompare(b.name));
+  else leads.sort((a,b)=>new Date(b.date)-new Date(a.date));
+
+  const tbody=document.getElementById('historyBody');
+  const empty=document.getElementById('emptyMsg');
+  if(!leads.length){tbody.innerHTML='';empty.style.display='block';return;}
+  empty.style.display='none';
+  tbody.innerHTML=leads.map(l=>`<tr>
+    <td><strong>${esc(l.name)}</strong>${l.website?`<br><a href="${esc(l.website)}" target="_blank" style="color:var(--text-muted);font-size:.75rem">${esc(l.website)}</a>`:''}</td>
+    <td>${esc(l.industry)}</td>
+    <td><strong>${l.score}</strong></td>
+    <td style="color:var(--grade-${l.grade.toLowerCase()})">${l.grade}</td>
+    <td><span class="priority-badge priority-${l.priority}">${l.priority}</span></td>
+    <td style="font-size:.8rem">${new Date(l.date).toLocaleDateString()}</td>
+    <td><button class="btn btn-sm btn-outline" onclick="deleteLead(${l.id})">✕</button></td>
+  </tr>`).join('');
+}
+
+function deleteLead(id){
+  const leads=getLeads().filter(l=>l.id!==id);
+  localStorage.setItem('qualifiedLeads',JSON.stringify(leads));
+  renderHistory();
+}
+
+function clearHistory(){
+  if(!confirm('Delete all saved leads?')) return;
+  localStorage.removeItem('qualifiedLeads');
+  renderHistory();
+}
+
+function exportCSV(){
+  const leads=getLeads();
+  if(!leads.length) return alert('No leads to export');
+  const header='Company,Website,Industry,Size,Revenue,Score,Grade,Priority,Pain Points,Recommended Tools,Date';
+  const rows=leads.map(l=>[l.name,l.website,l.industry,l.size,l.revenue,l.score,l.grade,l.priority,l.pains.join(';'),(l.matched||[]).map(t=>t.name).join(';'),new Date(l.date).toLocaleDateString()].map(v=>`"${(v||'').toString().replace(/"/g,'""')}"`).join(','));
+  const blob=new Blob([header+'\n'+rows.join('\n')],{type:'text/csv'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='leads-export.csv';a.click();
+}
+
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+</script>
+</body>
+</html>
+

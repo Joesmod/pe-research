@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sticky Notes</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;padding:20px}
+header{text-align:center;padding:20px 0 30px}
+header h1{font-size:2rem;font-weight:800;background:linear-gradient(135deg,#fbbf24,#f59e0b,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:#888;margin-top:6px;font-size:.95rem}
+.toolbar{display:flex;justify-content:center;gap:12px;margin-bottom:30px;flex-wrap:wrap}
+.btn{padding:10px 24px;border:none;border-radius:12px;font-family:inherit;font-size:.95rem;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-add{background:linear-gradient(135deg,#6366f1,#a855f7);color:#fff}
+.btn-add:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(99,102,241,.4)}
+.back{color:#888;text-decoration:none;font-size:.85rem;display:inline-block;margin-bottom:10px;transition:color .2s}
+.back:hover{color:#fff}
+.notes-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;max-width:1200px;margin:0 auto}
+.note{border-radius:16px;padding:20px;min-height:200px;position:relative;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.note:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.3)}
+.note-text{flex:1;background:none;border:none;resize:none;font-family:'Inter',sans-serif;font-size:.95rem;line-height:1.6;color:#1a1a1a;outline:none;width:100%;min-height:120px}
+.note-text::placeholder{color:rgba(0,0,0,.35)}
+.note-footer{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid rgba(0,0,0,.1)}
+.note-date{font-size:.75rem;color:rgba(0,0,0,.4);font-weight:500}
+.note-actions{display:flex;gap:6px;align-items:center}
+.color-dot{width:20px;height:20px;border-radius:50%;border:2px solid rgba(0,0,0,.15);cursor:pointer;transition:transform .15s}
+.color-dot:hover{transform:scale(1.2)}
+.color-dot.active{border-color:rgba(0,0,0,.5);transform:scale(1.15)}
+.delete-btn{background:none;border:none;cursor:pointer;font-size:1.1rem;opacity:.4;transition:opacity .2s}
+.delete-btn:hover{opacity:.8}
+.color-picker{display:flex;gap:4px}
+.empty{text-align:center;color:#555;padding:80px 20px;grid-column:1/-1}
+.empty span{font-size:4rem;display:block;margin-bottom:16px}
+/* Note colors */
+.note-yellow{background:#fef3c7}
+.note-pink{background:#fce7f3}
+.note-blue{background:#dbeafe}
+.note-green{background:#d1fae5}
+.note-purple{background:#ede9fe}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back to Showcase</a>
+<header>
+<h1>📝 Sticky Notes</h1>
+<p>Create, edit, and organize your thoughts</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-add" onclick="addNote()">+ Add Note</button>
+</div>
+<div class="notes-grid" id="grid"></div>
+
+<script>
+const COLORS = ['yellow','pink','blue','green','purple'];
+let notes = JSON.parse(localStorage.getItem('sticky-notes') || '[]');
+
+function save() { localStorage.setItem('sticky-notes', JSON.stringify(notes)); }
+
+function formatDate(ts) {
+  const d = new Date(ts);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function addNote() {
+  notes.unshift({ id: Date.now(), text: '', color: 'yellow', created: Date.now() });
+  save(); render();
+}
+
+function deleteNote(id) {
+  if (!confirm('Delete this note?')) return;
+  notes = notes.filter(n => n.id !== id);
+  save(); render();
+}
+
+function updateText(id, text) {
+  const n = notes.find(n => n.id === id);
+  if (n) { n.text = text; save(); }
+}
+
+function cycleColor(id) {
+  const n = notes.find(n => n.id === id);
+  if (n) {
+    const i = COLORS.indexOf(n.color);
+    n.color = COLORS[(i + 1) % COLORS.length];
+    save(); render();
+  }
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  if (!notes.length) {
+    grid.innerHTML = '<div class="empty"><span>📌</span>No notes yet. Click "Add Note" to get started!</div>';
+    return;
+  }
+  grid.innerHTML = notes.map(n => `
+    <div class="note note-${n.color}">
+      <textarea class="note-text" placeholder="Type something..." oninput="updateText(${n.id},this.value)">${n.text}</textarea>
+      <div class="note-footer">
+        <span class="note-date">${formatDate(n.created)}</span>
+        <div class="note-actions">
+          <div class="color-picker">
+            ${COLORS.map(c => `<div class="color-dot note-${c} ${c===n.color?'active':''}" onclick="cycleColor(${n.id})" title="${c}"></div>`).join('')}
+          </div>
+          <button class="delete-btn" onclick="deleteNote(${n.id})" title="Delete">🗑️</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+render();
+</script>
+</body>
+</html>

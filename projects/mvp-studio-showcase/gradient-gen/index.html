@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gradient Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh}
+#preview{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;transition:background .3s}
+.controls{position:fixed;bottom:0;left:0;right:0;z-index:10;background:rgba(10,10,15,.92);backdrop-filter:blur(24px);border-top:1px solid rgba(255,255,255,.08);padding:20px 24px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center}
+.control-group{display:flex;align-items:center;gap:8px}
+.control-group label{font-size:.8rem;color:#888;white-space:nowrap}
+input[type="color"]{width:40px;height:40px;border:2px solid rgba(255,255,255,.15);border-radius:10px;cursor:pointer;background:transparent;padding:2px}
+input[type="color"]::-webkit-color-swatch-wrapper{padding:0}
+input[type="color"]::-webkit-color-swatch{border-radius:7px;border:none}
+input[type="range"]{width:100px;accent-color:#a855f7}
+select{padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#e0e0e0;font-family:inherit;font-size:.85rem;cursor:pointer;outline:none}
+.btn{padding:10px 20px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.08);color:#e0e0e0;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .2s;white-space:nowrap}
+.btn:hover{background:rgba(255,255,255,.16)}
+.btn.accent{background:rgba(168,85,247,.2);border-color:rgba(168,85,247,.3);color:#c084fc}
+.btn.accent:hover{background:rgba(168,85,247,.35)}
+.css-output{position:fixed;top:20px;right:20px;z-index:10;background:rgba(10,10,15,.88);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px 20px;max-width:400px;font-size:.8rem;font-family:'Inter',monospace;color:#a78bfa;word-break:break-all;cursor:pointer;transition:all .2s}
+.css-output:hover{border-color:rgba(168,85,247,.4)}
+.css-output .hint{font-size:.7rem;color:#555;margin-top:6px}
+.toast{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.9);z-index:100;background:rgba(34,197,94,.9);backdrop-filter:blur(10px);color:#fff;padding:14px 28px;border-radius:14px;font-weight:700;font-size:1rem;opacity:0;transition:all .3s;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.gallery{position:fixed;top:20px;left:20px;z-index:10}
+.gallery-toggle{background:rgba(10,10,15,.88);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:10px 18px;color:#e0e0e0;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .2s}
+.gallery-toggle:hover{background:rgba(255,255,255,.12)}
+.gallery-grid{display:none;margin-top:10px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-height:0;overflow:hidden;transition:max-height .4s}
+.gallery-grid.open{max-height:400px}
+.preset{width:60px;height:60px;border-radius:12px;cursor:pointer;border:2px solid transparent;transition:all .2s}
+.preset:hover{border-color:rgba(255,255,255,.4);transform:scale(1.1)}
+.angle-val{font-size:.8rem;color:#a78bfa;min-width:35px;text-align:center}
+.back{position:fixed;bottom:100px;left:20px;z-index:10;background:rgba(10,10,15,.85);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 18px;color:#a78bfa;text-decoration:none;font-size:.85rem;font-weight:600;transition:background .2s}
+.back:hover{background:rgba(99,102,241,.2)}
+@media(max-width:700px){
+.controls{padding:14px 12px;gap:10px}
+.css-output{top:10px;right:10px;left:10px;max-width:none;font-size:.7rem}
+.gallery{top:auto;bottom:160px;left:10px}
+input[type="range"]{width:70px}
+}
+</style>
+</head>
+<body>
+<div id="preview"></div>
+<div class="css-output" id="cssOutput" onclick="copyCSS()">
+<span id="cssText">background: linear-gradient(135deg, #6366f1, #ec4899);</span>
+<div class="hint">Click to copy</div>
+</div>
+<div class="gallery">
+<button class="gallery-toggle" onclick="document.getElementById('presets').classList.toggle('open')">🎨 Presets</button>
+<div class="gallery-grid" id="presets"></div>
+</div>
+<div class="controls">
+<div class="control-group">
+<label>Type</label>
+<select id="type" onchange="update()"><option value="linear">Linear</option><option value="radial">Radial</option></select>
+</div>
+<div class="control-group">
+<label>Color 1</label>
+<input type="color" id="c1" value="#6366f1" onchange="update()">
+</div>
+<div class="control-group">
+<label>Color 2</label>
+<input type="color" id="c2" value="#ec4899" onchange="update()">
+</div>
+<div class="control-group">
+<label>Color 3</label>
+<input type="color" id="c3" value="" onchange="update()">
+<label><input type="checkbox" id="useC3" onchange="update()"> On</label>
+</div>
+<div class="control-group" id="angleGroup">
+<label>Angle</label>
+<input type="range" id="angle" min="0" max="360" value="135" oninput="update()">
+<span class="angle-val" id="angleVal">135°</span>
+</div>
+<button class="btn accent" onclick="randomGradient()">🎲 Random</button>
+<button class="btn" onclick="copyCSS()">📋 Copy CSS</button>
+</div>
+<div class="toast" id="toast">✅ CSS Copied!</div>
+<a href="../" class="back">← Back</a>
+<script>
+const PRESETS=[
+['#667eea','#764ba2'],['#f093fb','#f5576c'],['#4facfe','#00f2fe'],
+['#43e97b','#38f9d7'],['#fa709a','#fee140'],['#a18cd1','#fbc2eb'],
+['#fccb90','#d57eeb'],['#e0c3fc','#8ec5fc'],['#f5576c','#ff6a00'],
+['#0250c5','#d43f8d'],['#0ba360','#3cba92'],['#eea2a2','#bbc1bf'],
+];
+const presetsEl=document.getElementById('presets');
+PRESETS.forEach(([a,b])=>{
+const d=document.createElement('div');d.className='preset';
+d.style.background=`linear-gradient(135deg,${a},${b})`;
+d.onclick=()=>{document.getElementById('c1').value=a;document.getElementById('c2').value=b;document.getElementById('useC3').checked=false;update()};
+presetsEl.appendChild(d);
+});
+
+function update(){
+const type=document.getElementById('type').value;
+const c1=document.getElementById('c1').value;
+const c2=document.getElementById('c2').value;
+const c3=document.getElementById('c3').value||'#fbbf24';
+const useC3=document.getElementById('useC3').checked;
+const angle=document.getElementById('angle').value;
+document.getElementById('angleVal').textContent=angle+'°';
+document.getElementById('angleGroup').style.display=type==='linear'?'flex':'none';
+const colors=useC3?`${c1}, ${c2}, ${c3}`:`${c1}, ${c2}`;
+let css;
+if(type==='linear')css=`linear-gradient(${angle}deg, ${colors})`;
+else css=`radial-gradient(circle, ${colors})`;
+document.getElementById('preview').style.background=css;
+document.getElementById('cssText').textContent=`background: ${css};`;
+}
+
+function randomGradient(){
+const rh=()=>'#'+Math.floor(Math.random()*16777215).toString(16).padStart(6,'0');
+document.getElementById('c1').value=rh();
+document.getElementById('c2').value=rh();
+if(Math.random()>.5){document.getElementById('c3').value=rh();document.getElementById('useC3').checked=true}
+else{document.getElementById('useC3').checked=false}
+document.getElementById('angle').value=Math.floor(Math.random()*360);
+document.getElementById('type').value=Math.random()>.7?'radial':'linear';
+update();
+}
+
+function copyCSS(){
+navigator.clipboard.writeText(document.getElementById('cssText').textContent);
+const t=document.getElementById('toast');t.classList.add('show');
+setTimeout(()=>t.classList.remove('show'),1500);
+}
+
+update();
+</script>
+</body>
+</html>

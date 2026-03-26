@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Silversmith Capital Partners",
+    "website": "https://www.silversmith.com",
+    "aum": "$3.3B",
+    "focus": "Technology, Healthcare IT, SaaS",
+    "headquarters": "Boston, MA",
+    "founded": 2015,
+    "contact": "Jim Quagliaroli",
+    "title": "Co-Founder, Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/silversmith-capital-partners/",
+    "status": "Researched",
+    "notes": "Growth equity firm. Founded by Jim Quagliaroli and Todd MacLean. Email not publicly available. (2026-03-17 cron)"
+  },
+  {
+    "company": "One Equity Partners",
+    "website": "https://www.oneequity.com",
+    "aum": "$10B+ (estimate)",
+    "focus": "Industrial, Healthcare, Technology (middle market)",
+    "headquarters": "New York, NY",
+    "founded": 2001,
+    "contact": "",
+    "title": "",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/one-equity-partners/",
+    "status": "Needs Enrichment",
+    "notes": "Former JP Morgan spin-out. Middle market focus across U.S. & Europe. (2026-03-17 cron)"
+  },
+  {
+    "company": "Trivest Partners",
+    "website": "https://www.trivest.com",
+    "aum": "$3B+",
+    "focus": "Business Services, Healthcare, Software",
+    "headquarters": "Miami, FL / Boston, MA",
+    "founded": 1981,
+    "contact": "",
+    "title": "",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/trivest-partners/",
+    "status": "Needs Enrichment",
+    "notes": "Mid-market PE, 40+ years experience. (2026-03-17 cron)"
+  }
+]

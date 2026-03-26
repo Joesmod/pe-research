@@ -1,0 +1,15 @@
+{
+  "firms": [
+    {
+      "company": "NewSpring Capital",
+      "row": 192,
+      "contact": "Jon Schwartz",
+      "title": "President & COO",
+      "email": "jschwartz@newspringcapital.com",
+      "linkedin": "https://www.linkedin.com/in/jon-schwartz-0979017",
+      "source": "Official NewSpring contact page",
+      "verified": true
+    }
+  ],
+  "enrichedAt": "2026-03-16T20:10:00Z"
+}

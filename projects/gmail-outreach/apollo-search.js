@@ -1,79 +1,68 @@
-// Apollo.io People Search - Find verified emails for PE contacts
 const https = require('https');
 
 const APOLLO_API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
-async function searchPerson(firstName, lastName, companyName) {
+async function searchPeople(orgName, titles = ['Managing Partner', 'CEO', 'Managing Director']) {
   return new Promise((resolve, reject) => {
-    const postData = JSON.stringify({
-      first_name: firstName,
-      last_name: lastName,
-      organization_name: companyName,
-      api_key: APOLLO_API_KEY
+    const data = JSON.stringify({
+      organization_name: orgName,
+      person_titles: titles,
+      page: 1,
+      per_page: 5
     });
-    
+
     const options = {
       hostname: 'api.apollo.io',
-      port: 443,
-      path: '/v1/people/match',
+      path: '/v1/mixed_people/api_search',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Content-Length': postData.length,
-        'Cache-Control': 'no-cache'
+        'X-Api-Key': APOLLO_API_KEY,
+        'Content-Length': data.length
       }
     };
-    
+
     const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => { data += chunk; });
+      let body = '';
+      res.on('data', (chunk) => body += chunk);
       res.on('end', () => {
         try {
-          resolve(JSON.parse(data));
+          resolve(JSON.parse(body));
         } catch (e) {
           reject(e);
         }
       });
     });
-    
+
     req.on('error', reject);
-    req.write(postData);
+    req.write(data);
     req.end();
   });
 }
 
 async function main() {
-  const searches = [
-    { first: 'Rob', last: 'Wechsler', company: 'Blue Star Innovation Partners' },
-    { first: 'Dan', last: 'Wechsler', company: 'Blue Star Innovation Partners' },
-    { first: 'Jim', last: 'Mahoney', company: 'Huron Capital' },
-    { first: 'Brian', last: 'Demkowicz', company: 'Huron Capital' }
-  ];
+  const orgName = process.argv[2] || 'Peak Rock Capital';
+  console.log(`Searching Apollo for: ${orgName}`);
   
-  console.log('Searching Apollo.io for verified PE contacts...\n');
-  
-  for (const search of searches) {
-    console.log(`Searching: ${search.first} ${search.last} @ ${search.company}`);
-    try {
-      const result = await searchPerson(search.first, search.last, search.company);
-      
-      if (result.person) {
-        const { name, title, email, linkedin_url, organization } = result.person;
-        console.log(`✅ FOUND: ${name}`);
-        console.log(`   Title: ${title}`);
-        console.log(`   Email: ${email || '(not available)'}`);
-        console.log(`   LinkedIn: ${linkedin_url || '(not available)'}`);
-        console.log(`   Company: ${organization?.name || search.company}`);
-      } else {
-        console.log(`❌ No match found`);
-      }
-    } catch (error) {
-      console.log(`❌ Error: ${error.message}`);
-    }
-    console.log('');
+  try {
+    const results = await searchPeople(orgName);
     
-    // Rate limiting
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    console.log('API Response:', JSON.stringify(results, null, 2));
+    
+    if (results.people && results.people.length > 0) {
+      console.log(`\nFound ${results.people.length} contacts:\n`);
+      results.people.forEach(p => {
+        console.log(`Name: ${p.first_name} ${p.last_name}`);
+        console.log(`Title: ${p.title}`);
+        console.log(`Email: ${p.email || '(not available)'}`);
+        console.log(`LinkedIn: ${p.linkedin_url || '(not available)'}`);
+        console.log('---');
+      });
+    } else {
+      console.log('No contacts found or error');
+    }
+  } catch (error) {
+    console.error('Error:', error.message);
   }
 }
 

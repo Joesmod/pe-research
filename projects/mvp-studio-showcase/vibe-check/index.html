@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibe Check</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <a href="../" class="back">← Showcase</a>
+    <h1>✨ Vibe Check</h1>
+    <p>How are you feeling right now?</p>
+  </header>
+  <div class="moods" id="moods"></div>
+  <div class="content-area" id="contentArea">
+    <div class="loader" id="loader" style="display:none"><div class="spinner"></div></div>
+    <div class="vibe-card" id="vibeCard" style="display:none">
+      <div class="vibe-type" id="vibeType"></div>
+      <div class="vibe-text" id="vibeText"></div>
+      <div class="vibe-source" id="vibeSource"></div>
+      <div class="vibe-actions">
+        <button class="btn" id="newBtn">🔄 Another one</button>
+        <button class="btn btn-copy" id="copyBtn">📋 Copy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast">Copied to clipboard! 📋</div>
+<script src="script.js"></script>
+</body>
+</html>

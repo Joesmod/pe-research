@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Thief</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh}
+.back{position:fixed;top:20px;left:20px;color:#666;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}.back:hover{color:#a78bfa}
+header{text-align:center;padding:60px 20px 20px}
+header h1{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#f43f5e,#f97316,#eab308,#22c55e,#3b82f6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:#666;margin-top:8px}
+.container{max-width:720px;margin:32px auto;padding:0 20px}
+.drop-zone{border:2px dashed rgba(255,255,255,.15);border-radius:20px;padding:60px 20px;text-align:center;cursor:pointer;transition:border-color .3s,background .3s;background:rgba(255,255,255,.02);margin-bottom:24px}
+.drop-zone:hover,.drop-zone.dragover{border-color:#a855f7;background:rgba(168,85,247,.05)}
+.drop-zone .icon{font-size:3rem;margin-bottom:12px}
+.drop-zone p{color:#888}.drop-zone .sub{font-size:.8rem;color:#555;margin-top:8px}
+.url-row{display:flex;gap:8px;margin-bottom:24px}
+.url-row input{flex:1;padding:12px 16px;border-radius:10px;border:2px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);color:#e0e0e0;font-size:.95rem;outline:none;font-family:'Inter',sans-serif}
+.url-row input:focus{border-color:#a855f7}
+.url-row button{padding:12px 20px;border:none;border-radius:10px;background:linear-gradient(135deg,#a855f7,#6366f1);color:#fff;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif;white-space:nowrap}
+.preview{text-align:center;margin-bottom:32px;display:none}
+.preview img{max-width:100%;max-height:300px;border-radius:12px;box-shadow:0 8px 40px rgba(0,0,0,.5)}
+canvas{display:none}
+.palette{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:16px;margin-bottom:60px}
+.swatch{border-radius:16px;overflow:hidden;cursor:pointer;transition:transform .2s;animation:fadeUp .4s ease both}
+.swatch:hover{transform:translateY(-4px)}
+.swatch .color-block{height:100px;width:100%}
+.swatch .info{padding:10px;text-align:center;background:rgba(255,255,255,.04);font-size:.8rem;font-weight:600;font-family:'JetBrains Mono',monospace;color:#ccc}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);background:#4ade80;color:#000;padding:10px 24px;border-radius:8px;font-weight:700;font-size:.85rem;opacity:0;transition:opacity .3s;pointer-events:none}
+.toast.show{opacity:1}
+input[type=file]{display:none}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<header>
+<h1>🎨 Color Thief</h1>
+<p>Extract dominant colors from any image</p>
+</header>
+<div class="container">
+<div class="drop-zone" id="dropZone">
+<div class="icon">📁</div>
+<p>Drag & drop an image here, or click to upload</p>
+<div class="sub">JPG, PNG, WEBP supported</div>
+</div>
+<input type="file" id="fileInput" accept="image/*">
+<div class="url-row">
+<input type="text" id="urlInput" placeholder="Or paste an image URL...">
+<button id="urlBtn">Extract</button>
+</div>
+<div class="preview" id="preview"><img id="previewImg"></div>
+<canvas id="canvas"></canvas>
+<div class="palette" id="palette"></div>
+</div>
+<div class="toast" id="toast">Copied!</div>
+<script>
+const dropZone=document.getElementById('dropZone'),fileInput=document.getElementById('fileInput'),urlInput=document.getElementById('urlInput'),urlBtn=document.getElementById('urlBtn'),preview=document.getElementById('preview'),previewImg=document.getElementById('previewImg'),canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d',{willReadFrequently:true}),paletteEl=document.getElementById('palette'),toast=document.getElementById('toast');
+
+dropZone.addEventListener('click',()=>fileInput.click());
+dropZone.addEventListener('dragover',e=>{e.preventDefault();dropZone.classList.add('dragover')});
+dropZone.addEventListener('dragleave',()=>dropZone.classList.remove('dragover'));
+dropZone.addEventListener('drop',e=>{e.preventDefault();dropZone.classList.remove('dragover');if(e.dataTransfer.files[0])loadFile(e.dataTransfer.files[0])});
+fileInput.addEventListener('change',()=>{if(fileInput.files[0])loadFile(fileInput.files[0])});
+urlBtn.addEventListener('click',()=>{if(urlInput.value.trim())loadURL(urlInput.value.trim())});
+urlInput.addEventListener('keydown',e=>{if(e.key==='Enter'&&urlInput.value.trim())loadURL(urlInput.value.trim())});
+
+function loadFile(file){
+  const reader=new FileReader();
+  reader.onload=e=>processImage(e.target.result);
+  reader.readAsDataURL(file);
+}
+function loadURL(url){
+  const img=new Image();img.crossOrigin='anonymous';
+  img.onload=()=>{canvas.width=img.width;canvas.height=img.height;ctx.drawImage(img,0,0);previewImg.src=url;preview.style.display='block';extractColors()};
+  img.onerror=()=>alert('Could not load image. Try downloading and uploading instead.');
+  img.src=url;
+}
+function processImage(src){
+  const img=new Image();
+  img.onload=()=>{canvas.width=img.width;canvas.height=img.height;ctx.drawImage(img,0,0);previewImg.src=src;preview.style.display='block';extractColors()};
+  img.src=src;
+}
+function extractColors(){
+  const w=canvas.width,h=canvas.height;
+  const data=ctx.getImageData(0,0,w,h).data;
+  const step=Math.max(1,Math.floor(data.length/4/10000))*4;
+  const pixels=[];
+  for(let i=0;i<data.length;i+=step){
+    const r=data[i],g=data[i+1],b=data[i+2],a=data[i+3];
+    if(a<128)continue;
+    pixels.push([r,g,b]);
+  }
+  const palette=kMeans(pixels,6,20);
+  palette.sort((a,b)=>(a[0]*0.299+a[1]*0.587+a[2]*0.114)-(b[0]*0.299+b[1]*0.587+b[2]*0.114));
+  renderPalette(palette);
+}
+function kMeans(pixels,k,iterations){
+  let centers=[];
+  for(let i=0;i<k;i++)centers.push(pixels[Math.floor(Math.random()*pixels.length)].slice());
+  for(let iter=0;iter<iterations;iter++){
+    const clusters=Array.from({length:k},()=>[]);
+    for(const p of pixels){
+      let minD=Infinity,idx=0;
+      for(let c=0;c<k;c++){
+        const d=(p[0]-centers[c][0])**2+(p[1]-centers[c][1])**2+(p[2]-centers[c][2])**2;
+        if(d<minD){minD=d;idx=c}
+      }
+      clusters[idx].push(p);
+    }
+    for(let c=0;c<k;c++){
+      if(!clusters[c].length)continue;
+      centers[c]=[0,1,2].map(i=>Math.round(clusters[c].reduce((s,p)=>s+p[i],0)/clusters[c].length));
+    }
+  }
+  return centers;
+}
+function rgbToHex(r,g,b){return '#'+[r,g,b].map(x=>x.toString(16).padStart(2,'0')).join('')}
+function renderPalette(colors){
+  paletteEl.innerHTML=colors.map((c,i)=>{
+    const hex=rgbToHex(c[0],c[1],c[2]);
+    return `<div class="swatch" style="animation-delay:${i*.08}s" onclick="copyColor('${hex}')"><div class="color-block" style="background:${hex}"></div><div class="info">${hex.toUpperCase()}</div></div>`;
+  }).join('');
+}
+function copyColor(hex){
+  navigator.clipboard.writeText(hex);
+  toast.classList.add('show');
+  setTimeout(()=>toast.classList.remove('show'),1200);
+}
+</script>
+</body>
+</html>

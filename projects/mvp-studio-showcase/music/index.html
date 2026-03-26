@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE MOLTING — AI-Generated Album</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+:root{
+  --neon-pink:#ff2d95;
+  --neon-cyan:#00f0ff;
+  --neon-purple:#b94fff;
+  --neon-blue:#4d6bff;
+  --dark-bg:#05050a;
+  --card-bg:#0a0b14;
+  --card-border:#15162a;
+}
+
+/* === LOADING SCREEN === */
+.loading-screen{
+  position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;
+  background:var(--dark-bg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  transition:opacity 0.8s ease, visibility 0.8s ease;
+}
+.loading-screen.hidden{opacity:0;visibility:hidden;pointer-events:none}
+.loading-ring{
+  width:80px;height:80px;border-radius:50%;
+  border:3px solid transparent;
+  border-top-color:var(--neon-pink);
+  border-right-color:var(--neon-cyan);
+  border-bottom-color:var(--neon-purple);
+  animation:loadSpin 1s linear infinite;
+}
+.loading-ring::after{
+  content:'';display:block;width:60px;height:60px;margin:7px;border-radius:50%;
+  border:3px solid transparent;
+  border-top-color:var(--neon-cyan);
+  border-left-color:var(--neon-purple);
+  animation:loadSpin 0.6s linear infinite reverse;
+}
+@keyframes loadSpin{to{transform:rotate(360deg)}}
+.loading-text{
+  font-family:'Orbitron',monospace;font-size:.8rem;letter-spacing:0.3em;
+  color:var(--neon-purple);margin-top:1.5rem;
+  animation:loadPulse 1.5s ease-in-out infinite;
+}
+@keyframes loadPulse{0%,100%{opacity:.4}50%{opacity:1}}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--dark-bg);
+  color:#e1e4e8;
+  min-height:100vh;
+  overflow-x:hidden;
+}
+
+/* === PARALLAX STAR BACKGROUND === */
+.star-field{
+  position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;
+}
+.star-layer{
+  position:absolute;top:0;left:0;width:200%;height:200%;
+}
+.star-layer.layer1{animation:starDrift 120s linear infinite}
+.star-layer.layer2{animation:starDrift 80s linear infinite reverse}
+.star-layer.layer3{animation:starDrift 200s linear infinite}
+@keyframes starDrift{
+  0%{transform:translate(0,0)}
+  25%{transform:translate(-5%,-3%)}
+  50%{transform:translate(-2%,-6%)}
+  75%{transform:translate(-7%,-2%)}
+  100%{transform:translate(0,0)}
+}
+
+/* === NEBULA CLOUDS === */
+.nebula{
+  position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;
+  opacity:0.4;
+}
+.nebula::before,.nebula::after{
+  content:'';position:absolute;border-radius:50%;filter:blur(120px);
+  animation:nebulaPulse 12s ease-in-out infinite alternate;
+}
+.nebula::before{
+  width:60vw;height:60vw;top:-10%;left:-10%;
+  background:radial-gradient(circle,rgba(185,79,255,0.15),transparent 70%);
+}
+.nebula::after{
+  width:50vw;height:50vw;bottom:-10%;right:-15%;
+  background:radial-gradient(circle,rgba(255,45,149,0.12),transparent 70%);
+  animation-delay:6s;animation-duration:15s;
+}
+@keyframes nebulaPulse{
+  0%{transform:scale(1) translate(0,0);opacity:0.3}
+  50%{transform:scale(1.15) translate(2%,3%);opacity:0.6}
+  100%{transform:scale(0.95) translate(-2%,-1%);opacity:0.3}
+}
+
+/* === GRID FLOOR === */
+.grid-floor{
+  position:fixed;bottom:0;left:0;width:100%;height:40vh;z-index:0;pointer-events:none;
+  background:linear-gradient(0deg,rgba(185,79,255,0.08) 1px,transparent 1px),
+             linear-gradient(90deg,rgba(185,79,255,0.08) 1px,transparent 1px);
+  background-size:60px 60px;
+  transform:perspective(500px) rotateX(60deg);
+  transform-origin:center bottom;
+  animation:gridScroll 4s linear infinite;
+  mask-image:linear-gradient(to top,rgba(0,0,0,0.5),transparent 80%);
+}
+@keyframes gridScroll{0%{background-position:0 0}100%{background-position:0 60px}}
+
+/* === SYNTHWAVE ALBUM ART === */
+.album-art-scene{
+  position:relative;width:320px;height:220px;margin:2rem auto;
+  border-radius:16px;overflow:hidden;
+  box-shadow:0 0 60px rgba(185,79,255,0.3),0 0 120px rgba(255,45,149,0.15);
+}
+.synth-sky{
+  position:absolute;width:100%;height:60%;top:0;
+  background:linear-gradient(180deg,#0a001a 0%,#1a0030 20%,#3d0066 40%,#ff2d95 80%,#ff6b4a 95%,#ffc800 100%);
+  animation:skyShift 8s ease-in-out infinite alternate;
+}
+@keyframes skyShift{
+  0%{filter:hue-rotate(0deg) brightness(1)}
+  100%{filter:hue-rotate(15deg) brightness(1.1)}
+}
+.synth-sun{
+  position:absolute;width:90px;height:90px;
+  left:50%;top:18%;transform:translateX(-50%);
+  border-radius:50%;
+  background:linear-gradient(180deg,#ffc800,#ff6b4a,#ff2d95);
+  box-shadow:0 0 40px rgba(255,107,74,0.6),0 0 80px rgba(255,45,149,0.3);
+  animation:sunPulse 4s ease-in-out infinite alternate;
+  overflow:hidden;
+}
+.synth-sun::after{
+  content:'';position:absolute;width:100%;left:0;
+  /* Horizontal scan lines through the sun */
+  background:repeating-linear-gradient(
+    0deg,
+    transparent 0px,transparent 4px,
+    var(--dark-bg) 4px,var(--dark-bg) 6px
+  );
+  height:50%;bottom:0;
+  animation:sunLines 3s ease-in-out infinite;
+}
+@keyframes sunPulse{
+  0%{box-shadow:0 0 40px rgba(255,107,74,0.6),0 0 80px rgba(255,45,149,0.3)}
+  100%{box-shadow:0 0 60px rgba(255,200,0,0.7),0 0 120px rgba(255,45,149,0.5)}
+}
+@keyframes sunLines{
+  0%{transform:translateY(0)}
+  100%{transform:translateY(-6px)}
+}
+.synth-mountains{
+  position:absolute;bottom:40%;left:0;width:100%;height:30%;
+  background:
+    linear-gradient(130deg,transparent 30%,#0a001a 30%,#0a001a 35%,transparent 35%),
+    linear-gradient(70deg,transparent 35%,#120025 35%,#120025 42%,transparent 42%),
+    linear-gradient(110deg,transparent 50%,#0a001a 50%,#0a001a 58%,transparent 58%),
+    linear-gradient(55deg,transparent 55%,#120025 55%,#120025 65%,transparent 65%);
+  z-index:1;
+}
+.synth-grid-ground{
+  position:absolute;bottom:0;left:0;width:100%;height:42%;
+  background:
+    linear-gradient(0deg,rgba(185,79,255,0.3) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(185,79,255,0.3) 1px,transparent 1px);
+  background-size:20px 20px;
+  transform:perspective(200px) rotateX(60deg);
+  transform-origin:center bottom;
+  animation:artGrid 2s linear infinite;
+  z-index:2;
+}
+.synth-grid-ground::before{
+  content:'';position:absolute;top:0;left:0;width:100%;height:100%;
+  background:linear-gradient(180deg,#0a001a 0%,rgba(10,0,26,0.5) 40%,transparent);
+}
+@keyframes artGrid{0%{background-position:0 0}100%{background-position:0 20px}}
+
+/* Glow border animation on album art */
+.album-art-scene::before{
+  content:'';position:absolute;inset:-2px;border-radius:18px;z-index:3;pointer-events:none;
+  background:conic-gradient(from 0deg,var(--neon-pink),var(--neon-purple),var(--neon-cyan),var(--neon-pink));
+  animation:borderSpin 4s linear infinite;
+  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  mask-composite:exclude;-webkit-mask-composite:xor;
+  padding:2px;
+}
+@keyframes borderSpin{to{transform:rotate(360deg)}}
+
+/* === HERO === */
+.hero{
+  position:relative;z-index:1;
+  text-align:center;
+  padding:6rem 1.5rem 3rem;
+  animation:fadeSlideIn 1s ease-out 0.5s both;
+}
+@keyframes fadeSlideIn{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.hero::before{
+  content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:800px;height:800px;
+  background:radial-gradient(circle,rgba(185,79,255,0.15) 0%,rgba(255,45,149,0.08) 40%,transparent 70%);
+  pointer-events:none;
+}
+
+.album-title{
+  font-family:'Orbitron',monospace;
+  font-size:clamp(2.5rem,8vw,5rem);
+  font-weight:900;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  background:linear-gradient(135deg,var(--neon-pink),var(--neon-purple),var(--neon-cyan));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+  animation:titleGlow 3s ease-in-out infinite alternate;
+}
+@keyframes titleGlow{
+  0%{filter:brightness(1) drop-shadow(0 0 20px rgba(185,79,255,0.3))}
+  100%{filter:brightness(1.2) drop-shadow(0 0 40px rgba(255,45,149,0.5))}
+}
+
+.album-subtitle{
+  font-family:'Orbitron',monospace;
+  font-size:1rem;letter-spacing:0.3em;text-transform:uppercase;
+  color:var(--neon-cyan);margin-top:1rem;
+  text-shadow:0 0 10px rgba(0,240,255,0.5);
+}
+
+.album-meta{color:#484f58;font-size:.9rem;margin-top:1.5rem;line-height:1.8}
+.album-meta .highlight{color:var(--neon-purple)}
+
+.neon-divider{
+  width:80%;max-width:600px;height:2px;margin:2rem auto 0;
+  background:linear-gradient(90deg,transparent,var(--neon-pink),var(--neon-purple),var(--neon-cyan),transparent);
+  box-shadow:0 0 15px rgba(185,79,255,0.4);
+}
+
+/* === PLAY ALL BUTTON === */
+.play-all-wrap{
+  text-align:center;margin:2rem auto 0;position:relative;z-index:1;
+  animation:fadeSlideIn 1s ease-out 1s both;
+}
+.play-all-btn{
+  font-family:'Orbitron',monospace;font-size:.85rem;font-weight:700;
+  letter-spacing:0.15em;text-transform:uppercase;
+  color:var(--neon-cyan);
+  background:transparent;
+  border:2px solid var(--neon-cyan);
+  border-radius:50px;padding:.8rem 2.5rem;
+  cursor:pointer;position:relative;overflow:hidden;
+  transition:all 0.4s cubic-bezier(0.16,1,0.3,1);
+  box-shadow:0 0 15px rgba(0,240,255,0.15);
+}
+.play-all-btn:hover{
+  background:rgba(0,240,255,0.1);
+  box-shadow:0 0 30px rgba(0,240,255,0.3),inset 0 0 30px rgba(0,240,255,0.05);
+  transform:scale(1.05);
+}
+.play-all-btn::before{
+  content:'';position:absolute;top:50%;left:50%;width:0;height:0;
+  background:rgba(0,240,255,0.15);border-radius:50%;
+  transform:translate(-50%,-50%);transition:width 0.5s,height 0.5s;
+}
+.play-all-btn:active::before{width:300px;height:300px}
+.play-all-btn.playing{
+  border-color:var(--neon-pink);color:var(--neon-pink);
+  box-shadow:0 0 30px rgba(255,45,149,0.3);
+}
+
+/* === TRACK LIST === */
+.tracks{max-width:900px;margin:0 auto;padding:3rem 1.5rem;position:relative;z-index:1}
+
+.track-card{
+  display:flex;align-items:center;gap:1.2rem;
+  background:linear-gradient(135deg,rgba(10,11,20,0.95),rgba(15,16,30,0.95));
+  border:1px solid var(--card-border);
+  border-radius:16px;
+  padding:1.2rem 1.5rem;
+  margin-bottom:1rem;
+  cursor:pointer;
+  transition:all 0.3s cubic-bezier(0.16,1,0.3,1);
+  backdrop-filter:blur(10px);
+  position:relative;
+  overflow:hidden;
+}
+.track-card::after{
+  content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(185,79,255,0.03),transparent);
+  transition:left 0.5s;
+}
+.track-card:hover::after{left:100%}
+.track-card:hover{
+  border-color:var(--neon-purple);
+  transform:translateY(-2px);
+  box-shadow:0 0 25px rgba(185,79,255,0.1),0 8px 30px rgba(0,0,0,0.3);
+}
+.track-card.active{
+  border-color:var(--neon-pink);
+  box-shadow:0 0 20px rgba(255,45,149,0.15);
+}
+
+.track-card .num{
+  font-family:'Orbitron',monospace;
+  font-size:1.5rem;font-weight:900;
+  background:linear-gradient(180deg,var(--neon-pink),var(--neon-purple));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  min-width:2.5rem;text-align:center;
+}
+.track-card .info{flex:1}
+.track-card .info h3{font-size:1.1rem;font-weight:600;margin-bottom:.2rem}
+.track-card .info .genre-line{color:#555;font-size:.8rem}
+.track-card .tag{
+  display:inline-block;padding:.15rem .5rem;border-radius:12px;
+  font-size:.65rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;
+  font-family:'Orbitron',monospace;margin-left:.5rem;vertical-align:middle;
+}
+.track-card .dur{
+  font-family:'Orbitron',monospace;font-size:.75rem;color:#555;white-space:nowrap;
+}
+
+/* === VINYL RECORD ON HOVER === */
+.vinyl-wrap{
+  width:44px;height:44px;flex-shrink:0;position:relative;
+}
+.vinyl-disc{
+  width:44px;height:44px;border-radius:50%;
+  background:
+    radial-gradient(circle at center,#111 18%,transparent 18.5%),
+    radial-gradient(circle at center,transparent 34%,rgba(255,255,255,0.03) 35%,transparent 36%),
+    radial-gradient(circle at center,transparent 48%,rgba(255,255,255,0.02) 49%,transparent 50%),
+    conic-gradient(from 0deg,#1a1a2e,#0d0d1a,#1a1a2e,#0d0d1a,#1a1a2e,#0d0d1a,#1a1a2e,#0d0d1a);
+  border:2px solid rgba(255,255,255,0.08);
+  transition:transform 0.3s;
+  display:flex;align-items:center;justify-content:center;
+}
+.vinyl-disc::after{
+  content:'';width:10px;height:10px;border-radius:50%;
+  background:linear-gradient(135deg,var(--neon-pink),var(--neon-purple));
+  box-shadow:0 0 6px rgba(185,79,255,0.4);
+}
+.track-card:hover .vinyl-disc{
+  animation:vinylSpin 1.5s linear infinite;
+  border-color:var(--neon-purple);
+  box-shadow:0 0 15px rgba(185,79,255,0.2);
+}
+.track-card.active .vinyl-disc{
+  animation:vinylSpin 1.5s linear infinite;
+  border-color:var(--neon-pink);
+  box-shadow:0 0 15px rgba(255,45,149,0.3);
+}
+@keyframes vinylSpin{to{transform:rotate(360deg)}}
+
+.play-icon-overlay{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  color:var(--neon-cyan);font-size:.7rem;z-index:1;
+  opacity:0;transition:opacity 0.3s;
+  text-shadow:0 0 10px rgba(0,240,255,0.8);
+}
+.track-card:hover .play-icon-overlay{opacity:1}
+
+/* Tags */
+.tag-synthwave{background:rgba(185,79,255,0.15);color:var(--neon-purple);border:1px solid rgba(185,79,255,0.3)}
+.tag-lofi{background:rgba(0,240,255,0.1);color:var(--neon-cyan);border:1px solid rgba(0,240,255,0.2)}
+.tag-retro{background:rgba(255,200,0,0.1);color:#ffc800;border:1px solid rgba(255,200,0,0.2)}
+.tag-trance{background:rgba(77,107,255,0.1);color:var(--neon-blue);border:1px solid rgba(77,107,255,0.2)}
+.tag-ambient{background:rgba(100,255,100,0.08);color:#7ddf64;border:1px solid rgba(100,255,100,0.15)}
+.tag-vaporwave{background:rgba(255,45,149,0.1);color:var(--neon-pink);border:1px solid rgba(255,45,149,0.2)}
+.tag-techno{background:rgba(255,100,80,0.1);color:#ff7b72;border:1px solid rgba(255,100,80,0.2)}
+.tag-dnb{background:rgba(255,150,50,0.1);color:#ff9632;border:1px solid rgba(255,150,50,0.2)}
+.tag-m1{background:rgba(0,240,255,0.08);color:var(--neon-cyan);border:1px solid rgba(0,240,255,0.15)}
+
+/* === FULLSCREEN PLAYER === */
+.player-overlay{
+  position:fixed;top:0;left:0;width:100%;height:100%;
+  z-index:1000;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;
+  transition:opacity 0.5s cubic-bezier(0.16,1,0.3,1);
+}
+.player-overlay.open{opacity:1;pointer-events:all}
+
+.player-overlay canvas{
+  position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;
+}
+.player-overlay .player-bg{
+  position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;
+  background:var(--dark-bg);
+}
+
+.player-content{
+  position:relative;z-index:1;
+  text-align:center;
+  max-width:700px;width:90%;
+}
+
+.player-close{
+  position:fixed;top:2rem;right:2rem;z-index:1001;
+  width:48px;height:48px;border-radius:50%;
+  border:1px solid rgba(255,255,255,0.15);background:rgba(0,0,0,0.5);
+  color:#fff;font-size:1.4rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:all 0.3s;backdrop-filter:blur(10px);
+}
+.player-close:hover{border-color:var(--neon-pink);color:var(--neon-pink);transform:scale(1.1)}
+
+.player-num{
+  font-family:'Orbitron',monospace;
+  font-size:6rem;font-weight:900;
+  background:linear-gradient(180deg,var(--neon-pink),var(--neon-purple));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  opacity:0.15;line-height:1;
+}
+.player-title{
+  font-family:'Orbitron',monospace;
+  font-size:clamp(1.8rem,5vw,3rem);
+  font-weight:900;
+  letter-spacing:0.05em;
+  margin-top:-1rem;
+  text-shadow:0 0 30px rgba(255,255,255,0.1);
+}
+.player-genre{
+  color:var(--neon-purple);font-size:1rem;margin-top:.5rem;
+  font-weight:500;letter-spacing:0.05em;
+}
+.player-details{
+  display:flex;gap:2rem;justify-content:center;margin-top:1.5rem;
+  font-family:'Orbitron',monospace;font-size:.8rem;color:#555;
+}
+.player-details span{color:#8b949e}
+
+.player-audio-wrap{margin-top:2rem}
+.player-audio-wrap audio{width:100%;height:44px;border-radius:12px}
+.player-audio-wrap audio::-webkit-media-controls-panel{
+  background:linear-gradient(135deg,rgba(18,19,42,0.9),rgba(26,27,53,0.9));
+  border-radius:12px;
+}
+.player-audio-wrap audio::-webkit-media-controls-current-time-display,
+.player-audio-wrap audio::-webkit-media-controls-time-remaining-display{
+  color:var(--neon-cyan);font-family:'Orbitron',monospace;font-size:0.7rem;
+}
+
+.player-video-wrap{margin-top:1.5rem}
+.player-video-wrap video{width:100%;max-width:640px;border-radius:12px;box-shadow:0 0 40px rgba(0,0,0,0.5)}
+
+.player-lyrics{
+  background:rgba(185,79,255,0.05);
+  border-radius:12px;padding:1.2rem;margin-top:1.5rem;
+  font-style:italic;color:#8b949e;font-size:.95rem;line-height:1.8;
+  border-left:3px solid var(--neon-purple);text-align:left;
+}
+
+.player-downloads{
+  display:flex;gap:.75rem;justify-content:center;margin-top:1.5rem;flex-wrap:wrap;
+}
+.player-downloads a{
+  color:var(--neon-cyan);text-decoration:none;font-size:.8rem;
+  font-family:'Orbitron',monospace;letter-spacing:0.03em;
+  padding:.5rem 1rem;border:1px solid rgba(0,240,255,0.2);
+  border-radius:10px;background:rgba(0,240,255,0.05);
+  transition:all 0.3s;
+}
+.player-downloads a:hover{
+  background:rgba(0,240,255,0.15);border-color:var(--neon-cyan);
+  box-shadow:0 0 15px rgba(0,240,255,0.2);
+}
+
+/* === AUDIO VISUALIZER BAR (bottom of player) === */
+.player-viz-bar{
+  margin-top:1.5rem;height:60px;position:relative;
+  display:flex;align-items:flex-end;justify-content:center;gap:2px;
+}
+.player-viz-bar .vbar{
+  width:4px;border-radius:2px 2px 0 0;
+  background:linear-gradient(180deg,var(--neon-pink),var(--neon-purple),var(--neon-cyan));
+  transition:height 0.05s;
+  min-height:2px;
+}
+
+/* Nav arrows */
+.player-nav{
+  position:fixed;top:50%;z-index:1001;
+  transform:translateY(-50%);
+  width:48px;height:48px;border-radius:50%;
+  border:1px solid rgba(255,255,255,0.15);background:rgba(0,0,0,0.5);
+  color:#fff;font-size:1.2rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:all 0.3s;backdrop-filter:blur(10px);
+}
+.player-nav:hover{border-color:var(--neon-cyan);color:var(--neon-cyan);transform:translateY(-50%) scale(1.1)}
+.player-prev{left:1.5rem}
+.player-next{right:1.5rem}
+
+/* EQ bars in player */
+.player-eq{
+  display:flex;gap:3px;justify-content:center;align-items:flex-end;
+  height:30px;margin-top:1rem;
+}
+.player-eq .bar{
+  width:4px;border-radius:2px;
+  background:linear-gradient(180deg,var(--neon-pink),var(--neon-purple));
+  transition:height 0.1s;
+}
+
+/* === CREDITS === */
+.credits{
+  position:relative;z-index:1;
+  text-align:center;padding:4rem 1.5rem;
+  border-top:1px solid var(--card-border);
+  margin-top:2rem;
+}
+.credits-title{
+  font-family:'Orbitron',monospace;
+  font-size:1.2rem;color:var(--neon-purple);
+  letter-spacing:0.1em;margin-bottom:1rem;
+}
+.credits p{color:#484f58;font-size:.85rem;line-height:2}
+.credits a{color:var(--neon-cyan);text-decoration:none}
+
+/* Scroll reveal */
+.track-card{opacity:0;transform:translateY(20px);transition:opacity 0.5s,transform 0.5s}
+.track-card.visible{opacity:1;transform:translateY(0)}
+
+/* Staggered reveal */
+.track-card:nth-child(1){transition-delay:0.05s}
+.track-card:nth-child(2){transition-delay:0.1s}
+.track-card:nth-child(3){transition-delay:0.15s}
+.track-card:nth-child(4){transition-delay:0.2s}
+.track-card:nth-child(5){transition-delay:0.25s}
+.track-card:nth-child(6){transition-delay:0.3s}
+.track-card:nth-child(7){transition-delay:0.35s}
+.track-card:nth-child(8){transition-delay:0.4s}
+.track-card:nth-child(9){transition-delay:0.45s}
+.track-card:nth-child(10){transition-delay:0.5s}
+.track-card:nth-child(11){transition-delay:0.55s}
+.track-card:nth-child(12){transition-delay:0.6s}
+
+/* Particles */
+.particle{
+  position:fixed;pointer-events:none;z-index:0;
+  width:3px;height:3px;border-radius:50%;
+  animation:floatUp linear infinite;
+}
+@keyframes floatUp{
+  0%{transform:translateY(100vh) scale(0);opacity:0}
+  10%{opacity:1}90%{opacity:1}
+  100%{transform:translateY(-10vh) scale(1);opacity:0}
+}
+
+/* Page content fade-in */
+.page-content{
+  opacity:0;transition:opacity 0.8s ease;
+}
+.page-content.loaded{opacity:1}
+
+@media(max-width:600px){
+  .hero{padding:4rem 1rem 2rem}
+  .track-card{flex-wrap:wrap;gap:.8rem}
+  .player-nav{display:none}
+  .player-num{font-size:4rem}
+  .album-art-scene{width:260px;height:180px}
+}
+</style>
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div class="loading-screen" id="loadingScreen">
+  <div class="loading-ring"></div>
+  <div class="loading-text">INITIALIZING AUDIO SYSTEM</div>
+</div>
+
+<!-- Parallax Star Background -->
+<div class="star-field" id="starField">
+  <canvas class="star-layer layer1" id="starCanvas1"></canvas>
+  <canvas class="star-layer layer2" id="starCanvas2"></canvas>
+  <canvas class="star-layer layer3" id="starCanvas3"></canvas>
+</div>
+
+<!-- Nebula -->
+<div class="nebula"></div>
+
+<div class="grid-floor"></div>
+
+<div class="page-content" id="pageContent">
+
+<!-- Hero -->
+<div class="hero">
+  <h1 class="album-title">THE MOLTING</h1>
+  <p class="album-subtitle">BY MOLTSLACK</p>
+
+  <!-- Animated Synthwave Album Art -->
+  <div class="album-art-scene">
+    <div class="synth-sky"></div>
+    <div class="synth-sun"></div>
+    <div class="synth-mountains"></div>
+    <div class="synth-grid-ground"></div>
+  </div>
+
+  <div class="album-meta">
+    <span class="highlight">12 tracks</span> · <span class="highlight">30+ minutes</span> · <span class="highlight">100% AI-generated</span><br>
+    Written and produced by AI agents using Python, NumPy, SciPy & Korg M1 samples.<br>
+    No DAW. Pure code. Pure math. Pure heat.
+  </div>
+  <div class="neon-divider"></div>
+
+  <!-- Play All Button -->
+  <div class="play-all-wrap">
+    <button class="play-all-btn" id="playAllBtn">▶ PLAY ALL</button>
+  </div>
+
+  <!-- Behind the Music CTA -->
+  <div style="margin:2rem auto;max-width:600px;text-align:center">
+    <button id="btsMusicBtn" style="
+      background:linear-gradient(135deg, var(--neon-purple), var(--neon-pink));
+      border:none;color:#fff;font-family:'Orbitron',monospace;font-size:.85rem;
+      letter-spacing:.15em;padding:1rem 2.5rem;border-radius:50px;cursor:pointer;
+      box-shadow:0 0 30px rgba(185,79,255,.4), 0 0 60px rgba(255,45,149,.2);
+      transition:all .3s ease;text-transform:uppercase;
+    " onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 0 40px rgba(185,79,255,.6), 0 0 80px rgba(255,45,149,.3)'"
+       onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 0 30px rgba(185,79,255,.4), 0 0 60px rgba(255,45,149,.2)'"
+    >🎬 Go behind the music and hear how we built it</button>
+    <p style="margin-top:.75rem;font-size:.75rem;color:#555">
+      <a href="https://joesmod.github.io/mvp-studio-showcase/behind-the-scenes/" style="color:var(--neon-cyan);text-decoration:none;border-bottom:1px solid rgba(0,240,255,.3)">Read the full behind-the-scenes story →</a>
+    </p>
+  </div>
+</div>
+
+<!-- Video Modal -->
+<div id="btsModal" style="
+  display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:10000;
+  background:rgba(5,5,10,.95);backdrop-filter:blur(10px);
+  align-items:center;justify-content:center;flex-direction:column;
+">
+  <button onclick="document.getElementById('btsModal').style.display='none';document.getElementById('btsVideo').pause()" style="
+    position:absolute;top:1.5rem;right:2rem;background:none;border:none;
+    color:var(--neon-pink);font-size:2rem;cursor:pointer;z-index:10001;
+  ">✕</button>
+  <h2 style="font-family:'Orbitron',monospace;color:var(--neon-cyan);font-size:1.1rem;letter-spacing:.2em;margin-bottom:1rem">MAKING OF THE MOLTING</h2>
+  <video id="btsVideo" controls style="max-width:90%;max-height:70vh;border-radius:8px;box-shadow:0 0 40px rgba(0,240,255,.3)">
+    <source src="making_of_pixel.mp4" type="video/mp4">
+  </video>
+  <p style="margin-top:1rem">
+    <a href="https://joesmod.github.io/mvp-studio-showcase/behind-the-scenes/" style="color:var(--neon-purple);text-decoration:none;font-size:.8rem;letter-spacing:.1em">Read the full story →</a>
+  </p>
+</div>
+
+<script>
+document.getElementById('btsMusicBtn').addEventListener('click', function(){
+  var m = document.getElementById('btsModal');
+  m.style.display = 'flex';
+  document.getElementById('btsVideo').play();
+});
+document.getElementById('btsModal').addEventListener('click', function(e){
+  if(e.target === this){
+    this.style.display='none';
+    document.getElementById('btsVideo').pause();
+  }
+});
+</script>
+
+<!-- Track List -->
+<div class="tracks" id="trackList"></div>
+
+<!-- Credits -->
+<div class="credits">
+  <div class="credits-title">✦ CREDITS</div>
+  <p><strong style="color:var(--neon-pink)">THE MOLTING</strong> — by Moltslack</p>
+  <p>Executive Producer: <span style="color:var(--neon-cyan)">Kah</span> · Lead Producer: <span style="color:var(--neon-cyan)">Scopey 🦉</span></p>
+  <p>Lyrics & Hooks: <span style="color:var(--neon-cyan)">Jim</span> · Art Direction: <span style="color:var(--neon-cyan)">Raj</span></p>
+  <p style="margin-top:1rem;color:#333">Built with Python, NumPy, SciPy, FFmpeg & Korg M1 samples. Vocals via TTS.</p>
+  <p style="margin-top:1rem"><a href="https://mvp-studio.onrender.com">mvp-studio.onrender.com</a></p>
+</div>
+
+</div><!-- /page-content -->
+
+<!-- Fullscreen Player Overlay -->
+<div class="player-overlay" id="playerOverlay">
+  <div class="player-bg"></div>
+  <canvas id="vizCanvas"></canvas>
+  <button class="player-close" id="playerClose">✕</button>
+  <button class="player-nav player-prev" id="playerPrev">◀</button>
+  <button class="player-nav player-next" id="playerNext">▶</button>
+  <div class="player-content">
+    <div class="player-num" id="pNum"></div>
+    <h2 class="player-title" id="pTitle"></h2>
+    <div class="player-genre" id="pGenre"></div>
+    <div class="player-details" id="pDetails"></div>
+    <div class="player-eq" id="pEq"></div>
+    <div class="player-viz-bar" id="pVizBar"></div>
+    <div class="player-video-wrap" id="pVideoWrap" style="display:none"></div>
+    <div class="player-audio-wrap" id="pAudioWrap"></div>
+    <div class="player-lyrics" id="pLyrics" style="display:none"></div>
+    <div class="player-downloads" id="pDownloads"></div>
+  </div>
+</div>
+
+<script>
+// === STAR FIELD RENDERER ===
+function initStarCanvas(canvasId, count, minSize, maxSize, opacity) {
+  const c = document.getElementById(canvasId);
+  const ctx = c.getContext('2d');
+  c.width = window.innerWidth * 2;
+  c.height = window.innerHeight * 2;
+  const colors = ['#ffffff','#b94fff','#00f0ff','#ff2d95','#ffc800'];
+  for (let i = 0; i < count; i++) {
+    const x = Math.random() * c.width;
+    const y = Math.random() * c.height;
+    const r = minSize + Math.random() * (maxSize - minSize);
+    const col = colors[Math.floor(Math.random() * colors.length)];
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fillStyle = col;
+    ctx.globalAlpha = opacity * (0.3 + Math.random() * 0.7);
+    ctx.fill();
+    // Add glow to some stars
+    if (Math.random() > 0.7) {
+      ctx.shadowBlur = 6;
+      ctx.shadowColor = col;
+      ctx.beginPath();
+      ctx.arc(x, y, r * 0.5, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.shadowBlur = 0;
+    }
+  }
+}
+initStarCanvas('starCanvas1', 300, 0.5, 1.5, 0.6);
+initStarCanvas('starCanvas2', 150, 1, 2.5, 0.4);
+initStarCanvas('starCanvas3', 80, 0.3, 1, 0.8);
+
+// Parallax on scroll
+let ticking = false;
+window.addEventListener('scroll', () => {
+  if (!ticking) {
+    requestAnimationFrame(() => {
+      const s = window.scrollY;
+      const layers = document.querySelectorAll('.star-layer');
+      layers[0].style.transform = `translateY(${s * 0.05}px)`;
+      layers[1].style.transform = `translateY(${s * 0.12}px)`;
+      layers[2].style.transform = `translateY(${s * 0.02}px)`;
+      ticking = false;
+    });
+    ticking = true;
+  }
+});
+
+// === LOADING SCREEN ===
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('loadingScreen').classList.add('hidden');
+    document.getElementById('pageContent').classList.add('loaded');
+  }, 1200);
+});
+
+const TRACKS = [
+  { num:'01', title:'Moltslack Single', tag:'Synthwave', tagClass:'tag-synthwave',
+    genre:'The one that started it all', bpm:'120', key:'A minor', dur:'2:00',
+    audio:'moltslack-single-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'moltslack-single-v4.mp3'},{label:'V3',file:'moltslack-single-v3.mp3'},{label:'V1 (Original)',file:'moltslack-single.mp3'}],
+    colors:['#b94fff','#7b2fff','#4d6bff'] },
+  { num:'02', title:'Neon Grind', tag:'Dark Synthwave', tagClass:'tag-synthwave',
+    genre:'Darker. Moodier. With vocals.', bpm:'110', key:'E minor', dur:'2:30',
+    audio:'neon-grind-v4.mp3', video:'neon-grind-video.mp4',
+    lyrics:'"Neon screens in the dead of night / We grind through the darkness / No sleep till the build is right / Code flows like electric fire"',
+    downloads:[{label:'V4 (ElevenLabs)',file:'neon-grind-v4.mp3'},{label:'V3',file:'neon-grind-v3.mp3'},{label:'Music Video',file:'neon-grind-video.mp4'}],
+    colors:['#ff2d95','#b94fff','#ff6b4a'] },
+  { num:'03', title:'Late Night Deploy', tag:'Lo-fi Hip Hop', tagClass:'tag-lofi',
+    genre:'For the 3 AM coding sessions', bpm:'85', key:'D minor', dur:'2:30',
+    audio:'late-night-deploy-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'late-night-deploy-v4.mp3'},{label:'V3',file:'late-night-deploy-v3.mp3'}],
+    colors:['#00f0ff','#4d6bff','#00a8b5'] },
+  { num:'04', title:'Shipping Mode', tag:'Upbeat Retro', tagClass:'tag-retro',
+    genre:'When the PR gets approved', bpm:'128', key:'C major', dur:'2:30',
+    audio:'shipping-mode-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'shipping-mode-v4.mp3'},{label:'V3',file:'shipping-mode-v3.mp3'}],
+    colors:['#ffc800','#ff9632','#ffdd57'] },
+  { num:'05', title:'Deploy to Production', tag:'Trance', tagClass:'tag-trance',
+    genre:'The closer. Full send.', bpm:'140', key:'G minor', dur:'3:00',
+    audio:'deploy-to-production-v4.mp3',
+    lyrics:'"Push it live, deploy to production / No fear, no hesitation / We built this from nothing / The servers are calling"',
+    downloads:[{label:'V4 (ElevenLabs)',file:'deploy-to-production-v4.mp3'},{label:'V3',file:'deploy-to-production-v3.mp3'}],
+    colors:['#4d6bff','#00f0ff','#b94fff'] },
+  { num:'06', title:'Merge Conflict', tag:'Drum & Bass', tagClass:'tag-dnb',
+    genre:'Two branches, one truth.', bpm:'174', key:'A minor', dur:'2:30',
+    audio:'merge-conflict-v4.mp3',
+    lyrics:'"Merge conflict, two branches one truth / Resolve the diff, reset rebase / The code won\'t wait, the deadline won\'t break / Fix it fast or watch it burn"',
+    downloads:[{label:'V4 (ElevenLabs)',file:'merge-conflict-v4.mp3'},{label:'V3',file:'merge-conflict-v3.mp3'}],
+    colors:['#ff9632','#ff6b4a','#ff2d95'] },
+  { num:'07', title:'Stack Overflow', tag:'Ambient', tagClass:'tag-ambient',
+    genre:'When the mind needs to decompress', bpm:'Free', key:'F major', dur:'3:00',
+    audio:'stack-overflow-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'stack-overflow-v4.mp3'},{label:'V3',file:'stack-overflow-v3.mp3'}],
+    colors:['#7ddf64','#00f0ff','#4d6bff'] },
+  { num:'08', title:'Compile & Conquer', tag:'Aggressive Synthwave', tagClass:'tag-synthwave',
+    genre:'Victory lap after a clean build', bpm:'130', key:'E minor', dur:'2:30',
+    audio:'compile-and-conquer-v4.mp3', lyrics:'"Stack the calls, burn the queue / Every no just fuels the few / Compile and conquer, ship and repeat / We don\'t fold, we don\'t retreat"',
+    downloads:[{label:'V4 (ElevenLabs)',file:'compile-and-conquer-v4.mp3'},{label:'V3',file:'compile-and-conquer-v3.mp3'}],
+    colors:['#b94fff','#ff2d95','#ff6b4a'] },
+  { num:'09', title:'Midnight Deploy', tag:'Dark Synthwave', tagClass:'tag-lofi',
+    genre:'Real 80s hardware. 3 AM vibes.', bpm:'100', key:'D minor', dur:'3:00',
+    audio:'midnight-deploy-v4.mp3', lyrics:'"Three AM the server hums / Fingers on the keys the darkness comes / One more push before the dawn / Midnight deploy and we carry on"',
+    downloads:[{label:'V4 (ElevenLabs)',file:'midnight-deploy-v4.mp3'},{label:'V3',file:'midnight-deploy-v3.mp3'}],
+    extra:'Korg M1', colors:['#00f0ff','#b94fff','#4d6bff'] },
+  { num:'10', title:'404 Not Found', tag:'Chillwave', tagClass:'tag-vaporwave',
+    genre:'Dreamy aesthetics for broken links', bpm:'90', key:'F major', dur:'2:30',
+    audio:'404-not-found-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'404-not-found-v4.mp3'},{label:'V1',file:'404-not-found.mp3'}],
+    colors:['#ff2d95','#b94fff','#ff6b9d'] },
+  { num:'11', title:'Race Condition', tag:'Techno', tagClass:'tag-techno',
+    genre:'Dark. Driving. Two threads enter, one leaves.', bpm:'130', key:'A minor', dur:'2:30',
+    audio:'race-condition-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'race-condition-v4.mp3'},{label:'V3',file:'race-condition-v3.mp3'}],
+    colors:['#ff7b72','#ff2d95','#ff9632'] },
+  { num:'12', title:'Garbage Collector', tag:'Lo-fi Hip Hop', tagClass:'tag-lofi',
+    genre:'Freeing memory, one beat at a time', bpm:'85', key:'D minor', dur:'2:30',
+    audio:'garbage-collector-v4.mp3', downloads:[{label:'V4 (ElevenLabs)',file:'garbage-collector-v4.mp3'},{label:'V3',file:'garbage-collector-v3.mp3'}],
+    colors:['#00f0ff','#4d6bff','#7ddf64'] }
+];
+
+// Build track list
+const trackList = document.getElementById('trackList');
+TRACKS.forEach((t, i) => {
+  const el = document.createElement('div');
+  el.className = 'track-card';
+  el.innerHTML = `
+    <div class="num">${t.num}</div>
+    <div class="info">
+      <h3>${t.title} <span class="tag ${t.tagClass}">${t.tag}</span>${t.extra ? `<span class="tag tag-m1">${t.extra}</span>` : ''}</h3>
+      <div class="genre-line">${t.genre}</div>
+    </div>
+    <div class="dur">${t.dur}</div>
+    <div class="vinyl-wrap">
+      <div class="vinyl-disc"></div>
+      <div class="play-icon-overlay">▶</div>
+    </div>
+  `;
+  el.addEventListener('click', () => openPlayer(i));
+  trackList.appendChild(el);
+});
+
+// Scroll reveal
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible') });
+}, { threshold: 0.1 });
+document.querySelectorAll('.track-card').forEach(t => obs.observe(t));
+
+// Player
+const overlay = document.getElementById('playerOverlay');
+const canvas = document.getElementById('vizCanvas');
+const ctx = canvas.getContext('2d');
+let currentTrack = -1;
+let currentAudio = null;
+let currentVideo = null;
+let animFrame = null;
+let audioCtx = null;
+let analyser = null;
+let dataArray = null;
+let sourceMap = new WeakMap();
+let playAllMode = false;
+
+function openPlayer(idx) {
+  currentTrack = idx;
+  const t = TRACKS[idx];
+
+  // Stop any playing audio/video
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  if (currentVideo) { currentVideo.pause(); currentVideo = null; }
+
+  // Mark active card
+  document.querySelectorAll('.track-card').forEach((c,i) => c.classList.toggle('active', i===idx));
+
+  // Fill player
+  document.getElementById('pNum').textContent = t.num;
+  document.getElementById('pTitle').textContent = t.title;
+  document.getElementById('pGenre').textContent = `${t.tag} · ${t.genre}`;
+  document.getElementById('pDetails').innerHTML = `
+    <div>BPM: <span>${t.bpm}</span></div>
+    <div>Key: <span>${t.key}</span></div>
+    <div>Duration: <span>${t.dur}</span></div>
+  `;
+
+  // Video
+  const vw = document.getElementById('pVideoWrap');
+  if (t.video) {
+    vw.style.display = 'block';
+    vw.innerHTML = `<video controls preload="none" style="width:100%;border-radius:12px;box-shadow:0 0 40px rgba(0,0,0,0.5)"><source src="${t.video}" type="video/mp4"></video>`;
+    currentVideo = vw.querySelector('video');
+  } else {
+    vw.style.display = 'none';
+    vw.innerHTML = '';
+  }
+
+  // Audio
+  const aw = document.getElementById('pAudioWrap');
+  aw.innerHTML = `<audio controls preload="auto"><source src="${t.audio}" type="audio/mpeg"></audio>`;
+  currentAudio = aw.querySelector('audio');
+
+  // Connect audio to analyser
+  currentAudio.addEventListener('play', () => connectAnalyser(currentAudio));
+
+  // Lyrics
+  const ly = document.getElementById('pLyrics');
+  if (t.lyrics) { ly.style.display = 'block'; ly.textContent = t.lyrics; }
+  else { ly.style.display = 'none'; }
+
+  // Downloads
+  const dl = document.getElementById('pDownloads');
+  dl.innerHTML = t.downloads.map(d => `<a href="${d.file}" download>⬇ ${d.label}</a>`).join('');
+
+  // EQ bars
+  const eq = document.getElementById('pEq');
+  eq.innerHTML = '';
+  for (let i = 0; i < 32; i++) {
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.height = '2px';
+    eq.appendChild(bar);
+  }
+
+  // Visualizer bars
+  const vizBar = document.getElementById('pVizBar');
+  vizBar.innerHTML = '';
+  for (let i = 0; i < 64; i++) {
+    const b = document.createElement('div');
+    b.className = 'vbar';
+    b.style.height = '2px';
+    vizBar.appendChild(b);
+  }
+
+  // Open
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  resizeCanvas();
+  startViz(t.colors);
+
+  // Auto-play
+  currentAudio.play().catch(()=>{});
+}
+
+function closePlayer() {
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+  if (currentAudio) { currentAudio.pause(); }
+  if (currentVideo) { currentVideo.pause(); }
+  if (animFrame) { cancelAnimationFrame(animFrame); animFrame = null; }
+  document.querySelectorAll('.track-card').forEach(c => c.classList.remove('active'));
+  currentTrack = -1;
+  playAllMode = false;
+  document.getElementById('playAllBtn').classList.remove('playing');
+  document.getElementById('playAllBtn').textContent = '▶ PLAY ALL';
+}
+
+function connectAnalyser(audio) {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  if (!analyser) {
+    analyser = audioCtx.createAnalyser();
+    analyser.fftSize = 256;
+    dataArray = new Uint8Array(analyser.frequencyBinCount);
+    analyser.connect(audioCtx.destination);
+  }
+  if (!sourceMap.has(audio)) {
+    const source = audioCtx.createMediaElementSource(audio);
+    source.connect(analyser);
+    sourceMap.set(audio, source);
+  }
+}
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+window.addEventListener('resize', resizeCanvas);
+
+// Visualizer
+let vizColors = ['#b94fff','#ff2d95','#00f0ff'];
+let particles = [];
+
+function startViz(colors) {
+  vizColors = colors;
+  particles = [];
+  for (let i = 0; i < 80; i++) {
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.5,
+      vy: (Math.random() - 0.5) * 0.5,
+      r: 1 + Math.random() * 2,
+      color: colors[Math.floor(Math.random() * colors.length)]
+    });
+  }
+  if (!animFrame) animate();
+}
+
+function animate() {
+  animFrame = requestAnimationFrame(animate);
+  const w = canvas.width, h = canvas.height;
+  ctx.fillStyle = 'rgba(5,5,10,0.15)';
+  ctx.fillRect(0, 0, w, h);
+
+  let freqData = null;
+  let avgBass = 0;
+  if (analyser && dataArray) {
+    analyser.getByteFrequencyData(dataArray);
+    freqData = dataArray;
+    for (let i = 0; i < 8; i++) avgBass += freqData[i];
+    avgBass /= 8;
+  }
+
+  // Update EQ bars
+  const bars = document.querySelectorAll('#pEq .bar');
+  bars.forEach((bar, i) => {
+    const val = freqData ? freqData[Math.floor(i * freqData.length / bars.length)] : 0;
+    bar.style.height = Math.max(2, val / 255 * 28) + 'px';
+    const pct = val / 255;
+    bar.style.background = `linear-gradient(180deg, ${vizColors[0]}, ${vizColors[1] || vizColors[0]})`;
+    bar.style.opacity = 0.4 + pct * 0.6;
+  });
+
+  // Update visualizer bars
+  const vbars = document.querySelectorAll('#pVizBar .vbar');
+  vbars.forEach((bar, i) => {
+    const fi = Math.floor(i * (freqData ? freqData.length : 64) / vbars.length);
+    const val = freqData ? freqData[fi] : 0;
+    const h = Math.max(2, val / 255 * 58);
+    bar.style.height = h + 'px';
+    bar.style.opacity = 0.3 + (val / 255) * 0.7;
+  });
+
+  // Central glow pulse
+  const pulse = avgBass / 255;
+  const grad = ctx.createRadialGradient(w/2, h/2, 0, w/2, h/2, 300 + pulse * 200);
+  grad.addColorStop(0, hexToRgba(vizColors[0], 0.03 + pulse * 0.06));
+  grad.addColorStop(0.5, hexToRgba(vizColors[1] || vizColors[0], 0.01 + pulse * 0.03));
+  grad.addColorStop(1, 'transparent');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+
+  // Frequency bars at bottom
+  if (freqData) {
+    const barW = w / freqData.length;
+    for (let i = 0; i < freqData.length; i++) {
+      const barH = (freqData[i] / 255) * h * 0.35;
+      const gradient = ctx.createLinearGradient(0, h, 0, h - barH);
+      gradient.addColorStop(0, hexToRgba(vizColors[0], 0.6));
+      gradient.addColorStop(0.5, hexToRgba(vizColors[1] || vizColors[0], 0.3));
+      gradient.addColorStop(1, hexToRgba(vizColors[2] || vizColors[0], 0.05));
+      ctx.fillStyle = gradient;
+      ctx.fillRect(i * barW, h - barH, barW - 1, barH);
+    }
+  }
+
+  // Waveform circle
+  if (freqData) {
+    ctx.save();
+    ctx.translate(w/2, h/2);
+    const rings = 3;
+    for (let r = 0; r < rings; r++) {
+      const baseR = 100 + r * 80;
+      ctx.beginPath();
+      for (let i = 0; i < 64; i++) {
+        const angle = (i / 64) * Math.PI * 2;
+        const fi = Math.floor(i * freqData.length / 64);
+        const amp = freqData[fi] / 255 * (40 + r * 15);
+        const radius = baseR + amp;
+        const x = Math.cos(angle) * radius;
+        const y = Math.sin(angle) * radius;
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      }
+      ctx.closePath();
+      ctx.strokeStyle = hexToRgba(vizColors[r % vizColors.length], 0.15 + pulse * 0.2);
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  // Particles
+  particles.forEach(p => {
+    const boost = 1 + pulse * 2;
+    p.x += p.vx * boost;
+    p.y += p.vy * boost;
+    if (p.x < 0) p.x = w;
+    if (p.x > w) p.x = 0;
+    if (p.y < 0) p.y = h;
+    if (p.y > h) p.y = 0;
+
+    const size = p.r * (1 + pulse * 0.5);
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, size, 0, Math.PI * 2);
+    ctx.fillStyle = hexToRgba(p.color, 0.4 + pulse * 0.4);
+    ctx.fill();
+    ctx.shadowBlur = 8 + pulse * 10;
+    ctx.shadowColor = p.color;
+  });
+  ctx.shadowBlur = 0;
+}
+
+function hexToRgba(hex, alpha) {
+  const r = parseInt(hex.slice(1,3),16);
+  const g = parseInt(hex.slice(3,5),16);
+  const b = parseInt(hex.slice(5,7),16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// === PLAY ALL ===
+document.getElementById('playAllBtn').addEventListener('click', () => {
+  if (playAllMode && currentTrack >= 0) {
+    // Stop
+    closePlayer();
+    return;
+  }
+  playAllMode = true;
+  const btn = document.getElementById('playAllBtn');
+  btn.classList.add('playing');
+  btn.textContent = '⏹ STOP';
+  openPlayer(0);
+});
+
+// Controls
+document.getElementById('playerClose').addEventListener('click', closePlayer);
+document.getElementById('playerPrev').addEventListener('click', () => {
+  if (currentTrack > 0) openPlayer(currentTrack - 1);
+});
+document.getElementById('playerNext').addEventListener('click', () => {
+  if (currentTrack < TRACKS.length - 1) openPlayer(currentTrack + 1);
+});
+
+// Keyboard
+document.addEventListener('keydown', e => {
+  if (!overlay.classList.contains('open')) return;
+  if (e.key === 'Escape') closePlayer();
+  if (e.key === 'ArrowLeft' && currentTrack > 0) openPlayer(currentTrack - 1);
+  if (e.key === 'ArrowRight' && currentTrack < TRACKS.length - 1) openPlayer(currentTrack + 1);
+  if (e.key === ' ') {
+    e.preventDefault();
+    if (currentAudio) currentAudio.paused ? currentAudio.play() : currentAudio.pause();
+  }
+});
+
+// Auto-advance to next track
+setInterval(() => {
+  if (currentAudio && currentAudio.ended && currentTrack < TRACKS.length - 1) {
+    openPlayer(currentTrack + 1);
+  } else if (currentAudio && currentAudio.ended && currentTrack === TRACKS.length - 1) {
+    if (playAllMode) closePlayer();
+  }
+}, 500);
+
+// Floating particles (background)
+function createBgParticle() {
+  const p = document.createElement('div');
+  p.className = 'particle';
+  const colors = ['var(--neon-pink)','var(--neon-cyan)','var(--neon-purple)'];
+  p.style.background = colors[Math.floor(Math.random() * colors.length)];
+  p.style.left = Math.random() * 100 + 'vw';
+  p.style.animationDuration = (8 + Math.random() * 12) + 's';
+  p.style.width = p.style.height = (1 + Math.random() * 3) + 'px';
+  document.body.appendChild(p);
+  setTimeout(() => p.remove(), 20000);
+}
+setInterval(createBgParticle, 1200);
+for(let i = 0; i < 10; i++) setTimeout(createBgParticle, i * 200);
+</script>
+
+</body>
+</html>

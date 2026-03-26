@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DocQ — Instant Document Intelligence</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1><span class="icon">📄</span> DocQ</h1>
+  <div class="header-actions">
+    <span class="badge badge-sim" id="modeBadge">SIMULATED</span>
+    <button class="btn btn-ghost" onclick="openSettings()">⚙ Settings</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Your team spends hours searching documents.<br><span>This takes seconds.</span></h2>
+  <p>Paste any document, ask a question, get answers with pinpointed citations. Try a preloaded example or bring your own.</p>
+</section>
+
+<div class="examples">
+  <button class="example-btn" onclick="loadExample('handbook')">📋 Employee Handbook</button>
+  <button class="example-btn" onclick="loadExample('contract')">📑 Service Contract</button>
+  <button class="example-btn" onclick="clearDoc()">✏️ Paste Your Own</button>
+</div>
+
+<div class="main">
+  <!-- Document Panel -->
+  <div class="panel">
+    <div class="panel-header">
+      <h3>📄 Document</h3>
+      <span id="docInfo" style="font-size:.75rem;color:var(--text2)"></span>
+    </div>
+    <div class="panel-body" id="docBody">
+      <div class="doc-placeholder" id="docPlaceholder">
+        <div class="upload-icon">📂</div>
+        <p>Load an example above, paste text, or upload a .txt file to get started</p>
+      </div>
+      <div class="doc-content" id="docContent" style="display:none"></div>
+      <textarea class="paste-area" id="pasteArea" style="display:none" placeholder="Paste your document text here..."></textarea>
+    </div>
+    <div class="doc-actions">
+      <button class="btn btn-ghost" onclick="triggerUpload()">📎 Upload .txt</button>
+      <button class="btn btn-ghost" onclick="togglePaste()" id="pasteBtn">✏️ Paste Text</button>
+      <input type="file" id="fileInput" accept=".txt,.md,.csv" onchange="handleFile(event)">
+    </div>
+  </div>
+
+  <!-- Chat Panel -->
+  <div class="panel">
+    <div class="panel-header">
+      <h3>💬 Ask Anything</h3>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg msg-system">Load a document to start asking questions</div>
+    </div>
+    <div class="quick-questions" id="quickQuestions"></div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Ask a question about the document..." onkeydown="if(event.key==='Enter')askQuestion()">
+      <button onclick="askQuestion()">Ask →</button>
+    </div>
+  </div>
+</div>
+
+<div class="cta">
+  <h3>Want this for your business?</h3>
+  <p>We build custom AI-powered document intelligence tools tailored to your workflows.</p>
+  <button class="btn btn-primary" onclick="window.open('mailto:hello@example.com','_blank')">📞 Book a Call</button>
+</div>
+
+<!-- Settings Modal -->
+<div class="modal-overlay" id="settingsModal">
+  <div class="modal">
+    <h3>⚙ Settings</h3>
+    <p>Add an OpenAI API key to switch from simulated mode to real AI-powered Q&amp;A. Your key stays in your browser — never sent to any server.</p>
+    <label>OpenAI API Key</label>
+    <input type="password" id="apiKeyInput" placeholder="sk-...">
+    <label>Model</label>
+    <select id="modelSelect">
+      <option value="gpt-4o-mini">gpt-4o-mini (fast, cheap)</option>
+      <option value="gpt-4o">gpt-4o (best)</option>
+      <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+    </select>
+    <h3 style="margin-top:.5rem;font-size:.9rem">Integration Example</h3>
+    <div class="code-block">// Just 5 lines to add AI to your app
+const res = await fetch('https://api.openai.com/v1/chat/completions', {
+  method: 'POST',
+  headers: {
+    'Authorization': `Bearer ${apiKey}`,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    model: 'gpt-4o-mini',
+    messages: [
+      { role: 'system', content: `Answer from this document:\n${doc}` },
+      { role: 'user', content: question }
+    ]
+  })
+});</div>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeSettings()">Cancel</button>
+      <button class="btn btn-primary" onclick="saveSettings()">Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── SAMPLE DATA ──
+const EXAMPLES = {
+  handbook: {
+    title: 'Employee Handbook (Sample)',
+    text: `ACME CORP — EMPLOYEE HANDBOOK
+Last Updated: January 2026
+
+SECTION 1: PAID TIME OFF (PTO)
+All full-time employees receive 20 days of paid time off per year, accruing at a rate of 1.67 days per month. PTO requests must be submitted at least two weeks in advance through the HR portal. Unused PTO can be carried over up to a maximum of 5 days into the following year. Any PTO beyond the 5-day carryover limit will be forfeited on December 31st.
+
+Part-time employees receive PTO on a prorated basis according to their scheduled hours. Temporary and contract employees are not eligible for PTO benefits.
+
+SECTION 2: REMOTE WORK POLICY
+Employees may work remotely up to 3 days per week with manager approval. Remote work arrangements must be documented in writing and reviewed quarterly. Employees working remotely are expected to maintain core hours of 9:00 AM to 3:00 PM in their local time zone and be available via Slack and video conferencing during these hours.
+
+A dedicated workspace with reliable internet (minimum 25 Mbps) is required. The company provides a $500 annual stipend for home office equipment. Employees must complete the Remote Work Security Training before beginning any remote arrangement.
+
+SECTION 3: EXPENSE REIMBURSEMENT
+Business expenses over $25 require pre-approval from your department manager. All expense reports must be submitted within 30 days of the expense via the Concur system. Receipts are required for all expenses over $10. Meal expenses during business travel are capped at $75 per day. Mileage reimbursement is provided at the current IRS rate of $0.67 per mile.
+
+SECTION 4: PERFORMANCE REVIEWS
+Performance reviews are conducted bi-annually in June and December. Reviews include a self-assessment, manager evaluation, and 360-degree peer feedback. Performance ratings use a 5-point scale: Exceptional (5), Exceeds Expectations (4), Meets Expectations (3), Needs Improvement (2), and Unsatisfactory (1). Employees rated 4 or above are eligible for a performance bonus of up to 15% of their annual salary.
+
+SECTION 5: HEALTH BENEFITS
+The company offers three health insurance plans: Basic, Standard, and Premium. The company covers 80% of premiums for individual coverage and 60% for family coverage. Dental and vision insurance are included in all plans. Employees are eligible for benefits starting on the first day of the month following their hire date. Open enrollment occurs annually in November.
+
+Mental health services include 12 free counseling sessions per year through our Employee Assistance Program (EAP). Gym membership reimbursement up to $50 per month is available under the Standard and Premium plans.`,
+    questions: [
+      'How many PTO days do employees get?',
+      'What is the remote work policy?',
+      'How does expense reimbursement work?'
+    ]
+  },
+  contract: {
+    title: 'Service Contract (Sample)',
+    text: `MASTER SERVICE AGREEMENT
+Between: TechFlow Solutions ("Provider") and GlobalRetail Inc. ("Client")
+Effective Date: February 1, 2026 | Contract No: MSA-2026-0847
+
+ARTICLE 1: SCOPE OF SERVICES
+Provider shall deliver cloud-based inventory management software ("the Platform") including real-time stock tracking, automated reorder alerts, and predictive demand analytics. The Platform shall support up to 500 concurrent users across Client's 47 retail locations. Provider will deliver an initial deployment within 90 days of the effective date, with full rollout completed within 180 days.
+
+ARTICLE 2: SERVICE LEVEL AGREEMENT (SLA)
+Provider guarantees 99.9% uptime for the Platform, measured monthly. Scheduled maintenance windows are limited to Sundays 2:00-6:00 AM EST and will be communicated 72 hours in advance. Unplanned downtime exceeding the 99.9% threshold will result in service credits: 10% monthly fee credit for 99.5%-99.9% uptime, 25% credit for 99.0%-99.5%, and 50% credit for below 99.0%.
+
+Critical support tickets (system-wide outage) will receive a response within 15 minutes and resolution within 4 hours. High priority tickets within 1 hour response and 8 hour resolution. Medium priority within 4 hours response and 48 hour resolution.
+
+ARTICLE 3: PRICING AND PAYMENT TERMS
+Annual license fee: $480,000 ($40,000/month). Implementation fee: $150,000 (one-time). Training fee: $25,000 (covers 3 on-site training sessions). Payment terms are Net 30 from invoice date. Late payments accrue interest at 1.5% per month. Client may terminate for convenience with 90 days written notice, subject to payment of fees through the notice period.
+
+ARTICLE 4: DATA AND SECURITY
+Provider shall maintain SOC 2 Type II compliance and process all data within US-based data centers. Client data remains the exclusive property of Client at all times. Provider shall implement AES-256 encryption for data at rest and TLS 1.3 for data in transit. In the event of a data breach, Provider must notify Client within 24 hours and provide a detailed incident report within 72 hours.
+
+Provider agrees to annual third-party security audits, with results shared with Client. Data retention: Client data will be retained for 7 years after contract termination, unless Client requests earlier deletion.
+
+ARTICLE 5: INTELLECTUAL PROPERTY
+All customizations developed specifically for Client shall be owned by Client. Provider retains ownership of the core Platform and any pre-existing intellectual property. Client receives a non-exclusive, non-transferable license to use the Platform during the contract term. Upon termination, Provider will export all Client data in standard formats (CSV, JSON) within 30 days at no additional cost.
+
+ARTICLE 6: LIMITATION OF LIABILITY
+Provider's total aggregate liability under this agreement shall not exceed the total fees paid by Client in the 12 months preceding the claim. Neither party shall be liable for indirect, incidental, or consequential damages. This limitation does not apply to breaches of confidentiality, data security obligations, or intellectual property infringement.`,
+    questions: [
+      'What is the uptime guarantee and penalty?',
+      'How much does this contract cost?',
+      'What happens to our data after termination?'
+    ]
+  }
+};
+
+// ── STATE ──
+let currentDoc = '';
+let currentExample = null;
+let apiKey = localStorage.getItem('docq_apikey') || '';
+let model = localStorage.getItem('docq_model') || 'gpt-4o-mini';
+
+// ── DOM ──
+const $=s=>document.querySelector(s);
+const docBody=$('#docBody'), docContent=$('#docContent'), docPlaceholder=$('#docPlaceholder');
+const pasteArea=$('#pasteArea'), chatMessages=$('#chatMessages'), chatInput=$('#chatInput');
+const quickQuestions=$('#quickQuestions'), modeBadge=$('#modeBadge'), docInfo=$('#docInfo');
+
+updateBadge();
+
+// ── EXAMPLES ──
+function loadExample(key) {
+  const ex = EXAMPLES[key];
+  currentDoc = ex.text;
+  currentExample = key;
+  document.querySelectorAll('.example-btn').forEach((b,i)=>{
+    b.classList.toggle('active', (key==='handbook'&&i===0)||(key==='contract'&&i===1));
+  });
+  pasteArea.style.display='none';
+  docPlaceholder.style.display='none';
+  docContent.style.display='block';
+  docContent.textContent = currentDoc;
+  docInfo.textContent = `${ex.title} · ${currentDoc.split(/\s+/).length} words`;
+  $('#pasteBtn').textContent='✏️ Paste Text';
+
+  // set quick questions
+  quickQuestions.innerHTML = '';
+  ex.questions.forEach(q => {
+    const b = document.createElement('button');
+    b.className='qq';
+    b.textContent=q;
+    b.onclick=()=>{chatInput.value=q;askQuestion()};
+    quickQuestions.appendChild(b);
+  });
+
+  chatMessages.innerHTML='<div class="msg msg-system">Document loaded — ask anything!</div>';
+}
+
+function clearDoc(){
+  currentDoc='';currentExample=null;
+  document.querySelectorAll('.example-btn').forEach((b,i)=>b.classList.toggle('active',i===2));
+  docContent.style.display='none';
+  docPlaceholder.style.display='none';
+  pasteArea.style.display='block';
+  pasteArea.value='';
+  pasteArea.focus();
+  docInfo.textContent='';
+  quickQuestions.innerHTML='';
+  chatMessages.innerHTML='<div class="msg msg-system">Paste your document, then ask a question</div>';
+  $('#pasteBtn').textContent='✅ Done';
+}
+
+function togglePaste(){
+  if(pasteArea.style.display==='block'){
+    // save
+    const t=pasteArea.value.trim();
+    if(!t)return;
+    currentDoc=t;currentExample=null;
+    pasteArea.style.display='none';
+    docContent.style.display='block';
+    docContent.textContent=currentDoc;
+    docInfo.textContent=`Custom document · ${currentDoc.split(/\s+/).length} words`;
+    $('#pasteBtn').textContent='✏️ Paste Text';
+    document.querySelectorAll('.example-btn').forEach(b=>b.classList.remove('active'));
+    chatMessages.innerHTML='<div class="msg msg-system">Document loaded — ask anything!</div>';
+  } else {
+    clearDoc();
+  }
+}
+
+function triggerUpload(){$('#fileInput').click()}
+function handleFile(e){
+  const f=e.target.files[0];if(!f)return;
+  const r=new FileReader();
+  r.onload=ev=>{
+    currentDoc=ev.target.result;currentExample=null;
+    pasteArea.style.display='none';
+    docPlaceholder.style.display='none';
+    docContent.style.display='block';
+    docContent.textContent=currentDoc;
+    docInfo.textContent=`${f.name} · ${currentDoc.split(/\s+/).length} words`;
+    $('#pasteBtn').textContent='✏️ Paste Text';
+    document.querySelectorAll('.example-btn').forEach(b=>b.classList.remove('active'));
+    quickQuestions.innerHTML='';
+    chatMessages.innerHTML='<div class="msg msg-system">Document loaded — ask anything!</div>';
+  };
+  r.readAsText(f);
+}
+
+// ── QUESTION HANDLING ──
+async function askQuestion(){
+  const q=chatInput.value.trim();
+  if(!q||!currentDoc){
+    if(!currentDoc)alert('Please load a document first.');
+    return;
+  }
+  chatInput.value='';
+  addMsg(q,'user');
+  // clear highlights
+  docContent.textContent=currentDoc;
+
+  // typing indicator
+  const typing=document.createElement('div');
+  typing.className='typing';
+  typing.innerHTML='<span></span><span></span><span></span>';
+  chatMessages.appendChild(typing);
+  chatMessages.scrollTop=chatMessages.scrollHeight;
+
+  let answer,citation;
+  try {
+    if(apiKey){
+      ({answer,citation}=await aiAnswer(q));
+    } else {
+      ({answer,citation}=await simulatedAnswer(q));
+    }
+  } catch(e){
+    typing.remove();
+    addMsg('Error: '+e.message,'ai');
+    return;
+  }
+  typing.remove();
+  addAiMsg(answer,citation);
+  if(citation) highlightCitation(citation);
+}
+
+function addMsg(text,type){
+  const d=document.createElement('div');
+  d.className=`msg msg-${type}`;
+  d.textContent=text;
+  chatMessages.appendChild(d);
+  chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+function addAiMsg(answer,citation){
+  const d=document.createElement('div');
+  d.className='msg msg-ai';
+  let html=`<div>${answer}</div>`;
+  if(citation){
+    const short=citation.length>120?citation.slice(0,120)+'…':citation;
+    html+=`<div class="citation" onclick="scrollToCitation()">"${short}"</div>`;
+  }
+  d.innerHTML=html;
+  chatMessages.appendChild(d);
+  chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+// ── SIMULATED SEARCH ──
+function simulatedAnswer(q){
+  return new Promise(resolve=>{
+    const delay=800+Math.random()*1200;
+    setTimeout(()=>{
+      const {bestSentences,bestParagraph}=findRelevant(q);
+      const answer=bestSentences.length
+        ? `Based on the document, ${bestSentences[0].toLowerCase().startsWith('the')||bestSentences[0].toLowerCase().startsWith('all')?'':'here\'s what I found: '}${bestSentences.slice(0,2).join(' ')}`
+        : 'I couldn\'t find a specific answer to that question in the document. Try rephrasing or asking about a different topic.';
+      resolve({answer, citation:bestParagraph});
+    },delay);
+  });
+}
+
+function findRelevant(query){
+  const keywords=query.toLowerCase().replace(/[?.,!]/g,'').split(/\s+/).filter(w=>w.length>2&&!['what','how','does','the','and','for','are','this','that','with','from','have','can','you','about','when','where','which','would','could','should','their','there','they','been','being','will','into','than','them','then','these','those','your','each','more','other','some','such','only','also'].includes(w));
+  
+  const paragraphs=currentDoc.split(/\n\n+/).filter(p=>p.trim().length>30);
+  let best=null,bestScore=0;
+  
+  for(const p of paragraphs){
+    const pl=p.toLowerCase();
+    let score=0;
+    for(const kw of keywords){
+      const re=new RegExp(kw,'gi');
+      const matches=pl.match(re);
+      if(matches) score+=matches.length * (kw.length>5?2:1);
+    }
+    if(score>bestScore){bestScore=score;best=p}
+  }
+
+  const sentences=best?best.split(/(?<=[.!?])\s+/).filter(s=>s.length>15):[];
+  const scored=sentences.map(s=>{
+    const sl=s.toLowerCase();
+    let sc=0;
+    for(const kw of keywords){if(sl.includes(kw))sc+=kw.length>5?2:1}
+    return {s,sc};
+  }).sort((a,b)=>b.sc-a.sc);
+
+  return {
+    bestSentences:scored.filter(x=>x.sc>0).slice(0,3).map(x=>x.s),
+    bestParagraph:best||''
+  };
+}
+
+// ── REAL AI ──
+async function aiAnswer(q){
+  const res=await fetch('https://api.openai.com/v1/chat/completions',{
+    method:'POST',
+    headers:{'Authorization':`Bearer ${apiKey}`,'Content-Type':'application/json'},
+    body:JSON.stringify({
+      model,
+      messages:[
+        {role:'system',content:`You are a document Q&A assistant. Answer questions based ONLY on the provided document. Include a direct quote from the document as a citation. Format your response as JSON: {"answer":"your answer","citation":"exact quote from document"}\n\nDocument:\n${currentDoc}`},
+        {role:'user',content:q}
+      ],
+      temperature:0.2
+    })
+  });
+  if(!res.ok){const e=await res.json().catch(()=>({}));throw new Error(e.error?.message||`API error ${res.status}`)}
+  const data=await res.json();
+  const raw=data.choices[0].message.content;
+  try{
+    const j=JSON.parse(raw.replace(/```json?\n?/g,'').replace(/```/g,'').trim());
+    return {answer:j.answer,citation:j.citation||''};
+  }catch{
+    return {answer:raw,citation:''};
+  }
+}
+
+// ── HIGHLIGHT ──
+function highlightCitation(text){
+  const clean=text.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  // try exact match first, then fuzzy with first 60 chars
+  let re;
+  try{re=new RegExp(`(${clean.slice(0,200)})`,'i')}catch{return}
+  const html=currentDoc.replace(re,'<mark>$1</mark>');
+  if(html!==currentDoc){
+    docContent.innerHTML=html;
+    const mark=docContent.querySelector('mark');
+    if(mark) mark.scrollIntoView({behavior:'smooth',block:'center'});
+  }
+}
+function scrollToCitation(){
+  const mark=docContent.querySelector('mark');
+  if(mark) mark.scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+// ── SETTINGS ──
+function openSettings(){
+  $('#apiKeyInput').value=apiKey;
+  $('#modelSelect').value=model;
+  $('#settingsModal').classList.add('open');
+}
+function closeSettings(){$('#settingsModal').classList.remove('open')}
+function saveSettings(){
+  apiKey=$('#apiKeyInput').value.trim();
+  model=$('#modelSelect').value;
+  localStorage.setItem('docq_apikey',apiKey);
+  localStorage.setItem('docq_model',model);
+  updateBadge();
+  closeSettings();
+}
+function updateBadge(){
+  if(apiKey){modeBadge.textContent='AI LIVE';modeBadge.className='badge badge-live'}
+  else{modeBadge.textContent='SIMULATED';modeBadge.className='badge badge-sim'}
+}
+$('#settingsModal').onclick=e=>{if(e.target===$('#settingsModal'))closeSettings()};
+</script>
+</body>
+</html>

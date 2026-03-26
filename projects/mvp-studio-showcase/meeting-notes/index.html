@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meeting Notes Summarizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cta-banner">🚀 Need AI-powered meeting tools? <a href="https://mvp-studio.onrender.com" target="_blank">Visit mvp-studio.onrender.com</a></div>
+
+<div class="app">
+<header>
+  <h1>📋 Meeting Notes Summarizer</h1>
+  <p>Paste your meeting transcript → get structured summaries, action items &amp; decisions instantly</p>
+</header>
+
+<!-- Input Card -->
+<div class="card">
+  <h2><span class="icon">📝</span> Meeting Details</h2>
+  <div class="meta-grid">
+    <div><label for="title">Meeting Title</label><input id="title" placeholder="e.g. Q1 Planning Sync"></div>
+    <div><label for="date">Date</label><input id="date" type="date"></div>
+  </div>
+  <div style="margin-bottom:14px"><label for="attendees">Attendees (comma-separated)</label><input id="attendees" placeholder="e.g. Sarah, James, Priya, Marcus"></div>
+  <label for="transcript">Meeting Transcript / Notes</label>
+  <textarea id="transcript" placeholder="Paste your meeting notes or transcript here...&#10;&#10;Tip: Include names, action items, and decisions for best results."></textarea>
+
+  <div class="toggle-row">
+    <label class="toggle"><input type="checkbox" id="aiToggle"><span class="slider"></span></label>
+    <span>Use OpenAI GPT for AI-powered summarization</span>
+  </div>
+  <div class="api-config" id="apiConfig">
+    <input id="apiKey" type="password" placeholder="OpenAI API Key (sk-...)">
+    <select id="aiModel"><option value="gpt-4o-mini">GPT-4o Mini (fast)</option><option value="gpt-4o">GPT-4o (best)</option><option value="gpt-3.5-turbo">GPT-3.5 Turbo</option></select>
+  </div>
+
+  <div class="actions-bar">
+    <button class="btn btn-primary" id="summarizeBtn" onclick="summarize()">⚡ Summarize</button>
+    <button class="btn btn-ghost" onclick="loadTemplate()">📄 Load Sample</button>
+    <button class="btn btn-ghost" onclick="clearAll()">🗑️ Clear</button>
+  </div>
+</div>
+
+<!-- Results -->
+<div class="results" id="results">
+  <div class="card">
+    <h2><span class="icon">📊</span> Summary Results</h2>
+
+    <div class="section" id="execSummary">
+      <h3>📌 Executive Summary</h3>
+      <p id="execText"></p>
+    </div>
+
+    <div class="grid-2">
+      <div class="section" id="decisionsSection">
+        <h3>✅ Key Decisions</h3>
+        <ul id="decisionsList"></ul>
+      </div>
+      <div class="section" id="questionsSection">
+        <h3>❓ Open Questions / Parking Lot</h3>
+        <ul id="questionsList"></ul>
+      </div>
+    </div>
+
+    <div class="section" id="actionsSection">
+      <h3>🎯 Action Items</h3>
+      <ul id="actionsList"></ul>
+    </div>
+
+    <div class="section" id="nextStepsSection">
+      <h3>➡️ Next Steps</h3>
+      <ul id="nextStepsList"></ul>
+    </div>
+
+    <div class="section">
+      <h3>🏷️ Detected Keywords</h3>
+      <div id="keywordTags"></div>
+    </div>
+
+    <div class="actions-bar">
+      <button class="btn btn-sm btn-green" onclick="copyFull()">📋 Copy Full Summary</button>
+      <button class="btn btn-sm btn-green" onclick="copyActions()">🎯 Copy Action Items</button>
+      <button class="btn btn-sm btn-ghost" onclick="exportMarkdown()">📥 Export Markdown</button>
+      <button class="btn btn-sm btn-ghost" onclick="exportText()">📄 Export Text</button>
+      <button class="btn btn-sm btn-primary" onclick="saveToHistory()">💾 Save to History</button>
+    </div>
+  </div>
+</div>
+
+<!-- History -->
+<div class="card">
+  <h2><span class="icon">🕐</span> Meeting History</h2>
+  <div class="history-list" id="historyList"></div>
+  <div class="history-actions">
+    <button class="btn btn-sm btn-ghost" onclick="clearHistory()">🗑️ Clear History</button>
+  </div>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── State ──
+let lastSummary = null;
+
+// ── Init ──
+document.getElementById('date').valueAsDate = new Date();
+document.getElementById('aiToggle').addEventListener('change', e => {
+  document.getElementById('apiConfig').classList.toggle('show', e.target.checked);
+});
+renderHistory();
+
+// ── Sample Template ──
+function loadTemplate() {
+  document.getElementById('title').value = 'Q1 Product Planning Sync';
+  document.getElementById('attendees').value = 'Sarah Chen, James Wilson, Priya Patel, Marcus Johnson, Lisa Park';
+  document.getElementById('transcript').value = `Sarah: Welcome everyone. Let's kick off our Q1 planning. We have a lot to cover today.
+
+James: Thanks Sarah. I wanted to start with the mobile app redesign. We've decided to go with the new Material Design 3 framework. The team voted on it last week and it was unanimous.
+
+Priya: That's great. I'll need to update our design system documentation by next Friday. Also, Marcus, can you set up the new CI/CD pipeline for mobile builds?
+
+Marcus: Sure, I'll have the pipeline ready by January 20th. Should I also include the automated testing suite?
+
+Sarah: Yes, definitely include automated testing. That's a must-have. We decided that all new features need 80% test coverage going forward.
+
+Lisa: I have a question — are we still planning to support iOS 15? That affects our development timeline significantly.
+
+James: Good question. We should follow up with the analytics team to check our iOS 15 user percentage. TODO: James will pull the iOS version analytics by Wednesday.
+
+Priya: Also, I need to follow up on the accessibility audit results. The external firm should send their report by end of month.
+
+Sarah: Speaking of deadlines, the board presentation is February 15th. Marcus and I will prepare the technical roadmap slides. We need to have draft slides ready by February 10th.
+
+Marcus: Got it. I'll also need to coordinate with the backend team about the API migration. That's still an open question — do we go with GraphQL or stick with REST?
+
+James: Let's table the API discussion for the next architecture review meeting on January 25th.
+
+Lisa: One more thing — we should schedule user testing sessions for the new onboarding flow. I'll reach out to our UX research panel and book sessions for the first week of February.
+
+Sarah: Perfect. To summarize our next steps: everyone should review the Q1 OKRs document I shared yesterday and add comments by Monday. Our next sync is January 18th. Great meeting everyone!`;
+  toast('Sample meeting loaded!');
+}
+
+// ── Summarize ──
+async function summarize() {
+  const transcript = document.getElementById('transcript').value.trim();
+  if (!transcript) { toast('Please enter meeting notes first', true); return; }
+
+  const btn = document.getElementById('summarizeBtn');
+  btn.innerHTML = '<span class="loader"></span> Processing...';
+  btn.disabled = true;
+
+  try {
+    if (document.getElementById('aiToggle').checked) {
+      await summarizeAI(transcript);
+    } else {
+      summarizeLocal(transcript);
+    }
+    document.getElementById('results').classList.add('show');
+    document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } catch(e) {
+    toast('Error: ' + e.message, true);
+  } finally {
+    btn.innerHTML = '⚡ Summarize';
+    btn.disabled = false;
+  }
+}
+
+// ── Local Summarizer ──
+function summarizeLocal(transcript) {
+  const attendees = document.getElementById('attendees').value.split(',').map(s=>s.trim()).filter(Boolean);
+  const lines = transcript.split('\n').map(l=>l.trim()).filter(Boolean);
+  const names = detectNames(transcript, attendees);
+
+  // Decisions
+  const decisionPatterns = /\b(decided|decision|agreed|unanimous|approved|confirmed|go with|chosen|will use|moving forward with)\b/i;
+  const decisions = lines.filter(l => decisionPatterns.test(l)).map(cleanLine);
+
+  // Action items
+  const actionPatterns = /\b(will|should|need to|must|action|TODO|follow up|set up|prepare|schedule|reach out|update|coordinate|pull|book|send|create|build|have .* ready)\b/i;
+  const datePatterns = /\b(by |before |due |deadline )?(monday|tuesday|wednesday|thursday|friday|saturday|sunday|tomorrow|next week|end of (?:week|month|quarter|year)|january|february|march|april|may|june|july|august|september|october|november|december)\s*\d{0,2}(?:st|nd|rd|th)?(?:,?\s*\d{4})?\b/gi;
+  const actions = [];
+  lines.forEach(l => {
+    if (actionPatterns.test(l) && !decisionPatterns.test(l)) {
+      const person = findPerson(l, names);
+      const dates = l.match(datePatterns);
+      actions.push({ text: cleanLine(l), person, date: dates ? dates[0].trim() : null });
+    }
+  });
+
+  // Questions
+  const questionPatterns = /\?|open question|parking lot|table |still (?:an )?open|are we still|do we/i;
+  const questions = lines.filter(l => questionPatterns.test(l) && !decisionPatterns.test(l)).map(cleanLine);
+
+  // Next steps
+  const nextPatterns = /\b(next step|next sync|next meeting|going forward|follow.?up|moving forward)\b/i;
+  const nextSteps = lines.filter(l => nextPatterns.test(l)).map(cleanLine);
+
+  // Keywords
+  const kwPatterns = /\b(will|should|need to|must|action|TODO|follow up|deadline|by friday|next week|decided|approved|question|schedule|prepare|coordinate|review)\b/gi;
+  const keywords = [...new Set((transcript.match(kwPatterns)||[]).map(k=>k.toLowerCase()))];
+
+  // Executive summary
+  const title = document.getElementById('title').value || 'Meeting';
+  const exec = `${title} with ${names.slice(0,4).join(', ')}${names.length>4?' and others':''}. ${decisions.length} decision(s) made, ${actions.length} action item(s) identified, and ${questions.length} open question(s) raised. Key focus areas include ${keywords.slice(0,3).join(', ')}.`;
+
+  lastSummary = { title: document.getElementById('title').value, date: document.getElementById('date').value, attendees: names, exec, decisions, actions, questions, nextSteps, keywords };
+  renderResults(lastSummary);
+}
+
+function detectNames(text, providedNames) {
+  const names = [...providedNames];
+  const speakerMatch = text.match(/^([A-Z][a-z]+)(?:\s[A-Z][a-z]+)?(?=\s*:)/gm);
+  if (speakerMatch) speakerMatch.forEach(n => { if (!names.includes(n.trim())) names.push(n.trim()); });
+  return [...new Set(names)];
+}
+
+function findPerson(line, names) {
+  for (const name of names) {
+    const first = name.split(' ')[0];
+    if (line.includes(name) || line.includes(first)) return name;
+  }
+  const m = line.match(/^([A-Z][a-z]+)(?:\s[A-Z][a-z]+)?\s*:/);
+  return m ? m[1] : null;
+}
+
+function cleanLine(l) {
+  return l.replace(/^[A-Z][a-z]+(?:\s[A-Z][a-z]+)?\s*:\s*/, '').trim();
+}
+
+// ── AI Summarizer ──
+async function summarizeAI(transcript) {
+  const key = document.getElementById('apiKey').value.trim();
+  if (!key) throw new Error('Please enter your OpenAI API key');
+  const model = document.getElementById('aiModel').value;
+  const title = document.getElementById('title').value || 'Meeting';
+  const attendees = document.getElementById('attendees').value;
+
+  const res = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key },
+    body: JSON.stringify({
+      model,
+      messages: [{
+        role: 'system',
+        content: 'You are a meeting summarizer. Return valid JSON only with this structure: {"exec":"2-3 sentence summary","decisions":["..."],"actions":[{"text":"...","person":"name or null","date":"date or null"}],"questions":["..."],"nextSteps":["..."],"keywords":["..."]}'
+      }, {
+        role: 'user',
+        content: `Summarize this meeting.\nTitle: ${title}\nAttendees: ${attendees}\n\nTranscript:\n${transcript}`
+      }],
+      temperature: 0.3
+    })
+  });
+  if (!res.ok) throw new Error('OpenAI API error: ' + res.status);
+  const data = await res.json();
+  const content = data.choices[0].message.content;
+  const json = JSON.parse(content.replace(/```json?\n?/g,'').replace(/```/g,''));
+  const names = document.getElementById('attendees').value.split(',').map(s=>s.trim()).filter(Boolean);
+  lastSummary = { title, date: document.getElementById('date').value, attendees: names, ...json };
+  renderResults(lastSummary);
+}
+
+// ── Render ──
+function renderResults(s) {
+  document.getElementById('execText').textContent = s.exec;
+  renderList('decisionsList', s.decisions);
+  renderList('questionsList', s.questions);
+  renderList('nextStepsList', s.nextSteps);
+
+  const al = document.getElementById('actionsList');
+  al.innerHTML = s.actions.map(a => `<li><span class="bullet">→</span><span>${a.text}${a.person ? ' <span class="tag tag-person">👤 '+a.person+'</span>' : ''}${a.date ? ' <span class="tag tag-date">📅 '+a.date+'</span>' : ''}</span></li>`).join('') || '<li style="color:var(--text3)">No action items detected</li>';
+
+  const kt = document.getElementById('keywordTags');
+  kt.innerHTML = s.keywords.map(k => `<span class="tag">${k}</span>`).join('');
+}
+
+function renderList(id, items) {
+  const el = document.getElementById(id);
+  el.innerHTML = items && items.length ? items.map(i => `<li><span class="bullet">•</span><span>${i}</span></li>`).join('') : '<li style="color:var(--text3)">None detected</li>';
+}
+
+// ── Export ──
+function buildMarkdown() {
+  if (!lastSummary) return '';
+  const s = lastSummary;
+  let md = `# ${s.title || 'Meeting Summary'}\n**Date:** ${s.date}\n**Attendees:** ${s.attendees.join(', ')}\n\n`;
+  md += `## Executive Summary\n${s.exec}\n\n`;
+  md += `## Key Decisions\n${s.decisions.map(d=>'- '+d).join('\n')||'- None'}\n\n`;
+  md += `## Action Items\n${s.actions.map(a=>'- '+a.text+(a.person?' → **'+a.person+'**':'')+(a.date?' ('+a.date+')':'')).join('\n')||'- None'}\n\n`;
+  md += `## Open Questions\n${s.questions.map(q=>'- '+q).join('\n')||'- None'}\n\n`;
+  md += `## Next Steps\n${s.nextSteps.map(n=>'- '+n).join('\n')||'- None'}\n`;
+  return md;
+}
+
+function buildText() { return buildMarkdown().replace(/[#*]/g, '').replace(/\n{3,}/g, '\n\n'); }
+
+function copyFull() { navigator.clipboard.writeText(buildMarkdown()); toast('Full summary copied!'); }
+function copyActions() {
+  if (!lastSummary) return;
+  const t = lastSummary.actions.map(a => '• ' + a.text + (a.person?' → '+a.person:'') + (a.date?' ('+a.date+')':'')).join('\n');
+  navigator.clipboard.writeText(t || 'No action items'); toast('Action items copied!');
+}
+function exportMarkdown() { download(buildMarkdown(), (lastSummary?.title||'meeting')+'-summary.md', 'text/markdown'); }
+function exportText() { download(buildText(), (lastSummary?.title||'meeting')+'-summary.txt', 'text/plain'); }
+
+function download(content, name, type) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], {type}));
+  a.download = name; a.click(); URL.revokeObjectURL(a.href);
+  toast('Downloaded ' + name);
+}
+
+// ── History ──
+function getHistory() { return JSON.parse(localStorage.getItem('meetingHistory') || '[]'); }
+function saveToHistory() {
+  if (!lastSummary) { toast('Nothing to save', true); return; }
+  const h = getHistory();
+  h.unshift({ ...lastSummary, savedAt: new Date().toISOString() });
+  if (h.length > 50) h.length = 50;
+  localStorage.setItem('meetingHistory', JSON.stringify(h));
+  renderHistory(); toast('Saved to history!');
+}
+function renderHistory() {
+  const h = getHistory();
+  const el = document.getElementById('historyList');
+  if (!h.length) { el.innerHTML = '<div class="history-empty">No saved meetings yet</div>'; return; }
+  el.innerHTML = h.map((m,i) => `<div class="history-item" onclick="loadHistory(${i})"><div class="h-title">${m.title||'Untitled'}</div><div class="h-date">${m.date||''} · ${m.actions?.length||0} actions · ${m.decisions?.length||0} decisions</div><div class="h-preview">${m.exec||''}</div></div>`).join('');
+}
+function loadHistory(i) {
+  const m = getHistory()[i];
+  if (!m) return;
+  document.getElementById('title').value = m.title || '';
+  document.getElementById('date').value = m.date || '';
+  document.getElementById('attendees').value = (m.attendees||[]).join(', ');
+  lastSummary = m;
+  renderResults(m);
+  document.getElementById('results').classList.add('show');
+  document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+  toast('Loaded from history');
+}
+function clearHistory() { localStorage.removeItem('meetingHistory'); renderHistory(); toast('History cleared'); }
+
+// ── Utilities ──
+function clearAll() {
+  document.getElementById('title').value = '';
+  document.getElementById('date').valueAsDate = new Date();
+  document.getElementById('attendees').value = '';
+  document.getElementById('transcript').value = '';
+  document.getElementById('results').classList.remove('show');
+  lastSummary = null;
+}
+function toast(msg, err) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.style.background = err ? 'var(--red)' : 'var(--green)';
+  t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>

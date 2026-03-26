@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Counter</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;padding:20px}
+a.back{position:fixed;top:20px;left:20px;color:#a78bfa;text-decoration:none;font-size:.9rem;z-index:10;opacity:.7;transition:opacity .2s}
+a.back:hover{opacity:1}
+.container{max-width:800px;margin:50px auto 40px}
+h1{text-align:center;font-size:2rem;font-weight:800;margin-bottom:8px;background:linear-gradient(135deg,#6366f1,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.subtitle{text-align:center;color:#666;font-size:.9rem;margin-bottom:32px}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+.stat{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px;text-align:center}
+.stat .num{font-size:1.8rem;font-weight:900;color:#fff}
+.stat .lbl{font-size:.7rem;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.stats-row .stat .num{font-size:1.2rem}
+.textarea-wrap{position:relative;margin-bottom:20px}
+textarea{width:100%;height:280px;background:rgba(255,255,255,.04);border:2px solid rgba(255,255,255,.08);border-radius:16px;padding:20px;font-size:1rem;line-height:1.7;color:#e0e0e0;font-family:'Inter',sans-serif;resize:vertical;outline:none;transition:border-color .2s}
+textarea:focus{border-color:#6366f1}
+textarea::placeholder{color:#444}
+.clear-btn{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.08);border:none;border-radius:8px;padding:6px 14px;font-size:.8rem;font-weight:600;color:#888;cursor:pointer;font-family:'Inter',sans-serif;transition:all .2s}
+.clear-btn:hover{background:rgba(239,68,68,.2);color:#f87171}
+.keywords-section h3{font-size:.85rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px}
+.keywords{display:flex;flex-wrap:wrap;gap:8px;min-height:40px}
+.kw{background:rgba(99,102,241,.12);border:1px solid rgba(99,102,241,.2);border-radius:20px;padding:6px 14px;font-size:.8rem;font-weight:600;color:#a5b4fc}
+.kw span{color:#6366f1;margin-left:6px;font-weight:800}
+.empty-msg{color:#444;font-size:.85rem;font-style:italic}
+@media(max-width:600px){
+.stats-grid{grid-template-columns:repeat(3,1fr);gap:8px}
+.stats-row{grid-template-columns:repeat(2,1fr);gap:8px}
+.stat .num{font-size:1.4rem}
+textarea{height:200px}
+}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<div class="container">
+<h1>📝 Word Counter</h1>
+<p class="subtitle">Paste or type — get instant stats</p>
+
+<div class="stats-grid">
+<div class="stat"><div class="num" id="words">0</div><div class="lbl">Words</div></div>
+<div class="stat"><div class="num" id="chars">0</div><div class="lbl">Characters</div></div>
+<div class="stat"><div class="num" id="charsNoSpace">0</div><div class="lbl">No Spaces</div></div>
+</div>
+<div class="stats-row">
+<div class="stat"><div class="num" id="sentences">0</div><div class="lbl">Sentences</div></div>
+<div class="stat"><div class="num" id="paragraphs">0</div><div class="lbl">Paragraphs</div></div>
+<div class="stat"><div class="num" id="readTime">0s</div><div class="lbl">Read Time</div></div>
+<div class="stat"><div class="num" id="speakTime">0s</div><div class="lbl">Speak Time</div></div>
+</div>
+
+<div class="textarea-wrap">
+<textarea id="text" placeholder="Start typing or paste your text here..."></textarea>
+<button class="clear-btn" id="clearBtn">Clear</button>
+</div>
+
+<div class="keywords-section">
+<h3>Top Keywords</h3>
+<div class="keywords" id="keywords"><span class="empty-msg">Start typing to see keyword frequency</span></div>
+</div>
+</div>
+
+<script>
+const textEl = document.getElementById('text');
+const stopwords = new Set(['the','be','to','of','and','a','in','that','have','i','it','for','not','on','with','he','as','you','do','at','this','but','his','by','from','they','we','her','she','or','an','will','my','one','all','would','there','their','what','so','up','out','if','about','who','get','which','go','me','when','make','can','like','time','no','just','him','know','take','people','into','year','your','good','some','could','them','see','other','than','then','now','look','only','come','its','over','think','also','back','after','use','two','how','our','work','first','well','way','even','new','want','because','any','these','give','day','most','us','is','are','was','were','been','has','had','did','does','am','being','more','very','much','too','own','same','should','each','said']);
+
+function formatTime(mins) {
+  if (mins < 1) return Math.round(mins * 60) + 's';
+  if (mins < 60) return Math.round(mins) + 'm';
+  return Math.floor(mins/60) + 'h ' + Math.round(mins%60) + 'm';
+}
+
+function analyze() {
+  const t = textEl.value;
+  const wordList = t.trim() ? t.trim().split(/\s+/) : [];
+  const wc = wordList.length;
+  document.getElementById('words').textContent = wc;
+  document.getElementById('chars').textContent = t.length;
+  document.getElementById('charsNoSpace').textContent = t.replace(/\s/g,'').length;
+  document.getElementById('sentences').textContent = t.trim() ? (t.match(/[.!?]+/g)||[]).length || (wc>0?1:0) : 0;
+  document.getElementById('paragraphs').textContent = t.trim() ? t.split(/\n\s*\n/).filter(p=>p.trim()).length || (wc>0?1:0) : 0;
+  document.getElementById('readTime').textContent = formatTime(wc / 238);
+  document.getElementById('speakTime').textContent = formatTime(wc / 150);
+
+  const freq = {};
+  wordList.forEach(w => {
+    const clean = w.toLowerCase().replace(/[^a-z'-]/g,'');
+    if (clean.length > 2 && !stopwords.has(clean)) freq[clean] = (freq[clean]||0) + 1;
+  });
+  const sorted = Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,12);
+  const kwEl = document.getElementById('keywords');
+  if (!sorted.length) {
+    kwEl.innerHTML = '<span class="empty-msg">Start typing to see keyword frequency</span>';
+  } else {
+    kwEl.innerHTML = sorted.map(([w,c])=>`<div class="kw">${w}<span>×${c}</span></div>`).join('');
+  }
+}
+
+textEl.addEventListener('input', analyze);
+document.getElementById('clearBtn').addEventListener('click', () => { textEl.value = ''; analyze(); });
+</script>
+</body>
+</html>

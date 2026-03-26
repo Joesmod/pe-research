@@ -1,0 +1,22 @@
+=== PE Research Enrichment Session 2026-03-11 8:37PM ===
+
+Sheet has 500+ rows. Identifying top priority enrichment candidates:
+
+PRIORITY LEADS (missing contact or have generic email):
+1. 360 Equipment Finance - has founder name, no email
+2. 8VC - has founder, partial email
+3. Acquisition.com - has CEO, email pattern only
+4. Agora - marked "Dead - Not PE Firm"
+5. AGC Partners - has company info but incomplete contact
+6. Tixel - has co-founder, no full enrichment
+7. Backstroke - has director, needs verification
+8. Satso - has CEO, needs verification
+9. Muse - has VP Ops, needs verification
+10. Canoe Intelligence - marked "Dead - Not PE Firm"
+11. CANCER FUND - has founder, needs more contacts
+12. Cambridge Capital LLC - marked "Needs Manual Research"
+13. Centerview Partners - has co-founder but note says "Need specific partner email"
+14. Council Capital - has director but mixed contact info
+15. Edgewater Capital Partners - "Needs Manual Research"
+
+Starting enrichment process...

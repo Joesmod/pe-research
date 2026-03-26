@@ -1,75 +1,143 @@
-const axios = require('axios');
+const https = require('https');
 
-const apiKey = 'Fx6RpQS0PKxfVgnxWOPWuw';
+const APOLLO_API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
-async function searchOrganization(firmName) {
-  try {
-    const response = await axios.post('https://api.apollo.io/v1/organizations/search', {
-      q_organization_name: firmName,
+const firms = [
+  'Littlejohn',
+  'Charlesbank Capital Partners',
+  'PSG Equity',
+  'TowerBrook Capital Partners',
+  'Pritzker Private Capital',
+  'Symphony Technology Group',
+  'Trian Fund Management',
+  'Prospect Capital Management',
+  'CORE Industrial Partners',
+  'Five Elms Capital',
+];
+
+async function searchOrganization(orgName) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      api_key: APOLLO_API_KEY,
+      q_organization_name: orgName,
+      page: 1,
       per_page: 1
-    }, {
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Api-Key': apiKey
-      }
     });
-    
-    if (response.data.organizations && response.data.organizations.length > 0) {
-      const org = response.data.organizations[0];
-      console.log(`Found: ${org.name}`);
-      console.log(`ID: ${org.id}`);
-      console.log(`Website: ${org.website_url || 'N/A'}`);
-      return org.id;
-    } else {
-      console.log(`No organization found for: ${firmName}`);
-      return null;
-    }
-  } catch (err) {
-    console.error(`Error searching org ${firmName}:`, err.response?.data || err.message);
-    return null;
-  }
-}
 
-async function searchPeopleAtOrg(orgId, firmName) {
-  try {
-    const response = await axios.post('https://api.apollo.io/v1/mixed_people/search', {
-      organization_ids: [orgId],
-      person_titles: ['Partner', 'Managing Director', 'Business Development', 'Head'],
-      per_page: 5
-    }, {
+    const options = {
+      hostname: 'api.apollo.io',
+      path: '/v1/organizations/search',
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'X-Api-Key': apiKey
+        'Content-Length': data.length
       }
-    });
-    
-    console.log(`\n=== Contacts at ${firmName} ===`);
-    if (response.data.people && response.data.people.length > 0) {
-      response.data.people.forEach(person => {
-        console.log(`\nName: ${person.name}`);
-        console.log(`Title: ${person.title}`);
-        console.log(`Email: ${person.email || 'Not available'}`);
-        console.log(`LinkedIn: ${person.linkedin_url || 'N/A'}`);
+    };
+
+    const req = https.request(options, (res) => {
+      let responseData = '';
+      res.on('data', (chunk) => { responseData += chunk; });
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(responseData));
+        } catch (e) {
+          reject(e);
+        }
       });
-    } else {
-      console.log('No contacts found');
-    }
-  } catch (err) {
-    console.error(`Error searching people at ${firmName}:`, err.response?.data || err.message);
-  }
+    });
+
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
 }
 
-async function enrichLeads() {
-  const firms = ['Apax Partners', 'Keltic Financial Partners', 'WindPoint Partners'];
-  
+async function getPeopleFromOrg(orgId, titles) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      api_key: APOLLO_API_KEY,
+      q_organization_id: orgId,
+      person_titles: titles,
+      page: 1,
+      per_page: 10
+    });
+
+    const options = {
+      hostname: 'api.apollo.io',
+      path: '/v1/mixed_people/search',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': data.length
+      }
+    };
+
+    const req = https.request(options, (res) => {
+      let responseData = '';
+      res.on('data', (chunk) => { responseData += chunk; });
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(responseData));
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+async function enrichFirms() {
+  console.log('Apollo.io Organization & Contact Search');
+  console.log('=' .repeat(70));
+
   for (const firm of firms) {
-    console.log(`\n\n========== ${firm} ==========`);
-    const orgId = await searchOrganization(firm);
-    if (orgId) {
-      await searchPeopleAtOrg(orgId, firm);
+    try {
+      console.log(`\nSearching: ${firm}...`);
+      const orgResult = await searchOrganization(firm);
+      
+      if (orgResult.organizations && orgResult.organizations.length > 0) {
+        const org = orgResult.organizations[0];
+        console.log(`  ✓ Organization found:`);
+        console.log(`    Name: ${org.name}`);
+        console.log(`    Domain: ${org.primary_domain || 'N/A'}`);
+        console.log(`    ID: ${org.id}`);
+
+        // Now search for decision-makers in this org
+        console.log(`\n  Searching for decision-makers...`);
+        const peopleResult = await getPeopleFromOrg(org.id, [
+          'CEO', 'Managing Partner', 'Managing Director', 
+          'Partner', 'Co-Founder', 'President', 'CTO', 'COO'
+        ]);
+
+        if (peopleResult.people && peopleResult.people.length > 0) {
+          console.log(`  ✓ Found ${peopleResult.people.length} contacts:`);
+          peopleResult.people.slice(0, 5).forEach((person, idx) => {
+            console.log(`\n    ${idx + 1}. ${person.name}`);
+            console.log(`       Title: ${person.title || 'N/A'}`);
+            console.log(`       Email: ${person.email || 'NOT AVAILABLE'}`);
+            console.log(`       LinkedIn: ${person.linkedin_url || 'N/A'}`);
+          });
+        } else {
+          console.log(`  ✗ No decision-makers found`);
+        }
+
+        await new Promise(resolve => setTimeout(resolve, 1500));
+      } else {
+        console.log(`  ✗ Organization NOT FOUND in Apollo`);
+      }
+
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    } catch (error) {
+      console.log(`  ✗ ERROR: ${error.message}`);
     }
-    await new Promise(resolve => setTimeout(resolve, 1000));
   }
+
+  console.log('\n' + '='.repeat(70));
+  console.log('Search complete!');
 }
 
-enrichLeads();
+enrichFirms().catch(console.error);

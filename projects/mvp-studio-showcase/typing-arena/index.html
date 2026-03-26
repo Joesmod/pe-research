@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing Arena</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+.back{position:fixed;top:20px;left:20px;color:#666;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}.back:hover{color:#a78bfa}
+header{text-align:center;padding:60px 20px 20px}
+header h1{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#6366f1,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:#666;margin-top:8px}
+.stats{display:flex;gap:32px;justify-content:center;margin:24px 0;flex-wrap:wrap}
+.stat{text-align:center}.stat-val{font-size:2rem;font-weight:800;color:#a78bfa}.stat-label{font-size:.75rem;color:#666;text-transform:uppercase;letter-spacing:1px}
+.arena{width:100%;max-width:720px;padding:0 20px;margin:0 auto}
+.quote-box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:32px;margin-bottom:24px;font-family:'JetBrains Mono',monospace;font-size:1.15rem;line-height:1.8;min-height:120px;position:relative}
+.quote-box .char{transition:color .05s}.char.correct{color:#4ade80}.char.incorrect{color:#f43f5e;text-decoration:underline}.char.current{border-left:2px solid #a78bfa;animation:blink 1s step-end infinite}.char.pending{color:#555}
+@keyframes blink{50%{border-color:transparent}}
+#input{width:100%;padding:16px 20px;font-family:'JetBrains Mono',monospace;font-size:1.1rem;background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.1);border-radius:12px;color:#e0e0e0;outline:none;transition:border-color .2s}
+#input:focus{border-color:#6366f1}
+#input:disabled{opacity:.4}
+.btn{display:inline-block;padding:14px 36px;border:none;border-radius:12px;font-family:'Inter',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;background:linear-gradient(135deg,#6366f1,#a855f7);color:#fff;transition:transform .2s,box-shadow .2s;margin-top:20px}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(99,102,241,.3)}
+.center{text-align:center;margin:20px 0}
+.results{display:none;text-align:center;animation:fadeUp .5s ease}.results.show{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.round-info{color:#555;font-size:.85rem;margin-bottom:16px}
+.history{max-width:720px;width:100%;padding:0 20px;margin-bottom:60px}
+.history h3{color:#666;font-size:.85rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.history-row{display:flex;justify-content:space-between;padding:10px 16px;background:rgba(255,255,255,.03);border-radius:8px;margin-bottom:6px;font-size:.9rem}
+.history-row span:first-child{color:#888}.history-row .wpm{color:#4ade80;font-weight:700}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<header>
+<h1>⌨️ Typing Arena</h1>
+<p>Test your typing speed and accuracy</p>
+</header>
+<div class="stats">
+<div class="stat"><div class="stat-val" id="wpm">0</div><div class="stat-label">WPM</div></div>
+<div class="stat"><div class="stat-val" id="accuracy">100%</div><div class="stat-label">Accuracy</div></div>
+<div class="stat"><div class="stat-val" id="timer">0.0s</div><div class="stat-label">Time</div></div>
+<div class="stat"><div class="stat-val" id="round">1</div><div class="stat-label">Round</div></div>
+</div>
+<div class="arena">
+<div class="round-info" id="roundInfo">Round 1 — Press Start or just start typing</div>
+<div class="quote-box" id="quoteBox"></div>
+<input type="text" id="input" placeholder="Start typing here..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" disabled>
+<div class="center">
+<button class="btn" id="startBtn">Start Round</button>
+</div>
+<div class="results" id="results"></div>
+</div>
+<div class="history" id="historySection" style="display:none">
+<h3>Round History</h3>
+<div id="historyList"></div>
+</div>
+<script>
+const quotes=[
+"The quick brown fox jumps over the lazy dog near the riverbank.",
+"Programming is the art of telling another human what one wants the computer to do.",
+"In the middle of difficulty lies opportunity, according to Albert Einstein.",
+"The best way to predict the future is to invent it yourself.",
+"Every great developer you know got there by solving problems they were unqualified to solve.",
+"Code is like humor. When you have to explain it, it is bad.",
+"First solve the problem, then write the code to make it work.",
+"Simplicity is the soul of efficiency in both design and engineering.",
+"The only way to do great work is to love what you do every single day.",
+"Talk is cheap. Show me the code and let the results speak.",
+"Experience is the name everyone gives to their mistakes in life.",
+"Any fool can write code that a computer can understand easily.",
+"Debugging is twice as hard as writing the code in the first place.",
+"It always seems impossible until it is done and behind you.",
+"The most damaging phrase in the language is we have always done it this way."
+];
+let current="",startTime=null,timerInterval=null,roundNum=0,history=[];
+const quoteBox=document.getElementById('quoteBox'),input=document.getElementById('input'),wpmEl=document.getElementById('wpm'),accEl=document.getElementById('accuracy'),timerEl=document.getElementById('timer'),roundEl=document.getElementById('round'),startBtn=document.getElementById('startBtn'),results=document.getElementById('results'),roundInfo=document.getElementById('roundInfo'),historySection=document.getElementById('historySection'),historyList=document.getElementById('historyList');
+
+function pickQuote(){return quotes[Math.floor(Math.random()*quotes.length)]}
+function renderQuote(typed){
+  quoteBox.innerHTML='';
+  for(let i=0;i<current.length;i++){
+    const span=document.createElement('span');
+    span.className='char ';
+    span.textContent=current[i];
+    if(i<typed.length){span.classList.add(typed[i]===current[i]?'correct':'incorrect')}
+    else if(i===typed.length){span.classList.add('current','pending')}
+    else{span.classList.add('pending')}
+    quoteBox.appendChild(span);
+  }
+}
+function startRound(){
+  roundNum++;roundEl.textContent=roundNum;
+  current=pickQuote();input.value='';input.disabled=false;input.focus();
+  startTime=null;clearInterval(timerInterval);timerEl.textContent='0.0s';wpmEl.textContent='0';accEl.textContent='100%';
+  results.classList.remove('show');
+  roundInfo.textContent=`Round ${roundNum} — Go!`;
+  startBtn.textContent='Restart';
+  renderQuote('');
+}
+function endRound(typed){
+  clearInterval(timerInterval);input.disabled=true;
+  const elapsed=(Date.now()-startTime)/1000;
+  let correct=0;for(let i=0;i<current.length;i++){if(typed[i]===current[i])correct++}
+  const acc=Math.round(correct/current.length*100);
+  const words=current.split(' ').length;
+  const wpm=Math.round(words/(elapsed/60));
+  wpmEl.textContent=wpm;accEl.textContent=acc+'%';
+  history.push({round:roundNum,wpm,acc,time:elapsed.toFixed(1)});
+  results.innerHTML=`<h2 style="color:#4ade80;margin-bottom:8px">🎉 Round Complete!</h2><p style="color:#888">${wpm} WPM · ${acc}% accuracy · ${elapsed.toFixed(1)}s</p>`;
+  results.classList.add('show');
+  startBtn.textContent='Next Round';
+  renderHistory();
+}
+function renderHistory(){
+  if(!history.length)return;
+  historySection.style.display='block';
+  historyList.innerHTML=history.map(h=>`<div class="history-row"><span>Round ${h.round}</span><span class="wpm">${h.wpm} WPM</span><span>${h.acc}%</span><span>${h.time}s</span></div>`).join('');
+}
+input.addEventListener('input',()=>{
+  const typed=input.value;
+  if(!startTime){startTime=Date.now();timerInterval=setInterval(()=>{timerEl.textContent=((Date.now()-startTime)/1000).toFixed(1)+'s'},100)}
+  let correct=0;for(let i=0;i<typed.length;i++){if(typed[i]===current[i])correct++}
+  const acc=typed.length?Math.round(correct/typed.length*100):100;
+  accEl.textContent=acc+'%';
+  const elapsed=(Date.now()-startTime)/1000;
+  if(elapsed>0){const words=typed.trim().split(/\s+/).filter(Boolean).length;wpmEl.textContent=Math.round(words/(elapsed/60))}
+  renderQuote(typed);
+  if(typed.length>=current.length)endRound(typed);
+});
+startBtn.addEventListener('click',startRound);
+startRound();
+</script>
+</body>
+</html>

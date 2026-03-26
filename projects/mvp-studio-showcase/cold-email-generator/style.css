@@ -1,0 +1,31 @@
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f1117;--card:#1a1d27;--card2:#232733;--accent:#e17055;--accent2:#fab1a0;--text:#e0e0e0;--text2:#8b8fa3;--green:#00b894;--border:#2d3143;--radius:12px}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:2rem 1rem}
+.container{max-width:1100px;margin:0 auto}
+h1{text-align:center;font-size:2rem;margin-bottom:.3rem;background:linear-gradient(135deg,var(--accent),#fdcb6e);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{text-align:center;color:var(--text2);margin-bottom:2rem;font-size:.95rem}
+.layout{display:grid;grid-template-columns:1fr 300px;gap:1.5rem;align-items:start}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.8rem;margin-bottom:1.5rem}
+.card h2{font-size:1.1rem;margin-bottom:1.2rem;color:var(--accent2)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:flex;flex-direction:column;gap:.35rem;font-size:.85rem;color:var(--text2)}
+label.full{grid-column:1/-1}
+input,select,textarea{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:.65rem .8rem;color:var(--text);font-size:.95rem;outline:none;transition:border .2s;font-family:inherit}
+textarea{resize:vertical;min-height:80px}
+input:focus,select:focus,textarea:focus{border-color:var(--accent)}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--accent),#d63031);color:#fff;border:none;padding:.8rem 2rem;border-radius:8px;font-size:1rem;cursor:pointer;transition:transform .15s,box-shadow .15s;width:100%;margin-top:.5rem}
+.btn:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(225,112,85,.4)}
+.emails{display:none}
+.email-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1rem;position:relative}
+.email-card h3{font-size:.95rem;color:var(--accent2);margin-bottom:.3rem}
+.email-card .tag{display:inline-block;font-size:.7rem;background:var(--card2);color:var(--text2);padding:.2rem .6rem;border-radius:20px;margin-bottom:.8rem}
+.email-card .subject{font-weight:600;margin-bottom:.5rem;font-size:.9rem}
+.email-card .body{font-size:.88rem;line-height:1.6;color:var(--text2);white-space:pre-wrap}
+.copy-btn{position:absolute;top:1rem;right:1rem;background:var(--card2);border:1px solid var(--border);color:var(--text2);padding:.4rem .8rem;border-radius:6px;cursor:pointer;font-size:.78rem;transition:all .2s}
+.copy-btn:hover{border-color:var(--accent);color:var(--accent)}
+.copy-btn.copied{border-color:var(--green);color:var(--green)}
+.sidebar .tip{margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border)}
+.sidebar .tip:last-child{border:none;margin:0;padding:0}
+.sidebar .tip h4{font-size:.85rem;margin-bottom:.3rem;color:var(--accent2)}
+.sidebar .tip p{font-size:.8rem;color:var(--text2);line-height:1.5}
+@media(max-width:768px){.layout{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}}

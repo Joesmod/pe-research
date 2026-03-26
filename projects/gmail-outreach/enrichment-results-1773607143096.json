@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-03-15T20:39:03.096Z",
+  "targetedCount": 15,
+  "enrichedCount": 0,
+  "needsManualCount": 15,
+  "enriched": [],
+  "needsManual": [
+    {
+      "rowNumber": 208,
+      "company": "Sverica Capital Management",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Nathalie Allen team, site:linkedin.com/in Sverica Capital Management, check press releases"
+    },
+    {
+      "rowNumber": 261,
+      "company": "RoundTable Healthcare Partners",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Patrick Healy team, site:linkedin.com/in RoundTable Healthcare Partners, check press releases"
+    },
+    {
+      "rowNumber": 282,
+      "company": "Ronin Equity Partners",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Jack Burke team, site:linkedin.com/in Ronin Equity Partners, check press releases"
+    },
+    {
+      "rowNumber": 283,
+      "company": "Station Partners",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Raphael Haramati team, site:linkedin.com/in Station Partners, check press releases"
+    },
+    {
+      "rowNumber": 300,
+      "company": "Avante Capital Partners",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Chaz Cocuzza team, site:linkedin.com/in Avante Capital Partners, check press releases"
+    },
+    {
+      "rowNumber": 306,
+      "company": "Mountaingate Capital",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Bennett Thompson team, site:linkedin.com/in Mountaingate Capital, check press releases"
+    },
+    {
+      "rowNumber": 307,
+      "company": "Argonaut Private Equity",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:Anil Khatod team, site:linkedin.com/in Argonaut Private Equity, check press releases"
+    },
+    {
+      "rowNumber": 327,
+      "company": "Frontenac Company",
+      "reason": "No domain found",
+      "searchHint": ""
+    },
+    {
+      "rowNumber": 334,
+      "company": "Frontenac Company",
+      "reason": "No domain found",
+      "searchHint": ""
+    },
+    {
+      "rowNumber": 338,
+      "company": "Frontenac Company",
+      "reason": "No domain found",
+      "searchHint": ""
+    },
+    {
+      "rowNumber": 365,
+      "company": "Altamont Capital Partners",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:altamontcapital.com team, site:linkedin.com/in Altamont Capital Partners, check press releases"
+    },
+    {
+      "rowNumber": 409,
+      "company": "Girls Who Invest",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:girlswhoinvest.org team, site:linkedin.com/in Girls Who Invest, check press releases"
+    },
+    {
+      "rowNumber": 457,
+      "company": "CANCER FUND Impact Investments™",
+      "reason": "No domain found",
+      "searchHint": ""
+    },
+    {
+      "rowNumber": 466,
+      "company": "Five Elms Capital",
+      "reason": "Apollo no results - needs web research",
+      "searchHint": "site:fiveelms.com team, site:linkedin.com/in Five Elms Capital, check press releases"
+    },
+    {
+      "rowNumber": 475,
+      "company": "Lux Capital",
+      "reason": "No domain found",
+      "searchHint": ""
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&D Party Dice</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#1a1210;--surface:#2a1f1a;--border:#3d2e24;--amber:#f59e0b;--red:#ef4444;--green:#22c55e;--purple:#a855f7;--gold:#fbbf24;--text:#e8ddd4}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+.tavern-bg{position:fixed;inset:0;background:radial-gradient(ellipse at 50% 0%,#2a1f1a 0%,#1a1210 70%);z-index:0}
+.container{position:relative;z-index:1;max-width:800px;margin:0 auto;padding:20px}
+h1{text-align:center;font-size:clamp(1.8rem,5vw,2.8rem);font-weight:900;background:linear-gradient(135deg,var(--gold),var(--amber),#cd7f32);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:20px 0 4px;text-shadow:none}
+.subtitle{text-align:center;color:#8b7355;font-size:.9rem;margin-bottom:24px}
+.dice-types{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:20px}
+.die-btn{background:var(--surface);border:2px solid var(--border);border-radius:12px;padding:12px 18px;color:var(--gold);font-family:inherit;font-size:1rem;font-weight:700;cursor:pointer;transition:all .2s;position:relative}
+.die-btn:hover{border-color:var(--amber);transform:translateY(-2px);box-shadow:0 4px 20px rgba(245,158,11,.2)}
+.die-btn .count{position:absolute;top:-8px;right:-8px;background:var(--red);color:#fff;border-radius:50%;width:22px;height:22px;font-size:.75rem;display:flex;align-items:center;justify-content:center;font-weight:800}
+.pool{min-height:48px;background:var(--surface);border:2px dashed var(--border);border-radius:16px;padding:12px 16px;margin-bottom:16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}
+.pool-chip{background:rgba(245,158,11,.15);border:1px solid var(--amber);border-radius:8px;padding:4px 10px;font-size:.85rem;color:var(--gold);cursor:pointer;transition:all .15s}
+.pool-chip:hover{background:rgba(239,68,68,.2);border-color:var(--red);text-decoration:line-through}
+.pool-empty{color:#5a4a3a;font-size:.85rem}
+.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
+.roll-btn{background:linear-gradient(135deg,#b45309,#d97706,#f59e0b);border:none;border-radius:16px;padding:16px 48px;color:#1a1210;font-family:inherit;font-size:1.3rem;font-weight:900;cursor:pointer;transition:all .2s;text-transform:uppercase;letter-spacing:1px}
+.roll-btn:hover{transform:scale(1.05);box-shadow:0 8px 30px rgba(245,158,11,.4)}
+.roll-btn:active{transform:scale(.95)}
+.roll-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.clear-btn{background:transparent;border:2px solid var(--border);border-radius:12px;padding:12px 20px;color:#8b7355;font-family:inherit;font-size:.9rem;font-weight:600;cursor:pointer;transition:all .2s}
+.clear-btn:hover{border-color:var(--red);color:var(--red)}
+.presets{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
+.preset-btn{background:rgba(168,85,247,.1);border:1px solid rgba(168,85,247,.3);border-radius:10px;padding:8px 16px;color:var(--purple);font-family:inherit;font-size:.8rem;font-weight:600;cursor:pointer;transition:all .2s}
+.preset-btn:hover{background:rgba(168,85,247,.2);border-color:var(--purple)}
+.results{background:var(--surface);border:2px solid var(--border);border-radius:20px;padding:24px;margin-bottom:20px;min-height:80px;text-align:center;display:none}
+.results.show{display:block}
+.results-title{font-size:.85rem;color:#8b7355;margin-bottom:12px;text-transform:uppercase;letter-spacing:1px}
+.dice-results{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:16px}
+.die-result{background:rgba(245,158,11,.08);border:2px solid var(--border);border-radius:12px;padding:10px 14px;text-align:center;min-width:60px;transition:all .3s}
+.die-result .die-type{font-size:.7rem;color:#8b7355;margin-bottom:2px}
+.die-result .die-value{font-size:1.5rem;font-weight:900;color:var(--gold)}
+.die-result.crit{border-color:var(--green);background:rgba(34,197,94,.1);animation:critPulse 1s ease infinite}
+.die-result.crit .die-value{color:var(--green)}
+.die-result.fumble{border-color:var(--red);background:rgba(239,68,68,.1);animation:fumbleShake .5s ease}
+.die-result.fumble .die-value{color:var(--red)}
+.total{font-size:2.5rem;font-weight:900;color:var(--gold);margin-top:8px}
+.total span{font-size:1rem;color:#8b7355;font-weight:600}
+@keyframes critPulse{0%,100%{box-shadow:0 0 10px rgba(34,197,94,.3)}50%{box-shadow:0 0 25px rgba(34,197,94,.6)}}
+@keyframes fumbleShake{0%,100%{transform:translateX(0)}20%{transform:translateX(-4px)}40%{transform:translateX(4px)}60%{transform:translateX(-3px)}80%{transform:translateX(3px)}}
+@keyframes shake{0%,100%{transform:rotate(0)}25%{transform:rotate(-8deg) scale(1.05)}50%{transform:rotate(8deg) scale(1.1)}75%{transform:rotate(-5deg) scale(1.05)}}
+.shaking{animation:shake .4s ease}
+.crit-flash{position:fixed;inset:0;background:rgba(34,197,94,.15);z-index:100;pointer-events:none;animation:flash .6s ease-out forwards}
+.fumble-flash{position:fixed;inset:0;background:rgba(239,68,68,.1);z-index:100;pointer-events:none;animation:flash .6s ease-out forwards}
+@keyframes flash{0%{opacity:1}100%{opacity:0}}
+.crit-banner,.fumble-banner{text-align:center;font-size:1.5rem;font-weight:900;margin:8px 0;animation:bannerIn .5s ease}
+.crit-banner{color:var(--green)}
+.fumble-banner{color:var(--red)}
+@keyframes bannerIn{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+.history{background:var(--surface);border:2px solid var(--border);border-radius:20px;padding:20px;max-height:300px;overflow-y:auto}
+.history h3{font-size:.85rem;color:#8b7355;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.history-entry{padding:8px 12px;border-bottom:1px solid rgba(61,46,36,.5);font-size:.85rem;display:flex;justify-content:space-between;align-items:center}
+.history-entry:last-child{border-bottom:none}
+.history-entry .dice{color:#8b7355}
+.history-entry .vals{color:var(--text)}
+.history-entry .htotal{color:var(--gold);font-weight:700}
+.history-empty{color:#5a4a3a;font-size:.85rem;text-align:center;padding:12px}
+a.back{display:inline-block;color:#8b7355;text-decoration:none;font-size:.85rem;margin-bottom:8px}
+a.back:hover{color:var(--gold)}
+@media(max-width:500px){.die-btn{padding:10px 14px;font-size:.9rem}.roll-btn{padding:14px 32px;font-size:1.1rem}}
+</style>
+</head>
+<body>
+<div class="tavern-bg"></div>
+<div class="container">
+<a class="back" href="../">← Back to Showcase</a>
+<h1>⚔️ D&D Party Dice</h1>
+<p class="subtitle">Click dice to add to your pool, then roll!</p>
+
+<div class="dice-types" id="diceTypes"></div>
+
+<div class="pool" id="pool"><span class="pool-empty">Click a die type above to add it…</span></div>
+
+<div class="presets">
+<button class="preset-btn" data-preset="initiative">🗡️ Roll for Initiative! (1d20)</button>
+<button class="preset-btn" data-preset="damage">💥 Roll for Damage! (2d6+1d4)</button>
+<button class="preset-btn" data-preset="fireball">🔥 Fireball! (8d6)</button>
+<button class="preset-btn" data-preset="stats">📊 Roll Stats (4d6)</button>
+</div>
+
+<div class="actions">
+<button class="roll-btn" id="rollBtn" disabled>🎲 ROLL</button>
+<button class="clear-btn" id="clearBtn">Clear Pool</button>
+</div>
+
+<div class="results" id="results">
+<div class="results-title">Results</div>
+<div id="bannerArea"></div>
+<div class="dice-results" id="diceResults"></div>
+<div class="total" id="totalDisplay"></div>
+</div>
+
+<div class="history">
+<h3>📜 Roll History</h3>
+<div id="historyList"><div class="history-empty">No rolls yet — adventure awaits!</div></div>
+</div>
+</div>
+
+<script>
+const DICE=[4,6,8,10,12,20,100];
+let pool=[];
+const typesEl=document.getElementById('diceTypes');
+const poolEl=document.getElementById('pool');
+const rollBtn=document.getElementById('rollBtn');
+const clearBtn=document.getElementById('clearBtn');
+const resultsEl=document.getElementById('results');
+const diceResultsEl=document.getElementById('diceResults');
+const totalDisplay=document.getElementById('totalDisplay');
+const bannerArea=document.getElementById('bannerArea');
+const historyList=document.getElementById('historyList');
+let historyEntries=[];
+
+DICE.forEach(d=>{
+  const btn=document.createElement('button');
+  btn.className='die-btn';
+  btn.innerHTML=`d${d}`;
+  btn.addEventListener('click',()=>addDie(d));
+  typesEl.appendChild(btn);
+});
+
+function addDie(d){pool.push(d);renderPool()}
+function removeDie(i){pool.splice(i,1);renderPool()}
+function renderPool(){
+  rollBtn.disabled=pool.length===0;
+  if(!pool.length){poolEl.innerHTML='<span class="pool-empty">Click a die type above to add it…</span>';updateBadges();return}
+  poolEl.innerHTML='';
+  pool.forEach((d,i)=>{
+    const chip=document.createElement('span');
+    chip.className='pool-chip';
+    chip.textContent=`d${d}`;
+    chip.title='Click to remove';
+    chip.addEventListener('click',()=>removeDie(i));
+    poolEl.appendChild(chip);
+  });
+  updateBadges();
+}
+function updateBadges(){
+  const counts={};
+  pool.forEach(d=>counts[d]=(counts[d]||0)+1);
+  document.querySelectorAll('.die-btn').forEach(btn=>{
+    const d=parseInt(btn.textContent.replace('d',''));
+    const old=btn.querySelector('.count');
+    if(old)old.remove();
+    if(counts[d]){
+      const badge=document.createElement('span');
+      badge.className='count';
+      badge.textContent=counts[d];
+      btn.appendChild(badge);
+    }
+  });
+}
+
+function roll(){
+  if(!pool.length)return;
+  rollBtn.classList.add('shaking');
+  rollBtn.disabled=true;
+  setTimeout(()=>{
+    rollBtn.classList.remove('shaking');
+    const results=pool.map(d=>({die:d,value:Math.floor(Math.random()*d)+1}));
+    const total=results.reduce((s,r)=>s+r.value,0);
+    let hasCrit=results.some(r=>r.die===20&&r.value===20);
+    let hasFumble=results.some(r=>r.die===20&&r.value===1);
+    bannerArea.innerHTML='';
+    if(hasCrit){
+      const flash=document.createElement('div');flash.className='crit-flash';document.body.appendChild(flash);setTimeout(()=>flash.remove(),600);
+      bannerArea.innerHTML='<div class="crit-banner">⚔️ NATURAL 20 — CRITICAL HIT! ⚔️</div>';
+    }
+    if(hasFumble){
+      const flash=document.createElement('div');flash.className='fumble-flash';document.body.appendChild(flash);setTimeout(()=>flash.remove(),600);
+      bannerArea.innerHTML+='<div class="fumble-banner">💀 NATURAL 1 — FUMBLE! 💀</div>';
+    }
+    diceResultsEl.innerHTML='';
+    results.forEach((r,i)=>{
+      const el=document.createElement('div');
+      el.className='die-result';
+      if(r.die===20&&r.value===20)el.classList.add('crit');
+      if(r.die===20&&r.value===1)el.classList.add('fumble');
+      el.innerHTML=`<div class="die-type">d${r.die}</div><div class="die-value">${r.value}</div>`;
+      el.style.animationDelay=`${i*80}ms`;
+      diceResultsEl.appendChild(el);
+    });
+    totalDisplay.innerHTML=`<span>Total: </span>${total}`;
+    resultsEl.classList.add('show');
+    // History
+    const desc=pool.map(d=>`d${d}`).join('+');
+    const vals=results.map(r=>r.value).join(', ');
+    historyEntries.unshift({desc,vals,total});
+    if(historyEntries.length>20)historyEntries.pop();
+    renderHistory();
+    rollBtn.disabled=false;
+  },450);
+}
+function renderHistory(){
+  if(!historyEntries.length){historyList.innerHTML='<div class="history-empty">No rolls yet</div>';return}
+  historyList.innerHTML=historyEntries.map(e=>`<div class="history-entry"><span class="dice">${e.desc}</span><span class="vals">[${e.vals}]</span><span class="htotal">= ${e.total}</span></div>`).join('');
+}
+rollBtn.addEventListener('click',roll);
+clearBtn.addEventListener('click',()=>{pool=[];renderPool();resultsEl.classList.remove('show')});
+
+document.querySelectorAll('.preset-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const p=btn.dataset.preset;
+    pool=[];
+    if(p==='initiative')pool=[20];
+    else if(p==='damage')pool=[6,6,4];
+    else if(p==='fireball')pool=[6,6,6,6,6,6,6,6];
+    else if(p==='stats')pool=[6,6,6,6];
+    renderPool();
+    setTimeout(roll,200);
+  });
+});
+</script>
+</body>
+</html>

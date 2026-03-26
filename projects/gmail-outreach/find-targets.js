@@ -1,34 +1,22 @@
-const { google } = require('googleapis');
+const {readSheet} = require('./sheet.js');
 
-async function findTargets() {
-  const auth = new google.auth.GoogleAuth({
-    keyFile: 'service-account.json',
-    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+(async () => {
+  const {headers, data} = await readSheet();
+  
+  const urlIdx = headers.findIndex(h => h && h.toLowerCase().includes('url'));
+  const statusIdx = headers.findIndex(h => h && h.toLowerCase().includes('status'));
+  const contactIdx = headers.findIndex(h => h && h.toLowerCase().includes('contact'));
+  const companyIdx = headers.findIndex(h => h && h.toLowerCase().includes('company'));
+  
+  const needsEnrich = data.filter(r => {
+    const url = r.values[urlIdx] || '';
+    const st = (r.values[statusIdx] || '').toLowerCase();
+    const contact = r.values[contactIdx] || '';
+    return url.includes('http') && st !== 'enriched' && st !== 'sent' && !contact;
   });
   
-  const sheets = google.sheets({ version: 'v4', auth });
-  const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-  
-  const result = await sheets.spreadsheets.values.get({
-    spreadsheetId,
-    range: 'Sheet1!A:I'
+  console.log('Rows with URLs needing enrichment:');
+  needsEnrich.slice(0, 30).forEach(r => {
+    console.log(`Row ${r.rowIndex}: ${r.values[companyIdx]} | ${r.values[urlIdx]}`);
   });
-  
-  const rows = result.data.values;
-  const targets = ['Warburg Pincus', 'Revelstoke', 'Rockwood', 'LFM Capital'];
-  
-  console.log('Header:', rows[0]);
-  console.log('\nTarget rows:');
-  
-  for (let i = 1; i < rows.length; i++) {
-    if (targets.some(t => rows[i][0] && rows[i][0].includes(t))) {
-      console.log(`\nRow ${i+1} (${rows[i][0]}):`);
-      console.log('  Contact:', rows[i][2] || 'EMPTY');
-      console.log('  Title:', rows[i][3] || 'EMPTY');
-      console.log('  Email:', rows[i][4] || 'EMPTY');
-      console.log('  Status:', rows[i][7] || 'EMPTY');
-    }
-  }
-}
-
-findTargets().catch(console.error);
+})();

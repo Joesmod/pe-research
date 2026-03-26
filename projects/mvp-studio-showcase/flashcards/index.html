@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcard Quiz</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;padding:40px 20px}
+a.back{position:fixed;top:20px;left:20px;color:#888;text-decoration:none;font-size:.9rem;z-index:10}
+a.back:hover{color:#6366f1}
+.container{max-width:600px;margin:0 auto}
+h1{font-size:1.6rem;font-weight:700;text-align:center;margin-bottom:8px;background:linear-gradient(135deg,#6366f1,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{text-align:center;color:#666;margin-bottom:32px;font-size:.9rem}
+.tabs{display:flex;gap:4px;background:rgba(255,255,255,.06);border-radius:12px;padding:4px;margin-bottom:24px}
+.tab{flex:1;text-align:center;padding:10px;border:none;background:transparent;color:#888;font-family:'Inter',sans-serif;font-size:.85rem;font-weight:600;border-radius:10px;cursor:pointer;transition:all .2s}
+.tab.active{background:#6366f1;color:#fff}
+.panel{display:none}.panel.active{display:block}
+/* Deck List */
+.deck-item{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:16px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;transition:all .2s}
+.deck-item:hover{border-color:rgba(99,102,241,.3);transform:translateY(-2px)}
+.deck-name{font-weight:600;font-size:1rem}.deck-count{color:#888;font-size:.85rem}
+.deck-actions{display:flex;gap:8px}
+.deck-actions button{border:none;background:transparent;color:#666;cursor:pointer;font-size:1rem;padding:4px}
+.deck-actions button:hover{color:#ef4444}
+/* Create */
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:.8rem;color:#888;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+.form-group input,.form-group textarea{width:100%;padding:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:10px;color:#e0e0e0;font-family:'Inter',sans-serif;font-size:.95rem;outline:none;transition:border-color .2s}
+.form-group input:focus,.form-group textarea:focus{border-color:#6366f1}
+textarea{resize:vertical;min-height:60px}
+.btn{border:none;padding:12px 24px;border-radius:12px;font-family:'Inter',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .15s}
+.btn:active{transform:scale(.96)}
+.btn-primary{background:#6366f1;color:#fff}.btn-primary:hover{background:#5558e6}
+.btn-sm{padding:8px 16px;font-size:.8rem;border-radius:8px}
+.btn-ghost{background:rgba(255,255,255,.06);color:#888}.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-success{background:#22c55e;color:#fff}
+.btn-danger{background:rgba(239,68,68,.15);color:#ef4444}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.pairs{margin-bottom:16px}
+.pair{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:12px;margin-bottom:8px;display:flex;gap:8px;align-items:center}
+.pair input{flex:1;padding:8px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:6px;color:#e0e0e0;font-family:'Inter',sans-serif;font-size:.85rem;outline:none}
+.pair button{border:none;background:transparent;color:#666;cursor:pointer;font-size:1.1rem}
+/* Study */
+.progress-bar{height:6px;background:rgba(255,255,255,.08);border-radius:3px;margin-bottom:8px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,#6366f1,#ec4899);border-radius:3px;transition:width .3s}
+.progress-text{text-align:center;color:#666;font-size:.8rem;margin-bottom:24px}
+.card-scene{perspective:800px;width:100%;height:280px;margin-bottom:24px;cursor:pointer}
+.card-3d{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.2,.2,1)}
+.card-3d.flipped{transform:rotateY(180deg)}
+.card-face{position:absolute;inset:0;backface-visibility:hidden;display:flex;align-items:center;justify-content:center;padding:32px;border-radius:20px;font-size:1.2rem;text-align:center;line-height:1.6}
+.card-front{background:linear-gradient(135deg,rgba(99,102,241,.15),rgba(168,85,247,.1));border:1px solid rgba(99,102,241,.2)}
+.card-back{background:linear-gradient(135deg,rgba(236,72,153,.15),rgba(168,85,247,.1));border:1px solid rgba(236,72,153,.2);transform:rotateY(180deg)}
+.card-label{position:absolute;top:16px;left:20px;font-size:.7rem;text-transform:uppercase;letter-spacing:2px;color:#666}
+.study-btns{display:flex;gap:12px;justify-content:center}
+.study-btns button{flex:1;max-width:200px}
+.score{text-align:center;padding:40px;background:rgba(255,255,255,.04);border-radius:20px;border:1px solid rgba(255,255,255,.08)}
+.score h2{font-size:2rem;margin-bottom:8px}
+.score .big{font-size:3.5rem;font-weight:800;background:linear-gradient(135deg,#22c55e,#6366f1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:16px}
+/* Import/Export */
+.io-area{width:100%;min-height:100px;padding:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#bbb;font-family:monospace;font-size:.8rem;resize:vertical}
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(80px);background:#22c55e;color:#fff;padding:12px 28px;border-radius:12px;font-size:.9rem;font-weight:600;transition:transform .3s;z-index:100;pointer-events:none}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.empty{text-align:center;color:#555;padding:40px 20px;font-size:.95rem}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Showcase</a>
+<div class="container">
+<h1>Flashcard Quiz</h1>
+<p class="subtitle">Create, study, and master your flashcards</p>
+<div class="tabs">
+<button class="tab active" onclick="switchTab('decks')">📚 Decks</button>
+<button class="tab" onclick="switchTab('create')">➕ Create</button>
+<button class="tab" onclick="switchTab('study')">🧠 Study</button>
+</div>
+
+<!-- Decks Panel -->
+<div class="panel active" id="panel-decks">
+<div id="deckList"></div>
+<div class="row" style="margin-top:16px">
+<button class="btn btn-ghost btn-sm" onclick="exportAll()">📤 Export All</button>
+<button class="btn btn-ghost btn-sm" onclick="showImport()">📥 Import</button>
+</div>
+<div id="importSection" style="display:none;margin-top:16px">
+<textarea class="io-area" id="importArea" placeholder="Paste JSON here..."></textarea>
+<button class="btn btn-primary btn-sm" style="margin-top:8px" onclick="importDecks()">Import</button>
+</div>
+</div>
+
+<!-- Create Panel -->
+<div class="panel" id="panel-create">
+<div class="form-group">
+<label>Deck Name</label>
+<input id="deckName" placeholder="e.g. World Capitals">
+</div>
+<div class="pairs" id="pairs"></div>
+<button class="btn btn-ghost btn-sm" onclick="addPair()">+ Add Card</button>
+<div style="margin-top:20px">
+<button class="btn btn-primary" onclick="saveDeck()">💾 Save Deck</button>
+</div>
+</div>
+
+<!-- Study Panel -->
+<div class="panel" id="panel-study">
+<div id="studyContent"></div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const SAMPLE_DECK={name:"World Capitals (Sample)",cards:[
+{q:"What is the capital of France?",a:"Paris"},
+{q:"What is the capital of Japan?",a:"Tokyo"},
+{q:"What is the capital of Brazil?",a:"Brasília"},
+{q:"What is the capital of Australia?",a:"Canberra"},
+{q:"What is the capital of Canada?",a:"Ottawa"},
+{q:"What is the capital of Egypt?",a:"Cairo"},
+{q:"What is the capital of South Korea?",a:"Seoul"},
+{q:"What is the capital of Germany?",a:"Berlin"},
+{q:"What is the capital of Italy?",a:"Rome"},
+{q:"What is the capital of Mexico?",a:"Mexico City"}
+]};
+
+let decks=JSON.parse(localStorage.getItem('fc_decks')||'null');
+if(!decks){decks=[SAMPLE_DECK];save();}
+let studyDeck=null,studyIndex=0,studyCorrect=0,studyCards=[],flipped=false;
+
+function save(){localStorage.setItem('fc_decks',JSON.stringify(decks))}
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000)}
+
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',['decks','create','study'][i]===name));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+  if(name==='decks')renderDecks();
+  if(name==='create')initCreate();
+  if(name==='study')renderStudySelect();
+}
+
+// DECKS
+function renderDecks(){
+  const el=document.getElementById('deckList');
+  if(!decks.length){el.innerHTML='<div class="empty">No decks yet. Create one!</div>';return}
+  el.innerHTML=decks.map((d,i)=>`<div class="deck-item" onclick="startStudy(${i})">
+    <div><div class="deck-name">${d.name}</div><div class="deck-count">${d.cards.length} cards</div></div>
+    <div class="deck-actions"><button onclick="event.stopPropagation();exportDeck(${i})" title="Export">📤</button><button onclick="event.stopPropagation();deleteDeck(${i})" title="Delete">🗑️</button></div>
+  </div>`).join('');
+}
+function deleteDeck(i){if(confirm('Delete "'+decks[i].name+'"?')){decks.splice(i,1);save();renderDecks()}}
+function exportDeck(i){navigator.clipboard.writeText(JSON.stringify([decks[i]],null,2));toast('Deck copied to clipboard!')}
+function exportAll(){navigator.clipboard.writeText(JSON.stringify(decks,null,2));toast('All decks copied!')}
+function showImport(){document.getElementById('importSection').style.display=document.getElementById('importSection').style.display==='none'?'':'none'}
+function importDecks(){
+  try{
+    const d=JSON.parse(document.getElementById('importArea').value);
+    const arr=Array.isArray(d)?d:[d];
+    arr.forEach(dk=>{if(dk.name&&dk.cards)decks.push(dk)});
+    save();toast('Imported '+arr.length+' deck(s)!');document.getElementById('importArea').value='';renderDecks();
+  }catch(e){toast('Invalid JSON!')}
+}
+
+// CREATE
+let editPairs=[];
+function initCreate(){
+  document.getElementById('deckName').value='';
+  editPairs=[{q:'',a:''},{q:'',a:''}];
+  renderPairs();
+}
+function renderPairs(){
+  document.getElementById('pairs').innerHTML=editPairs.map((p,i)=>`<div class="pair">
+    <input placeholder="Question" value="${esc(p.q)}" oninput="editPairs[${i}].q=this.value">
+    <input placeholder="Answer" value="${esc(p.a)}" oninput="editPairs[${i}].a=this.value">
+    <button onclick="editPairs.splice(${i},1);renderPairs()">✕</button>
+  </div>`).join('');
+}
+function esc(s){return s.replace(/"/g,'&quot;')}
+function addPair(){editPairs.push({q:'',a:''});renderPairs()}
+function saveDeck(){
+  const name=document.getElementById('deckName').value.trim();
+  const cards=editPairs.filter(p=>p.q.trim()&&p.a.trim());
+  if(!name){toast('Enter a deck name!');return}
+  if(cards.length<1){toast('Add at least one card!');return}
+  decks.push({name,cards});save();toast('Deck saved!');switchTab('decks');
+}
+
+// STUDY
+function renderStudySelect(){
+  const el=document.getElementById('studyContent');
+  if(!decks.length){el.innerHTML='<div class="empty">No decks to study. Create one first!</div>';return}
+  el.innerHTML='<p style="color:#888;margin-bottom:16px">Select a deck from the Decks tab or click below:</p>'+
+    decks.map((d,i)=>`<div class="deck-item" onclick="startStudy(${i})"><div><div class="deck-name">${d.name}</div><div class="deck-count">${d.cards.length} cards</div></div></div>`).join('');
+}
+function startStudy(i){
+  studyDeck=decks[i];studyCards=[...studyDeck.cards].sort(()=>Math.random()-.5);
+  studyIndex=0;studyCorrect=0;flipped=false;
+  switchTab('study');renderCard();
+}
+function renderCard(){
+  const el=document.getElementById('studyContent');
+  if(studyIndex>=studyCards.length){
+    const pct=Math.round(studyCorrect/studyCards.length*100);
+    el.innerHTML=`<div class="score"><h2>Session Complete!</h2><div class="big">${pct}%</div>
+      <p style="color:#888">${studyCorrect} / ${studyCards.length} correct</p>
+      <button class="btn btn-primary" style="margin-top:20px" onclick="startStudy(${decks.indexOf(studyDeck)})">🔄 Study Again</button>
+      <button class="btn btn-ghost" style="margin-top:12px" onclick="switchTab('decks')">Back to Decks</button></div>`;
+    return;
+  }
+  const c=studyCards[studyIndex],prog=studyIndex/studyCards.length*100;
+  flipped=false;
+  el.innerHTML=`<div class="progress-bar"><div class="progress-fill" style="width:${prog}%"></div></div>
+    <div class="progress-text">${studyIndex+1} / ${studyCards.length}</div>
+    <div class="card-scene" onclick="flipCard()">
+      <div class="card-3d" id="card3d">
+        <div class="card-face card-front"><span class="card-label">Question</span>${escHtml(c.q)}</div>
+        <div class="card-face card-back"><span class="card-label">Answer</span>${escHtml(c.a)}</div>
+      </div>
+    </div>
+    <div class="study-btns" id="studyBtns" style="display:none">
+      <button class="btn btn-danger" onclick="answer(false)">❌ Review Again</button>
+      <button class="btn btn-success" onclick="answer(true)">✅ Got It</button>
+    </div>
+    <p style="text-align:center;color:#555;font-size:.8rem;margin-top:12px">Click card to flip</p>`;
+}
+function escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function flipCard(){
+  if(flipped)return;flipped=true;
+  document.getElementById('card3d').classList.add('flipped');
+  document.getElementById('studyBtns').style.display='flex';
+}
+function answer(correct){
+  if(correct)studyCorrect++;
+  studyIndex++;renderCard();
+}
+
+// Init
+renderDecks();initCreate();
+</script>
+</body>
+</html>

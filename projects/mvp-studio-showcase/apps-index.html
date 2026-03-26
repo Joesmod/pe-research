@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexusAI Tools</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f1117;color:#e1e4e8;min-height:100vh;display:flex;flex-direction:column}
+header{text-align:center;padding:3rem 1.5rem 1.5rem}
+header h1{font-size:2.4rem;background:linear-gradient(135deg,#58a6ff,#bc8cff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.5rem}
+header p{color:#8b949e;font-size:1.1rem;max-width:500px;margin:0 auto}
+.filters{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem;padding:1rem 1.5rem 2rem}
+.filters button{background:#1c1f26;border:1px solid #30363d;color:#8b949e;padding:.45rem 1rem;border-radius:20px;cursor:pointer;font-size:.85rem;transition:.2s}
+.filters button:hover,.filters button.active{background:#58a6ff;color:#fff;border-color:#58a6ff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;padding:0 2rem 3rem;max-width:1200px;margin:0 auto;width:100%;flex:1}
+.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:1.5rem;display:flex;flex-direction:column;transition:.25s}
+.card:hover{border-color:#58a6ff;transform:translateY(-3px)}
+.card.hidden{display:none}
+.card .emoji{font-size:2rem;margin-bottom:.75rem}
+.card h2{font-size:1.15rem;margin-bottom:.4rem}
+.card .desc{color:#8b949e;font-size:.9rem;flex:1;margin-bottom:1rem}
+.tag{display:inline-block;padding:.2rem .65rem;border-radius:10px;font-size:.75rem;font-weight:600;margin-bottom:1rem}
+.tag-Strategy{background:#1a3a2a;color:#3fb950}
+.tag-Sales{background:#1a2a3a;color:#58a6ff}
+.tag-Legal{background:#3a2a1a;color:#d29922}
+.tag-Operations{background:#2a1a3a;color:#bc8cff}
+.tag-Reputation{background:#3a1a2a;color:#f778ba}
+.tag-Finance{background:#1a3a3a;color:#39d2c0}
+.tag-Inbound{background:#2a2a1a;color:#e3b341}
+.btn{display:inline-block;background:#58a6ff;color:#fff;text-decoration:none;padding:.55rem 1.2rem;border-radius:8px;font-size:.9rem;font-weight:500;transition:.2s;text-align:center}
+.btn:hover{background:#79b8ff}
+footer{text-align:center;padding:2rem;color:#484f58;font-size:.85rem;border-top:1px solid #21262d}
+footer a{color:#58a6ff;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+<h1>NexusAI Tools</h1>
+<p>AI-powered tools for modern business. Try any tool free — no signup required.</p>
+</header>
+<nav class="filters">
+<button class="active" onclick="filter('All')">All</button>
+<button onclick="filter('Strategy')">Strategy</button>
+<button onclick="filter('Sales')">Sales</button>
+<button onclick="filter('Legal')">Legal</button>
+<button onclick="filter('Operations')">Operations</button>
+<button onclick="filter('Reputation')">Reputation</button>
+<button onclick="filter('Finance')">Finance</button>
+<button onclick="filter('Inbound')">Inbound</button>
+</nav>
+<main class="grid" id="grid"></main>
+<footer>Built by <a href="https://nexusai.dev">NexusAI</a> — AI Integration for Modern Business</footer>
+<script>
+const tools=[
+{name:"AI ROI Calculator",emoji:"📊",desc:"Calculate your return on AI investment",tag:"Strategy",url:"https://joesmod.github.io/mvp-studio-showcase/roi-calculator/"},
+{name:"Cold Email Generator",emoji:"✉️",desc:"Generate personalized outreach in seconds",tag:"Sales",url:"https://joesmod.github.io/mvp-studio-showcase/cold-email-generator/"},
+{name:"Non-Compete Checker",emoji:"⚖️",desc:"Analyze non-compete clause risks instantly",tag:"Legal",url:"https://joesmod.github.io/mvp-studio-showcase/non-compete-checker/"},
+{name:"Scope-of-Work Tracker",emoji:"📋",desc:"Track projects, scope creep, and change orders",tag:"Operations",url:"https://joesmod.github.io/mvp-studio-showcase/scope-tracker/"},
+{name:"Review Response Manager",emoji:"⭐",desc:"Craft perfect review responses in seconds",tag:"Reputation",url:"https://joesmod.github.io/mvp-studio-showcase/review-manager/"},
+{name:"AI Proposal Generator",emoji:"📝",desc:"Generate professional proposals from a brief",tag:"Sales",url:"https://joesmod.github.io/mvp-studio-showcase/proposal-generator/"},
+{name:"AI Bookkeeper",emoji:"💰",desc:"Track expenses, categorize, P&L dashboard",tag:"Finance",url:"https://joesmod.github.io/mvp-studio-showcase/ai-bookkeeper/"},
+{name:"Outreach Dashboard",emoji:"🚀",desc:"Internal sales toolkit with email templates",tag:"Sales",url:"https://joesmod.github.io/mvp-studio-showcase/outreach-dashboard/"},
+{name:"Lead Qualifier",emoji:"🎯",desc:"Score and qualify leads automatically",tag:"Sales",url:"https://joesmod.github.io/mvp-studio-showcase/lead-qualifier/"},
+{name:"Client Intake Form",emoji:"📥",desc:"Self-service prospect qualification",tag:"Inbound",url:"https://joesmod.github.io/mvp-studio-showcase/client-intake/"}
+];
+const grid=document.getElementById('grid');
+tools.forEach(t=>{
+grid.innerHTML+=`<div class="card" data-tag="${t.tag}"><div class="emoji">${t.emoji}</div><h2>${t.name}</h2><p class="desc">${t.desc}</p><span class="tag tag-${t.tag}">${t.tag}</span><a class="btn" href="${t.url}">Try It →</a></div>`;
+});
+function filter(tag){
+document.querySelectorAll('.filters button').forEach(b=>b.classList.toggle('active',b.textContent===tag));
+document.querySelectorAll('.card').forEach(c=>c.classList.toggle('hidden',tag!=='All'&&c.dataset.tag!==tag));
+}
+</script>
+</body>
+</html>
+

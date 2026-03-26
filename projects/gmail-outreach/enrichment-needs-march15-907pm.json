@@ -1,0 +1,200 @@
+[
+  {
+    "row": 7,
+    "company": "SDC Capital Partners",
+    "contact": "Todd Aaron",
+    "title": "Founder and Managing Partner",
+    "email": "taaron@sdccapitalpartners.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 10,
+    "company": "Alvarez & Marsal Capital",
+    "contact": "David Perskie",
+    "title": "Partner",
+    "email": "david@a-mcapital.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 11,
+    "company": "Blue Star Innovation Partners",
+    "contact": "Rob Wechsler",
+    "title": "Founder / Managing Partner",
+    "email": "rob@bluestarinnovationpartners.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 12,
+    "company": "Casa Verde Capital",
+    "contact": "Karan Wadhera",
+    "title": "Managing Partner",
+    "email": "karan@casaverdecapital.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 23,
+    "company": "HGGC",
+    "contact": "John Fitzgerald",
+    "title": "Managing Director & Co-Founder",
+    "email": "jfitzgerald@hggc.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 27,
+    "company": "Roark Capital Group",
+    "contact": "Neal K. Aronson",
+    "title": "Founder & Managing Partner",
+    "email": "naronson@roarkcapital.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 28,
+    "company": "Seidler Equity Partners",
+    "contact": "Robert Seidler",
+    "title": "Co-Founder & Managing Partner",
+    "email": "rseidler@sepfunds.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 32,
+    "company": "Parthenon Capital Partners",
+    "contact": "Brian Golson",
+    "title": "Co-CEO and Managing Partner",
+    "email": "bgolson@parthenoncapital.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 56,
+    "company": "WindRose Health Investors",
+    "contact": "Michael Benezra",
+    "title": "Managing Partner",
+    "email": "mbenezra@windrosehealthinvestors.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 60,
+    "company": "PSG Equity",
+    "contact": "Bill Aliber",
+    "title": "Managing Director",
+    "email": "william.aliber@psgequity.com",
+    "status": "Enriched - Needs Email",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 455,
+    "company": "Cabrera Capital Markets",
+    "contact": "John Medall",
+    "title": "Vice President",
+    "email": "jmedall@cabreracapital.com",
+    "status": "Partial",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 565,
+    "company": "Author Capital",
+    "contact": "Duane Jackson",
+    "title": "Founder & Managing Partner",
+    "email": "djackson@authorcapital.com",
+    "status": "Enriched - Needs Email",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 568,
+    "company": "Avenue Capital Group",
+    "contact": "Sonia Gardner",
+    "title": "Co-Founder, President & Managing Partner",
+    "email": "sgardner@avenuecapital.com",
+    "status": "Enriched - Needs Email",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 914,
+    "company": "Goode Partners",
+    "contact": "David Oddi",
+    "title": "Partner",
+    "email": "doddi@goodepartners.com",
+    "status": "Partial",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 915,
+    "company": "Goode Partners",
+    "contact": "David Oddi",
+    "title": "Partner",
+    "email": "doddi@goodepartners.com",
+    "status": "Partial",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1081,
+    "company": "Ridgemont Equity Partners",
+    "contact": "Scott Poole",
+    "title": "Partner",
+    "email": "SPoole@ridgemontep.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1084,
+    "company": "Sverica Capital Management",
+    "contact": "Jordan Richards",
+    "title": "Managing Partner",
+    "email": "jordan@sverica.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1085,
+    "company": "American Securities LLC",
+    "contact": "Michael Fisch",
+    "title": "Partner",
+    "email": "mfisch@american-securities.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1190,
+    "company": "Five Elms Capital",
+    "contact": "Fred Coulson",
+    "title": "Managing Partner & Founder",
+    "email": "fred@fiveelms.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1192,
+    "company": "Symphony Technology Group (STG)",
+    "contact": "Bill Chisholm",
+    "title": "Managing Partner",
+    "email": "bchisholm@stghq.com",
+    "status": "Enriched - Needs Email Verification",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1217,
+    "company": "Rockwood Equity Partners",
+    "contact": "Kate Faust",
+    "title": "Partner, Business Development",
+    "email": "kfaust@rockwoodequity.com",
+    "status": "Needs Email",
+    "reason": "Status Needs Email"
+  },
+  {
+    "row": 1234,
+    "company": "Gryphon Investors",
+    "contact": "R. David Andrews",
+    "title": "Founder & Co-CEO, Managing Partner",
+    "email": "",
+    "status": "New",
+    "reason": "No Email"
+  }
+]

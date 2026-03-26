@@ -1,65 +1,97 @@
 const fs = require('fs');
-const { sendEmail } = require('./send.js');
+const contacts = JSON.parse(fs.readFileSync('top25-final.json', 'utf8'));
 
-const leads = JSON.parse(fs.readFileSync('final-25-leads.json', 'utf8'));
+// Firm context for personalization (from CRM research)
+const firmContext = {
+  'One Rock Capital Partners': 'operationally-intensive industries',
+  'Littlejohn & Co.': 'middle-market industrial and services companies',
+  'Union Capital Associates': 'growth-oriented businesses',
+  'Siris Capital Group': 'technology and telecommunications',
+  'BV Investment Partners': 'middle-market software and tech-enabled services',
+  'Marlin Equity Partners': 'technology companies',
+  'Golden Gate Capital': 'financial services and insurance',
+  'Cortec Group': 'middle-market businesses across North America',
+  'CID Capital': 'business services',
+  'Pine Brook Partners': 'financial services',
+  'Accel-KKR': 'software and tech-enabled services',
+  'Clairvest Group': 'middle-market companies',
+  'Platte River Equity': 'business services',
+  'Mountaingate Capital': 'lower middle-market services',
+  'General Atlantic': 'growth equity in tech and healthcare',
+  'Rhône Group': 'transatlantic businesses',
+  'Midwest Growth Partners': 'professional services',
+  'Kainos Capital': 'middle-market companies',
+  'Brentwood Associates': 'services businesses',
+  'Resurgens Technology Partners': 'tech-enabled business services',
+  'Charlesbank Capital Partners': 'middle-market companies',
+  'GTCR': 'growth businesses in Healthcare, Technology, and Financial Services',
+  'Huron Capital': 'business services',
+  'JLL Partners': 'middle-market companies',
+  'Renovus Capital Partners': 'growth companies'
+};
 
-// Email templates based on role type
-function generateEmail(lead) {
-  const { name, title, company, sector, notes } = lead;
-  const firstName = name.split(' ')[0];
+// Generate personalized emails
+const emails = contacts.map((contact, index) => {
+  const sector = firmContext[contact.company] || 'portfolio companies';
   
-  // Determine email angle based on role
-  const isCLevel = /^(cto|cio|ciso|chief|ceo|chairman)/i.test(title);
-  const isTech = /(technology|digital|data|analytics|ai|software|engineer)/i.test(title);
-  const isGrowth = /(growth|value creation|portfolio|operating partner)/i.test(title);
+  // Personalize based on title
+  let opening = '';
+  let valueProps = [];
   
-  let opening, body, cta;
-  
-  if (isCLevel) {
-    opening = `${firstName} - I saw your tech leadership role at ${company} and thought you'd want to know about this.`;
-    body = `Most PE firms are still treating AI like a side project - running pilots, building MVPs, waiting for perfect use cases.<br><br>The firms winning right now are the ones building AI infrastructure across their entire portfolio. Not one-off tools. Repeatable systems that work at scale.<br><br><a href="https://hellogumbo.com">Gumbo</a> helps PE platforms deploy production AI agents that handle real work: lead generation, research, portfolio monitoring, deal sourcing. We've built the infrastructure so your portfolio companies can focus on their business.`;
-    cta = `Worth a 15-minute conversation? I can show you what we've built and how other firms are using it.`;
-  } else if (isTech || isGrowth) {
-    opening = `${firstName} - given your ${title.toLowerCase()} role at ${company}, you're probably seeing this: every portfolio company asking about AI, but no one has time to build it properly.`;
-    body = `That's the gap <a href="https://hellogumbo.com">Gumbo</a> fills. We build production AI agent systems for PE platforms - the infrastructure that lets your portfolio companies deploy AI without hiring ML teams or running endless pilots.<br><br>Real use cases we've shipped: automated lead generation, market research, portfolio monitoring, competitive intelligence. The kind of work that takes associates hours but doesn't require human judgment.`;
-    cta = `15 minutes to show you what's possible? I think you'll see applications across your portfolio immediately.`;
+  if (/CTO|Chief.*Tech|Chief.*AI|Chief.*Information/i.test(contact.title)) {
+    opening = `I am reaching out because your role as ${contact.title} positions you uniquely to evaluate how AI can create operational value across ${contact.company} portfolio.`;
+    valueProps = [
+      'Embedded AI assistants that reduce operational overhead by 30-40% through intelligent automation',
+      'Portfolio-wide AI deployment frameworks that scale best practices across all investments',
+      'Custom AI solutions for repetitive workflows (compliance, reporting, due diligence prep)'
+    ];
+  } else if (/Portfolio.*Resource|Value Creation|Portfolio.*Ops/i.test(contact.title)) {
+    opening = `Your ${contact.title} role at ${contact.company} makes you the perfect person to explore how AI can accelerate value creation across ${sector}.`;
+    valueProps = [
+      'AI-powered operational playbooks that compress 6-month initiatives into weeks',
+      'Automated performance dashboards that surface opportunities earlier',
+      'Portfolio-wide AI tools for marketing, sales, and customer success optimization'
+    ];
   } else {
-    // Business Development / Generic
-    opening = `${firstName} - quick question: how many of your portfolio companies are asking about AI right now?`;
-    body = `Most PE firms are stuck in pilot purgatory - every portco wants AI, but no one has the infrastructure to deploy it properly. That's what <a href="https://hellogumbo.com">Gumbo</a> built.<br><br>We're an AI engineering firm that builds production agent systems for PE platforms. Not consultants. Not software vendors. We build the actual infrastructure that lets your portfolio companies deploy AI agents that handle real work.<br><br>Current use cases: lead generation, market research, portfolio monitoring, deal sourcing. The work that takes analysts hours but doesn't need human creativity.`;
-    cta = `Worth 15 minutes to see what we've built? I can walk you through the platform and show you how other firms are using it.`;
+    opening = `As ${contact.title} at ${contact.company}, you are in a position to see how AI could transform operations across your ${sector} portfolio.`;
+    valueProps = [
+      'Rapid AI deployment across portfolio companies (days, not months)',
+      'Measurable ROI through operational efficiency gains and revenue acceleration',
+      'White-glove implementation that does not burden your portfolio leadership teams'
+    ];
   }
   
-  const subject = isCLevel
-    ? `${company}: AI infrastructure for your portfolio`
-    : `Quick question about AI across your portfolio`;
-  
-  const fullBody = `${opening}<br><br>${body}<br><br>${cta}<br><br>Best,<br>Jim<br><br>---<br>Jim | <a href="https://hellogumbo.com">Gumbo</a>`;
-  
-  return { subject, body: fullBody };
-}
+  const body = `${opening}
 
-// Generate all emails and save
-const emailBatch = leads.map(lead => {
-  const email = generateEmail(lead);
+<a href="https://hellogumbo.com">Gumbo</a> builds custom AI agents for private equity firms and their portfolio companies. We are not selling generic chatbots - we create tailored AI solutions that directly impact EBITDA.
+
+What makes this relevant to you:
+
+• ${valueProps[0]}
+• ${valueProps[1]}
+• ${valueProps[2]}
+
+Quick example: One of our PE clients deployed AI agents across 3 portfolio companies in 45 days. Result: 35% reduction in customer support costs and a 22% increase in sales pipeline velocity.
+
+Would you be open to a 15-minute call to explore how AI could fit into ${contact.company} value creation toolkit?
+
+Best,<br>
+Jim from Gumbo<br>
+<a href="https://hellogumbo.com">hellogumbo.com</a>`;
+
   return {
-    to: lead.email,
-    subject: email.subject,
-    body: email.body,
-    company: lead.company,
-    name: lead.name,
-    title: lead.title
+    to: contact.email,
+    subject: `AI for ${contact.company} Portfolio Operations`,
+    body: body,
+    company: contact.company,
+    name: contact.name,
+    title: contact.title
   };
 });
 
-fs.writeFileSync('email-batch.json', JSON.stringify(emailBatch, null, 2));
-console.log(`✅ Generated ${emailBatch.length} personalized emails`);
-console.log('Saved to email-batch.json\n');
-
-// Show preview of first 3
-console.log('=== PREVIEW ===\n');
-emailBatch.slice(0, 3).forEach((email, i) => {
-  console.log(`${i+1}. TO: ${email.name} <${email.to}>`);
-  console.log(`   SUBJECT: ${email.subject}`);
-  console.log(`   COMPANY: ${email.company}\n`);
-});
+fs.writeFileSync('emails-draft.json', JSON.stringify(emails, null, 2));
+console.log(`✓ Generated ${emails.length} personalized emails`);
+console.log('\nSample email:\n');
+console.log(`To: ${emails[0].to}`);
+console.log(`Subject: ${emails[0].subject}\n`);
+console.log(emails[0].body);

@@ -1,0 +1,112 @@
+[
+  {
+    "rowIndex": 2,
+    "company": "Audax Private Equity",
+    "website": "https://www.audaxprivateequity.com",
+    "contactName": "Andy Unanue",
+    "title": "Founder & Managing Partner",
+    "email": "dsantoni@audaxprivateequity.com",
+    "status": "Needs Email",
+    "notes": "Leadership confirmed on official website. Email pattern not found in published sources."
+  },
+  {
+    "rowIndex": 10,
+    "company": "Alvarez & Marsal Capital",
+    "website": "https://www.a-mcapital.com",
+    "contactName": "Jim Mahoney",
+    "title": "Managing Partner",
+    "email": "dave@a-mcapital.com",
+    "status": "Needs Email",
+    "notes": "Managing Partner confirmed on official site. Incomplete email pattern from contact databases."
+  },
+  {
+    "rowIndex": 11,
+    "company": "Blue Star Innovation Partners",
+    "website": "https://bluestarinnovationpartners.com",
+    "contactName": "Blair Richardson",
+    "title": "Founder & CEO",
+    "email": "rob@bluestarinnovationpartners.com",
+    "status": "Needs Email",
+    "notes": "CEO confirmed. Email pattern incomplete from RocketReach."
+  },
+  {
+    "rowIndex": 15,
+    "company": "JLL Partners",
+    "website": "https://www.jllpartners.com",
+    "contactName": "Bassem Mansour",
+    "title": "Co-CEO & Co-Founder",
+    "email": "c.killackey@jllpartners.com",
+    "status": "Needs Email",
+    "notes": "Co-CEO confirmed on official website. Email pattern incomplete from RocketReach."
+  },
+  {
+    "rowIndex": 18,
+    "company": "Gryphon Investors",
+    "website": "https://www.gryphon-inv.com",
+    "contactName": "Alex Beregovsky",
+    "title": "Managing Director",
+    "email": "smckinnon@gryphoninvestors.com",
+    "status": "Needs Email",
+    "notes": "Managing Director confirmed. Email pattern incomplete from ZoomInfo."
+  },
+  {
+    "rowIndex": 989,
+    "company": "Linsalata Capital Partners",
+    "website": "",
+    "contactName": "Frank Linsalata",
+    "title": "Founder & Chairman",
+    "email": "ebacon@linsalatacapital.com",
+    "status": "Needs Email",
+    "notes": "Email verified via RocketReach + LinkedIn. Format: {f}{last}@linsalatacapital.com. Co-President & Senior Managing Director (not CFO).; Contact found on firm website. ZoomInfo shows ****@linsalatacapital.com but pattern obscured (2026-03-16)"
+  },
+  {
+    "rowIndex": 1081,
+    "company": "Ridgemont Equity Partners",
+    "website": "https://www.ridgemontep.com",
+    "contactName": "Scott Poole",
+    "title": "Partner",
+    "email": "SPoole@ridgemontep.com",
+    "status": "Enriched - Needs Email Verification",
+    "notes": "Managing Partner at Ridgemont Equity Partners. Email pattern inferred from RocketReach (j******@ridgemontep.com), likely jshipm@ridgemontep.com. Official team page confirms title: ridgemontep.com/team/john-shimp/. Needs direct email verification. (2026-03-15 cron)"
+  },
+  {
+    "rowIndex": 1084,
+    "company": "Sverica Capital Management",
+    "website": "https://sverica.com",
+    "contactName": "Jordan Richards",
+    "title": "Managing Partner",
+    "email": "jordan@sverica.com",
+    "status": "Enriched - Needs Email Verification",
+    "notes": "CFO & CCO at Sverica Capital Management. Email pattern from RocketReach (g******@sverica.com), likely gaggouras@sverica.com. Confirmed on sverica.com/team/george-aggouras/. Needs verification. (2026-03-15 cron)"
+  },
+  {
+    "rowIndex": 1190,
+    "company": "Five Elms Capital",
+    "website": "https://www.fiveelms.com",
+    "contactName": "Fred Coulson",
+    "title": "Managing Partner & Founder",
+    "email": "fred@fiveelms.com",
+    "status": "Enriched - Needs Email Verification",
+    "notes": "B2B software-focused PE firm. Email pattern [first]@fiveelms.com per NeverBounce. (2026-03-14 cron)"
+  },
+  {
+    "rowIndex": 1192,
+    "company": "Symphony Technology Group (STG)",
+    "website": "https://www.stghq.com",
+    "contactName": "Bill Chisholm",
+    "title": "Managing Partner",
+    "email": "bchisholm@stghq.com",
+    "status": "Enriched - Needs Email Verification",
+    "notes": "Software and services PE firm. $5B+ AUM. Managing Partner per Altaroc. Email pattern inferred. (2026-03-14 cron)"
+  },
+  {
+    "rowIndex": 1217,
+    "company": "Rockwood Equity Partners",
+    "website": "https://www.rockwoodequity.com",
+    "contactName": "Kate Faust",
+    "title": "Partner, Business Development",
+    "email": "kfaust@rockwoodequity.com",
+    "status": "Needs Email",
+    "notes": "Partner, Business Development. Email verified from official Rockwood press releases (BusinessWire + rockwoodequity.com/news). Phone: (216) 278-7070. Alt contact: Joe Merrill (Managing Partner, Denver) jmerrill@rockwoodequity.com (pattern inferred from verified bkeith@rockwoodequity.com). Enriched 2026-03-15 cron."
+  }
+]

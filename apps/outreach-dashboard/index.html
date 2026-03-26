@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach Dashboard — Moltslack</title>
+<style>
+  :root { --bg:#0f1117; --card:#1a1d27; --border:#2a2d3a; --text:#e0e0e0; --muted:#888; --accent:#6c63ff; --green:#2ecc71; --orange:#f39c12; --red:#e74c3c; --blue:#3498db; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); padding:20px; max-width:1200px; margin:0 auto; }
+  h1 { font-size:1.8rem; margin-bottom:4px; }
+  .subtitle { color:var(--muted); margin-bottom:24px; }
+  h2 { font-size:1.2rem; margin-bottom:12px; color:var(--accent); }
+  h3 { font-size:1rem; margin-bottom:8px; }
+
+  /* Tabs */
+  .tabs { display:flex; gap:4px; margin-bottom:20px; flex-wrap:wrap; }
+  .tab { padding:10px 20px; background:var(--card); border:1px solid var(--border); border-radius:8px 8px 0 0; cursor:pointer; color:var(--muted); font-weight:600; transition:.2s; }
+  .tab.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .tab:hover:not(.active) { background:#252836; }
+  .panel { display:none; }
+  .panel.active { display:block; }
+
+  /* Cards */
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:16px; }
+  .card-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; }
+
+  /* Demo mapping */
+  .demo-row { display:flex; align-items:flex-start; gap:16px; padding:14px 0; border-bottom:1px solid var(--border); }
+  .demo-row:last-child { border-bottom:none; }
+  .demo-icon { font-size:2rem; min-width:48px; text-align:center; }
+  .demo-name { font-weight:700; font-size:1.05rem; }
+  .demo-pain { color:var(--orange); font-size:.9rem; margin:4px 0; }
+  .demo-pitch { color:var(--muted); font-size:.88rem; line-height:1.4; }
+  .demo-link { display:inline-block; margin-top:6px; color:var(--accent); text-decoration:none; font-size:.85rem; }
+  .demo-link:hover { text-decoration:underline; }
+
+  /* Email snippets */
+  .snippet-industry { font-weight:700; color:var(--green); font-size:1rem; margin-bottom:6px; }
+  .snippet-subject { font-size:.85rem; color:var(--blue); margin-bottom:6px; }
+  .snippet-body { background:#12131a; border:1px solid var(--border); border-radius:8px; padding:14px; font-size:.88rem; line-height:1.5; white-space:pre-wrap; color:var(--text); position:relative; }
+  .copy-btn { position:absolute; top:8px; right:8px; background:var(--accent); color:#fff; border:none; border-radius:6px; padding:4px 10px; font-size:.75rem; cursor:pointer; }
+  .copy-btn:hover { opacity:.8; }
+  .copy-btn.copied { background:var(--green); }
+
+  /* Decision tree */
+  .tree-form { display:flex; flex-direction:column; gap:14px; max-width:500px; }
+  .tree-form label { font-weight:600; font-size:.95rem; }
+  .tree-form select, .tree-form input { background:#12131a; border:1px solid var(--border); border-radius:8px; padding:10px 14px; color:var(--text); font-size:.95rem; }
+  .tree-form button { background:var(--accent); color:#fff; border:none; border-radius:8px; padding:12px; font-size:1rem; cursor:pointer; font-weight:700; }
+  .tree-form button:hover { opacity:.85; }
+  .result-box { background:var(--card); border:2px solid var(--accent); border-radius:12px; padding:20px; margin-top:20px; display:none; }
+  .result-box.show { display:block; }
+  .result-demo { font-size:1.3rem; font-weight:700; }
+  .result-subject { color:var(--blue); margin-top:8px; font-size:.95rem; }
+  .result-snippet { margin-top:12px; font-size:.9rem; color:var(--muted); line-height:1.5; }
+  .result-link { display:inline-block; margin-top:10px; color:var(--accent); font-weight:600; text-decoration:none; }
+
+  /* Quick ref */
+  table { width:100%; border-collapse:collapse; }
+  th,td { text-align:left; padding:10px 14px; border-bottom:1px solid var(--border); font-size:.9rem; }
+  th { color:var(--accent); font-weight:700; }
+  tr:hover { background:#1e2130; }
+
+  @media(max-width:600px) { .card-grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+
+<h1>📋 Outreach Dashboard</h1>
+<p class="subtitle">Quick reference for demos, pitches &amp; email templates — by industry &amp; pain point</p>
+
+<div class="tabs">
+  <div class="tab active" data-tab="mapping">Pain Point → Demo</div>
+  <div class="tab" data-tab="emails">Email Snippets</div>
+  <div class="tab" data-tab="tree">Which Demo?</div>
+  <div class="tab" data-tab="links">Demo Links</div>
+</div>
+
+<!-- TAB 1: PAIN POINT → DEMO MAPPING -->
+<div class="panel active" id="mapping">
+  <div class="card" id="demoList"></div>
+</div>
+
+<!-- TAB 2: EMAIL SNIPPETS PER INDUSTRY -->
+<div class="panel" id="emails">
+  <div class="card-grid" id="emailGrid"></div>
+</div>
+
+<!-- TAB 3: DECISION TREE -->
+<div class="panel" id="tree">
+  <div class="card">
+    <h2>🌳 Which Demo Should I Send?</h2>
+    <div class="tree-form">
+      <label>What does the company do?</label>
+      <select id="treeIndustry">
+        <option value="">— Select industry —</option>
+        <option value="restaurant">Restaurant / Hospitality</option>
+        <option value="consulting">Consulting / Professional Services</option>
+        <option value="manufacturing">Manufacturing / Industrial</option>
+        <option value="realestate">Real Estate</option>
+        <option value="logistics">Logistics / Distribution</option>
+        <option value="healthcare">Healthcare / Medical Practice</option>
+        <option value="retail">Retail / E-commerce</option>
+        <option value="legal">Legal / Law Firm</option>
+        <option value="accounting">Accounting / Finance</option>
+        <option value="other">Other / Not Sure</option>
+      </select>
+      <label>What's their biggest pain?</label>
+      <select id="treePain">
+        <option value="">— Select pain point —</option>
+        <option value="reviews">Bad online reviews / reputation</option>
+        <option value="proposals">Slow proposals / quotes</option>
+        <option value="bookkeeping">Manual bookkeeping / data entry</option>
+        <option value="roi">Don't understand AI ROI</option>
+        <option value="outreach">Cold outreach takes forever</option>
+        <option value="docs">Buried in documents / can't find info</option>
+        <option value="compliance">Non-compete / contract compliance</option>
+        <option value="scope">Scope creep / project tracking</option>
+        <option value="unknown">Not sure yet</option>
+      </select>
+      <button onclick="runTree()">Find Best Demo →</button>
+    </div>
+    <div class="result-box" id="treeResult">
+      <div class="result-demo" id="resDemoName"></div>
+      <div class="result-subject" id="resSubject"></div>
+      <div class="result-snippet" id="resSnippet"></div>
+      <a class="result-link" id="resLink" href="#" target="_blank">Open Demo →</a>
+    </div>
+  </div>
+</div>
+
+<!-- TAB 4: DEMO LINKS -->
+<div class="panel" id="links">
+  <div class="card">
+    <h2>🔗 All Demo Links — Click to Open</h2>
+    <table id="linkTable">
+      <thead><tr><th>Demo</th><th>Best For</th><th>Link</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const BASE = 'https://joesmod.github.io/mvp-studio-showcase';
+
+const DEMOS = [
+  {
+    id:'review-manager', icon:'⭐', name:'Review Response Manager',
+    pain:'Bad reviews hurting reputation, slow to respond',
+    pitch:'Generates professional review responses in seconds. Paste any Google/Yelp review, get a polished reply instantly — turns 1-star damage control from 20 minutes to 20 seconds.',
+    industries:['restaurant','retail','healthcare','realestate'],
+    painKeys:['reviews'],
+    link: null // local demo
+  },
+  {
+    id:'proposal-generator', icon:'📄', name:'Proposal Generator',
+    pain:'Writing proposals takes hours, inconsistent quality',
+    pitch:'Input the project details, get a complete proposal with scope, timeline, and pricing. Consulting firms cut proposal time from 3 hours to 15 minutes.',
+    industries:['consulting','legal','manufacturing'],
+    painKeys:['proposals'],
+    link: null
+  },
+  {
+    id:'ai-bookkeeper', icon:'📊', name:'AI Bookkeeper',
+    pain:'Manual data entry, spreadsheet chaos, missed transactions',
+    pitch:'Upload bank statements or receipts — it categorizes, reconciles, and flags anomalies automatically. Replaces the 10-hour/week manual bookkeeping grind.',
+    industries:['accounting','retail','restaurant'],
+    painKeys:['bookkeeping'],
+    link: null
+  },
+  {
+    id:'ai-roi-calculator', icon:'💰', name:'AI ROI Calculator',
+    pain:'Can\'t justify AI investment to leadership',
+    pitch:'Input current process costs and the calculator shows exact savings, payback period, and ROI. Makes the business case for them — no guessing.',
+    industries:['manufacturing','consulting','logistics','other'],
+    painKeys:['roi','unknown'],
+    link: null
+  },
+  {
+    id:'cold-email-generator', icon:'✉️', name:'Cold Email Generator',
+    pain:'Writing outreach emails is slow and generic',
+    pitch:'Enter the prospect\'s company and pain point — get a personalized cold email in seconds. No more staring at blank screens.',
+    industries:['consulting','logistics','other'],
+    painKeys:['outreach'],
+    link: null
+  },
+  {
+    id:'doc-qa', icon:'🔍', name:'Document Q&A',
+    pain:'Information buried in PDFs, contracts, manuals',
+    pitch:'Upload any document and ask questions in plain English. Finds the answer with exact page references. Like Ctrl+F that actually understands context.',
+    industries:['legal','healthcare','manufacturing','realestate'],
+    painKeys:['docs'],
+    link: null
+  },
+  {
+    id:'non-compete-checker', icon:'⚖️', name:'Non-Compete Checker',
+    pain:'Contract compliance uncertainty, legal risk',
+    pitch:'Paste a non-compete clause — get a plain-English breakdown of enforceability, risk flags, and what to negotiate. Saves a $500/hour lawyer consult.',
+    industries:['legal','healthcare','consulting'],
+    painKeys:['compliance'],
+    link: null
+  },
+  {
+    id:'scope-tracker', icon:'📐', name:'Scope Tracker',
+    pain:'Projects creep, budgets blow up, no visibility',
+    pitch:'Track deliverables, flag scope changes, and compare actual vs. planned in real time. Project managers see drift before it becomes a crisis.',
+    industries:['consulting','manufacturing','logistics'],
+    painKeys:['scope'],
+    link: null
+  }
+];
+
+// Build local links (served from same apps folder)
+DEMOS.forEach(d => { d.link = `../${d.id}/index.html`; });
+
+const EMAILS = [
+  {
+    industry:'Restaurant / Hospitality', demos:['review-manager','ai-bookkeeper'],
+    subject:'Quick way to handle Google reviews (+ save 10hrs/week on books)',
+    body:`Hi [Name],
+
+I came across [Restaurant Name] and noticed you've got a solid reputation on Google — but a few recent reviews without responses caught my eye.
+
+We built a tool that generates professional review responses in seconds — paste the review, get a polished reply. Most restaurant owners tell us it cuts their review management from 20+ minutes per review to under a minute.
+
+We also have an AI bookkeeper that auto-categorizes transactions and receipts — replaces the manual spreadsheet work that eats 8-10 hours a week.
+
+Would it be worth 10 minutes to see them in action? No setup needed — I can send you a live link to try right now.
+
+Best,
+[Your name]`
+  },
+  {
+    industry:'Consulting / Professional Services', demos:['proposal-generator','cold-email-generator','scope-tracker'],
+    subject:'Cut proposal writing from 3 hours to 15 minutes',
+    body:`Hi [Name],
+
+I saw [Company Name] does [specific service]. One thing I keep hearing from firms like yours: writing proposals and SOWs eats up billable hours.
+
+We built a proposal generator that takes your project details and outputs a complete proposal — scope, timeline, pricing, the works. Firms using it cut proposal time by 80%.
+
+We've also got tools for cold outreach automation and scope tracking if project creep is an issue.
+
+Happy to send you a live demo link — no login, just click and try. Worth a look?
+
+[Your name]`
+  },
+  {
+    industry:'Manufacturing / Industrial', demos:['ai-roi-calculator','scope-tracker','doc-qa'],
+    subject:'Making the AI business case for manufacturing',
+    body:`Hi [Name],
+
+I work with manufacturing companies exploring automation and AI. The #1 blocker I see isn't the technology — it's justifying the investment internally.
+
+We built an ROI calculator specifically for this: input your current process costs (labor, error rates, throughput), and it shows the exact savings and payback period. Makes the business case for you.
+
+We also have tools for document Q&A (find anything in your manuals/specs instantly) and project scope tracking.
+
+Want me to send a live link? Takes 2 minutes to try, no setup.
+
+[Your name]`
+  },
+  {
+    industry:'Real Estate', demos:['review-manager','doc-qa'],
+    subject:'Instant review responses + contract Q&A for [Company]',
+    body:`Hi [Name],
+
+Two quick tools that real estate teams are loving:
+
+1. **Review Manager** — paste any client review, get a professional response in seconds. Keeps your Google/Zillow ratings looking sharp without the time sink.
+
+2. **Document Q&A** — upload any contract, disclosure, or listing agreement and ask questions in plain English. Finds the clause you need in seconds instead of scrolling through 40 pages.
+
+Both work instantly — no login, no setup. Want me to send the links?
+
+[Your name]`
+  },
+  {
+    industry:'Logistics / Distribution', demos:['ai-roi-calculator','scope-tracker'],
+    subject:'Quantify your automation savings in 2 minutes',
+    body:`Hi [Name],
+
+Logistics operations usually have a goldmine of automation opportunities — but proving the ROI to leadership is the hard part.
+
+We built an AI ROI calculator that does exactly that: input your current costs (manual routing, data entry hours, error rates) and see the projected savings and payback instantly.
+
+Also have a scope tracker if you're managing implementation projects and want to catch drift early.
+
+2-minute demo, no setup. Want the link?
+
+[Your name]`
+  },
+  {
+    industry:'Healthcare / Medical Practice', demos:['doc-qa','non-compete-checker','review-manager'],
+    subject:'3 AI tools built for medical practices',
+    body:`Hi [Name],
+
+Three tools getting traction with medical practices:
+
+1. **Document Q&A** — upload patient intake forms, policies, or compliance docs. Ask questions in plain English, get answers with page references.
+
+2. **Non-Compete Checker** — paste any employment clause and get a plain-English risk assessment. Saves an expensive legal review.
+
+3. **Review Manager** — professional patient review responses in seconds. Keeps your online reputation strong without HIPAA headaches (it drafts, you review before posting).
+
+All work instantly in browser — no install, no PHI stored. Worth a quick look?
+
+[Your name]`
+  },
+  {
+    industry:'Legal / Law Firm', demos:['doc-qa','non-compete-checker','proposal-generator'],
+    subject:'AI tools for legal document review & client proposals',
+    body:`Hi [Name],
+
+A few tools that legal teams are finding useful:
+
+1. **Document Q&A** — upload contracts, briefs, or discovery docs and query them in plain English. Like having a research associate that reads instantly.
+
+2. **Non-Compete Checker** — automated enforceability analysis with risk flags. Good for quick client consultations.
+
+3. **Proposal Generator** — input engagement details, get a complete engagement letter/proposal. Cuts drafting time significantly.
+
+No data stored, no login needed. Happy to send live links to try?
+
+[Your name]`
+  },
+  {
+    industry:'Accounting / Finance', demos:['ai-bookkeeper','ai-roi-calculator'],
+    subject:'AI bookkeeping + ROI tools for [Company]',
+    body:`Hi [Name],
+
+Two tools that accounting firms are using to free up senior staff time:
+
+1. **AI Bookkeeper** — auto-categorizes transactions, reconciles accounts, flags anomalies. Clients upload statements, it does the data entry work.
+
+2. **AI ROI Calculator** — help your clients justify their own tech investments with concrete numbers. Great value-add for advisory services.
+
+Both work in-browser, no setup. Want to take a look?
+
+[Your name]`
+  }
+];
+
+// DECISION TREE LOGIC
+const TREE_MAP = {
+  'restaurant-reviews': { demo:'review-manager', subject:'Your Google reviews need faster responses — here\'s a fix' },
+  'restaurant-bookkeeping': { demo:'ai-bookkeeper', subject:'Stop doing your restaurant books by hand' },
+  'restaurant-unknown': { demo:'review-manager', subject:'Quick win for [Restaurant Name]\'s online reputation' },
+  'consulting-proposals': { demo:'proposal-generator', subject:'Cut proposal time by 80%' },
+  'consulting-outreach': { demo:'cold-email-generator', subject:'Automate your outreach without losing the personal touch' },
+  'consulting-scope': { demo:'scope-tracker', subject:'Catch scope creep before it kills your margins' },
+  'consulting-unknown': { demo:'proposal-generator', subject:'A faster way to write proposals at [Company]' },
+  'manufacturing-roi': { demo:'ai-roi-calculator', subject:'The business case for automation at [Company]' },
+  'manufacturing-scope': { demo:'scope-tracker', subject:'Track your implementation projects in real time' },
+  'manufacturing-docs': { demo:'doc-qa', subject:'Find anything in your specs and manuals instantly' },
+  'manufacturing-unknown': { demo:'ai-roi-calculator', subject:'Quantify your automation ROI in 2 minutes' },
+  'realestate-reviews': { demo:'review-manager', subject:'Professional review responses for [Company] in seconds' },
+  'realestate-docs': { demo:'doc-qa', subject:'Search your contracts and disclosures in plain English' },
+  'realestate-unknown': { demo:'review-manager', subject:'Quick online reputation boost for [Company]' },
+  'logistics-roi': { demo:'ai-roi-calculator', subject:'Prove the automation ROI to your leadership team' },
+  'logistics-scope': { demo:'scope-tracker', subject:'Keep logistics projects on track' },
+  'logistics-unknown': { demo:'ai-roi-calculator', subject:'What automation could save [Company] annually' },
+  'healthcare-reviews': { demo:'review-manager', subject:'Patient review responses — professional and fast' },
+  'healthcare-docs': { demo:'doc-qa', subject:'Instant answers from your compliance docs' },
+  'healthcare-compliance': { demo:'non-compete-checker', subject:'Quick non-compete risk check for your physicians' },
+  'healthcare-unknown': { demo:'doc-qa', subject:'AI-powered document search for [Practice Name]' },
+  'retail-reviews': { demo:'review-manager', subject:'Turn bad reviews into wins for [Company]' },
+  'retail-bookkeeping': { demo:'ai-bookkeeper', subject:'Automate your retail bookkeeping' },
+  'retail-unknown': { demo:'review-manager', subject:'Manage your online reviews in seconds' },
+  'legal-docs': { demo:'doc-qa', subject:'Search legal documents in plain English' },
+  'legal-compliance': { demo:'non-compete-checker', subject:'Automated non-compete analysis for your practice' },
+  'legal-proposals': { demo:'proposal-generator', subject:'Faster engagement letters and proposals' },
+  'legal-unknown': { demo:'doc-qa', subject:'AI document review for [Firm Name]' },
+  'accounting-bookkeeping': { demo:'ai-bookkeeper', subject:'Free up your staff from manual data entry' },
+  'accounting-roi': { demo:'ai-roi-calculator', subject:'Help your clients justify tech investments' },
+  'accounting-unknown': { demo:'ai-bookkeeper', subject:'AI bookkeeping tools for [Firm Name]' },
+  'other-roi': { demo:'ai-roi-calculator', subject:'See what AI could save [Company] — takes 2 minutes' },
+  'other-outreach': { demo:'cold-email-generator', subject:'Personalized outreach emails in seconds' },
+  'other-unknown': { demo:'ai-roi-calculator', subject:'Quick AI ROI estimate for [Company]' },
+};
+
+// Fallback for unmatched combos
+function treeKey(ind,pain) {
+  return TREE_MAP[ind+'-'+pain] || TREE_MAP[ind+'-unknown'] || { demo:'ai-roi-calculator', subject:'See what AI could save your team' };
+}
+
+function runTree() {
+  const ind = document.getElementById('treeIndustry').value;
+  const pain = document.getElementById('treePain').value;
+  if(!ind) { alert('Pick an industry'); return; }
+  const key = pain || 'unknown';
+  const result = treeKey(ind, key);
+  const demo = DEMOS.find(d=>d.id===result.demo);
+  document.getElementById('resDemoName').textContent = demo.icon + ' ' + demo.name;
+  document.getElementById('resSubject').textContent = '📧 Subject: ' + result.subject;
+  document.getElementById('resSnippet').textContent = demo.pitch;
+  document.getElementById('resLink').href = demo.link;
+  document.getElementById('treeResult').classList.add('show');
+}
+
+// RENDER
+function renderDemos() {
+  const el = document.getElementById('demoList');
+  el.innerHTML = DEMOS.map(d => `
+    <div class="demo-row">
+      <div class="demo-icon">${d.icon}</div>
+      <div>
+        <div class="demo-name">${d.name}</div>
+        <div class="demo-pain">Pain: ${d.pain}</div>
+        <div class="demo-pitch">${d.pitch}</div>
+        <a class="demo-link" href="${d.link}" target="_blank">Open Demo →</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderEmails() {
+  const el = document.getElementById('emailGrid');
+  el.innerHTML = EMAILS.map((e,i) => `
+    <div class="card">
+      <div class="snippet-industry">${e.industry}</div>
+      <div class="snippet-subject">📧 ${e.subject}</div>
+      <div class="snippet-body" id="snip${i}">${e.body}<button class="copy-btn" onclick="copySnippet(${i})">Copy</button></div>
+    </div>
+  `).join('');
+}
+
+function renderLinks() {
+  const tbody = document.querySelector('#linkTable tbody');
+  tbody.innerHTML = DEMOS.map(d => `
+    <tr>
+      <td>${d.icon} ${d.name}</td>
+      <td>${d.industries.join(', ')}</td>
+      <td><a href="${d.link}" target="_blank" style="color:var(--accent)">Open →</a></td>
+    </tr>
+  `).join('');
+}
+
+function copySnippet(i) {
+  const text = EMAILS[i].subject + '\n\n' + EMAILS[i].body;
+  navigator.clipboard.writeText(text);
+  const btn = document.querySelectorAll('.copy-btn')[i];
+  btn.textContent = 'Copied!';
+  btn.classList.add('copied');
+  setTimeout(()=>{ btn.textContent='Copy'; btn.classList.remove('copied'); }, 1500);
+}
+
+// TABS
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.tab).classList.add('active');
+  });
+});
+
+renderDemos();
+renderEmails();
+renderLinks();
+</script>
+</body>
+</html>

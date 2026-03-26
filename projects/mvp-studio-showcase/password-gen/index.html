@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding-bottom:60px}
+.back{position:fixed;top:20px;left:20px;color:#888;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}.back:hover{color:#a78bfa}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;background:linear-gradient(135deg,#f43f5e,#f97316,#eab308);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-top:60px;text-align:center}
+.card{margin-top:32px;width:90%;max-width:520px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:32px;display:flex;flex-direction:column;gap:20px}
+.pw-display{position:relative;padding:18px 50px 18px 18px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);font-family:'Inter',monospace;font-size:1.1rem;font-weight:600;word-break:break-all;min-height:56px;color:#c4b5fd;letter-spacing:1px}
+.copy-btn{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:#888;font-size:1.2rem;cursor:pointer;padding:8px;transition:color .2s}.copy-btn:hover{color:#a78bfa}
+.copied{color:#22c55e!important}
+.strength-bar{height:6px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden}
+.strength-fill{height:100%;border-radius:3px;transition:width .3s,background .3s}
+.strength-row{display:flex;justify-content:space-between;font-size:.8rem;color:#888}
+.slider-row{display:flex;align-items:center;gap:12px}
+.slider-row label{font-size:.85rem;font-weight:600;white-space:nowrap}
+.slider-row input[type=range]{flex:1;accent-color:#a855f7}
+.slider-val{font-size:1rem;font-weight:700;color:#a78bfa;min-width:30px;text-align:center}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.check{display:flex;align-items:center;gap:8px;font-size:.9rem;cursor:pointer}
+.check input{accent-color:#a855f7;width:18px;height:18px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{flex:1;padding:14px;border:none;border-radius:12px;font-family:'Inter',sans-serif;font-size:.95rem;font-weight:600;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.btn-primary{background:linear-gradient(135deg,#f43f5e,#f97316);color:#fff}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(244,63,94,.3)}
+.btn-secondary{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:#888}
+.btn-secondary:hover{color:#fff;background:rgba(255,255,255,.1)}
+.count-row{display:flex;align-items:center;gap:12px}
+.count-row label{font-size:.85rem;font-weight:600}
+.count-row select{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);color:#fff;font-family:'Inter',sans-serif;outline:none}
+.count-row select option{background:#1a1a2e}
+.multi-list{display:flex;flex-direction:column;gap:8px;max-height:300px;overflow-y:auto}
+.multi-item{display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);font-family:monospace;font-size:.9rem;color:#c4b5fd;word-break:break-all;cursor:pointer;transition:background .2s}
+.multi-item:hover{background:rgba(255,255,255,.08)}
+.entropy{font-size:.75rem;color:#555;text-align:center}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<h1>🔐 Password Generator</h1>
+
+<div class="card">
+<div class="pw-display" id="pwDisplay">
+  <span id="pwText">Click Generate</span>
+  <button class="copy-btn" onclick="copyPw()" title="Copy">📋</button>
+</div>
+
+<div class="strength-bar"><div class="strength-fill" id="strengthFill"></div></div>
+<div class="strength-row"><span id="strengthLabel">—</span><span id="entropyLabel"></span></div>
+
+<div class="slider-row">
+  <label>Length</label>
+  <input type="range" id="lenSlider" min="8" max="64" value="16">
+  <span class="slider-val" id="lenVal">16</span>
+</div>
+
+<div class="checks">
+  <label class="check"><input type="checkbox" id="upper" checked> Uppercase</label>
+  <label class="check"><input type="checkbox" id="lower" checked> Lowercase</label>
+  <label class="check"><input type="checkbox" id="nums" checked> Numbers</label>
+  <label class="check"><input type="checkbox" id="syms" checked> Symbols</label>
+</div>
+
+<div class="count-row">
+  <label>Generate</label>
+  <select id="countSel"><option>1</option><option>3</option><option>5</option><option>10</option></select>
+  <label>password(s)</label>
+</div>
+
+<div class="actions">
+  <button class="btn btn-primary" onclick="generate()">⚡ Generate</button>
+</div>
+
+<div class="multi-list" id="multiList"></div>
+</div>
+
+<script>
+const chars={upper:'ABCDEFGHIJKLMNOPQRSTUVWXYZ',lower:'abcdefghijklmnopqrstuvwxyz',nums:'0123456789',syms:'!@#$%^&*()_+-=[]{}|;:,.<>?'};
+
+function getPool(){
+  let p='';
+  if(document.getElementById('upper').checked)p+=chars.upper;
+  if(document.getElementById('lower').checked)p+=chars.lower;
+  if(document.getElementById('nums').checked)p+=chars.nums;
+  if(document.getElementById('syms').checked)p+=chars.syms;
+  return p;
+}
+
+function genOne(len,pool){
+  const arr=new Uint32Array(len);crypto.getRandomValues(arr);
+  return Array.from(arr,v=>pool[v%pool.length]).join('');
+}
+
+function calcStrength(pw,poolSize){
+  const entropy=Math.log2(poolSize)*pw.length;
+  let label,color,pct;
+  if(entropy<36){label='Weak';color='#f43f5e';pct=25}
+  else if(entropy<60){label='Medium';color='#f97316';pct=50}
+  else if(entropy<80){label='Strong';color='#eab308';pct=75}
+  else{label='Very Strong';color='#22c55e';pct=100}
+  return{entropy:entropy.toFixed(1),label,color,pct};
+}
+
+function generate(){
+  const pool=getPool();
+  if(!pool){alert('Select at least one character type!');return}
+  const len=parseInt(document.getElementById('lenSlider').value);
+  const count=parseInt(document.getElementById('countSel').value);
+  const list=document.getElementById('multiList');list.innerHTML='';
+
+  if(count===1){
+    const pw=genOne(len,pool);
+    document.getElementById('pwText').textContent=pw;
+    const s=calcStrength(pw,pool.length);
+    document.getElementById('strengthFill').style.width=s.pct+'%';
+    document.getElementById('strengthFill').style.background=s.color;
+    document.getElementById('strengthLabel').textContent=s.label;
+    document.getElementById('entropyLabel').textContent=s.entropy+' bits entropy';
+  }else{
+    const first=genOne(len,pool);
+    document.getElementById('pwText').textContent=first;
+    const s=calcStrength(first,pool.length);
+    document.getElementById('strengthFill').style.width=s.pct+'%';
+    document.getElementById('strengthFill').style.background=s.color;
+    document.getElementById('strengthLabel').textContent=s.label;
+    document.getElementById('entropyLabel').textContent=s.entropy+' bits entropy';
+    for(let i=0;i<count;i++){
+      const pw=i===0?first:genOne(len,pool);
+      const d=document.createElement('div');d.className='multi-item';d.textContent=pw;d.title='Click to copy';
+      d.onclick=()=>{navigator.clipboard.writeText(pw);d.style.color='#22c55e';setTimeout(()=>d.style.color='',1000)};
+      list.appendChild(d);
+    }
+  }
+}
+
+function copyPw(){
+  const t=document.getElementById('pwText').textContent;
+  if(t==='Click Generate')return;
+  navigator.clipboard.writeText(t);
+  const b=document.querySelector('.copy-btn');b.textContent='✅';b.classList.add('copied');
+  setTimeout(()=>{b.textContent='📋';b.classList.remove('copied')},1200);
+}
+
+document.getElementById('lenSlider').addEventListener('input',e=>{document.getElementById('lenVal').textContent=e.target.value});
+generate();
+</script>
+</body>
+</html>

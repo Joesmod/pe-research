@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habit Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;min-height:100vh}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{text-align:center;padding:30px 0 10px}
+header h1{font-size:2rem;font-weight:800;background:linear-gradient(135deg,#3fb950,#58a6ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:#8b949e;margin-top:6px;font-size:.9rem}
+.back{display:inline-block;margin-bottom:10px;color:#58a6ff;text-decoration:none;font-size:.85rem}
+.back:hover{text-decoration:underline}
+.add-bar{display:flex;gap:8px;margin:20px 0;flex-wrap:wrap}
+.add-bar input{flex:1;min-width:150px;padding:10px 14px;background:#161b22;border:1px solid #30363d;border-radius:8px;color:#c9d1d9;font-family:inherit;font-size:.9rem;outline:none}
+.add-bar input:focus{border-color:#3fb950}
+.emoji-pick{width:50px;text-align:center;font-size:1.2rem;padding:10px;background:#161b22;border:1px solid #30363d;border-radius:8px;cursor:pointer;outline:none;color:#c9d1d9}
+.btn{padding:10px 18px;border:none;border-radius:8px;background:#238636;color:#fff;cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:600;transition:.2s}
+.btn:hover{background:#2ea043}
+.view-toggle{display:flex;gap:0;margin:16px 0}
+.view-toggle button{padding:8px 16px;border:1px solid #30363d;background:#21262d;color:#8b949e;cursor:pointer;font-family:inherit;font-size:.8rem;transition:.2s}
+.view-toggle button:first-child{border-radius:8px 0 0 8px}
+.view-toggle button:last-child{border-radius:0 8px 8px 0}
+.view-toggle button.active{background:#1f6feb;border-color:#1f6feb;color:#fff}
+.habit-card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:16px;margin-bottom:16px;transition:border-color .2s}
+.habit-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.habit-emoji{font-size:1.5rem}
+.habit-name{font-weight:600;font-size:1rem;flex:1}
+.habit-delete{background:none;border:none;color:#f85149;cursor:pointer;font-size:1rem;opacity:.5;transition:.2s}
+.habit-delete:hover{opacity:1}
+.streak-info{display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap}
+.streak-badge{background:#0d1117;padding:6px 12px;border-radius:8px;font-size:.75rem;color:#8b949e}
+.streak-badge strong{color:#3fb950;font-size:.9rem}
+.grid{display:flex;flex-wrap:wrap;gap:3px}
+.cell{width:16px;height:16px;border-radius:3px;background:#161b22;border:1px solid #21262d;cursor:pointer;transition:all .2s;position:relative}
+.cell:hover{border-color:#3fb950}
+.cell.done{background:#238636;border-color:#2ea043}
+.cell.done.l1{background:#0e4429}
+.cell.done.l2{background:#006d32}
+.cell.done.l3{background:#26a641}
+.cell.done.l4{background:#39d353}
+.cell.today{box-shadow:0 0 0 2px #58a6ff}
+.cell.future{opacity:.3;pointer-events:none}
+@keyframes pop{0%{transform:scale(1)}50%{transform:scale(1.6)}100%{transform:scale(1)}}
+.cell.pop{animation:pop .3s ease}
+.cell[title]:hover::after{content:attr(title);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:.7rem;white-space:nowrap;z-index:9;pointer-events:none}
+.empty{text-align:center;color:#8b949e;padding:60px 20px;font-size:.95rem}
+.month-label{font-size:.7rem;color:#484f58;width:100%;margin-top:8px;margin-bottom:2px}
+</style>
+</head>
+<body>
+<div class="container">
+<a href="../" class="back">← Back to Showcase</a>
+<header>
+<h1>✅ Habit Tracker</h1>
+<p>Build streaks, track progress, stay consistent</p>
+</header>
+<div class="add-bar">
+<input type="text" id="emojiInput" class="emoji-pick" value="💪" maxlength="2">
+<input type="text" id="nameInput" placeholder="New habit name..." maxlength="40">
+<button class="btn" onclick="addHabit()">+ Add Habit</button>
+</div>
+<div class="view-toggle">
+<button class="active" data-days="28" onclick="setView(28,this)">4 Weeks</button>
+<button data-days="90" onclick="setView(90,this)">3 Months</button>
+<button data-days="365" onclick="setView(365,this)">Year</button>
+</div>
+<div id="habits"></div>
+</div>
+<script>
+let habits=JSON.parse(localStorage.getItem('habits-v1')||'[]');
+let viewDays=28;
+const todayStr=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
+const dateStr=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+
+function save(){localStorage.setItem('habits-v1',JSON.stringify(habits))}
+
+function addHabit(){
+const name=document.getElementById('nameInput').value.trim();
+if(!name)return;
+const emoji=document.getElementById('emojiInput').value||'✅';
+habits.push({id:Date.now(),name,emoji,completions:{}});
+save();render();
+document.getElementById('nameInput').value='';
+}
+
+document.getElementById('nameInput').addEventListener('keydown',e=>{if(e.key==='Enter')addHabit()});
+
+function deleteHabit(id){
+if(!confirm('Delete this habit?'))return;
+habits=habits.filter(h=>h.id!==id);save();render();
+}
+
+function toggleDay(id,day){
+const h=habits.find(h=>h.id===id);if(!h)return;
+if(h.completions[day])delete h.completions[day];
+else h.completions[day]=1;
+save();render();
+}
+
+function calcStreaks(completions){
+const today=new Date();let current=0,longest=0,streak=0;
+for(let i=0;i<365;i++){
+const d=new Date(today);d.setDate(d.getDate()-i);
+const key=dateStr(d);
+if(completions[key]){streak++;if(i===0||streak>0)current=current||streak}
+else{if(streak>longest)longest=streak;if(i>0&&!current)current=0;streak=0}
+}
+if(streak>longest)longest=streak;
+// recalc current streak properly
+current=0;
+for(let i=0;i<365;i++){
+const d=new Date(today);d.setDate(d.getDate()-i);
+if(completions[dateStr(d)])current++;else break;
+}
+return{current,longest:Math.max(longest,current)};
+}
+
+function setView(days,btn){
+viewDays=days;
+document.querySelectorAll('.view-toggle button').forEach(b=>b.classList.remove('active'));
+btn.classList.add('active');
+render();
+}
+
+function render(){
+const el=document.getElementById('habits');
+if(!habits.length){el.innerHTML='<div class="empty">No habits yet. Add one above to get started! 🌱</div>';return}
+const today=new Date(),todayKey=todayStr();
+el.innerHTML=habits.map(h=>{
+const {current,longest}=calcStreaks(h.completions);
+let cells='',lastMonth=-1;
+for(let i=viewDays-1;i>=0;i--){
+const d=new Date(today);d.setDate(d.getDate()-i);
+const key=dateStr(d);
+const done=h.completions[key];
+const isToday=key===todayKey;
+const isFuture=d>today;
+if(viewDays>60&&d.getMonth()!==lastMonth){
+cells+=`<div class="month-label">${d.toLocaleString('default',{month:'short'})}</div>`;
+lastMonth=d.getMonth();
+}
+const lvl=done?(viewDays>90?'l4':'l3'):'';
+cells+=`<div class="cell${done?' done '+lvl:''}${isToday?' today':''}${isFuture?' future':''}" title="${d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'})}" onclick="toggleCell(${h.id},'${key}',this)"></div>`;
+}
+return `<div class="habit-card">
+<div class="habit-header">
+<span class="habit-emoji">${h.emoji}</span>
+<span class="habit-name">${esc(h.name)}</span>
+<button class="habit-delete" onclick="deleteHabit(${h.id})">✕</button>
+</div>
+<div class="streak-info">
+<div class="streak-badge">🔥 Current: <strong>${current}</strong> day${current!==1?'s':''}</div>
+<div class="streak-badge">🏆 Longest: <strong>${longest}</strong> day${longest!==1?'s':''}</div>
+<div class="streak-badge">📊 Total: <strong>${Object.keys(h.completions).length}</strong></div>
+</div>
+<div class="grid">${cells}</div>
+</div>`;
+}).join('');
+}
+
+window.toggleCell=function(id,day,el){
+toggleDay(id,day);
+// animate
+const cells=document.querySelectorAll('.cell');
+setTimeout(()=>{
+const newEl=document.querySelector(`.cell[title][onclick*="'${day}'"][onclick*="${id}"]`);
+if(newEl)newEl.classList.add('pop');
+},10);
+};
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+
+// Seed demo if empty
+if(!habits.length){
+const demo=[{name:'Exercise',emoji:'🏋️'},{name:'Read',emoji:'📚'},{name:'Meditate',emoji:'🧘'}];
+demo.forEach(d=>{
+const h={id:Date.now()+Math.random()*1000,name:d.name,emoji:d.emoji,completions:{}};
+const today=new Date();
+for(let i=0;i<28;i++){
+const dt=new Date(today);dt.setDate(dt.getDate()-i);
+if(Math.random()>.35)h.completions[dateStr(dt)]=1;
+}
+habits.push(h);
+});
+save();
+}
+render();
+</script>
+</body>
+</html>

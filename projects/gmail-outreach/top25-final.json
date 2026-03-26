@@ -1,0 +1,252 @@
+[
+  {
+    "company": "One Rock Capital Partners",
+    "score": 341,
+    "name": "Allison Spector",
+    "title": "Managing Director, Head of Sustainability",
+    "email": "aspector@onerockcapital.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Littlejohn & Co.",
+    "score": 300,
+    "name": "Brian Michaud",
+    "title": "Managing Director",
+    "email": "bmichaud@littlejohnllc.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Union Capital Associates",
+    "score": 297,
+    "name": "William Ogden",
+    "title": "Managing Director",
+    "email": "bill@unioncapitalassociates.com",
+    "status": "verified",
+    "lastContacted": "2026-02-24T15:01:53.788Z",
+    "techRole": true
+  },
+  {
+    "company": "Siris Capital Group",
+    "score": 234,
+    "name": "Dave Calamai",
+    "title": "Managing Director",
+    "email": "calamai@siris.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "BV Investment Partners",
+    "score": 231,
+    "name": "Justin Garrison",
+    "title": "Managing Director",
+    "email": "jgarrison@bvlp.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Marlin Equity Partners",
+    "score": 230,
+    "name": "Nathan Pingelton",
+    "title": "Managing Director",
+    "email": "npingelton@marlinequity.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Golden Gate Capital",
+    "score": 229,
+    "name": "Neale Attenborough",
+    "title": "Managing Director",
+    "email": "nattenborough@goldengatecap.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Cortec Group",
+    "score": 228,
+    "name": "Jesse Moberg",
+    "title": "Managing Director",
+    "email": "jmoberg@cortecgroup.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "CID Capital",
+    "score": 226,
+    "name": "Tom Shaw",
+    "title": "Managing Director",
+    "email": "tom@cidcap.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Pine Brook Partners",
+    "score": 225,
+    "name": "Joe Gantz",
+    "title": "Managing Director",
+    "email": "jgantz@pinebrookpartners.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Accel-KKR",
+    "score": 223,
+    "name": "Rachel Spasser",
+    "title": "Managing Director",
+    "email": "rspasser@accel-kkr.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Clairvest Group",
+    "score": 219,
+    "name": "Angus Cole",
+    "title": "Managing Director, Partner",
+    "email": "angusc@clairvest.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Platte River Equity",
+    "score": 216,
+    "name": "Eric Crawford",
+    "title": "Managing Director",
+    "email": "ecrawford@platteriverequity.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Mountaingate Capital",
+    "score": 215,
+    "name": "Sue Cho",
+    "title": "Managing Director",
+    "email": "scho@mountaingate.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "General Atlantic",
+    "score": 207,
+    "name": "Anish Batlaw",
+    "title": "Managing Director",
+    "email": "abatlaw@generalatlantic.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Rhône Group",
+    "score": 206,
+    "name": "Patrick Mundt",
+    "title": "Managing Director",
+    "email": "mundt@rhonegroup.com",
+    "status": "verified",
+    "lastContacted": "2026-02-27T15:37:08.202Z",
+    "techRole": true
+  },
+  {
+    "company": "Midwest Growth Partners",
+    "score": 205,
+    "name": "Zane Hendricks",
+    "title": "Managing Director",
+    "email": "zane.hendricks@mgpfund.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "Kainos Capital",
+    "score": 203,
+    "name": "Doug Reader",
+    "title": "Senior Managing Director",
+    "email": "dreader@kainoscapital.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "Brentwood Associates",
+    "score": 202,
+    "name": "Ryan Foltz",
+    "title": "Managing Director",
+    "email": "rfoltz@brentwood.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "Resurgens Technology Partners",
+    "score": 201,
+    "name": "Fred Sturgis",
+    "title": "Managing Director",
+    "email": "fred@resurgenstech.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "Charlesbank Capital Partners",
+    "score": 9,
+    "name": "John Flannery",
+    "title": "Managing Director, Head of Portfolio Resources Group",
+    "email": "jflannery@charlesbank.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "GTCR",
+    "score": 9,
+    "name": "Joe Rubino",
+    "title": "Managing Director & CTO, Co-Head of Portfolio Resources Group",
+    "email": "joe.rubino@gtcr.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "Huron Capital",
+    "score": 9,
+    "name": "Leah Ierardi",
+    "title": "Vice President - Head of Business Development and ExecFactor Investment Strategy",
+    "email": "lierardi@huroncapital.com",
+    "status": "verified",
+    "lastContacted": "2026-02-18T17:02:15.890Z",
+    "techRole": true
+  },
+  {
+    "company": "JLL Partners",
+    "score": 9,
+    "name": "Raj Bhavsar",
+    "title": "Managing Director/Chief Technology Officer",
+    "email": "r.bhavsar@jllpartners.com",
+    "status": "verified",
+    "lastContacted": "Never",
+    "techRole": true
+  },
+  {
+    "company": "Renovus Capital Partners",
+    "score": 9,
+    "name": "Jason Tanker",
+    "title": "Managing Director",
+    "email": "jason.tanker@renovuscapital.com",
+    "status": "verified",
+    "lastContacted": "2026-02-19T14:00:00Z",
+    "techRole": true
+  }
+]

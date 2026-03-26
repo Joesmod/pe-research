@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pomodoro Timer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.back{position:fixed;top:20px;left:20px;color:#888;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}.back:hover{color:#e0e0e0}
+h1{font-size:1.8rem;font-weight:800;margin-bottom:8px;text-align:center;background:linear-gradient(135deg,#ef4444,#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.subtitle{color:#666;font-size:.9rem;margin-bottom:32px;text-align:center}
+.timer-container{position:relative;width:280px;height:280px;margin:0 auto 32px}
+svg.ring{width:100%;height:100%;transform:rotate(-90deg)}
+.ring-bg{fill:none;stroke:rgba(255,255,255,.06);stroke-width:8}
+.ring-progress{fill:none;stroke-width:8;stroke-linecap:round;transition:stroke-dashoffset .5s linear,stroke .3s}
+.timer-display{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.time{font-size:3.5rem;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:2px}
+.phase-label{font-size:.85rem;font-weight:600;margin-top:4px;text-transform:uppercase;letter-spacing:2px}
+.phase-work .ring-progress{stroke:#ef4444}
+.phase-work .phase-label{color:#ef4444}
+.phase-work .time{color:#fff}
+.phase-break .ring-progress{stroke:#22c55e}
+.phase-break .phase-label{color:#22c55e}
+.phase-break .time{color:#fff}
+.phase-long .ring-progress{stroke:#6366f1}
+.phase-long .phase-label{color:#6366f1}
+.phase-long .time{color:#fff}
+.controls{display:flex;gap:12px;justify-content:center;margin-bottom:24px}
+.btn{padding:12px 28px;border:none;border-radius:12px;font-family:inherit;font-size:.95rem;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-primary{background:#ef4444;color:#fff}.btn-primary:hover{background:#dc2626}
+.btn-secondary{background:rgba(255,255,255,.08);color:#ccc}.btn-secondary:hover{background:rgba(255,255,255,.14)}
+.sessions{text-align:center;color:#888;font-size:.9rem;margin-bottom:24px}
+.sessions span{color:#ef4444;font-weight:700;font-size:1.1rem}
+.settings-toggle{background:none;border:1px solid rgba(255,255,255,.1);color:#888;padding:8px 20px;border-radius:10px;font-family:inherit;font-size:.85rem;cursor:pointer;transition:all .2s;margin-bottom:16px}.settings-toggle:hover{color:#e0e0e0;border-color:rgba(255,255,255,.2)}
+.settings{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:24px;max-width:340px;width:90%;display:none}
+.settings.open{display:block}
+.settings h3{font-size:1rem;font-weight:600;margin-bottom:16px;color:#ef4444}
+.field{margin-bottom:14px;display:flex;justify-content:space-between;align-items:center}
+.field label{font-size:.85rem;color:#aaa}
+.field input{width:70px;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.06);color:#fff;font-family:inherit;font-size:.9rem;text-align:center}
+.field input:focus{outline:none;border-color:#ef4444}
+@media(max-width:400px){.timer-container{width:240px;height:240px}.time{font-size:2.8rem}}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<div style="padding:40px 20px;width:100%;max-width:500px">
+<h1>🍅 Pomodoro Timer</h1>
+<p class="subtitle">Stay focused, take breaks</p>
+<div class="timer-container phase-work" id="timerContainer">
+<svg class="ring" viewBox="0 0 280 280">
+<circle class="ring-bg" cx="140" cy="140" r="124"/>
+<circle class="ring-progress" id="ringProgress" cx="140" cy="140" r="124"/>
+</svg>
+<div class="timer-display">
+<div class="time" id="timeDisplay">25:00</div>
+<div class="phase-label" id="phaseLabel">Work</div>
+</div>
+</div>
+<div class="controls">
+<button class="btn btn-primary" id="startBtn" onclick="toggleTimer()">Start</button>
+<button class="btn btn-secondary" id="skipBtn" onclick="skipPhase()">Skip →</button>
+</div>
+<div class="sessions">Pomodoros completed: <span id="sessionCount">0</span></div>
+<div style="text-align:center">
+<button class="settings-toggle" onclick="document.getElementById('settingsPanel').classList.toggle('open')">⚙️ Settings</button>
+</div>
+<div class="settings" id="settingsPanel">
+<h3>Customize Durations</h3>
+<div class="field"><label>Work (min)</label><input type="number" id="setWork" value="25" min="1" max="120"></div>
+<div class="field"><label>Short Break (min)</label><input type="number" id="setBreak" value="5" min="1" max="60"></div>
+<div class="field"><label>Long Break (min)</label><input type="number" id="setLong" value="15" min="1" max="60"></div>
+<div class="field"><label>Long break every</label><input type="number" id="setInterval" value="4" min="2" max="10"></div>
+<button class="btn btn-primary" style="width:100%;margin-top:8px" onclick="applySettings()">Apply</button>
+</div>
+</div>
+<script>
+const circumference=2*Math.PI*124;
+const ring=document.getElementById('ringProgress');
+ring.style.strokeDasharray=circumference;
+ring.style.strokeDashoffset=0;
+
+let workDuration=25*60,breakDuration=5*60,longBreakDuration=15*60,longBreakInterval=4;
+let timeLeft=workDuration,totalTime=workDuration,running=false,interval=null;
+let phase='work',sessions=0,workCount=0;
+
+function updateDisplay(){
+  const m=Math.floor(timeLeft/60),s=timeLeft%60;
+  document.getElementById('timeDisplay').textContent=`${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  const progress=1-timeLeft/totalTime;
+  ring.style.strokeDashoffset=circumference*(1-progress);
+}
+
+function setPhaseClass(p){
+  const c=document.getElementById('timerContainer');
+  c.className='timer-container phase-'+p;
+  document.getElementById('phaseLabel').textContent=p==='work'?'Work':p==='break'?'Break':'Long Break';
+}
+
+function playChime(){
+  try{
+    const ctx=new(window.AudioContext||window.webkitAudioContext)();
+    [0,.15,.3].forEach((delay,i)=>{
+      const o=ctx.createOscillator(),g=ctx.createGain();
+      o.connect(g);g.connect(ctx.destination);
+      o.frequency.value=[880,1108.73,1318.51][i];
+      o.type='sine';
+      g.gain.setValueAtTime(0.3,ctx.currentTime+delay);
+      g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+delay+0.5);
+      o.start(ctx.currentTime+delay);o.stop(ctx.currentTime+delay+0.5);
+    });
+  }catch(e){}
+}
+
+function notify(msg){
+  playChime();
+  if(Notification.permission==='granted'){new Notification('Pomodoro Timer',{body:msg,icon:'🍅'});}
+}
+
+function nextPhase(){
+  if(phase==='work'){
+    workCount++;sessions++;
+    document.getElementById('sessionCount').textContent=sessions;
+    if(workCount%longBreakInterval===0){
+      phase='long';timeLeft=longBreakDuration;totalTime=longBreakDuration;
+      setPhaseClass('long');notify('Great work! Time for a long break.');
+    }else{
+      phase='break';timeLeft=breakDuration;totalTime=breakDuration;
+      setPhaseClass('break');notify('Nice! Take a short break.');
+    }
+  }else{
+    phase='work';timeLeft=workDuration;totalTime=workDuration;
+    setPhaseClass('work');notify('Break over — let\'s focus!');
+  }
+  updateDisplay();
+}
+
+function toggleTimer(){
+  const btn=document.getElementById('startBtn');
+  if(running){
+    clearInterval(interval);running=false;btn.textContent='Start';
+  }else{
+    if(Notification.permission==='default')Notification.requestPermission();
+    running=true;btn.textContent='Pause';
+    interval=setInterval(()=>{
+      timeLeft--;
+      if(timeLeft<0){clearInterval(interval);running=false;btn.textContent='Start';nextPhase();return;}
+      updateDisplay();
+    },1000);
+  }
+}
+
+function skipPhase(){
+  if(running){clearInterval(interval);running=false;document.getElementById('startBtn').textContent='Start';}
+  nextPhase();
+}
+
+function applySettings(){
+  workDuration=Math.max(1,parseInt(document.getElementById('setWork').value)||25)*60;
+  breakDuration=Math.max(1,parseInt(document.getElementById('setBreak').value)||5)*60;
+  longBreakDuration=Math.max(1,parseInt(document.getElementById('setLong').value)||15)*60;
+  longBreakInterval=Math.max(2,parseInt(document.getElementById('setInterval').value)||4);
+  if(running){clearInterval(interval);running=false;document.getElementById('startBtn').textContent='Start';}
+  phase='work';timeLeft=workDuration;totalTime=workDuration;setPhaseClass('work');updateDisplay();
+  document.getElementById('settingsPanel').classList.remove('open');
+}
+
+updateDisplay();
+</script>
+</body>
+</html>

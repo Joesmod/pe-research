@@ -1,0 +1,787 @@
+{
+  "metadata": {
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-05T23:22:00Z",
+    "system": "MVP Studio Outreach",
+    "cadence": "5 per hour",
+    "calendly": "https://calendly.com/alex-qxip/alex-calendly"
+  },
+  "stats": {
+    "totalDrafted": 95,
+    "totalSent": 0,
+    "totalReplies": 0,
+    "callsBooked": 0
+  },
+  "cities": {
+    "chicago": {
+      "drafted": [
+        {
+          "company": "Much Shelist, P.C.",
+          "industry": "Legal - Real Estate",
+          "file": "pitches/chicago/001-much-shelist-law.md",
+          "contact": "Managing Partner",
+          "status": "draft"
+        },
+        {
+          "company": "Clune Construction",
+          "industry": "Commercial Construction",
+          "file": "pitches/chicago/002-clune-construction.md",
+          "contact": "VP Operations",
+          "status": "draft"
+        },
+        {
+          "company": "Uptake Technologies",
+          "industry": "Industrial AI / Predictive Maintenance",
+          "file": "pitches/chicago/003-uptake-technologies.md",
+          "contact": "Kayne Grau (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "ShipBob",
+          "industry": "E-commerce Fulfillment / Logistics",
+          "file": "pitches/chicago/004-shipbob.md",
+          "contact": "Dhruv Saxena (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "G2",
+          "industry": "Software Marketplace / B2B Reviews",
+          "file": "pitches/chicago/005-g2.md",
+          "contact": "Godard Abel (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "SpotHero",
+          "industry": "Parking / Mobility Tech",
+          "file": "pitches/chicago/006-spothero.md",
+          "contact": "Mark Lawrence (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "ActiveCampaign",
+          "industry": "Marketing Automation / SaaS",
+          "file": "pitches/chicago/007-activecampaign.md",
+          "contact": "Jason VandeBoom (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Logiwa",
+          "industry": "WMS / Fulfillment Software",
+          "file": "pitches/chicago/008-logiwa.md",
+          "contact": "Erhan Musaoglu (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Hireology",
+          "industry": "HR / Hiring Platform",
+          "file": "pitches/chicago/009-hireology.md",
+          "contact": "Adam Robinson (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "project44",
+          "industry": "Supply Chain / Logistics Tech",
+          "file": "pitches/chicago/010-project44.md",
+          "contact": "Jett McCandless (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Cameo",
+          "industry": "Creator Economy / Video Platform",
+          "file": "pitches/chicago/011-cameo.md",
+          "contact": "Steven Galanis (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Avant",
+          "industry": "Fintech - Personal Loans",
+          "file": "pitches/chicago/012-avant.md",
+          "contact": "Matt Bochenek (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Keeper Security",
+          "industry": "Cybersecurity / Password Management",
+          "file": "pitches/chicago/013-keeper-security.md",
+          "contact": "Darren Guccione (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Sprout Social",
+          "industry": "Social Media Management / SaaS",
+          "file": "pitches/chicago/014-sprout-social.md",
+          "contact": "Ryan Barretto (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "OppFi",
+          "industry": "Fintech - Digital Lending",
+          "file": "pitches/chicago/015-oppfi.md",
+          "contact": "Todd Schwartz (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Nextpoint",
+          "industry": "Legal Tech - eDiscovery SaaS",
+          "file": "pitches/chicago/016-nextpoint.md",
+          "contact": "Rakesh Madhava (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "K1x",
+          "industry": "Fintech - Tax Automation",
+          "file": "pitches/chicago/017-k1x.md",
+          "contact": "Michael Berger (Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Paro",
+          "industry": "B2B Marketplace - Finance/Accounting Talent",
+          "file": "pitches/chicago/018-paro.md",
+          "contact": "Anita Samojednik (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Beyond Finance",
+          "industry": "Fintech - Debt Consolidation",
+          "file": "pitches/chicago/019-beyond-finance.md",
+          "contact": "VP Engineering",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Arrive Logistics",
+          "industry": "Freight Brokerage / Logistics",
+          "file": "pitches/chicago/020-arrive-logistics.md",
+          "contact": "Matt Pyatt (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Tempus",
+          "industry": "Healthcare AI / Precision Medicine",
+          "file": "pitches/chicago/021-tempus.md",
+          "contact": "Eric Lefkofsky (Founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Wolverine Trading",
+          "industry": "Proprietary Trading / Fintech",
+          "file": "pitches/chicago/022-wolverine-trading.md",
+          "contact": "VP Technology",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Buildout",
+          "industry": "Commercial Real Estate Software / PropTech",
+          "file": "pitches/chicago/023-buildout.md",
+          "contact": "VP Engineering",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Relativity",
+          "industry": "Legal Tech / eDiscovery AI",
+          "file": "pitches/chicago/024-relativity.md",
+          "contact": "VP Engineering",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Braviant Holdings",
+          "industry": "Fintech - Consumer Lending",
+          "file": "pitches/chicago/025-braviant-holdings.md",
+          "contact": "Brent Turner (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "PowerReviews",
+          "industry": "E-commerce / UGC Platform",
+          "file": "pitches/chicago/026-powerreviews.md",
+          "contact": "Ziya Ma (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "PEAK6",
+          "industry": "Fintech / Investment / Technology",
+          "file": "pitches/chicago/027-peak6.md",
+          "contact": "Jenny Just (Co-Founder & Managing Partner)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Strata Decision Technology",
+          "industry": "Healthcare Financial Software / SaaS",
+          "file": "pitches/chicago/028-strata-decision.md",
+          "contact": "Dan Michelson (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Snapsheet",
+          "industry": "InsurTech / Claims Management",
+          "file": "pitches/chicago/029-snapsheet.md",
+          "contact": "Brad Weisberg (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "NowSecure",
+          "industry": "Cybersecurity / Mobile AppSec",
+          "file": "pitches/chicago/030-nowsecure.md",
+          "contact": "Alan Snyder (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Clearcover",
+          "industry": "InsurTech - Auto Insurance",
+          "file": "pitches/chicago/031-clearcover.md",
+          "contact": "Kyle Nakatsuji (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "M1 Finance",
+          "industry": "Fintech - Investing Platform",
+          "file": "pitches/chicago/032-m1-finance.md",
+          "contact": "Brian Barnes (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "ReviewTrackers",
+          "industry": "Customer Review / Reputation Management SaaS",
+          "file": "pitches/chicago/033-reviewtrackers.md",
+          "contact": "Chris Campbell (CEO & Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "LogicGate",
+          "industry": "GRC (Governance, Risk & Compliance) Software",
+          "file": "pitches/chicago/034-logicgate.md",
+          "contact": "Matt Kunkel (CEO & Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "PartySlate",
+          "industry": "Events Marketplace / Wedding Tech",
+          "file": "pitches/chicago/035-partyslate.md",
+          "contact": "Julie Roth Novack (CEO & Co-Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Medtelligent (ALIS)",
+          "industry": "Healthcare Tech - Senior Living Software",
+          "file": "pitches/chicago/036-medtelligent.md",
+          "contact": "John Shafaee (Founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        }
+      ],
+      "sent": []
+    },
+    "nyc": {
+      "drafted": [
+        {
+          "company": "The Corcoran Group",
+          "industry": "Real Estate - Luxury",
+          "file": "pitches/nyc/001-corcoran-group.md",
+          "contact": "VP Digital",
+          "status": "draft"
+        },
+        {
+          "company": "CityMD",
+          "industry": "Healthcare - Urgent Care",
+          "file": "pitches/nyc/002-citymd.md",
+          "contact": "VP Operations",
+          "status": "draft"
+        },
+        {
+          "company": "Attentive",
+          "industry": "SMS Marketing / Mobile Engagement",
+          "file": "pitches/nyc/003-attentive.md",
+          "contact": "Amit Jhawar (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Braze",
+          "industry": "Customer Engagement / MarTech",
+          "file": "pitches/nyc/004-braze.md",
+          "contact": "Bill Magnuson (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Yotpo",
+          "industry": "eCommerce / Reviews & Loyalty",
+          "file": "pitches/nyc/005-yotpo.md",
+          "contact": "Tomer Tagrin (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Persado",
+          "industry": "AI Marketing / Language Optimization",
+          "file": "pitches/nyc/006-persado.md",
+          "contact": "Alex Vratskides (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Zerocater",
+          "industry": "Corporate Catering / Food Tech",
+          "file": "pitches/nyc/007-zerocater.md",
+          "contact": "Arram Sabeti (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "theSkimm",
+          "industry": "Media / Newsletter",
+          "file": "pitches/nyc/008-theskimm.md",
+          "contact": "Carly Zakin (Co-CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Via",
+          "industry": "Transit Tech / Mobility",
+          "file": "pitches/nyc/009-via.md",
+          "contact": "Daniel Ramot (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Noom",
+          "industry": "Health Tech - Weight Loss / Wellness",
+          "file": "pitches/nyc/010-noom.md",
+          "contact": "Saeju Jeong (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Ramp",
+          "industry": "Fintech - Corporate Spend Management",
+          "file": "pitches/nyc/011-ramp.md",
+          "contact": "Eric Glyman (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "DOOR",
+          "industry": "Smart Building Access / PropTech",
+          "file": "pitches/nyc/012-door.md",
+          "contact": "David Lillis (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Narmi",
+          "industry": "Banking SaaS - Digital Banking Platform",
+          "file": "pitches/nyc/013-narmi.md",
+          "contact": "Nikhil Lakhanpal (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Hex",
+          "industry": "Data Analytics - Agentic Analytics Platform",
+          "file": "pitches/nyc/014-hex.md",
+          "contact": "Barry McCardel (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Olo",
+          "industry": "Restaurant Tech / SaaS",
+          "file": "pitches/nyc/015-olo.md",
+          "contact": "Noah Glass (CEO & Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Mixmax",
+          "industry": "Sales Tech / SaaS",
+          "file": "pitches/nyc/016-mixmax.md",
+          "contact": "Olof Mathé (CEO & Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Rokt",
+          "industry": "Ecommerce Tech / MarTech",
+          "file": "pitches/nyc/017-rokt.md",
+          "contact": "Bruce Buchanan (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Spring Health",
+          "industry": "Healthcare Tech - Mental Health",
+          "file": "pitches/nyc/018-spring-health.md",
+          "contact": "April Koh (CEO & Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Monte Carlo",
+          "industry": "Data Observability / Data Infrastructure",
+          "file": "pitches/nyc/019-monte-carlo-data.md",
+          "contact": "Barr Moses (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Flatfile",
+          "industry": "Data Onboarding / Developer Tools",
+          "file": "pitches/nyc/020-flatfile.md",
+          "contact": "David Boskovic (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Cedar",
+          "industry": "Healthcare Tech / Patient Billing AI",
+          "file": "pitches/nyc/021-cedar.md",
+          "contact": "Florian Otto, MD, PhD (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Contentful",
+          "industry": "Content Platform / Headless CMS",
+          "file": "pitches/nyc/022-contentful.md",
+          "contact": "Sascha Konietzke (Co-Founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Benchling",
+          "industry": "Biotech R&D Software / Life Sciences",
+          "file": "pitches/nyc/023-benchling.md",
+          "contact": "Sajith Wickramasekara (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Lattice",
+          "industry": "HR Tech / People Management Platform",
+          "file": "pitches/nyc/024-lattice.md",
+          "contact": "Sarah Franklin (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Augury",
+          "industry": "Industrial AI / Machine Health",
+          "file": "pitches/nyc/025-augury.md",
+          "contact": "Saar Yoskovitz (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Gynger",
+          "industry": "Fintech - B2B Payments / AR Automation",
+          "file": "pitches/nyc/026-gynger.md",
+          "contact": "Tim Chou (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Reachdesk",
+          "industry": "Sales Tech / Corporate Gifting",
+          "file": "pitches/nyc/027-reachdesk.md",
+          "contact": "Alex Yeung (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Superside",
+          "industry": "Creative Services / Design Tech",
+          "file": "pitches/nyc/028-superside.md",
+          "contact": "Fredrik Thomassen (CEO & Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Justworks",
+          "industry": "HR Tech - PEO / Payroll",
+          "file": "pitches/nyc/029-justworks.md",
+          "contact": "Isaac Oates (CEO & Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Leapsome",
+          "industry": "HR Tech / People Enablement Platform",
+          "file": "pitches/nyc/030-leapsome.md",
+          "contact": "Jenny von Podewils (Co-CEO & Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Coconut Software",
+          "industry": "Banking Tech / Appointment Scheduling",
+          "file": "pitches/nyc/031-coconut-software.md",
+          "contact": "Katherine Regnier (CEO & Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "HiBob",
+          "industry": "HR Tech / SaaS",
+          "file": "pitches/nyc/032-hibob.md",
+          "contact": "Ronni Zehavi (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Opto Investments",
+          "industry": "Fintech / Private Markets",
+          "file": "pitches/nyc/033-opto-investments.md",
+          "contact": "Founding Team",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Tastewise",
+          "industry": "AI / Consumer Intelligence / F&B",
+          "file": "pitches/nyc/034-tastewise.md",
+          "contact": "Alon Chen (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Healthee",
+          "industry": "Healthcare Tech - AI Benefits Navigation",
+          "file": "pitches/nyc/035-healthee.md",
+          "contact": "Yonatan Amir (CEO & Co-Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Maybern",
+          "industry": "Fintech - Fund Finance Software",
+          "file": "pitches/nyc/036-maybern.md",
+          "contact": "Founding Team",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Runwise",
+          "industry": "Energy Tech - Building Automation",
+          "file": "pitches/nyc/037-runwise.md",
+          "contact": "CEO",
+          "status": "draft",
+          "created": "2026-02-05"
+        }
+      ],
+      "sent": []
+    },
+    "la": {
+      "drafted": [
+        {
+          "company": "Belkin International",
+          "industry": "Consumer Electronics",
+          "file": "pitches/la/001-belkin.md",
+          "contact": "VP Operations",
+          "status": "draft"
+        },
+        {
+          "company": "ServiceTitan",
+          "industry": "Home Services Software",
+          "file": "pitches/la/002-servicetitan.md",
+          "contact": "Ara Mahdessian (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Scopely",
+          "industry": "Mobile Gaming",
+          "file": "pitches/la/003-scopely.md",
+          "contact": "Javier Ferreira (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Veritone",
+          "industry": "AI Platform / Media Technology",
+          "file": "pitches/la/004-veritone.md",
+          "contact": "Ryan Steelberg (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "ChowNow",
+          "industry": "Restaurant Tech / Online Ordering",
+          "file": "pitches/la/005-chownow.md",
+          "contact": "Chris Webb (Founder & Chairman)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "FabFitFun",
+          "industry": "Subscription Commerce / Lifestyle",
+          "file": "pitches/la/006-fabfitfun.md",
+          "contact": "Michael Broukhim (Co-CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "GOAT Group",
+          "industry": "E-commerce / Sneaker Marketplace",
+          "file": "pitches/la/007-goat.md",
+          "contact": "Eddy Lu (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Tebra",
+          "industry": "Healthcare Tech / Practice Management",
+          "file": "pitches/la/008-tebra.md",
+          "contact": "CEO (via LinkedIn)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "System1",
+          "industry": "Digital Marketing / AdTech",
+          "file": "pitches/la/009-system1.md",
+          "contact": "CEO (via LinkedIn)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Compa",
+          "industry": "HR Tech - Compensation Intelligence SaaS",
+          "file": "pitches/la/010-compa.md",
+          "contact": "Charlie Franklin (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Flock Freight",
+          "industry": "Logistics / Supply Chain Tech",
+          "file": "pitches/la/011-flock-freight.md",
+          "contact": "Oren Zaslansky (CEO & Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Babylist",
+          "industry": "Ecommerce / Parenting Platform",
+          "file": "pitches/la/012-babylist.md",
+          "contact": "Natalie Gordon (Founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "HopSkipDrive",
+          "industry": "EdTech / Student Transportation",
+          "file": "pitches/la/013-hopskipdrive.md",
+          "contact": "Joanna McFarland (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Greenfly",
+          "industry": "Sports & Entertainment / Digital Media Platform",
+          "file": "pitches/la/014-greenfly.md",
+          "contact": "Daniel Kirschner (Co-Founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "LegalZoom",
+          "industry": "Legal Tech / Online Legal Services",
+          "file": "pitches/la/015-legalzoom.md",
+          "contact": "Jeff Stibel (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Centerfield",
+          "industry": "Digital Marketing / Customer Acquisition",
+          "file": "pitches/la/016-centerfield.md",
+          "contact": "Kris Barton (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Pacaso",
+          "industry": "PropTech / Real Estate",
+          "file": "pitches/la/017-pacaso.md",
+          "contact": "Austin Allison (Co-founder & CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Foodsmart",
+          "industry": "Healthcare Tech - Telenutrition",
+          "file": "pitches/la/018-foodsmart.md",
+          "contact": "Jason Langheier, MD (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Headspace",
+          "industry": "Mental Health / Wellness Tech",
+          "file": "pitches/la/019-headspace.md",
+          "contact": "Russell Glass (CEO)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "FloQast",
+          "industry": "Accounting Automation / Close Management SaaS",
+          "file": "pitches/la/020-floqast.md",
+          "contact": "Mike Whitmire (CEO & Co-founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Golden Hippo",
+          "industry": "Health & Wellness / E-commerce",
+          "file": "pitches/la/021-golden-hippo.md",
+          "contact": "VP Engineering",
+          "status": "draft",
+          "created": "2026-02-05"
+        },
+        {
+          "company": "Doodle Labs",
+          "industry": "Defense Tech / Mesh Networking",
+          "file": "pitches/la/022-doodle-labs.md",
+          "contact": "Nimesh (Founder)",
+          "status": "draft",
+          "created": "2026-02-05"
+        }
+      ],
+      "sent": []
+    }
+  }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Mood Board</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;min-height:100vh;overflow:hidden;transition:background 1.5s ease}
+body.sunny{background:linear-gradient(135deg,#f97316,#fbbf24,#fde68a)}
+body.rainy{background:linear-gradient(135deg,#1e3a5f,#374151,#4b5563)}
+body.snowy{background:linear-gradient(135deg,#e2e8f0,#cbd5e1,#f1f5f9)}
+body.cloudy{background:linear-gradient(135deg,#374151,#4b5563,#6b7280)}
+body.night{background:linear-gradient(135deg,#0f172a,#1e1b4b,#312e81)}
+body.default{background:linear-gradient(135deg,#0a0a0f,#1a1a2e,#16213e)}
+body.sunny .weather-card{color:#1a1a0e}
+body.snowy .weather-card{color:#1e293b}
+body.sunny .search-input{background:rgba(0,0,0,.1);color:#1a1a0e;border-color:rgba(0,0,0,.15)}
+body.sunny .search-input::placeholder{color:rgba(0,0,0,.4)}
+body.snowy .search-input{background:rgba(0,0,0,.08);color:#1e293b;border-color:rgba(0,0,0,.1)}
+body.snowy .search-input::placeholder{color:rgba(0,0,0,.3)}
+
+.particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1;overflow:hidden}
+.particle{position:absolute}
+
+/* Rain */
+.rain{width:2px;background:linear-gradient(transparent,rgba(147,197,253,.6));animation:rain-fall linear infinite}
+@keyframes rain-fall{0%{transform:translateY(-100vh)}100%{transform:translateY(100vh)}}
+
+/* Snow */
+.snow{background:#fff;border-radius:50%;opacity:.8;animation:snow-fall linear infinite}
+@keyframes snow-fall{0%{transform:translateY(-10vh) rotate(0deg)}100%{transform:translateY(110vh) rotate(360deg)}}
+
+/* Sun rays */
+.sun-orb{position:fixed;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(251,191,36,.8),rgba(249,115,22,.3),transparent 70%);z-index:1;animation:sun-pulse 4s ease-in-out infinite}
+@keyframes sun-pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.15);opacity:1}}
+
+.container{position:relative;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:20px}
+.weather-card{text-align:center;color:#e0e0e0;max-width:500px;width:100%}
+.weather-icon{font-size:8rem;margin-bottom:10px;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+.temp{font-size:6rem;font-weight:900;line-height:1}
+.condition{font-size:1.4rem;font-weight:500;margin:8px 0 20px;opacity:.85}
+.details{display:flex;gap:30px;justify-content:center;font-size:.95rem;opacity:.75}
+.search-box{margin-top:40px;display:flex;gap:10px;width:100%;max-width:360px}
+.search-input{flex:1;padding:14px 20px;border-radius:14px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.08);color:#fff;font-family:inherit;font-size:1rem;outline:none;transition:all .3s}
+.search-input:focus{border-color:rgba(255,255,255,.3);background:rgba(255,255,255,.12)}
+.search-input::placeholder{color:rgba(255,255,255,.4)}
+.btn{padding:14px 24px;border-radius:14px;border:none;background:rgba(255,255,255,.15);color:inherit;font-family:inherit;font-size:.95rem;font-weight:600;cursor:pointer;transition:background .2s;backdrop-filter:blur(10px)}
+.btn:hover{background:rgba(255,255,255,.25)}
+.loading{text-align:center;color:rgba(255,255,255,.6)}
+.loading .spinner{font-size:3rem;animation:float 2s ease-in-out infinite}
+.geo-btn{padding:14px 28px;border-radius:14px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.08);color:#e0e0e0;font-family:inherit;font-size:1rem;font-weight:600;cursor:pointer;transition:all .3s;margin-bottom:16px}
+.geo-btn:hover{background:rgba(255,255,255,.18)}
+.or-text{color:rgba(255,255,255,.4);margin-bottom:16px;font-size:.85rem}
+.back{position:fixed;bottom:20px;left:20px;z-index:100;background:rgba(0,0,0,.3);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 18px;color:rgba(255,255,255,.7);text-decoration:none;font-size:.85rem;font-weight:600;transition:background .2s}
+.back:hover{background:rgba(0,0,0,.5)}
+.city-name{font-size:1.1rem;font-weight:600;opacity:.7;margin-bottom:8px}
+@media(max-width:500px){.temp{font-size:4rem}.weather-icon{font-size:5rem}.details{flex-direction:column;gap:8px;align-items:center}}
+</style>
+</head>
+<body class="default">
+<div class="particles" id="particles"></div>
+<div class="container" id="app">
+<div class="weather-card">
+<div class="weather-icon">🌍</div>
+<p class="condition" style="font-size:1.6rem;font-weight:700;margin-bottom:8px">Weather Mood Board</p>
+<p class="condition" style="opacity:.6;font-size:.95rem">See how the weather feels</p>
+<button class="geo-btn" onclick="getLocation()">📍 Use My Location</button>
+<p class="or-text">or search a city</p>
+<div class="search-box" style="margin-top:0">
+<input class="search-input" id="cityInput" placeholder="Enter city name…" onkeydown="if(event.key==='Enter')searchCity()">
+<button class="btn" onclick="searchCity()">Go</button>
+</div>
+</div>
+</div>
+<a href="../" class="back">← Back</a>
+<script>
+const WMO_CODES={0:'Clear sky',1:'Mainly clear',2:'Partly cloudy',3:'Overcast',45:'Fog',48:'Rime fog',51:'Light drizzle',53:'Drizzle',55:'Dense drizzle',61:'Slight rain',63:'Moderate rain',65:'Heavy rain',71:'Slight snow',73:'Moderate snow',75:'Heavy snow',77:'Snow grains',80:'Slight showers',81:'Moderate showers',82:'Violent showers',85:'Slight snow showers',86:'Heavy snow showers',95:'Thunderstorm',96:'Thunderstorm w/ hail',99:'Thunderstorm w/ heavy hail'};
+function getWeatherMood(code){
+if([71,73,75,77,85,86].includes(code))return{mood:'snowy',icon:'❄️',emoji:'🌨️'};
+if([61,63,65,80,81,82,51,53,55].includes(code))return{mood:'rainy',icon:'🌧️',emoji:'💧'};
+if([95,96,99].includes(code))return{mood:'rainy',icon:'⛈️',emoji:'⚡'};
+if([3,45,48].includes(code))return{mood:'cloudy',icon:'☁️',emoji:'🌫️'};
+if([2].includes(code))return{mood:'cloudy',icon:'⛅',emoji:'🌤️'};
+if([0,1].includes(code))return{mood:'sunny',icon:'☀️',emoji:'🌞'};
+return{mood:'cloudy',icon:'🌤️',emoji:'✨'};
+}
+
+function getLocation(){
+if(!navigator.geolocation)return searchCity();
+document.getElementById('app').innerHTML='<div class="loading"><div class="spinner">📡</div><p>Getting location…</p></div>';
+navigator.geolocation.getCurrentPosition(pos=>fetchWeather(pos.coords.latitude,pos.coords.longitude),()=>{showSearch('Could not get location. Search instead:')},{timeout:8000});
+}
+
+function showSearch(msg){
+document.getElementById('app').innerHTML=`<div class="weather-card"><p class="condition">${msg}</p><div class="search-box" style="margin-top:20px"><input class="search-input" id="cityInput" placeholder="Enter city name…" onkeydown="if(event.key==='Enter')searchCity()"><button class="btn" onclick="searchCity()">Go</button></div></div>`;
+}
+
+async function searchCity(){
+const city=document.getElementById('cityInput')?.value?.trim();
+if(!city)return;
+document.getElementById('app').innerHTML='<div class="loading"><div class="spinner">🔍</div><p>Searching…</p></div>';
+try{
+const r=await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1`);
+const d=await r.json();
+if(!d.results?.length){showSearch('City not found. Try again:');return}
+fetchWeather(d.results[0].latitude,d.results[0].longitude,d.results[0].name+', '+(d.results[0].country||''));
+}catch(e){showSearch('Error searching. Try again:')}
+}
+
+async function fetchWeather(lat,lon,cityName){
+try{
+const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`);
+const d=await r.json();
+const w=d.current_weather;
+const info=getWeatherMood(w.weathercode);
+const cond=WMO_CODES[w.weathercode]||'Unknown';
+if(!cityName){
+try{const g=await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=&latitude=${lat}&longitude=${lon}&count=1`);
+}catch(e){}
+}
+document.body.className=info.mood;
+createParticles(info.mood);
+document.getElementById('app').innerHTML=`
+<div class="weather-card">
+${cityName?`<p class="city-name">📍 ${cityName}</p>`:''}
+<div class="weather-icon">${info.icon}</div>
+<div class="temp">${Math.round(w.temperature)}°</div>
+<p class="condition">${cond}</p>
+<div class="details">
+<span>💨 ${w.windspeed} km/h</span>
+<span>🧭 ${w.winddirection}°</span>
+</div>
+<div class="search-box">
+<input class="search-input" id="cityInput" placeholder="Try another city…" onkeydown="if(event.key==='Enter')searchCity()">
+<button class="btn" onclick="searchCity()">Go</button>
+</div>
+</div>`;
+}catch(e){showSearch('Error fetching weather. Try again:')}
+}
+
+function createParticles(mood){
+const el=document.getElementById('particles');
+el.innerHTML='';
+if(mood==='rainy'){
+for(let i=0;i<80;i++){const d=document.createElement('div');d.className='particle rain';const h=Math.random()*30+15;d.style.cssText=`left:${Math.random()*100}%;height:${h}px;animation-duration:${Math.random()*.5+.4}s;animation-delay:${Math.random()*2}s;opacity:${Math.random()*.5+.3}`;el.appendChild(d)}
+}else if(mood==='snowy'){
+for(let i=0;i<60;i++){const d=document.createElement('div');d.className='particle snow';const s=Math.random()*6+3;d.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${Math.random()*5+5}s;animation-delay:${Math.random()*5}s`;el.appendChild(d)}
+}else if(mood==='sunny'){
+const orb=document.createElement('div');orb.className='sun-orb';el.appendChild(orb);
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "company": "Soundcore Capital Partners",
+    "contactName": "Jarrett Turner",
+    "email": "jturner@soundcorecap.com",
+    "title": "Founder & Managing Partner",
+    "linkedIn": "https://www.linkedin.com/in/jarrett-turner-107ba822/",
+    "status": "Enriched",
+    "notes": "Email verified on firm website team page soundcorecap.com/cpt_team/jarrett-turner/"
+  },
+  {
+    "company": "Kinzie Capital Partners",
+    "contactName": "Suzanne Yoon",
+    "email": "syoon@kinziecp.com",
+    "title": "Founder & Managing Partner",
+    "linkedIn": "https://www.linkedin.com/in/suzanneyoon/",
+    "status": "Enriched",
+    "notes": "Email pattern verified from RocketReach"
+  },
+  {
+    "company": "Ronin Equity Partners",
+    "contactName": "David Feierstein",
+    "email": "",
+    "title": "Co-Founder & Managing Partner",
+    "linkedIn": "https://www.linkedin.com/in/david-feierstein-76370639/",
+    "status": "Needs Email",
+    "notes": "Contact found on firm website, email pattern not available"
+  },
+  {
+    "company": "Salt Creek Capital",
+    "contactName": "Jordan Stankowski",
+    "email": "jstankowski@saltcreekcap.com",
+    "title": "Operating Partner",
+    "linkedIn": "https://www.linkedin.com/in/jordanstankowski/",
+    "status": "Enriched",
+    "notes": "Email pattern verified from RocketReach"
+  },
+  {
+    "company": "Clearview Capital",
+    "contactName": "Bill Case",
+    "email": "wcase@clearviewcap.com",
+    "title": "Managing Partner",
+    "linkedIn": "https://www.linkedin.com/in/bill-case-5950744",
+    "status": "Enriched",
+    "notes": "Email pattern inferred from RocketReach partial match w******@clearviewcap.com"
+  }
+]

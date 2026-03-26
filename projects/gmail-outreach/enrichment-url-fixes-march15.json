@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-03-15T19:42:40.310Z",
+  "enriched": [
+    {
+      "row": 136,
+      "company": "Veritas Capital",
+      "contact": "Ramzi Musallam",
+      "email": "rmusallam@veritascapital.com"
+    },
+    {
+      "row": 147,
+      "company": "TowerBrook Capital Partners",
+      "contact": "Karim Saddi",
+      "email": "ksaddi@towerbrook.com"
+    },
+    {
+      "row": 158,
+      "company": "Welsh Carson Anderson & Stowe",
+      "contact": "D. Scott Mackesy",
+      "email": "smackesy@wcas.com"
+    },
+    {
+      "row": 209,
+      "company": "Ridgemont Equity Partners",
+      "contact": "John Shimp",
+      "email": "JShimp@ridgemontep.com"
+    },
+    {
+      "row": 309,
+      "company": "Ridgemont Equity Partners",
+      "contact": "John Shimp",
+      "email": "JShimp@ridgemontep.com"
+    },
+    {
+      "row": 314,
+      "company": "Ridgemont Equity Partners",
+      "contact": "John Shimp",
+      "email": "JShimp@ridgemontep.com"
+    },
+    {
+      "row": 841,
+      "company": "Ridgemont Equity Partners",
+      "contact": "John Shimp",
+      "email": "JShimp@ridgemontep.com"
+    },
+    {
+      "row": 943,
+      "company": "Tritium Partners",
+      "contact": "David Lack",
+      "email": "dlack@tritiumpartners.com"
+    },
+    {
+      "row": 953,
+      "company": "Cressey & Company",
+      "contact": "Bryan Cressey",
+      "email": "bcressey@cresseyco.com"
+    }
+  ],
+  "failed": [
+    {
+      "company": "Evolution Credit Partners",
+      "reason": "No Apollo/manual result"
+    },
+    {
+      "company": "FTV Capital",
+      "reason": "No Apollo/manual result"
+    }
+  ]
+}

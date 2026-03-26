@@ -1,79 +1,77 @@
 const { google } = require('googleapis');
-const key = require('./service-account.json');
 
-const jwtClient = new google.auth.JWT(
-  key.client_email,
-  null,
-  key.private_key,
-  ['https://www.googleapis.com/auth/spreadsheets']
-);
-
-const sheets = google.sheets({ version: 'v4', auth: jwtClient });
-const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-
-async function main() {
-  const res = await sheets.spreadsheets.values.get({
-    spreadsheetId: SHEET_ID,
-    range: 'Sheet1!A:M'
+async function check() {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  });
+  const sheets = google.sheets({ version: 'v4', auth });
+  const response = await sheets.spreadsheets.values.get({
+    spreadsheetId: '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4',
+    range: 'Sheet1!A1:I200'
   });
   
-  const rows = res.data.values || [];
-  const headers = rows[0];
+  const rows = response.data.values || [];
+  console.log('Sheet columns:', rows[0]);
+  console.log('\nFirst 5 data rows:');
+  for (let i = 1; i <= 5 && i < rows.length; i++) {
+    const r = rows[i] || [];
+    console.log(`Row ${i+1}:`);
+    console.log(`  Company: ${r[0]}`);
+    console.log(`  Website: ${r[1]}`);
+    console.log(`  Contact: ${r[2]}`);
+    console.log(`  Title: ${r[3]}`);
+    console.log(`  Email: ${r[4]}`);
+    console.log(`  Status: ${r[7]}`);
+    console.log('');
+  }
   
-  console.log('Headers:', headers);
-  console.log('Total rows:', rows.length);
-  
-  const statusCol = headers.indexOf('Status');
-  const contactCol = headers.indexOf('Contact Name');
-  const emailCol = headers.indexOf('Email');
-  const companyCol = headers.indexOf('Company Name');
-  
-  const statusCounts = {};
-  let emptyEmailCount = 0;
-  let genericEmailCount = 0;
-  let emptyContactCount = 0;
+  // Find truly empty contacts
+  const emptyContacts = [];
+  const genericEmails = [];
   
   for (let i = 1; i < rows.length; i++) {
-    const row = rows[i];
-    const status = (row[statusCol] || 'No Status').trim();
-    const email = row[emailCol] || '';
-    const contact = row[contactCol] || '';
-    const company = row[companyCol] || '';
+    const r = rows[i] || [];
+    const company = (r[0] || '').trim();
+    const website = (r[1] || '').trim();
+    const contact = (r[2] || '').trim();
+    const email = (r[4] || '').trim();
+    const status = (r[7] || '').trim().toLowerCase();
     
-    statusCounts[status] = (statusCounts[status] || 0) + 1;
-    
-    if (!email) emptyEmailCount++;
-    if (email.match(/^(info@|sales@|ir@|contact@)/i)) genericEmailCount++;
-    if (!contact || contact === 'Jacob Zodikoff') emptyContactCount++;
-  }
-  
-  console.log('\nStatus breakdown:');
-  for (const [status, count] of Object.entries(statusCounts).sort((a,b) => b[1] - a[1])) {
-    console.log(`  ${status}: ${count}`);
-  }
-  
-  console.log(`\nEmpty emails: ${emptyEmailCount}`);
-  console.log(`Generic emails: ${genericEmailCount}`);
-  console.log(`Empty/placeholder contacts: ${emptyContactCount}`);
-  
-  // Show a few sample rows
-  console.log('\nSample rows (first 10 non-Sent/Dead):');
-  let count = 0;
-  for (let i = 1; i < rows.length && count < 10; i++) {
-    const row = rows[i];
-    const status = (row[statusCol] || '').toLowerCase();
-    
-    if (!status.includes('sent') && !status.includes('dead')) {
-      console.log(JSON.stringify({
-        row: i + 1,
-        company: row[companyCol],
-        contact: row[contactCol],
-        email: row[emailCol],
-        status: row[statusCol]
-      }, null, 2));
-      count++;
+    if (!company || status.includes('dead') || status.includes('not pe')) {
+      continue;
     }
+    
+    if (!contact) {
+      emptyContacts.push({ row: i+1, company, website, status });
+    }
+    
+    if (email && (
+      email.toLowerCase().startsWith('info@') || 
+      email.toLowerCase().startsWith('sales@') ||
+      email.toLowerCase().startsWith('ir@')
+    )) {
+      genericEmails.push({ row: i+1, company, email, status });
+    }
+  }
+  
+  console.log(`\n=== SUMMARY ===`);
+  console.log(`Empty contacts (active firms): ${emptyContacts.length}`);
+  console.log(`Generic emails: ${genericEmails.length}`);
+  
+  if (emptyContacts.length > 0) {
+    console.log('\n=== FIRMS WITH EMPTY CONTACTS (First 10) ===');
+    emptyContacts.slice(0, 10).forEach(item => {
+      console.log(`Row ${item.row}: ${item.company} | ${item.website} | Status: ${item.status || 'none'}`);
+    });
+  }
+  
+  if (genericEmails.length > 0) {
+    console.log('\n=== FIRMS WITH GENERIC EMAILS (First 10) ===');
+    genericEmails.slice(0, 10).forEach(item => {
+      console.log(`Row ${item.row}: ${item.company} | ${item.email} | Status: ${item.status || 'none'}`);
+    });
   }
 }
 
-main().catch(console.error);
+check().catch(console.error);

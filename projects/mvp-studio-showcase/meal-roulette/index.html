@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Should I Eat?</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;overflow-x:hidden}
+.back{position:fixed;top:20px;left:20px;color:#666;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}.back:hover{color:#a78bfa}
+header{text-align:center;padding:60px 20px 20px}
+header h1{font-size:2.5rem;font-weight:900;background:linear-gradient(135deg,#f97316,#eab308,#f43f5e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:#666;margin-top:8px}
+.container{max-width:600px;margin:0 auto;padding:0 20px}
+.spin-area{text-align:center;margin:40px 0}
+.spin-btn{width:160px;height:160px;border-radius:50%;border:none;background:linear-gradient(135deg,#f97316,#f43f5e);color:#fff;font-size:1.6rem;font-weight:900;font-family:'Inter',sans-serif;cursor:pointer;transition:transform .2s,box-shadow .2s;box-shadow:0 8px 40px rgba(249,115,22,.3);position:relative;overflow:hidden}
+.spin-btn:hover{transform:scale(1.05);box-shadow:0 12px 50px rgba(249,115,22,.4)}
+.spin-btn:active{transform:scale(.95)}
+.spin-btn.spinning{animation:pulse .3s ease infinite alternate;pointer-events:none}
+@keyframes pulse{from{transform:scale(1);box-shadow:0 8px 40px rgba(249,115,22,.3)}to{transform:scale(1.08);box-shadow:0 12px 60px rgba(249,115,22,.5)}}
+.slot-window{height:60px;overflow:hidden;margin:24px auto;max-width:300px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);display:none;position:relative}
+.slot-strip{transition:transform .1s;display:flex;flex-direction:column;align-items:center}
+.slot-strip img{width:60px;height:60px;object-fit:cover;border-radius:8px;flex-shrink:0}
+.category-filter{text-align:center;margin-bottom:16px}
+.category-filter select{padding:10px 16px;border-radius:10px;border:2px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);color:#e0e0e0;font-family:'Inter',sans-serif;font-size:.9rem;outline:none;cursor:pointer}
+.category-filter select:focus{border-color:#f97316}
+.meal-card{display:none;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;overflow:hidden;margin:32px 0 60px;animation:fadeUp .6s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+.meal-card img{width:100%;height:280px;object-fit:cover}
+.meal-card .body{padding:24px}
+.meal-card h2{font-size:1.5rem;font-weight:800;margin-bottom:4px}
+.meal-card .cat{color:#f97316;font-size:.85rem;font-weight:600;margin-bottom:16px}
+.meal-card h3{font-size:1rem;font-weight:700;color:#a78bfa;margin:16px 0 8px}
+.ingredients{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.ingredients span{background:rgba(255,255,255,.06);padding:4px 10px;border-radius:8px;font-size:.8rem;color:#ccc}
+.instructions{color:#999;font-size:.9rem;line-height:1.7;white-space:pre-wrap}
+.yt-link{display:inline-block;margin-top:12px;padding:10px 20px;background:rgba(255,0,0,.15);color:#f43f5e;border-radius:10px;text-decoration:none;font-weight:700;font-size:.85rem;transition:background .2s}
+.yt-link:hover{background:rgba(255,0,0,.25)}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<header>
+<h1>🍽️ What Should I Eat?</h1>
+<p>Can't decide? Let fate choose your meal!</p>
+</header>
+<div class="container">
+<div class="category-filter">
+<select id="catFilter"><option value="">Any Category</option></select>
+</div>
+<div class="spin-area">
+<button class="spin-btn" id="spinBtn">🎰<br>SPIN</button>
+</div>
+<div class="slot-window" id="slotWindow">
+<div class="slot-strip" id="slotStrip"></div>
+</div>
+<div class="meal-card" id="mealCard">
+<img id="mealImg" src="" alt="">
+<div class="body">
+<h2 id="mealName"></h2>
+<div class="cat" id="mealCat"></div>
+<h3>Ingredients</h3>
+<div class="ingredients" id="mealIngredients"></div>
+<h3>Instructions</h3>
+<div class="instructions" id="mealInstructions"></div>
+<a class="yt-link" id="mealYt" href="#" target="_blank" style="display:none">▶ Watch on YouTube</a>
+</div>
+</div>
+</div>
+<script>
+const spinBtn=document.getElementById('spinBtn'),mealCard=document.getElementById('mealCard'),slotWindow=document.getElementById('slotWindow'),slotStrip=document.getElementById('slotStrip'),catFilter=document.getElementById('catFilter');
+const foodEmojis=['🍕','🍔','🍜','🍣','🌮','🍝','🥗','🍛','🥘','🍲','🥩','🍗','🧆','🥟','🍱'];
+
+// Load categories
+fetch('https://www.themealdb.com/api/json/v1/1/categories.php').then(r=>r.json()).then(d=>{
+  d.categories.forEach(c=>{const o=document.createElement('option');o.value=c.strCategory;o.textContent=c.strCategory;catFilter.appendChild(o)});
+}).catch(()=>{});
+
+async function getRandomMeal(){
+  const cat=catFilter.value;
+  if(cat){
+    const list=await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${cat}`).then(r=>r.json());
+    if(!list.meals)return null;
+    const pick=list.meals[Math.floor(Math.random()*list.meals.length)];
+    const full=await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${pick.idMeal}`).then(r=>r.json());
+    return full.meals[0];
+  }
+  const d=await fetch('https://www.themealdb.com/api/json/v1/1/random.php').then(r=>r.json());
+  return d.meals[0];
+}
+
+async function spin(){
+  spinBtn.classList.add('spinning');mealCard.style.display='none';
+  // Slot animation
+  slotWindow.style.display='block';
+  slotStrip.innerHTML='';
+  const count=20;
+  for(let i=0;i<count;i++){
+    const div=document.createElement('div');
+    div.style.cssText='height:60px;display:flex;align-items:center;justify-content:center;font-size:2.2rem';
+    div.textContent=foodEmojis[Math.floor(Math.random()*foodEmojis.length)];
+    slotStrip.appendChild(div);
+  }
+  let pos=0;const total=count*60;
+  const startT=Date.now(),duration=2000;
+  function animate(){
+    const elapsed=Date.now()-startT;
+    const progress=Math.min(elapsed/duration,1);
+    const ease=1-Math.pow(1-progress,3);
+    pos=ease*(total-60);
+    slotStrip.style.transform=`translateY(-${pos}px)`;
+    if(progress<1)requestAnimationFrame(animate);
+  }
+  animate();
+
+  try{
+    const meal=await getRandomMeal();
+    await new Promise(r=>setTimeout(r,2200));
+    spinBtn.classList.remove('spinning');
+    slotWindow.style.display='none';
+    if(!meal)return;
+    document.getElementById('mealImg').src=meal.strMealThumb;
+    document.getElementById('mealName').textContent=meal.strMeal;
+    document.getElementById('mealCat').textContent=`${meal.strCategory} · ${meal.strArea}`;
+    const ingEl=document.getElementById('mealIngredients');ingEl.innerHTML='';
+    for(let i=1;i<=20;i++){
+      const ing=meal[`strIngredient${i}`],meas=meal[`strMeasure${i}`];
+      if(!ing||!ing.trim())break;
+      const s=document.createElement('span');s.textContent=`${meas?meas.trim():''} ${ing.trim()}`.trim();ingEl.appendChild(s);
+    }
+    document.getElementById('mealInstructions').textContent=meal.strInstructions;
+    const yt=document.getElementById('mealYt');
+    if(meal.strYoutube){yt.href=meal.strYoutube;yt.style.display='inline-block'}else{yt.style.display='none'}
+    mealCard.style.display='block';
+    mealCard.scrollIntoView({behavior:'smooth',block:'start'});
+  }catch(e){spinBtn.classList.remove('spinning');slotWindow.style.display='none';alert('Failed to fetch meal. Try again!')}
+}
+spinBtn.addEventListener('click',spin);
+</script>
+</body>
+</html>

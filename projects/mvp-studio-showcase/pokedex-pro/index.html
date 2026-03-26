@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PokéDex Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <a href="../" class="back">← Showcase</a>
+    <h1>⚡ PokéDex Pro</h1>
+    <p>Gen 1 — Gotta catch 'em all!</p>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search Pokémon..." autocomplete="off">
+      <div class="type-filters" id="typeFilters"></div>
+    </div>
+  </header>
+  <div class="loader" id="loader"><div class="spinner"></div><p>Loading 151 Pokémon...</p></div>
+  <div class="grid" id="grid"></div>
+</div>
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-header" id="modalHeader">
+      <img id="modalImg" alt="">
+      <div class="modal-name-wrap">
+        <span class="modal-id" id="modalId"></span>
+        <h2 id="modalName"></h2>
+        <div id="modalTypes" class="modal-types"></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <h3>Base Stats</h3>
+      <div id="modalStats" class="stats"></div>
+      <h3>Abilities</h3>
+      <div id="modalAbilities" class="abilities"></div>
+      <h3>Details</h3>
+      <div id="modalDetails" class="details"></div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

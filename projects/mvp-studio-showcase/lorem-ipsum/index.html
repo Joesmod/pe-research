@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lorem Ipsum Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;padding:40px 20px}
+a.back{position:fixed;top:20px;left:20px;color:#888;text-decoration:none;font-size:.9rem;z-index:10;transition:color .2s}
+a.back:hover{color:#6366f1}
+.container{max-width:700px;margin:0 auto}
+h1{font-size:1.6rem;font-weight:700;text-align:center;margin-bottom:8px;background:linear-gradient(135deg,#6366f1,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{text-align:center;color:#666;margin-bottom:40px;font-size:.9rem}
+.controls{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:24px;margin-bottom:24px}
+.row{display:flex;align-items:center;gap:16px;margin-bottom:16px;flex-wrap:wrap}
+.row:last-child{margin-bottom:0}
+label{font-size:.85rem;color:#888;min-width:70px}
+input[type=range]{flex:1;accent-color:#6366f1;min-width:120px}
+.count{font-size:1.1rem;font-weight:700;color:#a78bfa;min-width:30px}
+.toggle-group{display:flex;gap:4px;background:rgba(255,255,255,.06);border-radius:10px;padding:4px}
+.toggle-group button{border:none;background:transparent;color:#888;font-family:'Inter',sans-serif;font-size:.8rem;font-weight:600;padding:8px 16px;border-radius:8px;cursor:pointer;transition:all .2s}
+.toggle-group button.active{background:#6366f1;color:#fff}
+.check{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.85rem;color:#888}
+.check input{accent-color:#6366f1}
+.btn-row{display:flex;gap:12px;flex-wrap:wrap}
+.btn{border:none;padding:12px 28px;border-radius:12px;font-family:'Inter',sans-serif;font-size:.9rem;font-weight:600;cursor:pointer;transition:all .15s}
+.btn:active{transform:scale(.96)}
+.btn-primary{background:#6366f1;color:#fff}
+.btn-primary:hover{background:#5558e6}
+.btn-copy{background:rgba(255,255,255,.08);color:#888}
+.btn-copy:hover{background:rgba(255,255,255,.12)}
+.output{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:28px;min-height:200px;line-height:1.8;font-size:.95rem;color:#bbb;white-space:pre-wrap}
+.output p{margin-bottom:16px}
+.output p:last-child{margin-bottom:0}
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(80px);background:#22c55e;color:#fff;padding:12px 28px;border-radius:12px;font-size:.9rem;font-weight:600;transition:transform .3s ease;z-index:100;pointer-events:none}
+.toast.show{transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Showcase</a>
+<div class="container">
+<h1>Lorem Ipsum Generator</h1>
+<p class="subtitle">Generate placeholder text for your designs</p>
+<div class="controls">
+<div class="row">
+<label>Amount</label>
+<input type="range" id="amount" min="1" max="20" value="3">
+<span class="count" id="amountVal">3</span>
+</div>
+<div class="row">
+<label>Type</label>
+<div class="toggle-group" id="typeGroup">
+<button class="active" data-type="paragraphs">Paragraphs</button>
+<button data-type="sentences">Sentences</button>
+<button data-type="words">Words</button>
+</div>
+</div>
+<div class="row">
+<label class="check"><input type="checkbox" id="startClassic" checked> Start with "Lorem ipsum dolor sit amet…"</label>
+</div>
+<div class="row btn-row">
+<button class="btn btn-primary" onclick="generate()">Generate</button>
+<button class="btn btn-copy" onclick="copyText()">📋 Copy</button>
+</div>
+</div>
+<div class="output" id="output"><p>Click Generate to create lorem ipsum text.</p></div>
+</div>
+<div class="toast" id="toast">Copied to clipboard!</div>
+<script>
+const WORDS="lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi aliquam ut aliquip ex ea commodo consequat duis aute irure in reprehenderit voluptate velit esse cillum fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum at vero eos accusamus iusto odio dignissimos ducimus blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi obcaecati cupiditate provident similique mollitia animi perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta explicabo nemo enim ipsam quia voluptas aspernatur aut odit fugit consequuntur magni ratione sequi nesciunt neque porro quisquam dolorem ipsum adipisci numquam eius modi tempora magnam aliquam quaerat autem vel illum dolore eu fugiat quo nihil molestiae consequatur quis illum harum rerum hic tenetur sapiente delectus reiciendis voluptatibus maiores alias perferendis doloribus asperiores repellat temporibus quibusdam soluta nobis eligendi optio cumque impedit minus quod maxime placeat facere possimus omnis assumenda repudiandae commodi distinctio nam libero tempore cum soluta recusandae itaque earum rerum necessitatibus saepe eveniet ut voluptates repudiandae sint".split(" ");
+
+const CLASSIC="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+const amount=document.getElementById('amount'),amountVal=document.getElementById('amountVal');
+const output=document.getElementById('output');
+let type='paragraphs';
+
+amount.addEventListener('input',()=>amountVal.textContent=amount.value);
+document.querySelectorAll('#typeGroup button').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelector('#typeGroup .active').classList.remove('active');
+    b.classList.add('active');type=b.dataset.type;
+  });
+});
+
+function randWord(){return WORDS[Math.floor(Math.random()*WORDS.length)]}
+function capitalize(s){return s.charAt(0).toUpperCase()+s.slice(1)}
+function randSentence(minW=6,maxW=16){
+  const n=minW+Math.floor(Math.random()*(maxW-minW));
+  let w=[];for(let i=0;i<n;i++)w.push(randWord());
+  w[0]=capitalize(w[0]);
+  // Add a comma occasionally
+  if(n>8){const ci=3+Math.floor(Math.random()*(n-5));w[ci]+=',';}
+  return w.join(' ')+'.';
+}
+function randParagraph(minS=3,maxS=7){
+  const n=minS+Math.floor(Math.random()*(maxS-minS));
+  let s=[];for(let i=0;i<n;i++)s.push(randSentence());return s.join(' ');
+}
+
+function generate(){
+  const n=parseInt(amount.value),classic=document.getElementById('startClassic').checked;
+  let result='';
+  if(type==='paragraphs'){
+    let paras=[];
+    for(let i=0;i<n;i++)paras.push(randParagraph());
+    if(classic)paras[0]=CLASSIC+' '+paras[0];
+    result=paras.map(p=>'<p>'+p+'</p>').join('');
+  }else if(type==='sentences'){
+    let sents=[];
+    for(let i=0;i<n;i++)sents.push(randSentence());
+    if(classic)sents[0]=CLASSIC;
+    result='<p>'+sents.join(' ')+'</p>';
+  }else{
+    let w=[];for(let i=0;i<n;i++)w.push(randWord());
+    if(classic)w[0]='lorem';
+    result='<p>'+w.join(' ')+'</p>';
+  }
+  output.innerHTML=result;
+}
+
+function copyText(){
+  const text=output.innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    const t=document.getElementById('toast');t.classList.add('show');
+    setTimeout(()=>t.classList.remove('show'),2000);
+  });
+}
+
+generate();
+</script>
+</body>
+</html>

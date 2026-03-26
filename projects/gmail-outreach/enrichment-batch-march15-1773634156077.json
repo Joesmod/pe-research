@@ -1,0 +1,14 @@
+[
+  {
+    "rowIndex": 1234,
+    "arrayIndex": 1233,
+    "firm": "Gryphon Investors",
+    "contact": "R. David Andrews",
+    "email": "",
+    "status": "Founded 1995. 75 platform investments, 550+ add-ons. 6 specialized industry groups. Contact: businessdevelopment@gryphoninvestors.com (official contact page). Source: gryphon-inv.com (2026-03-15 cron)",
+    "enrichStatus": "Manual Research Needed",
+    "needsContact": false,
+    "needsEmail": true,
+    "genericEmail": ""
+  }
+]

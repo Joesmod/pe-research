@@ -1,0 +1,101 @@
+[
+  {
+    "row": 222,
+    "companyName": "Accel-KKR",
+    "notebookLM": "https://www.accel-kkr.com",
+    "contactName": "Tom Barnds",
+    "email": "(none)",
+    "status": "Enriched",
+    "reason": "No email"
+  },
+  {
+    "row": 766,
+    "companyName": "Newflow Partners",
+    "notebookLM": "http://www.newflow.partners",
+    "contactName": "Jason Levine",
+    "email": "(none)",
+    "status": "Source: Newflow website (newflow.partners/team/) | Name and title from company website. Email pattern jlevine@newflowpartners.com suggested by ZoomInfo (not official source).",
+    "reason": "No email"
+  },
+  {
+    "row": 844,
+    "companyName": "Wind Point Partners",
+    "notebookLM": "https://www.windpointpartners.com",
+    "contactName": "Nathan Brown",
+    "email": "(none)",
+    "status": "",
+    "reason": "No email"
+  },
+  {
+    "row": 862,
+    "companyName": "The Riverside Company",
+    "notebookLM": "Loren Schlachet",
+    "contactName": "Stewart Kohl",
+    "email": "(none)",
+    "status": "Contact found in PR Newswire press release (Jan 2025). Phone: 216.535.2236",
+    "reason": "No email"
+  },
+  {
+    "row": 864,
+    "companyName": "Accel-KKR",
+    "notebookLM": "",
+    "contactName": "Tom Barnds",
+    "email": "(none)",
+    "status": "Enriched - Email Needs Verification",
+    "reason": "No email"
+  },
+  {
+    "row": 868,
+    "companyName": "Accel-KKR",
+    "notebookLM": "https://www.accel-kkr.com",
+    "contactName": "Tom Barnds",
+    "email": "(none)",
+    "status": "Enriched - Email Needs Verification",
+    "reason": "No email"
+  },
+  {
+    "row": 925,
+    "companyName": "Wynnchurch Capital",
+    "notebookLM": "https://www.wynnchurch.com/team/riordan-brian",
+    "contactName": "John Hatherly",
+    "email": "(none)",
+    "status": "",
+    "reason": "No email"
+  },
+  {
+    "row": 937,
+    "companyName": "The Riverside Company",
+    "notebookLM": "https://www.riversidecompany.com",
+    "contactName": "Stewart Kohl",
+    "email": "(none)",
+    "status": "Contact found in PR Newswire press release (Jan 2025). Phone: 216.535.2236",
+    "reason": "No email"
+  },
+  {
+    "row": 976,
+    "companyName": "Trivest Partners",
+    "notebookLM": "",
+    "contactName": "Forest Wester",
+    "email": "info@trivest.com",
+    "status": "Business Services, Healthcare, Niche Manufacturing, Value-Added Distribution, Consumer & Retail",
+    "reason": "Generic email"
+  },
+  {
+    "row": 993,
+    "companyName": "Gryphon Investors",
+    "notebookLM": "https://www.gryphoninvestors.com",
+    "contactName": "R. David Andrews",
+    "email": "(none)",
+    "status": "https://www.linkedin.com/in/r-david-andrews/",
+    "reason": "No email"
+  },
+  {
+    "row": 994,
+    "companyName": "Trivest Partners",
+    "notebookLM": "https://www.trivest.com",
+    "contactName": "Forest Wester",
+    "email": "info@trivest.com",
+    "status": "Business Services, Healthcare, Technology",
+    "reason": "Generic email"
+  }
+]

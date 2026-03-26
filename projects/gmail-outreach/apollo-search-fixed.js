@@ -1,84 +1,118 @@
-// Apollo.io People Search - FIXED with correct API key header
 const https = require('https');
 
 const APOLLO_API_KEY = 'Fx6RpQS0PKxfVgnxWOPWuw';
 
-async function searchPeople(companyName, titles) {
+const firms = [
+  { name: 'Littlejohn', domain: 'littlejohnllc.com' },
+  { name: 'Charlesbank Capital Partners', domain: 'charlesbank.com' },
+  { name: 'PSG', domain: 'psgequity.com' },
+  { name: 'TowerBrook Capital Partners', domain: 'towerbrook.com' },
+  { name: 'Pritzker Private Capital', domain: 'ppcpartners.com' },
+  { name: 'Symphony Technology Group', domain: 'stg.com' },
+  { name: 'Trian Fund Management', domain: 'trianpartners.com' },
+  { name: 'Prospect Capital Management', domain: 'prospectcap.com' },
+  { name: 'CORE Industrial Partners', domain: 'coreipfund.com' },
+  { name: 'Five Elms Capital', domain: 'fiveelms.com' },
+];
+
+async function searchPeopleByDomain(domain, titles) {
   return new Promise((resolve, reject) => {
-    const postData = JSON.stringify({
-      q_organization_name: companyName,
+    const data = JSON.stringify({
+      q_organization_domains: [domain],
       person_titles: titles,
       page: 1,
       per_page: 10
     });
-    
+
     const options = {
       hostname: 'api.apollo.io',
-      port: 443,
       path: '/v1/mixed_people/search',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Content-Length': postData.length,
-        'X-Api-Key': APOLLO_API_KEY,
-        'Cache-Control': 'no-cache'
+        'Content-Length': data.length,
+        'X-Api-Key': APOLLO_API_KEY
       }
     };
-    
+
     const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => { data += chunk; });
+      let responseData = '';
+      res.on('data', (chunk) => { responseData += chunk; });
       res.on('end', () => {
-        try {
-          resolve(JSON.parse(data));
-        } catch (e) {
-          reject(e);
+        if (res.statusCode === 200) {
+          try {
+            resolve(JSON.parse(responseData));
+          } catch (e) {
+            reject(new Error(`Parse error: ${e.message}`));
+          }
+        } else {
+          reject(new Error(`HTTP ${res.statusCode}: ${responseData}`));
         }
       });
     });
-    
+
     req.on('error', reject);
-    req.write(postData);
+    req.write(data);
     req.end();
   });
 }
 
-async function main() {
-  const searches = [
-    { company: 'Blue Star Innovation Partners', titles: ['Managing Partner', 'CEO', 'Partner', 'Founder'] },
-    { company: 'Huron Capital', titles: ['Managing Partner', 'Partner', 'CEO'] },
-    { company: 'General Atlantic', titles: ['Managing Director', 'Partner'] }
+async function enrichFirms() {
+  console.log('Apollo.io PE Contact Enrichment (Fixed API)');
+  console.log('=' .repeat(70));
+  console.log('Searching for C-level, Partners, and Directors at PE firms...\n');
+
+  const titles = [
+    'CEO', 'Managing Partner', 'Managing Director', 
+    'Partner', 'Co-Founder', 'President', 
+    'Chief Operating Officer', 'COO', 'CTO', 'CFO',
+    'Director', 'VP', 'Vice President'
   ];
-  
-  console.log('Searching Apollo.io for verified PE contacts (FIXED)...\n');
-  
-  for (const search of searches) {
-    console.log(`=== ${search.company} ===`);
+
+  const enrichedContacts = [];
+
+  for (const firm of firms) {
     try {
-      const result = await searchPeople(search.company, search.titles);
+      console.log(`\nSearching: ${firm.name} (${firm.domain})...`);
+      const result = await searchPeopleByDomain(firm.domain, titles);
       
-      if (result.error) {
-        console.log(`❌ API Error: ${result.error}`);
-      } else if (result.people && result.people.length > 0) {
-        console.log(`Found ${result.people.length} contacts:\n`);
-        result.people.slice(0, 5).forEach(person => {
-          console.log(`✅ ${person.name || person.first_name + ' ' + person.last_name}`);
-          console.log(`   Title: ${person.title || '(not available)'}`);
-          console.log(`   Email: ${person.email || '(not available)'}`);
-          console.log(`   LinkedIn: ${person.linkedin_url || '(not available)'}`);
-          console.log('');
+      if (result.people && result.people.length > 0) {
+        console.log(`  ✓ Found ${result.people.length} contacts:`);
+        result.people.forEach((person, idx) => {
+          console.log(`\n    ${idx + 1}. ${person.name}`);
+          console.log(`       Title: ${person.title || 'N/A'}`);
+          console.log(`       Email: ${person.email || 'NOT AVAILABLE'}`);
+          console.log(`       Email Status: ${person.email_status || 'N/A'}`);
+          console.log(`       LinkedIn: ${person.linkedin_url || 'N/A'}`);
+          
+          enrichedContacts.push({
+            firm: firm.name,
+            name: person.name,
+            title: person.title,
+            email: person.email,
+            emailStatus: person.email_status,
+            linkedin: person.linkedin_url
+          });
         });
       } else {
-        console.log(`❌ No contacts found`);
+        console.log(`  ✗ No contacts found`);
       }
+
+      // Rate limiting
+      await new Promise(resolve => setTimeout(resolve, 1500));
     } catch (error) {
-      console.log(`❌ Error: ${error.message}`);
+      console.log(`  ✗ ERROR: ${error.message}`);
     }
-    console.log('');
-    
-    // Rate limiting
-    await new Promise(resolve => setTimeout(resolve, 1500));
   }
+
+  console.log('\n' + '='.repeat(70));
+  console.log(`TOTAL ENRICHED CONTACTS: ${enrichedContacts.length}`);
+  console.log('=' .repeat(70));
+
+  // Save results to JSON
+  const fs = require('fs');
+  fs.writeFileSync('apollo-results.json', JSON.stringify(enrichedContacts, null, 2));
+  console.log('\nResults saved to: apollo-results.json');
 }
 
-main();
+enrichFirms().catch(console.error);

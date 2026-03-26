@@ -1,0 +1,101 @@
+{
+  "enrichmentDate": "2026-03-16",
+  "enrichmentSession": "Hourly PE Research & Enrichment",
+  "totalReviewed": 15,
+  "actuallyEnriched": 2,
+  "notPEFirms": 6,
+  "findings": {
+    "enriched": [
+      {
+        "row": 380,
+        "company": "SDC Capital Partners",
+        "contact": "Joshua Kurtz",
+        "title": "Chief Financial Officer and Chief Compliance Officer",
+        "email": "jkurtz@sdccapitalpartners.com",
+        "linkedin": "https://www.linkedin.com/in/joshua-kurtz-cpa",
+        "website": "https://sdccapitalpartners.com",
+        "source": "Published on SDC Terms of Use page",
+        "notes": "Also found Vladislava Rebeiz (Partner & General Counsel): vrebeiz@sdccapitalpartners.com on same page. Managing Partners: Todd Aaron, Doug Kaden"
+      },
+      {
+        "row": 507,
+        "company": "Consonance Capital Partners",
+        "contact": "Mitchell J. Blutt, MD",
+        "title": "Co-Founder & Managing Partner",
+        "email": "contactus@consonancecapital.com",
+        "linkedin": "https://www.linkedin.com/company/consonance-capital-partners",
+        "website": "https://www.consonancecapitalpartners.com",
+        "source": "Generic email from contact page",
+        "notes": "Healthcare PE. Other leaders: Benjamin Edmands, Stephen McKenna, Nancy-Ann DeParle. Phone: (212) 660-8060"
+      }
+    ],
+    "genericEmailsFound": [
+      {
+        "row": 402,
+        "company": "Crossplane Capital",
+        "email": "info@crossplanecapital.com",
+        "source": "Press release media contact",
+        "managingPartners": ["Brian Hegi", "Ben Eakes"],
+        "notes": "Dallas-based, lower middle market"
+      },
+      {
+        "row": 497,
+        "company": "Altus Capital Partners",
+        "email": "investor.relations@altuscapitalpartners.com",
+        "source": "Website investor portal message",
+        "founder": "Russell Greenberg",
+        "notes": "Middle market manufacturing focus, Wilton CT"
+      }
+    ],
+    "notPEFirms": [
+      {
+        "row": 448,
+        "company": "Amity Search Partners",
+        "actualType": "Executive Search / Recruiting Firm",
+        "notes": "Private equity recruiting firm, not a PE investor"
+      },
+      {
+        "row": 498,
+        "company": "Anplify",
+        "actualType": "Financial Services / Research KPO",
+        "notes": "Investment banking research and valuation services, not PE"
+      },
+      {
+        "row": 514,
+        "company": "Fried, Williams & Grice Conner LLP",
+        "actualType": "Real Estate Law Firm",
+        "notes": "Oakland/SF law firm, not PE"
+      },
+      {
+        "row": 581,
+        "company": "Centiva Capital",
+        "actualType": "Hedge Fund",
+        "notes": "Multi-strategy hedge fund, not PE"
+      },
+      {
+        "row": 582,
+        "company": "Champlain Advisors",
+        "actualType": "Placement Agent / Broker-Dealer",
+        "notes": "Fundraising placement services FOR PE firms, not a PE firm"
+      },
+      {
+        "row": 593,
+        "company": "Drake Star",
+        "actualType": "M&A Advisory / Investment Bank",
+        "notes": "Investment banking advisory, not a PE firm"
+      }
+    ],
+    "research Challenges": {
+      "publiclyAvailableEmails": "Very few PE firms publish direct partner emails on their websites. Most use generic contact@ or info@ addresses.",
+      "dataAggregatorLimitation": "Per instructions, cannot use RocketReach/ZoomInfo inferred emails - only publicly published sources.",
+      "apolloAPIIssue": "Apollo organization search failed to find most firms in database.",
+      "serviceProviderMisclassification": "Significant portion of 'PE firms' in sheet are actually service providers (recruiters, advisors, law firms, hedge funds)."
+    }
+  },
+  "recommendations": [
+    "Clean the master list to remove non-PE firms (recruiters, advisors, law firms, hedge funds)",
+    "For firms with only generic emails (info@, ir@, contact@), consider LinkedIn outreach or using Apollo person search with firmographics",
+    "Focus enrichment efforts on mid-market PE firms ($500M-$5B AUM) as they tend to have better online presence",
+    "Consider using press releases and conference speaker lists as sources for published contact info"
+  ]
+}

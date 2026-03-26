@@ -1,0 +1,36 @@
+PE LEAD ENRICHMENT ANALYSIS
+Date: 2026-03-05 22:06 CST
+
+FIRMS NEEDING ENRICHMENT (Priority Order):
+
+HIGH PRIORITY (No real contact or generic email):
+1. Muse - No contact info at all
+2. Backstroke - No contact info at all  
+3. Satso - No contact info at all
+4. Amulet Capital Partners - Jacob Zodikoff placeholder
+5. Carousel Capital - Jacob Zodikoff placeholder, no email
+6. The Riverside Company - Béla Szigethy (Founder), no email, marked "Partial"
+7. Sverica Capital Management - Deepak Jeevankumar (MD), no email
+8. Chicago Pacific Founders - R.J. Gupta (Founding Partner), no email
+9. Monroe Capital - Theodore Koenig (CEO), info@ email
+10. NexPhase Capital - Richard Lawson (MD), no email
+
+MEDIUM PRIORITY (Has placeholder or needs verification):
+11. Alta Park Capital - Listed as hedge fund, not PE - verify suitability
+12. Apercen Partners - Tax consulting, not PE investor
+13. ArrowMark Partners - Asset management, not PE
+14. Wall Street Oasis - Community site, not investor
+15. Wall Street Prep - Training company, not investor
+16. Wefunder - Crowdfunding platform, not PE
+
+LOW PRIORITY (Has partial info but could improve):
+17. Goode Partners - Multiple partners identified but marked "Partial"
+18. Ocean Avenue Capital - Pete Notz (Partner), email inferred
+19. Palladium Equity Partners - Scott Kirschner (MD), email inferred
+20. Patriot Capital - Jonathan Cope (Partner), no email yet
+
+RESEARCH STRATEGY:
+- Focus on firms with $500M-$5B AUM
+- Target services-heavy portfolios
+- Search: LinkedIn, firm websites, press releases, conference bios
+- Verify emails via official sources only (no guessing)

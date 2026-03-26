@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Moltslack EP — Music Player</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+:root{--bg:#0a0a12;--surface:rgba(255,255,255,.04);--border:rgba(255,255,255,.08);--purple:#a855f7;--cyan:#06b6d4;--pink:#ec4899;--text:#e0e0e0;--muted:#666}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;overflow-x:hidden}
+
+/* Background glow */
+body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 20%,rgba(168,85,247,.08) 0%,transparent 50%),radial-gradient(circle at 70% 80%,rgba(6,182,212,.06) 0%,transparent 50%);pointer-events:none;z-index:0}
+
+.container{position:relative;z-index:1;max-width:600px;width:100%;padding:20px;margin:0 auto}
+
+/* Header */
+.header{text-align:center;padding:40px 0 20px}
+.header h1{font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--purple),var(--cyan),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-1px}
+.header .subtitle{color:var(--muted);font-size:.9rem;margin-top:4px;letter-spacing:2px;text-transform:uppercase}
+
+/* Album Art */
+.album-art{width:280px;height:280px;margin:24px auto;border-radius:16px;background:linear-gradient(135deg,#1a0533,#0e2a3a,#1a0533);position:relative;overflow:hidden;box-shadow:0 20px 60px rgba(168,85,247,.2),0 0 120px rgba(6,182,212,.1)}
+.album-art::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(168,85,247,.03) 2px,rgba(168,85,247,.03) 4px)}
+.album-art::after{content:'🎵';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:6rem;filter:grayscale(.3);opacity:.6}
+.album-art .vinyl{position:absolute;width:120px;height:120px;border-radius:50%;border:2px solid rgba(168,85,247,.3);top:50%;left:50%;transform:translate(-50%,-50%);animation:spin 4s linear infinite paused}
+.playing .album-art .vinyl{animation-play-state:running}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.album-art .vinyl::after{content:'';position:absolute;width:16px;height:16px;background:var(--bg);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);border:2px solid rgba(168,85,247,.5)}
+
+/* Visualizer */
+.visualizer{display:flex;align-items:flex-end;justify-content:center;gap:3px;height:40px;margin:16px auto;width:200px}
+.visualizer .bar{width:4px;background:linear-gradient(to top,var(--cyan),var(--purple));border-radius:2px;animation:none;transition:height .1s}
+.playing .visualizer .bar{animation:vbar var(--d) ease-in-out infinite alternate}
+@keyframes vbar{0%{height:4px;opacity:.4}100%{height:var(--h);opacity:1}}
+
+/* Now Playing */
+.now-playing{text-align:center;margin:8px 0}
+.now-playing .track-title{font-size:1.2rem;font-weight:700}
+.now-playing .track-index{color:var(--muted);font-size:.8rem;margin-top:2px}
+
+/* Progress */
+.progress-wrap{margin:16px 0 8px;cursor:pointer;padding:8px 0}
+.progress-bar{width:100%;height:4px;background:rgba(255,255,255,.1);border-radius:2px;position:relative;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--purple),var(--cyan));border-radius:2px;width:0%;transition:width .1s linear}
+.time-display{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);font-family:'JetBrains Mono',monospace;margin-top:4px}
+
+/* Controls */
+.controls{display:flex;align-items:center;justify-content:center;gap:24px;margin:16px 0}
+.controls button{background:none;border:none;color:var(--text);cursor:pointer;transition:color .2s,transform .2s}
+.controls button:hover{color:var(--purple);transform:scale(1.1)}
+.btn-prev,.btn-next{font-size:1.4rem;width:40px;height:40px;display:flex;align-items:center;justify-content:center}
+.btn-play{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--purple),var(--pink));display:flex;align-items:center;justify-content:center;font-size:1.6rem;box-shadow:0 4px 20px rgba(168,85,247,.4);color:#fff!important}
+.btn-play:hover{box-shadow:0 4px 30px rgba(168,85,247,.6);transform:scale(1.08)!important}
+
+/* Volume */
+.volume-wrap{display:flex;align-items:center;justify-content:center;gap:8px;margin:8px 0}
+.volume-wrap span{font-size:.9rem;color:var(--muted)}
+.volume-wrap input[type=range]{-webkit-appearance:none;width:120px;height:4px;background:rgba(255,255,255,.15);border-radius:2px;outline:none}
+.volume-wrap input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--cyan);cursor:pointer}
+
+/* Track List */
+.tracklist{margin:24px 0 40px;border-radius:12px;overflow:hidden;background:var(--surface);border:1px solid var(--border)}
+.track{display:flex;align-items:center;padding:14px 16px;cursor:pointer;transition:background .2s;border-bottom:1px solid var(--border);gap:12px}
+.track:last-child{border-bottom:none}
+.track:hover{background:rgba(168,85,247,.08)}
+.track.active{background:rgba(168,85,247,.12)}
+.track.active .track-num{color:var(--cyan)}
+.track.active .track-name{color:#fff}
+.track-num{font-family:'JetBrains Mono',monospace;font-size:.8rem;color:var(--muted);width:24px;text-align:center;flex-shrink:0}
+.track.active .track-num::after{content:'♫';margin-left:-16px}
+.track.active .track-num span{display:none}
+.track-name{flex:1;font-size:.95rem;font-weight:500;color:#bbb}
+.track-dur{font-family:'JetBrains Mono',monospace;font-size:.8rem;color:var(--muted)}
+
+/* Back link */
+.back{display:inline-block;margin:20px 0;color:var(--muted);text-decoration:none;font-size:.85rem;transition:color .2s}
+.back:hover{color:var(--purple)}
+
+/* Mobile */
+@media(max-width:480px){
+.album-art{width:220px;height:220px}
+.header h1{font-size:1.8rem}
+.controls{gap:16px}
+.btn-play{width:56px;height:56px;font-size:1.4rem}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<a href="../" class="back">← Back to Showcase</a>
+<div class="header">
+<h1>The Moltslack EP</h1>
+<div class="subtitle">10 Tracks • Synthwave • 2026</div>
+</div>
+
+<div class="album-art">
+<div class="vinyl"></div>
+</div>
+
+<div class="visualizer" id="visualizer"></div>
+
+<div class="now-playing">
+<div class="track-title" id="nowTitle">Select a track</div>
+<div class="track-index" id="nowIndex"></div>
+</div>
+
+<div class="progress-wrap" id="progressWrap">
+<div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+<div class="time-display"><span id="timeCur">0:00</span><span id="timeDur">0:00</span></div>
+</div>
+
+<div class="controls">
+<button class="btn-prev" onclick="prev()" title="Previous">⏮</button>
+<button class="btn-play" id="btnPlay" onclick="togglePlay()" title="Play/Pause">▶</button>
+<button class="btn-next" onclick="next()" title="Next">⏭</button>
+</div>
+
+<div class="volume-wrap">
+<span>🔈</span>
+<input type="range" min="0" max="1" step="0.01" value="0.7" id="volume" oninput="setVol(this.value)">
+<span>🔊</span>
+</div>
+
+<div class="tracklist" id="tracklist"></div>
+</div>
+
+<audio id="audio"></audio>
+
+<script>
+const tracks=[
+'compile-and-conquer','deploy-to-production','late-night-deploy',
+'merge-conflict','midnight-deploy','moltslack-single',
+'neon-grind-vocals','neon-grind','shipping-mode','stack-overflow'
+];
+
+function fmt(n){return n.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join(' ')}
+function ftime(s){if(isNaN(s))return'0:00';const m=Math.floor(s/60),ss=Math.floor(s%60);return m+':'+String(ss).padStart(2,'0')}
+
+const audio=document.getElementById('audio');
+const btnPlay=document.getElementById('btnPlay');
+const progressFill=document.getElementById('progressFill');
+const timeCur=document.getElementById('timeCur');
+const timeDur=document.getElementById('timeDur');
+const nowTitle=document.getElementById('nowTitle');
+const nowIndex=document.getElementById('nowIndex');
+const tracklist=document.getElementById('tracklist');
+let cur=-1;
+
+// Build visualizer bars
+const viz=document.getElementById('visualizer');
+for(let i=0;i<24;i++){const b=document.createElement('div');b.className='bar';b.style.setProperty('--d',(Math.random()*.4+.3)+'s');b.style.setProperty('--h',(Math.random()*28+8)+'px');b.style.animationDelay=(Math.random()*.5)+'s';viz.appendChild(b)}
+
+// Build tracklist
+tracks.forEach((t,i)=>{
+const d=document.createElement('div');
+d.className='track';
+d.innerHTML=`<div class="track-num"><span>${i+1}</span></div><div class="track-name">${fmt(t)}</div><div class="track-dur" id="dur${i}">--:--</div>`;
+d.onclick=()=>play(i);
+tracklist.appendChild(d);
+});
+
+function play(i){
+cur=i;
+audio.src='tracks/'+tracks[i]+'.mp3';
+audio.play();
+btnPlay.textContent='⏸';
+document.body.classList.add('playing');
+nowTitle.textContent=fmt(tracks[i]);
+nowIndex.textContent=`Track ${i+1} of ${tracks.length}`;
+document.querySelectorAll('.track').forEach((t,j)=>t.classList.toggle('active',j===i));
+}
+
+function togglePlay(){
+if(cur<0){play(0);return}
+if(audio.paused){audio.play();btnPlay.textContent='⏸';document.body.classList.add('playing')}
+else{audio.pause();btnPlay.textContent='▶';document.body.classList.remove('playing')}
+}
+
+function prev(){play(cur<=0?tracks.length-1:cur-1)}
+function next(){play(cur>=tracks.length-1?0:cur+1)}
+function setVol(v){audio.volume=v}
+
+audio.volume=0.7;
+audio.addEventListener('timeupdate',()=>{
+if(audio.duration){progressFill.style.width=(audio.currentTime/audio.duration*100)+'%';timeCur.textContent=ftime(audio.currentTime);timeDur.textContent=ftime(audio.duration)}
+});
+audio.addEventListener('ended',()=>next());
+audio.addEventListener('loadedmetadata',()=>{
+if(cur>=0)document.getElementById('dur'+cur).textContent=ftime(audio.duration);
+});
+
+document.getElementById('progressWrap').addEventListener('click',e=>{
+if(cur<0||!audio.duration)return;
+const r=e.currentTarget.getBoundingClientRect();
+audio.currentTime=((e.clientX-r.left)/r.width)*audio.duration;
+});
+
+// Preload durations
+tracks.forEach((t,i)=>{const a=new Audio('tracks/'+t+'.mp3');a.addEventListener('loadedmetadata',()=>{document.getElementById('dur'+i).textContent=ftime(a.duration)})});
+</script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+[
+  {
+    "rowIndex": 2,
+    "company": "Audax Private Equity",
+    "domain": "https://www.audaxprivateequity.com",
+    "contactName": "Matthew Gosselin",
+    "title": "Managing Director",
+    "email": "mgosselin@audaxprivateequity.com",
+    "status": "Needs Email",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 3,
+    "company": "424 Capital",
+    "domain": "",
+    "contactName": "Stephen Hindmarch",
+    "title": "Partner",
+    "email": "shindmarch@graycliffpartners.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 4,
+    "company": "Thesis Capital Partners",
+    "domain": "https://www.thesiscapital.com",
+    "contactName": "Ian J.H. Reynolds",
+    "title": "Partner",
+    "email": "ian@thesiscapital.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 6,
+    "company": "Regal Healthcare Capital Partners",
+    "domain": "https://www.regalhcp.com",
+    "contactName": "Hisham Elhaddad",
+    "title": "Co-Founder & Managing Partner",
+    "email": "helhaddad@hofcapital.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 7,
+    "company": "SDC Capital Partners",
+    "domain": "https://sdccapitalpartners.com",
+    "contactName": "Todd Aaron",
+    "title": "Founder & Managing Partner",
+    "email": "taaron@sdccapitalpartners.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 8,
+    "company": "Rockbridge Growth Equity, LLC",
+    "domain": "https://www.rbequity.com",
+    "contactName": "Kevin Prokop",
+    "title": "Co-Founder and Managing Partner",
+    "email": "kprokop@rbequity.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 9,
+    "company": "Aeris Partners",
+    "domain": "https://www.aerispartners.com",
+    "contactName": "David W. Joncas",
+    "title": "Managing Director, Co-Founder",
+    "email": "dwj@aerispartners.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 68,
+    "company": "Pamlico Capital",
+    "domain": "https://www.pamlicocapital.com",
+    "contactName": "Stuart Christhilf",
+    "title": "Partner & COO",
+    "email": "schristhilf@pamlicocapital.com",
+    "status": "Needs Email",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 191,
+    "company": "Flexpoint Ford",
+    "domain": "https://www.flexpointford.com",
+    "contactName": "Don Edwards",
+    "title": "Chief Executive Officer",
+    "email": "dedwards@flexpointford.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 377,
+    "company": "Petra Capital Partners",
+    "domain": "http://www.petracapital.com",
+    "contactName": "Michael Blackburn",
+    "title": "Managing Partner",
+    "email": "mwb@petracapital.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 378,
+    "company": "Regal Healthcare Capital Partners",
+    "domain": "http://www.regalhcp.com",
+    "contactName": "Jon Santemma",
+    "title": "Co-Founder & General Partner",
+    "email": "jsantemma@regalhcp.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 386,
+    "company": "TT Capital Partners",
+    "domain": "http://www.ttcapitalpartners.com",
+    "contactName": "Kevin Green",
+    "title": "Executive Chairman & Partner (Founder)",
+    "email": "kgreen@ttcapitalpartners.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 387,
+    "company": "424 Capital",
+    "domain": "http://www.424capital.com",
+    "contactName": "Kyle Stanbro",
+    "title": "Co-Founder & Managing Partner",
+    "email": "kstanbro@424capital.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 392,
+    "company": "Avenue Growth Partners",
+    "domain": "http://www.avenuegp.com",
+    "contactName": "Brian Goldsmith",
+    "title": "Co-Founder & Partner",
+    "email": "brian@avenuegp.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 394,
+    "company": "Blue Star Innovation Partners",
+    "domain": "http://www.bluestarinnovationpartners.com",
+    "contactName": "Rob Wechsler",
+    "title": "Founder / Managing Partner",
+    "email": "rob@bluestarinnovationpartners.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 395,
+    "company": "Casa Verde Capital",
+    "domain": "http://www.casaverdecapital.com",
+    "contactName": "Karan Wadhera",
+    "title": "Managing Partner",
+    "email": "karan@casaverdecapital.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 396,
+    "company": "Clearhaven Partners",
+    "domain": "http://www.clearhavenpartners.com",
+    "contactName": "Michelle Noon",
+    "title": "Founder and Managing Partner",
+    "email": "mnoon@clearhavenpartners.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 400,
+    "company": "Cornell Capital",
+    "domain": "http://www.cornellcapllc.com",
+    "contactName": "Henry Cornell",
+    "title": "Senior Partner (Founder)",
+    "email": "henry@cornellcapllc.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 424,
+    "company": "MiddleGround Capital",
+    "domain": "http://www.middleground.com",
+    "contactName": "John Stewart",
+    "title": "Founding & Managing Partner",
+    "email": "jstewart@middleground.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 425,
+    "company": "Monomoy Capital Partners",
+    "domain": "http://www.mcpfunds.com",
+    "contactName": "Justin Hillenbrand",
+    "title": "Founding Partner, Co-Chief Executive Officer",
+    "email": "jhillenbrand@mcpfunds.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 471,
+    "company": "Lateral Investment Management",
+    "domain": "http://www.lateralim.com",
+    "contactName": "Richard de Silva",
+    "title": "Founder & Managing Partner",
+    "email": "richard@lateralim.com",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 491,
+    "company": "TIFF Investment Management",
+    "domain": "http://www.tiff.org",
+    "contactName": "Kane Brenan",
+    "title": "Chief Executive Officer",
+    "email": "kbrenan@tiff.org",
+    "status": "Researched",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 511,
+    "company": "Emerging Capital Partners - ECP",
+    "domain": "",
+    "contactName": "Carolyn Campbell",
+    "title": "Managing Director & Founding Partner",
+    "email": "ccampbell@ecpinvestments.com",
+    "status": "Needs Email",
+    "priority": "LOW"
+  },
+  {
+    "rowIndex": 861,
+    "company": "Wynnchurch Capital",
+    "domain": "",
+    "contactName": "John Hatherly",
+    "title": "Managing Partner, Founder",
+    "email": "jhatherly@wynnchurch.com",
+    "status": "Needs Email",
+    "priority": "LOW"
+  }
+]

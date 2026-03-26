@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NexusAI Outreach Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1><span>NexusAI</span> Outreach Dashboard</h1>
+  <div class="search-box">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="Search tools, pain points, industries…">
+  </div>
+</header>
+<div class="filters" id="filters"></div>
+<div class="grid" id="grid"></div>
+<script>
+const BASE="https://joesmod.github.io/physician-contract-analyzer/apps";
+const tools=[
+{name:"AI ROI Calculator",slug:"roi-calculator",pain:"Prospects waste weeks guessing if AI is worth it. This gives them hard numbers in minutes.",tags:["Finance","Operations"],industries:"SaaS, agencies, consulting firms, healthcare orgs",snippets:[
+`Hey [First Name],\n\nQuick question — has [Company Name] tried to put real numbers behind AI adoption yet? Most teams I talk to are guessing. We built a free ROI calculator that spits out projections in about 60 seconds.\n\nMight be worth a look: ${BASE}/roi-calculator/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nI keep hearing the same thing from ops leaders: "We know AI could help, but we can't justify the spend." Sound familiar? This calculator was built exactly for that conversation.\n\nTry it here: ${BASE}/roi-calculator/\n\nBest,\nJim @ NexusAI`,
+`Hi [First Name],\n\nBefore [Company Name] commits budget to any AI initiative, run the numbers through this — takes a minute and you'll have a slide-ready ROI breakdown.\n\n${BASE}/roi-calculator/\n\nHappy to walk through results anytime.\n— Jim @ NexusAI`
+]},
+{name:"Cold Email Generator",slug:"cold-email-generator",pain:"Writing personalized outreach at scale is brutal. This generates tailored cold emails in seconds.",tags:["Sales","Operations"],industries:"Sales teams, agencies, recruiters, startups",snippets:[
+`Hey [First Name],\n\nWriting cold emails that don't sound cold is an art — and a time sink. We built a tool that generates personalized outreach in seconds. Your SDRs might love it.\n\nCheck it out: ${BASE}/cold-email-generator/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nIf [Company Name]'s outbound team is spending more time writing emails than sending them, this might help. AI-generated cold emails, personalized and ready to send.\n\n${BASE}/cold-email-generator/\n\nLet me know what you think!\n— Jim @ NexusAI`,
+`Hi [First Name],\n\nScaling outreach without sounding robotic? That's exactly what this does. Plug in a few details about the prospect and get a polished email back instantly.\n\nTry it: ${BASE}/cold-email-generator/\n\nBest,\nJim @ NexusAI`
+]},
+{name:"Non-Compete Checker",slug:"non-compete-checker",pain:"Non-compete clauses create hidden risk. This tool analyzes agreements and flags enforceability issues fast.",tags:["Legal","Documents"],industries:"Law firms, HR departments, staffing agencies, healthcare",snippets:[
+`Hey [First Name],\n\nNon-competes are tricky — enforceability varies wildly by state and clause. We built a free checker that flags the risky parts in seconds. Could save [Company Name] some headaches.\n\nTake a look: ${BASE}/non-compete-checker/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nIf [Company Name] deals with employment contracts, this might be useful. Our AI non-compete checker breaks down clause risks and enforceability without needing a lawyer on speed dial.\n\n${BASE}/non-compete-checker/\n\nBest,\nJim @ NexusAI`,
+`Hi [First Name],\n\nQuick one — ever had a hire delayed because legal was reviewing a non-compete? This tool gives you an instant risk analysis so you can move faster.\n\nDemo: ${BASE}/non-compete-checker/\n\n— Jim @ NexusAI`
+]},
+{name:"Scope-of-Work Tracker",slug:"scope-tracker",pain:"Scope creep kills margins. This tracks deliverables and change orders so nothing slips through the cracks.",tags:["Operations","Documents"],industries:"Agencies, dev shops, consulting firms, contractors",snippets:[
+`Hey [First Name],\n\nScope creep is the silent margin killer — you know the drill. We built a tracker that keeps deliverables and change orders organized in one place. Might be worth a spin for [Company Name].\n\n${BASE}/scope-tracker/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nIf [Company Name] runs client projects, you've probably felt the pain of undocumented scope changes. This tool makes tracking them dead simple.\n\nCheck it out: ${BASE}/scope-tracker/\n\nBest,\nJim @ NexusAI`,
+`Hi [First Name],\n\nEvery agency I talk to has the same problem: scope changes happen verbally and never get logged. This fixes that. Quick demo here: ${BASE}/scope-tracker/\n\n— Jim @ NexusAI`
+]},
+{name:"Review Response Manager",slug:"review-manager",pain:"Negative reviews tank trust. This generates professional, on-brand responses in seconds.",tags:["Reputation","Sales"],industries:"Restaurants, healthcare, retail, local services, hospitality",snippets:[
+`Hey [First Name],\n\nOne bad review without a response can cost you dozens of customers. We built a tool that drafts professional replies to reviews in seconds — keeps [Company Name]'s reputation tight.\n\nTry it: ${BASE}/review-manager/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nManaging online reviews is a full-time job nobody signed up for. This tool generates thoughtful, on-brand responses so your team can stay focused on what matters.\n\n${BASE}/review-manager/\n\nBest,\nJim @ NexusAI`,
+`Hi [First Name],\n\nQuick question — how does [Company Name] handle negative reviews right now? If it's manual, this might save your team hours every week. AI-generated responses, professional tone, ready to post.\n\nDemo: ${BASE}/review-manager/\n\n— Jim @ NexusAI`
+]},
+{name:"AI Proposal Generator",slug:"proposal-generator",pain:"Writing proposals from scratch eats hours. This turns a brief into a polished proposal instantly.",tags:["Sales","Documents"],industries:"Agencies, freelancers, consulting firms, dev shops",snippets:[
+`Hey [First Name],\n\nHow much time does [Company Name] spend writing proposals? Most teams I talk to say 3-5 hours each. This tool cuts that to minutes — plug in a brief, get a polished proposal.\n\n${BASE}/proposal-generator/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nIf your team is rewriting proposals from scratch every time, this will change the game. AI-generated proposals from a simple brief — formatted and ready to send.\n\nTry it: ${BASE}/proposal-generator/\n\nBest,\nJim @ NexusAI`,
+`Hi [First Name],\n\nWinning more deals often comes down to responding faster. This proposal generator helps [Company Name] go from brief to polished proposal in minutes, not days.\n\n${BASE}/proposal-generator/\n\n— Jim @ NexusAI`
+]},
+{name:"AI Bookkeeper",slug:"ai-bookkeeper",pain:"Manual bookkeeping is tedious and error-prone. This auto-categorizes expenses and keeps the books clean.",tags:["Finance","Operations"],industries:"Small businesses, freelancers, startups, e-commerce",snippets:[
+`Hey [First Name],\n\nIf [Company Name] is still categorizing expenses by hand, this might save you serious time. Our AI bookkeeper auto-sorts transactions and keeps everything tidy.\n\nCheck it out: ${BASE}/ai-bookkeeper/\n\nCheers,\nJim @ NexusAI`,
+`[First Name],\n\nBookkeeping shouldn't eat into your week. This tool handles expense tracking and categorization automatically — so you can focus on running the business.\n\n${BASE}/ai-bookkeeper/\n\nBest,\nJim @ NexusAI`,
+`Hi [First Name],\n\nTax season is always easier when the books are clean year-round. This AI bookkeeper keeps [Company Name]'s expenses organized without the manual grind.\n\nDemo: ${BASE}/ai-bookkeeper/\n\n— Jim @ NexusAI`
+]}
+];
+
+const allTags=[...new Set(tools.flatMap(t=>t.tags))].sort();
+const filtersEl=document.getElementById("filters");
+const gridEl=document.getElementById("grid");
+let activeTag=null;
+
+// Build filter buttons
+const allBtn=document.createElement("button");
+allBtn.textContent="All";allBtn.classList.add("active");
+allBtn.onclick=()=>{activeTag=null;render()};
+filtersEl.appendChild(allBtn);
+allTags.forEach(tag=>{
+  const b=document.createElement("button");b.textContent=tag;
+  b.onclick=()=>{activeTag=tag;render()};
+  filtersEl.appendChild(b);
+});
+
+function render(){
+  const q=document.getElementById("search").value.toLowerCase();
+  document.querySelectorAll(".filters button").forEach(b=>{
+    b.classList.toggle("active",activeTag?b.textContent===activeTag:b.textContent==="All");
+  });
+  gridEl.innerHTML="";
+  tools.forEach(t=>{
+    if(activeTag&&!t.tags.includes(activeTag))return;
+    const blob=(t.name+t.pain+t.tags.join(" ")+t.industries+t.snippets.join(" ")).toLowerCase();
+    if(q&&!blob.includes(q))return;
+    const card=document.createElement("div");card.className="card";
+    card.innerHTML=`
+      <div class="card-header"><h2>${t.name}</h2><a href="${BASE}/${t.slug}/" target="_blank" rel="noopener">Open Demo ↗</a></div>
+      <p class="pain">${t.pain}</p>
+      <div class="tags">${t.tags.map(tg=>`<span>${tg}</span>`).join("")}</div>
+      <p class="industries">${t.industries}</p>
+      <div class="snippets">${t.snippets.map((s,i)=>`<div class="snippet"><button class="copy-btn" data-i="${i}">Copy</button>${esc(s)}</div>`).join("")}</div>`;
+    card.querySelectorAll(".copy-btn").forEach((btn,i)=>{
+      btn.onclick=()=>{
+        navigator.clipboard.writeText(t.snippets[i]).then(()=>{
+          btn.textContent="Copied!";btn.classList.add("copied");
+          setTimeout(()=>{btn.textContent="Copy";btn.classList.remove("copied")},1500);
+        });
+      };
+    });
+    gridEl.appendChild(card);
+  });
+}
+
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+document.getElementById("search").addEventListener("input",render);
+render();
+</script>
+</body>
+</html>

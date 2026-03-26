@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Proposal Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>✦ AI Proposal Generator</h1>
+    <p>Create professional project proposals in seconds</p>
+  </header>
+
+  <div class="cta-banner">💡 <strong>Need help with AI integration?</strong> Let us build it for you — <a href="https://nexusai.dev" target="_blank">nexusai.dev</a></div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="create">Create Proposal</button>
+    <button class="tab-btn" data-tab="preview">Preview</button>
+    <button class="tab-btn" data-tab="history">History</button>
+  </div>
+
+  <!-- CREATE TAB -->
+  <div class="tab-panel active" id="tab-create">
+    <div class="card">
+      <h2>Client & Project Details</h2>
+      <div class="form-grid">
+        <div class="form-group"><label>Client Name</label><input id="clientName" placeholder="Acme Corp"></div>
+        <div class="form-group"><label>Your Company Name</label><input id="companyName" placeholder="Your Agency"></div>
+        <div class="form-group"><label>Project Type</label>
+          <select id="projectType">
+            <option value="">Select a project type…</option>
+            <option>Website</option>
+            <option>Mobile App</option>
+            <option>AI Integration</option>
+            <option>Marketing Campaign</option>
+            <option>Custom Software</option>
+            <option>Consulting</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Estimated Budget Range</label>
+          <select id="budget">
+            <option value="5000-10000">$5,000 – $10,000</option>
+            <option value="10000-25000">$10,000 – $25,000</option>
+            <option value="25000-50000" selected>$25,000 – $50,000</option>
+            <option value="50000-100000">$50,000 – $100,000</option>
+            <option value="100000-250000">$100,000 – $250,000</option>
+            <option value="250000+">$250,000+</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Timeline</label>
+          <select id="timeline">
+            <option value="2-4 weeks">2–4 Weeks</option>
+            <option value="1-2 months" selected>1–2 Months</option>
+            <option value="2-3 months">2–3 Months</option>
+            <option value="3-6 months">3–6 Months</option>
+            <option value="6-12 months">6–12 Months</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Contact Email</label><input id="contactEmail" type="email" placeholder="you@company.com"></div>
+        <div class="form-group full"><label>Project Description</label><textarea id="projectDesc" placeholder="Describe the project goals, target audience, key requirements…"></textarea></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>AI Enhancement (Optional)</h2>
+      <div class="toggle-row">
+        <label class="toggle"><input type="checkbox" id="useAI"><span class="slider"></span></label>
+        <span style="font-size:.9rem">Use OpenAI GPT to enhance the proposal</span>
+      </div>
+      <div class="api-key-wrap" id="apiKeyWrap">
+        <div class="form-group" style="margin-top:.5rem"><label>OpenAI API Key</label><input id="apiKey" type="password" placeholder="sk-…"></div>
+        <p style="font-size:.8rem;color:var(--text2);margin-top:.35rem">Your key is never stored — used only for this request.</p>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <button class="btn btn-primary" id="generateBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        Generate Proposal
+      </button>
+    </div>
+  </div>
+
+  <!-- PREVIEW TAB -->
+  <div class="tab-panel" id="tab-preview">
+    <div id="previewEmpty" class="empty-state">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+      <p>No proposal yet — fill in the form and generate one.</p>
+    </div>
+    <div id="generatingState" class="generating" style="display:none"><div class="spinner"></div>Generating with GPT…</div>
+    <div class="proposal-output" id="proposalOutput">
+      <div class="card" id="proposalContent"></div>
+      <div class="btn-group" style="margin-bottom:2rem">
+        <button class="btn btn-primary" onclick="window.print()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Export PDF
+        </button>
+        <button class="btn btn-secondary" id="copyBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy as Text
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HISTORY TAB -->
+  <div class="tab-panel" id="tab-history">
+    <div id="historyList"></div>
+  </div>
+</div>
+
+<script>
+// ── Project Type Templates ──
+const TEMPLATES = {
+  "Website": {
+    scope: ["UI/UX design and prototyping","Responsive front-end development","CMS integration and content setup","SEO optimization and performance tuning","Cross-browser and device testing","Analytics and tracking implementation"],
+    deliverables: ["Fully responsive website","Admin CMS dashboard","SEO audit report","Performance optimization report","Training documentation"],
+    milestones: [["Discovery & Wireframes","Week 1–2"],["UI Design & Approval","Week 2–3"],["Front-End Development","Week 3–5"],["CMS Integration & Content","Week 5–6"],["QA Testing & Launch","Week 6–7"]]
+  },
+  "Mobile App": {
+    scope: ["Native/cross-platform app architecture","UI/UX design for iOS and Android","Core feature development","API integration and backend connectivity","Push notifications and offline support","App store submission and optimization"],
+    deliverables: ["iOS and Android applications","API documentation","App store assets and listings","User testing report","Post-launch support plan"],
+    milestones: [["Requirements & Architecture","Week 1–2"],["UI/UX Design","Week 2–4"],["Core Development Sprint","Week 4–8"],["API Integration & Testing","Week 8–10"],["Beta Testing & Store Submission","Week 10–12"]]
+  },
+  "AI Integration": {
+    scope: ["AI/ML requirements analysis","Model selection and evaluation","Data pipeline architecture","API development and integration","Model training and fine-tuning","Performance monitoring and optimization"],
+    deliverables: ["Trained AI model(s)","REST API endpoints","Integration documentation","Performance benchmarks","Monitoring dashboard"],
+    milestones: [["Data Audit & Requirements","Week 1–2"],["Model Prototyping","Week 2–4"],["Pipeline Development","Week 4–6"],["Integration & Testing","Week 6–8"],["Optimization & Deployment","Week 8–10"]]
+  },
+  "Marketing Campaign": {
+    scope: ["Market research and audience analysis","Campaign strategy development","Creative asset production","Multi-channel ad setup and management","A/B testing and optimization","Analytics and performance reporting"],
+    deliverables: ["Campaign strategy document","Creative assets package","Ad account setup and configurations","Weekly performance reports","Final ROI analysis report"],
+    milestones: [["Research & Strategy","Week 1–2"],["Creative Production","Week 2–3"],["Campaign Launch","Week 3–4"],["Optimization Phase","Week 4–8"],["Final Report & Handoff","Week 8"]]
+  },
+  "Custom Software": {
+    scope: ["Requirements gathering and system architecture","Database design and data modeling","Back-end development","Front-end application development","Third-party integrations","Security audit and penetration testing"],
+    deliverables: ["Production-ready application","Source code repository","Technical documentation","Deployment runbook","Security audit report"],
+    milestones: [["Discovery & Architecture","Week 1–3"],["Database & Backend Dev","Week 3–7"],["Frontend Development","Week 7–10"],["Integration & QA","Week 10–12"],["Deployment & Handoff","Week 12–14"]]
+  },
+  "Consulting": {
+    scope: ["Current state assessment and audit","Stakeholder interviews and workshops","Gap analysis and opportunity mapping","Strategic roadmap development","Technology recommendations","Implementation planning"],
+    deliverables: ["Assessment report","Strategic roadmap document","Technology recommendation matrix","Implementation timeline","Executive summary presentation"],
+    milestones: [["Kickoff & Discovery","Week 1"],["Stakeholder Interviews","Week 1–2"],["Analysis & Research","Week 2–3"],["Roadmap Development","Week 3–4"],["Final Presentation","Week 4"]]
+  }
+};
+
+// ── Helpers ──
+const $ = s => document.querySelector(s);
+const $$ = s => document.querySelectorAll(s);
+const today = () => new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+const budgetLabel = v => {const m={'5000-10000':'$5,000 – $10,000','10000-25000':'$10,000 – $25,000','25000-50000':'$25,000 – $50,000','50000-100000':'$50,000 – $100,000','100000-250000':'$100,000 – $250,000','250000+':'$250,000+'};return m[v]||v};
+const budgetMid = v => {const p=v.replace('+','').split('-').map(Number);return p.length===1?p[0]:(p[0]+p[1])/2};
+
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
+
+// ── Tabs ──
+$$('.tab-btn').forEach(b=>b.addEventListener('click',()=>{
+  $$('.tab-btn').forEach(t=>t.classList.remove('active'));
+  $$('.tab-panel').forEach(t=>t.classList.remove('active'));
+  b.classList.add('active');
+  $(`#tab-${b.dataset.tab}`).classList.add('active');
+}));
+function switchTab(name){$(`.tab-btn[data-tab="${name}"]`).click()}
+
+// ── AI Toggle ──
+$('#useAI').addEventListener('change',e=>{$('#apiKeyWrap').classList.toggle('show',e.target.checked)});
+
+// ── Generate ──
+$('#generateBtn').addEventListener('click', async ()=>{
+  const client=$('#clientName').value.trim()||'[Client Name]';
+  const company=$('#companyName').value.trim()||'[Your Company]';
+  const type=$('#projectType').value;
+  const budget=$('#budget').value;
+  const timeline=$('#timeline').value;
+  const desc=$('#projectDesc').value.trim()||'A custom project tailored to the client\'s business needs.';
+  const email=$('#contactEmail').value.trim();
+
+  if(!type){alert('Please select a project type.');return}
+
+  const tpl=TEMPLATES[type];
+  const useAI=$('#useAI').checked && $('#apiKey').value.trim();
+
+  switchTab('preview');
+
+  if(useAI){
+    $('#previewEmpty').style.display='none';
+    $('#generatingState').style.display='flex';
+    $('#proposalOutput').classList.remove('visible');
+    try{
+      const enhanced = await generateWithGPT(client,company,type,desc,budget,timeline,tpl,$('#apiKey').value.trim());
+      renderProposal(enhanced);
+    }catch(e){
+      alert('GPT generation failed: '+e.message+'. Falling back to template.');
+      renderProposal(buildTemplate(client,company,type,desc,budget,timeline,email,tpl));
+    }
+    $('#generatingState').style.display='none';
+  } else {
+    const data=buildTemplate(client,company,type,desc,budget,timeline,email,tpl);
+    renderProposal(data);
+  }
+
+  saveHistory({id:uid(),client,company,type,budget,timeline,desc,email,date:today()});
+});
+
+function buildTemplate(client,company,type,desc,budget,timeline,email,tpl){
+  const mid=budgetMid(budget);
+  const pricingItems=[
+    ['Discovery & Planning',Math.round(mid*.15)],
+    ['Design & Prototyping',Math.round(mid*.2)],
+    ['Development & Implementation',Math.round(mid*.4)],
+    ['Testing & QA',Math.round(mid*.1)],
+    ['Deployment & Launch',Math.round(mid*.1)],
+    ['Project Management',Math.round(mid*.05)]
+  ];
+  const total=pricingItems.reduce((s,r)=>s+r[1],0);
+
+  return {client,company,type,desc,budget:budgetLabel(budget),timeline,email,date:today(),
+    summary:`This proposal outlines the scope, deliverables, timeline, and investment for a ${type.toLowerCase()} project for ${client}. Our team at ${company} will deliver a high-quality solution designed to meet your business objectives, combining industry best practices with a tailored approach to ensure measurable results within the ${timeline} timeframe.`,
+    scope:tpl.scope,
+    deliverables:tpl.deliverables,
+    milestones:tpl.milestones,
+    pricing:pricingItems,
+    total,
+    terms:[
+      'Payment: 50% upfront, 25% at midpoint, 25% upon completion.',
+      'Revisions: Up to 2 rounds of revisions are included per milestone.',
+      'Timeline begins upon receipt of initial payment and all required assets.',
+      'Additional scope requests will be quoted separately as change orders.',
+      'All source code and assets transfer to client upon final payment.',
+      'Confidentiality: Both parties agree to maintain confidentiality of proprietary information.',
+      `This proposal is valid for 30 days from ${today()}.`
+    ]
+  };
+}
+
+async function generateWithGPT(client,company,type,desc,budget,timeline,tpl,apiKey){
+  const prompt=`Generate a professional project proposal in JSON format for:
+Client: ${client}, Company: ${company}, Project Type: ${type}
+Description: ${desc}, Budget: ${budgetLabel(budget)}, Timeline: ${timeline}
+Base scope items: ${tpl.scope.join('; ')}
+
+Return ONLY valid JSON with keys: summary(string), scope(string[]), deliverables(string[]), milestones(array of [name,timeline] pairs), pricing(array of [item,amount] pairs where amount is number), total(number), terms(string[]).
+Make it professional, specific, and compelling. Keep pricing within the ${budgetLabel(budget)} range.`;
+
+  const res=await fetch('https://api.openai.com/v1/chat/completions',{
+    method:'POST',headers:{'Content-Type':'application/json','Authorization':`Bearer ${apiKey}`},
+    body:JSON.stringify({model:'gpt-4o-mini',messages:[{role:'system',content:'You are a professional proposal writer. Return only valid JSON.'},{role:'user',content:prompt}],temperature:0.7,max_tokens:2000})
+  });
+  if(!res.ok) throw new Error(`API ${res.status}`);
+  const json=await res.json();
+  const text=json.choices[0].message.content.replace(/```json?\n?/g,'').replace(/```/g,'').trim();
+  const data=JSON.parse(text);
+  data.client=client;data.company=company;data.type=type;data.desc=desc;
+  data.budget=budgetLabel(budget);data.timeline=timeline;data.date=today();
+  data.email=$('#contactEmail').value.trim();
+  return data;
+}
+
+function renderProposal(d){
+  const fmt=n=>'$'+Number(n).toLocaleString();
+  let html=`
+    <div class="proposal-header">
+      <h2>${d.type} Proposal</h2>
+      <div class="meta">Prepared for <strong>${d.client}</strong> by <strong>${d.company}</strong> · ${d.date}</div>
+    </div>
+    <div class="proposal-section"><h3>Executive Summary</h3><p>${d.summary}</p></div>
+    <div class="proposal-section"><h3>Scope of Work</h3><ul>${d.scope.map(s=>`<li>${s}</li>`).join('')}</ul></div>
+    <div class="proposal-section"><h3>Deliverables</h3><ul>${d.deliverables.map(s=>`<li>${s}</li>`).join('')}</ul></div>
+    <div class="proposal-section"><h3>Timeline & Milestones</h3>
+      <table class="milestone-table"><thead><tr><th>Milestone</th><th>Timeline</th></tr></thead><tbody>
+      ${d.milestones.map(m=>`<tr><td>${m[0]}</td><td>${m[1]}</td></tr>`).join('')}
+      </tbody></table>
+    </div>
+    <div class="proposal-section"><h3>Investment</h3>
+      ${d.pricing.map(r=>`<div class="pricing-row"><span>${r[0]}</span><span>${fmt(r[1])}</span></div>`).join('')}
+      <div class="pricing-row total"><span>Total Investment</span><span>${fmt(d.total)}</span></div>
+      <p style="margin-top:.75rem;font-size:.85rem">Estimated budget range: ${d.budget} · Timeline: ${d.timeline}</p>
+    </div>
+    <div class="proposal-section"><h3>Terms & Conditions</h3><ul>${d.terms.map(t=>`<li>${t}</li>`).join('')}</ul></div>
+    ${d.email?`<div class="proposal-section"><h3>Contact</h3><p>${d.company} · ${d.email}</p></div>`:''}
+  `;
+  $('#proposalContent').innerHTML=html;
+  $('#previewEmpty').style.display='none';
+  $('#proposalOutput').classList.add('visible');
+  window._lastProposal=d;
+}
+
+// ── Copy ──
+$('#copyBtn').addEventListener('click',()=>{
+  const d=window._lastProposal;if(!d)return;
+  const fmt=n=>'$'+Number(n).toLocaleString();
+  let t=`${d.type.toUpperCase()} PROPOSAL\nPrepared for ${d.client} by ${d.company} · ${d.date}\n\n`;
+  t+=`EXECUTIVE SUMMARY\n${d.summary}\n\n`;
+  t+=`SCOPE OF WORK\n${d.scope.map(s=>'• '+s).join('\n')}\n\n`;
+  t+=`DELIVERABLES\n${d.deliverables.map(s=>'• '+s).join('\n')}\n\n`;
+  t+=`TIMELINE & MILESTONES\n${d.milestones.map(m=>m[0]+' — '+m[1]).join('\n')}\n\n`;
+  t+=`INVESTMENT\n${d.pricing.map(r=>r[0]+': '+fmt(r[1])).join('\n')}\nTotal: ${fmt(d.total)}\n\n`;
+  t+=`TERMS & CONDITIONS\n${d.terms.map(s=>'• '+s).join('\n')}\n`;
+  navigator.clipboard.writeText(t).then(()=>{
+    const b=$('#copyBtn');b.innerHTML='✓ Copied!';setTimeout(()=>{b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>Copy as Text'},1500);
+  });
+});
+
+// ── History ──
+function getHistory(){try{return JSON.parse(localStorage.getItem('proposal_history'))||[]}catch{return[]}}
+function saveHistory(item){const h=getHistory();h.unshift(item);if(h.length>20)h.length=20;localStorage.setItem('proposal_history',JSON.stringify(h));renderHistory()}
+function renderHistory(){
+  const h=getHistory();
+  if(!h.length){$('#historyList').innerHTML='<div class="empty-state"><p>No proposals yet.</p></div>';return}
+  $('#historyList').innerHTML=h.map(i=>`
+    <div class="history-item" data-id="${i.id}">
+      <div class="info" onclick="loadFromHistory('${i.id}')"><strong>${i.type} — ${i.client}</strong><span>${i.date} · ${budgetLabel(i.budget)}</span></div>
+      <div class="actions"><button class="btn btn-sm btn-secondary" onclick="event.stopPropagation();deleteHistory('${i.id}')">✕</button></div>
+    </div>`).join('');
+}
+window.loadFromHistory=function(id){
+  const item=getHistory().find(i=>i.id===id);if(!item)return;
+  $('#clientName').value=item.client||'';
+  $('#companyName').value=item.company||'';
+  $('#projectType').value=item.type||'';
+  $('#budget').value=item.budget||'25000-50000';
+  $('#timeline').value=item.timeline||'1-2 months';
+  $('#projectDesc').value=item.desc||'';
+  $('#contactEmail').value=item.email||'';
+  switchTab('create');
+};
+window.deleteHistory=function(id){
+  const h=getHistory().filter(i=>i.id!==id);
+  localStorage.setItem('proposal_history',JSON.stringify(h));renderHistory();
+};
+window.budgetLabel=budgetLabel;
+renderHistory();
+</script>
+</body>
+</html>

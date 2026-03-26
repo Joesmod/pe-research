@@ -1,0 +1,27 @@
+[
+  {
+    "company": "Audax Private Equity",
+    "success": false,
+    "reason": "No Apollo results"
+  },
+  {
+    "company": "Alvarez & Marsal Capital",
+    "success": false,
+    "reason": "No Apollo results"
+  },
+  {
+    "company": "Blue Star Innovation Partners",
+    "success": false,
+    "reason": "No Apollo results"
+  },
+  {
+    "company": "JLL Partners",
+    "success": false,
+    "reason": "No Apollo results"
+  },
+  {
+    "company": "Gryphon Investors",
+    "success": false,
+    "reason": "No Apollo results"
+  }
+]

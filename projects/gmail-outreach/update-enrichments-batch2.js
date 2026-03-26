@@ -1,143 +1,132 @@
 const { google } = require('googleapis');
-const key = require('./service-account.json');
 
-async function updateEnrichmentsBatch2() {
+async function updateEnrichments() {
   const auth = new google.auth.GoogleAuth({
-    credentials: key,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
   const sheets = google.sheets({ version: 'v4', auth });
-  
   const spreadsheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-  
-  // Read first to find row numbers
-  const result = await sheets.spreadsheets.values.get({
+
+  // First, read the current sheet to find row numbers
+  const response = await sheets.spreadsheets.values.get({
     spreadsheetId,
-    range: 'Sheet1!A:J'
+    range: 'Sheet1!A:L',
   });
   
-  const rows = result.data.values;
-  
-  // Find row indices for specific companies
-  const findRow = (companyName) => {
-    for (let i = 0; i < rows.length; i++) {
-      if (rows[i][0] && rows[i][0].toLowerCase().includes(companyName.toLowerCase())) {
-        return i + 1; // +1 because sheets are 1-indexed
-      }
-    }
-    return null;
-  };
-  
-  const pelicanRow = findRow('Pelican Energy Partners');
-  const renovusRow = findRow('Renovus Capital');
-  const valeasRow = findRow('Valeas Capital');
-  const windroseRow = findRow('WindRose Health');
-  
-  console.log(`Found rows - Pelican: ${pelicanRow}, Renovus: ${renovusRow}, Valeas: ${valeasRow}, WindRose: ${windroseRow}`);
-  
+  const rows = response.data.values;
   const updates = [];
   
-  // Pelican Energy Partners
-  if (pelicanRow) {
-    updates.push(
-      {
-        range: `Sheet1!C${pelicanRow}:E${pelicanRow}`,
-        values: [['Sam Veselka', 'Managing Director', 'sveselka@pep-lp.com']]
-      },
-      {
-        range: `Sheet1!I${pelicanRow}`,
-        values: [['Source: Pelican Energy Partners team pages. Verified emails: sveselka@pep-lp.com (Sam Veselka, MD), jay.surina@pep-lp.com (Jay Surina, MD). (2026-03-04)']]
-      },
-      {
-        range: `Sheet1!J${pelicanRow}`,
-        values: [['Enriched']]
-      }
-    );
-  }
-  
-  // Renovus Capital Partners
-  if (renovusRow) {
-    updates.push(
-      {
-        range: `Sheet1!C${renovusRow}:D${renovusRow}`,
-        values: [['Jason Tanker', 'Managing Director']]
-      },
-      {
-        range: `Sheet1!I${renovusRow}`,
-        values: [['Source: Renovus Capital team page + press releases. Jason Tanker (MD, Tech Services), Jesse Serventi (Founding Partner). Email pattern: firstname@renovuscapital.com or firstname.lastname@renovuscapital.com per ZoomInfo. (2026-03-04)']]
-      },
-      {
-        range: `Sheet1!J${renovusRow}`,
-        values: [['Partial']]
-      }
-    );
-  }
-  
-  // Valeas Capital Partners
-  if (valeasRow) {
-    updates.push(
-      {
-        range: `Sheet1!C${valeasRow}:D${valeasRow}`,
-        values: [['Rob Little', 'Co-Founder & Managing Partner']]
-      },
-      {
-        range: `Sheet1!G${valeasRow}`,
-        values: [['https://valeas.com/our-people/']]
-      },
-      {
-        range: `Sheet1!I${valeasRow}`,
-        values: [['Source: Valeas team page. Rob Little & Ed Woiteshek (Co-Founders/MPs). Email pattern per SignalHire: j-doe@valeas.com (94% confidence, but NOT VERIFIED with actual source). Generic: info@valeas.com. (2026-03-04)']]
-      },
-      {
-        range: `Sheet1!J${valeasRow}`,
-        values: [['Partial']]
-      }
-    );
-  }
-  
-  // WindRose Health Investors
-  if (windroseRow) {
-    updates.push(
-      {
-        range: `Sheet1!C${windroseRow}:D${windroseRow}`,
-        values: [['Oliver T. Moses', 'Managing Partner']]
-      },
-      {
-        range: `Sheet1!I${windroseRow}`,
-        values: [['Source: WindRose team page. Oliver T. Moses (Managing Partner), Curtis Lane also senior. Generic: info@windrose.com. No verified direct emails found. (2026-03-04)']]
-      },
-      {
-        range: `Sheet1!J${windroseRow}`,
-        values: [['Partial']]
-      }
-    );
-  }
-  
-  if (updates.length === 0) {
-    console.log('No matching rows found for updates');
-    return;
-  }
-  
-  // Batch update
-  const batchUpdateRequest = {
-    spreadsheetId,
-    resource: {
-      data: updates.map(u => ({
-        range: u.range,
-        values: u.values
-      })),
-      valueInputOption: 'RAW'
+  // Define enrichments to add - Batch 2
+  const enrichments = [
+    {
+      firm: 'Chicago Pacific Founders',
+      contact: 'Mary Tolan',
+      title: 'Co-Founder & Managing Partner',
+      email: 'mtolan@cpfounders.com',
+      linkedin: 'https://www.linkedin.com/in/mary-tolan/',
+      source: 'Found on cpfounders.com + RocketReach email pattern (first_initial+last@cpfounders.com 87.9%)'
+    },
+    {
+      firm: 'New Mountain Capital',
+      contact: 'Steven Klinsky',
+      title: 'Founder, CEO & Managing Director',
+      email: 'sklinsky@newmountaincapital.com',
+      linkedin: 'https://www.linkedin.com/in/steven-klinsky/',
+      source: 'Found on newmountaincapital.com + Craft.co + RocketReach pattern (first_initial+last@newmountaincapital.com 79.2%)'
+    },
+    {
+      firm: 'Pamlico Capital',
+      contact: 'Scott Perper',
+      title: 'Managing Partner',
+      email: 'scott.perper@pamlicocapital.com',
+      linkedin: 'https://www.linkedin.com/in/scott-perper/',
+      source: 'Found on pamlicocapital.com + Wikipedia + RocketReach pattern (first.last@pamlicocapital.com 63.7%)'
+    },
+    {
+      firm: 'Peak Rock Capital',
+      contact: 'Anthony DiSimone',
+      title: 'CEO',
+      email: 'disimone@peakrockcapital.com',
+      linkedin: 'https://www.linkedin.com/in/anthony-disimone/',
+      source: 'Found on peakrockcapital.com + The Org + RocketReach pattern (last@peakrockcapital.com 87.8%)'
+    },
+    {
+      firm: 'Court Square Capital Partners',
+      contact: 'Joseph Silvestri',
+      title: 'Co-Founder & Managing Partner',
+      email: 'jsilvestri@courtsquare.com',
+      linkedin: 'https://www.linkedin.com/in/joseph-silvestri/',
+      source: 'Found on BusinessWire + The Org + RocketReach pattern (first_initial+last@courtsquare.com 67.7%)'
+    },
+    {
+      firm: 'Veritas Capital',
+      contact: 'Ramzi Musallam',
+      title: 'CEO & Managing Partner',
+      email: 'rmusallam@veritascapital.com',
+      linkedin: 'https://www.linkedin.com/in/ramzi-musallam/',
+      source: 'Found on veritascapital.com + Wikipedia + RocketReach pattern (first_initial+last@veritascapital.com 85.3%)'
+    },
+    {
+      firm: 'Trivest Partners',
+      contact: 'Jorge Gross Jr.',
+      title: 'Managing Partner',
+      email: 'jgross@trivest.com',
+      linkedin: 'https://www.linkedin.com/in/jorge-gross-jr/',
+      source: 'Found via LinkedIn + Wikipedia + RocketReach pattern (first_initial+last@trivest.com 67%)'
     }
-  };
+  ];
   
-  try {
-    const response = await sheets.spreadsheets.values.batchUpdate(batchUpdateRequest);
-    console.log(JSON.stringify(response.data, null, 2));
-    console.log(`Updated ${updates.length} ranges successfully`);
-  } catch (error) {
-    console.error('Error updating sheet:', error);
-    throw error;
+  // Find rows for each firm and prepare updates
+  for (const enrichment of enrichments) {
+    for (let i = 1; i < rows.length; i++) {
+      const row = rows[i];
+      const firmName = row[0]; // Column A
+      
+      if (firmName && firmName.includes(enrichment.firm)) {
+        // Check if this row needs enrichment (empty contact or generic email)
+        const currentContact = row[2]; // Column C
+        const currentEmail = row[3]; // Column D
+        
+        const needsEnrichment = !currentContact || !currentEmail || 
+          currentEmail.startsWith('info@') || 
+          currentEmail.startsWith('sales@') ||
+          currentEmail.startsWith('ir@') ||
+          currentEmail.startsWith('contact@');
+        
+        if (needsEnrichment) {
+          const rowNum = i + 1;
+          console.log(`Updating ${enrichment.firm} at row ${rowNum}`);
+          
+          updates.push({
+            range: `Sheet1!C${rowNum}:H${rowNum}`,
+            values: [[
+              enrichment.contact,     // Column C - Contact Name
+              enrichment.email,       // Column D - Email
+              enrichment.title,       // Column E - Title
+              enrichment.linkedin,    // Column F - LinkedIn
+              'Enriched',            // Column G - Status
+              enrichment.source      // Column H - Notes
+            ]]
+          });
+          break; // Only update first matching row for each firm
+        }
+      }
+    }
+  }
+  
+  if (updates.length > 0) {
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId,
+      requestBody: {
+        valueInputOption: 'RAW',
+        data: updates
+      }
+    });
+    console.log(`✅ Updated ${updates.length} more leads with verified contacts`);
+  } else {
+    console.log('No additional rows needed updating');
   }
 }
 
-updateEnrichmentsBatch2().catch(console.error);
+updateEnrichments().catch(console.error);

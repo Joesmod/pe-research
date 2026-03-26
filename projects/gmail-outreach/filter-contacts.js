@@ -1,121 +1,81 @@
-const { google } = require('googleapis');
+// Filter and prioritize PE contacts for outreach
 const fs = require('fs');
 
-const SPREADSHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
+// Read CRM data from the exec output
+const crmData = JSON.parse(fs.readFileSync('crm-data.json', 'utf8'));
 
-// Tech/AI/value creation role keywords
-const priorityRoles = [
-  'CTO', 'Chief Technology', 'Chief Information', 'Chief AI',
-  'VP Product', 'VP Technology', 'VP Engineering',
-  'Operating Partner', 'Portfolio Operations', 'Value Creation',
-  'Head of Technology', 'Head of AI', 'Head of Digital',
-  'Technology Officer', 'Innovation', 'Transformation',
-  'Advisory Director, Artificial Intelligence', 'Advisory Director of AI'
-];
+const today = new Date('2026-03-25');
+const cutoff = new Date(today);
+cutoff.setDate(cutoff.getDate() - 7);
 
-async function filterContacts() {
-  const auth = new google.auth.GoogleAuth({
-    keyFile: 'service-account.json',
-    scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
-  });
-  const sheets = google.sheets({ version: 'v4', auth });
+// Parse contacts
+const contacts = [];
+const seen = new Set();
+
+// Sheet1 data is in crmData.sheet1, Contacts data in crmData.contacts
+const sheet1 = crmData.sheet1 || [];
+const contactsSheet = crmData.contacts || [];
+
+for (let i = 1; i < sheet1.length; i++) {
+  const row = sheet1[i];
+  if (!row || row.length < 10) continue;
   
-  // Read Sheet1 (companies)
-  const sheet1 = await sheets.spreadsheets.values.get({
-    spreadsheetId: SPREADSHEET_ID,
-    range: 'Sheet1!A:J',
-  });
+  const company = row[0];
+  const score = parseInt(row[1]) || 0;
+  const name = row[2];
+  const title = row[3];
+  const email = row[4];
+  const emailStatus = row[5] || '';
+  const lastContacted = row[9]; // Column J
   
-  // Read Contacts sheet - structure is: Company, Score, Name, Title, Email, Status, LinkedIn, Notes, LastContacted
-  const contactsData = await sheets.spreadsheets.values.get({
-    spreadsheetId: SPREADSHEET_ID,
-    range: 'Contacts!A:I',
-  });
+  // Skip if no email or not verified
+  if (!email || emailStatus.toLowerCase().indexOf('verified') === -1) continue;
   
-  const companies = new Map();
-  const companyRows = sheet1.data.values.slice(1);
+  // Skip if score < 8
+  if (score < 8) continue;
   
-  // Build company map with last contacted dates
-  companyRows.forEach(row => {
-    const [company, , , , , , , , , lastContacted] = row;
-    if (company && !companies.has(company)) {
-      companies.set(company, { lastContacted: lastContacted || null });
-    }
-  });
+  // Skip if company already seen
+  if (seen.has(company)) continue;
   
-  // Today is March 12, 2026
-  const today = new Date('2026-03-12');
-  const sevenDaysAgo = new Date(today);
-  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7); // March 5, 2026
-  
-  const parseDate = (str) => {
-    if (!str || str === '') return null;
-    try {
-      return new Date(str);
-    } catch {
-      return null;
-    }
-  };
-  
-  const contacts = contactsData.data.values.slice(1); // Skip header
-  
-  const qualified = contacts
-    .filter(row => {
-      const [company, score, name, title, email, status, linkedin, notes, lastContacted] = row;
-      
-      // Must have verified email
-      if (!email || !status || status.toLowerCase().indexOf('verified') === -1) return false;
-      
-      // Skip if no name or title
-      if (!name || !title) return false;
-      
-      // Check Gumbo Score >= 8
-      const gumboScore = parseInt(score);
-      if (isNaN(gumboScore) || gumboScore < 8) return false;
-      
-      // Check last contacted dates
-      const companyData = companies.get(company);
-      const companyLastContacted = companyData?.lastContacted;
-      
-      const lastContactedDateCompany = parseDate(companyLastContacted);
-      const lastContactedDateContact = parseDate(lastContacted);
-      
-      // Skip if contacted in last 7 days
-      if (lastContactedDateCompany && lastContactedDateCompany > sevenDaysAgo) return false;
-      if (lastContactedDateContact && lastContactedDateContact > sevenDaysAgo) return false;
-      
-      return true;
-    })
-    .map(row => ({
-      company: row[0],
-      score: row[1],
-      name: row[2],
-      title: row[3],
-      email: row[4],
-      linkedin: row[6] || '',
-      notes: row[7] || '',
-      priorityRole: priorityRoles.some(k => row[3]?.toUpperCase().includes(k.toUpperCase()))
-    }))
-    .sort((a, b) => {
-      // Sort by priority role first, then by score, then by company name
-      if (a.priorityRole && !b.priorityRole) return -1;
-      if (!a.priorityRole && b.priorityRole) return 1;
-      const scoreDiff = parseInt(b.score) - parseInt(a.score);
-      if (scoreDiff !== 0) return scoreDiff;
-      return a.company.localeCompare(b.company);
-    });
-  
-  // Deduplicate by company (only 1 per company)
-  const seen = new Set();
-  const final = [];
-  for (const contact of qualified) {
-    if (!seen.has(contact.company) && final.length < 25) {
-      seen.add(contact.company);
-      final.push(contact);
+  // Check last contacted date
+  if (lastContacted) {
+    const contactDate = new Date(lastContacted);
+    if (contactDate > cutoff) {
+      console.log(`Skipping ${company} (${name}): contacted ${lastContacted}`);
+      continue;
     }
   }
   
-  console.log(JSON.stringify(final, null, 2));
+  // Prioritize tech/AI/value creation roles
+  const techRole = /CTO|CITO|Chief.*Tech|Head.*Tech|VP.*Tech|Technology|AI|Data|Digital|Product|Innovation|Value Creation|Portfolio.*Ops/i.test(title);
+  
+  contacts.push({
+    company,
+    score,
+    name,
+    title,
+    email,
+    techRole,
+    lastContacted: lastContacted || 'Never'
+  });
+  
+  seen.add(company);
 }
 
-filterContacts().catch(console.error);
+// Sort: tech roles first, then by score desc
+contacts.sort((a, b) => {
+  if (a.techRole !== b.techRole) return a.techRole ? -1 : 1;
+  if (b.score !== a.score) return b.score - a.score;
+  return a.company.localeCompare(b.company);
+});
+
+// Take top 25
+const top25 = contacts.slice(0, 25);
+
+console.log(`\nFiltered ${contacts.length} qualified contacts. Top 25:\n`);
+top25.forEach((c, i) => {
+  console.log(`${i+1}. ${c.company} - ${c.name} (${c.title}) [Score: ${c.score}, Tech: ${c.techRole}]`);
+});
+
+fs.writeFileSync('top25-contacts.json', JSON.stringify(top25, null, 2));
+console.log('\n✓ Saved to top25-contacts.json');

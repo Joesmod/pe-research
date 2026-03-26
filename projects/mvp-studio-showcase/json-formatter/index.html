@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSON Formatter</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0d1117;color:#c9d1d9;min-height:100vh}
+.container{max-width:1200px;margin:0 auto;padding:20px}
+header{text-align:center;padding:30px 0 20px}
+header h1{font-size:2rem;font-weight:700;background:linear-gradient(135deg,#7ee787,#58a6ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:#8b949e;margin-top:6px;font-size:.9rem}
+.toolbar{display:flex;gap:8px;margin:16px 0;flex-wrap:wrap;align-items:center}
+.btn{padding:8px 16px;border:1px solid #30363d;border-radius:8px;background:#21262d;color:#c9d1d9;cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:500;transition:.2s}
+.btn:hover{background:#30363d}
+.btn.primary{background:#238636;border-color:#238636;color:#fff}
+.btn.primary:hover{background:#2ea043}
+.btn.danger{border-color:#f8514933;color:#f85149}
+.btn.danger:hover{background:#f8514922}
+.toggle-group{margin-left:auto;display:flex;gap:0}
+.toggle-group .btn{border-radius:0}
+.toggle-group .btn:first-child{border-radius:8px 0 0 8px}
+.toggle-group .btn:last-child{border-radius:0 8px 8px 0}
+.toggle-group .btn.active{background:#1f6feb;border-color:#1f6feb;color:#fff}
+.editor-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+@media(max-width:700px){.editor-wrap{grid-template-columns:1fr}}
+.editor-panel{display:flex;flex-direction:column}
+.editor-panel label{font-size:.8rem;color:#8b949e;margin-bottom:6px;font-weight:500}
+textarea{width:100%;flex:1;min-height:400px;background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px;color:#c9d1d9;font-family:'JetBrains Mono',monospace;font-size:.85rem;resize:vertical;outline:none;tab-size:2;transition:border-color .2s}
+textarea:focus{border-color:#58a6ff}
+.output-box{width:100%;flex:1;min-height:400px;background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px;font-family:'JetBrains Mono',monospace;font-size:.85rem;overflow:auto;line-height:1.6;white-space:pre-wrap;word-break:break-all}
+.error-bar{background:#f8514922;border:1px solid #f8514944;color:#f85149;padding:10px 14px;border-radius:8px;font-size:.85rem;margin-top:8px;display:none}
+.tree-view{font-family:'JetBrains Mono',monospace;font-size:.85rem}
+.tree-item{padding-left:20px;position:relative}
+.tree-key{color:#79c0ff;cursor:default}
+.tree-str{color:#a5d6ff}
+.tree-num{color:#7ee787}
+.tree-bool{color:#f0883e}
+.tree-null{color:#8b949e;font-style:italic}
+.tree-toggle{cursor:pointer;user-select:none;display:inline-block;width:16px;color:#8b949e;text-align:center}
+.tree-toggle:hover{color:#58a6ff}
+.tree-bracket{color:#8b949e}
+.syn-key{color:#79c0ff}
+.syn-str{color:#a5d6ff}
+.syn-num{color:#7ee787}
+.syn-bool{color:#f0883e}
+.syn-null{color:#8b949e}
+.syn-brace{color:#c9d1d9}
+.copy-toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(20px);background:#238636;color:#fff;padding:10px 20px;border-radius:8px;font-size:.85rem;opacity:0;transition:.3s;pointer-events:none;z-index:99}
+.copy-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.back{display:inline-block;margin-bottom:10px;color:#58a6ff;text-decoration:none;font-size:.85rem}
+.back:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="container">
+<a href="../" class="back">← Back to Showcase</a>
+<header>
+<h1>{ } JSON Formatter</h1>
+<p>Format, minify, and explore JSON with syntax highlighting</p>
+</header>
+<div class="toolbar">
+<button class="btn primary" onclick="format()">✨ Format</button>
+<button class="btn" onclick="minify()">📦 Minify</button>
+<button class="btn" onclick="copyOutput()">📋 Copy</button>
+<button class="btn danger" onclick="clearAll()">🗑 Clear</button>
+<div class="toggle-group">
+<button class="btn active" id="btn-code" onclick="setView('code')">Code</button>
+<button class="btn" id="btn-tree" onclick="setView('tree')">Tree</button>
+</div>
+</div>
+<div id="errorBar" class="error-bar"></div>
+<div class="editor-wrap">
+<div class="editor-panel">
+<label>Input JSON</label>
+<textarea id="input" placeholder='Paste JSON here...\n\n{"name": "John", "age": 30}'></textarea>
+</div>
+<div class="editor-panel">
+<label>Output</label>
+<div class="output-box" id="output"></div>
+</div>
+</div>
+</div>
+<div class="copy-toast" id="toast">Copied to clipboard!</div>
+<script>
+const inputEl=document.getElementById('input'),outputEl=document.getElementById('output'),errorBar=document.getElementById('errorBar');
+let currentView='code',lastParsed=null;
+
+function showError(msg){errorBar.textContent='⚠ '+msg;errorBar.style.display='block'}
+function hideError(){errorBar.style.display='none'}
+
+function parse(){
+hideError();
+const raw=inputEl.value.trim();
+if(!raw){lastParsed=null;outputEl.innerHTML='';return null}
+try{
+lastParsed=JSON.parse(raw);return lastParsed;
+}catch(e){
+const m=e.message;
+let line='';const lm=m.match(/position (\d+)/);
+if(lm){const pos=parseInt(lm[1]);line=' (around character '+pos+')'}
+showError(m+line);lastParsed=null;return null;
+}
+}
+
+function format(){
+const obj=parse();if(obj===null&&!inputEl.value.trim())return;if(obj===null)return;
+const json=JSON.stringify(obj,null,2);
+if(currentView==='code')outputEl.innerHTML=syntaxHighlight(json);
+else renderTree(obj);
+}
+
+function minify(){
+const obj=parse();if(obj===null)return;
+const json=JSON.stringify(obj);
+outputEl.innerHTML=currentView==='code'?syntaxHighlight(json):'<span style="word-break:break-all">'+esc(json)+'</span>';
+}
+
+function syntaxHighlight(json){
+return esc(json).replace(/("(\\u[\da-fA-F]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g,(m)=>{
+let cls='syn-num';
+if(/^"/.test(m)){cls=/:$/.test(m)?'syn-key':'syn-str'}
+else if(/true|false/.test(m))cls='syn-bool';
+else if(/null/.test(m))cls='syn-null';
+return '<span class="'+cls+'">'+m+'</span>';
+});
+}
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+
+function setView(v){
+currentView=v;
+document.getElementById('btn-code').classList.toggle('active',v==='code');
+document.getElementById('btn-tree').classList.toggle('active',v==='tree');
+if(lastParsed!==null){
+if(v==='tree')renderTree(lastParsed);
+else outputEl.innerHTML=syntaxHighlight(JSON.stringify(lastParsed,null,2));
+}
+}
+
+function renderTree(obj){
+outputEl.innerHTML='';
+outputEl.appendChild(buildTree(obj));
+}
+
+function buildTree(val,key){
+const div=document.createElement('div');div.className='tree-item';
+if(val===null){
+div.innerHTML=(key!==undefined?`<span class="tree-key">"${esc(String(key))}"</span>: `:'')+`<span class="tree-null">null</span>`;
+return div;
+}
+if(typeof val!=='object'){
+let cls='tree-str',display=JSON.stringify(val);
+if(typeof val==='number')cls='tree-num';
+else if(typeof val==='boolean')cls='tree-bool';
+div.innerHTML=(key!==undefined?`<span class="tree-key">"${esc(String(key))}"</span>: `:'')+`<span class="${cls}">${esc(display)}</span>`;
+return div;
+}
+const isArr=Array.isArray(val),entries=isArr?val.map((v,i)=>[i,v]):Object.entries(val);
+const toggle=document.createElement('span');toggle.className='tree-toggle';toggle.textContent='▼';
+const label=document.createElement('span');
+label.innerHTML=(key!==undefined?`<span class="tree-key">"${esc(String(key))}"</span>: `:'')+`<span class="tree-bracket">${isArr?'[':'{'}</span> <span style="color:#8b949e;font-size:.75rem">${entries.length} item${entries.length!==1?'s':''}</span>`;
+const children=document.createElement('div');children.style.paddingLeft='16px';
+entries.forEach(([k,v])=>children.appendChild(buildTree(v,k)));
+const close=document.createElement('div');close.innerHTML=`<span class="tree-bracket">${isArr?']':'}'}</span>`;
+toggle.onclick=()=>{
+const open=children.style.display!=='none';
+children.style.display=open?'none':'';close.style.display=open?'none':'';
+toggle.textContent=open?'▶':'▼';
+};
+div.appendChild(toggle);div.appendChild(label);div.appendChild(children);div.appendChild(close);
+return div;
+}
+
+function copyOutput(){
+const text=currentView==='tree'?JSON.stringify(lastParsed,null,2):(lastParsed?JSON.stringify(lastParsed,null,2):'');
+navigator.clipboard.writeText(text);
+const t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000);
+}
+
+function clearAll(){inputEl.value='';outputEl.innerHTML='';hideError();lastParsed=null}
+
+inputEl.value='{\n  "name": "JSON Formatter",\n  "version": 1.0,\n  "features": ["format", "minify", "tree view", "syntax highlighting"],\n  "author": {\n    "name": "MVP Studio",\n    "active": true\n  },\n  "tags": null\n}';
+format();
+</script>
+</body>
+</html>

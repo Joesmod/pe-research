@@ -1,35 +1,110 @@
 [
   {
-    "row": 879,
-    "company": "Littlejohn & Co",
-    "updates": {
-      "contactName": "Jordan Tongalson",
-      "title": "Business Development",
-      "email": "jtongalson@littlejohnllc.com",
-      "emailStatus": "verified",
-      "notes": "Business Opportunities contact. Also general: info@littlejohnllc.com. Source: littlejohnllc.com/contact (2026-03-14)"
-    }
+    "firm": "Salt Creek Capital",
+    "contact": "Carol Onderka",
+    "title": "Partnership Development",
+    "email": "carol@saltcreekcap.com",
+    "linkedin": "",
+    "status": "Enriched",
+    "notes": "Official email from saltcreekcap.com/contact page. (650) 850-1577"
   },
   {
-    "row": 499,
-    "company": "Blackford Capital",
-    "updates": {
-      "contactName": "Martin Stein",
-      "title": "Founder and Managing Director",
-      "email": "deals@blackfordcapital.com",
-      "emailStatus": "verified",
-      "notes": "Leads acquisition sourcing. General deal inquiries: deals@blackfordcapital.com. Source: blackfordcapital.com/investors (2026-03-14)"
-    }
+    "firm": "Kinzie Capital Partners",
+    "contact": "Suzanne Yoon",
+    "title": "Founder & Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/suzanneyoon/",
+    "status": "Contact Found",
+    "notes": "Founder & Managing Partner confirmed. Email not publicly listed on firm website. LinkedIn profile found."
   },
   {
-    "row": 717,
-    "company": "TruArc Partners (fka Snow Phipps)",
-    "updates": {
-      "contactName": "Alan Mantel",
-      "title": "Co-Managing Partner",
-      "email": "amantel@truarcpartners.com",
-      "emailStatus": "verified",
-      "notes": "Co-Managing Partner since 2005. Tech-Enabled Business Services focus. General inquiries: transactions@truarcpartners.com. Source: truarcpartners.com/alan-mantel (2026-03-14)"
-    }
+    "firm": "Clearview Capital",
+    "contact": "William Case",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "Managing Partner confirmed on clearviewcap.com/our-team. Email not publicly listed. Also: Matthew Blevins (Managing Partner), James Andersen (Founding Partner)."
+  },
+  {
+    "firm": "Cressey & Company",
+    "contact": "Bryan Cressey",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "Managing Partner confirmed on cresseyco.com/team. Healthcare-focused PE. Also: Peter Ehrich, David Rogero (Managing Partners)."
+  },
+  {
+    "firm": "NewSpring Capital",
+    "contact": "Michael DiPiano",
+    "title": "Managing General Partner & Co-Founder",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/michael-dipiano-0308502b/",
+    "status": "Contact Found",
+    "notes": "Co-founder and Managing GP confirmed on newspringcapital.com. Philadelphia-based growth equity firm."
+  },
+  {
+    "firm": "Pamlico Capital",
+    "contact": "Watts Hamrick",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/watts-hamrick-98912069/",
+    "status": "Contact Found",
+    "notes": "Managing Partner confirmed via pamlicocapital.com. Co-Managing Partner: Eric Eubank. Charlotte, NC."
+  },
+  {
+    "firm": "Ampersand Capital Partners",
+    "contact": "Herb Hooper",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "Managing Partner confirmed on ampersandcapital.com/team. Healthcare & life sciences focus. Boston-based."
+  },
+  {
+    "firm": "THL Partners",
+    "contact": "Tony DiNovi",
+    "title": "Chairman",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "Chairman since 2021, prior Co-CEO. Confirmed on thl.com/people. Boston-based PE firm."
+  },
+  {
+    "firm": "K1 Investment Management",
+    "contact": "Ron Cano",
+    "title": "Managing Partner",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/ron-cano-4314264/",
+    "status": "Contact Found",
+    "notes": "Managing Partner confirmed on k1.com. Enterprise software-focused PE. Los Angeles/El Segundo."
+  },
+  {
+    "firm": "Gryphon Investors",
+    "contact": "Keith Stimson",
+    "title": "Deal Partner & Head of Heritage Fund",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "Deal Partner confirmed on gryphon-inv.com. Focus on middle market businesses. San Francisco."
+  },
+  {
+    "firm": "The Riverside Company",
+    "contact": "Stewart Kohl",
+    "title": "Co-CEO",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "Co-CEO with Bela Szigethy. Confirmed on riversidecompany.com. $14B AUM global PE firm. Cleveland/NYC."
+  },
+  {
+    "firm": "Leeds Equity Partners",
+    "contact": "Jeffrey Leeds",
+    "title": "President",
+    "email": "",
+    "linkedin": "",
+    "status": "Contact Found",
+    "notes": "President confirmed on leedsequity.com. Focus on Knowledge Industries. NYC-based."
   }
 ]

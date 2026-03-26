@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexusAI — Client Intake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">NexusAI</div>
+    <p>AI Integration for Modern Business</p>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-step active" data-step="1"><div class="bar"><div class="fill"></div></div><div class="label">Contact</div></div>
+    <div class="progress-step" data-step="2"><div class="bar"><div class="fill"></div></div><div class="label">Business</div></div>
+    <div class="progress-step" data-step="3"><div class="bar"><div class="fill"></div></div><div class="label">Needs</div></div>
+    <div class="progress-step" data-step="4"><div class="bar"><div class="fill"></div></div><div class="label">Budget</div></div>
+  </div>
+
+  <div id="saved-indicator" class="saved-badge" style="display:none">✓ Welcome back — your previous info has been restored</div>
+
+  <div class="card">
+    <!-- Step 1 -->
+    <div class="step active" data-step="1">
+      <div class="step-title">Contact Information</div>
+      <div class="step-desc">Let's start with the basics so we can reach you.</div>
+      <div class="row">
+        <div class="field"><label>Full Name <span class="req">*</span></label><input id="name" required placeholder="Jane Smith"></div>
+        <div class="field"><label>Email <span class="req">*</span></label><input id="email" type="email" required placeholder="jane@company.com"></div>
+      </div>
+      <div class="row">
+        <div class="field"><label>Phone <span class="opt">(optional)</span></label><input id="phone" type="tel" placeholder="(555) 123-4567"></div>
+        <div class="field"><label>Job Title <span class="req">*</span></label><input id="job_title" required placeholder="VP of Operations"></div>
+      </div>
+      <div class="field"><label>Company Name <span class="req">*</span></label><input id="company" required placeholder="Acme Corp"></div>
+      <div class="btn-row"><span></span><button class="btn btn-primary" onclick="nextStep()">Continue →</button></div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step" data-step="2">
+      <div class="step-title">Business Details</div>
+      <div class="step-desc">Help us understand your organization.</div>
+      <div class="field">
+        <label>Industry <span class="req">*</span></label>
+        <select id="industry" required>
+          <option value="">Select your industry…</option>
+          <option>Healthcare / Medical</option>
+          <option>Legal / Law Firms</option>
+          <option>Financial Services / Accounting</option>
+          <option>Real Estate / Property Management</option>
+          <option>Construction / Trades</option>
+          <option>Retail / E-Commerce</option>
+          <option>Manufacturing / Supply Chain</option>
+          <option>Professional Services / Consulting</option>
+          <option>Marketing / Advertising</option>
+          <option>Technology / SaaS</option>
+          <option>Education / Training</option>
+          <option>Nonprofit / Government</option>
+          <option>Hospitality / Food Service</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label>Company Size <span class="req">*</span></label>
+          <select id="company_size" required>
+            <option value="">Select…</option>
+            <option>1-10 employees</option>
+            <option>11-50 employees</option>
+            <option>51-200 employees</option>
+            <option>201-500 employees</option>
+            <option>500+ employees</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Annual Revenue Range</label>
+          <select id="revenue">
+            <option value="">Select…</option>
+            <option>Under $500K</option>
+            <option>$500K - $1M</option>
+            <option>$1M - $5M</option>
+            <option>$5M - $20M</option>
+            <option>$20M+</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label>Website URL <span class="opt">(optional)</span></label><input id="website" type="url" placeholder="https://company.com"></div>
+      <div class="btn-row"><button class="btn btn-secondary" onclick="prevStep()">← Back</button><button class="btn btn-primary" onclick="nextStep()">Continue →</button></div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step" data-step="3">
+      <div class="step-title">Pain Points & Needs</div>
+      <div class="step-desc">Select all areas where you'd like AI to help.</div>
+      <div class="checkbox-grid" id="pain-points">
+        <label class="checkbox-item"><input type="checkbox" value="Document Processing"> Document Processing</label>
+        <label class="checkbox-item"><input type="checkbox" value="Review Management"> Review Management</label>
+        <label class="checkbox-item"><input type="checkbox" value="Financial Tracking"> Financial Tracking</label>
+        <label class="checkbox-item"><input type="checkbox" value="Proposal Creation"> Proposal Creation</label>
+        <label class="checkbox-item"><input type="checkbox" value="Email Outreach"> Email Outreach</label>
+        <label class="checkbox-item"><input type="checkbox" value="Project Management"> Project Management</label>
+        <label class="checkbox-item"><input type="checkbox" value="Legal Compliance"> Legal Compliance</label>
+        <label class="checkbox-item"><input type="checkbox" value="Customer Communication"> Customer Communication</label>
+        <label class="checkbox-item"><input type="checkbox" value="Inventory Management"> Inventory Management</label>
+        <label class="checkbox-item"><input type="checkbox" value="Scheduling"> Scheduling</label>
+        <label class="checkbox-item"><input type="checkbox" value="Reporting & Analytics"> Reporting & Analytics</label>
+      </div>
+      <div class="field"><label>Describe your biggest operational challenge</label><textarea id="challenge" placeholder="Tell us about the manual processes eating up your team's time…"></textarea></div>
+      <div class="btn-row"><button class="btn btn-secondary" onclick="prevStep()">← Back</button><button class="btn btn-primary" onclick="nextStep()">Continue →</button></div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="step" data-step="4">
+      <div class="step-title">Budget & Timeline</div>
+      <div class="step-desc">Almost done — help us tailor a proposal for you.</div>
+      <div class="row">
+        <div class="field">
+          <label>Budget Range <span class="req">*</span></label>
+          <select id="budget" required>
+            <option value="">Select…</option>
+            <option>Under $5K</option>
+            <option>$5K - $15K</option>
+            <option>$15K - $50K</option>
+            <option>$50K - $100K</option>
+            <option>$100K+</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Timeline <span class="req">*</span></label>
+          <select id="timeline" required>
+            <option value="">Select…</option>
+            <option>ASAP</option>
+            <option>1-3 months</option>
+            <option>3-6 months</option>
+            <option>6-12 months</option>
+            <option>Just exploring</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label>How did you hear about us? <span class="opt">(optional)</span></label><input id="referral" placeholder="Google, referral, LinkedIn…"></div>
+      <div class="btn-row"><button class="btn btn-secondary" onclick="prevStep()">← Back</button><button class="btn btn-primary" onclick="submitForm()">Submit →</button></div>
+    </div>
+
+    <!-- Thank You -->
+    <div class="step" data-step="5">
+      <div class="step-title">🎉 Thank You!</div>
+      <div class="step-desc">We've received your information. A member of our team will be in touch within 24 hours.</div>
+
+      <div class="summary-card" id="summary"></div>
+
+      <div class="action-row">
+        <button class="btn btn-secondary btn-sm" onclick="copySummary()">📋 Copy Summary</button>
+        <a class="btn btn-secondary btn-sm" id="email-link" href="#">✉ Email Summary</a>
+      </div>
+
+      <div style="margin-top:28px">
+        <div class="step-title" style="font-size:1.05rem">While you wait, try these tools:</div>
+        <div class="step-desc">Based on your needs, here are demos you can explore right now.</div>
+        <div class="tool-cards" id="recommended-tools"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by <a href="#">NexusAI</a> — AI Integration for Modern Business</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const TOOLS = {
+  "Document Processing": { name: "Doc Q&A", icon: "📄", url: "https://joesmod.github.io/mvp-studio-showcase/doc-qa/" },
+  "Review Management": { name: "Review Response Manager", icon: "⭐", url: "https://joesmod.github.io/mvp-studio-showcase/review-manager/" },
+  "Financial Tracking": { name: "AI Bookkeeper", icon: "💰", url: "https://joesmod.github.io/mvp-studio-showcase/ai-bookkeeper/" },
+  "Proposal Creation": { name: "AI Proposal Generator", icon: "📝", url: "https://joesmod.github.io/mvp-studio-showcase/proposal-generator/" },
+  "Email Outreach": { name: "Cold Email Generator", icon: "✉️", url: "https://joesmod.github.io/mvp-studio-showcase/cold-email-generator/" },
+  "Project Management": { name: "Scope-of-Work Tracker", icon: "📊", url: "https://joesmod.github.io/mvp-studio-showcase/scope-tracker/" },
+  "Legal Compliance": { name: "Non-Compete Checker", icon: "⚖️", url: "https://joesmod.github.io/mvp-studio-showcase/non-compete-checker/" },
+  "Customer Communication": { name: "AI ROI Calculator", icon: "💬", url: "https://joesmod.github.io/mvp-studio-showcase/roi-calculator/" },
+  "Inventory Management": { name: "AI ROI Calculator", icon: "📦", url: "https://joesmod.github.io/mvp-studio-showcase/roi-calculator/" },
+  "Scheduling": { name: "AI Proposal Generator", icon: "📅", url: "https://joesmod.github.io/mvp-studio-showcase/proposal-generator/" },
+  "Reporting & Analytics": { name: "AI Bookkeeper", icon: "📈", url: "https://joesmod.github.io/mvp-studio-showcase/ai-bookkeeper/" },
+};
+
+let current = 1;
+
+// Checkbox styling
+document.querySelectorAll('.checkbox-item input').forEach(cb => {
+  cb.addEventListener('change', () => cb.closest('.checkbox-item').classList.toggle('checked', cb.checked));
+});
+
+function getVal(id) { return document.getElementById(id)?.value?.trim() || ''; }
+function getPainPoints() { return [...document.querySelectorAll('#pain-points input:checked')].map(c => c.value); }
+
+function validate(step) {
+  const required = {
+    1: ['name','email','job_title','company'],
+    2: ['industry','company_size'],
+    3: [],
+    4: ['budget','timeline']
+  };
+  let ok = true;
+  (required[step]||[]).forEach(id => {
+    const el = document.getElementById(id);
+    if (!el.value.trim()) { el.classList.add('invalid'); ok = false; }
+    else el.classList.remove('invalid');
+  });
+  // email format
+  if (step === 1) {
+    const em = document.getElementById('email');
+    if (em.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value)) { em.classList.add('invalid'); ok = false; }
+  }
+  return ok;
+}
+
+function goToStep(n) {
+  current = n;
+  document.querySelectorAll('.step').forEach(s => s.classList.toggle('active', +s.dataset.step === n));
+  document.querySelectorAll('.progress-step').forEach(s => {
+    const sn = +s.dataset.step;
+    s.classList.toggle('active', sn === n);
+    s.classList.toggle('done', sn < n);
+  });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function nextStep() { if (validate(current)) goToStep(current + 1); }
+function prevStep() { goToStep(current - 1); }
+
+function getData() {
+  return {
+    name: getVal('name'), email: getVal('email'), phone: getVal('phone'),
+    job_title: getVal('job_title'), company: getVal('company'),
+    industry: getVal('industry'), company_size: getVal('company_size'),
+    revenue: getVal('revenue'), website: getVal('website'),
+    pain_points: getPainPoints(), challenge: getVal('challenge'),
+    budget: getVal('budget'), timeline: getVal('timeline'), referral: getVal('referral'),
+    submitted: new Date().toISOString()
+  };
+}
+
+function buildSummaryText(d) {
+  let t = `=== NexusAI Client Intake ===\n`;
+  t += `Date: ${new Date(d.submitted).toLocaleDateString()}\n\n`;
+  t += `CONTACT\nName: ${d.name}\nEmail: ${d.email}\nPhone: ${d.phone||'—'}\nTitle: ${d.job_title}\nCompany: ${d.company}\n\n`;
+  t += `BUSINESS\nIndustry: ${d.industry}\nSize: ${d.company_size}\nRevenue: ${d.revenue||'—'}\nWebsite: ${d.website||'—'}\n\n`;
+  t += `NEEDS\nPain Points: ${d.pain_points.length ? d.pain_points.join(', ') : '—'}\nChallenge: ${d.challenge||'—'}\n\n`;
+  t += `BUDGET & TIMELINE\nBudget: ${d.budget}\nTimeline: ${d.timeline}\nReferral: ${d.referral||'—'}\n\n`;
+  const rec = d.pain_points.filter(p => TOOLS[p]).map(p => `• ${TOOLS[p].name}`);
+  if (rec.length) t += `RECOMMENDED TOOLS\n${rec.join('\n')}\n`;
+  return t;
+}
+
+function buildSummaryHTML(d) {
+  let h = `<h4>Contact</h4>`;
+  h += `<span class="label-sm">Name:</span> <span class="val">${d.name}</span><br>`;
+  h += `<span class="label-sm">Email:</span> <span class="val">${d.email}</span><br>`;
+  if (d.phone) h += `<span class="label-sm">Phone:</span> <span class="val">${d.phone}</span><br>`;
+  h += `<span class="label-sm">Title:</span> <span class="val">${d.job_title}</span><br>`;
+  h += `<span class="label-sm">Company:</span> <span class="val">${d.company}</span>`;
+  h += `<h4>Business</h4>`;
+  h += `<span class="label-sm">Industry:</span> <span class="val">${d.industry}</span><br>`;
+  h += `<span class="label-sm">Size:</span> <span class="val">${d.company_size}</span><br>`;
+  if (d.revenue) h += `<span class="label-sm">Revenue:</span> <span class="val">${d.revenue}</span><br>`;
+  if (d.website) h += `<span class="label-sm">Website:</span> <span class="val">${d.website}</span>`;
+  h += `<h4>Needs</h4>`;
+  if (d.pain_points.length) h += d.pain_points.map(p => `<span class="badge">${p}</span> `).join('');
+  if (d.challenge) h += `<br><br><span class="label-sm">Challenge:</span> <span class="val">${d.challenge}</span>`;
+  h += `<h4>Budget & Timeline</h4>`;
+  h += `<span class="label-sm">Budget:</span> <span class="val">${d.budget}</span><br>`;
+  h += `<span class="label-sm">Timeline:</span> <span class="val">${d.timeline}</span><br>`;
+  if (d.referral) h += `<span class="label-sm">Referral:</span> <span class="val">${d.referral}</span>`;
+  return h;
+}
+
+function submitForm() {
+  if (!validate(current)) return;
+  const d = getData();
+  localStorage.setItem('nexusai_intake', JSON.stringify(d));
+  document.getElementById('summary').innerHTML = buildSummaryHTML(d);
+
+  // email link
+  const subj = encodeURIComponent(`NexusAI Intake — ${d.company}`);
+  const body = encodeURIComponent(buildSummaryText(d));
+  document.getElementById('email-link').href = `mailto:?subject=${subj}&body=${body}`;
+
+  // recommended tools
+  const toolsEl = document.getElementById('recommended-tools');
+  const matched = d.pain_points.filter(p => TOOLS[p]);
+  if (matched.length) {
+    toolsEl.innerHTML = matched.map(p => {
+      const t = TOOLS[p];
+      return `<a class="tool-card" href="${t.url}" target="_blank"><span class="tool-icon">${t.icon}</span>${t.name}</a>`;
+    }).join('');
+  } else {
+    toolsEl.innerHTML = Object.values(TOOLS).slice(0, 4).map(t =>
+      `<a class="tool-card" href="${t.url}" target="_blank"><span class="tool-icon">${t.icon}</span>${t.name}</a>`
+    ).join('');
+  }
+
+  goToStep(5);
+}
+
+function copySummary() {
+  const d = JSON.parse(localStorage.getItem('nexusai_intake'));
+  navigator.clipboard.writeText(buildSummaryText(d)).then(() => showToast('Summary copied to clipboard!'));
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// Restore from localStorage
+(function restore() {
+  const saved = localStorage.getItem('nexusai_intake');
+  if (!saved) return;
+  try {
+    const d = JSON.parse(saved);
+    ['name','email','phone','job_title','company','industry','company_size','revenue','website','challenge','budget','timeline','referral'].forEach(k => {
+      if (d[k] && document.getElementById(k)) document.getElementById(k).value = d[k];
+    });
+    if (d.pain_points) {
+      document.querySelectorAll('#pain-points input').forEach(cb => {
+        if (d.pain_points.includes(cb.value)) { cb.checked = true; cb.closest('.checkbox-item').classList.add('checked'); }
+      });
+    }
+    document.getElementById('saved-indicator').style.display = 'inline-flex';
+  } catch(e) {}
+})();
+
+// Clear invalid on input
+document.querySelectorAll('input,select,textarea').forEach(el => {
+  el.addEventListener('input', () => el.classList.remove('invalid'));
+});
+</script>
+</body>
+</html>
+

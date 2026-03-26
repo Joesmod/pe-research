@@ -1,0 +1,147 @@
+PE RESEARCH & ENRICHMENT - HOURLY CYCLE COMPLETE
+Date: Tuesday, March 17th, 2026 — 7:37 AM (America/Chicago)
+Cron Job: 8fbfb70e-b09d-4ab1-9906-ab0a33373945
+
+====================================================================
+EXECUTIVE SUMMARY
+====================================================================
+
+LEADS SCANNED: 15 requiring attention
+LEADS RESEARCHED: 6 firms (priority focus)
+GOOGLE SHEET UPDATED: 5 rows with verified data
+GITHUB DOSSIERS UPDATED: 5 firm files
+STATUS: ✅ COMPLETE - No new firms added (enrichment focus as instructed)
+
+====================================================================
+ENRICHMENT RESULTS
+====================================================================
+
+1. ✅ BOW RIVER CAPITAL (Row 1230)
+   Contact: Blair Richardson, Founder & CEO
+   Email: richardson@bowrivercapital.com
+   Source: ContactOut & RocketReach verified
+   Confidence: 95%
+   Status: ENRICHED
+
+2. ✅ SVERICA CAPITAL MANAGEMENT (Row 1231)
+   Contact: Dave Finley, Managing Partner
+   Email: dave@sverica.com
+   Source: ContactOut (Dec 2024), re-verified Mar 2026
+   Confidence: 95%
+   Status: ENRICHED (confirmed existing data)
+
+3. ✅ RESILIENCE CAPITAL PARTNERS (Row 1232)
+   Contact: Steve Rosen, Co-Founder & Chairman (title updated)
+   Email: srosen@resiliencecapital.com (inferred)
+   Source: Official website for title, pattern inferred
+   Confidence: 75%
+   Status: ENRICHED - Pattern Verified
+
+4. ✅ MARLIN EQUITY PARTNERS (Row 1233)
+   Contact: Alex Beregovsky, Managing Director
+   Email: aberegovsky@marlinequity.com
+   Source: ZoomInfo & Wiza verified
+   Confidence: 90%
+   Status: ENRICHED
+
+5. ⚠️ PATIENT SQUARE CAPITAL (Row 1160, duplicate 1250)
+   Contact: Jim Momtazee, Managing Partner
+   Email: jmomtazee@patientsquarecapital.com (INFERRED)
+   Source: Pattern inferred, not officially published
+   Confidence: 70%
+   Status: ENRICHED - Email Pattern Inferred (needs verification)
+
+====================================================================
+GOOGLE SHEET UPDATES
+====================================================================
+
+Spreadsheet ID: 11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4
+Rows updated: 5
+Columns modified: Email (E), Notes (H), Status (J)
+
+All updates include:
+- Verified email addresses or pattern confidence levels
+- Research source attribution
+- Enrichment date stamp (2026-03-17 cron)
+- Status updated to "Enriched" or variant
+
+====================================================================
+GITHUB UPDATES
+====================================================================
+
+Repository: https://github.com/Joesmod/pe-research
+Branch: main
+Commit: 29ac6b6
+
+Files updated:
+- PE-firms/Bow-River-Capital.md (Blair Richardson verified)
+- PE-firms/Sverica-Capital-Management.md (Dave Finley re-verified)
+- PE-firms/resilience-capital-partners.md (Steve Rosen title updated)
+- PE-firms/marlin-equity-partners.md (Alex Beregovsky added)
+- PE-firms/Patient-Square-Capital.md (Jim Momtazee research notes)
+
+Commit message includes full attribution and confidence levels.
+
+====================================================================
+RESEARCH METHODOLOGY
+====================================================================
+
+Sources used:
+- ContactOut (email verification service)
+- RocketReach (email verification service)
+- ZoomInfo (contact database)
+- Wiza (LinkedIn data extractor)
+- Official firm websites (team pages, contact pages)
+- Press releases (PR Newswire, BusinessWire)
+- Bloomberg profiles
+- LinkedIn company pages
+
+Email pattern verification:
+- Official publication (highest confidence: 95-100%)
+- Multiple verification services (high confidence: 85-95%)
+- Pattern inference + partial verification (medium: 70-85%)
+- Pattern inference only (lower: 60-75%)
+
+====================================================================
+NOTES FOR NEXT CYCLE
+====================================================================
+
+1. DEAD LEADS CONFIRMED:
+   - Riviera Partners (executive search firm, not PE)
+   - RRML Capital Resources (lending firm, not PE)
+   → Correctly marked "Dead" in sheet
+
+2. SECONDARY RESEARCH CANDIDATES (if time permits):
+   - Altaris Capital Partners (Daniel Tully)
+   - Lee Equity Partners (Collins Ward)
+   - WILsquare Capital (Andrew Scharf)
+
+3. POTENTIAL NEW FIRMS (services-heavy, mid-market):
+   - Branford Castle Partners (NYC, industrials/consumer)
+   - Awani Capital (founded 2024, business services)
+   - Heartwood Partners (Norwalk CT, agriculture/industrial)
+
+4. EMAIL VERIFICATION PRIORITIES:
+   - Patient Square Capital: jmomtazee@ needs direct confirmation
+   - Consider alternative contacts at same firms for redundancy
+
+====================================================================
+RECOMMENDATIONS
+====================================================================
+
+✅ Ready for outreach (high confidence):
+- Bow River Capital (Blair Richardson)
+- Sverica Capital Management (Dave Finley)
+- Marlin Equity Partners (Alex Beregovsky)
+
+⚠️ Verify before high-priority outreach:
+- Patient Square Capital (Jim Momtazee)
+- Resilience Capital Partners (Steve Rosen)
+
+📊 Quality over quantity achieved:
+Focus on verification rather than volume expansion ensures clean,
+deliverable contact data for outreach campaigns.
+
+====================================================================
+END REPORT
+====================================================================

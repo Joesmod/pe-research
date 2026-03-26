@@ -1,0 +1,38 @@
+[
+  {
+    "company": "Trivest Partners",
+    "contactName": "Troy Templeton",
+    "email": "ttempleton@trivest.com",
+    "title": "Managing Director",
+    "linkedIn": "https://www.linkedin.com/in/troy-templeton/",
+    "status": "Enriched",
+    "notes": "Email verified from ContactOut and ZoomInfo"
+  },
+  {
+    "company": "Court Square Capital Partners",
+    "contactName": "Christopher Bloise",
+    "email": "cbloise@courtsquare.com",
+    "title": "President & Managing Partner",
+    "linkedIn": "https://www.linkedin.com/in/christopher-bloise-215268/",
+    "status": "Enriched",
+    "notes": "Email pattern verified from RocketReach and ZoomInfo"
+  },
+  {
+    "company": "Pritzker Private Capital",
+    "contactName": "Michael Nelson",
+    "email": "mnelson@ppcpartners.com",
+    "title": "Managing Partner & Head of Investing",
+    "linkedIn": "https://www.linkedin.com/in/michael-nelson/",
+    "status": "Enriched",
+    "notes": "Email verified from Success.ai and RocketReach"
+  },
+  {
+    "company": "Resilience Capital Partners",
+    "contactName": "Steve Rosen",
+    "email": "srosen@resiliencecapital.com",
+    "title": "Co-CEO & Co-Founder",
+    "linkedIn": "https://www.linkedin.com/in/steve-rosen/",
+    "status": "Enriched",
+    "notes": "Email pattern verified from Growjo"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "updates": [
+    {
+      "firm": "Spectrum Search Partners",
+      "status": "Dead - Not PE Firm",
+      "notes": "Executive search/recruiting firm, not PE"
+    },
+    {
+      "firm": "Provident Healthcare Partners",
+      "status": "Dead - Investment Bank",
+      "notes": "Healthcare M&A advisory/investment bank, not PE"
+    },
+    {
+      "firm": "AGC Partners",
+      "status": "Dead - Investment Bank",
+      "notes": "Tech M&A advisory firm, not PE"
+    },
+    {
+      "firm": "Amity Search Partners",
+      "status": "Dead - Not PE Firm",
+      "notes": "Executive search firm for PE, not PE itself"
+    },
+    {
+      "firm": "Silas Capital",
+      "contact": "Carter Weiss",
+      "title": "Partner",
+      "email": "carter@silascapital.com",
+      "linkedin": "https://www.linkedin.com/company/silas-capital",
+      "notes": "Consumer brands growth equity. Confirmed partner from official website."
+    },
+    {
+      "firm": "Silas Capital",
+      "contact": "Frank T. Lin",
+      "title": "Partner",
+      "email": "frank@silascapital.com",
+      "linkedin": "https://www.linkedin.com/company/silas-capital",
+      "notes": "Co-founder, consumer growth investor. Confirmed from official website."
+    }
+  ],
+  "timestamp": "2026-03-03T20:07:00Z",
+  "enrichedCount": 6
+}

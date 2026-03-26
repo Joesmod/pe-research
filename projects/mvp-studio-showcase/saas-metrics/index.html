@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SaaS Metrics Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;padding:20px}
+.container{max-width:1100px;margin:0 auto}
+.back{display:inline-block;margin-bottom:20px;color:#6366f1;text-decoration:none;font-size:.9rem;font-weight:600}
+.back:hover{text-decoration:underline}
+header{text-align:center;padding:30px 0 24px}
+header h1{font-size:2rem;font-weight:800;background:linear-gradient(135deg,#6366f1,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+header p{color:#888;margin-top:8px;font-size:.95rem}
+.input-bar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:32px;padding:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px}
+.input-bar .field{display:flex;flex-direction:column;gap:4px}
+.input-bar label{font-size:.75rem;color:#888;text-transform:uppercase;letter-spacing:.5px}
+.input-bar input{width:130px;padding:10px 12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:8px;color:#fff;font-family:'Inter',sans-serif;font-size:.9rem;outline:none}
+.input-bar input:focus{border-color:#6366f1}
+.btn{padding:10px 24px;background:linear-gradient(135deg,#6366f1,#06b6d4);color:#fff;border:none;border-radius:10px;font-family:'Inter',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;align-self:flex-end;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:24px}
+.metric{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:20px;position:relative;overflow:hidden}
+.metric .health{position:absolute;top:16px;right:16px;width:10px;height:10px;border-radius:50%}
+.green{background:#22c55e;box-shadow:0 0 8px #22c55e55}
+.yellow{background:#eab308;box-shadow:0 0 8px #eab30855}
+.red{background:#ef4444;box-shadow:0 0 8px #ef444455}
+.metric .label{font-size:.75rem;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.metric .value{font-size:1.8rem;font-weight:800;margin-bottom:4px}
+.metric .benchmark{font-size:.75rem;color:#666;margin-top:8px}
+.metric canvas{margin-top:8px;width:100%;height:40px}
+.section-title{font-size:1rem;font-weight:700;margin:24px 0 12px;color:#888}
+@media(max-width:640px){.input-bar input{width:100%}.input-bar .field{flex:1;min-width:120px}.metrics{grid-template-columns:1fr 1fr}}
+@media(max-width:400px){.metrics{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+<a href="../" class="back">← Back to Showcase</a>
+<header>
+<h1>SaaS Metrics Dashboard</h1>
+<p>Enter your key inputs and see your business health at a glance</p>
+</header>
+<div class="input-bar">
+<div class="field"><label>MRR ($)</label><input type="number" id="mrr" value="50000"></div>
+<div class="field"><label>Churn (%)</label><input type="number" id="churn" value="4" step="0.1"></div>
+<div class="field"><label>New Cust/mo</label><input type="number" id="newCust" value="50"></div>
+<div class="field"><label>ARPU ($)</label><input type="number" id="arpu" value="100"></div>
+<div class="field"><label>CAC ($)</label><input type="number" id="cac" value="500"></div>
+<button class="btn" onclick="calc()">Calculate</button>
+</div>
+<div class="metrics" id="metrics"></div>
+</div>
+<script>
+function sparkline(canvas,data,color){
+const ctx=canvas.getContext('2d');
+const w=canvas.width=canvas.offsetWidth*2;
+const h=canvas.height=80;
+ctx.scale(1,1);
+const min=Math.min(...data),max=Math.max(...data);
+const range=max-min||1;
+ctx.beginPath();
+ctx.strokeStyle=color;ctx.lineWidth=2;ctx.lineJoin='round';
+data.forEach((v,i)=>{const x=(i/(data.length-1))*w;const y=h-((v-min)/range)*(h-8)-4;i===0?ctx.moveTo(x,y):ctx.lineTo(x,y)});
+ctx.stroke();
+ctx.lineTo(w,h);ctx.lineTo(0,h);ctx.closePath();
+const grad=ctx.createLinearGradient(0,0,0,h);
+grad.addColorStop(0,color+'44');grad.addColorStop(1,color+'00');
+ctx.fillStyle=grad;ctx.fill();
+}
+function genSparkData(base,variance,n=12){
+const d=[];let v=base;
+for(let i=0;i<n;i++){v+=((Math.random()-.4)*variance);d.push(Math.max(0,v))}return d;
+}
+function fmt(n){if(n>=1e6)return'$'+(n/1e6).toFixed(1)+'M';if(n>=1e3)return'$'+(n/1e3).toFixed(1)+'K';return'$'+n.toFixed(0)}
+function health(val,good,bad,invert=false){
+if(invert)return val<=good?'green':val<=bad?'yellow':'red';
+return val>=good?'green':val>=bad?'yellow':'red';
+}
+function calc(){
+const mrr=+document.getElementById('mrr').value;
+const churn=+document.getElementById('churn').value;
+const newCust=+document.getElementById('newCust').value;
+const arpu=+document.getElementById('arpu').value;
+const cac=+document.getElementById('cac').value;
+const arr=mrr*12;
+const ltv=(churn>0)?(arpu/(churn/100)):arpu*100;
+const ltvCac=cac>0?ltv/cac:0;
+const payback=arpu>0?cac/arpu:0;
+const nrr=100-churn+2;// simplified
+const metrics=[
+{label:'ARR',value:fmt(arr),color:'#6366f1',h:health(arr,500000,100000),base:mrr,var:mrr*.05,bench:'Target: >$500K'},
+{label:'MRR',value:fmt(mrr),color:'#818cf8',h:health(mrr,50000,10000),base:mrr,var:mrr*.03,bench:'Input metric'},
+{label:'Churn Rate',value:churn.toFixed(1)+'%',color:churn<=3?'#22c55e':churn<=5?'#eab308':'#ef4444',h:health(churn,3,7,true),base:churn,var:.5,bench:'Good SaaS churn <5%'},
+{label:'LTV',value:fmt(ltv),color:'#06b6d4',h:health(ltv,5000,1000),base:ltv,var:ltv*.04,bench:'Higher is better'},
+{label:'LTV:CAC Ratio',value:ltvCac.toFixed(1)+'x',color:'#a855f7',h:health(ltvCac,3,1.5),base:ltvCac,var:.3,bench:'Target: >3x'},
+{label:'CAC',value:fmt(cac),color:'#f97316',h:health(cac,300,800,true),base:cac,var:cac*.04,bench:'Lower is better'},
+{label:'Months to Payback',value:payback.toFixed(1),color:'#ec4899',h:health(payback,6,18,true),base:payback,var:.4,bench:'Target: <12 months'},
+{label:'Net Revenue Retention',value:nrr.toFixed(0)+'%',color:'#22c55e',h:health(nrr,100,90),base:nrr,var:2,bench:'Target: >100%'},
+{label:'ARPU',value:fmt(arpu),color:'#fbbf24',h:health(arpu,100,30),base:arpu,var:arpu*.03,bench:'Input metric'},
+{label:'New Customers/mo',value:newCust.toString(),color:'#06b6d4',h:health(newCust,50,10),base:newCust,var:5,bench:'Growth indicator'},
+];
+const container=document.getElementById('metrics');
+container.innerHTML=metrics.map((m,i)=>`
+<div class="metric">
+<div class="health ${m.h}"></div>
+<div class="label">${m.label}</div>
+<div class="value" style="color:${m.color}">${m.value}</div>
+<div class="benchmark">${m.bench}</div>
+<canvas id="spark${i}"></canvas>
+</div>`).join('');
+metrics.forEach((m,i)=>{
+const c=document.getElementById('spark'+i);
+sparkline(c,genSparkData(m.base,m.var),m.color);
+});
+}
+calc();
+</script>
+</body>
+</html>

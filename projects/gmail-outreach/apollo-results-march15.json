@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Newflow Partners",
+    "rowIndex": 766,
+    "existingContact": "Jason Levine",
+    "existingEmail": "",
+    "apolloResults": []
+  },
+  {
+    "company": "Accel-KKR",
+    "rowIndex": 864,
+    "existingContact": "Tom Barnds",
+    "existingEmail": "",
+    "apolloResults": []
+  },
+  {
+    "company": "Wynnchurch Capital",
+    "rowIndex": 924,
+    "existingContact": "John Hatherly",
+    "existingEmail": "",
+    "apolloResults": []
+  },
+  {
+    "company": "The Riverside Company",
+    "rowIndex": 937,
+    "existingContact": "Stewart Kohl",
+    "existingEmail": "",
+    "apolloResults": []
+  },
+  {
+    "company": "Gryphon Investors",
+    "rowIndex": 993,
+    "existingContact": "R. David Andrews",
+    "existingEmail": "",
+    "apolloResults": []
+  },
+  {
+    "company": "Trivest Partners",
+    "rowIndex": 994,
+    "existingContact": "Forest Wester",
+    "existingEmail": "info@trivest.com",
+    "apolloResults": []
+  }
+]

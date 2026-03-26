@@ -1,0 +1,211 @@
+const fs = require('fs');
+
+// Batch selected for 2026-03-02
+// 25 enriched contacts, 1 per company, no recent contact within 7 days
+// Prioritized: CTOs, CIOs, tech/ops leaders
+
+const batch = [
+  {
+    company: 'TA Associates',
+    contact: 'Jennifer Barbetta',
+    title: 'Chief Operating Officer & Managing Director',
+    email: 'jbarbetta@ta.com',
+    sector: 'Healthcare, business services, financial services, tech',
+    portfolio: 'Global growth PE with services-heavy portfolio across sectors'
+  },
+  {
+    company: 'Francisco Partners',
+    contact: 'Brian Maury',
+    title: 'Chief Technology Officer',
+    email: 'brian.maury@franciscopartners.com',
+    sector: 'Technology, Software',
+    portfolio: 'Tech-focused private equity'
+  },
+  {
+    company: 'Argosy Private Equity',
+    contact: 'Lane Wiggers',
+    title: 'Managing Director, Operating Partner Program',
+    email: 'lwiggers@argosyprivateequity.com',
+    sector: 'Business Services, Healthcare Services, Industrial Services',
+    portfolio: 'Healthcare Partners arm focused on founder-owned companies'
+  },
+  {
+    company: 'Graham Partners',
+    contact: 'Tom Panozzo',
+    title: 'Chief Technology Officer',
+    email: 'tpanozzo@graham-allen.com',
+    sector: 'Industry Technology, Advanced Manufacturing, Business Services',
+    portfolio: 'Industrial technology portfolio'
+  },
+  {
+    company: 'Hellman & Friedman',
+    contact: 'Julia Arnold',
+    title: 'Director of Partner Services',
+    email: 'jarnold@hf.com',
+    sector: 'Software, Insurance, Financial Services',
+    portfolio: 'Insurance and financial services market leaders'
+  },
+  {
+    company: 'Broadwing Capital',
+    contact: 'Blake Richardson',
+    title: 'Managing Director',
+    email: 'blake@broadwingcap.com',
+    sector: 'Business Services, Professional Services, Insurance Services',
+    portfolio: 'Mid-market services companies'
+  },
+  {
+    company: 'RFE Investment Partners',
+    contact: 'Peter Reiter',
+    title: 'Managing Director',
+    email: 'preiter@rfeip.com',
+    sector: 'Business Services, Healthcare Services, Industrial Services',
+    portfolio: 'Lower mid-market services companies'
+  },
+  {
+    company: 'Tonka Bay Equity Partners',
+    contact: 'Shawn Cappello',
+    title: 'Director',
+    email: 'scappello@tonkabayequity.com',
+    sector: 'Business Services, Healthcare Services, Staffing',
+    portfolio: 'Lower mid-market services businesses'
+  },
+  {
+    company: 'Centerbridge Partners',
+    contact: 'Bill Neuenfeldt',
+    title: 'Senior Managing Director & COO',
+    email: 'bneuenfeldt@centerbridge.com',
+    sector: 'Business Services, Financial Services, Healthcare',
+    portfolio: 'Multi-billion AUM, diversified services portfolio'
+  },
+  {
+    company: 'Platinum Equity',
+    contact: 'Charles Bonomo',
+    title: 'Chief Technology Officer',
+    email: 'cbonomo@platinumequity.com',
+    sector: 'Business Services, Industrial Services, Distribution, BPO',
+    portfolio: '550+ acquisitions including services companies'
+  },
+  {
+    company: 'Kinderhook Industries',
+    contact: 'Christian Michalik',
+    title: 'Founder, Managing Director',
+    email: 'cmichalik@kinderhook.com',
+    sector: 'Healthcare Services, Environmental & Industrial Services',
+    portfolio: 'Ironclad Environmental Solutions, healthcare services'
+  },
+  {
+    company: 'Pharos Capital Group',
+    contact: 'Adam Persiani',
+    title: 'Managing Director - Business Development',
+    email: 'apersiani@pharosfunds.com',
+    sector: 'Healthcare Services, Business Services',
+    portfolio: 'Seaside Healthcare, MOTION Physical Therapy, Sona Dermatology'
+  },
+  {
+    company: 'MidOcean Partners',
+    contact: 'Deborah Hodges',
+    title: 'Managing Director and Chief Operating Officer',
+    email: 'dhodges@midoceanpartners.com',
+    sector: 'Business services, healthcare, technology',
+    portfolio: 'Middle market services companies'
+  },
+  {
+    company: 'Leeds Equity Partners',
+    contact: 'Christopher Mairs',
+    title: 'Managing Director',
+    email: 'christopher.mairs@leedsequity.com',
+    sector: 'Knowledge Industries, Education, Information Services',
+    portfolio: 'BBMA, education and information services companies'
+  },
+  {
+    company: 'Highlander Partners',
+    contact: 'Joe Francescon',
+    title: 'Director',
+    email: 'dzynepac@highlanderpartners.com',
+    sector: 'Business Services, Healthcare Services, Food & Consumer',
+    portfolio: 'Services and consumer platforms'
+  },
+  {
+    company: 'SRM Equity Partners',
+    contact: 'Timothy Stanley',
+    title: 'Chief Technology Officer',
+    email: 'tstanley@sunnyrivermanagement.com',
+    sector: 'Business services, industrial, consumer',
+    portfolio: 'Middle-market services companies'
+  },
+  {
+    company: 'Investcorp',
+    contact: 'Berouz Fatemi',
+    title: 'Partner - CIO Paladin Defensive Strategy',
+    email: 'berouz.fatemi@investcorptages.com',
+    sector: 'Technology, business services, healthcare, consumer',
+    portfolio: 'Multi-strategy including mid-market PE'
+  },
+  {
+    company: 'Warburg Pincus',
+    contact: 'Gilbert Chuabio',
+    title: 'CTO/ SVP Value Creation',
+    email: 'gilbert.chuabio@warburgpincus.com',
+    sector: 'Healthcare, financial services, business services, technology',
+    portfolio: 'Major healthcare services and financial services portfolio'
+  },
+  {
+    company: 'Thoma Bravo',
+    contact: 'Mark Maier',
+    title: 'Director, Chief Technology Officer',
+    email: 'mmaier@thomabravo.com',
+    sector: 'Software, tech-enabled services, financial services, healthcare IT',
+    portfolio: 'ConnectWise, Qlik, SolarWinds'
+  },
+  {
+    company: 'Insight Partners',
+    contact: 'Wes Rosenberg',
+    title: 'Chief Technology Officer',
+    email: 'wrosenberg@insightpartners.com',
+    sector: 'Software, tech-enabled services, healthcare IT',
+    portfolio: '800+ investments in tech and services'
+  },
+  {
+    company: 'TPG Capital',
+    contact: 'David Golembiewski',
+    title: 'Director',
+    email: 'dgolembiewski@twincp.com',
+    sector: 'Healthcare, business services, technology, financial services',
+    portfolio: '6 platforms: Capital, Growth, Impact, Credit, Real Estate, Market Solutions'
+  },
+  {
+    company: 'Onex Corporation',
+    contact: 'Stephen Baker',
+    title: 'Managing Director',
+    email: 'sbaker@onexcredit.com',
+    sector: 'Healthcare, business services, financial services, industrial',
+    portfolio: 'Carestream, insurance services companies'
+  },
+  {
+    company: 'Leonard Green & Partners',
+    contact: 'Tai Park',
+    title: 'Chief Information Officer',
+    email: 'tpark@leonardgreen.com',
+    sector: 'Healthcare, business services, consumer services',
+    portfolio: 'Caliber Collision, Solera, US Anesthesia Partners'
+  },
+  {
+    company: 'Ampersand Capital Partners',
+    contact: 'Matthew Munfakh',
+    title: 'Vice President',
+    email: 'mam@ampersandcapital.com',
+    sector: 'Healthcare, life sciences',
+    portfolio: 'Lab products, healthcare services companies'
+  },
+  {
+    company: 'Havencrest Capital Management',
+    contact: 'Matt Shofner',
+    title: 'Partner',
+    email: 'mshofner@havencrest.com',
+    sector: 'Healthcare services',
+    portfolio: 'Healthcare delivery companies'
+  }
+];
+
+fs.writeFileSync('batch-2026-03-02.json', JSON.stringify(batch, null, 2));
+console.log(`Saved ${batch.length} contacts to batch-2026-03-02.json`);

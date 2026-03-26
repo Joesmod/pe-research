@@ -1,0 +1,62 @@
+PE RESEARCH & ENRICHMENT - CRON RUN SUMMARY
+============================================
+Date: Sunday, March 8th, 2026 — 11:06 PM CST
+Run By: Jim (PE Sales Researcher)
+
+ENRICHMENT STATUS
+-----------------
+✅ Sheet in excellent condition
+- Total rows analyzed: 973
+- Leads needing enrichment: 1 (Centerview Partners - Investment Bank, not PE target)
+- Conclusion: Enrichment work is COMPLETE
+
+NEW FIRMS ADDED (3)
+-------------------
+1. Bow River Capital
+   - Contact: Greg J. Hiatrides (Partner, Head of Private Equity)
+   - Location: Denver, CO
+   - AUM: ~$2.5B+
+   - Focus: Healthcare, Infrastructure, Industrial Services
+   - Row: 974
+
+2. Amulet Capital Partners
+   - Contact: Avi Uttamchandani (Partner)
+   - Location: Greenwich, CT
+   - AUM: Mid-single-digit billions
+   - Focus: Healthcare-exclusive (Life Sciences, Providers, Payor)
+   - Row: 975
+
+3. Trivest Partners
+   - Contact: Reid Callaway (Managing Director)
+   - Location: Coral Gables, FL / Palo Alto, CA
+   - AUM: $3.3B+ (4 funds)
+   - Focus: Business Services, Healthcare, Manufacturing
+   - Row: 976
+
+DELIVERABLES
+------------
+✅ Google Sheet updated (rows 974-976)
+✅ 3 comprehensive dossiers created
+✅ GitHub commits pushed (2 commits)
+✅ Full cron report generated
+
+EMAIL RESEARCH
+--------------
+Individual emails not publicly available for any contacts (standard for PE firms).
+Notes added to sheet with general contact info and LinkedIn URLs.
+
+GITHUB
+------
+Repository: https://github.com/Joesmod/pe-research
+Commits:
+- 4fbed63: Add dossiers for 3 new mid-market PE firms
+- 79245a3: PE Research Cron Report - March 8, 2026 11:06 PM
+
+RECOMMENDATION
+--------------
+Pipeline is in excellent shape. Future cron runs should focus on adding
+3-5 new firms per run rather than enrichment. Consider LinkedIn outreach
+for all three new contacts.
+
+Duration: ~25 minutes
+Status: ✅ COMPLETE

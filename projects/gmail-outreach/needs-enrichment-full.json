@@ -1,0 +1,442 @@
+[
+  {
+    "rowIndex": 13,
+    "company": "Eckuity Capital",
+    "website": "http://www.eckuity.com",
+    "contactName": "Youssef Sebban",
+    "title": "Founder & Managing Partner",
+    "email": "ysebban@eckuity.com",
+    "status": "Healthcare, Technology, Software/Technology, Consumer, Business Services, Education/EdTech",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 18,
+    "company": "Gryphon Investors",
+    "website": "https://www.gryphon-inv.com",
+    "contactName": "Alex Beregovsky",
+    "title": "Managing Director",
+    "email": "smckinnon@gryphoninvestors.com",
+    "status": "Needs Email",
+    "reason": "Status: Needs Email"
+  },
+  {
+    "rowIndex": 19,
+    "company": "Erez Capital",
+    "website": "http://www.erezcapital.io",
+    "contactName": "Michael Benezra",
+    "title": "Founder & Managing Partner",
+    "email": "michael@erezcapital.io",
+    "status": "Fintech, AI, PropTech, MedTech",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 20,
+    "company": "Charlesbank Capital Partners",
+    "website": "Sandor Hau",
+    "contactName": "Michael Choe",
+    "title": "Managing Partner, CEO & Co-Head Flagship",
+    "email": "mchoe@charlesbank.com",
+    "status": "Managing Partner, CEO & Co-Head Flagship. Also: Brandon White (Managing Partner, Co-Head Flagship), Sandor Hau (Managing Partner, President Credit). Email pattern inferred. Source: charlesbank.com/team 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 21,
+    "company": "Charlesbank Capital Partners",
+    "website": "https://www.charlesbank.com",
+    "contactName": "Michael Choe",
+    "title": "Managing Partner, CEO & Co-Head Flagship",
+    "email": "mchoe@charlesbank.com",
+    "status": "Managing Partner, CEO & Co-Head Flagship. Also: Brandon White (Managing Partner, Co-Head Flagship), Sandor Hau (Managing Partner, President Credit). Email pattern inferred. Source: charlesbank.com/team 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 22,
+    "company": "Flyover Capital",
+    "website": "http://www.flyovercapital.com",
+    "contactName": "Tristan Mace",
+    "title": "Managing Partner",
+    "email": "tmace@flyovercapital.com",
+    "status": "Technology, Software/Technology, Media & Entertainment, Distribution",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 60,
+    "company": "PSG Equity",
+    "website": "https://www.psgequity.com",
+    "contactName": "Mark Hastings",
+    "title": "CEO & Co-Founder",
+    "email": "mhastings@psgequity.com",
+    "status": "CEO & Co-Founder. Growth equity, software/tech-enabled services. 130+ companies backed. $1B+ AUM. Email pattern inferred. Source: Crunchbase + psgequity.com 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 94,
+    "company": "PennSpring Capital",
+    "website": "https://pennspring.com",
+    "contactName": "Vincenzo La Ruffa",
+    "title": "Managing Partner",
+    "email": "vlarruffa@aquiline-llc.com",
+    "status": "Technology, Financial Services, Business Services, Infrastructure",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 101,
+    "company": "Littlejohn & Co",
+    "website": "https://littlejohnllc.com",
+    "contactName": "Antonio Miranda",
+    "title": "Managing Partner",
+    "email": "amiranda@littlejohnllc.com",
+    "status": "Managing Partner (with Steven Raich). Mid-market PE, transformational growth focus. Email pattern inferred. Source: littlejohnllc.com + LeadIQ 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 102,
+    "company": "Stellus Capital Management",
+    "website": "http://www.stelluscapital.com",
+    "contactName": "Robert T. Ladd",
+    "title": "Managing Partner Chairman & CEO",
+    "email": "rladd@stelluscapital.com",
+    "status": "Private Credit Lower Middle Market",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 147,
+    "company": "TowerBrook Capital Partners",
+    "website": "Karim Saddi",
+    "contactName": "Karim Saddi",
+    "title": "Co-CEO & Managing Partner",
+    "email": "ksaddi@towerbrook.com",
+    "status": "Co-CEO with Jonathan Bilzin. $25B+ AUM. NYC/London offices. Email pattern inferred. Source: craft.co + Wikipedia 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 168,
+    "company": "Clearlake Capital Group",
+    "website": "https://www.clearlake.com",
+    "contactName": "David Leuschen",
+    "title": "Co-Founder & Senior Managing Director",
+    "email": "dleuschen@riverstonellc.com",
+    "status": "Energy, Power, Infrastructure",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 191,
+    "company": "Flexpoint Ford",
+    "website": "https://www.flexpointford.com",
+    "contactName": "Don Edwards",
+    "title": "Chief Executive Officer",
+    "email": "dedwards@flexpointford.com",
+    "status": "Chief Executive Officer. Specialist in financial services PE. Chicago-based. Also: Chris Ackerman (Managing Partner). Email pattern inferred. Source: flexpointford.com + LinkedIn 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 282,
+    "company": "Ronin Equity Partners",
+    "website": "David Feierstein",
+    "contactName": "David Feierstein",
+    "title": "Co-Founder & Managing Partner",
+    "email": "dfeierstein@roninequitypartners.com",
+    "status": "Email inferred from firm pattern (first initial + last name)",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 404,
+    "company": "Dwight Funding",
+    "website": "http://www.dwightfunding.com",
+    "contactName": "Ben Brachot",
+    "title": "Co-Founder & Managing Director",
+    "email": "bbrachot@dwightfund.com",
+    "status": "",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 416,
+    "company": "Jump Capital",
+    "website": "http://www.jumpcap.com",
+    "contactName": "Sach Chitnis",
+    "title": "Co-Founder & Partner",
+    "email": "sach@jumpcap.com",
+    "status": "",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 418,
+    "company": "Kline Hill Partners",
+    "website": "https://klinehill.com",
+    "contactName": "Michael Bego",
+    "title": "Managing Partner & Founder",
+    "email": "mbego@klinehill.com",
+    "status": "",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 551,
+    "company": "WestView Capital Partners",
+    "website": "http://www.wvcapital.com",
+    "contactName": "Greg Thomas",
+    "title": "Partner",
+    "email": "gthomas@wvcapital.com",
+    "status": "Healthcare, Technology, Software/Technology, Industrials, Consumer, Business Services",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 672,
+    "company": "Sidekick Partners",
+    "website": "Platte River Equity",
+    "contactName": "Kristian M. Whalen",
+    "title": "Managing Director",
+    "email": "kwhalen@platteriverequity.com",
+    "status": "Agriculture, Chemicals, Industrials",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 675,
+    "company": "Solomon Partners",
+    "website": "Ronin Equity Partners",
+    "contactName": "David Feierstein",
+    "title": "Co-Founder & Managing Partner",
+    "email": "dfeierstein@roninequitypartners.com",
+    "status": "Industrial, Consumer",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 735,
+    "company": "DLP Capital",
+    "website": "http://www.dlpcapital.com",
+    "contactName": "Don Wenner",
+    "title": "Founder & CEO",
+    "email": "dwenner@dlpcapital.com",
+    "status": "Real Estate Investment",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 742,
+    "company": "Excelsior Equity Partners",
+    "website": "http://www.xequitypartners.com",
+    "contactName": "Zak Rutz",
+    "title": "Managing Director",
+    "email": "zrutz@excelsiordynamic.com",
+    "status": "Legal Finance",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 800,
+    "company": "Strategic Value Partners",
+    "website": "http://www.svpglobal.com",
+    "contactName": "Victor Khosla",
+    "title": "Founder & CIO",
+    "email": "vkhosla@svpglobal.com",
+    "status": "",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 814,
+    "company": "25madison",
+    "website": "http://www.25madison.com",
+    "contactName": "Steven Price",
+    "title": "Managing Partner & CEO",
+    "email": "sprice@25madison.com",
+    "status": "",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 872,
+    "company": "Salt Creek Capital",
+    "website": "Dan Mytels",
+    "contactName": "Dan Mytels",
+    "title": "Managing Partner",
+    "email": "dmytels@saltcreekcap.com",
+    "status": "Email pattern d******@saltcreekcap.com from RocketReach, inferred as dmytels@",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 930,
+    "company": "The Vistria Group",
+    "website": "http://www.vistria.com",
+    "contactName": "Martin Nesbitt",
+    "title": "Co-Founder Co-CEO Senior Partner Co-Chairman",
+    "email": "mnesbitt@vistria.com",
+    "status": "Healthcare Education Financial Services Middle Market",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 989,
+    "company": "Linsalata Capital Partners",
+    "website": "",
+    "contactName": "Frank Linsalata",
+    "title": "Founder & Chairman",
+    "email": "ebacon@linsalatacapital.com",
+    "status": "Needs Email",
+    "reason": "Status: Needs Email"
+  },
+  {
+    "rowIndex": 1000,
+    "company": "Brookside Capital Partners",
+    "website": "https://brooksidecp.com",
+    "contactName": "David D. Buttolph",
+    "title": "Managing Partner, Co-Founder",
+    "email": "csclar@brooksidecp.com",
+    "status": "Business Services, Healthcare, Industrial",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1004,
+    "company": "Brighton Park Capital",
+    "website": "https://www.bpc.com",
+    "contactName": "Mark Dzialga",
+    "title": "Founder & Managing Partner",
+    "email": "mdzialga@bpc.com",
+    "status": "Founder & Managing Partner. Growth equity, software/healthcare/tech-enabled services. Former General Atlantic MD. Email pattern inferred. Source: bpc.com + Crunchbase 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1100,
+    "company": "TowerBrook Capital Partners",
+    "website": "https://www.towerbrook.com",
+    "contactName": "Karim Saddi",
+    "title": "Co-CEO & Managing Partner",
+    "email": "ksaddi@towerbrook.com",
+    "status": "Co-CEO with Jonathan Bilzin. $25B+ AUM. NYC/London offices. Email pattern inferred. Source: craft.co + Wikipedia 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1101,
+    "company": "Brighton Park Capital",
+    "website": "https://www.bpc.com",
+    "contactName": "Mark Dzialga",
+    "title": "Founder & Managing Partner",
+    "email": "mdzialga@bpc.com",
+    "status": "Founder & Managing Partner. Growth equity, software/healthcare/tech-enabled services. Former General Atlantic MD. Email pattern inferred. Source: bpc.com + Crunchbase 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1102,
+    "company": "Littlejohn & Co",
+    "website": "https://littlejohnllc.com",
+    "contactName": "Antonio Miranda",
+    "title": "Managing Partner",
+    "email": "amiranda@littlejohnllc.com",
+    "status": "Managing Partner (with Steven Raich). Mid-market PE, transformational growth focus. Email pattern inferred. Source: littlejohnllc.com + LeadIQ 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1104,
+    "company": "CORE Industrial Partners",
+    "website": "https://coreipfund.com",
+    "contactName": "John May",
+    "title": "Founder & Managing Partner",
+    "email": "jmay@coreipfund.com",
+    "status": "Founder & Managing Partner. $1.58B AUM. Chicago-based. Also: Carissa Walker (Principal, BD), Frank Papa (Senior Partner). Source: coreipfund.com/team 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1106,
+    "company": "Tenex Capital Management",
+    "website": "https://www.tenexcm.com",
+    "contactName": "Mike Green",
+    "title": "CEO & Managing Director",
+    "email": "mgreen@tenexcm.com",
+    "status": "CEO & Managing Director. Co-founder. Also: Varun Bedi (Managing Director, co-founder). Email pattern verified RocketReach. Source: tenexcm.com/team + RocketReach 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1107,
+    "company": "Ares Management",
+    "website": "https://www.aresmgmt.com",
+    "contactName": "Michael Arougheti",
+    "title": "Co-Founder, CEO & President",
+    "email": "marougheti@aresmgmt.com",
+    "status": "Co-Founder, CEO & President. $623B AUM (huge!). Public company (NYSE: ARES). Email pattern inferred. Source: aresmgmt.com + LinkedIn 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1108,
+    "company": "PSG Equity",
+    "website": "https://psgequity.com",
+    "contactName": "Mark Hastings",
+    "title": "CEO & Co-Founder",
+    "email": "mhastings@psgequity.com",
+    "status": "CEO & Co-Founder. Growth equity, software/tech-enabled services. 130+ companies backed. $1B+ AUM. Email pattern inferred. Source: Crunchbase + psgequity.com 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1109,
+    "company": "Charlesbank Capital Partners",
+    "website": "https://www.charlesbank.com",
+    "contactName": "Michael Choe",
+    "title": "Managing Partner, CEO & Co-Head Flagship",
+    "email": "mchoe@charlesbank.com",
+    "status": "Managing Partner, CEO & Co-Head Flagship. Also: Brandon White (Managing Partner, Co-Head Flagship), Sandor Hau (Managing Partner, President Credit). Email pattern inferred. Source: charlesbank.com/team 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1160,
+    "company": "Patient Square Capital",
+    "website": "https://patientsquarecapital.com",
+    "contactName": "Jim Momtazee",
+    "title": "Managing Partner",
+    "email": "jmomtazee@patientsquarecapital.com",
+    "status": "Email INFERRED from standard pattern (first_initial+last@domain). Managing Partner, 30 yrs exp, 21 yrs at KKR. Official site only shows info@patientsquarecapital.com. Pattern not verified. (Researched 2026-03-17 cron)",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1188,
+    "company": "Charlesbank Capital Partners",
+    "website": "https://www.charlesbank.com",
+    "contactName": "Michael Choe",
+    "title": "Managing Partner, CEO & Co-Head Flagship",
+    "email": "mchoe@charlesbank.com",
+    "status": "Managing Partner, CEO & Co-Head Flagship. Also: Brandon White (Managing Partner, Co-Head Flagship), Sandor Hau (Managing Partner, President Credit). Email pattern inferred. Source: charlesbank.com/team 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1189,
+    "company": "Brighton Park Capital",
+    "website": "https://www.bpc.com",
+    "contactName": "Mark Dzialga",
+    "title": "Founder & Managing Partner",
+    "email": "mdzialga@bpc.com",
+    "status": "Founder & Managing Partner. Growth equity, software/healthcare/tech-enabled services. Former General Atlantic MD. Email pattern inferred. Source: bpc.com + Crunchbase 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1211,
+    "company": "TowerBrook Capital Partners",
+    "website": "Karim Saddi",
+    "contactName": "Karim Saddi",
+    "title": "Co-CEO & Managing Partner",
+    "email": "ksaddi@towerbrook.com",
+    "status": "Co-CEO with Jonathan Bilzin. $25B+ AUM. NYC/London offices. Email pattern inferred. Source: craft.co + Wikipedia 2026-03-25",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1232,
+    "company": "Resilience Capital Partners",
+    "website": "https://resiliencecapital.com",
+    "contactName": "Steve Rosen",
+    "title": "Co-Founder & Chairman (formerly Co-CEO)",
+    "email": "srosen@resiliencecapital.com",
+    "status": "Email pattern inferred (first_initial+last@domain). Co-founded with Bassem Mansour 2001. Cleveland/Denver offices.  AUM. (Researched 2026-03-17 cron)",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1247,
+    "company": "Patient Square Capital",
+    "website": "Healthcare",
+    "contactName": "Jim Momtazee",
+    "title": "Managing Partner",
+    "email": "jmomtazee@patientsquarecapital.com",
+    "status": "Research",
+    "reason": "Inferred email pattern"
+  },
+  {
+    "rowIndex": 1250,
+    "company": "Patient Square Capital",
+    "website": "https://patientsquarecapital.com",
+    "contactName": "Jim Momtazee",
+    "title": "Managing Partner",
+    "email": "jmomtazee@patientsquarecapital.com",
+    "status": "Healthcare (dedicated)",
+    "reason": "Inferred email pattern"
+  }
+]

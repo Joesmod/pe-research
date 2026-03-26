@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Non-Compete Clause Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>⚖️ Non-Compete Clause Checker</h1>
+  <p class="subtitle">Check if your non-compete agreement is likely enforceable</p>
+  <div class="disclaimer">⚠️ <strong>This is not legal advice.</strong> This tool provides general information only. Consult a licensed attorney in your state for advice specific to your situation.</div>
+
+  <div class="card">
+    <h2>📝 Your Non-Compete Details</h2>
+    <div class="form-grid">
+      <label>State
+        <select id="state">
+          <option value="">Select state...</option>
+        </select>
+      </label>
+      <label>Industry
+        <select id="industry">
+          <option>Healthcare / Medicine</option><option>Technology</option><option>Finance</option>
+          <option>Sales</option><option>Legal</option><option>Broadcasting / Media</option>
+          <option>Manufacturing</option><option>Consulting</option><option>Other</option>
+        </select>
+      </label>
+      <label>Non-Compete Radius (miles)<input type="number" id="radius" min="0" placeholder="e.g. 25"></label>
+      <label>Duration (months)<input type="number" id="duration" min="0" placeholder="e.g. 12"></label>
+      <label>Employment Ended By
+        <select id="termination">
+          <option value="resigned">I resigned</option>
+          <option value="terminated">I was terminated / laid off</option>
+          <option value="mutual">Mutual separation</option>
+        </select>
+      </label>
+      <label>Did you receive separate compensation for signing?
+        <select id="consideration">
+          <option value="yes">Yes (signing bonus, raise, etc.)</option>
+          <option value="no">No — just continued employment</option>
+          <option value="unsure">Unsure</option>
+        </select>
+      </label>
+    </div>
+    <button class="btn" onclick="check()">Check Enforceability</button>
+  </div>
+
+  <div class="results" id="results">
+    <div class="card">
+      <div class="score-section">
+        <div class="score-label">Enforceability Score</div>
+        <div class="score-ring" id="scoreRing"><span id="scoreVal"></span></div>
+        <div class="score-verdict" id="verdict"></div>
+      </div>
+
+      <h2>Key Factors</h2>
+      <ul class="factors" id="factors"></ul>
+
+      <div class="state-summary" id="stateSummary"></div>
+    </div>
+
+    <div class="disclaimer" style="margin-top:1rem">⚠️ Reminder: This analysis is informational only and does not constitute legal advice. Laws change frequently — always verify with a qualified attorney.</div>
+  </div>
+</div>
+
+<script>
+const states = {
+  AL:{name:'Alabama',enforce:'moderate',notes:'Generally enforces reasonable non-competes. Courts look at time, geography, and protectable interest. Max ~2 years typical.',physician:'Enforceable for physicians with reasonable limits.'},
+  AK:{name:'Alaska',enforce:'moderate',notes:'Enforceable if reasonable in scope. No specific statute — governed by common law.',physician:'No special physician rules.'},
+  AZ:{name:'Arizona',enforce:'moderate',notes:'Enforces reasonable restrictions. Courts may "blue pencil" (modify) overbroad clauses rather than void them entirely.',physician:'Enforceable but courts scrutinize patient access impact.'},
+  AR:{name:'Arkansas',enforce:'moderate',notes:'Enforces non-competes if supported by consideration and reasonable in scope.',physician:'Enforceable with reasonable terms.'},
+  CA:{name:'California',enforce:'ban',notes:'Non-competes are virtually unenforceable (Bus. & Prof. Code §16600). California strongly favors employee mobility. Exceptions: sale of a business.',physician:'Unenforceable.'},
+  CO:{name:'Colorado',enforce:'restrictive',notes:'As of 2022, non-competes only enforceable for workers earning above ~$100k/year (adjusted annually). Must be for protection of trade secrets. Requires notice.',physician:'Limited enforceability; patient notification required.'},
+  CT:{name:'Connecticut',enforce:'moderate',notes:'Enforces reasonable non-competes. Courts consider time, geography, and scope of restricted activity.',physician:'Enforceable but examined closely.'},
+  DE:{name:'Delaware',enforce:'moderate',notes:'Generally enforces non-competes. Very business-friendly state. Courts apply reasonableness test.',physician:'Enforceable with standard review.'},
+  FL:{name:'Florida',enforce:'strong',notes:'Strongly enforces non-competes (Fla. Stat. §542.335). Presumes valid if reasonable. Burden on employee to prove unreasonable.',physician:'Enforceable and commonly used.'},
+  GA:{name:'Georgia',enforce:'moderate',notes:'2011 constitutional amendment made non-competes more enforceable. Courts can modify overbroad clauses.',physician:'Enforceable with standard review.'},
+  HI:{name:'Hawaii',enforce:'restrictive',notes:'Banned non-competes for tech workers (2015). Other industries still subject to reasonableness test.',physician:'Enforceable outside tech.'},
+  ID:{name:'Idaho',enforce:'strong',notes:'Generally enforces non-competes. Key requirement: must protect a legitimate business interest. Max 18 months typical.',physician:'Enforceable.'},
+  IL:{name:'Illinois',enforce:'restrictive',notes:'Freedom to Work Act (2022): Non-competes unenforceable for workers earning under $75k (increases over time). Requires adequate consideration (2+ years employment or other). Employer must advise employee to consult attorney.',physician:'Subject to same income threshold; additional scrutiny.'},
+  IN:{name:'Indiana',enforce:'moderate',notes:'Enforces reasonable non-competes. Blue pencil doctrine applies — courts can narrow scope.',physician:'Enforceable with reasonableness review.'},
+  IA:{name:'Iowa',enforce:'moderate',notes:'Enforces non-competes with reasonableness test. Continuation of employment is adequate consideration.',physician:'Enforceable.'},
+  KS:{name:'Kansas',enforce:'moderate',notes:'Enforces reasonable restrictions. Courts apply standard factors: time, geography, scope.',physician:'Enforceable.'},
+  KY:{name:'Kentucky',enforce:'moderate',notes:'Enforces non-competes that are reasonable and supported by consideration.',physician:'Enforceable but courts consider patient welfare.'},
+  LA:{name:'Louisiana',enforce:'moderate',notes:'Unique: must specify parishes (counties) by name, max 2 years. Strictly construed against employer.',physician:'Enforceable if parish-specific and time-limited.'},
+  ME:{name:'Maine',enforce:'restrictive',notes:'Cannot enforce non-competes against workers earning at/below 400% of federal poverty level. Must be disclosed before job offer.',physician:'Subject to same restrictions.'},
+  MD:{name:'Maryland',enforce:'restrictive',notes:'Non-competes unenforceable for employees earning under $15/hr or $31,200/year. Otherwise, reasonableness standard.',physician:'Enforceable above income threshold.'},
+  MA:{name:'Massachusetts',enforce:'restrictive',notes:'2018 reform: max 12 months, requires garden leave pay (50% of highest salary) or equivalent consideration. Not enforceable against non-exempt employees.',physician:'Subject to same rules; garden leave required.'},
+  MI:{name:'Michigan',enforce:'moderate',notes:'Enforces reasonable non-competes. Must protect competitive business interests.',physician:'Enforceable.'},
+  MN:{name:'Minnesota',enforce:'ban',notes:'As of July 2023, non-competes are banned for all workers. Existing agreements may still be litigated.',physician:'Unenforceable under new law.'},
+  MS:{name:'Mississippi',enforce:'moderate',notes:'Enforces non-competes that are reasonable in scope. Courts use blue pencil approach.',physician:'Enforceable.'},
+  MO:{name:'Missouri',enforce:'moderate',notes:'Enforces reasonable non-competes. No specific statute — common law governs.',physician:'Enforceable.'},
+  MT:{name:'Montana',enforce:'moderate',notes:'Enforces non-competes but scrutinizes closely. Must be supported by consideration.',physician:'Enforceable with scrutiny.'},
+  NE:{name:'Nebraska',enforce:'moderate',notes:'Enforces non-competes but will NOT modify overbroad clauses — entire agreement void if unreasonable.',physician:'Same rule applies — must be precisely drafted.'},
+  NV:{name:'Nevada',enforce:'moderate',notes:'Enforces non-competes. Courts can blue pencil. If employee terminated, non-compete paid during restriction period.',physician:'Enforceable; paid leave may apply if terminated.'},
+  NH:{name:'New Hampshire',enforce:'moderate',notes:'Enforces reasonable non-competes. No major statutory restrictions.',physician:'Enforceable.'},
+  NJ:{name:'New Jersey',enforce:'moderate',notes:'No statute but extensive case law. Courts apply three-part test: protectable interest, undue hardship, public harm.',physician:'Enforceable but scrutinized re: patient access.'},
+  NM:{name:'New Mexico',enforce:'restrictive',notes:'Enforceable but courts are skeptical. Must be narrowly tailored. Health care practitioners have specific protections.',physician:'Generally disfavored for physicians.'},
+  NY:{name:'New York',enforce:'moderate',notes:'Currently enforces non-competes under reasonableness standard. Legislative ban has been proposed but not yet enacted as of 2024.',physician:'Enforceable with scrutiny re: patient care.'},
+  NC:{name:'North Carolina',enforce:'moderate',notes:'Enforces non-competes. Continuation of at-will employment is sufficient consideration.',physician:'Enforceable.'},
+  ND:{name:'North Dakota',enforce:'ban',notes:'Non-competes are largely unenforceable (N.D. Cent. Code §9-08-06). Exception: sale of business.',physician:'Unenforceable.'},
+  OH:{name:'Ohio',enforce:'moderate',notes:'Enforces reasonable non-competes. Courts may blue pencil. Reasonableness factors: time, geography, scope.',physician:'Enforceable.'},
+  OK:{name:'Oklahoma',enforce:'ban',notes:'Non-competes are generally void (Okla. Stat. tit. 15 §219A). Limited exception: sale of business and non-solicitation.',physician:'Unenforceable as non-compete; non-solicitation may be valid.'},
+  OR:{name:'Oregon',enforce:'restrictive',notes:'Max 12 months (was 18). Only for employees earning above median income. Must be signed at hire or with independent consideration. Voidable if not compliant.',physician:'Subject to same restrictions.'},
+  PA:{name:'Pennsylvania',enforce:'moderate',notes:'Enforces reasonable non-competes. Must protect legitimate business interest. Courts apply reasonableness test.',physician:'Enforceable.'},
+  RI:{name:'Rhode Island',enforce:'restrictive',notes:'Banned for low-wage workers, students, interns, under-18, non-exempt employees. Max 1 year for others.',physician:'Subject to same restrictions.'},
+  SC:{name:'South Carolina',enforce:'moderate',notes:'Enforces non-competes that are reasonable. Blue pencil is generally not applied — overbroad = void.',physician:'Enforceable.'},
+  SD:{name:'South Dakota',enforce:'moderate',notes:'Enforces non-competes. Statutory framework. Must be reasonable in all dimensions.',physician:'Enforceable.'},
+  TN:{name:'Tennessee',enforce:'moderate',notes:'Enforces reasonable non-competes supported by consideration.',physician:'Enforceable.'},
+  TX:{name:'Texas',enforce:'moderate',notes:'Enforceable if ancillary to an otherwise enforceable agreement and reasonable. Courts can reform (modify) overbroad clauses.',physician:'Enforceable but must allow physician to buy out; must provide patient list.'},
+  UT:{name:'Utah',enforce:'moderate',notes:'Max 1 year post-employment (since 2016). Must be supported by consideration.',physician:'Enforceable within 1-year limit.'},
+  VT:{name:'Vermont',enforce:'moderate',notes:'Enforces non-competes under reasonableness standard. No specific statute.',physician:'Enforceable.'},
+  VA:{name:'Virginia',enforce:'moderate',notes:'Enforces reasonable non-competes. 2020 law banned non-competes for low-wage workers (below average weekly wage).',physician:'Enforceable above wage threshold.'},
+  WA:{name:'Washington',enforce:'restrictive',notes:'Non-competes unenforceable for employees earning under ~$116k (adjusted). Must be disclosed at hire. Employer pays during enforcement. Max 18 months.',physician:'Subject to same earnings threshold and restrictions.'},
+  WV:{name:'West Virginia',enforce:'moderate',notes:'Enforces reasonable non-competes. Standard common law analysis.',physician:'Enforceable.'},
+  WI:{name:'Wisconsin',enforce:'moderate',notes:'Enforces non-competes if reasonably necessary. Stat. §103.465 — if any part is unreasonable, entire covenant void.',physician:'Enforceable but must be precisely drafted.'},
+  WY:{name:'Wyoming',enforce:'moderate',notes:'Enforces non-competes. Must be reasonable. Courts apply standard analysis.',physician:'Enforceable.'},
+  DC:{name:'District of Columbia',enforce:'ban',notes:'Broad ban effective October 2022. Non-competes unenforceable for nearly all employees. Exception: highly compensated medical specialists.',physician:'Generally unenforceable except for highly compensated specialists.'}
+};
+
+// Populate state dropdown
+const sel = document.getElementById('state');
+Object.entries(states).sort((a,b)=>a[1].name.localeCompare(b[1].name)).forEach(([k,v])=>{
+  sel.innerHTML += `<option value="${k}">${v.name}</option>`;
+});
+
+function check() {
+  const stKey = document.getElementById('state').value;
+  const ind = document.getElementById('industry').value;
+  const radius = +document.getElementById('radius').value;
+  const duration = +document.getElementById('duration').value;
+  const term = document.getElementById('termination').value;
+  const consid = document.getElementById('consideration').value;
+
+  if (!stKey) { alert('Please select a state.'); return; }
+  if (!radius && !duration) { alert('Please enter radius and/or duration.'); return; }
+
+  const st = states[stKey];
+  let score = 5; // baseline
+  const factors = [];
+
+  // State enforcement level
+  if (st.enforce === 'ban') {
+    score = 1;
+    factors.push({text:`${st.name} has banned or severely restricted non-competes`,cls:'positive'});
+  } else if (st.enforce === 'restrictive') {
+    score -= 1.5;
+    factors.push({text:`${st.name} has significant restrictions on non-competes`,cls:'positive'});
+  } else if (st.enforce === 'strong') {
+    score += 2;
+    factors.push({text:`${st.name} strongly enforces non-competes`,cls:'negative'});
+  } else {
+    factors.push({text:`${st.name} enforces non-competes under a reasonableness standard`,cls:'neutral'});
+  }
+
+  // Duration
+  if (st.enforce !== 'ban') {
+    if (duration <= 6) { score -= 1; factors.push({text:`Short duration (${duration} mo) — more likely enforceable but less restrictive`,cls:'neutral'}); }
+    else if (duration <= 12) { factors.push({text:`12 months or less is generally considered reasonable`,cls:'neutral'}); }
+    else if (duration <= 24) { score += 1; factors.push({text:`${duration} months is on the longer side — some courts find this excessive`,cls:'positive'}); }
+    else { score += 2; factors.push({text:`${duration} months exceeds typical enforceable range (most courts cap at 24)`,cls:'positive'}); }
+  }
+
+  // Radius
+  if (st.enforce !== 'ban') {
+    if (radius <= 10) { score += 0.5; factors.push({text:`Small geographic scope (${radius} mi) — more likely reasonable`,cls:'negative'}); }
+    else if (radius <= 50) { factors.push({text:`${radius}-mile radius is moderate — may be reasonable depending on role`,cls:'neutral'}); }
+    else if (radius <= 100) { score -= 1; factors.push({text:`${radius}-mile radius is broad — courts may question necessity`,cls:'positive'}); }
+    else { score -= 2; factors.push({text:`${radius}-mile radius is very broad — often deemed unreasonable`,cls:'positive'}); }
+  }
+
+  // Termination type
+  if (term === 'terminated') {
+    score -= 1.5;
+    factors.push({text:'You were terminated — many courts are reluctant to enforce non-competes against terminated employees',cls:'positive'});
+  } else if (term === 'resigned') {
+    score += 0.5;
+    factors.push({text:'Voluntary resignation — non-compete more likely enforced than in termination cases',cls:'negative'});
+  } else {
+    factors.push({text:'Mutual separation — enforceability depends on other factors',cls:'neutral'});
+  }
+
+  // Consideration
+  if (consid === 'no') {
+    score -= 1;
+    factors.push({text:'No separate consideration provided — in some states (like IL), this weakens enforceability',cls:'positive'});
+  } else if (consid === 'yes') {
+    score += 0.5;
+    factors.push({text:'Separate consideration was provided — strengthens the agreement',cls:'negative'});
+  }
+
+  // Industry
+  const isPhysician = ind === 'Healthcare / Medicine';
+  if (isPhysician) {
+    score -= 0.5;
+    factors.push({text:'Healthcare/physician non-competes face extra scrutiny due to patient access concerns',cls:'positive'});
+  }
+  if (ind === 'Technology' && ['HI'].includes(stKey)) {
+    score -= 2;
+    factors.push({text:`${st.name} specifically bans non-competes for tech workers`,cls:'positive'});
+  }
+
+  // Clamp
+  score = Math.round(Math.max(1, Math.min(10, score)));
+
+  // Render
+  const ring = document.getElementById('scoreRing');
+  const color = score <= 3 ? 'var(--green)' : score <= 6 ? 'var(--yellow)' : 'var(--red)';
+  ring.style.setProperty('--score-color', color);
+  ring.style.setProperty('--score-pct', (score*10)+'%');
+  document.getElementById('scoreVal').textContent = score + '/10';
+  document.getElementById('scoreVal').style.color = color;
+
+  const verdicts = {1:'Very Unlikely Enforceable',2:'Unlikely Enforceable',3:'Likely Unenforceable',4:'Possibly Unenforceable',5:'Uncertain — Could Go Either Way',6:'Possibly Enforceable',7:'Likely Enforceable',8:'Probably Enforceable',9:'Strongly Enforceable',10:'Very Strongly Enforceable'};
+  const vEl = document.getElementById('verdict');
+  vEl.textContent = verdicts[score];
+  vEl.style.color = color;
+
+  document.getElementById('factors').innerHTML = factors.map(f=>`<li class="${f.cls}">${f.cls==='positive'?'✅':f.cls==='negative'?'⚠️':'ℹ️'} ${f.text}</li>`).join('');
+
+  const phNote = isPhysician ? `<p style="margin-top:.8rem"><strong>Physician-specific:</strong> ${st.physician}</p>` : '';
+  document.getElementById('stateSummary').innerHTML = `<h4>📜 ${st.name} Law Summary</h4><p>${st.notes}</p>${phNote}`;
+
+  document.getElementById('results').style.display = 'block';
+  document.getElementById('results').scrollIntoView({behavior:'smooth'});
+}
+</script>
+</body>
+</html>

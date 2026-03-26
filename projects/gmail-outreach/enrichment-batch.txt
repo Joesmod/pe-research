@@ -1,0 +1,26 @@
+PE FIRM ENRICHMENT BATCH - 2026-03-17 9:37 AM
+
+Priority firms needing enrichment (from sheet scan):
+
+1. Littlejohn & Co - Antonio Miranda (Managing Partner) - FOUND
+2. CORE Industrial Partners - Thomas Webster (need to verify)
+3. Pritzker Private Capital - contacts incomplete
+4. Prospect Capital Management - John Barry contact needed
+5. Frontenac Company - has Ronald Kuehl but verify
+6. Excellere Partners - Brad Cornell contact
+7. High Road Capital Partners - contacts present, verify
+8. Sverica Capital - Jordan Richards found, verify others
+9. Clearview Capital - needs better contacts
+10. Salt Creek Capital - needs research
+11. Banner Capital - Tanner Ainge found
+12. Kinzie Capital Partners - Suzanne Yoon found
+13. Rockwood Equity - Kate Faust found
+14. New Water Capital - Jason Neimark needs verification
+15. Ample Bright Capital - Veena Anand needs verification
+
+Next steps:
+- Web search for decision-makers
+- Verify emails via pattern matching
+- Update sheet with findings
+- Commit to GitHub
+

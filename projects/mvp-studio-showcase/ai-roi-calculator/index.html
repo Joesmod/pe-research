@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI ROI Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>AI ROI Calculator</h1>
+  <p class="subtitle">Estimate the return on investment from automating your manual processes with AI</p>
+
+  <div class="card">
+    <h2>📋 Process Details</h2>
+    <div class="form-grid">
+      <label>Process Name<input type="text" id="processName" placeholder="e.g. Invoice Processing"></label>
+      <label>Hours/Week Spent<input type="number" id="hoursWeek" min="1" placeholder="e.g. 40"></label>
+      <label>Hourly Labor Cost ($)<input type="number" id="hourlyCost" min="1" placeholder="e.g. 35"></label>
+      <label>Number of Employees<input type="number" id="numEmployees" min="1" placeholder="e.g. 5"></label>
+      <label>Current Error Rate (%)
+        <select id="errorRate">
+          <option value="2">Low (1-2%)</option>
+          <option value="5" selected>Medium (3-5%)</option>
+          <option value="10">High (6-10%)</option>
+          <option value="20">Very High (10%+)</option>
+        </select>
+      </label>
+      <label>Automation Level
+        <select id="autoLevel">
+          <option value="0.6">Conservative (60%)</option>
+          <option value="0.7" selected>Moderate (70%)</option>
+          <option value="0.8">Aggressive (80%)</option>
+        </select>
+      </label>
+    </div>
+    <button class="btn" onclick="calculate()">Calculate ROI</button>
+  </div>
+
+  <div class="results" id="results">
+    <div class="card">
+      <h2>📊 ROI Dashboard — <span id="rName"></span></h2>
+      <div class="metrics">
+        <div class="metric"><div class="label">Annual Current Cost</div><div class="value" id="mCurrent"></div></div>
+        <div class="metric green"><div class="label">Est. Annual Savings</div><div class="value" id="mSavings"></div></div>
+        <div class="metric purple"><div class="label">Payback Period</div><div class="value" id="mPayback"></div></div>
+        <div class="metric green"><div class="label">3-Year ROI</div><div class="value" id="mROI"></div></div>
+      </div>
+
+      <div class="chart-section">
+        <h3>Annual Cost Comparison</h3>
+        <div class="bar-chart" id="costChart"></div>
+      </div>
+
+      <div class="chart-section" style="margin-top:1.5rem">
+        <h3>3-Year Cumulative Savings</h3>
+        <div class="bar-chart" id="savingsChart"></div>
+      </div>
+
+      <div class="chart-section" style="margin-top:1.5rem">
+        <h3>Error Cost Reduction</h3>
+        <div class="bar-chart" id="errorChart"></div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>Ready to Automate?</h3>
+      <p>Let's discuss how AI can transform your <span id="ctaProcess">processes</span> and save your team thousands of hours.</p>
+      <a class="btn" href="mailto:hello@example.com?subject=AI%20Automation%20Consultation" target="_blank">📞 Book a Call</a>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => '$' + n.toLocaleString('en-US', {maximumFractionDigits: 0});
+
+function calculate() {
+  const name = $('processName').value || 'Your Process';
+  const hrs = +$('hoursWeek').value;
+  const cost = +$('hourlyCost').value;
+  const emp = +$('numEmployees').value;
+  const err = +$('errorRate').value / 100;
+  const auto = +$('autoLevel').value;
+
+  if (!hrs || !cost || !emp) { alert('Please fill in hours, cost, and employees.'); return; }
+
+  const annualCost = hrs * cost * emp * 52;
+  const errorCost = annualCost * err;
+  const totalCurrent = annualCost + errorCost;
+  const savings = totalCurrent * auto;
+  const implCost = annualCost * 0.3;
+  const paybackMonths = Math.ceil((implCost / savings) * 12);
+  const threeYearROI = ((savings * 3 - implCost) / implCost) * 100;
+
+  $('rName').textContent = name;
+  $('mCurrent').textContent = fmt(totalCurrent);
+  $('mSavings').textContent = fmt(savings);
+  $('mPayback').textContent = paybackMonths + ' mo';
+  $('mROI').textContent = Math.round(threeYearROI) + '%';
+  $('ctaProcess').textContent = name.toLowerCase();
+
+  // Cost chart
+  const maxCost = totalCurrent;
+  $('costChart').innerHTML = bar('Current', totalCurrent, maxCost, 'current') + bar('With AI', totalCurrent - savings, maxCost, 'savings');
+
+  // 3-year savings
+  const max3 = savings * 3;
+  $('savingsChart').innerHTML = [1,2,3].map(y => bar('Year '+y, savings*y - (y===1?implCost:0), max3, 'roi')).join('');
+
+  // Error chart
+  $('errorChart').innerHTML = bar('Before', errorCost, errorCost||1, 'current') + bar('After AI', errorCost*(1-auto), errorCost||1, 'savings');
+
+  $('results').style.display = 'block';
+  $('results').scrollIntoView({behavior:'smooth'});
+}
+
+function bar(label, val, max, cls) {
+  const pct = max ? Math.max((val/max)*100, 2) : 2;
+  return `<div class="bar-row"><span class="bar-label">${label}</span><div class="bar-track"><div class="bar-fill ${cls}" style="width:${pct}%">${fmt(val)}</div></div></div>`;
+}
+</script>
+</body>
+</html>

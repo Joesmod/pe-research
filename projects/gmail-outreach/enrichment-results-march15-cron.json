@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-15T19:39:26.437Z",
+  "enriched": [],
+  "failed": [
+    {
+      "company": "Seidler Equity Partners",
+      "reason": "Apollo no results"
+    },
+    {
+      "company": "WindRose Health Investors",
+      "reason": "Apollo no results"
+    },
+    {
+      "company": "Altamont Capital Partners",
+      "reason": "Apollo no results"
+    },
+    {
+      "company": "The Global Impact Investing Network",
+      "reason": "No domain"
+    },
+    {
+      "company": "Backstroke",
+      "reason": "No domain"
+    },
+    {
+      "company": "Satso",
+      "reason": "No domain"
+    }
+  ]
+}

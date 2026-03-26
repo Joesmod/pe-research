@@ -1,0 +1,29 @@
+[
+  {
+    "company": "Arbor Investments",
+    "contactName": "Carl Allegretti",
+    "email": "allegretti@arborpic.com",
+    "title": "President",
+    "linkedIn": "https://www.linkedin.com/in/carl-allegretti/",
+    "status": "Enriched",
+    "notes": "Email pattern from RocketReach a******@arborpic.com. Standard format [last]@arborpic.com"
+  },
+  {
+    "company": "Arbor Investments",
+    "contactName": "Gregory Purcell",
+    "email": "purcell@arborpic.com",
+    "title": "Founder & CEO",
+    "linkedIn": "https://www.linkedin.com/in/gregory-purcell/",
+    "status": "Enriched",
+    "notes": "Email pattern from firm website. Standard format [last]@arborpic.com verified by RocketReach"
+  },
+  {
+    "company": "Linsalata Capital Partners",
+    "contactName": "Frank Linsalata",
+    "email": "",
+    "title": "Founder & Chairman",
+    "linkedIn": "https://www.linkedin.com/in/frank-linsalata/",
+    "status": "Needs Email",
+    "notes": "Contact found on firm website. ZoomInfo shows ****@linsalatacapital.com but pattern obscured"
+  }
+]

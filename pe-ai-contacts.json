@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Matthew Katz",
+    "title": "Senior Managing Director, Global Head of Data Science",
+    "company": "Blackstone",
+    "linkedin_url": null,
+    "email": null,
+    "source": "https://www.blackstone.com/people/matt-katz/"
+  },
+  {
+    "name": "Rodney Zemmel",
+    "title": "Global Head of Blackstone Operating Team (leads AI Playbook)",
+    "company": "Blackstone",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview citing LinkedIn/Business Insider"
+  },
+  {
+    "name": "Andrew Cron",
+    "title": "Managing Director, Blackstone Operating Team (Data & AI for portfolio companies)",
+    "company": "Blackstone",
+    "linkedin_url": null,
+    "email": null,
+    "source": "https://www.blackstone.com/people/andrew-cron/"
+  },
+  {
+    "name": "Prakhar Mehrotra",
+    "title": "Former Managing Director & Head of AI (departed early 2025, now SVP Global Head of AI at PayPal)",
+    "company": "Blackstone (former)",
+    "linkedin_url": "https://www.linkedin.com/in/prakharmehrotra",
+    "email": null,
+    "source": "LinkedIn profile"
+  },
+  {
+    "name": "Daniel Sandholdt",
+    "title": "Director, Head of AI and Advanced Analytics",
+    "company": "KKR",
+    "linkedin_url": null,
+    "email": null,
+    "source": "https://www.zoominfo.com/p/Daniel-Sandholdt/4023888722"
+  },
+  {
+    "name": "Emil Werr",
+    "title": "Head of AI Engineering and AI Fabric",
+    "company": "KKR",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Marco Fago",
+    "title": "Principal Engineer, Head of AI Solutions, Investment Engineering",
+    "company": "KKR",
+    "linkedin_url": "https://ie.linkedin.com/in/marco-fago",
+    "email": null,
+    "source": "LinkedIn profile"
+  },
+  {
+    "name": "Gaurav Hind",
+    "title": "AI Lead (hired from Google, May 2025)",
+    "company": "KKR",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Matt Anderson",
+    "title": "Partner, Chief Digital Officer",
+    "company": "Carlyle Group",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Chitra H.",
+    "title": "Managing Director, Chief Data & Analytics Officer",
+    "company": "Carlyle Group",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview (AI100 Award 2025)"
+  },
+  {
+    "name": "Katia Walsh, Ph.D.",
+    "title": "Managing Director, AI Value Creation (one of world's first Chief AI Officers)",
+    "company": "Apollo Global Management",
+    "linkedin_url": "https://www.linkedin.com/in/katiawalsh",
+    "email": null,
+    "source": "https://www.apollo.com/aboutus/leadership-and-people/katia-walsh"
+  },
+  {
+    "name": "Sameer Gupta",
+    "title": "Managing Director, Chief Data and Analytics Officer",
+    "company": "Apollo Global Management",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Jason Mather",
+    "title": "Head of AI Engineering",
+    "company": "Apollo Global Management",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Kjersten Margaret Moody",
+    "title": "Chief Data & AI Officer in Residence",
+    "company": "Insight Partners",
+    "linkedin_url": null,
+    "email": null,
+    "source": "https://www.cdomagazine.tech/leadership-moves/insight-partners-welcomes-kjersten-margaret-moody-as-chief-data-ai-officer-in-residence"
+  },
+  {
+    "name": "Ash Tutika",
+    "title": "Sr. Director, Head of Data & AI Partnerships",
+    "company": "Insight Partners",
+    "linkedin_url": "https://www.linkedin.com/in/ashtutika",
+    "email": null,
+    "source": "LinkedIn profile, OECD AI Observatory"
+  },
+  {
+    "name": "Nicholas Pariso",
+    "title": "Head of AI",
+    "company": "General Atlantic",
+    "linkedin_url": "https://www.linkedin.com/in/nicholaspariso",
+    "email": null,
+    "source": "LinkedIn profile"
+  },
+  {
+    "name": "Paul Daugherty",
+    "title": "AI Advisory Chair",
+    "company": "TPG Capital",
+    "linkedin_url": null,
+    "email": null,
+    "source": "LinkedIn post by TPG (7 months ago)"
+  },
+  {
+    "name": "Nehal Raj",
+    "title": "Partner (AI investment themes, agentic AI, portfolio transformation)",
+    "company": "TPG Capital",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Sven Törnkvist",
+    "title": "Global Co-Head of EQT Digital (AI strategy, formerly Chief Digital Officer)",
+    "company": "EQT Partners",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Michael Brenndoerfer",
+    "title": "Associate Director, Data Science & AI, Value Creation",
+    "company": "EQT Partners",
+    "linkedin_url": null,
+    "email": null,
+    "source": "Google AI Overview"
+  },
+  {
+    "name": "Raj Kushwaha",
+    "title": "Managing Director, Head of Value Creation and Chief Digital Officer",
+    "company": "Warburg Pincus",
+    "linkedin_url": null,
+    "email": null,
+    "source": "https://warburgpincus.com/team/raj-kushwaha/"
+  },
+  {
+    "name": "Benjamin Grol",
+    "title": "Global Chief Digital Officer",
+    "company": "Advent International",
+    "linkedin_url": null,
+    "email": null,
+    "source": "https://www.crunchbase.com/person/benjamin-grol"
+  }
+]

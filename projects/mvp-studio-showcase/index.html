@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MVP Studio Showcase</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;overflow-x:hidden}
+.stars{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.star{position:absolute;background:#fff;border-radius:50%;animation:twinkle var(--d) ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.2;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+header{position:relative;z-index:1;text-align:center;padding:80px 20px 40px}
+header h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;background:linear-gradient(135deg,#6366f1,#a855f7,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px}
+header p{font-size:1.1rem;color:#888;max-width:500px;margin:0 auto}
+.grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px;max-width:1100px;margin:40px auto 80px;padding:0 24px}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;overflow:hidden;transition:transform .35s,box-shadow .35s;cursor:pointer;text-decoration:none;color:inherit;display:block}
+.card:hover{transform:translateY(-8px);box-shadow:0 20px 60px rgba(99,102,241,.2)}
+.card-img{height:200px;display:flex;align-items:center;justify-content:center;font-size:5rem;position:relative;overflow:hidden}
+.card-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,#0a0a0f)}
+.c1 .card-img{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e)}
+.c2 .card-img{background:linear-gradient(135deg,#1a1a2e,#e94560,#0f3460)}
+.c3 .card-img{background:linear-gradient(135deg,#0f2027,#203a43,#2c5364)}
+.c4 .card-img{background:linear-gradient(135deg,#1a1a2e,#16213e,#6366f1)}
+.c5 .card-img{background:linear-gradient(135deg,#2d1b69,#f43f5e,#f97316)}
+.c6 .card-img{background:linear-gradient(135deg,#1a1a0e,#f97316,#eab308)}
+.c7 .card-img{background:linear-gradient(135deg,#0f172a,#6366f1,#1e1b4b)}
+.c8 .card-img{background:linear-gradient(135deg,#0f2027,#f97316,#fbbf24)}
+.c9 .card-img{background:linear-gradient(135deg,#667eea,#764ba2,#f5576c)}
+.c10 .card-img{background:linear-gradient(135deg,#1e1b4b,#6366f1,#c4b5fd)}
+.c11 .card-img{background:linear-gradient(135deg,#f43f5e,#f97316,#eab308)}
+.c12 .card-img{background:linear-gradient(135deg,#0f172a,#06b6d4,#6366f1)}
+.c13 .card-img{background:linear-gradient(135deg,#1a1a2e,#a855f7,#ec4899)}
+.c14 .card-img{background:linear-gradient(135deg,#0f2027,#06b6d4,#6366f1)}
+.c15 .card-img{background:linear-gradient(135deg,#f43f5e,#f97316,#eab308)}
+.c16 .card-img{background:linear-gradient(135deg,#0f172a,#22c55e,#6366f1)}
+.c17 .card-img{background:linear-gradient(135deg,#1a1a2e,#6366f1,#a855f7)}
+.c18 .card-img{background:linear-gradient(135deg,#6366f1,#ec4899,#a855f7)}
+.c19 .card-img{background:linear-gradient(135deg,#ef4444,#f97316,#0a0a0f)}
+.c20 .card-img{background:linear-gradient(135deg,#6366f1,#ec4899,#f97316)}
+.c21 .card-img{background:linear-gradient(135deg,#22c55e,#06b6d4,#0f172a)}
+.c22 .card-img{background:linear-gradient(135deg,#22c55e,#06b6d4,#0a0a0f)}
+.c23 .card-img{background:linear-gradient(135deg,#a855f7,#ec4899,#0f172a)}
+.c24 .card-img{background:linear-gradient(135deg,#6366f1,#06b6d4,#0a0a0f)}
+.c25 .card-img{background:linear-gradient(135deg,#fbbf24,#f59e0b,#ec4899)}
+.c26 .card-img{background:linear-gradient(135deg,#6366f1,#a855f7,#1a1a2e)}
+.c27 .card-img{background:linear-gradient(135deg,#ec4899,#f97316,#eab308)}
+.c28 .card-img{background:linear-gradient(135deg,#6366f1,#a855f7,#0f172a)}
+.c29 .card-img{background:linear-gradient(135deg,#fbbf24,#f59e0b,#78350f)}
+.c30 .card-img{background:linear-gradient(135deg,#f43f5e,#f97316,#eab308)}
+.c31 .card-img{background:linear-gradient(135deg,#6366f1,#06b6d4,#22c55e)}
+.c32 .card-img{background:linear-gradient(135deg,#06b6d4,#6366f1,#a855f7)}
+.c33 .card-img{background:linear-gradient(135deg,#ef4444,#f97316,#0f172a)}
+.c34 .card-img{background:linear-gradient(135deg,#f0883e,#bc8cff,#0d1117)}
+.c35 .card-img{background:linear-gradient(135deg,#7ee787,#58a6ff,#0d1117)}
+.c36 .card-img{background:linear-gradient(135deg,#3fb950,#238636,#0d1117)}
+.c37 .card-img{background:linear-gradient(135deg,#a855f7,#06b6d4,#0a0a12)}
+.card-body{padding:24px}
+.card-body h2{font-size:1.4rem;font-weight:700;margin-bottom:8px}
+.card-body p{color:#999;font-size:.95rem;line-height:1.5}
+.tag{display:inline-block;padding:4px 10px;border-radius:20px;font-size:.75rem;font-weight:600;margin-top:12px;background:rgba(99,102,241,.15);color:#a78bfa}
+footer{text-align:center;padding:40px 20px;color:#555;font-size:.85rem;position:relative;z-index:1}
+</style>
+</head>
+<body>
+<div class="stars" id="stars"></div>
+<header>
+<h1>MVP Studio Showcase</h1>
+<p>Interactive web apps built by our team.</p>
+</header>
+<div class="grid">
+<a href="cosmic-explorer/" class="card c1">
+<div class="card-img">🌌</div>
+<div class="card-body">
+<h2>Cosmic Explorer</h2>
+<p>Explore NASA's Astronomy Picture of the Day. Travel through time with stunning space imagery and discover the cosmos.</p>
+<span class="tag">NASA APOD API</span>
+</div>
+</a>
+<a href="pokedex-pro/" class="card c2">
+<div class="card-img">⚡</div>
+<div class="card-body">
+<h2>PokéDex Pro</h2>
+<p>Browse all 151 Gen 1 Pokémon with type-based colors, stats, abilities, and smooth animations.</p>
+<span class="tag">PokéAPI</span>
+</div>
+</a>
+<a href="vibe-check/" class="card c3">
+<div class="card-img">✨</div>
+<div class="card-body">
+<h2>Vibe Check</h2>
+<p>Pick your mood and get matched with jokes, quotes, or fun facts. Share your vibe with beautiful cards.</p>
+<span class="tag">JokeAPI + Quotes</span>
+</div>
+</a>
+<a href="typing-arena/" class="card c4">
+<div class="card-img">⌨️</div>
+<div class="card-body">
+<h2>Typing Arena</h2>
+<p>Test your typing speed and accuracy with random quotes. Track WPM, accuracy, and compete across rounds.</p>
+<span class="tag">Typing Speed</span>
+</div>
+</a>
+<a href="color-thief/" class="card c5">
+<div class="card-img">🎨</div>
+<div class="card-body">
+<h2>Color Thief</h2>
+<p>Upload any image and extract its dominant color palette. Click swatches to copy hex codes instantly.</p>
+<span class="tag">Canvas API</span>
+</div>
+</a>
+<a href="meal-roulette/" class="card c6">
+<div class="card-img">🍽️</div>
+<div class="card-body">
+<h2>What Should I Eat?</h2>
+<p>Can't decide what to eat? Spin the roulette and get a random meal with ingredients and instructions.</p>
+<span class="tag">TheMealDB API</span>
+</div>
+</a>
+<a href="iss-tracker/" class="card c7">
+<div class="card-img">🛰️</div>
+<div class="card-body">
+<h2>ISS Tracker</h2>
+<p>Track the International Space Station in real-time on a dark map with orbit trail and live crew info.</p>
+<span class="tag">Open Notify + Leaflet</span>
+</div>
+</a>
+<a href="weather-mood/" class="card c8">
+<div class="card-img">🌦️</div>
+<div class="card-body">
+<h2>Weather Mood Board</h2>
+<p>An ambient weather experience that transforms visuals based on conditions — rain, snow, sun, and clouds.</p>
+<span class="tag">Open-Meteo API</span>
+</div>
+</a>
+<a href="gradient-gen/" class="card c9">
+<div class="card-img">🎨</div>
+<div class="card-body">
+<h2>Gradient Generator</h2>
+<p>Create beautiful CSS gradients with live preview, presets, and one-click copy. Linear and radial support.</p>
+<span class="tag">CSS Gradients</span>
+</div>
+</a>
+<a href="markdown-preview/" class="card c10">
+<div class="card-img">📝</div>
+<div class="card-body">
+<h2>Markdown Previewer</h2>
+<p>Side-by-side live markdown editor with instant HTML preview. Custom regex parser, copy HTML output.</p>
+<span class="tag">Regex Parser</span>
+</div>
+</a>
+<a href="sound-board/" class="card c11">
+<div class="card-img">🔊</div>
+<div class="card-body">
+<h2>Sound Board</h2>
+<p>A grid of colorful buttons that generate sounds using Web Audio API. Record and replay sequences!</p>
+<span class="tag">Web Audio API</span>
+</div>
+</a>
+<a href="qr-generator/" class="card c12">
+<div class="card-img">📱</div>
+<div class="card-body">
+<h2>QR Code Generator</h2>
+<p>Generate QR codes from any text or URL with custom colors. Download as PNG with one click.</p>
+<span class="tag">QR Server API</span>
+</div>
+</a>
+<a href="countdown-timer/" class="card c13">
+<div class="card-img">⏳</div>
+<div class="card-body">
+<h2>Countdown Timer</h2>
+<p>Set a target date and event name. Live flip-style countdown with shareable URLs and confetti celebration.</p>
+<span class="tag">Shareable URLs</span>
+</div>
+</a>
+<a href="unit-converter/" class="card c14">
+<div class="card-img">📐</div>
+<div class="card-body">
+<h2>Unit Converter</h2>
+<p>Convert between length, weight, temperature, speed, and data units instantly. Swap button included.</p>
+<span class="tag">5 Categories</span>
+</div>
+</a>
+<a href="password-gen/" class="card c15">
+<div class="card-img">🔐</div>
+<div class="card-body">
+<h2>Password Generator</h2>
+<p>Generate secure passwords with customizable length, character types, strength meter, and entropy display.</p>
+<span class="tag">Crypto API</span>
+</div>
+</a>
+<a href="stopwatch/" class="card c16">
+<div class="card-img">⏱️</div>
+<div class="card-body">
+<h2>Stopwatch</h2>
+<p>Start, stop, lap, and reset with a clean time display. Highlights fastest and slowest laps automatically.</p>
+<span class="tag">Precision Timer</span>
+</div>
+</a>
+<a href="lorem-ipsum/" class="card c17">
+<div class="card-img">📄</div>
+<div class="card-body">
+<h2>Lorem Ipsum Generator</h2>
+<p>Generate placeholder text by paragraphs, sentences, or words. One-click copy with classic lorem ipsum option.</p>
+<span class="tag">Typography</span>
+</div>
+</a>
+<a href="flashcards/" class="card c18">
+<div class="card-img">🃏</div>
+<div class="card-body">
+<h2>Flashcard Quiz</h2>
+<p>Create decks, study with 3D flip animations, track progress. Import/export as JSON, persists in LocalStorage.</p>
+<span class="tag">LocalStorage</span>
+</div>
+</a>
+<a href="pomodoro/" class="card c19">
+<div class="card-img">🍅</div>
+<div class="card-body">
+<h2>Pomodoro Timer</h2>
+<p>Stay focused with 25/5 work-break cycles. Circular progress ring, audio chime, browser notifications, and customizable durations.</p>
+<span class="tag">Web Audio API</span>
+</div>
+</a>
+<a href="color-converter/" class="card c20">
+<div class="card-img">🎨</div>
+<div class="card-body">
+<h2>Color Converter</h2>
+<p>Convert between Hex, RGB, and HSL instantly. Live color preview, color picker, one-click copy, and recent colors history.</p>
+<span class="tag">Color Formats</span>
+</div>
+</a>
+<a href="bmi-calc/" class="card c21">
+<div class="card-img">💼</div>
+<div class="card-body">
+<h2>Freelancer Rate Calculator</h2>
+<p>Know your worth! Calculate hourly, day & monthly rates based on salary goals, expenses, and profit margin with real-time sliders.</p>
+<span class="tag">Finance Tool</span>
+</div>
+</a>
+<a href="tip-calc/" class="card c22">
+<div class="card-img">💰</div>
+<div class="card-body">
+<h2>Tip Calculator</h2>
+<p>Calculate tips with preset or custom percentages. Split the bill between friends with clean, bold totals.</p>
+<span class="tag">Finance Tool</span>
+</div>
+</a>
+<a href="age-calc/" class="card c23">
+<div class="card-img">🎂</div>
+<div class="card-body">
+<h2>Age Calculator</h2>
+<p>Enter your birthdate to see exact age, total days alive, next birthday countdown, and a fun fact about your birth year.</p>
+<span class="tag">Date Math</span>
+</div>
+</a>
+<a href="word-counter/" class="card c24">
+<div class="card-img">📝</div>
+<div class="card-body">
+<h2>Word Counter</h2>
+<p>Paste text for live word, character, sentence, and paragraph counts. See reading time, speaking time, and top keywords.</p>
+<span class="tag">Text Analysis</span>
+</div>
+</a>
+<a href="sticky-notes/" class="card c25">
+<div class="card-img">📝</div>
+<div class="card-body">
+<h2>Sticky Notes</h2>
+<p>Create colorful sticky notes, edit inline, pick colors, and organize your thoughts. Persists in LocalStorage.</p>
+<span class="tag">LocalStorage</span>
+</div>
+</a>
+<a href="calculator/" class="card c26">
+<div class="card-img">🤔</div>
+<div class="card-body">
+<h2>Should I Buy This?</h2>
+<p>Enter a price and your wage to see hours of work needed, a regret meter, fun comparisons, and a 24hr impulse buy countdown.</p>
+<span class="tag">Fun Finance</span>
+</div>
+</a>
+<a href="draw/" class="card c27">
+<div class="card-img">🎨</div>
+<div class="card-body">
+<h2>Drawing Canvas</h2>
+<p>Paint freely with brush and eraser tools, color palette, size control, undo support, and PNG download.</p>
+<span class="tag">Canvas API</span>
+</div>
+</a>
+<a href="todo/" class="card c28">
+<div class="card-img">📝</div>
+<div class="card-body">
+<h2>Todo List</h2>
+<p>Add, complete, and filter tasks with a clean minimal interface. LocalStorage persistence keeps your list safe.</p>
+<span class="tag">LocalStorage</span>
+</div>
+</a>
+<a href="coin-flip/" class="card c29">
+<div class="card-img">🪙</div>
+<div class="card-body">
+<h2>Coin Flip</h2>
+<p>Flip a 3D animated coin with satisfying rotations. Track heads vs tails stats with running percentages.</p>
+<span class="tag">Web Audio API</span>
+</div>
+</a>
+<a href="dice-roller/" class="card c30">
+<div class="card-img">⚔️</div>
+<div class="card-body">
+<h2>D&D Party Dice</h2>
+<p>Roll d4 through d100 with a tavern-themed UI. Build dice pools, get crit celebrations, fumble animations, and roll history.</p>
+<span class="tag">D&D Dice</span>
+</div>
+</a>
+<a href="ab-test-calc/" class="card c31">
+<div class="card-img">📊</div>
+<div class="card-body">
+<h2>A/B Test Calculator</h2>
+<p>Calculate statistical significance between two variants with z-test, confidence levels, visual bar charts, and clear winner verdict.</p>
+<span class="tag">Statistics</span>
+</div>
+</a>
+<a href="saas-metrics/" class="card c32">
+<div class="card-img">💹</div>
+<div class="card-body">
+<h2>SaaS Metrics Dashboard</h2>
+<p>Input MRR, churn, ARPU, and CAC to see ARR, LTV, payback period, and health indicators with sparkline charts.</p>
+<span class="tag">SaaS Analytics</span>
+</div>
+</a>
+<a href="earthquake-map/" class="card c33">
+<div class="card-img">🌍</div>
+<div class="card-body">
+<h2>Earthquake Map</h2>
+<p>Live USGS earthquake data on a dark Leaflet map. Filter by magnitude, auto-refresh, color-coded depth markers.</p>
+<span class="tag">USGS API + Leaflet</span>
+</div>
+</a>
+<a href="regex-tester/" class="card c34">
+<div class="card-img">🔍</div>
+<div class="card-body">
+<h2>Regex Tester</h2>
+<p>Test regular expressions with live match highlighting, capture groups, match count, and a common patterns cheat sheet.</p>
+<span class="tag">Regex Engine</span>
+</div>
+</a>
+<a href="json-formatter/" class="card c35">
+<div class="card-img">{ }</div>
+<div class="card-body">
+<h2>JSON Formatter</h2>
+<p>Format, minify, and explore JSON with syntax highlighting, tree view, error detection, and one-click copy.</p>
+<span class="tag">Code Tool</span>
+</div>
+</a>
+<a href="habit-tracker/" class="card c36">
+<div class="card-img">✅</div>
+<div class="card-body">
+<h2>Habit Tracker</h2>
+<p>Build daily habits with a GitHub-style contribution grid, streak tracking, and satisfying check animations.</p>
+<span class="tag">LocalStorage</span>
+</div>
+</a>
+<a href="music-player/" class="card c37">
+<div class="card-img">🎵</div>
+<div class="card-body">
+<h2>Music Player</h2>
+<p>The Moltslack EP — a custom synthwave music player with 10 tracks, visualizer, and neon-glow UI.</p>
+<span class="tag">Web Audio</span>
+</div>
+</a>
+</div>
+<footer>&copy; 2026 MVP Studio &mdash; Built with ❤️ and vanilla JS</footer>
+<script>
+const c=document.getElementById('stars');
+for(let i=0;i<120;i++){const s=document.createElement('div');s.className='star';s.style.cssText=`left:${Math.random()*100}%;top:${Math.random()*100}%;width:${Math.random()*3+1}px;height:${Math.random()*3+1}px;--d:${Math.random()*3+2}s;animation-delay:${Math.random()*3}s`;c.appendChild(s)}
+</script>
+</body>
+</html>

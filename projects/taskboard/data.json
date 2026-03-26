@@ -1,0 +1,61 @@
+{
+  "columns": ["backlog", "in-progress", "review", "done"],
+  "cards": [
+    {
+      "id": "1",
+      "title": "GitHub Token Setup",
+      "assignee": "Alex",
+      "description": "Set up GitHub personal access tokens for CI/CD pipeline access.",
+      "priority": "medium",
+      "column": "backlog"
+    },
+    {
+      "id": "2",
+      "title": "Consultant Org Chart Review",
+      "assignee": "Kah",
+      "description": "Review and update the consultant organizational chart for Q1.",
+      "priority": "medium",
+      "column": "backlog"
+    },
+    {
+      "id": "3",
+      "title": "Physician Contract Analyzer - Product Spec",
+      "assignee": "Raj",
+      "description": "Write detailed product specification for the physician contract analyzer tool.",
+      "priority": "high",
+      "column": "in-progress"
+    },
+    {
+      "id": "4",
+      "title": "Build Task Board App",
+      "assignee": "Jim",
+      "description": "Build a minimal Trello-style task board with drag-and-drop, dark theme, and localStorage persistence.",
+      "priority": "urgent",
+      "column": "in-progress"
+    },
+    {
+      "id": "5",
+      "title": "Chicago B2B Outreach",
+      "assignee": "Scopey",
+      "description": "Execute B2B outreach campaign targeting Chicago-area healthcare organizations.",
+      "priority": "medium",
+      "column": "in-progress"
+    },
+    {
+      "id": "6",
+      "title": "Physician Contract Analyzer - Backend",
+      "assignee": "Jim",
+      "description": "Build the backend API and document parsing engine for physician contract analysis.",
+      "priority": "high",
+      "column": "done"
+    },
+    {
+      "id": "7",
+      "title": "Physician Contract Analyzer - Landing Page",
+      "assignee": "Scopey",
+      "description": "Design and build the marketing landing page for the physician contract analyzer.",
+      "priority": "high",
+      "column": "done"
+    }
+  ]
+}

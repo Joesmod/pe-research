@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0f;color:#e0e0e0;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:20px}
+a.back{position:fixed;top:20px;left:20px;color:#a78bfa;text-decoration:none;font-size:.9rem;z-index:10;opacity:.7;transition:opacity .2s}
+a.back:hover{opacity:1}
+.container{max-width:560px;width:100%;margin-top:60px}
+h1{text-align:center;font-size:2rem;font-weight:800;margin-bottom:8px;background:linear-gradient(135deg,#a855f7,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.subtitle{text-align:center;color:#666;font-size:.9rem;margin-bottom:36px}
+.date-input{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:12px}
+input[type="date"]{background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.1);border-radius:14px;padding:16px 20px;font-size:1.1rem;font-weight:600;color:#fff;font-family:'Inter',sans-serif;outline:none;transition:border-color .2s;color-scheme:dark}
+input[type="date"]:focus{border-color:#a855f7}
+button.calc-btn{background:linear-gradient(135deg,#a855f7,#ec4899);border:none;border-radius:14px;padding:16px 32px;font-size:1rem;font-weight:700;color:#fff;cursor:pointer;font-family:'Inter',sans-serif;transition:transform .2s,box-shadow .2s}
+button.calc-btn:hover{transform:scale(1.03);box-shadow:0 8px 30px rgba(168,85,247,.3)}
+.results{display:none;margin-top:32px}
+.age-main{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px}
+.age-box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:24px 16px;text-align:center}
+.age-num{font-size:3rem;font-weight:900;background:linear-gradient(135deg,#a855f7,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.age-label{font-size:.8rem;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
+.extras{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.extra{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:18px;text-align:center}
+.extra .val{font-size:1.3rem;font-weight:800;color:#e0e0e0;margin-bottom:4px}
+.extra .lbl{font-size:.75rem;color:#888;text-transform:uppercase;letter-spacing:.3px}
+.fun-fact{background:linear-gradient(135deg,rgba(168,85,247,.1),rgba(236,72,153,.1));border:1px solid rgba(168,85,247,.15);border-radius:16px;padding:20px;text-align:center;font-size:.95rem;color:#c4b5fd;line-height:1.6}
+.fun-fact strong{color:#e0e0e0}
+@media(max-width:500px){
+.age-main{grid-template-columns:repeat(3,1fr);gap:10px}
+.age-num{font-size:2.2rem}
+.extras{grid-template-columns:1fr}
+.date-input{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<a href="../" class="back">← Back</a>
+<div class="container">
+<h1>🎂 Age Calculator</h1>
+<p class="subtitle">How many days have you been awesome?</p>
+
+<div class="date-input">
+<input type="date" id="birthdate">
+<button class="calc-btn" id="calcBtn">Calculate</button>
+</div>
+
+<div class="results" id="results">
+<div class="age-main">
+<div class="age-box"><div class="age-num" id="years">0</div><div class="age-label">Years</div></div>
+<div class="age-box"><div class="age-num" id="months">0</div><div class="age-label">Months</div></div>
+<div class="age-box"><div class="age-num" id="days">0</div><div class="age-label">Days</div></div>
+</div>
+<div class="extras">
+<div class="extra"><div class="val" id="totalDays">0</div><div class="lbl">Total Days Alive</div></div>
+<div class="extra"><div class="val" id="nextBday">0</div><div class="lbl">Days Until Next Birthday</div></div>
+<div class="extra"><div class="val" id="dayBorn">—</div><div class="lbl">Day You Were Born</div></div>
+<div class="extra"><div class="val" id="totalWeeks">0</div><div class="lbl">Total Weeks Alive</div></div>
+</div>
+<div class="fun-fact" id="funFact"></div>
+</div>
+</div>
+
+<script>
+const facts = {
+  1950:"The first credit card (Diners Club) was introduced",1951:"Color TV was first broadcast in the US",1952:"Mr. Potato Head became the first toy advertised on TV",1953:"Edmund Hillary & Tenzing Norgay summited Everest",1954:"Tolkien published The Lord of the Rings",1955:"Disneyland opened in California",1956:"Elvis Presley appeared on The Ed Sullivan Show",1957:"Sputnik launched — the Space Age began",1958:"NASA was established",1959:"Barbie made her debut",1960:"The laser was invented",1961:"Yuri Gagarin became the first human in space",1962:"The Beatles released their first single",1963:"Martin Luther King Jr. gave his 'I Have a Dream' speech",1964:"The Ford Mustang was introduced",1965:"The first spacewalk was performed",1966:"Star Trek premiered on TV",1967:"The first Super Bowl was played",1968:"2001: A Space Odyssey was released",1969:"Humans landed on the Moon",1970:"Earth Day was celebrated for the first time",1971:"Email was invented",1972:"Pong became the first popular video game",1973:"The first mobile phone call was made",1974:"The Rubik's Cube was invented",1975:"Microsoft was founded",1976:"Apple Computer was founded in a garage",1977:"Star Wars premiered and changed cinema forever",1978:"The first spam email was sent",1979:"Sony Walkman revolutionized portable music",1980:"Pac-Man fever swept the world",1981:"MTV launched with 'Video Killed the Radio Star'",1982:"E.T. became the highest-grossing film",1983:"The internet adopted TCP/IP",1984:"The Macintosh was introduced",1985:"Nintendo Entertainment System saved gaming",1986:"The first laptop with a clamshell design appeared",1987:"The Simpsons first aired as shorts",1988:"Stephen Hawking published A Brief History of Time",1989:"The World Wide Web was invented",1990:"The Hubble Space Telescope was launched",1991:"The first website went live",1992:"The first SMS text message was sent",1993:"Jurassic Park amazed audiences worldwide",1994:"Amazon was founded",1995:"Toy Story was the first fully CGI feature film",1996:"Dolly the sheep was cloned",1997:"Deep Blue beat Kasparov at chess",1998:"Google was founded",1999:"Wi-Fi was introduced for consumers",2000:"The Y2K bug turned out to be a non-event",2001:"Wikipedia launched",2002:"SpaceX was founded",2003:"Skype launched video calling for everyone",2004:"Facebook was founded in a dorm room",2005:"YouTube launched — 'Me at the zoo' was the first video",2006:"Twitter launched with 140-character messages",2007:"The iPhone changed everything",2008:"Bitcoin's whitepaper was published",2009:"Minecraft was first released",2010:"Instagram launched and got 25K users in one day",2011:"Siri brought voice assistants mainstream",2012:"Curiosity rover landed on Mars",2013:"The PS4 and Xbox One launched",2014:"Amazon Echo introduced Alexa",2015:"New Horizons flew past Pluto",2016:"Pokémon GO took the world by storm",2017:"Solar eclipse crossed all of the US",2018:"SpaceX launched a Tesla into space",2019:"The first image of a black hole was captured",2020:"COVID-19 changed the world",2021:"James Webb Space Telescope launched",2022:"ChatGPT launched and AI went mainstream",2023:"Threads launched as a Twitter alternative",2024:"Total solar eclipse crossed North America",2025:"AI agents became everyday tools"
+};
+
+const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+document.getElementById('calcBtn').addEventListener('click', () => {
+  const input = document.getElementById('birthdate').value;
+  if (!input) return;
+  const birth = new Date(input + 'T00:00:00');
+  const now = new Date();
+  if (birth > now) return;
+
+  let y = now.getFullYear() - birth.getFullYear();
+  let m = now.getMonth() - birth.getMonth();
+  let d = now.getDate() - birth.getDate();
+  if (d < 0) { m--; const prev = new Date(now.getFullYear(), now.getMonth(), 0); d += prev.getDate(); }
+  if (m < 0) { y--; m += 12; }
+
+  document.getElementById('years').textContent = y;
+  document.getElementById('months').textContent = m;
+  document.getElementById('days').textContent = d;
+
+  const diffMs = now - birth;
+  const totalDays = Math.floor(diffMs / 86400000);
+  document.getElementById('totalDays').textContent = totalDays.toLocaleString();
+  document.getElementById('totalWeeks').textContent = Math.floor(totalDays / 7).toLocaleString();
+  document.getElementById('dayBorn').textContent = dayNames[birth.getDay()];
+
+  let nextBday = new Date(now.getFullYear(), birth.getMonth(), birth.getDate());
+  if (nextBday <= now) nextBday.setFullYear(nextBday.getFullYear() + 1);
+  const daysUntil = Math.ceil((nextBday - now) / 86400000);
+  document.getElementById('nextBday').textContent = daysUntil === 365 || daysUntil === 0 ? '🎉 Today!' : daysUntil;
+
+  const yr = birth.getFullYear();
+  const fact = facts[yr] || `The world population was about ${(2.5 + (yr - 1950) * 0.08).toFixed(1)} billion`;
+  document.getElementById('funFact').innerHTML = `✨ <strong>Fun fact about ${yr}:</strong> ${fact}`;
+
+  document.getElementById('results').style.display = 'block';
+});
+</script>
+</body>
+</html>

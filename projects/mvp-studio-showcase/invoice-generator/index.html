@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Invoice Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cta-banner">💡 Need help automating your finances? Visit <a href="https://mvp-studio.onrender.com" target="_blank">mvp-studio.onrender.com</a></div>
+
+<header class="app-header">
+  <h1>📄 Invoice Generator</h1>
+  <nav>
+    <button class="active" onclick="showView('dashboard')" id="nav-dashboard">Dashboard</button>
+    <button onclick="showView('form')" id="nav-form">New Invoice</button>
+    <button onclick="showView('list')" id="nav-list">Invoices</button>
+    <button onclick="showView('settings')" id="nav-settings">Settings</button>
+  </nav>
+</header>
+
+<div class="container">
+
+<!-- DASHBOARD -->
+<div id="view-dashboard">
+  <div class="dashboard">
+    <div class="dash-card invoiced"><div class="label">Total Invoiced</div><div class="value" id="dash-invoiced">$0</div></div>
+    <div class="dash-card paid"><div class="label">Total Paid</div><div class="value" id="dash-paid">$0</div></div>
+    <div class="dash-card outstanding"><div class="label">Outstanding</div><div class="value" id="dash-outstanding">$0</div></div>
+    <div class="dash-card overdue"><div class="label">Overdue</div><div class="value" id="dash-overdue">0</div></div>
+  </div>
+  <h2 style="color:var(--text2);margin-bottom:12px">Recent Invoices</h2>
+  <div id="dash-recent"></div>
+</div>
+
+<!-- INVOICE FORM -->
+<div id="view-form" class="hidden">
+  <div class="card">
+    <h2>📋 Invoice Details</h2>
+    <div class="form-grid three">
+      <div class="form-group"><label>Invoice #</label><input id="f-invnum" readonly></div>
+      <div class="form-group"><label>Date</label><input type="date" id="f-date"></div>
+      <div class="form-group"><label>Due Date</label><input type="date" id="f-due"></div>
+      <div class="form-group"><label>Payment Terms</label>
+        <select id="f-terms" onchange="updateDueFromTerms()">
+          <option value="net15">Net 15</option><option value="net30" selected>Net 30</option>
+          <option value="net60">Net 60</option><option value="receipt">Due on Receipt</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Status</label>
+        <select id="f-status">
+          <option value="draft">Draft</option><option value="sent">Sent</option>
+          <option value="paid">Paid</option><option value="overdue">Overdue</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>👤 Client Information</h2>
+    <div class="form-grid">
+      <div class="form-group"><label>Client Name</label><input id="f-cname" placeholder="John Doe"></div>
+      <div class="form-group"><label>Company</label><input id="f-ccompany" placeholder="Acme Inc."></div>
+      <div class="form-group full"><label>Address</label><input id="f-caddr" placeholder="123 Main St, City, State ZIP"></div>
+      <div class="form-group"><label>Email</label><input type="email" id="f-cemail" placeholder="client@example.com"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📦 Line Items</h2>
+    <table class="line-items-table">
+      <thead><tr>
+        <th class="col-desc">Description</th><th class="col-qty">Qty</th>
+        <th class="col-price">Unit Price</th><th class="col-amt">Amount</th><th class="col-act"></th>
+      </tr></thead>
+      <tbody id="line-items"></tbody>
+    </table>
+    <button class="btn-add" onclick="addLineItem()">+ Add Line Item</button>
+
+    <div class="totals">
+      <div class="total-row"><label>Subtotal</label><span class="val" id="t-subtotal">$0.00</span></div>
+      <div class="total-row"><label>Tax Rate %</label><input type="number" id="t-taxrate" value="0" min="0" step="0.1" onchange="calc()" oninput="calc()"><span class="val" id="t-tax">$0.00</span></div>
+      <div class="total-row"><label>Discount</label><input type="number" id="t-discval" value="0" min="0" step="0.01" onchange="calc()" oninput="calc()"><select class="discount-type" id="t-disctype" onchange="calc()"><option value="$">$</option><option value="%">%</option></select><span class="val" id="t-disc">-$0.00</span></div>
+      <div class="total-row grand"><label>Total</label><span class="val" id="t-total">$0.00</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📝 Notes / Terms</h2>
+    <textarea id="f-notes" rows="3">Payment is due within the specified terms. Please include the invoice number with your payment. Thank you for your business!</textarea>
+  </div>
+
+  <div class="actions-bar">
+    <button class="btn-primary" onclick="saveInvoice()">💾 Save Invoice</button>
+    <button class="btn-secondary" onclick="previewInvoice()">👁 Preview</button>
+    <button class="btn-secondary" onclick="resetForm()">Cancel</button>
+  </div>
+</div>
+
+<!-- INVOICE LIST -->
+<div id="view-list" class="hidden">
+  <div class="list-toolbar">
+    <input placeholder="🔍 Search by client..." id="list-search" oninput="renderList()">
+    <select id="list-filter" onchange="renderList()">
+      <option value="all">All Status</option><option value="draft">Draft</option>
+      <option value="sent">Sent</option><option value="paid">Paid</option><option value="overdue">Overdue</option>
+    </select>
+  </div>
+  <div id="invoice-list"></div>
+</div>
+
+<!-- SETTINGS -->
+<div id="view-settings" class="hidden">
+  <div class="card">
+    <h2>🏢 Your Business Information</h2>
+    <div class="form-grid">
+      <div class="form-group"><label>Company Name</label><input id="s-name" placeholder="Your Company"></div>
+      <div class="form-group"><label>Email</label><input id="s-email" placeholder="you@company.com"></div>
+      <div class="form-group full"><label>Address</label><input id="s-addr" placeholder="123 Business Ave, City, State ZIP"></div>
+      <div class="form-group"><label>Phone</label><input id="s-phone" placeholder="(555) 123-4567"></div>
+      <div class="form-group"><label>Logo URL (optional)</label><input id="s-logo" placeholder="https://example.com/logo.png"></div>
+    </div>
+    <div class="actions-bar"><button class="btn-primary" onclick="saveSettings()">💾 Save Settings</button></div>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<!-- PREVIEW OVERLAY -->
+<div class="invoice-preview-overlay hidden" id="preview-overlay" onclick="if(event.target===this)closePreview()">
+  <div class="invoice-preview" id="preview-content"></div>
+</div>
+
+<script>
+// === DATA ===
+const LS_INV = 'invoices', LS_SET = 'invoice_settings';
+let invoices = JSON.parse(localStorage.getItem(LS_INV)||'[]');
+let settings = JSON.parse(localStorage.getItem(LS_SET)||'{}');
+let editingId = null;
+
+const $ = id => document.getElementById(id);
+const money = n => '$' + Math.abs(n).toFixed(2);
+const today = () => new Date().toISOString().slice(0,10);
+
+// === INIT ===
+function init(){
+  loadSettings();
+  $('f-date').value = today();
+  updateDueFromTerms();
+  $('f-invnum').value = genInvNum();
+  addLineItem();
+  detectOverdue();
+  updateDashboard();
+  renderList();
+  renderDashRecent();
+}
+
+function genInvNum(){
+  const max = invoices.reduce((m,i)=>{const n=parseInt(i.number.replace(/\D/g,''))||0;return n>m?n:m},0);
+  return 'INV-'+ String(max+1).padStart(4,'0');
+}
+
+// === VIEWS ===
+function showView(v){
+  ['dashboard','form','list','settings'].forEach(x=>{
+    $(('view-'+x)).classList.toggle('hidden',x!==v);
+    $('nav-'+x).classList.toggle('active',x===v);
+  });
+  if(v==='dashboard'){detectOverdue();updateDashboard();renderDashRecent();}
+  if(v==='list'){detectOverdue();renderList();}
+  if(v==='form'&&!editingId){$('f-invnum').value=genInvNum();$('f-date').value=today();updateDueFromTerms();}
+}
+
+// === SETTINGS ===
+function loadSettings(){
+  if(settings.name)$('s-name').value=settings.name;
+  if(settings.email)$('s-email').value=settings.email;
+  if(settings.address)$('s-addr').value=settings.address;
+  if(settings.phone)$('s-phone').value=settings.phone;
+  if(settings.logo)$('s-logo').value=settings.logo;
+}
+function saveSettings(){
+  settings={name:$('s-name').value,email:$('s-email').value,address:$('s-addr').value,phone:$('s-phone').value,logo:$('s-logo').value};
+  localStorage.setItem(LS_SET,JSON.stringify(settings));
+  alert('Settings saved!');
+}
+
+// === PAYMENT TERMS ===
+function updateDueFromTerms(){
+  const d=new Date($('f-date').value||today());
+  const t=$('f-terms').value;
+  const days={net15:15,net30:30,net60:60,receipt:0}[t]||30;
+  d.setDate(d.getDate()+days);
+  $('f-due').value=d.toISOString().slice(0,10);
+}
+
+// === LINE ITEMS ===
+function addLineItem(desc='',qty=1,price=0){
+  const tr=document.createElement('tr');
+  tr.innerHTML=`<td><input placeholder="Description" value="${desc}" oninput="calc()"></td>
+    <td><input type="number" min="0" value="${qty}" oninput="calc()"></td>
+    <td><input type="number" min="0" step="0.01" value="${price}" oninput="calc()"></td>
+    <td class="amount-cell">$0.00</td>
+    <td><button class="btn-remove" onclick="this.closest('tr').remove();calc()">✕</button></td>`;
+  $('line-items').appendChild(tr);
+  calc();
+}
+function getLineItems(){
+  return[...$('line-items').rows].map(r=>{
+    const ins=r.querySelectorAll('input');
+    return{desc:ins[0].value,qty:parseFloat(ins[1].value)||0,price:parseFloat(ins[2].value)||0};
+  });
+}
+function calc(){
+  let sub=0;
+  [...$('line-items').rows].forEach(r=>{
+    const ins=r.querySelectorAll('input');
+    const amt=(parseFloat(ins[1].value)||0)*(parseFloat(ins[2].value)||0);
+    r.querySelector('.amount-cell').textContent=money(amt);
+    sub+=amt;
+  });
+  const taxRate=parseFloat($('t-taxrate').value)||0;
+  const tax=sub*taxRate/100;
+  const dv=parseFloat($('t-discval').value)||0;
+  const disc=$('t-disctype').value==='%'?sub*dv/100:dv;
+  const total=sub+tax-disc;
+  $('t-subtotal').textContent=money(sub);
+  $('t-tax').textContent=money(tax);
+  $('t-disc').textContent='-'+money(disc);
+  $('t-total').textContent=money(total);
+}
+
+// === SAVE ===
+function saveInvoice(){
+  const inv={
+    id:editingId||Date.now().toString(36)+Math.random().toString(36).slice(2,6),
+    number:$('f-invnum').value,
+    date:$('f-date').value,due:$('f-due').value,
+    terms:$('f-terms').value,status:$('f-status').value,
+    client:{name:$('f-cname').value,company:$('f-ccompany').value,address:$('f-caddr').value,email:$('f-cemail').value},
+    items:getLineItems(),
+    taxRate:parseFloat($('t-taxrate').value)||0,
+    discountVal:parseFloat($('t-discval').value)||0,
+    discountType:$('t-disctype').value,
+    notes:$('f-notes').value,
+    paidDate:null,
+    created:editingId?invoices.find(i=>i.id===editingId)?.created||new Date().toISOString():new Date().toISOString()
+  };
+  // calc totals
+  const sub=inv.items.reduce((s,i)=>s+i.qty*i.price,0);
+  const tax=sub*inv.taxRate/100;
+  const disc=inv.discountType==='%'?sub*inv.discountVal/100:inv.discountVal;
+  inv.subtotal=sub;inv.tax=tax;inv.discount=disc;inv.total=sub+tax-disc;
+  // preserve paid date
+  if(editingId){const old=invoices.find(i=>i.id===editingId);if(old?.paidDate)inv.paidDate=old.paidDate;}
+  if(inv.status==='paid'&&!inv.paidDate)inv.paidDate=new Date().toISOString();
+
+  if(editingId){const idx=invoices.findIndex(i=>i.id===editingId);invoices[idx]=inv;}
+  else invoices.unshift(inv);
+  persist();
+  resetForm();
+  showView('list');
+}
+function persist(){localStorage.setItem(LS_INV,JSON.stringify(invoices));}
+
+function resetForm(){
+  editingId=null;
+  $('f-invnum').value=genInvNum();$('f-date').value=today();updateDueFromTerms();
+  $('f-status').value='draft';$('f-cname').value='';$('f-ccompany').value='';
+  $('f-caddr').value='';$('f-cemail').value='';$('line-items').innerHTML='';
+  $('t-taxrate').value=0;$('t-discval').value=0;$('t-disctype').value='$';
+  $('f-notes').value='Payment is due within the specified terms. Please include the invoice number with your payment. Thank you for your business!';
+  addLineItem();calc();
+}
+
+// === EDIT / DUPLICATE ===
+function editInvoice(id){
+  const inv=invoices.find(i=>i.id===id);if(!inv)return;
+  editingId=id;
+  $('f-invnum').value=inv.number;$('f-date').value=inv.date;$('f-due').value=inv.due;
+  $('f-terms').value=inv.terms;$('f-status').value=inv.status;
+  $('f-cname').value=inv.client.name;$('f-ccompany').value=inv.client.company;
+  $('f-caddr').value=inv.client.address;$('f-cemail').value=inv.client.email;
+  $('line-items').innerHTML='';
+  inv.items.forEach(i=>addLineItem(i.desc,i.qty,i.price));
+  $('t-taxrate').value=inv.taxRate;$('t-discval').value=inv.discountVal;$('t-disctype').value=inv.discountType;
+  $('f-notes').value=inv.notes;
+  calc();showView('form');
+}
+function duplicateInvoice(id){
+  const inv=invoices.find(i=>i.id===id);if(!inv)return;
+  editingId=null;
+  $('f-invnum').value=genInvNum();$('f-date').value=today();updateDueFromTerms();
+  $('f-status').value='draft';
+  $('f-cname').value=inv.client.name;$('f-ccompany').value=inv.client.company;
+  $('f-caddr').value=inv.client.address;$('f-cemail').value=inv.client.email;
+  $('line-items').innerHTML='';
+  inv.items.forEach(i=>addLineItem(i.desc,i.qty,i.price));
+  $('t-taxrate').value=inv.taxRate;$('t-discval').value=inv.discountVal;$('t-disctype').value=inv.discountType;
+  $('f-notes').value=inv.notes;
+  calc();showView('form');
+}
+function markPaid(id){
+  const inv=invoices.find(i=>i.id===id);if(!inv)return;
+  inv.status='paid';inv.paidDate=new Date().toISOString();
+  persist();detectOverdue();renderList();updateDashboard();renderDashRecent();
+}
+function deleteInvoice(id){
+  if(!confirm('Delete this invoice?'))return;
+  invoices=invoices.filter(i=>i.id!==id);persist();renderList();updateDashboard();renderDashRecent();
+}
+
+// === OVERDUE DETECTION ===
+function detectOverdue(){
+  const now=new Date().toISOString().slice(0,10);
+  invoices.forEach(inv=>{
+    if(['draft','sent'].includes(inv.status)&&inv.due<now)inv.status='overdue';
+  });
+  persist();
+}
+
+// === DASHBOARD ===
+function updateDashboard(){
+  const totI=invoices.reduce((s,i)=>s+i.total,0);
+  const totP=invoices.filter(i=>i.status==='paid').reduce((s,i)=>s+i.total,0);
+  const totO=invoices.filter(i=>['draft','sent','overdue'].includes(i.status)).reduce((s,i)=>s+i.total,0);
+  const ovrC=invoices.filter(i=>i.status==='overdue').length;
+  $('dash-invoiced').textContent=money(totI);
+  $('dash-paid').textContent=money(totP);
+  $('dash-outstanding').textContent=money(totO);
+  $('dash-overdue').textContent=ovrC;
+}
+function renderDashRecent(){
+  const recent=invoices.slice(0,5);
+  $('dash-recent').innerHTML=recent.length?recent.map(invRowHTML).join(''):'<p style="color:var(--text2)">No invoices yet. Create your first one!</p>';
+}
+
+// === LIST ===
+function renderList(){
+  const q=($('list-search').value||'').toLowerCase();
+  const f=$('list-filter').value;
+  const filtered=invoices.filter(i=>{
+    if(f!=='all'&&i.status!==f)return false;
+    if(q&&!i.client.name.toLowerCase().includes(q)&&!i.client.company.toLowerCase().includes(q)&&!i.number.toLowerCase().includes(q))return false;
+    return true;
+  });
+  $('invoice-list').innerHTML=filtered.length?filtered.map(invRowHTML).join(''):'<p style="color:var(--text2);text-align:center;padding:40px">No invoices found.</p>';
+}
+function invRowHTML(inv){
+  const badge=`<span class="badge badge-${inv.status}">${inv.status}</span>`;
+  const overdue=inv.status==='overdue'?' overdue-row':'';
+  return`<div class="invoice-list-item${overdue}">
+    <div class="inv-meta"><span class="inv-num">${inv.number}</span><span class="inv-client">${inv.client.name}${inv.client.company?' — '+inv.client.company:''}</span></div>
+    <div class="inv-right">
+      <span class="inv-date">${inv.date}</span>
+      ${badge}
+      <span class="inv-amount">${money(inv.total)}</span>
+      <div class="inv-actions">
+        <button class="btn-secondary" onclick="previewById('${inv.id}')">👁</button>
+        <button class="btn-secondary" onclick="editInvoice('${inv.id}')">✏️</button>
+        <button class="btn-secondary" onclick="duplicateInvoice('${inv.id}')">📋</button>
+        ${inv.status!=='paid'?`<button class="btn-success" onclick="markPaid('${inv.id}')">✓ Paid</button>`:''}
+        <button class="btn-danger" onclick="deleteInvoice('${inv.id}')">🗑</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+// === PREVIEW ===
+function previewById(id){
+  const inv=invoices.find(i=>i.id===id);if(inv)showPreview(inv);
+}
+function previewInvoice(){
+  // build temp invoice from form
+  const items=getLineItems();
+  const sub=items.reduce((s,i)=>s+i.qty*i.price,0);
+  const taxRate=parseFloat($('t-taxrate').value)||0;
+  const tax=sub*taxRate/100;
+  const dv=parseFloat($('t-discval').value)||0;
+  const disc=$('t-disctype').value==='%'?sub*dv/100:dv;
+  showPreview({
+    number:$('f-invnum').value,date:$('f-date').value,due:$('f-due').value,
+    terms:$('f-terms').value,status:$('f-status').value,
+    client:{name:$('f-cname').value,company:$('f-ccompany').value,address:$('f-caddr').value,email:$('f-cemail').value},
+    items,taxRate,subtotal:sub,tax,discount:disc,total:sub+tax-disc,notes:$('f-notes').value
+  });
+}
+function showPreview(inv){
+  const termsLabel={net15:'Net 15',net30:'Net 30',net60:'Net 60',receipt:'Due on Receipt'}[inv.terms]||inv.terms;
+  const logo=settings.logo?`<img src="${settings.logo}" alt="Logo">`:'';
+  const badgeCls=inv.status;
+  $('preview-content').innerHTML=`
+    <button class="close-preview" onclick="closePreview()">✕</button>
+    <div class="preview-actions">
+      <button class="btn-primary" onclick="window.print()">🖨 Print / PDF</button>
+    </div>
+    <div class="inv-header">
+      <div class="company">${logo}<h2>${settings.name||'Your Company'}</h2>
+        <div>${settings.address||''}</div><div>${settings.phone||''}</div><div>${settings.email||''}</div></div>
+      <div class="inv-title"><h1>Invoice</h1>
+        <div class="meta"><strong>${inv.number}</strong><br>Date: ${inv.date}<br>Due: ${inv.due}<br>Terms: ${termsLabel}<br><span class="inv-badge ${badgeCls}">${inv.status}</span></div></div>
+    </div>
+    <div class="inv-parties">
+      <div class="party"><h3>Bill To</h3><p><strong>${inv.client.name}</strong><br>${inv.client.company?inv.client.company+'<br>':''}${inv.client.address?inv.client.address+'<br>':''}${inv.client.email||''}</p></div>
+    </div>
+    <table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead>
+    <tbody>${inv.items.map(i=>`<tr><td>${i.desc||'—'}</td><td>${i.qty}</td><td>${money(i.price)}</td><td>${money(i.qty*i.price)}</td></tr>`).join('')}</tbody></table>
+    <div class="preview-totals"><table>
+      <tr><td>Subtotal</td><td>${money(inv.subtotal)}</td></tr>
+      <tr><td>Tax (${inv.taxRate}%)</td><td>${money(inv.tax)}</td></tr>
+      ${inv.discount?`<tr><td>Discount</td><td>-${money(inv.discount)}</td></tr>`:''}
+      <tr class="grand"><td>Total</td><td>${money(inv.total)}</td></tr>
+    </table></div>
+    ${inv.notes?`<div class="inv-notes"><strong>Notes:</strong><br>${inv.notes.replace(/\n/g,'<br>')}</div>`:''}
+  `;
+  $('preview-overlay').classList.remove('hidden');
+}
+function closePreview(){$('preview-overlay').classList.add('hidden');}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePreview();});
+
+init();
+</script>
+</body>
+</html>

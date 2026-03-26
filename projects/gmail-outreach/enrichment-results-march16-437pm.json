@@ -1,0 +1,167 @@
+[
+  {
+    "company": "Apax Partners",
+    "rowNumber": 49,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:apaxpartners.com team",
+      "site:linkedin.com \"Apax Partners\" managing director OR partner OR CEO",
+      "\"Apax Partners\" press release executive",
+      "Apax Partners SEC filings"
+    ]
+  },
+  {
+    "company": "Sagewind Capital",
+    "rowNumber": 689,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:sagewindcapital.com team",
+      "site:linkedin.com \"Sagewind Capital\" managing director OR partner OR CEO",
+      "\"Sagewind Capital\" press release executive",
+      "Sagewind Capital SEC filings"
+    ]
+  },
+  {
+    "company": "Kayne Partners",
+    "rowNumber": 699,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:kaynepartners.com team",
+      "site:linkedin.com \"Kayne Partners\" managing director OR partner OR CEO",
+      "\"Kayne Partners\" press release executive",
+      "Kayne Partners SEC filings"
+    ]
+  },
+  {
+    "company": "TruArc Partners (fka Snow Phipps)",
+    "rowNumber": 718,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:truarcpartners(fkasnowphipps).com team",
+      "site:linkedin.com \"TruArc Partners (fka Snow Phipps)\" managing director OR partner OR CEO",
+      "\"TruArc Partners (fka Snow Phipps)\" press release executive",
+      "TruArc Partners (fka Snow Phipps) SEC filings"
+    ]
+  },
+  {
+    "company": "TruArc Partners (fka Snow Phipps)",
+    "rowNumber": 719,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:truarcpartners(fkasnowphipps).com team",
+      "site:linkedin.com \"TruArc Partners (fka Snow Phipps)\" managing director OR partner OR CEO",
+      "\"TruArc Partners (fka Snow Phipps)\" press release executive",
+      "TruArc Partners (fka Snow Phipps) SEC filings"
+    ]
+  },
+  {
+    "company": "TruArc Partners (fka Snow Phipps)",
+    "rowNumber": 720,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:truarcpartners(fkasnowphipps).com team",
+      "site:linkedin.com \"TruArc Partners (fka Snow Phipps)\" managing director OR partner OR CEO",
+      "\"TruArc Partners (fka Snow Phipps)\" press release executive",
+      "TruArc Partners (fka Snow Phipps) SEC filings"
+    ]
+  },
+  {
+    "company": "Pritzker Group Private Capital",
+    "rowNumber": 728,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:pritzkergroupprivatecapital.com team",
+      "site:linkedin.com \"Pritzker Group Private Capital\" managing director OR partner OR CEO",
+      "\"Pritzker Group Private Capital\" press release executive",
+      "Pritzker Group Private Capital SEC filings"
+    ]
+  },
+  {
+    "company": "Keltic Financial Partners",
+    "rowNumber": 734,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:kelticfinancialpartners.com team",
+      "site:linkedin.com \"Keltic Financial Partners\" managing director OR partner OR CEO",
+      "\"Keltic Financial Partners\" press release executive",
+      "Keltic Financial Partners SEC filings"
+    ]
+  },
+  {
+    "company": "Falconhead Capital",
+    "rowNumber": 765,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:falconheadcapital.com team",
+      "site:linkedin.com \"Falconhead Capital\" managing director OR partner OR CEO",
+      "\"Falconhead Capital\" press release executive",
+      "Falconhead Capital SEC filings"
+    ]
+  },
+  {
+    "company": "The Wicks Group",
+    "rowNumber": 776,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:thewicksgroup.com team",
+      "site:linkedin.com \"The Wicks Group\" managing director OR partner OR CEO",
+      "\"The Wicks Group\" press release executive",
+      "The Wicks Group SEC filings"
+    ]
+  },
+  {
+    "company": "Clayton Dubilier & Rice (CD&R)",
+    "rowNumber": 800,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:claytondubilier&rice(cd&r).com team",
+      "site:linkedin.com \"Clayton Dubilier & Rice (CD&R)\" managing director OR partner OR CEO",
+      "\"Clayton Dubilier & Rice (CD&R)\" press release executive",
+      "Clayton Dubilier & Rice (CD&R) SEC filings"
+    ]
+  },
+  {
+    "company": "Siris Capital Group",
+    "rowNumber": 806,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:siriscapitalgroup.com team",
+      "site:linkedin.com \"Siris Capital Group\" managing director OR partner OR CEO",
+      "\"Siris Capital Group\" press release executive",
+      "Siris Capital Group SEC filings"
+    ]
+  },
+  {
+    "company": "The Jordan Company (TJC)",
+    "rowNumber": 807,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:thejordancompany(tjc).com team",
+      "site:linkedin.com \"The Jordan Company (TJC)\" managing director OR partner OR CEO",
+      "\"The Jordan Company (TJC)\" press release executive",
+      "The Jordan Company (TJC) SEC filings"
+    ]
+  },
+  {
+    "company": "Havencrest Capital Management",
+    "rowNumber": 937,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:havencrestcapitalmanagement.com team",
+      "site:linkedin.com \"Havencrest Capital Management\" managing director OR partner OR CEO",
+      "\"Havencrest Capital Management\" press release executive",
+      "Havencrest Capital Management SEC filings"
+    ]
+  },
+  {
+    "company": "New Mountain Capital",
+    "rowNumber": 1617,
+    "status": "needs_manual_research",
+    "searches": [
+      "site:newmountaincapital.com team",
+      "site:linkedin.com \"New Mountain Capital\" managing director OR partner OR CEO",
+      "\"New Mountain Capital\" press release executive",
+      "New Mountain Capital SEC filings"
+    ]
+  }
+]

@@ -1,0 +1,169 @@
+/* === RESET & BASE === */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0f1117;--surface:#1a1d27;--surface2:#242836;--border:#2e3348;
+  --text:#e2e4ed;--text2:#9499b3;--accent:#6c5ce7;--accent2:#a29bfe;
+  --green:#00b894;--yellow:#fdcb6e;--red:#e17055;--blue:#74b9ff;
+  --radius:10px;--shadow:0 4px 24px rgba(0,0,0,.4);
+}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;line-height:1.5}
+a{color:var(--accent2);text-decoration:none}
+button{cursor:pointer;font:inherit;border:none;border-radius:var(--radius);padding:8px 18px;transition:.2s}
+input,select,textarea{font:inherit;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);padding:8px 12px;width:100%;transition:.2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+textarea{resize:vertical;min-height:60px}
+
+/* === CTA BANNER === */
+.cta-banner{background:linear-gradient(135deg,var(--accent),#8b5cf6);text-align:center;padding:10px;font-size:.9rem;font-weight:600;color:#fff}
+.cta-banner a{color:#fff;text-decoration:underline}
+
+/* === LAYOUT === */
+.app-header{background:var(--surface);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.app-header h1{font-size:1.4rem;display:flex;align-items:center;gap:8px}
+.app-header nav{display:flex;gap:8px}
+.app-header nav button{background:var(--surface2);color:var(--text2);padding:8px 16px}
+.app-header nav button.active{background:var(--accent);color:#fff}
+.container{max-width:1200px;margin:0 auto;padding:20px}
+
+/* === DASHBOARD === */
+.dashboard{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:24px}
+.dash-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center}
+.dash-card .value{font-size:1.8rem;font-weight:700;margin:4px 0}
+.dash-card .label{color:var(--text2);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px}
+.dash-card.invoiced .value{color:var(--blue)}
+.dash-card.paid .value{color:var(--green)}
+.dash-card.outstanding .value{color:var(--yellow)}
+.dash-card.overdue .value{color:var(--red)}
+
+/* === BADGES === */
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75rem;font-weight:600;text-transform:uppercase}
+.badge-draft{background:#3d3d5c;color:#a29bfe}
+.badge-sent{background:#1e3a5f;color:#74b9ff}
+.badge-paid{background:#1a3c34;color:#00b894}
+.badge-overdue{background:#4a2020;color:#e17055}
+
+/* === CARDS / SECTIONS === */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:20px}
+.card h2{font-size:1.1rem;margin-bottom:14px;color:var(--accent2);display:flex;align-items:center;gap:8px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-grid.three{grid-template-columns:1fr 1fr 1fr}
+.form-group{display:flex;flex-direction:column;gap:4px}
+.form-group label{font-size:.8rem;color:var(--text2);font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+.form-group.full{grid-column:1/-1}
+
+/* === LINE ITEMS TABLE === */
+.line-items-table{width:100%;border-collapse:collapse;margin:12px 0}
+.line-items-table th{text-align:left;padding:8px 10px;font-size:.75rem;color:var(--text2);text-transform:uppercase;border-bottom:1px solid var(--border)}
+.line-items-table td{padding:6px 8px}
+.line-items-table td input{background:var(--bg);border-color:var(--border)}
+.line-items-table .col-desc{width:45%}
+.line-items-table .col-qty,.line-items-table .col-price,.line-items-table .col-amt{width:15%}
+.line-items-table .col-act{width:40px;text-align:center}
+.line-items-table .amount-cell{font-weight:600;color:var(--accent2);padding:6px 10px}
+.btn-remove{background:transparent;color:var(--red);font-size:1.2rem;padding:4px 8px}
+.btn-remove:hover{background:rgba(225,112,85,.15)}
+
+/* === TOTALS === */
+.totals{display:flex;flex-direction:column;align-items:flex-end;gap:8px;padding:12px 0}
+.total-row{display:flex;align-items:center;gap:16px;font-size:.95rem}
+.total-row label{color:var(--text2);min-width:120px;text-align:right}
+.total-row .val{font-weight:600;min-width:100px;text-align:right}
+.total-row.grand{font-size:1.3rem;color:var(--accent2);border-top:2px solid var(--border);padding-top:8px}
+.total-row input{width:80px;text-align:right}
+.discount-type{width:60px!important}
+
+/* === BUTTONS === */
+.btn-primary{background:var(--accent);color:#fff;font-weight:600;padding:10px 24px}
+.btn-primary:hover{background:#5a4bd1}
+.btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border);padding:10px 24px}
+.btn-secondary:hover{background:var(--border)}
+.btn-success{background:var(--green);color:#fff;font-weight:600}
+.btn-success:hover{opacity:.85}
+.btn-danger{background:var(--red);color:#fff;font-weight:600}
+.btn-danger:hover{opacity:.85}
+.btn-add{background:transparent;color:var(--accent2);border:1px dashed var(--border);width:100%;padding:10px;margin-top:4px}
+.btn-add:hover{border-color:var(--accent);background:rgba(108,92,231,.08)}
+.actions-bar{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+
+/* === INVOICE LIST === */
+.list-toolbar{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.list-toolbar input{max-width:280px}
+.list-toolbar select{max-width:160px}
+.invoice-list-item{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:8px;transition:.2s;flex-wrap:wrap;gap:8px}
+.invoice-list-item:hover{border-color:var(--accent)}
+.invoice-list-item.overdue-row{border-left:3px solid var(--red)}
+.inv-meta{display:flex;flex-direction:column;gap:2px}
+.inv-meta .inv-num{font-weight:700;font-size:1rem}
+.inv-meta .inv-client{color:var(--text2);font-size:.85rem}
+.inv-right{display:flex;align-items:center;gap:12px}
+.inv-amount{font-weight:700;font-size:1.05rem}
+.inv-date{color:var(--text2);font-size:.8rem}
+.inv-actions{display:flex;gap:6px}
+.inv-actions button{padding:5px 10px;font-size:.8rem}
+
+/* === INVOICE PREVIEW (white theme) === */
+.invoice-preview-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;display:flex;align-items:flex-start;justify-content:center;overflow-y:auto;padding:30px 10px}
+.invoice-preview{background:#fff;color:#222;max-width:800px;width:100%;border-radius:8px;padding:48px;position:relative;font-size:14px;line-height:1.6}
+.invoice-preview .close-preview{position:absolute;top:12px;right:16px;background:none;color:#999;font-size:1.6rem;padding:4px 8px}
+.invoice-preview .close-preview:hover{color:#333}
+.invoice-preview .inv-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:32px;flex-wrap:wrap;gap:16px}
+.invoice-preview .inv-header .company{font-size:.9rem;color:#555}
+.invoice-preview .inv-header .company h2{font-size:1.6rem;color:#222;margin-bottom:4px}
+.invoice-preview .inv-header .company img{max-height:60px;margin-bottom:8px}
+.invoice-preview .inv-title{text-align:right}
+.invoice-preview .inv-title h1{font-size:2rem;color:#6c5ce7;margin-bottom:4px;text-transform:uppercase;letter-spacing:2px}
+.invoice-preview .inv-title .meta{font-size:.85rem;color:#777}
+.invoice-preview .inv-parties{display:flex;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:16px}
+.invoice-preview .inv-parties .party h3{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:#999;margin-bottom:4px}
+.invoice-preview .inv-parties .party p{margin:0;color:#444}
+.invoice-preview table{width:100%;border-collapse:collapse;margin-bottom:24px}
+.invoice-preview table th{background:#f8f8fc;padding:10px 12px;text-align:left;font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;color:#666;border-bottom:2px solid #e0e0e0}
+.invoice-preview table td{padding:10px 12px;border-bottom:1px solid #eee}
+.invoice-preview table td:last-child,.invoice-preview table th:last-child{text-align:right}
+.invoice-preview .preview-totals{display:flex;justify-content:flex-end}
+.invoice-preview .preview-totals table{width:260px}
+.invoice-preview .preview-totals td{border:none;padding:4px 8px}
+.invoice-preview .preview-totals tr.grand td{border-top:2px solid #6c5ce7;font-size:1.1rem;font-weight:700;color:#6c5ce7;padding-top:8px}
+.invoice-preview .inv-notes{margin-top:24px;padding-top:16px;border-top:1px solid #eee;font-size:.85rem;color:#777}
+.invoice-preview .inv-badge{display:inline-block;padding:4px 14px;border-radius:20px;font-size:.75rem;font-weight:700;text-transform:uppercase}
+.invoice-preview .inv-badge.draft{background:#ede9fe;color:#6c5ce7}
+.invoice-preview .inv-badge.sent{background:#dbeafe;color:#2563eb}
+.invoice-preview .inv-badge.paid{background:#d1fae5;color:#059669}
+.invoice-preview .inv-badge.overdue{background:#fee2e2;color:#dc2626}
+.preview-actions{display:flex;gap:8px;margin-bottom:24px;flex-wrap:wrap}
+.preview-actions button{border-radius:6px;padding:8px 16px;font-size:.85rem}
+
+/* === HIDDEN SECTIONS === */
+.hidden{display:none!important}
+
+/* === RESPONSIVE === */
+@media(max-width:768px){
+  .form-grid,.form-grid.three{grid-template-columns:1fr}
+  .app-header{flex-direction:column;align-items:flex-start}
+  .app-header nav{width:100%;overflow-x:auto}
+  .invoice-preview{padding:24px 16px}
+  .invoice-preview .inv-header,.invoice-preview .inv-parties{flex-direction:column}
+  .invoice-preview .inv-title{text-align:left}
+  .totals{align-items:stretch}
+  .total-row{justify-content:space-between}
+  .dashboard{grid-template-columns:1fr 1fr}
+  .inv-right{flex-wrap:wrap}
+}
+@media(max-width:480px){
+  .dashboard{grid-template-columns:1fr}
+  .line-items-table,.line-items-table thead,.line-items-table tbody,.line-items-table tr,.line-items-table td,.line-items-table th{display:block;width:100%}
+  .line-items-table thead{display:none}
+  .line-items-table td{padding:4px 0}
+  .line-items-table td input{margin-bottom:4px}
+}
+
+/* === PRINT === */
+@media print{
+  body{background:#fff!important;color:#222!important}
+  .cta-banner,.app-header,.container>.card,.list-toolbar,.invoice-list-item,
+  .dashboard,.actions-bar,.preview-actions,.close-preview,#view-form,#view-list,#view-settings,
+  .invoice-preview-overlay{position:static!important;background:transparent!important}
+  .hidden-print,.cta-banner,.app-header,#view-form,#view-list,#view-settings,.preview-actions,.close-preview{display:none!important}
+  .invoice-preview-overlay{background:none!important;padding:0!important}
+  .invoice-preview{box-shadow:none!important;padding:20px!important;border-radius:0!important;max-width:100%!important}
+}

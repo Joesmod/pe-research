@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-03-16T05:40:18.066Z",
+  "totalNeedingEnrichment": 1,
+  "targetedThisRun": 1,
+  "targets": [
+    {
+      "rowIndex": 1234,
+      "company": "Gryphon Investors",
+      "contact": "R. David Andrews",
+      "email": "",
+      "website": "https://www.gryphon-inv.com/",
+      "needsContact": false,
+      "needsRealEmail": true
+    }
+  ]
+}
