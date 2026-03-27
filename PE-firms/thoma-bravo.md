@@ -5,13 +5,23 @@
 **AUM:** $130B+ (2023)  
 **Focus:** Enterprise software (exclusively)
 
-## Key Contact
+## Key Contacts
 
+### Primary Contact
 - **Name:** Orlando Bravo
 - **Title:** Founder & Managing Partner
 - **Email:** obravo@thomabravo.com (pattern from RocketReach o******@thomabravo.com)
 - **LinkedIn:** https://www.linkedin.com/in/orlandobravo/
 - **Source:** Official Thoma Bravo website + RocketReach
+
+### Alternative Contacts
+- **Seth Boro** - Managing Partner
+- **Scott Crabill** - Managing Partner
+- **Lee Mitchell** - Managing Partner
+- **Holden Spaht** - Managing Partner
+- **Carl Thoma** - Founder & Managing Partner
+- **Jennifer James** - Managing Director, COO & Head of Investor Relations
+- **David Tse** - Senior Vice President
 
 ## Firm Details
 
