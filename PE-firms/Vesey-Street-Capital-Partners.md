@@ -1,20 +1,38 @@
-# Vesey Street Capital Partners
+# Vesey Street Capital Partners (VSCP)
 
-**Enriched:** 2026-03-13
+## Overview
+- **Website**: https://www.vscpllc.com
+- **Focus**: Middle-market healthcare services
+- **Experience**: 30+ years exclusively in healthcare services
+- **Type**: Healthcare-dedicated private equity
+- **Geography**: New York, NY
 
-## Key Contact
-- **Name:** Adam Feinstein
-- **Title:** Managing Partner & Founder
-- **Email:** afeinstein@vscpllc.com
-- **LinkedIn:** https://www.linkedin.com/in/adam-feinstein-30037612/
-- **Email Pattern:** Verified via RocketReach/Apollo
+## Key Contacts
+- **General Contact**: info@vscpllc.com
+- **Tiffany Visconti** - Investor Relations
+  - Phone: (646) 847-2474
+  
+- **Adam Feinstein** - Founder & Managing Partner
+  - 30 years of investment experience exclusively in healthcare services
+  
+- **Chris Hasslinger** - Partner (joined November 2023)
 
-## Firm Overview
-- **Focus:** Healthcare services
-- **Specialty:** Middle-market healthcare services companies
-- **Experience:** 30+ years healthcare investment
-- **Website:** https://www.vscpllc.com
+## Address
+The Pearline House
+428 Greenwich Street
+New York, NY 10013
 
-## Source Notes
-- Verified via RocketReach, Apollo, LinkedIn, Crunchbase
-- Dedicated healthcare services focus
+## Investment Criteria
+- **Focus**: Lower to middle-market healthcare services
+- **Approach**: Hands-on with management teams
+- **Goal**: Value creation for all stakeholders
+
+## Notes
+- Dedicated focus on healthcare services only
+- Recent team expansion (Chris Hasslinger joined as Partner in Nov 2023)
+- Contact info verified from PR Newswire press release
+- Hands-on investment approach
+
+## Research Date
+- Enriched: 2026-03-28
+- Source: Official website, PR Newswire, GrowthCap
