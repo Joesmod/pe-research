@@ -5,17 +5,28 @@
 **Type:** Middle-market private equity  
 **HQ:** Cleveland, Ohio  
 
-## Key Contact
+## Key Contacts
 
-**Kate Faust** - Partner, Business Development  
+### Kate Faust - Partner, Business Development  
 - **Email:** kfaust@rockwoodequity.com  
 - **Phone:** (216) 278-7070  
 - **Source:** Multiple press releases and fact sheet (rockwoodequity.com)  
 - **Verified:** 2026-03-28  
+- **Role:** Primary contact for new investment opportunities and strategic partnerships
+
+### Brett Keith - Managing Partner
+- **Email:** bkeith@rockwoodequity.com
+- **Phone:** 212-218-8284
+- **LinkedIn:** https://www.linkedin.com/in/brett-keith-7355b011/
+- **Source:** Center on Business and Poverty contact listing + rockwoodequity.com
+- **Verified:** 2026-03-28
+- **Background:** Managing Partner since 1999. Former Chairman of JetBlue Airways (2008-2020). YPO Global Board of Directors. Adjunct professor teaching M.B.A. Private Equity course. NYC-based.
 
 ## Background
 
 Kate Faust serves as Partner for Business Development at Rockwood Equity. She is the primary contact for new investment opportunities and strategic partnerships.
+
+Brett Keith is the Managing Partner and has been with Rockwood since 1999. He brings significant board experience and is actively involved in portfolio company oversight and firm strategy.
 
 ## Firm Overview
 
