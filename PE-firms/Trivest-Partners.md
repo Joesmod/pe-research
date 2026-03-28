@@ -1,31 +1,45 @@
 # Trivest Partners
 
-**Website:** https://www.trivest.com  
-**Sector Focus:** Mid-market private equity  
-**LinkedIn:** https://www.linkedin.com/company/trivest
+**Website:** https://www.trivestpartners.com  
+**Location:** Coral Gables, FL  
+**AUM:** $6B (as of 2025)  
+**Focus:** Founder-friendly PE, healthcare, business services, consumer  
 
-## Enriched Contacts (2026-03-12)
+## Key Contacts
 
-### Todd Jerles
-- **Title:** Partner, Chief Operating Officer
-- **Email:** tjerles@trivest.com
-- **LinkedIn:** http://www.linkedin.com/in/todd-jerles-3070784
-- **Source:** Apollo API (verified)
-- **Date Enriched:** 2026-03-12
-- **Note:** Partner/COO level contact (HIGH PRIORITY)
+### Tony Yoseloff
+- **Title:** Managing Partner & Chief Investment Officer
+- **Email:** *(needs verification)*
+- **LinkedIn:** *(via company page)*
 
-### Dea Park
-- **Title:** Vice President
-- **Email:** dpark@trivest.com
-- **LinkedIn:** http://www.linkedin.com/in/dea-park-30
-- **Source:** Apollo API (verified)
+### Troy Templeton
+- **Title:** Investment professional
+- **LinkedIn:** https://www.linkedin.com/in/troy-templeton/
 
-### Spencer Ledwith
-- **Title:** Vice President
-- **Email:** sledwith@trivest.com
-- **LinkedIn:** http://www.linkedin.com/in/spencerledwith
-- **Source:** Apollo API (verified)
+### Russ Wilson
+- **LinkedIn:** https://www.linkedin.com/in/russ-wilson-91175436/
 
-## Notes
-- Headquarters: Coral Gables, Florida
-- Enrichment Status: ✅ Complete (Apollo verified contacts, Partner/COO level contact secured)
+## Investment Focus
+- Healthcare services
+- Business services  
+- Consumer and retail
+- Niche manufacturing
+- Value-added distribution
+
+## Firm Overview
+- Founded 1981 — oldest PE firm in Southeast
+- Headquartered in Coral Gables, Florida
+- ~500 investments completed
+- "Private Equity for Founders" positioning
+- Inc. Founder-Friendly Investors 2019-2023
+- Company-first approach with flexible ownership transitions
+- Protects founder ideals and philosophies
+
+## Enrichment Notes
+- $6B AUM confirmed via Wikipedia (Oct 2025)
+- Multiple investment professionals identified via LinkedIn 2026-03-28
+- Strong track record with founder-led businesses
+- Email patterns need verification from official sources
+
+---
+*Last Updated: 2026-03-28*
