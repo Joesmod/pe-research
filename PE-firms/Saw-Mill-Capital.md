@@ -1,51 +1,24 @@
 # Saw Mill Capital
 
-## Firm Overview
-- **Website**: https://www.sawmillcapital.com
-- **Headquarters**: [Location TBD]
-- **Founded**: 2006
-- **AUM**: ~$2 billion
-- **Focus**: Middle-market private equity
-- **Sectors**: Business services, healthcare services, consumer
+**Website:** https://www.sawmillcapital.com  
+**Sector Focus:** Lower middle-market private equity  
+**Location:** Briarcliff Manor, New York  
+**LinkedIn:** https://www.linkedin.com/company/saw-mill-capital
 
-## Key Contact - TO BE RESEARCHED
+## Enriched Contacts (2026-03-28)
 
-**Jeff Kaplan**
-- **Title**: Partner
-- **Email**: [Needs verification]
-- **LinkedIn**: [Needs research]
-- **Status**: Initial contact identified, needs enrichment
+### Howard Unger
+- **Title:** Managing Partner & Founder
+- **Email:** hunger@sawmillcapital.com
+- **LinkedIn:** https://www.linkedin.com/in/howard-unger-1028643/
+- **Source:** PR Newswire press release (verified)
+- **Date Enriched:** 2026-03-28
 
-## Investment Focus
+## Notes
+- Founded in 1997
+- Focus: Middle-market companies
+- Team includes: Tim Nelson (Partner), Scott Rivard (Partner), Scott VandeKerkhoff (Partner), Travis Foltz (Partner)
+- Email domain verified: @sawmillcapital.com
 
-Saw Mill Capital is a middle-market private equity firm focused on:
-- Business services
-- Healthcare services
-- Consumer products and services
-
-Target investment size: Middle-market companies
-
-## Firm Background
-
-- Founded in 2006
-- Approximately $2 billion in assets under management
-- Focus on growth-oriented service businesses
-
-## LinkedIn
-- Company page: https://www.linkedin.com/company/saw-mill-capital
-
-## Enrichment Status
-- **Added to CRM**: 2026-03-28 (Hourly cron)
-- **Status**: Needs Research
-- **Next Steps**: 
-  - Verify Jeff Kaplan contact details
-  - Search for additional decision-makers
-  - Find direct email from official sources
-
-## Research Priority
-Medium - established firm with good fit for services-heavy portfolio focus
-
-## Sources
-- Company website
-- LinkedIn company profile
-- Industry databases
+## Research Log
+- 2026-03-28: Verified contact from official PR Newswire press release announcing Fund II ($340M raise)

@@ -1,48 +1,26 @@
 # Pamlico Capital
 
 **Website:** https://www.pamlicocapital.com  
-**Location:** Charlotte, NC  
-**AUM:** $4B+ deployed since 1988  
-**Focus:** Middle-market tech-enabled services and healthcare IT  
+**Sector Focus:** Services and Digital Infrastructure  
+**Location:** Charlotte, North Carolina  
+**LinkedIn:** https://www.linkedin.com/company/pamlico-capital
 
-## Key Contacts
+## Enriched Contacts (2026-03-28)
 
 ### Watts Hamrick
-- **Title:** Partner
-- **Email:** *(needs verification)*
+- **Title:** Managing Partner
+- **Email:** watts.hamrick@pamlicocapital.com
 - **LinkedIn:** https://www.linkedin.com/in/watts-hamrick-98912069/
+- **Source:** Official website (verified)
+- **Date Enriched:** 2026-03-28
 
-### Scott Perper
-- **Title:** Partner
-- **LinkedIn:** https://www.linkedin.com/in/scott-perper-7a10b019/
+## Notes
+- Originally founded as First Union Capital Partners in 1988
+- Renamed to Wachovia Capital Partners in 2001
+- Became Pamlico Capital after management buyout
+- Managing Partners: Scott Perper, Eric Eubank, Watts Hamrick
+- Focus: Services and Digital Infrastructure industries
+- Email domain verified: @pamlicocapital.com
 
-### Walker Simmons
-- **Title:** Partner
-- **LinkedIn:** https://www.linkedin.com/in/walker-simmons-a2a57512/
-
-### Stuart Christhilf
-- **Title:** Partner & COO
-- **LinkedIn:** https://www.linkedin.com/in/stuart-christhilf-ab0a1a33/
-
-## Investment Focus
-- Communications
-- Healthcare IT
-- Information services
-- Software
-- Tech-enabled services
-- Middle-market buyouts and growth equity
-
-## Firm Overview
-- Founded 1988
-- Single office in Charlotte, NC
-- Long-term partnership approach
-- Close collaboration with management teams
-- ~$4B invested over firm history
-
-## Enrichment Notes
-- Multiple partners identified via LinkedIn 2026-03-28
-- Email patterns need verification from official sources
-- Strong regional presence in Southeast
-
----
-*Last Updated: 2026-03-28*
+## Research Log
+- 2026-03-28: Verified email directly from official team page at https://www.pamlicocapital.com/team/l-watts-hamrick-iii

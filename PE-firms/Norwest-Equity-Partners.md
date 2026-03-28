@@ -1,57 +1,31 @@
-# Norwest Equity Partners
+# Norwest Equity Partners (NEP)
 
-## Firm Overview
-- **Website**: https://www.norwep.com
-- **Headquarters**: Minneapolis, MN
-- **Founded**: Part of Norwest since 1961
-- **AUM**: $3.5+ billion
-- **Focus**: Middle-market private equity
-- **Sectors**: Consumer, healthcare, services
+**Website:** https://nep.com  
+**Sector Focus:** Business services, consumer, and industrial companies  
+**Locations:** Minneapolis, MN & West Palm Beach, FL  
+**LinkedIn:** https://www.linkedin.com/company/norwest-equity-partners
 
-## Key Contact - TO BE RESEARCHED
+## Enriched Contacts (2026-03-28)
 
-**John Scully**
-- **Title**: Managing Partner
-- **Email**: [Needs verification]
-- **LinkedIn**: [Needs research]
-- **Status**: Initial contact identified, needs enrichment
+### Tim DeVries
+- **Title:** Managing Partner
+- **Email:** (needs direct email - domain @nep.com confirmed)
+- **LinkedIn:** https://nep.com/team/tim-devries/
+- **Source:** Official website
+- **Date Enriched:** 2026-03-28
 
-## Investment Focus
+### Heather Goodwin
+- **Title:** Chief Marketing and Communications Officer
+- **Email:** hgoodwin@nep.com
+- **Source:** Business Wire press releases (verified)
 
-Norwest Equity Partners invests in:
-- Consumer products and services
-- Healthcare services and products
-- Business services
-- Franchise and multi-unit companies
+## Notes
+- Founded in 1961
+- Invested in 400+ companies over six decades
+- Recently rebranded to "Norwest Capital"
+- Managing Partner Tim DeVries leads the firm's current growth phase
+- Email domain verified: @nep.com (from multiple Business Wire press releases)
+- PR contact: Beth LaBreche (beth@labreche.com, 612-578-2834)
 
-## Firm Background
-
-- Part of the Norwest organization since 1961
-- Over $3.5 billion in assets under management
-- Long track record in middle-market private equity
-- Strong focus on growth-oriented businesses
-
-## History
-
-Norwest Equity Partners has a distinguished history spanning over 60 years, making it one of the more established names in middle-market PE.
-
-## LinkedIn
-- Company page: https://www.linkedin.com/company/norwest-equity-partners
-
-## Enrichment Status
-- **Added to CRM**: 2026-03-28 (Hourly cron)
-- **Status**: Needs Research
-- **Next Steps**:
-  - Verify John Scully contact details
-  - Research additional partners and decision-makers
-  - Find official email addresses from published sources
-  - Review recent portfolio companies
-
-## Research Priority
-High - established firm with strong track record and significant AUM
-
-## Sources
-- Company website
-- LinkedIn company profile
-- Industry databases
-- Historical records
+## Research Log
+- 2026-03-28: Email domain @nep.com confirmed from Business Wire press releases. Direct email for Tim DeVries not found in public sources - needs further research or Apollo API enrichment.
