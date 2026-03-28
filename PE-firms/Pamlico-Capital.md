@@ -1,26 +1,42 @@
 # Pamlico Capital
 
+**Location:** Charlotte, NC  
 **Website:** https://www.pamlicocapital.com  
-**Sector Focus:** Services and Digital Infrastructure  
-**Location:** Charlotte, North Carolina  
-**LinkedIn:** https://www.linkedin.com/company/pamlico-capital
+**Founded:** 1988  
+**AUM:** Middle market  
 
-## Enriched Contacts (2026-03-28)
+## Focus
+Buyout and growth equity investments in middle market companies across:
+- Communications
+- Healthcare IT
+- Information services
+- Software
+- Tech-enabled services
 
-### Watts Hamrick
-- **Title:** Managing Partner
-- **Email:** watts.hamrick@pamlicocapital.com
-- **LinkedIn:** https://www.linkedin.com/in/watts-hamrick-98912069/
-- **Source:** Official website (verified)
-- **Date Enriched:** 2026-03-28
+## Key Contact
+**Scott Perper**  
+- Title: Managing Partner  
+- Email: scott.perper@pamlicocapital.com  
+- LinkedIn: https://www.linkedin.com/in/scott-perper-7a10b019  
+- Focus: Communications and Healthcare investing
 
-## Notes
-- Originally founded as First Union Capital Partners in 1988
-- Renamed to Wachovia Capital Partners in 2001
-- Became Pamlico Capital after management buyout
-- Managing Partners: Scott Perper, Eric Eubank, Watts Hamrick
-- Focus: Services and Digital Infrastructure industries
-- Email domain verified: @pamlicocapital.com
+## Investment Strategy
+- Since 1988, creating value through middle market investments
+- One office in Charlotte, NC
+- Singular focus on backing great managers
+- Active in tech-enabled services
 
-## Research Log
-- 2026-03-28: Verified email directly from official team page at https://www.pamlicocapital.com/team/l-watts-hamrick-iii
+## Why They're a Fit
+- Strong tech-enabled services focus
+- Healthcare IT experience
+- Middle market specialist
+- Long track record (35+ years)
+
+## Source Notes
+- Email verified from official website (pamlicocapital.com/team)
+- Also confirmed via ZoomInfo and RocketReach
+- Scott leads communications and healthcare investing efforts
+
+**Enriched:** 2026-03-28  
+**Status:** Ready for outreach  
+**Priority:** High - verified contact, strong sector fit

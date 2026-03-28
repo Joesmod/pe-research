@@ -1,45 +1,41 @@
 # Trivest Partners
 
-**Website:** https://www.trivestpartners.com  
 **Location:** Coral Gables, FL  
-**AUM:** $6B (as of 2025)  
-**Focus:** Founder-friendly PE, healthcare, business services, consumer  
+**Website:** https://www.trivest.com  
+**Founded:** 1981  
+**AUM:** One of the oldest PE firms in Southeastern U.S.  
 
-## Key Contacts
+## Focus
+"Private Equity for Founders" - Inc. Founder-Friendly Investors 2019-2023
 
-### Tony Yoseloff
-- **Title:** Managing Partner & Chief Investment Officer
-- **Email:** *(needs verification)*
-- **LinkedIn:** *(via company page)*
+## Key Contact
+**Troy Templeton**  
+- Title: Managing Partner  
+- Email: ttempleton@trivest.com (inferred from LeadIQ pattern FLast@trivest.com)  
+- LinkedIn: https://www.linkedin.com/company/trivestpartners  
 
-### Troy Templeton
-- **Title:** Investment professional
-- **LinkedIn:** https://www.linkedin.com/in/troy-templeton/
+**Frank Hapak** (Alternate)  
+- Title: Managing Director  
+- Source: RocketReach profile
 
-### Russ Wilson
-- **LinkedIn:** https://www.linkedin.com/in/russ-wilson-91175436/
+## Investment Strategy
+- 40+ years investing in Southeastern U.S.
+- Founder-friendly approach (repeatedly recognized by Inc.)
+- Focus on partnering with founders and families
+- Long-term value creation orientation
 
-## Investment Focus
-- Healthcare services
-- Business services  
-- Consumer and retail
-- Niche manufacturing
-- Value-added distribution
+## Why They're a Fit
+- Founder-friendly reputation (5 consecutive years Inc. recognition)
+- Long track record (40+ years)
+- Strong Southeast presence
+- Relationship-focused approach
 
-## Firm Overview
-- Founded 1981 — oldest PE firm in Southeast
-- Headquartered in Coral Gables, Florida
-- ~500 investments completed
-- "Private Equity for Founders" positioning
-- Inc. Founder-Friendly Investors 2019-2023
-- Company-first approach with flexible ownership transitions
-- Protects founder ideals and philosophies
+## Source Notes
+- Email pattern FLast@trivest.com confirmed via LeadIQ
+- Troy Templeton mentioned as Managing Partner via SignalHire
+- Frank Hapak confirmed via RocketReach as Managing Director
+- Multiple founder-friendly awards indicate cultural fit
 
-## Enrichment Notes
-- $6B AUM confirmed via Wikipedia (Oct 2025)
-- Multiple investment professionals identified via LinkedIn 2026-03-28
-- Strong track record with founder-led businesses
-- Email patterns need verification from official sources
-
----
-*Last Updated: 2026-03-28*
+**Enriched:** 2026-03-28  
+**Status:** Ready for outreach (inferred email)  
+**Priority:** Medium-High - founder-friendly culture, email pattern inferred

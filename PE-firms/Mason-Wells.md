@@ -1,34 +1,45 @@
 # Mason Wells
 
+**Location:** Milwaukee, WI (411 E. Wisconsin Ave., Suite 1280)  
 **Website:** https://www.masonwells.com  
-**Sector Focus:** Lower middle-market companies, Midwestern US focus  
-**Location:** Milwaukee, Wisconsin  
-**AUM:** $2.4 billion (across five buyout funds)  
-**LinkedIn:** https://www.linkedin.com/company/mason-wells-inc
+**AUM:** $2.4 billion in aggregate across five buyout funds  
+**Founded:** ~1990s  
 
-## Enriched Contacts (2026-03-28)
+## Focus
+Milwaukee-based private equity firm partnering with founders, families, and managers of primarily Midwestern US-based businesses.
 
-### Brady Walsh
-- **Title:** Business Development Manager
-- **Email:** bwalsh@masonwells.com
-- **Phone:** (414) 727-6419
-- **Source:** ACG Wisconsin (verified)
-- **Date Enriched:** 2026-03-28
+## Key Contact
+**Kevin Kenealey**  
+- Title: Senior Managing Director  
+- Email: kkenealey@masonwells.com (inferred from ZoomInfo pattern k***@)  
+- Phone: (414) 727-6400 (main office)  
+- Source: ZoomInfo, team page
 
-### Kevin Kenealey
-- **Title:** Senior Managing Director
-- **Email:** (needs direct email - domain @masonwells.com confirmed)
-- **Source:** Official website
-- **LinkedIn:** https://www.masonwells.com/team/kevin-kenealey/
+## Team Structure
+- Apprenticeship model for team development
+- Six senior leaders who joined early in careers
+- Tenured team working together since early 2000s
+- Mentorship and gradual expansion of responsibilities
 
-## Notes
-- Founded in Milwaukee in 1998
-- $2.4 billion raised across five independent buyout funds
-- Focus: Primarily Midwestern US-based businesses
-- Strong emphasis on partnering with founders, families, and management teams
-- Office: 411 E. Wisconsin Avenue, Suite 1280, Milwaukee, WI 53202
-- Main phone: (414) 727-6400
-- Email domain verified: @masonwells.com
+## Investment Strategy
+- Primarily Midwestern US-based businesses
+- Partner with founders, families, and managers
+- Help realize financial potential while preserving legacy
+- Focus on financial discipline and operational excellence
+- Long-term partnership approach
 
-## Research Log
-- 2026-03-28: Verified Brady Walsh contact from ACG Wisconsin sponsorship page. Kevin Kenealey identified as Senior Managing Director from official website - direct email needs enrichment.
+## Why They're a Fit
+- Midwest focus aligns with many service businesses
+- Founder/family partnership approach
+- Experienced team with long tenure
+- $2.4B in capital shows scale and capability
+
+## Source Notes
+- General contact: info@masonwells.com | (414) 727-6400
+- Kevin Kenealey email inferred from ZoomInfo pattern (k***@masonwells.com)
+- Team page emphasizes apprenticeship model and tenure
+- No individual emails published on website
+
+**Enriched:** 2026-03-28  
+**Status:** Ready for outreach (inferred email)  
+**Priority:** Medium - strong Midwest presence, email inferred
