@@ -1,43 +1,80 @@
 # MBF Healthcare Partners
 
 ## Overview
-- **Website**: https://www.mbfhp.com
-- **Founded**: 2005
-- **Focus**: Healthcare services
-- **Type**: Healthcare-dedicated private equity
-- **Geography**: Miami, FL
-- **Phone**: (305) 476-5177
+- **Website:** https://www.mbfhp.com/
+- **Founded:** 2005
+- **HQ:** Coral Gables, Florida
+- **Focus:** Healthcare services exclusively
+- **Investment Size:** $10-50 million per investment
+
+## Investment Strategy
+Middle-market healthcare-focused PE firm. The team evolved from operators to investors, bringing deep healthcare expertise:
+- **Provider-Based Services**
+- **Payor Services**
+- **Managed Care**
+- **Value-based care models**
 
 ## Key Contacts
-- **General Contact**: info@mbfhp.com
-- **Miguel ("Mike") B. Fernandez** - Founding Partner
-- **Jorge Rico** - Founding Partner
-- **Marcio Cabrera** - Founding Partner
 
-## Email Format
-- Pattern: [first_initial][last]@mbfhp.com (e.g., jdoe@mbfhp.com)
-- 81.6% of emails follow this format
+### Leadership Team
+- **Jack Euston** - Managing Director
+  - ✅ **Email:** jeuston@mbfhp.com (VERIFIED)
+  - LinkedIn: [Profile](https://www.linkedin.com/in/jack-euston)
+  - Background: Promoted to Managing Director in 2020. Joined MBF in 2017 as Director of Business Development
+  - Source: Official MBF LinkedIn announcement, BusinessWire
+
+- **Miguel ("Mike") B. Fernandez** - Founding Partner
+  - Co-founder of MBF, 20+ years with the team
+
+- **Jorge Rico** - Founding Partner
+  - Co-founder of MBF, 20+ years with the team
+
+- **Marcio Cabrera** - Founding Partner
+  - Co-founder of MBF, 20+ years with the team
+
+- **Josh Weber** - Managing Director
+  - Promoted to MD in 2020
+
+### Contact
+- **General:** info@mbfhp.com
 
 ## Investment Criteria
-- **Sectors**: 
-  - Behavioral Health
-  - Post-Acute Services
-  - Animal Health
-  - Managed Care
-  - Primary Care Provider Groups
-  - Benefits Management
-  - Risk-Bearing Models
-  - Adult & Pediatric Therapy
-  - Chronic Disease Management
-  - Payer Services
+- **Deal Type:** Buyouts, recapitalizations, growth equity, earlier-stage investments
+- **Investment Size:** $10-50M per investment
+- **Focus:** Healthcare services ONLY
+- **Experience:** 90+ years of collective healthcare experience across the team
+- **Track Record:** 20+ company investments (includes founder investments prior to MBF LP)
 
-## Notes
-- "Operators who evolved into investors"
-- Founding team together for 20+ years (as of 2023)
-- Focused exclusively on healthcare services since inception
-- Accelerate growth through partnership model
-- Contact verified from LinkedIn and ContactOut
+## Unique Value Proposition
+- **Operator Background:** Team consists of entrepreneurs and operating executives
+- **Healthcare DNA:** 30+ years operating and investing in healthcare
+- **Domain Expertise:** Deep knowledge in managing financial risk and payor/provider partnerships
+- **Value-Based Care:** Unparalleled expertise in value-based care models
 
-## Research Date
-- Enriched: 2026-03-28
-- Source: Official website, LinkedIn, ContactOut
+## Fit for Hello Gumbo
+- ✅ Verified direct email (jeuston@mbfhp.com)
+- ✅ Healthcare-exclusive focus (perfect for Gumbo's healthcare vertical)
+- ✅ Mid-market size and deal range
+- ✅ Operational orientation (seeks partners who can add value)
+- ✅ Managing Director level contact (decision-maker)
+
+## Research Notes
+- **Researched:** 2026-03-28
+- **Source:** Official MBF LinkedIn post, BusinessWire press release, company website
+- **Status:** ✅ Enriched - Verified Contact
+- **Recommendation:** HIGH PRIORITY - Healthcare exclusive, verified MD contact, strong operational fit
+
+## Outreach Strategy
+1. Email Jack Euston highlighting Hello Gumbo's healthcare vertical expertise
+2. Emphasize operational value-add and technology enablement for healthcare services businesses
+3. Reference MBF's operator-to-investor background as alignment point
+4. Propose introduction call to discuss portfolio companies needing operational support
+
+## Portfolio Examples
+- Palm Medical Centers
+- Various healthcare services companies focused on provider and payor integration
+
+## Additional Resources
+- [MBF Website](https://www.mbfhp.com/)
+- [LinkedIn Company Page](https://www.linkedin.com/company/mbf-healthcare-partners)
+- [2020 Promotion Announcement](https://www.businesswire.com/news/home/20201105005989/en/MBF-Healthcare-Partners-Promotes-Josh-Weber-to-Managing-Director)

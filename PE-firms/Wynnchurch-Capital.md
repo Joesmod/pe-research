@@ -1,40 +1,63 @@
 # Wynnchurch Capital
 
 ## Overview
-- **Website**: https://www.wynnchurch.com
-- **AUM**: $9.1B (as of October 31, 2025)
-- **Founded**: 1999
-- **Type**: Middle-market private equity
-- **Geography**: North America
-- **Headquarters**: Lake Forest, Illinois
+- **Website:** https://www.wynnchurch.com/
+- **Founded:** 1999
+- **HQ:** Rosemont, Illinois (Chicago area)
+- **Focus:** Middle-market manufacturing, distribution, and business services
+
+## Investment Strategy
+North American private equity firm specializing in:
+- Carve-outs
+- Under-performing businesses
+- Family businesses in transition
+- Special situations and operational turnarounds
 
 ## Key Contacts
-- **John A. Hatherly** - Managing Partner
-  - Email: jhatherly@wynnchurch.com
-  - Phone: 847.604.6102
-  - LinkedIn: https://www.linkedin.com/in/john-hatherly-4b772112
-  
-- **Greg B. Gleason** - Managing Partner
 
-## Address
-Two Conway Park
-150 Field Drive, Suite 165
-Lake Forest, Illinois 60045
+### Leadership
+- **Brian Riordan** - Managing Director
+  - ✅ **Email:** briordan@wynnchurch.com (VERIFIED)
+  - Phone: 847.604.6135
+  - LinkedIn: [Profile](https://www.linkedin.com/in/brian-riordan-664496a/)
+  - Background: Joined Wynnchurch in 2012. Prior: Investment Banking Analyst at BMO Capital Markets
+  - Focus: Wide range of PE investments with focus on manufacturing-related businesses
+
+- **John A. Hatherly** - Managing Partner
+  - Senior leadership
+
+- **Michael Teplitsky** - Managing Director
+
+- **Frank G. Hayes** - Senior Partner
+
+### Contact
+- **Main Office:** 847.604.6100
+- **Address:** 2 North Riverside Plaza, Suite 2100, Rosemont, IL 60018
 
 ## Investment Criteria
-- **Focus**: Middle-market companies
-- **Deal Types**: 
-  - Carve-outs
-  - Under-performing businesses
-  - Family businesses in transition
-  - Other special situations
+- **Deal Size:** Typically $50M-$500M enterprise value
+- **Industries:** Manufacturing, distribution, business services
+- **Geography:** North America
+- **Structure:** Control investments, carve-outs, recapitalizations
 
-## Notes
-- Founded in 1999 with partner mentality and culture
-- Strong track record of operational improvements
-- Email verified from Wynnchurch press release (Executive Promotions)
-- Team page: https://www.wynnchurch.com/team
+## Fit for Hello Gumbo
+- ✅ Verified direct email (briordan@wynnchurch.com)
+- ✅ Mid-market focus
+- ✅ Operational improvement expertise
+- ✅ Manufacturing & business services (aligned with Gumbo's capabilities)
+- ✅ Chicago-based (proximity to Hello Gumbo's network)
 
-## Research Date
-- Enriched: 2026-03-28
-- Source: Official website, press releases, LinkedIn
+## Research Notes
+- **Researched:** 2026-03-28
+- **Source:** Official wynnchurch.com/team page, LinkedIn
+- **Status:** ✅ Enriched - Verified Contact
+- **Recommendation:** HIGH PRIORITY - Verified email, strong fit, Chicago proximity
+
+## Outreach Strategy
+1. Personalized email to Brian Riordan highlighting Hello Gumbo's manufacturing & business services capabilities
+2. Reference Wynnchurch's operational improvement focus
+3. Mention Chicago connection and local market knowledge
+
+## Additional Resources
+- [Wynnchurch Team Page](https://www.wynnchurch.com/team/riordan-brian)
+- [Portfolio Companies](https://www.wynnchurch.com/portfolio/)
