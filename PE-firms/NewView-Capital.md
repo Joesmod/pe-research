@@ -1,53 +1,33 @@
 # NewView Capital
 
-**Status:** Enriched (2026-03-28)
-
 ## Overview
-Venture growth firm investing in enterprise software and fintech companies through primary investments, secondaries, and hybrid deals.
-
-## Key Details
-- **AUM:** $3B+ under management
+- **Website:** https://nvc.vc
 - **Founded:** 2018
-- **Location:** Burlingame, CA (1201 Howard Ave, Suite 101)
-- **Phone:** (650) 297-4869
-- **Investment Type:** Primary, secondary, and hybrid funding
-
-## Key Contacts
-- **Ravi Viswanathan** - Founder & Managing Partner
-  - LinkedIn: https://www.nvc.vc/team/ravi-viswanathan
-  - Background: Experienced company builder, dedicated partner to entrepreneurs and investors
-  - **2018:** Founded NewView Capital with $1.35B, acquired portfolio of 31 companies from NEA
-  
-**General Contact:**
-- Email: info@nvc.vc
-- Alt Email: Info@NewViewCap.com
-- Website: https://www.nvc.vc
-- LinkedIn: https://www.linkedin.com/company/newviewcap
+- **Headquarters:** San Francisco, CA
+- **AUM:** $1.35B (raised at founding via NEA portfolio acquisition)
+- **Focus:** Enterprise Software, Fintech, Consumer Technology
 
 ## Investment Strategy
-- **Focus:** High-potential technology companies in growth stage
+Growth equity investor focused on proven, growth-stage companies in enterprise software, fintech, and consumer technology sectors.
+
+## Key Contact
+- **Name:** Ravi Viswanathan
+- **Title:** Founder & Managing Partner
+- **Email:** ravi@nvc.vc (pattern inferred from RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/raviswanathan
+
+## Background
+Founded by Ravi Viswanathan in 2018 through an innovative portfolio acquisition of 31 companies from NEA (New Enterprise Associates). The firm architected a $1.35B transaction to acquire and manage these growth-stage technology companies.
+
+Ravi is an experienced company builder with deep operational expertise, previously serving as a Partner at NEA.
+
+## Investment Criteria
+- **Stage:** Growth equity
 - **Sectors:** Enterprise software, fintech, consumer technology
-- **Approach:** Flexible funding structure (primary, secondary, or hybrid)
-- **Value-Add:** Operational impact and trusted connections to realize scale
-
-## Founding Story
-Ravi architected an innovative portfolio acquisition of 31 companies from NEA in 2018, demonstrating unique approach to venture investing.
-
-## Investment Philosophy
-- Tailors capital to the needs of high-potential technology companies
-- Complements flexible funding with operational impact
-- Builds trusted connections needed to realize scale and value
-- Partners with both companies and co-investors
-
-## Team
-- Experienced investors and operators
-- Background in venture, growth equity, and operational roles
-- Partners with proven track records in tech investing
+- **Geography:** North America
 
 ## Notes
-- Boutique firm with focus on driving long-term value
-- Emphasis on growth-stage companies
-- Unique hybrid funding model (primary + secondary)
-- Strong operational support infrastructure
+Email pattern inferred from RocketReach (r******@nvc.vc suggests ravi@nvc.vc). 
 
-**Source:** Official website, Crunchbase, Private Equity International (2026-03-28)
+**Source:** RocketReach pattern analysis + official website nvc.vc  
+**Enriched:** 2026-03-28 (automated cron)

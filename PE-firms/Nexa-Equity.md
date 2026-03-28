@@ -1,47 +1,52 @@
 # Nexa Equity
 
-**Website**: https://nexaequity.com  
-**LinkedIn**: https://www.linkedin.com/company/nexa-equity  
-**Location**: San Francisco Bay Area  
-**Type**: Growth-oriented private equity  
-**Founded**: 2021
-
 ## Overview
-Nexa Equity is a growth-oriented private equity firm focused on partnering with founders of software and fintech companies. Founded by former Insight Partners investors.
+- **Website:** https://nexaequity.com
+- **Founded:** 2021
+- **Headquarters:** San Francisco, CA
+- **Focus:** Vertical SaaS, Mission-Critical Software
 
-## Team
-- **Vlad Besprozvany**: Founder and Managing Partner
-  - Background: Former investor at Insight Partners, Managing Director at Greater Sum Ventures
-  - Education: Imperial College Business School
-  - LinkedIn: https://www.linkedin.com/in/vlad-besprozvany/
-  - Bio: https://nexaequity.com/our-team/vlad-besprozvany/
-  
-- **Todd Cramer**: Partner (promoted 2024+)
-- **Joey Maloney**: Partner (promoted 2024+)
-- **Doug Popper**: Senior Associate (elevated 2024+)
+## Investment Strategy
+Specialized partner providing both capital and hands-on operational expertise to founder-led software businesses at pivotal growth stages. Focus on helping mission-critical vertical SaaS companies transform into category leaders while preserving founder legacies.
 
-## Investment Focus
-- **Sectors**: Software, fintech
-- **Stage**: Growth equity, rapidly scaling lower middle market
-- **Strategy**: Founder partnerships, operational support
-- **Portfolio**: Multiple software and fintech companies
+## Key Contact
+- **Name:** Vlad Besprozvany
+- **Title:** Founder & Managing Partner
+- **Email:** vlad@nexaequity.com ✅ VERIFIED (ContactOut, July 2022)
+- **LinkedIn:** https://www.linkedin.com/in/vladbesprozvany
+- **Phone:** 415-535-****
 
-## Launch Announcement
-- **Press Release**: BusinessWire, June 29, 2021
-- **Title**: "Team of Former Insight Partners Investors Launch Nexa Equity"
-- **Quote**: Founded by Managing Partner Vlad Besprozvany, former investor at Insight Partners and Managing Director at Greater Sum Ventures
+## Background
+Founded in 2021 by Vlad Besprozvany after identifying a critical market gap: the need for a specialized partner who could provide both capital and hands-on operational expertise to founder-led software businesses.
 
-## Intelligence
-- **Pedigree**: Insight Partners alumni (top-tier software PE)
-- **Focus**: Founder-friendly, operational augmentation
-- **Culture**: Emphasizes team augmentation and internal capability building
-- **Email Pattern**: Likely firstname@nexaequity.com or firstinitiallastname@nexaequity.com (NOT verified)
+### Previous Experience
+- **Greater Sum Ventures** - Managing Director
+- **Insight Partners** - Vice President
+- **Thoma Bravo** - Investor
+- **JP Morgan and Citigroup** - Investment Banker
 
-## Outreach Notes
-- **Ideal Fit**: Strong software/fintech focus aligns with AI/automation value prop
-- **Angle**: Portfolio operations automation, founder support tools, data infrastructure
-- **Value Prop**: Scale operational efficiency without hiring overhead
-- **Best Contact**: Vlad Besprozvany (Founder) or newly promoted Partners (more accessible)
+### Education
+- **Imperial College Business School** - MSc. in Finance
+- **University of California, Santa Barbara** - Bachelor's degree in Economics
 
-## Research Date
-March 3, 2026
+## Current Portfolio (Board Seats)
+- Autura
+- Cedar AI
+- Easy Metrics
+- Facility Grid
+- Hometown
+- Ladle
+- Leap
+
+## Investment Criteria
+- **Stage:** Growth equity
+- **Sectors:** Vertical SaaS, mission-critical software
+- **Focus:** Founder-led businesses
+
+## Notes
+Email VERIFIED from ContactOut (published July 2022). Strong operational background across premier investment platforms (Insight Partners, Thoma Bravo, Greater Sum Ventures).
+
+Personal interests: Car enthusiast (1980s-2000s vintage cars), family-focused (wife, two children, two dogs), enjoys cooking.
+
+**Source:** ContactOut (verified) + official website nexaequity.com  
+**Enriched:** 2026-03-28 (automated cron)

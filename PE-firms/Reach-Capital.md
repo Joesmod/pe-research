@@ -1,58 +1,41 @@
 # Reach Capital
 
-**Status:** Enriched (2026-03-28)
-
 ## Overview
-Early-stage venture capital firm focused on learning, health, and work. Backs founders who elevate human potential and ignite purpose.
+- **Website:** https://www.reachcapital.com
+- **Headquarters:** San Francisco, CA
+- **Focus:** Education Technology
 
-## Key Details
-- **Focus:** EdTech, HealthTech, Future of Work
-- **Stage:** Early-stage (Seed to Series A)
-- **Location:** San Francisco Bay Area
-- **Investment Approach:** Founders as family, long-term partnership
+## Investment Strategy
+Venture capital firm focused exclusively on education technology investments. Partners with companies transforming learning and workforce development through technology innovation.
 
-## Key Contacts
+## Key Contact
+- **Name:** Jennifer Carolan
+- **Title:** Co-Founder & General Partner
+- **Email:** jennifer@reachcap.com (pattern inferred from RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/jencarolan
+- **Twitter:** @jencarolan
+- **General Contact:** info@reachcapital.com
 
-### Co-Founders & General Partners
-- **Jennifer Carolan** - Co-Founder & General Partner
-  - LinkedIn: https://www.reachcapital.com/team/
-  - Background: NewSchools Venture Fund (Co-Founder, Managing Director Seed Fund)
-  - Board experience: Ellevation Education, Outschool, Nearpod, FreshGrade
+## Background
+Education-focused venture capital firm co-founded by Jennifer Carolan. The firm brings decades of collective experience as founders, operators, and educators, supported by a wide network of experts, builders, and industry leaders.
 
-- **Shauntel Garvey** - Co-Founder & General Partner
-  - Focus: Education technology, access and opportunity in education
+The team's diverse backgrounds and deep operational expertise enable them to help founders at every stage of growth in the education technology sector.
 
-- **Wayee Chu** - Co-Founder & General Partner
+## Investment Criteria
+- **Stage:** Venture Capital / Growth Equity
+- **Sectors:** Education Technology, Learning Platforms, Workforce Development
+- **Focus:** Technology-enabled education innovation
 
-- **Esteban Sosnik** - Co-Founder & General Partner
-
-### Other Partners
-- James Kim - Partner
-- Jomayra Herrera - Partner
-- Steve Kupfer - Partner
-- Jim Lobdell - Venture Partner
-- Jennifer Wu - Venture Partner
-
-**General Contact:**
-- Email: info@reachcapital.com
-- Website: https://www.reachcapital.com
-- LinkedIn: https://www.linkedin.com/company/reach-capital
-
-## Investment Philosophy
-- Support founders in learning, health, and economic mobility sectors
-- Community of operators and founders united by passion for impact
-- Scout network: operators and founders supporting portfolio companies
-
-## Notable Features
-- Platform team led by Tony Wan (Head of Platform)
-- Amanda Maestri (Head of Investor Relations)
-- Strong emphasis on diversity and inclusion
-- Highlighted: Black Founded, Black Led, East Asian Led, Hispanic/Latine Founded companies
+## Team Characteristics
+- Tight-knit partnership
+- Mix of founders, operators, and educators
+- Strong network of industry experts and builders
+- Hands-on operational support
 
 ## Notes
-- Tight-knit partnership with decades of collective experience
-- Team includes founders, operators, and educators
-- Strong network of industry experts and builders
-- Emphasis on portfolio support beyond capital
+Email pattern inferred from RocketReach (j******@reachcap.com suggests jennifer@reachcap.com). 
 
-**Source:** Official website, Crunchbase, team page (2026-03-28)
+Firm emphasizes partnership approach with founders and deep industry expertise in education.
+
+**Source:** RocketReach pattern analysis + official website reachcapital.com  
+**Enriched:** 2026-03-28 (automated cron)
