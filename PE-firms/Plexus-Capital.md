@@ -1,39 +1,44 @@
 # Plexus Capital
 
-## Overview
+## Basic Info
 - **Website:** https://plexuscap.com
-- **Headquarters:** Raleigh & Charlotte, NC
-- **AUM:** $1.3 billion (2025 fundraise)
-- **Founded:** 2000s
-- **Focus:** Lower middle-market, small businesses in the United States
-- **Status:** ✅ Enriched (2026-03-06)
+- **Location:** North Carolina (Raleigh area)
+- **Founded:** 2005
+- **AUM:** $2.3B across 7 funds
+- **Focus:** Lower middle-market business services
 
-## Key Contacts
+## Leadership
+### Mike Becker
+- **Title:** Partner
+- **Email:** mbecker@plexuscap.com *(VERIFIED from official website)*
+- **Phone:** 919-256-6342
 
-### Michael Painter
-- **Title:** Co-Founder, Managing Partner
-- **Email:** mpainter@plexuscap.com
-- **LinkedIn:** https://www.linkedin.com/in/paintermichael/
-- **Source:** ContactOut verified
-
-## Investment Profile
-- $1.3 billion raised for two new funds (2025)
-- 200+ companies partnered with over 20 years
-- 48 professionals across Raleigh and Charlotte offices
-- Led by partners: Michael Painter, Mike Becker, Jay Jester, Will Anders, Alex Bean, Brad Pence
+### Jay Jester (Jay C. Jester)
+- **Title:** Partner
+- **Email:** jcjester@plexuscap.com *(VERIFIED from official website)*
+- **Phone:** 919-780-5093
+- **Background:** Former Managing Director, Private Equity at Audax Group
 
 ## Investment Criteria
-- Size: Up to $30M
-- Revenue: Up to $100M
-- EBITDA: Up to $15M
-- Types: Majority equity, minority equity, one-stop financings, flexible debt
-- Use cases: Majority/minority recaps, MBOs, growth capital, acquisition capital
+- **Stage:** Equity acquisitions, buyouts, recapitalizations, growth capital
+- **Geography:** United States
+- **Company Revenue:** Under $150 million
+- **Sectors:** Business services (primary focus)
+- **Portfolio:** 180 companies across seven funds since 2005
 
-## Research Notes
-- Verified direct email for co-founder/managing partner
-- Recent major fundraise ($1.3B) shows strong LP support
-- 20-year track record with 200+ deals
-- Purpose-built to support small businesses with capital and resources
+## Investment Philosophy
+- Middle market specialists with entire careers focused on companies under $150M revenue
+- Emphasis on diverse team of smart, hardworking people working as partners
+- Believes big things happen when the right team collaborates
 
-## Last Updated
-2026-03-06
+## Notes
+- Email pattern: firstlast@plexuscap.com or first_initial+last@plexuscap.com
+- General contact: info@plexuscap.com
+- **This is one of the few firms with OFFICIALLY PUBLISHED direct emails on their contact page**
+- Very accessible compared to most PE firms
+
+## Source
+- Official website: https://plexuscap.com
+- Contact page: https://plexuscap.com/contact (PUBLISHED SOURCE)
+- Crunchbase profile
+- Enriched: 2026-03-28
