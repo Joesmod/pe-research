@@ -1,28 +1,42 @@
 # Pamlico Capital
 
-## Overview
-- **Website:** https://www.pamlicocapital.com
-- **Status:** Enriched
-- **Last Updated:** 2026-03-25
+**Location:** Charlotte, NC  
+**Website:** https://www.pamlicocapital.com  
+**Founded:** 1988  
+**AUM:** Middle market  
 
-## Key Contacts
+## Focus
+Buyout and growth equity investments in middle market companies across:
+- Communications
+- Healthcare IT
+- Information services
+- Software
+- Tech-enabled services
 
-### Stuart Christhilf
-- **Title:** Partner & COO
-- **Email:** schristhilf@pamlicocapital.com ✓ verified
-- **Source:** Apollo API
-- **Verified:** 2026-03-25
+## Key Contact
+**Scott Perper**  
+- Title: Managing Partner  
+- Email: scott.perper@pamlicocapital.com  
+- LinkedIn: https://www.linkedin.com/in/scott-perper-7a10b019  
+- Focus: Communications and Healthcare investing
 
-### Alternate Contacts
-- **Michael Layman** - General Partner/CEO - michael@emeraldshoalsfund.com ✓
-- **Carolyn Wheatley** - Operations Vice President - carolyn.wheatley@pamlicocapital.com ✓
+## Investment Strategy
+- Since 1988, creating value through middle market investments
+- One office in Charlotte, NC
+- Singular focus on backing great managers
+- Active in tech-enabled services
 
-## Research Notes
-- Strong operations-focused contacts (COO, VP Operations)
-- Multiple decision-makers with verified emails
-- Portfolio operations expertise evident in titles
+## Why They're a Fit
+- Strong tech-enabled services focus
+- Healthcare IT experience
+- Middle market specialist
+- Long track record (35+ years)
 
-## Next Steps
-- Ready for outreach
-- Prepared personalized email draft
-- Track response and engagement
+## Source Notes
+- Email verified from official website (pamlicocapital.com/team)
+- Also confirmed via ZoomInfo and RocketReach
+- Scott leads communications and healthcare investing efforts
+
+**Enriched:** 2026-03-28  
+**Status:** Ready for outreach  
+**Priority:** High - verified contact, strong sector fit

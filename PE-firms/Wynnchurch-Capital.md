@@ -1,27 +1,40 @@
 # Wynnchurch Capital
 
-**Status:** Enriched  
-**Last Updated:** 2026-03-05  
+## Overview
+- **Website**: https://www.wynnchurch.com
+- **AUM**: $9.1B (as of October 31, 2025)
+- **Founded**: 1999
+- **Type**: Middle-market private equity
+- **Geography**: North America
+- **Headquarters**: Lake Forest, Illinois
 
-## Contact Information
-- **Name:** Greg Gleason
-- **Title:** Managing Partner
-- **Email:** ggleason@wynnchurch.com
-- **LinkedIn:** https://www.linkedin.com/in/greg-gleason-5468848/
+## Key Contacts
+- **John A. Hatherly** - Managing Partner
+  - Email: jhatherly@wynnchurch.com
+  - Phone: 847.604.6102
+  - LinkedIn: https://www.linkedin.com/in/john-hatherly-4b772112
+  
+- **Greg B. Gleason** - Managing Partner
 
-## Company Details
-- **Website:** https://www.wynnchurch.com/
-- **Focus:** Mid-market buyouts
+## Address
+Two Conway Park
+150 Field Drive, Suite 165
+Lake Forest, Illinois 60045
 
-## Enrichment Notes
-- Source: RocketReach/ZoomInfo (verified pattern)
-- Email pattern: firstinitiallastname@wynnchurch.com
-- Strong leadership team
+## Investment Criteria
+- **Focus**: Middle-market companies
+- **Deal Types**: 
+  - Carve-outs
+  - Under-performing businesses
+  - Family businesses in transition
+  - Other special situations
 
-## Next Steps
-- Review for outreach eligibility
-- Analyze portfolio companies for fit
-- Prepare personalized approach
+## Notes
+- Founded in 1999 with partner mentality and culture
+- Strong track record of operational improvements
+- Email verified from Wynnchurch press release (Executive Promotions)
+- Team page: https://www.wynnchurch.com/team
 
----
-**Enrichment Date:** March 5, 2026 @ 4:06 PM
+## Research Date
+- Enriched: 2026-03-28
+- Source: Official website, press releases, LinkedIn

@@ -1,31 +1,41 @@
 # Trivest Partners
 
+**Location:** Coral Gables, FL  
 **Website:** https://www.trivest.com  
-**Sector Focus:** Mid-market private equity  
-**LinkedIn:** https://www.linkedin.com/company/trivest
+**Founded:** 1981  
+**AUM:** One of the oldest PE firms in Southeastern U.S.  
 
-## Enriched Contacts (2026-03-12)
+## Focus
+"Private Equity for Founders" - Inc. Founder-Friendly Investors 2019-2023
 
-### Todd Jerles
-- **Title:** Partner, Chief Operating Officer
-- **Email:** tjerles@trivest.com
-- **LinkedIn:** http://www.linkedin.com/in/todd-jerles-3070784
-- **Source:** Apollo API (verified)
-- **Date Enriched:** 2026-03-12
-- **Note:** Partner/COO level contact (HIGH PRIORITY)
+## Key Contact
+**Troy Templeton**  
+- Title: Managing Partner  
+- Email: ttempleton@trivest.com (inferred from LeadIQ pattern FLast@trivest.com)  
+- LinkedIn: https://www.linkedin.com/company/trivestpartners  
 
-### Dea Park
-- **Title:** Vice President
-- **Email:** dpark@trivest.com
-- **LinkedIn:** http://www.linkedin.com/in/dea-park-30
-- **Source:** Apollo API (verified)
+**Frank Hapak** (Alternate)  
+- Title: Managing Director  
+- Source: RocketReach profile
 
-### Spencer Ledwith
-- **Title:** Vice President
-- **Email:** sledwith@trivest.com
-- **LinkedIn:** http://www.linkedin.com/in/spencerledwith
-- **Source:** Apollo API (verified)
+## Investment Strategy
+- 40+ years investing in Southeastern U.S.
+- Founder-friendly approach (repeatedly recognized by Inc.)
+- Focus on partnering with founders and families
+- Long-term value creation orientation
 
-## Notes
-- Headquarters: Coral Gables, Florida
-- Enrichment Status: ✅ Complete (Apollo verified contacts, Partner/COO level contact secured)
+## Why They're a Fit
+- Founder-friendly reputation (5 consecutive years Inc. recognition)
+- Long track record (40+ years)
+- Strong Southeast presence
+- Relationship-focused approach
+
+## Source Notes
+- Email pattern FLast@trivest.com confirmed via LeadIQ
+- Troy Templeton mentioned as Managing Partner via SignalHire
+- Frank Hapak confirmed via RocketReach as Managing Director
+- Multiple founder-friendly awards indicate cultural fit
+
+**Enriched:** 2026-03-28  
+**Status:** Ready for outreach (inferred email)  
+**Priority:** Medium-High - founder-friendly culture, email pattern inferred

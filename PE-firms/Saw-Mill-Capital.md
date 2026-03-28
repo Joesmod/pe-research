@@ -1,51 +1,42 @@
 # Saw Mill Capital
 
-## Firm Overview
-- **Website**: https://www.sawmillcapital.com
-- **Headquarters**: [Location TBD]
-- **Founded**: 2006
-- **AUM**: ~$2 billion
-- **Focus**: Middle-market private equity
-- **Sectors**: Business services, healthcare services, consumer
+**Location:** Briarcliff Manor, NY  
+**Website:** https://www.sawmillcapital.com  
+**AUM:** Lower middle market (LMM)  
+**Founded:** ~1990s  
 
-## Key Contact - TO BE RESEARCHED
+## Focus
+Lower middle market private equity investing. Partner with ambitious and experienced management teams to build leading enterprises.
 
-**Jeff Kaplan**
-- **Title**: Partner
-- **Email**: [Needs verification]
-- **LinkedIn**: [Needs research]
-- **Status**: Initial contact identified, needs enrichment
+## Key Contact
+**Howard Unger**  
+- Title: Managing Partner  
+- Email: hunger@sawmillcapital.com (inferred from ZoomInfo pattern h***@)  
+- LinkedIn: https://www.linkedin.com/in/howard-unger-1028643  
+- Background: Founding partner of Chase Capital prior to forming Saw Mill
 
-## Investment Focus
+## Team Structure
+Partners: Tim Nelson, Scott Rivard, Scott VandeKerkhoff, Travis Foltz  
+Principals: Dan Gregg  
+VPs: Kacy Yuhas, Ryan Bradley
 
-Saw Mill Capital is a middle-market private equity firm focused on:
-- Business services
-- Healthcare services
-- Consumer products and services
+## Investment Strategy
+- Lower middle market focus
+- Build leading enterprises with experienced management
+- Active operational approach
+- Long-term value creation
 
-Target investment size: Middle-market companies
+## Why They're a Fit
+- LMM specialist
+- Experienced team with Chase Capital pedigree
+- Strong operational focus
+- Northeast location with national reach
 
-## Firm Background
+## Source Notes
+- Howard Unger info from sawmillcapital.com/team
+- Email inferred from ZoomInfo pattern (h***@sawmillcapital.com)
+- Chase Capital background adds credibility
 
-- Founded in 2006
-- Approximately $2 billion in assets under management
-- Focus on growth-oriented service businesses
-
-## LinkedIn
-- Company page: https://www.linkedin.com/company/saw-mill-capital
-
-## Enrichment Status
-- **Added to CRM**: 2026-03-28 (Hourly cron)
-- **Status**: Needs Research
-- **Next Steps**: 
-  - Verify Jeff Kaplan contact details
-  - Search for additional decision-makers
-  - Find direct email from official sources
-
-## Research Priority
-Medium - established firm with good fit for services-heavy portfolio focus
-
-## Sources
-- Company website
-- LinkedIn company profile
-- Industry databases
+**Enriched:** 2026-03-28  
+**Status:** Ready for outreach (inferred email)  
+**Priority:** Medium-High - strong fit, email pattern inferred
