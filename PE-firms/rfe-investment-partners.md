@@ -11,7 +11,16 @@
 Invests in proven businesses across a range of industries.
 
 ## Key Contacts
-**Paul Schilpp**  
+**Peter Reiter** (PRIMARY)  
+- Title: Partner, Business Development  
+- Email: preiter@rfeip.com (VERIFIED)  
+- Phone: 203-966-2800 x6507  
+- LinkedIn: https://www.linkedin.com/in/peter-reiter  
+- Joined RFE in 1996 as an Analyst  
+- Currently Director of Global IFS  
+- Source: Official website rfeip.com/team_member/peter-reiter/
+
+**Paul Schilpp** (Alternate)  
 - Title: Managing Director  
 - Email: pschilpp@rfeip.com (inferred from rfeip.com domain)  
 - Quote: "Brian and the SEG team have built an exceptional business with a unique value proposition in the industry. We are excited to partner with them during their next phase of growth."  
@@ -50,6 +59,6 @@ Invests in proven businesses across a range of industries.
 - Jim Parsons verified on team page (rfeip.com/peoples/)
 - Main: (203) 966-2800
 
-**Enriched:** 2026-03-28  
-**Status:** Ready for outreach (inferred email)  
-**Priority:** Medium - business services fit, email inferred
+**Enriched:** 2026-03-28 12:05 PM CST  
+**Status:** Ready for outreach - VERIFIED EMAIL  
+**Priority:** HIGH - verified contact (Peter Reiter), business services fit, $800M+ AUM

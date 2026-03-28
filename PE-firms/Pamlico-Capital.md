@@ -13,8 +13,16 @@ Buyout and growth equity investments in middle market companies across:
 - Software
 - Tech-enabled services
 
-## Key Contact
-**Scott Perper**  
+## Key Contacts
+**Watts Hamrick** (PRIMARY)  
+- Title: Managing Partner  
+- Email: watts.hamrick@pamlicocapital.com (VERIFIED)  
+- LinkedIn: https://www.linkedin.com/in/watts-hamrick-98912069  
+- Joined Pamlico in 1988  
+- Focus: Services and Digital Infrastructure industries  
+- Source: Official website pamlicocapital.com/team/l-watts-hamrick-iii
+
+**Scott Perper** (Alternate)  
 - Title: Managing Partner  
 - Email: scott.perper@pamlicocapital.com  
 - LinkedIn: https://www.linkedin.com/in/scott-perper-7a10b019  
