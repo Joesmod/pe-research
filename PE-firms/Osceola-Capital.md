@@ -1,40 +1,81 @@
 # Osceola Capital Management
 
-**Website**: https://osceola.com  
-**LinkedIn**: https://www.linkedin.com/company/osceola-capital-management  
-**Location**: Tampa, FL  
-**Type**: Lower middle-market private equity
-
 ## Overview
-Osceola Capital Management invests in lower middle-market companies across business services, healthcare services, and consumer services sectors. The firm takes a relationship-driven approach and values people over ideas and markets.
+- **Website:** https://osceola.com
+- **Headquarters:** Tampa, Florida
+- **AUM:** $1 billion+ in capital deployed
+- **Focus:** Buy-and-Build Investments in Service Businesses
 
-## Investment Focus
-- **Sectors**: Business services, healthcare services, consumer services
-- **Deal Size**: Lower middle-market
-- **Strategy**: Build-up, operational improvement, M&A roll-ups
-- **Portfolio**: Forward Solutions, Revelation Pharma, Valor Exterior Partners, Sightline Services, Flotilla Partners, Fortify Restoration
+## Investment Strategy
+Private equity firm focused on buy-and-build investments in service businesses. Supports management teams in executing add-on acquisitions and optimizing overall company performance using the firm's unique blend of operations and private equity experience.
 
-## Team
-- **Ben Moe**: Partner (mentioned in LinkedIn posts)
-- **Patrick Watkins**: Investment team
-- **Jake Ryan**: Investment team
-- **Kurt Schwab**: Vice President (board member for Flotilla Partners, Valor Exterior Partners, Fortify Restoration)
-  - Email: kschwab@osceola.com ✅
-  - Phone: 813-492-5635
-  - Background: Former Senior Associate at Cold Bore Capital, Associate at BMO Capital Markets, 6 years US Navy Supply Corps Officer
-  - Education: MBA from Columbia Business School, BS Finance from Penn State
+## Key Contacts
 
-## Intelligence
-- **Partners**: 5 total
-- **Team Size**: 12 total (as of Sept 2024 per Tracxn)
-- **Experience**: 125+ M&A transactions completed (Ben's track record)
-- **Culture**: Veterans-friendly, thorough recruiting process, long-term team relationships (MD+ level worked together 10+ years)
-- **Email Pattern**: firstinitiallastname@osceola.com
+### Michael Babb
+- **Title:** Founder & Managing Partner (Chairman)
+- **Email:** mbabb@osceola.com (pattern inferred from RocketReach)
+- **Phone:** 813-786-****
+- **LinkedIn:** https://www.linkedin.com/in/michael-babb-7a89939a
+- **Background:** 
+  - Founded Osceola Capital Management
+  - Former healthcare industry executive and consultant to niche financial service sectors
+  - University of Richmond - Robins School of Business
+  - Board Member at CMS Industrial Technologies
+  - Lives in Tampa
 
-## Outreach Notes
-- **Best Contact**: Kurt Schwab (Vice President) - published email available
-- **Approach**: Healthcare services, business services with operational improvement opportunity
-- **Value Prop**: AI-driven portfolio operations, digital transformation for service businesses
+### Ben Moe
+- **Title:** Managing Partner
+- **Email:** bmoe@osceola.com (pattern inferred from RocketReach)
+- **Phone:** 813-352-****
+- **Background:** 
+  - Member of Investment Committee
+  - Serves on boards of multiple Osceola portfolio companies: Forward Solutions, Revelation Pharma, Valor Exterior Partners, Sightline Services
+  - Former CEO of Avesta Asset Management (multifamily real estate PE)
+  - Completed over 125 M&A transactions to date
+  - Lives in Tampa with wife and two sons
+  - Enjoys fishing and snowboarding
 
-## Research Date
-March 3, 2026
+### Kurt Schwab
+- **Title:** Vice President
+- **Email:** kschwab@osceola.com ✅ VERIFIED (published on website)
+- **Phone:** 813-492-5635
+- **Background:**
+  - Former Senior Associate at Cold Bore Capital (Chicago-based lower-middle market PE)
+  - Former Associate at BMO Capital Markets Investment Banking Group (healthcare sector)
+  - Previously at J.P. Morgan and Cambridge Associates
+  - U.S. Navy veteran (6 years, Supply Corps Officer, deployment to Afghanistan)
+  - MBA from Columbia Business School
+  - BS in Finance from Penn State University
+  - Board seats: Flotilla Partners, Valor Exterior Partners, Fortify Restoration
+  - Lives in Tampa with wife, two children, and Alaskan Klee Kai
+  - Interests: football, traveling, reading, cigar tasting, veteran support
+
+## Firm Background
+Principals of Osceola have led over 100 corporate finance transactions representing over $1 billion in capital and have served as CEO, CFO, or president of over 15 successful organizations across multiple business segments.
+
+The firm's driving purpose is building value for business partners and investors while adhering unswervingly to their values, philosophy, and process.
+
+## Current Portfolio (Partial)
+- Flotilla Partners
+- Forward Solutions
+- Revelation Pharma
+- Valor Exterior Partners
+- Sightline Services
+- Fortify Restoration
+
+## Investment Criteria
+- **Stage:** Buyout / Growth Equity
+- **Sectors:** Service businesses (B2B services, healthcare services, consumer services)
+- **Strategy:** Buy-and-build platform investments
+- **Geography:** North America
+- **Deal Size:** Lower-middle to middle market
+
+## Email Pattern
+**Verified pattern:** [first initial][last name]@osceola.com  
+Example: Kurt Schwab = kschwab@osceola.com (confirmed on website)
+
+## Notes
+Strong operational focus with team members who have served as operating executives. Emphasis on add-on acquisition strategy for portfolio companies.
+
+**Source:** RocketReach + official website osceola.com + PitchBook  
+**Enriched:** 2026-03-28 (automated cron)
