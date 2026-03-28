@@ -1,38 +1,25 @@
-# Vesey Street Capital Partners (VSCP)
+# Vesey Street Capital Partners
 
-## Overview
-- **Website**: https://www.vscpllc.com
-- **Focus**: Middle-market healthcare services
-- **Experience**: 30+ years exclusively in healthcare services
-- **Type**: Healthcare-dedicated private equity
-- **Geography**: New York, NY
+**Location:** New York, NY  
+**Address:** 412 W 15th Street - 2nd Floor, New York, NY 10011  
+**Website:** vscpllc.com  
+**Focus:** Lower middle-market healthcare services businesses
 
-## Key Contacts
-- **General Contact**: info@vscpllc.com
-- **Tiffany Visconti** - Investor Relations
-  - Phone: (646) 847-2474
-  
-- **Adam Feinstein** - Founder & Managing Partner
-  - 30 years of investment experience exclusively in healthcare services
-  
-- **Chris Hasslinger** - Partner (joined November 2023)
+## Key Contact
+**Name:** Tiffany Visconti  
+**Title:** Investor Relations  
+**Email:** info@vscpllc.com  
+**Phone:** (646) 847-2474  
+**Source:** Press Release (PR Newswire, January 13, 2025)
 
-## Address
-The Pearline House
-428 Greenwich Street
-New York, NY 10013
+## Firm Overview
+VSCP is a private equity firm with substantial and differentiated expertise, specializing in buyouts of lower middle-market healthcare services businesses. VSCP invests on behalf of a wide array of Limited Partners, including asset management firms, family offices, pension funds, and other institutional investors.
 
-## Investment Criteria
-- **Focus**: Lower to middle-market healthcare services
-- **Approach**: Hands-on with management teams
-- **Goal**: Value creation for all stakeholders
+## Recent Activity
+- January 2025: Completed corporate carveout of ComplexCare Solutions
+- Successfully completed full exit of portfolio company (referenced in press materials)
 
-## Notes
-- Dedicated focus on healthcare services only
-- Recent team expansion (Chris Hasslinger joined as Partner in Nov 2023)
-- Contact info verified from PR Newswire press release
-- Hands-on investment approach
-
-## Research Date
-- Enriched: 2026-03-28
-- Source: Official website, PR Newswire, GrowthCap
+## Status
+**Enrichment Status:** Enriched  
+**Last Updated:** 2026-03-28  
+**Verified:** ✅ Email from official press release

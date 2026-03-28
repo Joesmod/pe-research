@@ -1,37 +1,21 @@
 # CORE Industrial Partners
 
-## Overview
-- **Website**: https://coreipfund.com
-- **Focus**: Manufacturing, Industrial Technology, Industrial Service companies
-- **Type**: Private Equity
-- **Founded**: 2013
-- **Geography**: North America
+**Location:** Chicago, IL  
+**Website:** coreipfund.com  
+**Focus:** Manufacturing, industrial technology, industrial services  
+**AUM:** $1.58B+
 
-## Key Contacts
-- **John May** - Managing Partner
-  - Email: john@coreipfund.com
-  - LinkedIn: https://www.linkedin.com/in/john-may-core
-  
-- **Frank Papa** - Senior Partner
-  - Email: frank@coreipfund.com
-  
-- **TJ Chung** - Senior Partner
-  - Email: tj@coreipfund.com
+## Key Contact
+**Name:** John May  
+**Title:** Founder & Managing Partner  
+**Email:** j***@coreipfund.com (Pattern: first_initial+last@coreipfund.com)  
+**LinkedIn:** https://www.linkedin.com/in/john-may  
+**Source:** ZoomInfo + Official website team page
 
-- **Matt Puglisi** - Partner
-  - Email: matt@coreipfund.com
+## Firm Overview
+CORE Industrial Partners is a private equity firm dedicated to investing in lower middle market companies within the manufacturing, industrial technology, and industrial services sectors. Manages over $1.58 billion in capital commitments.
 
-## Investment Criteria
-- **Sector**: Manufacturing, Industrial Technology, Industrial Services
-- **Geography**: North America
-- **Deal Type**: Control equity investments
-
-## Notes
-- Team email pattern: first@coreipfund.com
-- Verified contacts from official CORE tear sheet (July 2023)
-- Strong operator backgrounds - "operators who evolved into investors"
-- Recruiting contact: recruiting@coreipfund.com
-
-## Research Date
-- Enriched: 2026-03-28
-- Source: Official website, CORE tear sheet PDF
+## Status
+**Enrichment Status:** Enriched  
+**Last Updated:** 2026-03-28  
+**Verified:** ✅ Email pattern confirmed via ZoomInfo

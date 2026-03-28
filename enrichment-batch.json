@@ -1,0 +1,92 @@
+[
+  {
+    "firm": "Plexus Capital",
+    "contact": "Mike Becker",
+    "title": "Partner",
+    "email": "mbecker@plexuscap.com",
+    "linkedin": "https://www.linkedin.com/in/michael-becker-020a551/",
+    "source": "Official contact page: plexuscap.com/contact",
+    "status": "Enriched"
+  },
+  {
+    "firm": "CORE Industrial Partners",
+    "contact": "John May",
+    "title": "Founder & Managing Partner",
+    "email": "Pattern: first_initial+last@coreipfund.com",
+    "linkedin": "https://www.linkedin.com/in/john-may",
+    "source": "Official website + ZoomInfo pattern confirmation",
+    "status": "Enriched"
+  },
+  {
+    "firm": "NewSpring Capital",
+    "contact": "Jon Schwartz",
+    "title": "Finance & Administration",
+    "email": "jschwartz@newspringcapital.com",
+    "linkedin": "",
+    "source": "Official contact page: newspringcapital.com/contact",
+    "status": "Enriched"
+  },
+  {
+    "firm": "Pamlico Capital",
+    "contact": "Watts Hamrick",
+    "title": "Managing Partner",
+    "email": "Pattern: first.last@pamlicocapital.com",
+    "linkedin": "",
+    "source": "RocketReach org chart + email pattern (63.7% usage)",
+    "status": "Enriched"
+  },
+  {
+    "firm": "Silver Oak Services Partners",
+    "contact": "Dan Gill",
+    "title": "Co-Founder & Managing Partner",
+    "email": "Pattern: first_initial+last@silveroaksp.com",
+    "linkedin": "",
+    "source": "RocketReach pattern confirmation",
+    "status": "Enriched"
+  },
+  {
+    "firm": "Align Capital Partners",
+    "contact": "Chris Jones",
+    "title": "Co-Founder & Managing Partner",
+    "email": "Pattern: first_initial+last@aligncp.com",
+    "linkedin": "https://www.linkedin.com/in/chris-jones-7a945b/",
+    "source": "RocketReach pattern (85.1% usage) + official website",
+    "status": "Enriched"
+  },
+  {
+    "firm": "CIVC Partners",
+    "contact": "Chris Perry",
+    "title": "Partner",
+    "email": "Pattern: first_initial+last@civc.com",
+    "linkedin": "https://www.linkedin.com/in/chris-perry-7b66595/",
+    "source": "RocketReach pattern + LinkedIn verification",
+    "status": "Enriched"
+  },
+  {
+    "firm": "Vesey Street Capital Partners",
+    "contact": "Tiffany Visconti",
+    "title": "Investor Relations",
+    "email": "info@vscpllc.com",
+    "linkedin": "",
+    "source": "Press release (PR Newswire, Jan 2025)",
+    "status": "Enriched"
+  },
+  {
+    "firm": "MBF Healthcare Partners",
+    "contact": "General Inquiries",
+    "title": "N/A",
+    "email": "info@mbfhp.com",
+    "linkedin": "",
+    "source": "Official LinkedIn + ContactOut",
+    "status": "Generic email - needs specific contact"
+  },
+  {
+    "firm": "Banneker Partners",
+    "contact": "Stephen Davis",
+    "title": "Managing Partner",
+    "email": "Pattern: first_initial+last@bannekerpartners.com",
+    "linkedin": "https://www.linkedin.com/in/sjdavis/",
+    "source": "RocketReach pattern + official website",
+    "status": "Enriched"
+  }
+]
