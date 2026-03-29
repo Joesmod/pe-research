@@ -1,53 +1,65 @@
 # Serent Capital
 
-## Overview
-- **Founded**: 2008
-- **Location**: Austin, TX
-- **AUM**: $2.5B+
-- **Focus**: B2B software and tech-enabled services
-- **Website**: https://serentcapital.com
+**Status:** Enriched (2026-03-29)  
+**AUM:** Not publicly disclosed  
+**Focus:** Software, Tech-Enabled Services, Healthcare IT, HCM  
+**Geography:** Austin, TX / San Francisco, CA
 
-## Investment Strategy
-Growth equity firm focused on founder-led B2B software and tech-enabled services companies. Known for "founder-friendly" approach with flexible capital structures.
+---
 
-## Unique Value Proposition
-- **25+ person Growth Team**: Seasoned, specialized operators providing hands-on expertise
-- **AI Expertise**: Dedicated AI capabilities to help portfolio companies scale
-- **Operational Support**: GTM, pricing, payments, M&A, product development
+## Key Decision Maker
 
-## Key Personnel
+**Kevin Frick**  
+- **Title:** Co-Founder & Partner  
+- **Email:** kevin.frick@serentcapital.com ✅ VERIFIED  
+- **LinkedIn:** https://www.linkedin.com/company/serent-capital  
+- **Source:** Official serentcapital.com HCM page (published 2024-04-11)
 
-### Kevin Frick - Partner & Co-Founder
-- **Email**: kevin.frick@serentcapital.com (verified via ContactOut)
-- **LinkedIn**: https://www.linkedin.com/in/kevinfrick/
-- **Background**: Co-founded Serent in 2008, former McKinsey & Company Partner
-- **Education**: Stanford Graduate School of Business
+**Verification Note:** Email VERIFIED from official Serent Capital website (HCM investment page). Direct link to source: https://serentcapital.com/a-trusted-human-capital-management-technology-investor/
 
-## Firm Details
-- **Managing Partners**: 3
-- **Investment Professionals**: 9 Partners, multiple Principals and VPs
-- **Team Size**: 25+ dedicated Growth Team members
-- **Headquarters**: Austin, TX
+---
 
-## Target Companies
-- **Revenue**: Growth-stage
-- **Type**: B2B software, SaaS, tech-enabled services
-- **Geography**: North America-focused
+## Firm Profile
 
-## Portfolio Highlights
-- Focus on financial services, healthcare, real estate, hospitality sectors
-- Active platform building through M&A
+**Founded:** 2008  
+**Headquarters:** Austin, TX (additional office in San Francisco, CA)  
+**Website:** https://serentcapital.com  
+**Investment Focus:**
+- Software & SaaS
+- Tech-Enabled Services
+- Healthcare Information Technology
+- Human Capital Management (HCM)
+- Insurance Technology
 
-## Contact Information
-- **General**: https://serentcapital.com/contact/
-- **Investment Inquiries**: Via contact form on website
-- **Decision-Maker**: Kevin Frick (kevin.frick@serentcapital.com)
+**Investment Stage:** Growth equity, founder-friendly approach  
+**Check Size:** Typically $20M-$100M+  
+**Portfolio Companies:** 50+ investments since inception
+
+---
+
+## Contact Strategy
+
+**Best Approach:** Email Kevin Frick directly. He leads healthcare, HCM, and insurance tech investments. Serent's website emphasizes their founder-friendly approach and relationship-building focus.
+
+**Value Proposition Focus:**
+- Tech-enabled healthcare solutions
+- SaaS platforms in healthcare/HCM
+- Founder partnerships (not typical control buyouts)
+- Operational expertise and growth acceleration
+
+**Tone:** Collaborative, founder-focused, industry expertise
+
+---
 
 ## Research Notes
-- Email verified via ContactOut (publicly listed 2024-05-08)
-- Founder-friendly reputation, known for partnership approach
-- Strong operational value-add through Growth Team
-- **Gumbo Score**: 7/10 - Strong fit (tech-enabled services focus, operational support)
 
-## Last Updated
-2026-03-29
+- Kevin Frick specifically focuses on tech-enabled businesses across healthcare, HCM, and insurance tech sectors
+- Firm has offices in both Austin (HQ) and San Francisco, indicating bicoastal presence
+- Website features extensive portfolio company testimonials and case studies
+- Founded by veteran PE investors with decades of software/tech experience
+- Known for "founder-friendly" approach - maintains relationships with management teams
+- Research-intensive screening process, focuses on carefully selected target areas each year
+
+**Date Enriched:** 2026-03-29  
+**Enrichment Method:** Manual web research + official website verification  
+**Confidence Level:** HIGH (verified email from official source)
