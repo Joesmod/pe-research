@@ -1,28 +1,28 @@
 # Pfingsten Partners
 
-## Firm Overview
-- **Website:** https://www.pfingsten.com
-- **Location:** Chicago, IL
-- **Focus:** Mid-market PE, business services, industrial, manufacturing
+**Website:** https://pfingsten.com  
+**Location:** Chicago, IL  
+**Founded:** 1989  
+**AUM:** ~$1.5B  
+
+## Overview
+Pfingsten Partners is a Chicago-based private equity firm focused on acquiring and building mid-market manufacturing, distribution, and business services companies across North America. Founded in 1989, the firm has completed 75+ platform investments.
 
 ## Key Contact
-- **Name:** John Starcevich
-- **Title:** Managing Director & Operating Team Member
-- **Email:** jstarcevich@pfingsten.com (verified via ContactOut)
-- **LinkedIn:** https://www.linkedin.com/in/john-starcevich-a884884
-- **Joined:** 2000
+- **Scott Finegan** - Senior Managing Director & Managing Partner
+  - Email: sfinegan@pfingsten.com (pattern inferred from RocketReach)
+  - LinkedIn: https://www.linkedin.com/in/scott-finegan-4133b911/
+  - 30+ years experience working with entrepreneur and family-owned companies
+  - Joined firm in 1997
 
-## Email Pattern
-- **Pattern:** FLast@pfingsten.com
-- **Confidence:** High (ContactOut published source)
+## Investment Focus
+- Manufacturing
+- Distribution  
+- Business Services
+- Company size: $10M-$100M EBITDA
+- North America focused
 
-## Research Notes
-- Operating team involvement signals hands-on portfolio value creation approach
-- 24+ year tenure indicates deep firm knowledge and network
-- Chicago-based positions them well for Midwest manufacturing roll-ups
-- Pattern verified from official team page
-
-## Enrichment History
-- **Date:** 2026-03-27
-- **Source:** ContactOut (published database)
-- **Status:** Enriched - Verified
+## Source
+- Enriched: 2026-03-29 (cron job)
+- Email pattern: RocketReach (s******@pfingsten.com)
+- Team page: https://pfingsten.com/team

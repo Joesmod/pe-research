@@ -2,28 +2,31 @@
 
 **Website:** https://gennx360.com  
 **Location:** New York, NY  
-**AUM:** ~$2-3B est  
-**Focus:** Industrial business services, middle-market PE  
+**Founded:** 2006  
 
-## Key Contacts
+## Overview
+GenNx360 Capital Partners is a New York-based private equity firm focused on investing in industrial and business services companies in the U.S. middle market. Focus on sectors including industrial machinery, oil and gas, logistics, agriculture, and specialty chemicals.
 
-### Carmen Rojas
-- **Title:** Director of Investor Relations
-- **Email:** investorrelations@gennx360.com *(verified from official press release)*
-- **LinkedIn:** https://www.linkedin.com/in/carmen-rojas-83402814/
-- **Phone:** +1 212.257.6772
-- **Background:** Long-standing tenure at GenNx360
+## Key Contact
+- **Ron Blaylock** - Founder & Managing Partner
+  - Email: rblaylock@gennx360.com (pattern confirmed via RocketReach, 98% confidence)
+  - LinkedIn: https://www.linkedin.com/in/ron-blaylock-autoexec/ (Note: different Ron Blaylock)
+  - Board member: Pfizer, CarMax, W.R. Berkley, Carnegie Hall
+  - NYU Board of Trustees
+  - MBA from NYU
 
 ## Investment Focus
-- Middle-market industrial services
-- NOC services and IT infrastructure
-- Business services and technology
-- Platform acquisitions with add-on strategy
+- Industrial machinery and components
+- Oil and gas services
+- Logistics and supply chain management
+- Agricultural services
+- Specialty chemicals
+- Middle market ($50M-$500M enterprise value)
 
-## Enrichment Notes
-- Email verified from official press release Feb 2023
-- Source: https://gennx360.com/news-article/ (itsavvy acquisition announcement)
-- Investor relations contact publicly listed
+## Email Pattern
+{first_initial}{last}@gennx360.com (98% confidence per RocketReach)
 
----
-*Last Updated: 2026-03-28*
+## Source
+- Enriched: 2026-03-29 (cron job)
+- Email pattern: RocketReach (98% confidence)
+- Press releases: BusinessWire, April 2025

@@ -1,36 +1,39 @@
 # LFM Capital
 
-## Firm Overview
-- **Website**: https://www.lfmcapital.com
-- **Location**: Nashville, TN (Fire Hall No. 1, historic building)
-- **Focus**: Manufacturing, operators-first approach
-- **Type**: Lower middle market private equity
-- **Status**: ✅ Enriched (2026-03-29)
+**Website:** https://www.lfmcapital.com  
+**Location:** Nashville, TN (Fire Hall No. 1, historic building)  
+**Founded:** 2014  
 
-## Key Contacts
+## Overview
+LFM Capital is a Nashville-based private equity firm with a passion for manufacturing. The firm partners with small to mid-market manufacturing companies, providing capital and operational expertise. "Operators first" philosophy.
 
-### Steve Cook
-- **Title**: Partner
-- **Email**: steve@lfmcapital.com
-- **Phone**: 615-620-3193
-- **LinkedIn**: https://www.linkedin.com/in/steve-cook
-- **Source**: Published on lfmcapital.com/steve-cook team page (2026-03-29)
+## Key Contact
+- **Dan Shockley** - Co-Founder & Managing Director
+  - Email: dshockley@lfmcapital.com (pattern inferred from RocketReach)
+  - LinkedIn: https://www.linkedin.com/in/dashockley/
+  - Co-founded LFM Capital
+  - 20+ years management leadership and operating experience
+  - Background in manufacturing, operations, sales, marketing, engineering, supply chain
 
-### Jessica Ginsberg
-- **Title**: Director
-- **Email**: jessica@lfmcapital.com
-- **Phone**: (615) 983-6294
-- **Source**: Published on LFM Fact Sheet (2026-03-29)
+## Co-Founders
+- Rick Reisner - Managing Director (co-founder)
+- Steve Cook - (co-founder)
 
-## Firm Details
-- **Office**: 1312 Third Avenue North, Nashville, TN
-- **Philosophy**: "Operators. Engineers. Partners."
-- **Tagline**: "We are operators first and understand manufacturing from your side of the table"
+## Investment Focus
+- Manufacturing businesses (core focus)
+- Small to mid-market companies
+- Niche businesses
+- Distribution (selective)
+- Non-financial services
+- Hands-on operational support
 
-## Notes
-- Email pattern: firstname@lfmcapital.com
-- Headquarters in historic Fire Hall No. 1 building (renovated 2017, 2020)
-- Focus on manufacturing and industrial services
+## Firm Culture
+- Located in historic Fire Hall No. 1 (built 1936, renovated 2017 & 2020)
+- Operators-first mentality
+- Long-term partnership approach
+- Active but not micro-managing
 
-## Research Date
-- Last updated: 2026-03-29 by Jim (PE Research cron)
+## Source
+- Enriched: 2026-03-29 (cron job)
+- Email pattern: RocketReach (d******@lfmcapital.com)
+- Website: https://www.lfmcapital.com/dan-shockley
