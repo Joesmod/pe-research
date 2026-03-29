@@ -23,10 +23,14 @@ Bernhard Capital Partners (BCP) is a middle-market services and infrastructure-f
 
 - **Jim Bernhard** - Founder & Partner (In Memoriam)
 - **Jeff Jenkins** - Founder & Partner
+  - Email: jjenkins@bernhardcapital.com (INFERRED from ZoomInfo pattern)
 - **Mark Spender** - Partner & Chief Investment Officer
+  - Email: mspender@bernhardcapital.com (INFERRED from ZoomInfo pattern)
   - LinkedIn: https://www.linkedin.com/in/mark-spender-339b6a40/
 - **Jeffrey Koonce** - Partner & Chief Compliance Officer
+  - Email: jkoonce@bernhardcapital.com (INFERRED from ZoomInfo pattern)
 - **Chris Dillon** - Partner
+  - Email: cdillon@bernhardcapital.com (INFERRED from ZoomInfo pattern)
 
 ### Senior Leadership
 
@@ -56,18 +60,24 @@ Bernhard Capital Partners (BCP) is a middle-market services and infrastructure-f
 
 **Phone:** Available on website
 
+## Email Pattern (INFERRED 2026-03-29)
+**Format:** [first_initial][last]@bernhardcapital.com  
+**Status:** ⚠️ INFERRED (not officially verified)
+**Source:** ZoomInfo pattern analysis for Patrick Bernhard (p***@bernhardcapital.com)
+**Note:** Pattern not verified via RocketReach/LeadIQ. Use with caution.
+
 ## Notes
 
 - Services and infrastructure-focused firm with strong operational DNA
 - Recent activity includes sale of United Utility Services to Sandbrook Capital (March 2026)
 - Emphasis on critical infrastructure and services that "keep the world going"
-- Email pattern appears to be first initial + last name @ bernhardcapital.com (inferred, not verified)
+- Email pattern inferred from ZoomInfo but not verified through multiple sources
 
 ## Research Status
 
-**Last Updated:** 2026-03-29  
-**Research Status:** Complete - No public direct emails found  
-**Source:** Official website team pages, LinkedIn, RocketReach pattern inference  
+**Last Updated:** 2026-03-29 08:05 AM  
+**Research Status:** Complete - Email pattern inferred (not verified)  
+**Source:** Official website team pages, LinkedIn, ZoomInfo pattern inference  
 
 ---
 

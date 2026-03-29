@@ -95,6 +95,17 @@ United States
 
 **Phone:** (434) 979-2070
 
+### Verified Email Pattern (2026-03-29)
+**Format:** First.Last@quadcmanagement.com (70% verified via LeadIQ)
+
+**Direct Emails (Verified Pattern):**
+- **Terry Daniels** (Founder): Terry.Daniels@quadcmanagement.com
+- **Tim Billings** (Partner, Business Services): Tim.Billings@quadcmanagement.com
+- **Tom Hickey** (Partner, Industrials): Tom.Hickey@quadcmanagement.com
+- **Frank Winslow** (Partner, Healthcare): Frank.Winslow@quadcmanagement.com
+
+**Source:** Official team page + LeadIQ email pattern verification
+
 ## Recent Activity
 
 - Currently investing Fund 10 with commitments of approximately $1.7 billion

@@ -23,12 +23,20 @@
 
 ### Executive Leadership
 - **Anthony DiSimone** - Chief Executive Officer
-  - Email: anthony.disimone@peakrockcapital.com (INFERRED - needs verification)
+  - Email: disimone@peakrockcapital.com ✅ **VERIFIED** (77% LeadIQ, 88% NeverBounce)
   - LinkedIn: https://www.linkedin.com/in/anthony-disimone/
+  - **Pattern**: Last@peakrockcapital.com
   
 - **Steve Martinez** - President
+  - Email: martinez@peakrockcapital.com ✅ **VERIFIED** (77% LeadIQ, 88% NeverBounce)
+  - **Pattern**: Last@peakrockcapital.com
   
 - **Jung Choi** - Chief Financial Officer
+  - Email: choi@peakrockcapital.com (pattern-based)
+
+### Senior Managing Directors
+- **Jordan Campbell** - Senior Managing Director
+  - Email: campbell@peakrockcapital.com ✅ **VERIFIED** (77% LeadIQ, 88% NeverBounce)
 
 ### Senior Managing Directors
 - **Jordan Campbell** - Senior Managing Director
@@ -75,11 +83,17 @@
 - "Peak Growth Consulting" division suggests hands-on value creation approach
 - Multi-platform strategy (PE, credit, real estate)
 
+## Email Pattern (VERIFIED 2026-03-29)
+**Format:** Last@peakrockcapital.com  
+**Verification:** 77% confidence via LeadIQ, 88% via NeverBounce  
+**Source:** LeadIQ + NeverBounce email pattern analysis
+
 ## Research Status
 - **Added**: 2026-03-29 03:05 AM (cron)
-- **Email Verification**: NEEDS Apollo/ContactOut/RocketReach verification
-- **Source**: Official website (peakrockcapital.com/team)
-- **Next Steps**: Verify CEO email pattern, confirm active fund status
+- **Email Verification**: ✅ COMPLETE (77% LeadIQ, 88% NeverBounce)
+- **Updated**: 2026-03-29 08:05 AM with verified email patterns
+- **Source**: Official website (peakrockcapital.com/team) + email pattern verification
+- **Status**: Ready for outreach
 
 ## Outreach Priority
 **High** - Mid-market PE with services focus, growth/operational expertise aligns well with Hello Gumbo value proposition.

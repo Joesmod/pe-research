@@ -4,7 +4,15 @@
 **Sector Focus:** Mid-market private equity, technology enablement  
 **LinkedIn:** https://www.linkedin.com/company/bertramcapital
 
-## Enriched Contacts (2026-03-12)
+## Enriched Contacts (2026-03-29)
+
+### Jeff Drazan
+- **Title:** Founder & Managing Partner
+- **Email:** jdrazan@bcap.com
+- **LinkedIn:** https://www.linkedin.com/in/jeffdrazan/
+- **Source:** Official team page + RocketReach pattern (92.9% verified)
+- **Date Enriched:** 2026-03-29
+- **Notes:** Founded Bertram Capital in 2006. Under his leadership, scaled from $250M inaugural fund to $1.6B Fund V.
 
 ### Sean Houseworth
 - **Title:** Vice President

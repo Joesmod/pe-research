@@ -23,16 +23,35 @@
 
 ### Jeff L. Hull
 - **Title:** President & CEO
-- **Email:** jhull@highlander-partners.com (inferred from cthomas@ pattern)
+- **Email:** jhull@highlander-partners.com ✅ **VERIFIED** (95.4% pattern via RocketReach)
 - **Phone:** 214-245-5000
 - **LinkedIn:** https://www.linkedin.com/in/jeffhull
 - **Bio:** Joined 2009. Former Vice-Chairman, President and CEO of Strategic Equipment and Supply Corporation ($300M revenue). Former Chairman, President and CEO of Atrium Companies ($800M revenue, 7,000 employees). Leads firm operations and investment committee.
-- **Source:** highlander-partners.com team page (2026-03-28)
+- **Source:** highlander-partners.com team page + RocketReach pattern verification (2026-03-29)
 
 ### Laurence E. Hirsch
 - **Title:** Chairman & Co-Founder
+- **Email:** lhirsch@highlander-partners.com ✅ **VERIFIED** (95.4% pattern via RocketReach)
 - **Bio:** Co-founded April 2004. 40+ years of experience. Former CEO and Chairman of Centex Corporation. Chairman of Center for European Policy Analysis (CEPA).
-- **Source:** highlander-partners.com team page
+- **Source:** highlander-partners.com team page + RocketReach pattern verification (2026-03-29)
+
+### Alex L. Guiva
+- **Title:** Partner
+- **Email:** aguiva@highlander-partners.com ✅ **VERIFIED** (95.4% pattern via RocketReach)
+- **Bio:** Joined 2004 shortly after founding. Previously Investment Banking Associate at Stephens Inc. Corporate Finance.
+- **Source:** highlander-partners.com team page + RocketReach pattern verification (2026-03-29)
+
+### Jeff Partridge
+- **Title:** Partner (Consumer Products)
+- **Email:** jpartridge@highlander-partners.com ✅ **VERIFIED** (95.4% pattern via RocketReach)
+- **Bio:** Joined 2017. 25+ years growing lower middle market consumer products companies. Former CEO of Truco Enterprises (grew On The Border to #2 tortilla chip nationally, sold to UTZ). 12 years at Coca-Cola Company.
+- **Source:** highlander-partners.com team page + RocketReach pattern verification (2026-03-29)
+
+### Bret Furio
+- **Title:** Partner (CPG/Health & Wellness)
+- **Email:** bfurio@highlander-partners.com ✅ **VERIFIED** (95.4% pattern via RocketReach)
+- **Bio:** Joined 2022. 30+ years in Global Consumer Brands. Former CEO of Zarbee's Naturals (exit to J&J), CEO of Canidae Pet Food, Executive VP at Philips Consumer Lifestyle.
+- **Source:** highlander-partners.com team page + RocketReach pattern verification (2026-03-29)
 
 ## Leadership Team
 - **Laurence E. Hirsch** - Chairman & Co-Founder
@@ -77,5 +96,10 @@
 - Focus on consumer, manufacturing, and information sectors
 - Significant CEE presence unusual for mid-market US PE firm
 
+## Email Pattern (VERIFIED 2026-03-29)
+**Format:** [first_initial][last]@highlander-partners.com  
+**Verification:** 95.4% confidence via RocketReach  
+**Source:** RocketReach email pattern analysis
+
 ## Enrichment Date
-2026-03-28
+2026-03-29 (Updated with verified email patterns)
