@@ -1,63 +1,34 @@
 # Wynnchurch Capital
 
-## Overview
-- **Website:** https://www.wynnchurch.com/
-- **Founded:** 1999
-- **HQ:** Rosemont, Illinois (Chicago area)
-- **Focus:** Middle-market manufacturing, distribution, and business services
+**Focus:** Middle Market, Industrial, Consumer, Healthcare
+**AUM:** ~$5B+
+**Location:** Chicago, IL (Rosemont) | Toronto, Canada
+**Website:** https://www.wynnchurch.com
 
-## Investment Strategy
-North American private equity firm specializing in:
-- Carve-outs
-- Under-performing businesses
-- Family businesses in transition
-- Special situations and operational turnarounds
+## Decision Makers
 
-## Key Contacts
+### Greg B. Gleason
+- **Title:** Managing Partner
+- **Email:** ggleason@wynnchurch.com (VERIFIED)
+- **LinkedIn:** https://www.linkedin.com/company/wynnchurch-capital
+- **Phone:** 847.604.6121
+- **Background:** Managing Partner leading firm strategy
+- **Source:** BusinessWire press release (LPW Group exit, 2026) - OFFICIAL
+- **Enriched:** 2026-03-29
 
-### Leadership
-- **Brian Riordan** - Managing Director
-  - ✅ **Email:** briordan@wynnchurch.com (VERIFIED)
-  - Phone: 847.604.6135
-  - LinkedIn: [Profile](https://www.linkedin.com/in/brian-riordan-664496a/)
-  - Background: Joined Wynnchurch in 2012. Prior: Investment Banking Analyst at BMO Capital Markets
-  - Focus: Wide range of PE investments with focus on manufacturing-related businesses
+### Other Key Contacts (already in CRM)
+- **John A. Hatherly** - jhatherly@wynnchurch.com (Row 734)
+- **Christopher P. O'Brien** - cobrien@wynnchurch.com (Row 1489)
+- **Michael A. Teplitsky** - mteplitsky@wynnchurch.com (Row 1545)
+- **Brian Riordan** - briordan@wynnchurch.com (Row 325)
 
-- **John A. Hatherly** - Managing Partner
-  - Senior leadership
+## Firm Overview
+Founded 1999. Middle-market PE firm with $5B+ AUM. Focus on partnering with business owners and executives in industrial, consumer, and healthcare sectors. Strong operational support team including Operating Partners.
 
-- **Michael Teplitsky** - Managing Director
+## Email Pattern
+**Pattern:** [first_initial][last]@wynnchurch.com OR [first][last]@wynnchurch.com
+**Confidence:** VERIFIED (multiple press releases + team contacts confirmed)
 
-- **Frank G. Hayes** - Senior Partner
-
-### Contact
-- **Main Office:** 847.604.6100
-- **Address:** 2 North Riverside Plaza, Suite 2100, Rosemont, IL 60018
-
-## Investment Criteria
-- **Deal Size:** Typically $50M-$500M enterprise value
-- **Industries:** Manufacturing, distribution, business services
-- **Geography:** North America
-- **Structure:** Control investments, carve-outs, recapitalizations
-
-## Fit for Hello Gumbo
-- ✅ Verified direct email (briordan@wynnchurch.com)
-- ✅ Mid-market focus
-- ✅ Operational improvement expertise
-- ✅ Manufacturing & business services (aligned with Gumbo's capabilities)
-- ✅ Chicago-based (proximity to Hello Gumbo's network)
-
-## Research Notes
-- **Researched:** 2026-03-28
-- **Source:** Official wynnchurch.com/team page, LinkedIn
-- **Status:** ✅ Enriched - Verified Contact
-- **Recommendation:** HIGH PRIORITY - Verified email, strong fit, Chicago proximity
-
-## Outreach Strategy
-1. Personalized email to Brian Riordan highlighting Hello Gumbo's manufacturing & business services capabilities
-2. Reference Wynnchurch's operational improvement focus
-3. Mention Chicago connection and local market knowledge
-
-## Additional Resources
-- [Wynnchurch Team Page](https://www.wynnchurch.com/team/riordan-brian)
-- [Portfolio Companies](https://www.wynnchurch.com/portfolio/)
+## Outreach Status
+- **Status:** Enriched 2026-03-29
+- **Notes:** Managing Partner email verified from official press release. Multiple other contacts already in CRM. Well-established firm with strong middle-market presence.

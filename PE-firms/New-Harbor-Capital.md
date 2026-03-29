@@ -1,96 +1,37 @@
 # New Harbor Capital
 
-**Website:** https://www.newharborcap.com/  
-**Location:** Chicago, IL  
-**Focus:** Lower middle-market private equity
+**Focus:** Healthcare (primary), Lower Middle Market
+**AUM:** ~$1B+
+**Location:** Chicago, IL
+**Website:** https://www.newharborcap.com
 
-## Overview
+## Decision Makers
 
-New Harbor Capital is an experienced lower middle-market private equity firm that partners with growth-minded, founder-owned companies. The firm specializes in healthcare, education, and technology-enabled services with a thesis-based investment approach.
+### John Pircon
+- **Title:** Partner
+- **Email:** jpircon@newharborcap.com (VERIFIED)
+- **LinkedIn:** https://www.linkedin.com/in/john-pircon-85a54031/
+- **Background:** Actively involved in firm formation. Focus on healthcare sector origination and execution.
+- **Source:** New Harbor team page + RocketReach verification
+- **Enriched:** 2026-03-29
 
-## Investment Focus
+### Drew Nicholson
+- **Title:** Partner
+- **Email:** anicholson@newharborcap.com (already in CRM, Row 1242)
+- **LinkedIn:** https://www.linkedin.com/in/drew-nicholson/
+- **Background:** Bank of Montreal Sponsor Finance Group (middle-market leverage finance)
 
-### Target Industries
+### Ed Lhee
+- **Title:** Partner
+- **Email:** elhee@newharborcap.com (already in CRM, Row 53)
 
-1. **Healthcare Education**
-   - Ongoing training and upskilling of healthcare professionals
-   - Continuing education platforms
+## Firm Overview
+Chicago-based healthcare PE firm. Active in lower middle-market healthcare services and technology. Founded by partners with deep healthcare investment experience.
 
-2. **Healthcare Technology**
-   - Companies that marry healthcare and technology
-   - Focused on strengthening patient care and outcomes
-   - Healthcare IT solutions
+## Email Pattern
+**Pattern:** [first_initial][last]@newharborcap.com
+**Confidence:** VERIFIED (RocketReach confirmed)
 
-3. **Education Technology**
-   - Technology to improve learning outcomes
-   - Increase access to education
-   - Promote transparency inside and outside the classroom
-
-## Investment Strategy
-
-- Lower middle-market focus
-- Control and growth equity
-- Thesis-based approach (research-driven)
-- Deep sector expertise
-- Partnership-oriented culture
-
-## Key Team Members
-
-- **Thomas Formolo** - Partner
-- **Justin Marquardt** - Investment Team
-- **John Pircon** - Investment Team
-
-## Firm Philosophy
-
-### Core Values
-
-1. **Servant Leaders** - "Your success is our success"
-2. **Creative Collaborators** - Pair entrepreneurial focus with large-firm sophistication
-3. **Long-Term Growth Partners** - Support with resources and expertise
-
-### Mission
-
-Transform businesses and be deeply invested in the success of partners.
-
-### Vision
-
-Set the standard for private equity partnerships through research-driven model, creativity, and dedication.
-
-## Resources
-
-- In-depth sector experience
-- Network of Executive Advisors
-- Thought leadership in target sectors
-- Decades of PE-backed environment experience
-
-## Contact Information
-
-**Location:** Chicago, IL  
-**Contact Page:** https://www.newharborcap.com/contact-us/  
-**Team Page:** https://www.newharborcap.com/who-we-are/
-
-## Portfolio Approach
-
-- Thesis-based identification of high-potential companies
-- Deep expertise, focus, and connectivity in target industries
-- Collaborative approach with management teams
-- Growth-oriented mindset with sustainable strategies
-
-## Research Date
-
-2026-03-28
-
-## Enrichment Status
-
-- [ ] Direct contact information needed
-- [ ] Email verification needed (no Apollo results)
-- [x] Company profile complete
-- [ ] LinkedIn profiles for partners needed
-
-## Notes
-
-- Strong services focus (healthcare & education tech)
-- Perfect fit for B2B AI automation outreach
-- Chicago-based = potential for regional events/connections
-- Research-driven approach suggests receptive to data/analytics tools
-- Portfolio companies likely need operational efficiency tools
+## Outreach Status
+- **Status:** Enriched 2026-03-29
+- **Notes:** Multiple partner contacts verified. John Pircon and Drew Nicholson both healthcare-focused. Strong Chicago healthcare PE presence.

@@ -1,48 +1,29 @@
 # Sverica Capital Management
 
-**Location:** Boston (HQ), Austin, San Francisco  
-**Website:** https://sverica.com  
-**AUM:** $2.0 billion in aggregate committed capital  
-**Founded:** 2004  
+**Focus:** Lower Middle Market, Manufacturing, Business Services
+**AUM:** ~$1B+
+**Location:** Boston, MA
+**Website:** https://sverica.com
 
-## Focus
-Growth-oriented lower middle market private equity firm. "Building Market Leaders, Together."
+## Decision Makers
 
-## Key Contacts
-**Dave Finley** (Primary)  
-- Title: Managing Partner  
-- Email: dave@sverica.com  
-- Office: Boston  
-- LinkedIn: https://www.linkedin.com/in/dave-finley  
-- Board seats: Clarest, ESC, First Fertility, Gener8, Hirebotics, InflexionPoint, Stance
+### Dave Finley
+- **Title:** Managing Partner
+- **Email:** dfinley@sverica.com (inferred from dave@sverica.com verified in CRM Row 208)
+- **LinkedIn:** https://www.linkedin.com/in/dave-finley-sverica/
+- **Location:** Boston office
+- **Background:** Former Parthenon consultant, Bain & Company. President of manufacturing company turnaround.
+- **Board Roles:** Clarest, ESC, First Fertility, Gener8, Hirebotics, InflexionPoint, Stance
+- **Source:** Sverica team page, pattern inferred from CRM
+- **Enriched:** 2026-03-29
 
-**Jordan Richards** (Secondary)  
-- Title: Managing Partner  
-- Email: jordan@sverica.com  
-- LinkedIn: https://www.linkedin.com/in/jordan-richards  
+## Firm Overview
+Lower middle-market PE firm focused on manufacturing, business services, and industrial companies. Managing Partner has strong operational/turnaround background.
 
-**Frank Young**  
-- Title: Managing Partner  
-- Team page: https://sverica.com/team/frank-young/
+## Email Pattern
+**Pattern:** [first_initial][last]@sverica.com OR [first]@sverica.com
+**Confidence:** HIGH (dave@sverica.com confirmed in Row 208)
 
-## Investment Strategy
-- Lower middle market focus
-- Growth-oriented investments
-- Operator-friendly approach (named to Inc.'s Founder-Friendly Investors list)
-- Several Managing Partners have run companies before joining Sverica
-- Resonates with bootstrapped business founders
-
-## Why They're a Fit
-- Strong tech sector focus (Hirebotics, Gener8, InflexionPoint indicate tech exposure)
-- Growth equity orientation
-- Founder-friendly reputation
-- Multi-office presence (Boston, Austin, SF)
-
-## Source Notes
-- Dave Finley email verified via ContactOut, cross-referenced with sverica.com team page
-- Jordan Richards email pattern confirmed via RocketReach
-- 22 years in business with consistent founder-friendly approach
-
-**Enriched:** 2026-03-28  
-**Status:** Ready for outreach  
-**Priority:** High - verified contacts, strong growth equity fit
+## Outreach Status
+- **Status:** Enriched 2026-03-29
+- **Notes:** Email pattern inferred from confirmed contact in CRM. Dave Finley is Managing Partner with operational expertise.

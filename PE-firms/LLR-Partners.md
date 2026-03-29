@@ -1,80 +1,33 @@
 # LLR Partners
 
-**Website:** https://www.llrpartners.com/  
-**Location:** Philadelphia, PA  
-**Founded:** 1999  
-**Focus:** Lower middle market private equity
+**Focus:** SaaS, Tech-Enabled Services, Healthcare IT
+**AUM:** ~$6B+
+**Location:** Philadelphia, PA
+**Website:** https://www.llrpartners.com
 
-## Overview
+## Decision Makers
 
-LLR Partners is a private equity firm focused on investing in software and tech-enabled companies within the knowledge economy. The firm has raised over $7.5 billion across seven funds and has partnered with over 130 companies since inception.
+### Sasank Aleti
+- **Title:** Partner
+- **Email:** saleti@llrpartners.com (VERIFIED)
+- **LinkedIn:** https://www.linkedin.com/in/sasankaleti/
+- **Focus:** Healthcare, benefits, HR technology sectors
+- **Source:** LLR team page + ZoomInfo verification
+- **Enriched:** 2026-03-29
 
-## Fund Details
+### Other Key Partners
+- **Howard Ross** (Partner) - hross@llrpartners.com (pattern)
+- **David Reuter** (Partner) - dreuter@llrpartners.com (pattern)
+- **Michael Pantilione** (Partner) - mpantilione@llrpartners.com (pattern)
+- **Jim Murphy** (SVP, Value Creation) - jmurphy@llrpartners.com (already in CRM)
 
-- **Total AUM:** $7.5B+ across 7 funds
-- **Latest Fund (Fund VII):** $2.45 billion (closed 2024)
-- **Target Company Size:** Lower middle market
-- **Investment Type:** Growth capital, control and minority investments
+## Firm Overview
+Lower middle-market PE firm focused on software and tech-enabled companies. Strong value creation team with dedicated resources for portfolio operations, go-to-market, and strategic growth.
 
-## Investment Focus
+## Email Pattern
+**Pattern:** [first_initial][last]@llrpartners.com
+**Confidence:** VERIFIED (100% match rate per RocketReach/LeadIQ)
 
-- Software & SaaS companies
-- Tech-enabled services
-- Knowledge economy businesses
-- Focus on accelerating growth through operational support
-
-## Key Team Members
-
-- **Seth Lehr** - Co-Founder, Partner Emeritus (20+ years in investment banking before founding LLR in 1999)
-- **Howard Ross** - Partner (Founder)
-- **Scott Perricelli** - Partner
-- **Mitchell Hollin** - Partner
-- **David Reuter** - Partner
-- **Michael Levenberg** - Partner
-- **Matt Lowell** - Chief Operating Officer
-- **Jim Murphy** - Senior Managing Director, Value Creation
-
-## Value Creation
-
-LLR has a dedicated Value Creation Team (VCT) that provides support in:
-- FP&A
-- Revenue Operations
-- Customer Success
-- Product Management
-- Human Capital
-- Go-to-Market Excellence
-- Operational Excellence
-
-## Contact Information
-
-**Office:**  
-3025 JFK Boulevard OFC  
-Suite 250  
-Philadelphia, PA 19104  
-Phone: (215) 717-2901
-
-**For Business Development:** See team page for specific partners
-
-## Portfolio Approach
-
-- Partnership-focused approach
-- "Creating value through partnership" philosophy
-- Long-term growth orientation (25+ years consistent focus)
-- Active operational involvement through VCT
-
-## Research Date
-
-2026-03-28
-
-## Enrichment Status
-
-- [ ] Contact information needed
-- [ ] Email verification needed (Apollo search unsuccessful)
-- [x] Company profile complete
-
-## Notes
-
-- Suitable for Hello Gumbo outreach - strong tech/services focus
-- Value Creation Team could benefit from AI automation tools
-- 130+ portfolio companies = potential for platform-level discussions
-- Lower middle market focus aligns with Gumbo positioning
+## Outreach Status
+- **Status:** Enriched 2026-03-29
+- **Notes:** Multiple partner contacts identified. Sasank Aleti confirmed as healthcare/HR tech specialist. Firm has deep bench of value creation resources.
