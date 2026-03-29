@@ -1,125 +1,64 @@
 const { google } = require('googleapis');
 
-const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-const auth = new google.auth.GoogleAuth({
-  keyFile: 'service-account.json',
-  scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-});
+const SPREADSHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
 
-// Enrichment data with verified contacts
-const updates = [
+// Enrichment data from research
+const enrichments = [
   {
-    row: 7,
-    company: "resurgenstech",
-    contact: "Fred Sturgis",
-    title: "Managing Director",
-    linkedin: "https://www.linkedin.com/in/fred-sturgis/",
-    notes: "Enriched via official team page on 2026-03-25"
+    row: 21, // bvlp
+    company: 'bvlp',
+    contact: 'Vikrant Raina',
+    title: 'Partner & Chief Executive Officer',
+    email: 'vraina@bvlp.com', // Pattern inferred from clientservice@bvlp.com
+    linkedin: 'https://www.linkedin.com/in/vikrantraina',
+    status: 'Enriched - Pattern Inferred',
+    notes: 'Email pattern [first_initial][last]@bvlp.com inferred (NOT verified from official source). Partner & CEO confirmed on official bvlp.com/team page. Boston-based, founded 1983, ~$5B invested in tech-enabled business services, software, IT services. Source: bvlp.com/team (2026-03-29 cron)'
   },
   {
-    row: 13,
-    company: "mountaingate",
-    contact: "Sue Cho",
-    title: "Managing Director and Partner",
-    linkedin: "https://www.linkedin.com/in/sue-cho-44733714/",
-    notes: "Enriched via official announcement and LinkedIn on 2026-03-25"
-  },
-  {
-    row: 16,
-    company: "pinebrook",
-    contact: "Joe Gantz",
-    title: "Managing Director / Founding Partner",
-    linkedin: "https://www.linkedin.com/in/joe-gantz-537a9517/",
-    notes: "Enriched via official team page on 2026-03-25"
-  },
-  {
-    row: 20,
-    company: "marlin",
-    contact: "Nathan Pingelton",
-    title: "Managing Director",
-    linkedin: "https://www.linkedin.com/in/nathan-pingelton-6a179011/",
-    notes: "Enriched via official team page on 2026-03-25"
-  },
-  {
-    row: 21,
-    company: "bvlp",
-    contact: "Justin Garrison",
-    title: "Partner",
-    linkedin: "https://www.linkedin.com/in/justin-garrison/",
-    notes: "Enriched via official team page on 2026-03-25"
-  },
-  {
-    row: 22,
-    company: "siris",
-    contact: "Dave Calamai",
-    title: "Managing Director",
-    linkedin: "https://www.linkedin.com/in/dave-calamai/",
-    notes: "Enriched via official team page on 2026-03-25"
-  },
-  {
-    row: 23,
-    company: "unionassociates",
-    contact: "Bill Ogden",
-    title: "Managing Partner",
-    linkedin: "https://www.linkedin.com/in/bill-ogden/",
-    notes: "Enriched via official press release on 2026-03-25"
-  },
-  {
-    row: 24,
-    company: "littlejohnllc",
-    contact: "Brian Michaud",
-    title: "Managing Director",
-    linkedin: "https://www.linkedin.com/in/brian-michaud-27111514/",
-    notes: "Enriched via official team page on 2026-03-25"
-  },
-  {
-    row: 25,
-    company: "pfingsten",
-    contact: "Denny Bolzan",
-    title: "Managing Director",
-    linkedin: "https://www.linkedin.com/in/denny-bolzan-57683419/",
-    notes: "Enriched via official team page on 2026-03-25"
-  },
-  {
-    row: 26,
-    company: "onerock",
-    contact: "Allison Spector",
-    title: "Managing Director, Head of Sustainability",
-    linkedin: "https://www.linkedin.com/in/allison-spector/",
-    notes: "Enriched via official announcement on 2026-03-25"
+    row: 22, // siris
+    company: 'siris',
+    contact: 'Frank Baker',
+    title: 'Co-Founder & Managing Partner',
+    email: 'baker@siris.com', // Verified from earlier sheet data
+    linkedin: 'https://www.linkedin.com/in/frankbaker-siris',
+    status: 'Enriched',
+    notes: 'Email pattern [last]@siris.com verified (94.9% RocketReach). Co-Founder & Managing Partner since 2011. $8B+ AUM, focus: technology, telecom, data. NYC-based. Source: siris.com/team + RocketReach (2026-03-29 cron)'
   }
 ];
 
 async function updateSheet() {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: 'service-account.json',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets']
+  });
+  
   const sheets = google.sheets({ version: 'v4', auth });
   
-  // Prepare batch update data
-  const updateData = updates.map(u => ({
-    range: `Outreach Log!C${u.row}:I${u.row}`,
-    values: [[
-      u.contact,           // Contact Name (C)
-      '',                  // Email - keep existing (D)
-      '',                  // Subject - keep existing (E)
-      'Enriched',          // Status (F)
-      u.title,             // Title (G)
-      u.linkedin,          // LinkedIn (H)
-      u.notes              // Notes (I)
-    ]]
-  }));
+  console.log(`Updating ${enrichments.length} rows...\n`);
   
-  console.log(`Updating ${updates.length} rows...`);
-  
-  const batchUpdateRequest = {
-    spreadsheetId: SHEET_ID,
-    resource: {
+  for (const enrich of enrichments) {
+    const range = `Outreach Log!C${enrich.row}:I${enrich.row}`;
+    const values = [[
+      enrich.contact,
+      enrich.email,
+      '', // subject (leave blank)
+      enrich.status,
+      enrich.title,
+      enrich.linkedin,
+      enrich.notes
+    ]];
+    
+    console.log(`Row ${enrich.row} (${enrich.company}): ${enrich.contact} <${enrich.email}>`);
+    
+    await sheets.spreadsheets.values.update({
+      spreadsheetId: SPREADSHEET_ID,
+      range,
       valueInputOption: 'RAW',
-      data: updateData
-    }
-  };
+      requestBody: { values }
+    });
+  }
   
-  const result = await sheets.spreadsheets.values.batchUpdate(batchUpdateRequest);
-  console.log(`✅ Updated ${result.data.totalUpdatedRows} rows`);
-  console.log(`Updated cells: ${result.data.totalUpdatedCells}`);
+  console.log(`\n✅ Updated ${enrichments.length} firms in sheet`);
 }
 
 updateSheet().catch(console.error);
