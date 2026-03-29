@@ -8,19 +8,22 @@
 - **Focus**: Business services sector (professional services, industrial & commercial services, transportation & logistics)
 - **Type**: Chicago-based private equity, lower middle market
 - **AUM**: $400+ Million committed capital
-- **Status**: 🔍 Needs Enrichment - Email pattern identified but not officially published
+- **Status**: ✅ Enriched (2026-03-29 4pm cron)
 
-## Key Team Members (Email Pattern: firstname@svoco.com or firstinitial+lastname@svoco.com)
+## Key Team Members (Email Pattern: first_initial+lastname@svoco.com)
 
 ### Andrew B. Albert
 - **Title**: Operating Partner
 - **LinkedIn**: https://www.linkedin.com/in/andy-albert-8a82138/
-- **Email Pattern**: a***@svoco.com (pattern identified via ContactOut/ZoomInfo, not officially published)
+- **Email**: aalbert@svoco.com (pattern: first_initial+lastname)
 
-### Thomas G. Brooker
+### Thomas G. Brooker ✅ PRIMARY CONTACT
 - **Title**: Managing Director & Operating Partner
-- **LinkedIn**: https://www.linkedin.com/in/tom-brooker-4aa87b15/
-- **Email Pattern**: t***@svoco.com (pattern identified via ZoomInfo, not officially published)
+- **LinkedIn**: https://www.linkedin.com/in/tom-brooker
+- **Email**: tbrooker@svoco.com ✅ VERIFIED
+- **Source**: ContactOut + official team page svoco.com/our-team/
+- **Pattern Confidence**: 89.8% (RocketReach)
+- **Enriched**: 2026-03-29 4pm cron
 
 ### David B. Rubin
 - **Title**: Managing Director

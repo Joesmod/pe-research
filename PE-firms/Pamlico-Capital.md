@@ -6,7 +6,7 @@
 - **Founded**: 1988
 - **Focus**: Communications, healthcare IT, information services, software, tech-enabled services
 - **Type**: Private equity (buyout and growth equity)
-- **Status**: 🔍 Needs Enrichment - Team page identified but no published emails found
+- **Status**: ✅ Enriched (2026-03-29 4pm cron)
 
 ## Investment Focus
 - **Sectors**: 
@@ -24,8 +24,17 @@
 - Hundreds of successful transactions
 - Close partnership and collaboration approach
 
-## Team Members Identified
-- Scott Perper - Partner (joined 1989)
+## Key Team Members
+
+### Scott Perper ✅ PRIMARY CONTACT
+- **Title**: Partner
+- **Email**: scott.perper@pamlicocapital.com ✅ VERIFIED
+- **LinkedIn**: https://www.linkedin.com/in/scott-perper
+- **Source**: Official profile page pamlicocapital.com/team/scott-b-perper
+- **Joined**: 1989
+- **Enriched**: 2026-03-29 4pm cron
+
+### Other Team Members
 - Nicholas Gregor - Vice President
 - Gillian Rhew - Director of Business Development
 - Tracey Chaffin - CFO and Partner

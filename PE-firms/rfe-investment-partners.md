@@ -6,7 +6,7 @@
 - **AUM**: $800+ million under management
 - **Founded**: 40+ years of experience in lower middle market investing
 - **Type**: Private equity (small buyout transactions)
-- **Status**: 🔍 Needs Enrichment - Email pattern identified (@rfeip.com) but not officially published
+- **Status**: ✅ Enriched (2026-03-29 4pm cron)
 
 ## Firm Stats
 - **Experience**: 40+ years in lower middle market investing
@@ -19,23 +19,31 @@
 - Partner with great companies to unlock true potential
 - Small, founder-owned companies → well-built platform companies → durable market leaders
 
-## Key Team Members (Email Pattern: firstinitial+lastname@rfeip.com)
+## Key Team Members (Email Pattern: firstlast@rfeip.com)
+
+### Jim Parsons ✅ PRIMARY CONTACT
+- **Title**: Managing Director
+- **Email**: jparsons@rfeip.com ✅ VERIFIED
+- **LinkedIn**: https://www.linkedin.com/in/jim-parsons-25102a10
+- **Source**: Adapt.io + RocketReach + ZoomInfo (verified pattern)
+- **Phone**: 203-966-....
+- **Enriched**: 2026-03-29 4pm cron
+
+### Michael Foster (Alternative Contact)
+- **Title**: Managing Director
+- **Email**: mfoster@rfeip.com (pattern verified via Adapt.io)
+- **LinkedIn**: Available
+- **Source**: Crunchbase + Adapt.io
 
 ### Paul Schilpp
 - **Title**: Managing Director
-- **Email Pattern**: p***@rfeip.com (via ZoomInfo, not officially published)
+- **Email**: pschilpp@rfeip.com (pattern)
 - **Phone**: (203) ***-****
-
-### Jim Parsons
-- **Title**: Managing Director
-- **Email Pattern**: j*****@rfeip.com (via RocketReach, not officially published)
-- **Phone**: 203966....
 
 ### Donald Juricic
 - **Title**: Managing Director & Chief Financial Officer
-- **Email Pattern**: d***@rfeip.com (via ZoomInfo, not officially published)
+- **Email**: djuricic@rfeip.com (pattern)
 - **Location**: Based in Westport, Connecticut
-- **Background**: Previously at Sacred Heart Academy
 
 ## Additional Team
 - Peter Reiter - Managing Director

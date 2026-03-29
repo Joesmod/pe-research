@@ -5,7 +5,7 @@
 - **Type**: Private equity and venture capital
 - **Divisions**: Venture Capital, Growth Equity, Healthcare
 - **Locations**: North America, India, Israel
-- **Status**: 🔍 Needs Enrichment - Large team identified, email pattern (@nep.com) but verification needed
+- **Status**: ✅ Enriched (2026-03-29 4pm cron)
 
 ## Investment Teams
 
@@ -17,7 +17,27 @@
 - **Chris Scullin** - Partner
 
 ### Managing Directors
-- **Jason Sondell** - Managing Director (email pattern: @nep.com via databases)
+
+#### Jason Sondell ✅ PRIMARY CONTACT
+- **Title**: Partner, Originations
+- **Email**: jsondell@nep.com ✅ VERIFIED
+- **Phone**: (612) 215-1687
+- **LinkedIn**: https://www.linkedin.com/in/jason-sondell
+- **Source**: Official profile page nep.com/team/jason-sondell/
+- **Responsibilities**: Leads NEP's origination efforts, firm's origination strategy, market visibility
+- **Tenure**: 20+ years with NEP
+- **Background**: Credit Suisse First Boston (Global Industrial and Services Group), Prudential Capital Group
+- **Enriched**: 2026-03-29 4pm cron
+
+#### Beth Lesniak (Alternative Contact)
+- **Title**: Managing Director
+- **Email**: blesniak@nep.com (pattern identified via Wiza, not officially published)
+- **LinkedIn**: https://www.linkedin.com/in/beth-lesniak
+- **Location**: West Palm Beach, Florida
+- **Notable**: "Most powerful woman at the firm" (per LinkedIn profile)
+- **Background**: Grey Mountain Partners
+
+#### Other Managing Directors
 - **Shiv Chaudhary** - Managing Director, Norwest India
 - **Niren Shah** - Managing Director, Head of Norwest India
 

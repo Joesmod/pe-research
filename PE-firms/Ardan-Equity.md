@@ -8,17 +8,20 @@
 
 ## Key Contacts
 
-### Michael Weintraub
+### Michael Weintraub ⚠️ PARTIAL ENRICHMENT
 - **Title:** Co-Founder & Managing Partner
-- **LinkedIn:** https://www.linkedin.com/in/michael-weintraub
-- **Email:** mw@ardanequity.com (pattern verified via Apollo.io + Success.ai)
-- **Phone:** +1(917) 304-7294
+- **LinkedIn:** https://www.linkedin.com/in/michael-weintraub/ ✅ VERIFIED
+- **Email:** mweintraub@ardanequity.com ⚠️ PATTERN ONLY - NOT OFFICIALLY VERIFIED
+- **Phone:** +1(917) 304-7294 (from contact databases)
 - **Background:**
   - Founding Chairman of Phreesia (board member)
   - Harvard Business School alum
   - Digital health entrepreneur, founder, CEO experience
-- **Source:** Apollo.io profile + Success.ai contact database (2026-03-29)
-- **Note:** Email pattern verified from multiple third-party sources but not published on official website
+- **Source:** Official team page ardanequity.com/our-team (contact verified) + ContactOut (email pattern 75%)
+- **Email Pattern Identified:** first_initial+lastname@ardanequity.com (ContactOut 75%, Aeroleads 100%)
+- **Verification Status:** Contact name and title VERIFIED on official website. Email pattern identified from B2B tools but NOT published on official source.
+- **Last Updated:** 2026-03-29 4pm cron
+- **Note:** ⚠️ Per strict research policy: Pattern suggests mweintraub@ardanequity.com but NEEDS VERIFICATION from official source before use.
 
 ### Noah Lewis
 - **Title:** Co-Founder & Managing Partner (listed as "Partner" on website)
