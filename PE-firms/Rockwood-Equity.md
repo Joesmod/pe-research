@@ -8,19 +8,22 @@
 ## Key Contacts
 
 ### Kate Faust - Partner, Business Development  
-- **Email:** kfaust@rockwoodequity.com  
+- **Email:** ⚠️ NOT publicly available (contact form only on official site)
 - **Phone:** (216) 278-7070  
-- **Source:** Multiple press releases and fact sheet (rockwoodequity.com)  
-- **Verified:** 2026-03-28  
+- **LinkedIn:** https://www.linkedin.com/in/katefaust
+- **Source:** Official team page rockwoodequity.com/about/team/ (2026-03-29)  
+- **Verified:** 2026-03-29 (contact form link available for business development inquiries)
 - **Role:** Primary contact for new investment opportunities and strategic partnerships
+- **Note:** Pattern-based emails (kfaust@) from third-party sources are unverified from official sources
 
 ### Brett Keith - Managing Partner
-- **Email:** bkeith@rockwoodequity.com
+- **Email:** ⚠️ NOT publicly available (contact form only)
 - **Phone:** 212-218-8284
 - **LinkedIn:** https://www.linkedin.com/in/brett-keith-7355b011/
 - **Source:** Center on Business and Poverty contact listing + rockwoodequity.com
-- **Verified:** 2026-03-28
+- **Verified:** 2026-03-28 (phone), 2026-03-29 (email status)
 - **Background:** Managing Partner since 1999. Former Chairman of JetBlue Airways (2008-2020). YPO Global Board of Directors. Adjunct professor teaching M.B.A. Private Equity course. NYC-based.
+- **Note:** Pattern-based email unverified from official sources
 
 ## Background
 
@@ -63,8 +66,10 @@ Rockwood actively evaluates add-on acquisitions for portfolio companies. The fir
 
 ## Outreach Notes
 
-- **Best contact:** kfaust@rockwoodequity.com (Business Development Partner)
-- **Alternative:** connect@rockwoodequity.com (general inquiries)
+- **Best contact:** Contact form at rockwoodequity.com/contact-explore-a-fit/ (routes to Kate Faust, Business Development Partner)
+- **Phone:** (216) 278-7070 (Kate Faust direct line)
+- **Alternative:** Use general contact form at rockwoodequity.com/contact/
+- **⚠️ Important:** No public emails available - use contact form or phone
 - **Pitch angle:** AI solutions for healthcare, industrial services, or environmental compliance; M&A sourcing and deal flow tools
 - **Decision-maker level:** Partner-level (Business Development focus - ideal for new opportunities)
 - **Response to:** 

@@ -9,11 +9,11 @@
 ## Key Contacts
 
 ### Jack Euston
-- **Title:** Managing Director
+- **Title:** Director, Business Development
 - **Email:** jeuston@mbfhp.com
 - **LinkedIn:** https://www.linkedin.com/in/jack-euston
-- **Source:** Verified from LinkedIn post and BusinessWire press release
-- **Notes:** Active on LinkedIn promoting firm activities. JPM2024 contact.
+- **Source:** Verified from MBF Healthcare Partners official LinkedIn company post (Dec 2023)
+- **Notes:** Appointed as Director BD in Dec 2023. Active on LinkedIn promoting firm activities. JPM2024 contact. Email verified from company announcement.
 
 ### Josh Weber
 - **Title:** Managing Director

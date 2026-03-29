@@ -11,20 +11,25 @@
 
 ### Gregory M. Barr
 - **Title:** Managing Partner & Co-Founder
-- **Email:** gbarr@silveroaksp.com
+- **Email:** ⚠️ NOT publicly available (pattern-based emails from RocketReach unverified)
+- **Phone:** 847.332.0400 (main office)
 - **LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314
-- **Source:** Verified via RocketReach, Salesgear, USSearch
+- **Source:** Official team page silveroaksp.com/team (2026-03-29)
 - **Education:** Harvard Business School (MBA 1989-1991), Wesleyan University (BA Economics, English 1983-1987)
 
 ### Daniel M. Gill
 - **Title:** Managing Partner & Co-Founder
-- **Email:** dgill@silveroaksp.com (pattern inferred)
+- **Email:** ⚠️ NOT publicly available (official website has contact form only)
+- **Phone:** 847.332.0400 (main office)
 - **Education:** University of Chicago
 - **Background:** Founder of Willis Stein & Partners
 - **Boards:** Asure Software (Lead Independent Director), The Josselyn Center (Chairman)
+- **Source:** Official team page silveroaksp.com/team (2026-03-29)
 
 ### Wade D. Glisson
-- **Title:** Managing Partner
+- **Title:** Managing Partner & Co-Founder
+- **Email:** ⚠️ NOT publicly available
+- **Phone:** 847.332.0400 (main office)
 
 ## Other Team Members
 - **Danielle Lalli Glines** - Partner
@@ -36,11 +41,14 @@
 - **Diana K. Fitzgerald** - CFO & Chief Compliance Officer
 
 ## Firm Details
-- **Email Pattern:** [first_initial][last]@silveroaksp.com or [last]@silveroaksp.com
-- **General Contact:** info@silveroaksp.com
+- **Phone:** 847.332.0400
+- **Fax:** 847.492.1717
+- **Contact Method:** Contact form on website (no public emails)
 - **Investment Focus:** Lower-middle market service businesses exclusively
 
 ## Research Notes
 - **Date Enriched:** 2026-03-29
-- **Status:** Verified managing partner emails
-- **Next Steps:** Barr or Gill are primary targets - both co-founders
+- **Status:** Research complete - NO public decision-maker emails available
+- **Finding:** Official website (silveroaksp.com) only provides phone/fax/contact form
+- **Note:** Third-party sources (RocketReach) suggest pattern-based emails but these are NOT verified from official sources
+- **Next Steps:** Use phone contact (847.332.0400) or contact form for initial outreach
