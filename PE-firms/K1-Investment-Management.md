@@ -24,6 +24,13 @@ K1 Investment Management is one of the largest investors in small-cap AI-powered
 ## Key Contacts
 
 ### Senior Leadership
+- **Neil Malik** - Founder, CEO & Managing Partner
+  - Email: nmalik@k1capital.com
+  - LinkedIn: https://www.linkedin.com/in/neil-malik/
+  - Founded K1 in 2011
+  - Based in Manhattan Beach, CA
+  - Source: Crunchbase + RocketReach email pattern (74.9% usage) (2026-03-29)
+
 - **Hasan Askari** - Managing Partner (Co-Founder, 2011)
   - LinkedIn: https://www.linkedin.com/in/hasan-askari-19512019/
   - Co-founded K1 in 2011 at age 26
