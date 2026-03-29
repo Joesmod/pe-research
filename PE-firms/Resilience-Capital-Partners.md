@@ -1,43 +1,52 @@
 # Resilience Capital Partners
 
-**Website:** https://resiliencecapital.com  
-**Sector Focus:** Manufacturing, value-added distribution, business services  
-**Location:** Cleveland, Ohio  
-**AUM:** $625+ million  
-**LinkedIn:** https://www.linkedin.com/company/resilience-capital-partners
+## Overview
+- **Founded:** 2001
+- **Location:** Cleveland, Ohio
+- **Address:** 25101 Chagrin Boulevard, Suite 350, Cleveland, OH 44122
+- **Phone:** 216.292.0200
+- **Fax:** 216.292.4750
+- **Website:** https://resiliencecapital.com
+- **Focus:** Lower middle market with in-house operating experts
 
-## Enriched Contacts (2026-03-28)
-
-### Steve Rosen
-- **Title:** Co-CEO, Chairman & Co-Founder
-- **Email:** (needs direct email)
-- **Phone:** 216.292.0200 (main)
-- **LinkedIn:** https://resiliencecapital.com/team/steve-rosen/
-- **Source:** Official website
-- **Date Enriched:** 2026-03-28
+## Key Contacts
 
 ### Bassem Mansour
-- **Title:** Co-CEO & Co-Founder
-- **Email:** (needs direct email)
-- **Phone:** 216.292.0200 (main)
-- **LinkedIn:** https://resiliencecapital.com/team/bassem-mansour/
-- **Source:** Official website
+- **Title:** Partner / Co-CEO & Co-Founder
+- **Email:** bmansour@resiliencecapital.com
+- **LinkedIn:** https://www.linkedin.com/in/bassemmansour
+- **Source:** RocketReach (b******@resiliencecapital.com)
+- **Background:** 
+  - Co-founded firm in 2001
+  - Member of Cleveland Chapter of YPO
+  - Leadership Cleveland alum
+  - Named to Crain's Cleveland Business Power 150 list
+
+### Steve Rosen
+- **Title:** Partner / Co-CEO & Co-Founder / Chairman
+- **Email:** srosen@resiliencecapital.com
+- **Source:** Growjo (s*****@resiliencecapital.com)
+- **Background:**
+  - Co-founded firm in 2001
+  - Also Co-Founder of Zanite Corporation (aviation/aerospace/defense)
+  - Co-Founder of Gammite Ventures (venture capital)
+  - Manager of Azurite Management LLC (private investment)
 
 ### Robert Widen
 - **Title:** Partner
-- **Email:** (needs direct email)
-- **Source:** Official website
 
-## Notes
-- Founded in 2001 by Steve Rosen and Bassem Mansour
-- Focus: Niche-oriented manufacturing, value-added distribution, business services
-- Target: $25M-$250M enterprise value
-- Invested in 87 companies under 41 platforms since inception
-- $625M+ in capital commitments
-- General email: info@resiliencecapital.com
-- Phone: 216.292.0200
-- Fax: 216.292.4750
-- Team includes Chris Clair (CFO & Chief Compliance Officer)
+## Other Team Members
+- **Chris Clair** - CFO & Chief Compliance Officer
+- **Jordaan Atsangbe** - Senior Analyst
+- **Ki Mixon** - Strategic Advisor
 
-## Research Log
-- 2026-03-28: Identified co-CEOs and partners from official website. Only generic email found - direct emails need Apollo API enrichment or further research.
+## Firm Details
+- **Email Pattern:** [first_initial][last]@resiliencecapital.com
+- **General Contact:** info@resiliencecapital.com, pathway@resiliencecapital.com
+- **Investment Strategy:** Value-oriented, distressed investing expertise
+- **Special Programs:** Pathway to Resilience (community program)
+
+## Research Notes
+- **Date Enriched:** 2026-03-29
+- **Status:** Strong email patterns from verified sources
+- **Next Steps:** Either co-CEO is a strong target

@@ -1,88 +1,49 @@
 # Ardan Equity
 
 ## Overview
-- **Website**: https://www.ardanequity.com
-- **Founded**: 2018
-- **AUM**: Not publicly disclosed (estimated $1B+)
-- **Focus**: Healthcare & life sciences software and data sector
-- **Headquarters**: Boston, MA (with offices in Chicago and Palm Beach)
-- **Tagline**: "The Healthcare Software Private Equity Firm®"
+- **Location:** Boston/Chicago (dual presence)
+- **Focus:** Healthcare software and data sector
+- **Website:** https://www.ardanequity.com
+- **Investment:** Healthcare and life sciences software companies
 
-## Investment Profile
-- **Sector**: Healthcare software, life sciences software and data
-- **Stage**: Middle market buyout transactions
-- **Geography**: North America focus
-- **Strategy**: Sector-specialized investment manager exclusively focused on healthcare/life sciences software
-
-## Key Decision-Makers
+## Key Contacts
 
 ### Michael Weintraub
-- **Title**: Co-Founder & Managing Partner
-- **LinkedIn**: https://www.linkedin.com/in/michael-weintraub/
-- **Background**: 
-  - Founded Ardan Equity in 2018
-  - Founding Chairman of Phreesia (public healthcare software company)
-  - Harvard Business School MBA
-- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
-- **Notes**: Extensive healthcare software investing and operating experience. Confirmed on official team page but no direct email available.
+- **Title:** Co-Founder & Managing Partner
+- **LinkedIn:** https://www.linkedin.com/in/michael-weintraub
+- **Email:** [Need to verify business email]
+- **Background:**
+  - Founding Chairman of Phreesia (board member)
+  - Harvard Business School alum
 
 ### Noah Lewis
-- **Title**: Co-Founder & Managing Partner (also listed as Partner)
-- **LinkedIn**: https://www.linkedin.com/in/noahlewis/
-- **Background**:
-  - Co-founded Ardan Equity in 2018
+- **Title:** Co-Founder & Managing Partner (listed as "Partner" on website)
+- **LinkedIn:** https://www.linkedin.com/in/noahlewis
+- **Email:** [Need to verify business email]
+- **Location:** Palm Beach, Florida
+- **Background:**
+  - Prior: Optum Ventures, Co-Founder
   - MIT graduate
-  - Based in Palm Beach, FL
-- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
-- **Notes**: Co-leads the firm alongside Michael Weintraub
 
-### Drew Boston
-- **Title**: Partner
-- **LinkedIn**: https://www.linkedin.com/in/drew-c-boston-281a675/
-- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
-- **Source**: Official team page 2026-03-28
+## Other Team Members
+- **Drew Boston** - Principal
+- **Jason Frank** - Vice President
+- **Shashi Masireddy** - Investor Relations
+- **Urmi Jain** - Operating Partner
+- **Martin B. Silverstein, MD** - Executive Partner
+- **Jeremy Brody** - Executive Partner (announced recently)
+- **Dogu Celebi, MD** - Executive Partner
 
-### Jason Frank
-- **Title**: Principal
-- **LinkedIn**: https://www.linkedin.com/in/jasoncharlesfrank/
-- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
-- **Source**: Official team page 2026-03-28
-
-## Investment Thesis
-- First alternative investment manager dedicated exclusively to healthcare and life sciences software/data sector
-- Focus on sector expertise and operational value-add
-- Platform-enabled growth strategy
-- Deep healthcare software domain knowledge
-
-## Fit for Hello Gumbo
-- **Score**: 8/10
-- **Strengths**:
-  - Healthcare software focus aligns with digital transformation needs
-  - Mid-market focus
-  - Operational expertise
-  - Founded relatively recently (2018) - may be building out operations teams
-- **Concerns**:
-  - Sector-specific focus may limit fit if outside healthcare software
-  - Need to verify decision-maker emails before outreach
+## Firm Details
+- **Investment Focus:** Healthcare software and data exclusively
+- **Portfolio:** WellSky (notable portfolio company mentioned)
+- **Approach:** Accelerating go-to-market, recruiting talent, developing tech, AI/analytics, M&A support
 
 ## Research Notes
-- Team has over $15B+ in operating and investing exit value
-- 500+ years of combined healthcare software experience across team
-- 23 founder roles across healthcare software companies
-- Emphasizes partnership with founders and CEOs
-
-## Next Steps
-1. ❌ Official website does not publish individual business emails (verified 2026-03-28)
-2. Alternative approach needed: LinkedIn InMail, referral network, or company general inquiry form
-3. Research recent portfolio additions to understand current investment activity
-4. Identify specific pain points in healthcare software operations that Gumbo addresses
-
-## Sources
-- Official website: https://www.ardanequity.com
-- Team page: https://www.ardanequity.com/our-team (verified 2026-03-28 9:35 PM CST)
-- LinkedIn profiles
-- RocketReach (personal Gmail found - not appropriate for business outreach)
-
----
-*Last Updated: 2026-03-28 9:35 PM CST*
-*Research Status: ❌ No Verified Business Email - Official team page confirmed but emails not published*
+- **Date Enriched:** 2026-03-29
+- **Status:** Identified co-founders, need email verification
+- **Next Steps:** 
+  - Check ardanequity.com team/contact pages for direct emails
+  - Try IR contact (Shashi Masireddy) as alternative entry point
+  - RocketReach showed personal gmail for Weintraub, not business email
+- **Note:** Healthcare software focus aligns well with AI/tech positioning
