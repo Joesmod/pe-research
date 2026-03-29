@@ -1,54 +1,79 @@
-# Yellowstone Capital Partners
+# Yellowstone Capital Partners, LLC
 
-## Firm Overview
-- **Website**: [Not confirmed]
-- **Headquarters**: Bogota, Colombia
-- **Founded**: [Year TBD]
-- **Focus**: Private equity / real estate
-- **Sectors**: Real estate, capital markets
-- **Geography**: Latin America (Colombia focus)
+**Location:** Houston, Texas & New York, New York  
+**Founded:** 1993  
+**AUM:** ~$1.5 billion  
+**Focus:** Real estate private equity, lower middle market
 
-## Key Contact - VERIFIED
+## Overview
 
-**Juan Carlos Moreno**
-- **Title**: Chief Investment Officer
-- **Email**: juan.moreno@yellowstonecp.com ✅
-- **Phone**: +57 314 694 [partially listed]
-- **Source**: Official LinkedIn post (September 15, 2022)
-- **LinkedIn**: https://www.linkedin.com/in/juan-carlos-moreno-b686201b/
-- **Verification Date**: 2026-03-28
+Yellowstone Capital Partners is a Houston-based private equity firm and family office focused on acquiring and investing in small-to-medium sized businesses. Founded in 1993, the firm employs both majority investor "buyout" approaches as well as venture capital/minority investment models.
 
-## Firm Leadership
+## Investment Strategy
 
-Juan Carlos Moreno serves on the board of ColCapital (Asociación Colombiana de Capital Privado), representing Yellowstone Capital Partners.
+- **Sector:** Real estate, pan-American PE investments
+- **Geography:** North America, with focus on U.S. and select Latin American opportunities
+- **Deal Size:** $10-50 million in revenues for stand-alone acquisitions
+- **Approach:** Primarily majority buyouts, some minority investments
+- **Investment Criteria:**
+  - Positive cash flows and stable operating margins
+  - Differentiated business with competitive advantage
+  - Basic management team in place and/or viable transition by seller
+  - Companies with revenues of $10-50 million
 
-### Other Team Members
-- Julio Ortiz (also re-elected to ColCapital board)
+## Key Characteristics
 
-## Geographic Focus
+- **Capital Source:** Mainly uses own capital, strategically includes others
+- **Management Approach:** Relies on existing management and industry operating partners as "added value investors"
+- **Flexibility:** Unconstrained by lengthy approval processes or predetermined fund life
+- **Philosophy:** Believes in capital commitments and equity incentives for portfolio company management teams
 
-Yellowstone Capital Partners appears to be a Colombia-based private equity firm with focus on:
-- Real estate investment
-- Capital markets
-- Colombian market opportunities
+## Key Leadership
 
-## Industry Association
-
-Active member of **ColCapital** - the Colombian Private Equity Association (Asociación Colombiana de Capital Privado).
+**William Brewer** - Managing Director
+- Background: Verified as MD from RocketReach and ZoomInfo
+- Status: LinkedIn profile not located; no bio on official site
 
 ## Contact Information
-- **Address**: Calle 78 # 8-32, Bogota, Colombia
-- **Phone**: +571-631-2830
-- **Primary Contact Email**: juan.moreno@yellowstonecp.com
 
-## Sources
-- LinkedIn official company page: https://www.linkedin.com/company/yellowstone-capital-partners
-- ColCapital board member announcement
-- CAIA (Chartered Alternative Investment Analyst) member profile
-- Official LinkedIn post confirming email address (Sept 2022)
+**Website:** https://www.yellowstonecapital.com  
+**Office:** 777 Post Oak Blvd., Suite 250, Houston, TX 77056  
+**Phone:** (713) 650-0065  
 
-## Enrichment Notes
-- Email verified from official LinkedIn post
-- Juan Carlos Moreno confirmed as CIO
-- Active in Colombian PE industry through ColCapital membership
-- International professional credentials (CAIA)
+**Status:** No team page on website. Direct emails not published on official sources. (2026-03-29)
+
+## Research Notes
+
+- Founded 1993, over 30 years of operating history
+- Described as "family office" structure, suggesting flexible capital and long-term horizon
+- No predetermined fund life allows for patient capital approach
+- Emphasis on working with existing management teams rather than replacing them
+- 18 employees as of 2025 (per RocketReach)
+- Annual revenue ~$21.9M (2025, per RocketReach)
+
+## Outreach Status
+
+- **Sheet Row:** 813
+- **Status:** Research
+- **Contact Verified:** William Brewer (Managing Director)
+- **Email:** Not found on official sources
+- **Last Updated:** 2026-03-29
+
+## Why Relevant for Hello Gumbo
+
+**Fit Score:** High
+
+**Pros:**
+- Perfect size range ($1.5B AUM, targets $10-50M revenue companies)
+- Lower middle market focus aligns with Hello Gumbo's typical PE targets
+- Portfolio companies in revenue range where operational transformation is critical
+- Emphasis on partnering with existing management (not replacing) - good fit for value-add services
+- Long-term, patient capital approach means willing to invest in improvements
+- Real estate and diversified portfolio suggests openness to various service offerings
+
+**Cons:**
+- Limited online presence/transparency
+- No team page makes it difficult to identify additional contacts
+- Contact information not publicly accessible
+
+**Recommendation:** Strong candidate for outreach once contact information is obtained. Consider Houston PE networking events or real estate investment conferences where Yellowstone might have presence.

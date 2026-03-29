@@ -1,39 +1,60 @@
 # Baymark Partners
 
+**Website:** https://baymarkpartners.com/  
+**Location:** Plano, Texas (Dallas area)  
+**Type:** Mid-Market Private Equity
+
 ## Overview
-- **Website:** https://baymarkpartners.com
-- **Headquarters:** Dallas, TX
-- **Focus:** Growth-oriented middle-market PE
-- **Status:** 🆕 New - Unresearched (2026-03-06)
 
-## Contact Information
-- **Team Member:** Conner Cowart (Analyst) - ccowart@baymarkpartners.com
-- **General Contact:** Available via website form
+Baymark Partners is a Dallas-based growth-oriented private equity firm specializing in middle-market investments across service-based businesses, distribution, manufacturing, and tech-enabled companies (SaaS and E-Commerce).
 
-## Investment Profile
-- **Sectors:**
-  - Healthcare services
-  - Business services
-  - IT services
-  - Distribution
-  - Light manufacturing
-  - Tech-enabled (SaaS, E-commerce)
-- **Stage:** Growing middle-market companies
-- **Strategy:** Provide liquidity to owners + resources to accelerate growth
+## Investment Focus
 
-## Team Experience
-- 100+ years of combined experience in acquiring, investing, and operating
+- **Sectors:** Healthcare services, Business services, IT services, Distribution, Light manufacturing, SaaS, E-Commerce
+- **Investment Size:** $10-50M per deal
+- **Target:** Growing middle-market companies needing capital for growth acceleration
+
+## Key Contact
+
+**David J. Hook**  
+Managing Director  
+📧 david@baymarkpartners.com  
+📞 (972) 991-5457
+
+## Team
+
+### Managing Partners
+- **David J. Hook** - Managing Director. 40+ years in PE, invested in 50+ companies, 14 IPOs
+- **Anthony Ludlow** - Managing Director, General Counsel, CFO background
+
+### Investment Team
+- **Matt Denegre** - Director
+- **Andy Waltman** - Director (previously Energy Spectrum, $2B AUM)
+- **Jake Walker** - Transaction advisory leader
+- **Conner Cowart** - Analyst
+- **Daniel Valentine** - Finance and operations CPA
+
+## Office
+
+5700 Granite Parkway, Suite 435  
+Plano, Texas 75024  
+Tel: (972) 991-5457
+
+## Investment Strategy
+
+Baymark focuses on acquiring growing middle-market companies in service-based sectors, providing:
+- Liquidity for owners
+- Resources to accelerate growth
+- Operational expertise
 
 ## Research Notes
-- Growth-oriented focus (not just financial engineering)
-- Broad sector coverage with services emphasis
-- Texas-based with strong regional presence
-- Found analyst-level email (ccowart@baymarkpartners.com pattern suggests {firstinitial}{last}@baymarkpartners.com)
+
+- **Source:** Website contact page (publicly published email)
+- **Date Added:** 2026-03-29
+- **Fit:** Strong - mid-market PE with services focus, healthcare and IT exposure
+- **AUM:** Not publicly disclosed (estimated mid-market range based on $10-50M check sizes)
 
 ## Next Steps
-- Identify founding/managing partners
-- Research portfolio operations capabilities
-- Find senior-level direct emails for outreach
 
-## Last Updated
-2026-03-06
+- Potential outreach target for B2B AI/automation solutions
+- Services-heavy portfolio aligns with operational efficiency value prop

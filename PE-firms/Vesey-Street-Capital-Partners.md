@@ -10,10 +10,11 @@
 
 ### Tiffany Visconti
 - **Title:** Investor Relations
-- **Email:** tvisconti@vscpllc.com
+- **Email:** tiffany@vscpllc.com
 - **Phone:** (646) 847-2474
-- **Source:** Verified from PRNewswire press release (Jan 2025)
-- **Notes:** IR contact for ComplexCare Solutions carveout announcement
+- **LinkedIn:** https://www.linkedin.com/in/tiffany-visconti-40620ab7/
+- **Source:** Verified from official website vscpllc.com/team + PRNewswire press release (Jan 2025)
+- **Notes:** IR contact verified on official team page and ComplexCare Solutions carveout announcement
 
 ## Firm Details
 - **Address:** 412 W 15th Street – 2nd Floor, New York, NY 10011

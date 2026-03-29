@@ -42,6 +42,13 @@
 - **Bret Furio** - Partner (joined 2022, CPG/health & wellness)
 - **Stanley C. Bould** - Partner, Asian & Alternative Investments
 - **Michael Knigin** - Managing Director (joined 2022, former Apache Industrial Services CEO)
+  - **LinkedIn:** https://www.linkedin.com/in/michael-knigin-a69b7ba
+  - **Background:** CEO of Apache Industrial Services 2009-2021, grew to $1B revenue and 8,500 employees
+  - **Prior:** Partner at Nassau Point Investors (1999-2008), CFO of HMT Inc. (2000-2007)
+  - **Started career:** Investment banking at Deutsche Bank Securities
+  - **Education:** BBA, University of Michigan
+  - **Focus:** Manufacturing, distribution, business services, management buyouts, recapitalizations
+  - **Email:** Not publicly available (pattern likely m[lastname]@highlander-partners.com based on firm)
 - **David Olsen** - Managing Director (beauty and personal care specialist)
 
 ## Investment Thesis

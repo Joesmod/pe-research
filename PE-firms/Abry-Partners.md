@@ -10,10 +10,11 @@
 ## Leadership
 ### C.J. Brucato
 - **Title:** CEO
-- **Email:** cbrucato@abry.com *(verified from ContactOut)*
+- **Email:** ⚠️ NOT publicly available (ContactOut is third-party, not official source)
 - **LinkedIn:** https://www.linkedin.com/in/c-j-brucato-iii-b33830/
-- **Phone:** (617) XXX-XXXX
+- **Phone:** Contact via main office
 - **Background:** Co-CEO 2018-2023, sole CEO since 2023. 30+ years at firm.
+- **Source:** Official team page abry.com/team (2026-03-29)
 
 ### Other Key Contacts
 - Jay Grossman - Chair
@@ -46,14 +47,17 @@
 - **London:** 27 Albemarle Street, Mayfair, London, W1S4HZ UK | Phone: +44.20.3398.6590
 
 ## Notes
-- Email pattern: first_initial+last@abry.com (or variations)
-- General contact: info@abry.com
-- Privacy contact: privacy@abry.com
+- ⚠️ **Email Status:** NO public decision-maker emails available from official sources
+- **PR Contact:** Edelman Smithfield (media inquiries) - email CloudFlare-protected on press releases
+- **Main Office:** 111 Huntington Avenue, Suite 2010, Boston, MA 02199
 - Founded by Andrew Banks and Royce Yudkoff
 - Has multiple investment strategies: buyout funds, senior equity, private debt, liquid credit
+- **Team Identified:** C.J. Brucato (CEO), Jay Grossman (Chair), Nicholas Scola (Partner, Head of Buyout Funds)
+- **Contact Method:** Use general contact form on website or PR firm
 
 ## Source
 - Official website: https://abry.com
 - Team page: https://abry.com/team
-- ContactOut (published source)
-- Enriched: 2026-03-28
+- Press releases: abry.com/news
+- Research Date: 2026-03-29
+- Status: Research Complete - No Public Email

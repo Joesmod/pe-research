@@ -1,0 +1,55 @@
+PE RESEARCH & ENRICHMENT CYCLE - COMPLETE
+==========================================
+Time: Sunday, March 29th, 2026 - 3:35 AM CST
+Duration: ~40 minutes
+
+RESULTS
+-------
+✅ Sheet rows updated: 5 (1 enrichment + 4 new firms)
+✅ GitHub dossiers created: 5
+✅ Git commit pushed: cbcb287
+✅ Total firms in sheet: 1,656 (was 1,652)
+
+ENRICHMENT ACTIVITY
+-------------------
+Existing Leads:
+- Abry Partners (row 1597): Added CEO C.J. Brucato, LinkedIn, notes
+  * Issue: Only generic email (info@abry.com) found on official site
+  * No direct emails published - flagged for Apollo enrichment
+
+New Firms Added:
+1. Bow River Capital - Denver, $2.5B+ AUM, healthcare/industrials/software
+2. Edison Partners - Princeton/Nashville, growth equity, SaaS/fintech/healthtech  
+3. Bregal Partners - NYC, $1.25B, consumer/food/business services
+4. Pfingsten Partners - Chicago, manufacturing/distribution, TOP 50 firm
+
+GITHUB
+------
+Repo: https://github.com/Joesmod/pe-research
+Commit: cbcb287 - "Add 5 new PE firm dossiers"
+Files:
+- PE-firms/abry-partners/contact.md
+- PE-firms/bow-river-capital/contact.md
+- PE-firms/edison-partners/contact.md
+- PE-firms/bregal-partners/contact.md
+- PE-firms/pfingsten-partners/contact.md
+
+KEY FINDING
+-----------
+⚠️ EMAIL VERIFICATION CHALLENGE:
+Most mid-market PE firms do NOT publish direct emails on their websites.
+Only generic contacts (info@, ir@) or web forms available.
+ContactOut/ZoomInfo patterns are INFERRED, not verified.
+
+NEXT STEPS
+----------
+1. Use Apollo.io API to enrich these 5 firms with verified emails
+2. Prioritize firms with published contacts in future searches
+3. Check press releases for "for more information contact" sections
+4. Review SEC filings and conference materials for direct contacts
+
+DETAILED REPORT
+---------------
+See: pe-research/enrichment-reports/2026-03-29-0335-cycle.md
+
+NO EMAILS SENT (research only per instructions)
