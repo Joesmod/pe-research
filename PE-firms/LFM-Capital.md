@@ -1,28 +1,36 @@
 # LFM Capital
 
-**Website:** https://www.lfmcapital.com/  
-**Focus:** Operators, Engineers, Partners - operational excellence focus  
-**AUM:** Mid-market  
-**Location:** Nashville, TN
+## Firm Overview
+- **Website**: https://www.lfmcapital.com
+- **Location**: Nashville, TN (Fire Hall No. 1, historic building)
+- **Focus**: Manufacturing, operators-first approach
+- **Type**: Lower middle market private equity
+- **Status**: ✅ Enriched (2026-03-29)
 
 ## Key Contacts
 
-**Jessica Ginsberg** ✅  
-- Title: Director
-- Email: jessica@lfmcapital.com (VERIFIED)
-- Phone: (615) 983-6294
-- Notes: Published on official LFM fact sheet
+### Steve Cook
+- **Title**: Partner
+- **Email**: steve@lfmcapital.com
+- **Phone**: 615-620-3193
+- **LinkedIn**: https://www.linkedin.com/in/steve-cook
+- **Source**: Published on lfmcapital.com/steve-cook team page (2026-03-29)
 
-## Email Pattern
-- **Primary:** first@lfmcapital.com (84.8%) ✅
-- **Alternate:** first.last@lfmcapital.com
+### Jessica Ginsberg
+- **Title**: Director
+- **Email**: jessica@lfmcapital.com
+- **Phone**: (615) 983-6294
+- **Source**: Published on LFM Fact Sheet (2026-03-29)
 
-## Research Notes
-- Mission: Long-term partnerships with management teams, world-class operational excellence
-- Strong operational focus - "Operators. Engineers. Partners."
-- Portfolio CMOs and operating partners on staff
-- Email verified from official fact sheet (lfmcapital.squarespace.com/s/LFM-Fact-Sheet)
+## Firm Details
+- **Office**: 1312 Third Avenue North, Nashville, TN
+- **Philosophy**: "Operators. Engineers. Partners."
+- **Tagline**: "We are operators first and understand manufacturing from your side of the table"
 
-**Research Date:** 2026-03-29  
-**Researcher:** Jim  
-**Status:** Enriched (Verified Email)
+## Notes
+- Email pattern: firstname@lfmcapital.com
+- Headquarters in historic Fire Hall No. 1 building (renovated 2017, 2020)
+- Focus on manufacturing and industrial services
+
+## Research Date
+- Last updated: 2026-03-29 by Jim (PE Research cron)
