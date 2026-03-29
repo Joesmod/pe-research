@@ -23,17 +23,30 @@
   - Founded Ardan Equity in 2018
   - Founding Chairman of Phreesia (public healthcare software company)
   - Harvard Business School MBA
-- **Email**: Pattern suggested by Apollo (m**@ardanequity.com) - NOT VERIFIED from official source
-- **Notes**: Extensive healthcare software investing and operating experience
+- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
+- **Notes**: Extensive healthcare software investing and operating experience. Confirmed on official team page but no direct email available.
 
 ### Noah Lewis
-- **Title**: Co-Founder & Managing Partner
+- **Title**: Co-Founder & Managing Partner (also listed as Partner)
 - **LinkedIn**: https://www.linkedin.com/in/noahlewis/
 - **Background**:
   - Co-founded Ardan Equity in 2018
   - MIT graduate
   - Based in Palm Beach, FL
+- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
 - **Notes**: Co-leads the firm alongside Michael Weintraub
+
+### Drew Boston
+- **Title**: Partner
+- **LinkedIn**: https://www.linkedin.com/in/drew-c-boston-281a675/
+- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
+- **Source**: Official team page 2026-03-28
+
+### Jason Frank
+- **Title**: Principal
+- **LinkedIn**: https://www.linkedin.com/in/jasoncharlesfrank/
+- **Email**: ❌ NOT FOUND - Official team page does not publish business emails (verified 2026-03-28)
+- **Source**: Official team page 2026-03-28
 
 ## Investment Thesis
 - First alternative investment manager dedicated exclusively to healthcare and life sciences software/data sector
@@ -59,16 +72,17 @@
 - Emphasizes partnership with founders and CEOs
 
 ## Next Steps
-1. Find verified email for Michael Weintraub or Noah Lewis from official sources
-2. Research recent portfolio additions to understand current investment activity
-3. Identify specific pain points in healthcare software operations that Gumbo addresses
+1. ❌ Official website does not publish individual business emails (verified 2026-03-28)
+2. Alternative approach needed: LinkedIn InMail, referral network, or company general inquiry form
+3. Research recent portfolio additions to understand current investment activity
+4. Identify specific pain points in healthcare software operations that Gumbo addresses
 
 ## Sources
 - Official website: https://www.ardanequity.com
-- Team page: https://www.ardanequity.com/our-team
+- Team page: https://www.ardanequity.com/our-team (verified 2026-03-28 9:35 PM CST)
 - LinkedIn profiles
-- Apollo.io (email pattern suggestion - unverified)
+- RocketReach (personal Gmail found - not appropriate for business outreach)
 
 ---
-*Last Updated: 2026-03-28*
-*Research Status: Needs Email Verification*
+*Last Updated: 2026-03-28 9:35 PM CST*
+*Research Status: ❌ No Verified Business Email - Official team page confirmed but emails not published*
