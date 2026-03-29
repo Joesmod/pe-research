@@ -1,84 +1,94 @@
 # Bernhard Capital Partners
 
-**Website:** https://www.bernhardcapital.com/  
-**Location:** Baton Rouge & New Orleans, Louisiana  
-**Founded:** 2013  
-**Focus:** Services & Infrastructure-focused private equity  
-**AUM:** Not publicly disclosed  
-
 ## Overview
+- **Founded**: 2013
+- **Location**: Baton Rouge, LA / New Orleans, LA / Brentwood, TN
+- **AUM**: Fund III active
+- **Focus**: Services and infrastructure-focused PE
+- **Website**: https://www.bernhardcapital.com
 
-Bernhard Capital Partners (BCP) is a middle-market services and infrastructure-focused private equity firm with operational experience. The firm was founded in 2013 and takes a strong operational focus to investing, with most team members having boots-on-the-ground operational experience.
+## Investment Strategy
+Middle-market private equity firm focused on critical infrastructure and services. Operational expertise with former executives investing in essential industries.
 
-## Investment Focus
+## Target Sectors
+### Infrastructure
+- Energy infrastructure
+- Utilities
+- Environmental services
+- Critical infrastructure assets
 
-- **Sectors:** Energy services, critical infrastructure, industrial services
-- **Type:** Middle-market companies
-- **Geography:** North America
-- **Strategy:** Operationally-focused investing, leveraging deep industry experience
+### Services
+- Industrial services
+- Business services
+- Engineering & construction (AEC platform)
 
-## Key Team Members
+## Key Personnel
 
-### Partners & Leadership
+### Jeff Jenkins - Founder & Partner
+- **Email**: jeff@bernhardcapital.com (verified via ContactOut)
+- **LinkedIn**: https://www.linkedin.com/in/jeff-jenkins-7455151a8/
+- **Role**: Co-Founder and Partner
+- **Location**: Baton Rouge, LA
 
-- **Jim Bernhard** - Founder & Partner (In Memoriam)
-- **Jeff Jenkins** - Founder & Partner
-  - Email: jjenkins@bernhardcapital.com (INFERRED from ZoomInfo pattern)
-- **Mark Spender** - Partner & Chief Investment Officer
-  - Email: mspender@bernhardcapital.com (INFERRED from ZoomInfo pattern)
-  - LinkedIn: https://www.linkedin.com/in/mark-spender-339b6a40/
-- **Jeffrey Koonce** - Partner & Chief Compliance Officer
-  - Email: jkoonce@bernhardcapital.com (INFERRED from ZoomInfo pattern)
-- **Chris Dillon** - Partner
-  - Email: cdillon@bernhardcapital.com (INFERRED from ZoomInfo pattern)
+### Jim Bernhard - Founder & Partner (In Memoriam)
+- Co-founded the firm
 
-### Senior Leadership
-
-- **Jonathan Batarseh** - Chief Financial Officer
-- **Lucie Kantrow** - General Counsel
-- **Jeff Baudier** - Senior Managing Director
+### Other Key Partners
+- **Mark Spender**: Partner & Chief Investment Officer
+- **Jeffrey Koonce**: Partner & Chief Compliance Officer
+- **Chris Dillon**: Partner
 
 ### Managing Directors
+- **Jeff Baudier**: Senior Managing Director
+- **Patrick Bernhard**: Managing Director
+- **Jonathan de Lauréal**: Managing Director
+- **Thomas Henley**: Managing Director
+- **Ryan Lemoine**: Managing Director
+- **Jonathan Parnell**: Managing Director
+- **Phillip Preis**: Managing Director
+- **Chris Ringswald**: Managing Director
+- **Jeff Yuknis**: Managing Director
 
-- Patrick Bernhard
-- Jonathan de Lauréal
-- Thomas Henley
-- Ryan Lemoine
-- Jonathan Parnell
-- Phillip Preis
-- Chris Ringswald
-- Jeff Yuknis
+## Firm Details
+- **Offices**: 
+  - 400 Convention Street, 10th Floor, Baton Rouge, LA 70802
+  - 1100 Poydras Street, Suite 3500, New Orleans, LA 70113
+  - 5511 Virginia Way, Unit 310, Brentwood, TN 37027
+- **Team**: Fully-integrated operational and investment management experts
+- **Culture**: Former operators with boots-on-the-ground experience
+
+## Investment Focus
+### Fund III Platforms
+- **AEC (Architecture, Engineering, Construction)**: Focus on modern, sustainable civic infrastructure
+  - Education sector
+  - Justice sector
+  - Healthcare sector
+- **Department of Energy Services**: Energy efficiency, utilities
+- **Environmental Services**: Aventia platform (habitat management, restoration)
+- **Natural Gas Distribution**: Delta Utilities (CenterPoint Energy acquisition)
+
+## Target Companies
+- **Type**: Middle-market services and infrastructure businesses
+- **Geography**: North America
+- **Characteristics**: Essential services, recurring revenue, operational improvement opportunities
+
+## Value Creation
+- Operational experience from former executives
+- Infrastructure and services expertise
+- Platform building through strategic M&A
+- Focus on resilient, essential industries
 
 ## Contact Information
+- **General Email**: [email protected]
+- **Website**: https://www.bernhardcapital.com
+- **Decision-Maker**: Jeff Jenkins (jeff@bernhardcapital.com)
 
-**General Inquiry:** info@bernhardcapital.com
+## Research Notes
+- Email verified via ContactOut (publicly listed 2024-05-08)
+- Strong operational background from founders
+- Focus on critical infrastructure = recession-resistant
+- Active platform building in Fund III
+- **Gumbo Score**: 7/10 - Strong fit (services focus, operational expertise)
 
-**Offices:**
-- 400 Convention Street, 10th Floor, Baton Rouge, LA 70802
-- 1100 Poydras Street, Suite 3500, New Orleans, LA 70113
-- 5511 Virginia Way, Unit 310, Brentwood, TN 37027
-
-**Phone:** Available on website
-
-## Email Pattern (INFERRED 2026-03-29)
-**Format:** [first_initial][last]@bernhardcapital.com  
-**Status:** ⚠️ INFERRED (not officially verified)
-**Source:** ZoomInfo pattern analysis for Patrick Bernhard (p***@bernhardcapital.com)
-**Note:** Pattern not verified via RocketReach/LeadIQ. Use with caution.
-
-## Notes
-
-- Services and infrastructure-focused firm with strong operational DNA
-- Recent activity includes sale of United Utility Services to Sandbrook Capital (March 2026)
-- Emphasis on critical infrastructure and services that "keep the world going"
-- Email pattern inferred from ZoomInfo but not verified through multiple sources
-
-## Research Status
-
-**Last Updated:** 2026-03-29 08:05 AM  
-**Research Status:** Complete - Email pattern inferred (not verified)  
-**Source:** Official website team pages, LinkedIn, ZoomInfo pattern inference  
-
----
-
-*This dossier compiled for PE outreach research. Contact information based on publicly available sources.*
+## Last Updated
+2026-03-29

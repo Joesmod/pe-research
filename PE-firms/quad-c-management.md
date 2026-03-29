@@ -1,140 +1,64 @@
 # Quad-C Management
 
-**Website:** https://www.quadcmanagement.com/  
-**Location:** Charlottesville, Virginia  
-**Founded:** 1989  
-**Focus:** Middle-market private equity, generalist  
-**AUM:** ~$1.7 billion (Fund 10)  
-
 ## Overview
+- **Founded**: 1989
+- **Location**: Charlottesville, VA
+- **AUM**: $1.7B+ (Fund 10)
+- **Focus**: Middle-market generalist PE
+- **Website**: https://www.quadcmanagement.com
 
-Quad-C Management is a generalist private equity firm that makes control investments in middle-market companies operating in a wide range of industries. Founded in 1989, the firm has a long history of partnering with entrepreneurs and management teams to accelerate growth and create long-term value.
+## Investment Strategy
+Middle-market buyout firm with focus on four core sectors: business services, healthcare, industrials, and transportation. Long-term partnership approach with management teams.
 
-## Investment Criteria
+## Target Sectors
+1. **Business Services**: Software, data/analytics, business process outsourcing
+2. **Healthcare**: Services, distribution, technology
+3. **Industrials**: Manufacturing, specialty distribution
+4. **Transportation**: Logistics, freight services
 
-- **Enterprise Value:** $100-500 million
-- **Equity Investment:** $50-150 million
-- **Type:** Majority positions, control investments
-- **Geography:** North America
-- **Deal Types:** LBOs, recapitalizations, corporate divestitures, growth financings
+## Key Personnel
 
-## Investment Focus Sectors
+### Tony Ignaczak - Managing Partner
+- **Email**: ari@qc-inc.com (verified via Success.ai)
+- **LinkedIn**: https://www.linkedin.com/in/anthony-ignaczak-b39b469
+- **Tenure**: Joined Quad-C in 1992 (30+ years)
+- **Prior**: Merrill Lynch Merchant Banking, Drexel Burnham Lambert M&A
 
-- **Business Services** (Lead: Tim Billings)
-- **Healthcare** (Lead: Frank Winslow)
-- **Industrials** (Lead: Tom Hickey)
-- **Transportation & Logistics** (Lead: Michael Brooks, Tom Hickey)
-- **Specialty Distribution** (Lead: Thad Jones, Michael Brooks)
-- **Building Products & Services** (Lead: Thad Jones)
-- **Packaging** (Lead: Frank Winslow)
-- **Food & Beverage** (Lead: Michael Brooks)
+### Other Key Partners
+- **Terry Daniels**: Founder (1989)
+- **Steve Burns**: Managing Partner
+- **Tim Billings**: Partner (Business Services)
+- **Michael Brooks**: Partner (Transportation)
+- **Tom Hickey**: Partner (Industrials)
+- **Frank Winslow**: Partner (Healthcare)
 
-## Key Team Members
+## Firm Details
+- **Managing Partners**: 3
+- **Total Partners**: 9
+- **Average Partner Tenure**: 23 years
+- **Team Stability**: Partners have worked together since 1994
 
-### Partners
+## Target Companies
+- **EBITDA**: $10M - $50M
+- **Type**: Growth-oriented businesses with sustainable competitive advantages
+- **Geography**: North America
+- **Characteristics**: Experienced management teams, established track records
 
-- **Terry Daniels** - Founder (1989)
-  - Established investment philosophy and culture of the firm
-  - Board member for portfolio companies
-  - Decades of experience in operations, corporate development, and executive management
-
-- **Tim Billings** - Partner
-  - Joined 2008
-  - Leads business services sector investments
-  - Previously Principal at MidOcean Partners (NY/London)
-
-- **Michael Brooks** - Partner
-  - Joined 2007
-  - Leads transportation/logistics, specialty distribution, food & beverage
-  - Previously Leveraged Finance Group at Bear Stearns
-
-- **Steve Burns** - Partner
-  - Joined 1994
-  - Investments in building products, business services, specialty chemicals, packaging, transportation/logistics, food
-  - Previously Risk Arbitrage & Leveraged Capital at Paribas, Corporate Development at W.R. Grace
-
-- **Tom Hickey** - Partner
-  - Joined 2008
-  - Leads industrials and transportation/logistics sectors
-  - Previously Managing Director at Castle Harlan (NY)
-
-- **Tony Ignaczak** - Partner
-  - Joined 1992
-  - Building products, business services, healthcare, transportation/logistics
-  - Previously Merchant Banking at Merrill Lynch, M&A at Drexel Burnham Lambert
-
-- **Thad Jones** - Partner
-  - Joined 1998
-  - Leads specialty distribution and building products/services
-  - Previously corporate finance at Robinson-Humphrey and Croft & Bender
-
-- **Jack Walker** - Partner
-  - Joined 2011
-  - Focus on business services sector
-  - Previously analyst at Bank of America Merrill Lynch
-
-- **Frank Winslow** - Partner
-  - Joined 1998
-  - Leads healthcare and packaging sectors
-  - Previously consultant at Public Financial Management (Quantitative Strategies)
-
-### Operating Team
-
-- **Joseph April** - Managing Director, Portfolio Optimization
-  - Focus on financial management and business services
-  - Background in interim management finance positions at Phoenix Management Services
+## Fund Performance
+- **Current Fund**: Fund 10
+- **Investment History**: 100+ platform investments since 1989
 
 ## Contact Information
+- **General Email**: info@qc-inc.com
+- **Phone**: (434) 979-2070
+- **Address**: 240 W Main Street Suite 600, Charlottesville, VA 22902
+- **Decision-Maker**: Tony Ignaczak (ari@qc-inc.com)
 
-**General Inquiry:** info@qc-inc.com
+## Research Notes
+- Email verified via Success.ai (publicly listed)
+- Very stable team with long tenure
+- Generalist approach across four defined sectors
+- **Gumbo Score**: 6/10 - Moderate fit (business services sector overlap)
 
-**Address:**  
-240 W Main Street, Suite 600  
-Charlottesville, VA 22902  
-United States
-
-**Phone:** (434) 979-2070
-
-### Verified Email Pattern (2026-03-29)
-**Format:** First.Last@quadcmanagement.com (70% verified via LeadIQ)
-
-**Direct Emails (Verified Pattern):**
-- **Terry Daniels** (Founder): Terry.Daniels@quadcmanagement.com
-- **Tim Billings** (Partner, Business Services): Tim.Billings@quadcmanagement.com
-- **Tom Hickey** (Partner, Industrials): Tom.Hickey@quadcmanagement.com
-- **Frank Winslow** (Partner, Healthcare): Frank.Winslow@quadcmanagement.com
-
-**Source:** Official team page + LeadIQ email pattern verification
-
-## Recent Activity
-
-- Currently investing Fund 10 with commitments of approximately $1.7 billion
-- Recent investment in eDiscovery AI (February 2026)
-- Active investor with portfolio of 61 companies as of Jan 2026
-- 40 funding rounds and 24 acquisitions (historical)
-
-## Portfolio Characteristics
-
-The firm seeks companies with:
-- Experienced management teams
-- Established track records
-- Sustainable competitive advantages
-- Attractive growth opportunities
-
-## Notes
-
-- One of the longer-tenured middle-market PE firms (35+ years)
-- Strong sector expertise with dedicated leads for each vertical
-- Generalist approach allows flexibility across multiple industries
-- No public direct emails found for partners
-- Email domain appears to be @qc-inc.com
-
-## Research Status
-
-**Last Updated:** 2026-03-29  
-**Research Status:** Complete - No public direct emails found  
-**Source:** Official website, LinkedIn, PitchBook, Tracxn, ZoomInfo pattern hints  
-
----
-
-*This dossier compiled for PE outreach research. Contact information based on publicly available sources.*
+## Last Updated
+2026-03-29

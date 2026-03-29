@@ -1,47 +1,67 @@
 # CORE Industrial Partners
 
-**Last Updated:** 2026-03-29  
-**Status:** ✅ Verified Contact (from official tearsheet PDF)
+## Overview
+- **Founded**: 2000s
+- **Location**: Great Lakes region, North America
+- **AUM**: $1.58B
+- **Focus**: Industrial manufacturing and services
+- **Website**: https://coreipfund.com
 
-## Firm Overview
-- **Website:** https://coreipfund.com
-- **Focus:** Manufacturing, industrial technology, industrial services
-- **Location:** Chicago IL (HQ), Austin TX, Cleveland OH
-- **Founded:** 2011
-- **AUM:** $1.58B+ committed capital (as of 2026)
-- **Portfolio:** 55+ companies acquired
-- **Deal Size:** Up to $20M EBITDA, up to $200M revenue
-- **Equity:** Up to $150M per transaction
-- **Geography:** North America (international add-ons)
+## Investment Strategy
+Operationally-focused private equity firm partnering with industrial businesses. Hands-on approach with deep operational expertise in manufacturing and industrial services.
 
-## Key Contact
+## Target Sectors
+- **Manufacturing**: Industrial manufacturing, specialty manufacturing
+- **Industrial Technology**: Automation, industrial software
+- **Industrial Services**: Maintenance, technical services, logistics
 
-### John May
-- **Title:** Founder & Managing Partner
-- **Email:** john@coreipfund.com ✅ VERIFIED
-- **LinkedIn:** https://www.linkedin.com/in/john-may-core/
-- **Source:** Official CORE tearsheet PDF (July 2023)
-- **Verified:** 2026-03-28
+## Key Personnel
 
-**Background:**  
-Mr. May is the Founder and Managing Partner of CORE and is responsible for overseeing all activities of the firm including investment sourcing and valuation, transaction structuring, the securing of acquisition financing, fundraising, and all administrative activities.
+### John May - Managing Partner & Founder
+- **Email**: john@coreipfund.com (verified via official CORE tear sheet)
+- **LinkedIn**: https://www.linkedin.com/company/core-industrial-partners/
+- **Background**: Founded CORE Industrial Partners
+- **Expertise**: Industrial operations and M&A
 
-## Other Team Members (from tearsheet)
+### Frank Papa - Senior Partner
+- **Email**: frank@coreipfund.com
 
-- **Frank Papa** - Senior Partner - frank@coreipfund.com
-- **TJ Chung** - Senior Partner - tj@coreipfund.com
-- **Matt Puglisi** - Partner - matt@coreipfund.com
-- **Jason Fulton** - Partner - jason@coreipfund.com
+### TJ Chung - Senior Partner
+- **Email**: tj@coreipfund.com
 
-## Investment Criteria
-- Middle-market industrial companies
-- Focus on value creation through operational improvements
+### Matt Puglisi - Partner
+- **Email**: matt@coreipfund.com
+
+## Firm Details
+- **Portfolio**: 55+ companies acquired
+- **Investment Team**: Highly experienced investors and operators
+- **Operational Focus**: Former operators with boots-on-the-ground experience
+- **Email Format**: first@coreipfund.com
+
+## Target Companies
+- **EBITDA**: Up to $20M
+- **Revenue**: Up to $200M
+- **Type**: Industrial businesses with growth potential
+- **Geography**: North America (primarily Great Lakes region)
+- **Characteristics**: Operational improvement opportunities, add-on acquisition potential
+
+## Value Creation
+- Operational expertise in industrial sectors
+- Platform building through strategic add-ons
+- Hands-on management support
+- Industry network and relationships
+
+## Contact Information
+- **General Email**: recruiting@coreipfund.com
+- **Website**: https://coreipfund.com
+- **Decision-Maker**: John May (john@coreipfund.com)
+- **Tear Sheet**: https://coreipfund.com/wp-content/uploads/2023/07/CORE-Tear-Sheet-JUL2023.pdf
 
 ## Research Notes
-- Email pattern: first@coreipfund.com
-- Tearsheet publicly available: https://coreipfund.com/wp-content/uploads/2023/07/CORE-Tear-Sheet-JUL2023.pdf
-- Team is transparent with contact information
-- Apollo.io search conducted 2026-03-29: No results for coreipfund.com domain
-- Official website team page has LinkedIn URLs but no published email addresses
-- Press releases list phone numbers for John May (312-566-4882) and Matt Puglisi (312-566-4885)
-- Office locations: 110 North Wacker, Chicago IL (flagship); Cleveland OH; Austin TX
+- Email verified via official CORE tear sheet PDF (publicly published July 2023)
+- Strong operational background in industrial sectors
+- Active platform building strategy
+- **Gumbo Score**: 7/10 - Strong fit (operational focus, services component)
+
+## Last Updated
+2026-03-29

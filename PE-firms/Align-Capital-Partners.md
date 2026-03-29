@@ -1,48 +1,55 @@
 # Align Capital Partners
 
-**Website:** https://aligncp.com  
-**Founded:** 2016  
-**Headquarters:** Cleveland, OH & Dallas, TX  
-**AUM:** $1.5B in committed capital (per LinkedIn 2026)
+## Overview
+- **Founded**: 2016
+- **Location**: Cleveland, OH / Dallas, TX
+- **AUM**: $1.5B
+- **Focus**: Lower-middle market, growth-oriented PE
+- **Website**: https://aligncp.com
 
-## Investment Focus
-- **Sectors:** Business Services, Manufacturing, Distribution
-- **Stage:** Growth equity, platform investments
-- **Geography:** North America
-- **Check Size:** Lower middle market
+## Investment Strategy
+Growth-oriented private equity firm partnering with business owners and management teams. Focus on creating "shared success" through operational partnerships.
 
-## Key Contacts
+## Target Sectors
+- **Business Services**: B2B services, software-enabled services
+- **Manufacturing**: Specialty manufacturing, value-added distribution
+- **Distribution**: Wholesale distribution, logistics
 
-### Chris Jones
-- **Title:** Co-Founder & Managing Partner
-- **Email:** cjones@aligncp.com
-- **Phone:** 216-505-8645
-- **LinkedIn:** https://www.linkedin.com/in/chrisjones
-- **Bio:** Co-founder with 10+ years B2B experience
-- **Source:** Official website team page (verified 2026-03-28)
+## Key Personnel
 
-### Rob Langley
-- **Title:** Co-Founder & Managing Partner
-- **Email:** rlangley@aligncp.com
-- **LinkedIn:** https://www.linkedin.com/in/roblangley
-- **Bio:** Co-founder with 10+ years B2B experience
-- **Source:** Official website blog post (verified 2026-03-28)
+### Chris Jones - Managing Partner & Co-Founder
+- **Email**: cjones@aligncp.com (verified via ContactOut)
+- **LinkedIn**: https://www.linkedin.com/in/chris-jones-7a945b/
+- **Background**: 20+ years in private equity and M&A
+- **Education**: Northwestern University Kellogg School of Management
+- **Location**: Greater Cleveland
 
-## Investment Thesis
-- Lower middle market growth PE
-- Focus on B2B business services, manufacturing, and distribution
-- Partnership approach with management teams
+### Rob Langley - Managing Partner & Co-Founder
+- Co-founded Align Capital Partners in 2016
 
-## Notes
-- Founded 2018 - relatively young firm
-- Dual office locations (Cleveland & Dallas)
-- Active in lower middle market deals
-- Strong B2B focus
+## Firm Details
+- **Co-Founders**: Chris Jones, Rob Langley
+- **Offices**: Cleveland, OH and Dallas, TX
+- **Team**: Dual office structure for national coverage
+- **Investment Approach**: Partnership-focused, operational value-add
 
-## Research Updates
-- Initial enrichment: 2026-03-28
-- Updated: 2026-03-29
-  - Apollo.io search for aligncp.com domain: No results
-  - Official team page (https://aligncp.com/team/) lists names and LinkedIn URLs but no email addresses
-  - AUM updated to $1.5B per LinkedIn company page
-  - Founded year corrected to 2016 (not 2018)
+## Target Companies
+- **Revenue**: Lower-middle market
+- **Type**: Established businesses with growth potential
+- **Geography**: North America
+- **Characteristics**: Strong management teams, differentiated market positions
+
+## Contact Information
+- **General Email**: InvestorRelations@AlignCapital.com
+- **Phone**: (512) 575-3350
+- **Website**: https://www.aligncapital.com/
+- **Decision-Maker**: Chris Jones (cjones@aligncp.com)
+
+## Research Notes
+- Email verified via ContactOut (publicly listed 2025-05-01)
+- Relatively young firm (founded 2016) but experienced leadership
+- Dual-location strategy (Cleveland + Dallas) for geographic coverage
+- **Gumbo Score**: 7/10 - Strong fit (business services focus, growth orientation)
+
+## Last Updated
+2026-03-29
