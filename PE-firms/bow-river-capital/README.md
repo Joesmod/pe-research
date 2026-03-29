@@ -1,6 +1,6 @@
 # Bow River Capital
 
-**Last Updated:** 2026-03-29 04:35 AM CST
+**Last Updated:** 2026-03-29 6:05 PM CST (added Ben Schnakenberg + 2 other PE team members)
 
 ## Firm Overview
 
@@ -44,6 +44,11 @@
 - **Richard C. Wham** - Partner, Co-Head of Investor Relations
 - **Rick A. Pederson** - Partner, Head of Research
 - **John P. Raeder** - Partner, Head of Software Investments
+
+### Private Equity Team
+- **Ben Schnakenberg** - Managing Director, Private Equity (joined Jan 2022, press release on bowrivercapital.com)
+- **Jeremy Held** - Managing Director, Bow River Advisers (Evergreen Fund team)
+- **Erick Podwill** - Director, Evergreen Private Equity (joined Sept 2025, press release)
 
 ## Investment Strategies
 

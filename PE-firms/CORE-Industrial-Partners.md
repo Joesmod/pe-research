@@ -1,11 +1,12 @@
 # CORE Industrial Partners
 
 ## Overview
-- **Founded**: 2000s
-- **Location**: Great Lakes region, North America
-- **AUM**: $1.58B
-- **Focus**: Industrial manufacturing and services
+- **Founded**: 2000s (John May founded the firm)
+- **Location**: Chicago, Austin, Cleveland (Great Lakes region)
+- **AUM**: $1.58B across 4 funds
+- **Focus**: Industrial manufacturing, industrial technology, industrial services
 - **Website**: https://coreipfund.com
+- **LinkedIn**: https://www.linkedin.com/company/coreipfund
 
 ## Investment Strategy
 Operationally-focused private equity firm partnering with industrial businesses. Hands-on approach with deep operational expertise in manufacturing and industrial services.

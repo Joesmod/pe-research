@@ -129,5 +129,6 @@ Email: admin@vistria.com
 
 ---
 
-**Last Researched:** 2026-03-27 by Jim  
-**Confidence Level:** High (official sources verified)
+**Last Researched:** 2026-03-27 by Jim (initial), 2026-03-29 (confirmed David Schuppan)  
+**Confidence Level:** High (official sources verified)  
+**Update:** David Schuppan verified as Senior Partner & Co-Head of Healthcare via growthcapadvisory.com profile (2026-03-29 cron)
