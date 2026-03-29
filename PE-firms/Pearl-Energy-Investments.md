@@ -1,46 +1,73 @@
 # Pearl Energy Investments
 
-**Website**: https://www.pearl-energy.com  
-**Location**: Dallas, TX  
-**Type**: Energy-focused private equity  
-**AUM**: $3.0 billion
+**Location:** Dallas, Texas  
+**Founded:** ~2010 (after Billy Quinn left Natural Gas Partners)  
+**AUM:** ~$3 billion  
+**Focus:** Energy private equity
 
 ## Overview
-Pearl Energy Investments is a Dallas-based investment firm focused on partnering with proven management teams to invest in the North American energy sector.
 
-## Team
-- **Billy Quinn**: Managing Partner & Founder
-  - Sits on boards of most Pearl portfolio companies including Permian Resources, SLANT Energy, Infinity Natural Resources
-  - Education: Stanford University Graduate School of Business
-  - LinkedIn: https://www.linkedin.com/in/billyquinn5/
-  
-- **Stewart Coleman**: Partner
-- **Steven Cobb**: Partner  
-- **Kevin Manuel Pohler**: Partner
-- **David Levinson**: Managing Director & Chief Operating Officer
-- **A. Chris Aulds**: Operating Partner & Founder
-- **Deena Ridley**: Chief Financial Officer
-- **Frank Opolski**: Vice President of Accounting
-- **Mathias Kibikas**: Vice President
-- **Sam Jackson**: Associate
-- **Thomas Bockholt**: Associate
-- **Whitney Brown**: Office Manager & Executive Assistant
-- **Rachel Farrall**: Executive Administrative Assistant
+Pearl Energy Investments is a Dallas-based private equity firm specializing in energy sector investments. Founded by Billy Quinn after nearly 20 years as Co-Managing Partner at Natural Gas Partners (NGP), Pearl has built a reputation as one of the most successful energy-focused PE funds based on net ROI over the last 20 years.
 
-## Investment Focus
-- **Sector**: North American energy
-- **Stage**: Growth and operational improvement
-- **Portfolio**: Permian Resources, SLANT Energy, Infinity Natural Resources
+## Investment Strategy
 
-## Intelligence
-- **Team Tenure**: Cohesive, aligned investment team with longstanding history
-- **Email Pattern**: Likely firstinitiallastname@pearl-energy.com (NOT verified)
-- **Phone**: (from Crunchbase, if available)
+- **Sector:** Energy (upstream, midstream, energy services)
+- **Geography:** North America, with primary focus on U.S. shale plays
+- **Deal Size:** Typically $50M-$500M equity investments
+- **Approach:** Control and minority investments
+- **Current Portfolio:** Includes Permian Resources, SLANT Energy, Infinity Natural Resources, Spring Valley Acquisition Corp.
 
-## Outreach Notes
-- **Challenge**: Energy-focused, may not be ideal fit for AI/digital transformation
-- **Alternative Angle**: Portfolio operations, ESG/sustainability tech for energy sector
-- **Best Contact**: VP or Director level more likely to have published contact info
+## Key Leadership
 
-## Research Date
-March 3, 2026
+**Billy Quinn** - Founder & Managing Partner
+- LinkedIn: https://www.linkedin.com/in/billyquinn5/
+- Background:
+  - Co-Managing Partner at Natural Gas Partners (NGP) for ~20 years before founding Pearl
+  - Prior roles at Rainwater, Inc. and Hicks, Muse, Tate and Furst
+  - Investment banking experience at Bear Stearns & Co. and BT Securities
+- Education:
+  - B.S.E. in Finance (honors) from Wharton School, University of Pennsylvania
+  - M.B.A. from Stanford Graduate School of Business
+- Active Boards: Serves on boards of most Pearl portfolio companies
+- Other: Guest lecturer on private equity at Stanford GSB
+
+## Contact Information
+
+**Website:** https://www.pearl-energy.com  
+**Firm Phone:** (Contact via website)  
+**LinkedIn:** https://www.linkedin.com/company/pearl-energy-investments
+
+**Status:** Direct email not published on official sources. Apollo API shows potential email pattern but not verified from official sources (2026-03-29).
+
+## Research Notes
+
+- Recognized in D CEO Magazine (Aug 2024) as catalyst behind some of U.S.'s most successful energy funds
+- Pearl Energy Investments was behind the country's most successful energy fund over the last 20 years based on net ROI
+- Currently deploying another ~$1 billion in capital
+- Team page: https://www.pearl-energy.com/team
+- Billy Quinn's profile: https://www.pearl-energy.com/team/billy-quinn
+
+## Outreach Status
+
+- **Sheet Row:** 658
+- **Status:** Research
+- **Contact Verified:** Billy Quinn (Founder & Managing Partner)
+- **Email:** Not found on official sources
+- **Last Updated:** 2026-03-29
+
+## Why Relevant for Hello Gumbo
+
+**Fit Score:** Medium
+
+**Pros:**
+- Mid-sized fund ($3B AUM) in sweet spot for PE outreach
+- Proven track record and strong returns
+- Active portfolio management with hands-on approach
+- Portfolio companies likely need operational transformation services
+
+**Cons:**
+- Energy sector may have different tech/ops priorities than typical service businesses
+- Highly specialized sector focus (energy only)
+- Contact information not publicly accessible
+
+**Recommendation:** Monitor for conference appearances or speaking engagements where contact info might be shared. Consider industry-specific approaches (energy tech conferences, Houston PE events).
