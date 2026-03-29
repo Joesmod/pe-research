@@ -1,51 +1,34 @@
 # Riverside Partners
 
-## Overview
-- **Location:** Boston, MA
-- **Website:** https://riversidepartners.com
-- **Founded:** 1989
-- **Focus:** Middle-market technology and healthcare companies
-- **AUM:** $500M+ (as of 2011)
-- **Investment Range:** $20-200M revenue, $5-25M EBITDA
+**Location:** Boston, MA  
+**Website:** https://riversidepartners.com/  
+**AUM:** ~$5B+  
+**Focus:** Healthcare, Business Services, Technology
 
 ## Key Contact
-**Jon Lemelman**
-- **Title:** General Partner
-- **Email:** jlemelman@riversidepartners.com ✅ VERIFIED
-- **Phone:** (617) 351-2810 (Direct)
-- **Office:** One Exeter Plaza, 699 Boylston St., 8th Floor, Boston, MA 02116
-- **Source:** Official press release (riversidepartners.com, 2011)
 
-## Additional Team (from website)
-- **Steve** - Partner (began career at BCG, MIT degrees in EE/CS and Management)
-- **Craig** - 22 years PE & operations experience, joined 2012 as VP
+**David Belluck**  
+- Title: General Partner
+- Email: dbelluck@riversidepartners.com
+- Phone: 617-351-2806
+- LinkedIn: https://www.linkedin.com/in/david-belluck-9a469a40/
 
-## Investment Philosophy
-- Partner-focused approach
-- Long-term success orientation
-- Deep sector expertise in technology & healthcare
-- "Capital, industry expertise, and network of relationships"
+## Overview
 
-## Contact Information
-- **Main Office:** 699 Boylston Street, 14th Floor, Boston, MA 02116
-- **Phone:** 617.351.2800
-- **Fax:** 617.351.2801
-- **Email (General):** info@riversidepartners.com
+Riverside Partners is a lower middle-market private equity firm investing since 1988. The firm has 30+ years of experience and focuses on healthcare, business services, and technology sectors.
 
-## Advisory Boards
-Extensive **Healthcare Advisory Board** including:
-- Dr. Donald Berwick (Former CMS Administrator, Harvard Medical School)
-- Dr. David Shulkin (Former Secretary, US Dept of Veterans Affairs)
-- Multiple other healthcare C-level executives and board members
+## Recent Activity
 
-Separate **Clinical Advisory Board** with medical professionals
+- Multiple healthcare services and technology investments
+- Strong track record with founder-led businesses
+- Active M&A strategy with portfolio companies
 
-## Research Date
+## Source Notes
+
+- Contact verified from official Riverside Partners press release (PR Newswire)
+- Email confirmed in multiple official press releases
+- Team page: https://riversidepartners.com/team
+
+## Enrichment Date
+
 2026-03-29
-
-## Notes
-- NOT currently in Hello Gumbo PE tracking sheet
-- Strong fit for services-heavy PE outreach
-- Well-established firm (35+ years)
-- Healthcare focus aligns with services sector
-- Verified contact available for direct outreach
