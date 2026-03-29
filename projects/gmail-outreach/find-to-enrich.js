@@ -1,88 +1,85 @@
 const { google } = require('googleapis');
+const key = require('./service-account.json');
 
-const SHEET_ID = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
-const SERVICE_ACCOUNT_FILE = 'service-account.json';
-
-async function findToEnrich() {
-  const auth = new google.auth.GoogleAuth({
-    keyFile: SERVICE_ACCOUNT_FILE,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-  });
+async function findLeadsToEnrich() {
+  const auth = new google.auth.JWT(
+    key.client_email,
+    null,
+    key.private_key,
+    ['https://www.googleapis.com/auth/spreadsheets']
+  );
   
   const sheets = google.sheets({ version: 'v4', auth });
+  const sheetId = '11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4';
   
   const response = await sheets.spreadsheets.values.get({
-    spreadsheetId: SHEET_ID,
-    range: 'Sheet1!A:N',
+    spreadsheetId: sheetId,
+    range: 'Sheet1!A:J',
   });
   
-  const rows = response.data.values || [];
-  const header = rows[0];
+  const rows = response.data.values;
+  const headers = rows[0];
   
-  // Column indices
-  const companyCol = 0;
-  const contactCol = 2;
-  const emailCol = 4;
-  const statusCol = 9;
-  const notesCol = 11;
+  // Find indices
+  const companyIdx = headers.findIndex(h => h && h.toLowerCase().includes('company'));
+  const websiteIdx = headers.findIndex(h => h && h.toLowerCase().includes('website'));
+  const nameIdx = headers.findIndex(h => h && h.toLowerCase().includes('contact') && h.toLowerCase().includes('name'));
+  const titleIdx = headers.findIndex(h => h && h.toLowerCase().includes('title'));
+  const emailIdx = headers.findIndex(h => h && h.toLowerCase().includes('email'));
+  const statusIdx = headers.findIndex(h => h && h.toLowerCase().includes('status'));
   
-  console.log('🔍 Finding leads that need enrichment...\n');
-  
-  const needEnrichment = [];
-  const nonPEFirms = [];
+  const needsEnrichment = [];
   
   for (let i = 1; i < rows.length; i++) {
-    const row = rows[i];
-    const company = row[companyCol] || '';
-    const contact = row[contactCol] || '';
-    const email = row[emailCol] || '';
-    const status = row[statusCol] || '';
+    const row = rows[i] || [];
+    const company = row[companyIdx] || '';
+    const website = row[websiteIdx] || '';
+    const contactName = row[nameIdx] || '';
+    const email = row[emailIdx] || '';
+    const status = row[statusIdx] || '';
     
-    if (!company) continue; // Skip empty rows
+    // Skip if no company name
+    if (!company || company.trim() === '') continue;
     
-    // Check if it's a non-PE firm (investment bank, search firm, etc.)
-    const nonPEKeywords = ['Search Partners', 'Capital Advisors', 'Investment Bank', 'Advisory', 'M&A'];
-    const isLikelyNonPE = nonPEKeywords.some(keyword => company.includes(keyword));
+    // Skip if already has good contact
+    const hasValidContact = contactName && 
+                           !contactName.includes('Team') && 
+                           !contactName.includes('Contact') &&
+                           !contactName.includes('Business Development');
     
-    // Check if it needs enrichment
-    const hasGenericEmail = email && (email.includes('info@') || email.includes('ir@') || email.includes('sales@') || email.includes('contact@'));
-    const needsContact = !contact || contact.trim() === '';
-    const needsEmail = !email || email.trim() === '' || hasGenericEmail;
+    const hasDirectEmail = email && 
+                          !email.includes('info@') && 
+                          !email.includes('sales@') && 
+                          !email.includes('ir@') &&
+                          !email.includes('businessdevelopment@') &&
+                          !email.includes('contact@');
     
-    if (needsContact || needsEmail) {
-      const rowData = {
-        row: i + 1,
+    // Needs enrichment if missing name or has generic email
+    if (!hasValidContact || !hasDirectEmail) {
+      needsEnrichment.push({
+        rowNum: i + 1,
         company,
-        contact,
+        website,
+        contactName,
         email,
         status,
-        reason: []
-      };
-      
-      if (needsContact) rowData.reason.push('Missing contact');
-      if (!email || email.trim() === '') rowData.reason.push('Missing email');
-      if (hasGenericEmail) rowData.reason.push('Generic email');
-      
-      if (isLikelyNonPE) {
-        nonPEFirms.push(rowData);
-      } else if (!status.includes('Dead')) {
-        needEnrichment.push(rowData);
-      }
+        reason: !hasValidContact ? 'Missing contact name' : 'Generic/missing email'
+      });
     }
   }
   
-  console.log(`📊 Found ${needEnrichment.length} PE firms needing enrichment:\n`);
-  needEnrichment.slice(0, 15).forEach(item => {
-    console.log(`Row ${item.row}: ${item.company}`);
-    console.log(`  Reason: ${item.reason.join(', ')}`);
-    console.log(`  Current: ${item.contact || '(no contact)'} / ${item.email || '(no email)'}`);
-    console.log('');
-  });
+  // Show top 20 candidates
+  console.log(`\nFound ${needsEnrichment.length} leads needing enrichment\n`);
+  console.log('TOP 20 CANDIDATES FOR ENRICHMENT:\n');
   
-  console.log(`\n🚫 Found ${nonPEFirms.length} non-PE firms to mark as Dead:\n`);
-  nonPEFirms.slice(0, 10).forEach(item => {
-    console.log(`Row ${item.row}: ${item.company}`);
+  needsEnrichment.slice(0, 20).forEach((lead, idx) => {
+    console.log(`${idx + 1}. Row ${lead.rowNum}: ${lead.company}`);
+    console.log(`   Current: ${lead.contactName} | ${lead.email}`);
+    console.log(`   Website: ${lead.website}`);
+    console.log(`   Reason: ${lead.reason}`);
+    console.log(`   Status: ${lead.status}`);
+    console.log('');
   });
 }
 
-findToEnrich().catch(console.error);
+findLeadsToEnrich().catch(console.error);
