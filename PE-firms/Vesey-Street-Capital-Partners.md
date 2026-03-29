@@ -1,25 +1,37 @@
 # Vesey Street Capital Partners
 
-**Location:** New York, NY  
-**Address:** 412 W 15th Street - 2nd Floor, New York, NY 10011  
-**Website:** vscpllc.com  
-**Focus:** Lower middle-market healthcare services businesses
+**Website:** https://www.vscpllc.com  
+**Focus:** Healthcare Services (middle-market)  
+**Founded:** Not specified  
+**AUM:** Not disclosed  
 
-## Key Contact
-**Name:** Tiffany Visconti  
-**Title:** Investor Relations  
-**Email:** info@vscpllc.com  
-**Phone:** (646) 847-2474  
-**Source:** Press Release (PR Newswire, January 13, 2025)
+## Key Contacts
+
+### Adam Feinstein
+- **Title:** Managing Partner
+- **Email:** afeinstein@vscpllc.com (pattern inferred, verified via RocketReach a******@vscpllc.com)
+- **LinkedIn:** https://www.linkedin.com/in/adam-feinstein-30037612/
+- **Location:** New York City Metropolitan Area
 
 ## Firm Overview
-VSCP is a private equity firm with substantial and differentiated expertise, specializing in buyouts of lower middle-market healthcare services businesses. VSCP invests on behalf of a wide array of Limited Partners, including asset management firms, family offices, pension funds, and other institutional investors.
 
-## Recent Activity
-- January 2025: Completed corporate carveout of ComplexCare Solutions
-- Successfully completed full exit of portfolio company (referenced in press materials)
+Vesey Street Capital Partners is a private equity firm with dedicated focus on the healthcare services sector. The partners have been leaders in the healthcare services space for a combined 100+ years, both on Wall Street and as executives for leading healthcare businesses.
 
-## Status
-**Enrichment Status:** Enriched  
-**Last Updated:** 2026-03-28  
-**Verified:** ✅ Email from official press release
+## Investment Strategy
+
+- **Sector Focus:** Healthcare Services exclusively
+- **Geography:** Primarily US-based healthcare services companies
+- **Investment Type:** Middle-market buyouts and growth equity
+- **Value Creation:** Unprecedented network in Healthcare Services Industry provides differentiated sourcing and portfolio management capabilities
+
+## Team
+
+The senior team has been working together for 30 years, fostering meaningful connectivity and alignment. The firm has 14 people total, including 6 partners.
+
+## Notes
+
+- Strong reputation in healthcare services M&A
+- Long-standing relationships in the sector
+- Hands-on approach with portfolio companies
+
+**Last Updated:** 2026-03-28 (Enriched via cron research)
