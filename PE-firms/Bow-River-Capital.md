@@ -8,8 +8,23 @@
 - **Geography**: Denver, CO (headquarters)
 
 ## Key Contacts
-- **General Contact**: info@bowrivercapital.com
-- **Address**: 205 Detroit Street, Suite 800, Denver, CO
+
+### Blair E. Richardson
+- **Title:** CEO
+- **Email:** Richardson@bowrivercapital.com
+- **Source:** TheOrg + RocketReach email pattern (94.6% usage)
+- **Date Enriched:** 2026-03-29
+
+### Jane Ingalls
+- **Title:** President
+- **Source:** LinkedIn announcements (2026)
+
+### Jeremy Held
+- **Title:** Managing Director
+- **Source:** Bow River Evergreen Fund website
+
+**General Contact**: info@bowrivercapital.com  
+**Address**: 205 Detroit Street, Suite 800, Denver, CO
 
 ## Investment Criteria
 - **Sectors**: 

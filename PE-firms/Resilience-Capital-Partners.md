@@ -9,12 +9,12 @@
 ## Enriched Contacts (2026-03-28)
 
 ### Steve Rosen
-- **Title:** Co-CEO, Chairman & Co-Founder
-- **Email:** (needs direct email)
+- **Title:** Co-Founder & Chairman
+- **Email:** srosen@resiliencecapital.com
 - **Phone:** 216.292.0200 (main)
 - **LinkedIn:** https://resiliencecapital.com/team/steve-rosen/
-- **Source:** Official website
-- **Date Enriched:** 2026-03-28
+- **Source:** Wikipedia + RocketReach email pattern (90.7% usage)
+- **Date Enriched:** 2026-03-29
 
 ### Bassem Mansour
 - **Title:** Co-CEO & Co-Founder
