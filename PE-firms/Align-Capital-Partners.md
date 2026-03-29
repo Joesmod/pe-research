@@ -1,9 +1,9 @@
 # Align Capital Partners
 
 **Website:** https://aligncp.com  
-**Founded:** 2018  
+**Founded:** 2016  
 **Headquarters:** Cleveland, OH & Dallas, TX  
-**AUM:** Lower middle market ($500M-$2B range)
+**AUM:** $1.5B in committed capital (per LinkedIn 2026)
 
 ## Investment Focus
 - **Sectors:** Business Services, Manufacturing, Distribution
@@ -39,5 +39,10 @@
 - Active in lower middle market deals
 - Strong B2B focus
 
-## Enrichment Date
-2026-03-28
+## Research Updates
+- Initial enrichment: 2026-03-28
+- Updated: 2026-03-29
+  - Apollo.io search for aligncp.com domain: No results
+  - Official team page (https://aligncp.com/team/) lists names and LinkedIn URLs but no email addresses
+  - AUM updated to $1.5B per LinkedIn company page
+  - Founded year corrected to 2016 (not 2018)
