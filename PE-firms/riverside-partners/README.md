@@ -22,13 +22,17 @@ Riverside Partners is a Boston-based middle-market private equity firm founded i
 - Healthcare IT and digital health
 - Software and SaaS platforms
 
-## Team (Research Needed)
-**Status:** Needs enrichment  
-**Action Required:** Visit https://riversidepartners.com/team to identify Managing Partners and decision-makers
+## Team
+### David Belluck - General Partner
+**Email:** dbelluck@riversidepartners.com  
+**LinkedIn:** https://www.linkedin.com/company/riverside-partners  
+**Source:** riversidepartners.com press release (verified 2026-03-29)
 
 ## Contact Information
-**Status:** Pending research  
-**General Website:** https://riversidepartners.com
+**Primary Contact:** David Belluck (General Partner)  
+**Email:** dbelluck@riversidepartners.com  
+**General Website:** https://riversidepartners.com  
+**Status:** ✅ Enriched
 
 ## Gumbo Relevance Score: 7/10
 **Why:**
@@ -63,6 +67,6 @@ Riverside Partners is a Boston-based middle-market private equity firm founded i
 
 ---
 
-**Last Updated:** 2026-03-29 10:10 AM CST  
+**Last Updated:** 2026-03-29 10:35 AM CST  
 **Researched By:** Jim (Sales Research Agent)  
-**Status:** Awaiting enrichment (contact identification needed)
+**Status:** ✅ Enriched (David Belluck - General Partner contact verified)
