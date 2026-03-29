@@ -1,56 +1,44 @@
 # Thomas H. Lee Partners (THL)
 
-**Website:** https://thl.com  
-**LinkedIn:** https://www.linkedin.com/company/thomas-h-lee-partners
-
-## Key Contacts
-
-### Leadership Team
-
-**Tony DiNovi**
-- **Title:** Chairman
-- **Email:** NOT FOUND (not officially published)
-- **Source:** Wikipedia, industry reports
-
-**Tom Hagerty**
-- **Title:** Managing Director
-- **Email:** NOT FOUND (not officially published)
-- **Source:** Wikipedia, Management Committee listing
-
-**Zachary C. Gut**
-- **Title:** Managing Director
-- **Email:** NOT FOUND (not officially published)
-- **Source:** Crunchbase
-
-**Scott M. Sperling**
-- **Title:** Co-Chief Executive Officer
-- **Email:** NOT FOUND (not officially published)
-- **Source:** Craft.co, Bloomberg
-
-## Firm Overview
+## Overview
+- **AUM:** $30B+ (est. based on fund size and history)
+- **Focus:** Growth-stage software, technology, healthcare
+- **Sectors:** Technology, Healthcare, Business Services
 - **Founded:** 1974
-- **Location:** Boston, Massachusetts
-- **Headquarters:** Putnam (Massachusetts)
-- **AUM:** Managing $210B+ in transaction value since inception
-- **Focus Areas:**
-  1. Financial Technology & Services
-  2. Healthcare
-  3. Technology & Business Solutions
-- **Strategy:** Middle-market growth companies
-- **Mission:** Partner with management teams to build great companies of lasting value
+- **HQ:** Boston, MA
 
-## Recent Activity
-- **2022:** Majority investment in Bynder (Digital Asset Management platform)
-- **Ranking:** #82 among top 300 PE firms (Private Equity International, 2022)
+## Key People
+- **Scott Sperling** - Co-Chief Executive Officer
+  - LinkedIn: https://www.linkedin.com/in/scott-sperling-thl
+  - Email pattern: @thl.com (verified from muraena.ai)
+- **Anthony DiNovi** - Co-Chief Executive Officer (previously mentioned as co-president)
+- **Mark Bean** - Managing Director (Healthcare/Technology focus)
 
-## Historical Note
-- Firm's namesake **Thomas H. Lee** left the company (no longer involved)
-- Current management led by Management Committee
+## Contact
+- **General:** communications@thl.com
+- **Website:** https://thl.com
 
-## Research Notes
-- **Date:** 2026-03-03
-- **Researcher:** Jim
-- **Data Sources:** Official website, Wikipedia, Crunchbase, Craft.co, RocketReach
-- **Email Availability:** No individual emails published on official sources
-- **RocketReach Pattern:** first_initial_last@thl.com (91.6% confidence - NOT VERIFIED)
-- **Generic Contacts:** Available via website for general inquiries
+## Investment Thesis
+- Hands-on partner to great companies
+- Early-stage to established businesses
+- Technology transformation focus
+- Operating experts "in the trenches" with management teams
+- Drive innovation and growth
+- 50+ years as investors and operators
+
+## Recent Activity (2022-2025)
+- Bynder (Digital Asset Management) - majority investment Sept 2022
+- IMO Health acquisitions (Melax Technologies)
+- Active in healthcare IT and software verticals
+
+## Notes
+- Legendary PE firm (50+ years history)
+- Strong healthcare + technology convergence focus
+- PixSeat could fit healthcare/live events angle
+- Boston HQ, established relationships in New England
+- Operating expertise model aligns with value-add pitch
+
+## Research Status
+- ✅ Firm profile complete
+- ⚠️ Scott Sperling email pattern identified but not fully verified from official source
+- Source: thl.com + LinkedIn (2026-03-29)

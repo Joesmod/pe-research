@@ -1,59 +1,39 @@
 # Bow River Capital
 
 ## Overview
-- **Website:** https://www.bowrivercapital.com/
-- **AUM:** ~$3.6 billion
-- **Founded:** 2003
+- **AUM:** ~$2.5B+ (as of 2025)
+- **Focus:** Mid-market private equity
+- **Sectors:** Healthcare services, Industrials, Lower middle-market software
+- **Founded:** Early 2000s
 - **HQ:** Denver, Colorado
-- **Focus:** Healthcare services, industrials, lower-middle-market software, real estate, asset-based finance
 
-## Investment Strategy
-Mid-market private equity firm with diversified strategy across:
-- Healthcare services
-- Industrial & manufacturing
-- Software growth equity
-- Real estate
-- Asset-based finance
-- Private credit
+## Key People
+- **Greg Hiatrides** - Managing Director
+  - Active in healthcare investments
+  - Led Amazing Care (pediatric home health) and Veregy (energy efficiency) deals
 
-## Key Contacts
-
-### Leadership
-- **Blair E. Richardson** - Chief Executive Officer & Co-Founder
-  - LinkedIn: [Profile](https://www.linkedin.com/in/blair-richardson)
-  - Email: Not publicly available
-  - Background: Formed Bow River Capital in 2003. Prior: Managing Partner of B.E. Richardson Investments
-
-- **Jane C. Ingalls** - President, Chief Operating Officer
-
-- **Greg J. Hiatrides** - Partner, Head of Private Equity
-  - Focus: Leading PE investments
-
-- **Mark Hantho** - Executive Chairman
-
-### Contact
+## Contact
 - **General:** info@bowrivercapital.com
-- **Phone:** Not publicly listed
-- **Address:** Denver, Colorado
+- **Website:** https://www.bowrivercapital.com
 
-## Portfolio Focus
-- Healthcare services companies
-- Specialty manufacturing
-- Industrial technology
-- Software businesses (lower middle market)
+## Investment Thesis
+- Regional leader focus
+- Patient-first culture (healthcare)
+- Value creation through operational excellence
+- Technology enablement
 
-## Fit for Hello Gumbo
-- ✅ Healthcare services focus (aligned with Gumbo's healthcare vertical)
-- ✅ Mid-market size ($3.6B AUM)
-- ✅ Operational improvement focus
-- ⚠️ No direct contact email found - requires LinkedIn outreach or generic info@ contact
+## Recent Activity (2020-2026)
+- Amazing Care (pediatric home health) - 2022
+- Veregy (energy efficiency solutions) - Exited 2020
+- Active in healthcare services consolidation
 
-## Research Notes
-- Researched: 2026-03-28
-- Source: Official website, ZoomInfo, Crunchbase
-- Status: Research Only - No Direct Email
-- Next Steps: Consider LinkedIn outreach to Greg Hiatrides (PE lead) or Blair Richardson (CEO)
+## Notes
+- Strong healthcare services track record
+- Denver-based, familiar with Colorado market
+- Mid-market focus aligns with Hello Gumbo profile
+- Would benefit from PixSeat for portfolio companies in live events/venues
 
-## Additional Resources
-- [Bow River Capital Team Page](https://www.bowrivercapital.com/team)
-- [Crunchbase Profile](https://www.crunchbase.com/organization/bow-river-capital-partners)
+## Research Status
+- ✅ Firm profile complete
+- ⚠️ Need direct email for Greg Hiatrides or another investment partner
+- Source: bowrivercapital.com press releases (2026-03-29)
