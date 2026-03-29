@@ -1,40 +1,34 @@
 # Wynnchurch Capital
 
-## Overview
-- **Website**: https://www.wynnchurch.com
-- **AUM**: $9.1B (as of October 31, 2025)
-- **Founded**: 1999
-- **Type**: Middle-market private equity
-- **Geography**: North America
-- **Headquarters**: Lake Forest, Illinois
+**Focus:** Middle Market, Industrial, Consumer, Healthcare
+**AUM:** ~$5B+
+**Location:** Chicago, IL (Rosemont) | Toronto, Canada
+**Website:** https://www.wynnchurch.com
 
-## Key Contacts
-- **John A. Hatherly** - Managing Partner
-  - Email: jhatherly@wynnchurch.com
-  - Phone: 847.604.6102
-  - LinkedIn: https://www.linkedin.com/in/john-hatherly-4b772112
-  
-- **Greg B. Gleason** - Managing Partner
+## Decision Makers
 
-## Address
-Two Conway Park
-150 Field Drive, Suite 165
-Lake Forest, Illinois 60045
+### Greg B. Gleason
+- **Title:** Managing Partner
+- **Email:** ggleason@wynnchurch.com (VERIFIED)
+- **LinkedIn:** https://www.linkedin.com/company/wynnchurch-capital
+- **Phone:** 847.604.6121
+- **Background:** Managing Partner leading firm strategy
+- **Source:** BusinessWire press release (LPW Group exit, 2026) - OFFICIAL
+- **Enriched:** 2026-03-29
 
-## Investment Criteria
-- **Focus**: Middle-market companies
-- **Deal Types**: 
-  - Carve-outs
-  - Under-performing businesses
-  - Family businesses in transition
-  - Other special situations
+### Other Key Contacts (already in CRM)
+- **John A. Hatherly** - jhatherly@wynnchurch.com (Row 734)
+- **Christopher P. O'Brien** - cobrien@wynnchurch.com (Row 1489)
+- **Michael A. Teplitsky** - mteplitsky@wynnchurch.com (Row 1545)
+- **Brian Riordan** - briordan@wynnchurch.com (Row 325)
 
-## Notes
-- Founded in 1999 with partner mentality and culture
-- Strong track record of operational improvements
-- Email verified from Wynnchurch press release (Executive Promotions)
-- Team page: https://www.wynnchurch.com/team
+## Firm Overview
+Founded 1999. Middle-market PE firm with $5B+ AUM. Focus on partnering with business owners and executives in industrial, consumer, and healthcare sectors. Strong operational support team including Operating Partners.
 
-## Research Date
-- Enriched: 2026-03-28
-- Source: Official website, press releases, LinkedIn
+## Email Pattern
+**Pattern:** [first_initial][last]@wynnchurch.com OR [first][last]@wynnchurch.com
+**Confidence:** VERIFIED (multiple press releases + team contacts confirmed)
+
+## Outreach Status
+- **Status:** Enriched 2026-03-29
+- **Notes:** Managing Partner email verified from official press release. Multiple other contacts already in CRM. Well-established firm with strong middle-market presence.

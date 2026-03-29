@@ -1,34 +1,47 @@
 # Gemspring Capital
 
-## Firm Overview
+## Overview
+- **Founded:** 2015
+- **Location:** Westport, Connecticut
+- **Address:** 54 Wilton Road, Westport, CT 06880
+- **AUM:** $5.1 billion
 - **Website:** https://www.gemspring.com
-- **Headquarters:** Westport, CT
-- **Office:** Los Angeles, CA
-- **Focus:** Middle-market PE, software, tech-enabled services, business services
+- **Focus:** Middle market companies (flexible capital solutions)
 
-## Key Contact
-- **Name:** Zubin Malkani
+## Key Contacts
+
+### Bret Wiener
+- **Title:** Founder & CEO
+- **Email:** bret@gemspring.com
+- **Source:** Email pattern verified via LeadIQ (First@gemspring.com)
+- **Background:**
+  - Founded Gemspring in 2015
+  - 175+ acquisitions across career
+  - Prior: Managing Director before founding firm
+
+### D.J. Andrzejewski
 - **Title:** Managing Director
-- **Email:** zmalkani@gemspring.com (verified via RocketReach)
-- **LinkedIn:** https://www.linkedin.com/in/zubin-malkani-0b2b533a
-- **Joined:** 2022 (per PR Newswire announcement)
+- **Email:** dj@gemspring.com
+- **Source:** Verified via ContactOut
+- **Background:**
+  - Prior: Partner at PeakEquity Partners (growth-stage software)
+  - 8 years at PeakEquity handling sourcing, structuring, executing investments
 
-## Email Pattern
-- **Pattern:** FLast@gemspring.com
-- **Confidence:** High (RocketReach z******@gemspring.com)
+### Jay Reynolds
+- **Title:** Managing Director
+- **Email:** jay@gemspring.com (pattern)
+- **Background:** Joined July 2022
 
 ## Firm Details
-- Multi-office structure (CT headquarters, CA presence)
-- Tech-enabled services expertise
-- Middle-market focus suggests $50-500M enterprise value targets
+- **Email Pattern:** First@gemspring.com (primary), FLast@gemspring.com (secondary 81%)
+- **Investment Approach:** Partnership approach to revenue growth and value creation
+- **Target:** Talented management teams in middle market
+- **Tech Stack:** Fastly, MySQL, Swiper, Modernizr, jQuery, ZURB Foundation, Google Analytics
+
+## Recent Activity
+- Acquired Goodyear Tire & Rubber Company's Polymer Chemicals Business (Nov 2025)
 
 ## Research Notes
-- Managing Director level indicates deal authority and P&L responsibility
-- Recent hire (2022) suggests firm growth/expansion phase
-- LA office placement positions for West Coast tech deal flow
-- Quoted in multiple portfolio company press releases (TRG, Residence acquisitions)
-
-## Enrichment History
-- **Date:** 2026-03-27
-- **Source:** RocketReach + PR Newswire validation
-- **Status:** Enriched - Verified
+- **Date Enriched:** 2026-03-29
+- **Status:** Verified MD email, strong patterns for others
+- **Next Steps:** DJ Andrzejewski has verified email; Wiener is CEO

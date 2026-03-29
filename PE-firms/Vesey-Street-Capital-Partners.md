@@ -1,25 +1,30 @@
 # Vesey Street Capital Partners
 
-**Location:** New York, NY  
-**Address:** 412 W 15th Street - 2nd Floor, New York, NY 10011  
-**Website:** vscpllc.com  
-**Focus:** Lower middle-market healthcare services businesses
+## Overview
+- **Location:** New York, NY
+- **Focus:** Healthcare services (lower middle market)
+- **Experience:** Partners with 100+ years combined in healthcare services
+- **Website:** https://www.vscpllc.com
 
-## Key Contact
-**Name:** Tiffany Visconti  
-**Title:** Investor Relations  
-**Email:** info@vscpllc.com  
-**Phone:** (646) 847-2474  
-**Source:** Press Release (PR Newswire, January 13, 2025)
+## Key Contacts
 
-## Firm Overview
-VSCP is a private equity firm with substantial and differentiated expertise, specializing in buyouts of lower middle-market healthcare services businesses. VSCP invests on behalf of a wide array of Limited Partners, including asset management firms, family offices, pension funds, and other institutional investors.
+### Tiffany Visconti
+- **Title:** Investor Relations
+- **Email:** tvisconti@vscpllc.com
+- **Phone:** (646) 847-2474
+- **Source:** Verified from PRNewswire press release (Jan 2025)
+- **Notes:** IR contact for ComplexCare Solutions carveout announcement
+
+## Firm Details
+- **Address:** 412 W 15th Street – 2nd Floor, New York, NY 10011
+- **Investment Focus:** Lower middle-market healthcare services companies
+- **Expertise:** Partners with 100+ years combined healthcare services experience
+- **Team Tenure:** Senior team working together for 30 years
 
 ## Recent Activity
-- January 2025: Completed corporate carveout of ComplexCare Solutions
-- Successfully completed full exit of portfolio company (referenced in press materials)
+- ComplexCare Solutions corporate carveout (Jan 2025)
 
-## Status
-**Enrichment Status:** Enriched  
-**Last Updated:** 2026-03-28  
-**Verified:** ✅ Email from official press release
+## Research Notes
+- **Date Enriched:** 2026-03-29
+- **Status:** Verified IR contact with direct email and phone
+- **Next Steps:** IR is good entry point for firm intro

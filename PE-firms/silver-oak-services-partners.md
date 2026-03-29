@@ -1,32 +1,46 @@
 # Silver Oak Services Partners
 
-**Location:** Evanston, IL  
-**Address:** 1560 Sherman Avenue, Suite 1200, Evanston, Illinois 60201  
-**Website:** silveroaksp.com  
-**Focus:** Business, consumer, and healthcare service companies (exclusively services)
+## Overview
+- **Location:** Evanston, Illinois
+- **Address:** 1560 Sherman Avenue, Suite 1200, Evanston, IL 60201
+- **Focus:** Services sector (business, consumer, healthcare services)
+- **Experience:** Partners average 26+ years PE investing in services sector
+- **Website:** https://www.silveroaksp.com
 
 ## Key Contacts
-**Name:** Dan Gill (Daniel M. Gill)  
-**Title:** Co-Founder & Managing Partner  
-**Email:** d******@silveroaksp.com (Pattern: first_initial+last@silveroaksp.com)  
-**Phone:** 312-231-****  
-**Source:** RocketReach + Crunchbase
 
-**Name:** Gregory M. Barr  
-**Title:** Managing Partner  
-**Email:** g******@silveroaksp.com  
-**Phone:** 847-784-****  
-**LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314/  
+### Gregory M. Barr
+- **Title:** Managing Partner & Co-Founder
+- **Email:** gbarr@silveroaksp.com
+- **LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314
+- **Source:** Verified via RocketReach, Salesgear, USSearch
+- **Education:** Harvard Business School (MBA 1989-1991), Wesleyan University (BA Economics, English 1983-1987)
 
-**Name:** Jeffrey M. Mann  
-**Title:** Partner  
+### Daniel M. Gill
+- **Title:** Managing Partner & Co-Founder
+- **Email:** dgill@silveroaksp.com (pattern inferred)
+- **Education:** University of Chicago
+- **Background:** Founder of Willis Stein & Partners
+- **Boards:** Asure Software (Lead Independent Director), The Josselyn Center (Chairman)
 
-## Firm Overview
-Silver Oak Services Partners is a lower-middle market private equity firm focused exclusively on service businesses. SOSP seeks to partner with exceptional management teams to build industry leading business, consumer and healthcare service companies. The firm utilizes a proactive, research-led investment process.
+### Wade D. Glisson
+- **Title:** Managing Partner
 
-SOSP Partners average over 26 years of private equity investing experience with a dedicated focus on the services sector.
+## Other Team Members
+- **Danielle Lalli Glines** - Partner
+- **Andrew S. Gustafson** - Partner
+- **Daniel B. Wellman** - Partner
+- **Annie C. Weinheimer** - VP Business Development
+- **Biren P. Bhansali** - Principal
+- **Paul T. Fortin** - Vice President
+- **Diana K. Fitzgerald** - CFO & Chief Compliance Officer
 
-## Status
-**Enrichment Status:** Enriched  
-**Last Updated:** 2026-03-28  
-**Verified:** ✅ Email pattern confirmed via RocketReach
+## Firm Details
+- **Email Pattern:** [first_initial][last]@silveroaksp.com or [last]@silveroaksp.com
+- **General Contact:** info@silveroaksp.com
+- **Investment Focus:** Lower-middle market service businesses exclusively
+
+## Research Notes
+- **Date Enriched:** 2026-03-29
+- **Status:** Verified managing partner emails
+- **Next Steps:** Barr or Gill are primary targets - both co-founders
