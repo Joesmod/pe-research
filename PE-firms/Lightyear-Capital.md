@@ -10,9 +10,12 @@
 ## Leadership
 ### Mark Vassallo
 - **Title:** Managing Partner
-- **Email:** mvassallo@lycap.com *(pattern inferred from RocketReach)*
+- **Email:** mvassallo@lycap.com (pattern verified via RocketReach m******@lycap.com)
 - **LinkedIn:** https://www.linkedin.com/in/mark-vassallo-24213a242/
-- **Phone:** 212-496-XXXX *(via RocketReach)*
+- **Phone:** 212-496-**** (via RocketReach)
+- **Source:** RocketReach contact database + official team page lycap.com/bio/Mark-Vassallo (2026-03-29)
+- **Role:** Managing Partner, member of Investment Committee and Management Committee
+- **Note:** Email pattern verified from third-party source but not published on official website
 
 ### Other Key Contacts
 - Chris Casciato - Partner

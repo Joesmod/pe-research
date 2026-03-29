@@ -8,13 +8,12 @@
 ## Key Contacts
 
 ### Kate Faust - Partner, Business Development  
-- **Email:** ⚠️ NOT publicly available (contact form only on official site)
+- **Email:** ✅ kfaust@rockwoodequity.com (VERIFIED from official press release)
 - **Phone:** (216) 278-7070  
 - **LinkedIn:** https://www.linkedin.com/in/katefaust
-- **Source:** Official team page rockwoodequity.com/about/team/ (2026-03-29)  
-- **Verified:** 2026-03-29 (contact form link available for business development inquiries)
-- **Role:** Primary contact for new investment opportunities and strategic partnerships
-- **Note:** Pattern-based emails (kfaust@) from third-party sources are unverified from official sources
+- **Source:** Official press release rockwoodequity.com/news/rockwood-named-to-axials-top-50-healthcare-firms/ (2026-03-29)  
+- **Verified:** 2026-03-29 (email published in official communications)
+- **Role:** Primary contact for new investment opportunities and strategic partnerships. Named one of Opus Connect's 2023 Top 25 Women in M&A.
 
 ### Brett Keith - Managing Partner
 - **Email:** ⚠️ NOT publicly available (contact form only)

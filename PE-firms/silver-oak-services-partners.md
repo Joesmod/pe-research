@@ -11,11 +11,12 @@
 
 ### Gregory M. Barr
 - **Title:** Managing Partner & Co-Founder
-- **Email:** ⚠️ NOT publicly available (pattern-based emails from RocketReach unverified)
-- **Phone:** 847.332.0400 (main office)
+- **Email:** ✅ gbarr@silveroaksp.com (VERIFIED from official press releases)
+- **Phone:** 847.332.0401 (direct line)
 - **LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314
-- **Source:** Official team page silveroaksp.com/team (2026-03-29)
+- **Source:** Official press release silveroaksp.com/news-article/silver-oak-services-partners-is-actively-looking-for-opportunities-in-the-transportation-and-logistics-industry-alongside-industry-executive (2026-03-29)
 - **Education:** Harvard Business School (MBA 1989-1991), Wesleyan University (BA Economics, English 1983-1987)
+- **Note:** Email published in multiple official Silver Oak press releases for investment opportunities
 
 ### Daniel M. Gill
 - **Title:** Managing Partner & Co-Founder
