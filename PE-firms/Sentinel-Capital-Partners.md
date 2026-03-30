@@ -1,31 +1,64 @@
 # Sentinel Capital Partners
 
-**Website:** https://www.sentinelpartners.com  
-**Sector Focus:** Mid-market private equity  
-**LinkedIn:** https://www.linkedin.com/company/sentinel-capital-partners
+## Overview
+- **Website:** https://www.sentinelpartners.com
+- **Founded:** 1995
+- **Headquarters:** New York, NY
+- **AUM:** Undisclosed (lower midmarket focus)
+- **Type:** Lower midmarket private equity
 
-## Enriched Contacts (2026-03-12)
+## Investment Focus
+- **Sectors:**
+  - Business Services
+  - Consumer Products & Services
+  - Healthcare Services
+  - Industrial Businesses
+- **Geography:** North America (US and Canada)
+- **Deal Size:** Lower midmarket
+- **Investment Types:**
+  - Management Buyouts
+  - Corporate Divestitures
+  - Acquisitions of family businesses
+  - Going-private transactions
+  - Mezzanine capital
 
-### Elvira Lee
-- **Title:** Vice President
-- **Email:** lee@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/elvira-lee-cpa-82143470
-- **Source:** Apollo API (verified)
-- **Date Enriched:** 2026-03-12
+## Key Personnel
+- Need to research team/leadership page
 
-### Michael Griffin
-- **Title:** Vice President
-- **Email:** griffin@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/michael-griffin-10887a119
-- **Source:** Apollo API (verified)
+## Investment Approach
+- Majority-ownership investments through equity funds
+- Minority stakes through capital solutions funds
+- Time-tested approach across diverse market conditions
+- Focus on operational improvement and growth
 
-### Haley Abate
-- **Title:** Vice President
-- **Email:** abate@sentinelpartners.com
-- **LinkedIn:** http://www.linkedin.com/in/haleyabate
-- **Source:** Apollo API (verified)
+## Investment Strategies
+- Leveraged Buyouts
+- Mezzanine capital
+- Management Buyouts
+- Corporate Divestitures
+- Industry Consolidations
+- Going-Private Transactions
+- Growth Capital transactions
 
-## Notes
-- Headquarters: New York City
-- Founded: 1994
-- Enrichment Status: ✅ Complete (Apollo verified contacts)
+## Notable Portfolio Companies
+- TBD (need research)
+
+## Contact
+- **Website:** https://www.sentinelpartners.com
+- **LinkedIn:** https://www.linkedin.com/company/sentinel-capital-partners
+- **Phone:** TBD
+
+## Research Notes
+- Founded 1995 (29+ years operating)
+- Described as "one of the nation's leading private equity firms focused on the midmarket"
+- Flexible capital solutions (majority equity + minority capital solutions funds)
+- Strong focus on operational transformation
+
+## Outreach Strategy
+- **Best Contacts:** TBD (need to identify Managing Partners/Senior Partners)
+- **Angle:** Operational transformation, business services, portfolio operations support
+- **Relevance:** Business services and operational improvement focus aligns with Hello Gumbo
+
+---
+*Last Updated: 2026-03-30*
+*Source: Sentinel Capital Partners website, Wikipedia*

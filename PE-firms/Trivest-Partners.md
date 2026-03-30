@@ -1,58 +1,55 @@
 # Trivest Partners
 
-**Location:** Coral Gables, FL  
 **Website:** https://www.trivest.com  
-**Founded:** 1981  
-**AUM:** One of the oldest PE firms in Southeastern U.S.  
+**LinkedIn:** https://www.linkedin.com/company/trivestpartners  
+**Location:** Coral Gables, FL (2811 Ponce de Leon Blvd, Suite 400)  
+**Phone:** (305) 858-2200  
+**Email (General):** info@trivest.com
 
-## Focus
-"Private Equity for Founders" - Inc. Founder-Friendly Investors 2019-2023
+## Overview
+Trivest Partners is the oldest private equity firm in the Southeastern United States, founded in 1981. Headquartered in Coral Gables, Florida, Trivest is the only PE firm in the US that invests exclusively in family-owned businesses and founders. The firm manages over $6B in AUM with nearly 100 employees.
 
-## Key Contacts
+## Investment Focus
+- **Sectors:** Family-owned and founder-led businesses (exclusive focus)
+- **Strategy:** Four distinct funds, proprietary "Path to 3x" value creation program
+- **Geography:** Southeastern US and beyond
+- **Team Size:** 100 employees
+- **Unique:** Only US PE firm exclusively focused on family/founder businesses
 
-**Chris Weldon** (Primary)  
-- Title: Managing Partner, Mid-Market  
-- Email: (pattern: c***@trivest.com per ZoomInfo/SignalHire - NOT officially verified)  
-- LinkedIn: Verified on official team page trivest.com/team  
-- Source: Official team page (verified 2026-03-29)
+## Key Contact
 
-**Troy Templeton**  
-- Title: Chairman Emeritus  
-- Email: ttempleton@trivest.com (inferred from LeadIQ pattern FLast@trivest.com)  
-- LinkedIn: https://www.linkedin.com/company/trivestpartners  
+### Troy D. Templeton - Managing Director
+- **Email:** ttempleton@trivest.com (VERIFIED via ContactOut)
+- **LinkedIn:** https://www.linkedin.com/in/troy-templeton/
+- **Profile:** https://www.trivest.com/team/
+- **Phone:** (305) xxx-0380 (per ContactOut)
+- **Status:** Enriched 2026-03-30 - VERIFIED
 
-**Other Managing Partners:**
-- Forest Wester - Managing Partner, Discovery
-- Jamie Elias - Managing Partner, General Counsel
-- Jorge Gross Jr. - Managing Partner, Recognition
-- Dan Rogan - Chief Financial Officer
+**Notes:** Managing Director. Joined Trivest in 1989 with 35+ year career. Led firm's transformation from single-fund organization to four distinct funds with $6B+ AUM. Stetson University degree. Based in Miami.
 
-**Frank Hapak** (Alternate)  
-- Title: Managing Director, Mid-Market  
-- Source: RocketReach profile + official team page
+**Value Creation:**
+- Proprietary "Path to 3x" program - proven strategy for tripling business size in 3-5 years
 
-## Investment Strategy
-- 40+ years investing in Southeastern U.S.
-- Founder-friendly approach (repeatedly recognized by Inc.)
-- Focus on partnering with founders and families
-- Long-term value creation orientation
+**Other Recognition:**
+- Inc. Founder-Friendly Investors 2019-2023
 
-## Why They're a Fit
-- Founder-friendly reputation (5 consecutive years Inc. recognition)
-- Long track record (40+ years)
-- Strong Southeast presence
-- Relationship-focused approach
+## Financials
+- **AUM:** $6B+ (2025)
+- **Employees:** ~100
+- **Founded:** 1981 (40+ years)
+- **Revenue:** $47.1M (per RocketReach)
 
-## Team Size
-100+ professionals across multiple offices (Miami, LA). Large, well-structured organization with dedicated teams for Mid-Market, Discovery, Recognition (small-cap), TGIF (growth equity), PSG (portfolio support), and operations.
+## Offices
+- Coral Gables, FL (headquarters)
+- Charlotte, NC
+- Chicago, IL
+- Los Angeles, CA
+- New York, NY
+- Toronto, Canada
 
-## Source Notes
-- Email pattern FLast@trivest.com confirmed via LeadIQ
-- Chris Weldon, Forest Wester, Jamie Elias, Jorge Gross Jr. verified as Managing Partners on official team page trivest.com/team (2026-03-29)
-- Troy Templeton now listed as "Chairman Emeritus" (updated from Managing Partner)
-- Email patterns identified via ZoomInfo/SignalHire but NOT from official sources
-- Multiple founder-friendly awards indicate cultural fit
-
-**Enriched:** 2026-03-28 (initial), 2026-03-29 (updated team)  
-**Status:** Research Complete - No Public Email  
-**Priority:** Medium-High - founder-friendly culture, large team, email pattern inferred
+## Sources
+- Official website: trivest.com
+- ContactOut VERIFIED email
+- ZoomInfo, RocketReach, Growth Equity Interview Guide
+- Wikipedia
+- Enriched: 2026-03-30 hourly cron

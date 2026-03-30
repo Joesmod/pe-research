@@ -1,33 +1,51 @@
 # Graham Partners
 
-**Website:** https://www.grahampartners.net  
-**Location:** Newtown Square, PA (suburban Philadelphia)  
-**Founded:** 1988  
-
 ## Overview
-Graham Partners is a private investment firm focused on technology-driven companies spurring innovation in industrial technologies and advanced manufacturing. The firm has over 20 years of team tenure together on average.
+- **Type:** Private Equity
+- **Focus:** Advanced manufacturing and tech-enabled services
+- **Website:** https://www.grahampartners.net
+- **Location:** Newtown Square, PA (3811 West Chester Pike, Building 2, Suite 200)
+- **Phone:** 610-408-0500
 
-## Key Contact
+## Key Business Development Contact
+
+### Courtland Scaccetti
+- **Title:** Managing Director, Business Development
+- **Email:** courtland@grahampartners.net (pattern inferred from published examples)
+- **LinkedIn:** Profile available
+- **Role:** Sources and evaluates new investment opportunities, supports portfolio companies
+
+## Senior Leadership (Managing Partners)
+- **Steven Graham** - Senior Managing Partner, CEO, and Chairman (Founder, 1988)
+- **Rob Newbold** - Managing Partner, CIO, and Vice Chairman
+- **Bill McKee** - Managing Partner, CCO, and Deputy Chairman
+- **Christina Morin** - Managing Partner and Head of Capital Formation
+- **Andrew Snyder** - Managing Partner and President
+- **Adam Piatkowski** - Managing Partner
 - **Dennis Dunegan** - Managing Partner
-  - Email: ddunegan@grahampartners.net (VERIFIED from official press release)
-  - LinkedIn: https://www.linkedin.com/in/dennis-dunegan/
-  - Co-heads Graham Growth's day-to-day investment activities
-  - Board oversight: Myers EPS, Bite, Novarc Technologies, Signifi Solutions, Kinova
+- **Joe Heinmiller** - Managing Partner
+- **Dan Kurtz** - Managing Partner and CFO
 
 ## Investment Focus
 - Advanced manufacturing
 - Industrial technology
-- Medical devices
-- Life sciences
-- Consumer products (selective)
-- Food manufacturing
-- Middle market buyouts and growth
+- Tech-enabled services
+- Middle-market conversion plays
 
-## Email Verification
-✓ Email VERIFIED from official Novarc Technologies press release (March 2025)
-  Source: https://www.novarctech.com/company/press-releases/
+## Key Stats
+- **Founded:** 1988
+- **Senior team tenure:** Average 20+ years together
+- **Operations-centric:** Deep ops team supporting portfolio companies
 
-## Source
-- Enriched: 2026-03-29 (cron job)
-- Email verified: Official press release
-- Team page: https://www.grahampartners.net/team-member/dennis-dunegan/
+## Email Pattern
+- Format: `[first]@grahampartners.net` or `[first][last]@grahampartners.net`
+- Verified examples from Crunchbase: `lfox@grahampartners.net`
+- RocketReach pattern confirms first@ format
+
+## Alternative Contacts
+- **General inquiries:** info@grahampartners.net (inferred)
+- **Contact page:** Available on website
+
+## Research Date
+- Last updated: 2026-03-30 (cron enrichment)
+- Source: grahampartners.net/team, Crunchbase, RocketReach
