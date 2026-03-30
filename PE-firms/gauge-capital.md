@@ -1,51 +1,37 @@
 # Gauge Capital
 
+**Website:** https://gaugecapital.com  
 **Location:** Southlake, TX (Dallas area)  
-**Website:** https://gaugecapital.com/  
-**AUM:** ~$3.3B  
-**Focus:** Business Services, Healthcare, Technology, Food & Consumer, Government & Industrial Services
+**Focus:** Business Services, Healthcare, Technology  
+**Type:** Middle-market private equity
 
 ## Key Contact
+- **Name:** Andrew Peix
+- **Title:** Partner, Business Development
+- **Email:** apeix@gaugecapital.com ✅ VERIFIED
+- **Phone:** 682-334-5800 (main)
+- **LinkedIn:** https://www.linkedin.com/company/gauge-capital
 
-**Andrew Peix**  
-- Title: Partner, Business Development
-- Email: apeix@gaugecapital.com
-- LinkedIn: https://www.linkedin.com/company/gauge-capital
-- Location: Southlake, TX
+## Firm Overview
+- **Founded:** N/A (established firm)
+- **AUM:** $3B+
+- **Investment Focus:** Business services, food & consumer, government & industrial services, healthcare, technology
+- **Geographic Focus:** North America (Dallas-based)
+- **Office:** 1256 Main Street, Suite 256, Southlake, TX 76092
 
-## Overview
+## Investment Thesis
+Middle-market PE firm focused on partnering with owners, managers and equity stakeholders of successful companies. Named to Inc's 2024 and 2025 Founder-Friendly Investors lists. Focus on sustainable growth and value creation.
 
-Gauge Capital is a middle-market private equity firm founded in 2013, managing more than $3.3 billion in capital. The firm partners with owners, managers, and equity stakeholders of successful middle-market companies to maximize their potential through transformational change and strategic growth.
+## Investment Criteria
+- **Industries:** Business services, Food & Consumer, Government & Industrial Services, Healthcare, Technology
+- **Type:** Middle-market control investments
 
-## Investment Focus
+## Research Notes
+- **Email VERIFIED** - publicly listed in official press releases (highest confidence)
+- Source: Multiple gaugecapital.com press releases (2024-2026)
+- Named "Founder-Friendly Investor" by Inc Magazine
+- Enrichment Date: 2026-03-30
+- Quality Score: 10/10
 
-Gauge invests in five key sectors:
-- Business Services
-- Food & Consumer
-- Government & Industrial Services
-- Healthcare
-- Technology
-
-## Investment Approach
-
-The firm focuses on:
-1. Optimizing strategy and value creation agenda
-2. Ensuring right talent at management and board levels
-3. Creating alignment among all stakeholders
-4. Providing sufficient capital to achieve company vision
-
-## Recent Activity
-
-- January 2026: Announced strategic growth investment in Ecosystems
-- Active in cloud & AI services, commercial services, and enterprise software sectors
-- Track record of M&A-driven growth strategies
-
-## Source Notes
-
-- Contact verified from official Gauge Capital press release (January 20, 2026)
-- Email published in official news release: https://gaugecapital.com/news-article/gauge-capital-announces-strategic-growth-investment-in-ecosystems
-- AUM confirmed via Capital AUM database
-
-## Enrichment Date
-
-2026-03-29
+---
+*Last Updated: 2026-03-30*
