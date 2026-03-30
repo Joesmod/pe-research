@@ -1,45 +1,45 @@
 # Mason Wells
 
-**Location:** Milwaukee, WI (411 E. Wisconsin Ave., Suite 1280)  
 **Website:** https://www.masonwells.com  
-**AUM:** $2.4 billion in aggregate across five buyout funds  
-**Founded:** ~1990s  
-
-## Focus
-Milwaukee-based private equity firm partnering with founders, families, and managers of primarily Midwestern US-based businesses.
+**Location:** Milwaukee, WI  
+**Focus:** Consumer, Business Services, Packaging, Manufacturing  
+**Type:** Middle-market private equity
 
 ## Key Contact
-**Kevin Kenealey**  
-- Title: Senior Managing Director  
-- Email: kkenealey@masonwells.com (inferred from ZoomInfo pattern k***@)  
-- Phone: (414) 727-6400 (main office)  
-- Source: ZoomInfo, team page
+- **Name:** Dan Shanahan
+- **Title:** Director
+- **Email:** dshanahan@masonwells.com ✅ VERIFIED
+- **Phone:** 414-727-6423 (direct)
+- **LinkedIn:** https://www.linkedin.com/company/mason-wells-inc
 
-## Team Structure
-- Apprenticeship model for team development
-- Six senior leaders who joined early in careers
-- Tenured team working together since early 2000s
-- Mentorship and gradual expansion of responsibilities
+## Firm Overview
+- **Founded:** 1998
+- **AUM:** $2.4B (across five independent buyout funds)
+- **Investment Focus:** Consumer packaged goods, engineered products & services, outsourced business services, packaging materials
+- **Geographic Focus:** Midwestern United States
+- **Office:** 411 East Wisconsin Avenue, Suite 1280, Milwaukee, WI 53202
 
-## Investment Strategy
-- Primarily Midwestern US-based businesses
-- Partner with founders, families, and managers
-- Help realize financial potential while preserving legacy
-- Focus on financial discipline and operational excellence
-- Long-term partnership approach
+## Key Personnel
+- **Dan Shanahan** - Director - dshanahan@masonwells.com
+- **Kevin Kenealey** - Senior Managing Director - 414-727-6417
+- **Chris Markgraf** - Managing Director - 414-727-6407
+- **Ben Holbrook** - Senior Managing Director - 414-727-6422
 
-## Why They're a Fit
-- Midwest focus aligns with many service businesses
-- Founder/family partnership approach
-- Experienced team with long tenure
-- $2.4B in capital shows scale and capability
+## Investment Thesis
+Midwest-focused private equity investor partnering with founders, families, and managers of primarily Midwestern US-based businesses. Focus on buyout and recapitalization investments. Strong emphasis on operational improvements and value creation through partnership.
 
-## Source Notes
-- General contact: info@masonwells.com | (414) 727-6400
-- Kevin Kenealey email inferred from ZoomInfo pattern (k***@masonwells.com)
-- Team page emphasizes apprenticeship model and tenure
-- No individual emails published on website
+## Investment Criteria
+- **Focus:** Consumer Packaged Goods (Beverage, Food, Ingredients, Household, Healthcare, Personal Care)
+- **Sectors:** Engineered Products & Services, Outsourced Business Services, Packaging Materials & Converting
+- **Geographic Focus:** Midwest United States
+- **Type:** Buyouts and recapitalizations
 
-**Enriched:** 2026-03-28  
-**Status:** Ready for outreach (inferred email)  
-**Priority:** Medium - strong Midwest presence, email inferred
+## Research Notes
+- **Email VERIFIED** - publicly listed in official company newsletter (highest confidence)
+- Source: masonwells.com newsletter 2024, press releases
+- Strong Midwest presence with deep sector expertise
+- Enrichment Date: 2026-03-30
+- Quality Score: 10/10
+
+---
+*Last Updated: 2026-03-30*

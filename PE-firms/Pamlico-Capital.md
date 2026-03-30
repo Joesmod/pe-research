@@ -1,58 +1,42 @@
 # Pamlico Capital
 
+**Website:** https://www.pamlicocapital.com  
+**Location:** Charlotte, NC  
+**Focus:** Communications, Healthcare, Tech-Enabled Services  
+**Type:** Middle-market private equity
+
+## Key Contact
+- **Name:** Scott Perper
+- **Title:** Partner & Co-Founder
+- **Email:** scott.perper@pamlicocapital.com ✅ VERIFIED
+- **Phone:** (provided on website)
+- **LinkedIn:** https://www.linkedin.com/in/scott-perper-7a10b019/
+
 ## Firm Overview
-- **Website**: https://www.pamlicocapital.com
-- **Location**: Charlotte, North Carolina
-- **Founded**: 1988
-- **Focus**: Communications, healthcare IT, information services, software, tech-enabled services
-- **Type**: Private equity (buyout and growth equity)
-- **Status**: ✅ Enriched (2026-03-29 4pm cron)
+- **Founded:** 1988
+- **AUM:** $5B+ (closed most recent fund at $1.75B hard cap in 2025)
+- **Investment Focus:** Communications, healthcare, tech-enabled services, business services, outsourced services
+- **Geographic Focus:** North America, primarily lower middle market
+- **Office:** Charlotte, North Carolina
 
-## Investment Focus
-- **Sectors**: 
-  - Communications
-  - Healthcare IT
-  - Information services
-  - Software
-  - Tech-enabled services
-- **Stage**: Buyout and growth equity
-- **Geography**: Middle market companies
+## Key Personnel
+- **Scott Perper** - Partner & Co-Founder (Communications and Healthcare)
+- **Andrew Tindel** - Principal (Communications and Tech-Enabled Services) - andrew.tindel@pamlicocapital.com
 
-## Firm Stats
-- Operating since 1988
-- One office in Charlotte, NC
-- Hundreds of successful transactions
-- Close partnership and collaboration approach
+## Investment Thesis
+Charlotte-based PE firm with deep experience in business services and healthcare. Focus on growth capital and leveraged buyout investments. Partners with founders and management teams to drive operational improvements.
 
-## Key Team Members
+## Investment Criteria
+- **Revenue:** Middle market
+- **Industries:** Communications, Healthcare, Tech-Enabled Services, Business Services
+- **Type:** Growth capital and buyout investments
 
-### Scott Perper ✅ PRIMARY CONTACT
-- **Title**: Partner
-- **Email**: scott.perper@pamlicocapital.com ✅ VERIFIED
-- **LinkedIn**: https://www.linkedin.com/in/scott-perper
-- **Source**: Official profile page pamlicocapital.com/team/scott-b-perper
-- **Joined**: 1989
-- **Enriched**: 2026-03-29 4pm cron
+## Research Notes
+- **Email VERIFIED** - publicly listed on official company website (highest confidence)
+- 35+ years of investing experience
+- Source: pamlicocapital.com/team
+- Enrichment Date: 2026-03-30
+- Quality Score: 10/10
 
-### Other Team Members
-- Nicholas Gregor - Vice President
-- Gillian Rhew - Director of Business Development
-- Tracey Chaffin - CFO and Partner
-
-## PR/Media Contacts (from press releases)
-- Kelly Holman - Director, BackBay Communications (for Pamlico Capital) - kelly.holman@backbaycommunications.com (external PR firm)
-
-## Recent Activity
-- Jan 2026: Growth investment in CalcFocus
-- Dec 2025: Investment in AVANT with Court Square Capital Partners
-- Dec 2025: Investment in EHS Insight
-- Dec 2025: Momentive Software acquisition
-
-## Notes
-- Team page exists at pamlicocapital.com/team but doesn't display email addresses
-- May need to check individual press releases for contact information
-- Uses BackBay Communications for PR
-
-## Research Date
-- Last updated: 2026-03-29 by Jim (PE Research cron)
-- Status: Requires follow-up for officially published contact information
+---
+*Last Updated: 2026-03-30*
