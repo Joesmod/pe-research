@@ -26,7 +26,17 @@ Five Arrows Principal Investments is the private equity arm of Rothschild & Co, 
 - Strong focus on value creation through operational improvements
 - Active in services-heavy industries
 
-## Source
+## Team Information
+- **Investment Professionals:** 110+ across London, New York, Paris, and San Francisco
+- **AUM:** €11B+ of capital under management
+- Investment decisions made by managing directors through quick, efficient process
+
+**Public Contact Information:** Not available on website. Decision-maker emails not publicly published.
+
+## Research Notes
 - Added: 2026-03-30
-- Status: Needs manual contact enrichment
-- Research notes: Organization found in Apollo; no public decision-maker contacts available
+- Updated: 2026-03-30 (team size verified)
+- Status: Individual contacts not publicly available
+- Research method: Web search + Rothschild & Co website (parent company)
+- Apollo API: Organization verified (fivearrows.com) but individual contact data unavailable
+- Note: Part of Rothschild & Co global network - contact likely routed through corporate channels

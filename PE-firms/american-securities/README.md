@@ -32,7 +32,45 @@ American Securities is a leading U.S. private equity firm that invests in market
 - Active portfolio company support through ASOP executives
 - Value creation through organic growth and strategic add-ons
 
-## Source
+## Key Contacts
+
+### Partners (Investment Team)
+- **Michael Fisch** - Partner
+- **James Carmichael** - Partner
+- **Ben Dickson** - Partner
+- **Matthew Fishman** - Partner
+- **David Horing** - Partner
+- **Mark Lovett** - Partner
+- **Aaron Maeng** - Partner
+- **David Musicant** - Partner
+- **Kevin Penn** - Partner
+- **David Portnoy** - Partner
+- **Michael Sand** - Partner
+- **Noah Scherz** - Partner
+- **Scott Wolff** - Partner
+
+### Resources Group (Operational Partners)
+- **B. Christopher DiSantis** - Partner
+- **Ross Andrese** - Partner
+- **Bill Fry** - Partner
+- **Sam Kopolovich** - Partner
+- **Carl Liebert** - Partner
+
+### Technology & Digital Leadership
+- **Baron Concors** - IT and Digital (Partner level)
+
+### C-Suite
+- **David Maue** - Chief Operating Officer
+- **Joe Domonkos** - Chief Financial Officer
+
+**Email Availability:** Direct emails not publicly published. Use website contact form or general inquiries.
+
+**Source:** Team page verified 2026-03-30 at https://www.american-securities.com/en/team
+
+## Research Notes
 - Added: 2026-03-30
-- Status: Needs manual contact enrichment
-- Research notes: Organization verified in Apollo (american-securities.com)
+- Updated: 2026-03-30 (contact names added)
+- Status: Contact names verified, emails not publicly available
+- Research method: Manual web scraping of official team page
+- Apollo API: Organization verified (american-securities.com) but contact data unavailable on current API tier
+- Note: Firm has 13 investment partners - large team suggests active deal flow
