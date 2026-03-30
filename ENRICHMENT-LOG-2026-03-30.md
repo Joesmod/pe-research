@@ -1,101 +1,62 @@
-# PE Research & Enrichment Log
-## Date: 2026-03-30 05:35 AM CST
-## Run Type: Hourly Cron - Enrichment Priority
+# PE Research & Enrichment Log - 2026-03-30 08:35 AM
 
-### Firms Researched
-1. Five Arrows Principal Investments
-2. American Securities
-3. Brighton Park Capital
-4. JLL Partners
-5. Norwest Equity Partners
+## Summary
+**Status:** ✅ Completed
+**Firms Enriched:** 2
+**Dossiers Created:** 2
+**Sheet Rows Updated:** 2
+**GitHub:** Committed and pushed
 
-### Verified Contacts Found (Official Sources Only)
+## Firms Enriched
 
-#### American Securities
-- **General IR**: IR@american-securities.com
-  - Source: Official contact page (american-securities.com/en/contact)
-  - Title: Investor Relations Team
-  - Status: ✅ Verified
+### 1. Sterling Investment Partners (Row 280)
+- **Contact:** Bill Macey
+- **Title:** Co-Founder and Senior Partner
+- **Email:** macey@sterlinglp.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/william-macey-650b205a/
+- **Source:** Email verified from sterlinglp.com press release (January 2023)
+- **Additional Contacts Found:**
+  - Charles Santoro (Managing Partner): santoro@sterlinglp.com
+  - James Soldano (Partner): soldano@sterlinglp.com
+- **Notes:** $3.2B+ invested, 30+ years in middle market distribution and business services
 
-- **James Guo**: jguo@american-securities.com
-  - Source: Official contact page
-  - Title: Director and Asia Regional Head
-  - Phone: +86 (21) 5419 1100 ext. 161
-  - Status: ✅ Verified
+### 2. Solamere Capital (Row 796)
+- **Contact:** Bill Duplisea
+- **Title:** Head of Business Development
+- **Email:** bd@solamerecapital.com ✅ VERIFIED
+- **LinkedIn:** (Unable to verify specific LinkedIn URL among multiple Bill Dupliseas)
+- **Source:** Email verified from solamerecapital.com/contact page
+- **Notes:** Founded 2008, 200+ strategic investor network, Boston/NY offices. Co-founders include Taggart Romney, Eric Scheuermann, Spencer Zwick, with Paul Ryan as Partner
 
-### Key Contacts Identified (No Verified Public Email)
+## Research Conducted But Not Enriched
+- **Svoboda Capital Partners:** Chicago-based, $400M+ committed capital, business services focus
+  - Issue: Could not verify individual email addresses (only found general contact info)
+  - Team identified: John Svoboda, Andrew Albert, Thomas Brooker, David Rubin
+  - Recommend: Follow up via general contact form or phone (312.267.8750)
 
-#### JLL Partners ($5B+ AUM, NYC)
-- **Dan Agroskin** - Managing Partner, Healthcare Vertical
-  - Source: Team page, confirmed on Bloomberg
-  - LinkedIn: Available but not fetched
-  - Email pattern: first_initial.last@jllpartners.com (NOT verified)
-  
-- **Gerard van Spaendonck** - Head of Value Creation
-  - Source: Team page, press release (April 2025)
-  - Oversees operational resources across portfolio
-  - Email: NOT verified from public sources
+- **HGGC:** $6.9B AUM, technology and business services
+  - Issue: Website fetch failures, unable to verify contact emails
+  - Recommend: Retry in next enrichment cycle
 
-- **Kevin Hammond** - Managing Partner, Industrials Vertical
-  - Source: Team page
-  - Email: NOT verified
+## Quality Notes
+- **Email Verification Standard:** Only added emails found in official press releases, contact pages, or other published sources
+- **No Guessing:** Rejected multiple partial emails from ZoomInfo/Adapt.io (e.g., j*******@svoco.com) - only used fully verified emails
+- **LinkedIn Verification:** Only included LinkedIn URLs that could be directly confirmed
 
-#### Norwest Equity Partners ($8B+ AUM, Minneapolis)
-- **Tim DeVries** - Managing Partner
-  - Source: Team page, press releases
-  - Leads firm strategy, opened West Palm Beach office 2024
-  - LinkedIn: Available
-  - Email: NOT verified from public sources
+## Next Steps
+1. Continue enriching remaining firms with generic/missing contacts (12 more identified)
+2. Retry HGGC research when website is accessible
+3. Consider phone outreach for Svoboda Capital Partners
+4. Add 3-5 new mid-market PE firms focused on business services (secondary goal for future runs)
 
-#### Brighton Park Capital ($4B+ AUM, NYC)
-- **Mark Dzialga** - Founder & Managing Partner
-  - Source: Team page, LinkedIn, Crunchbase
-  - LinkedIn: https://www.linkedin.com/in/mark-dzialga-109893172/
-  - Focus: Growth equity, software/tech/healthcare
-  - Email: NOT verified from public sources
+## GitHub
+- Repository: https://github.com/Joesmod/pe-research
+- Commit: e4542695
+- Files added:
+  - PE-firms/sterling-investment-partners.md
+  - PE-firms/solamere-capital.md
 
-#### Five Arrows Principal Investments (Rothschild PE arm)
-- **General Inbox**: five.investments@rothschild.com
-  - Source: ContactOut (third-party, not official)
-  - Status: Generic email, not a decision-maker contact
-
-### New Firms Added to CRM
-
-#### Bow River Capital
-- **AUM**: ~$2.5B+
-- **Location**: Denver, Colorado
-- **Focus**: Healthcare services, industrials, lower-middle-market software
-- **Founded**: 2003
-- **Media Contact**: Jenna Schlageter (jschlageter@stantonprm.com, 847-691-4471)
-  - Source: PR Newswire press release (Aug 2023)
-  - Note: This is PR contact, not decision-maker
-
-### Research Challenges
-1. **Apollo API Issues**: Deprecated endpoints, unable to get bulk prospecting data
-2. **Email Privacy**: Most PE firms do NOT publish individual partner emails on official sources
-3. **Public Sources**: Team pages list titles/names but no contact info
-4. **Third-Party Data**: RocketReach/ZoomInfo have emails but these are NOT from official published sources (per instructions, cannot use)
-
-### Methodology Followed
-- ✅ Searched official firm websites (team pages, contact pages)
-- ✅ Checked press releases for contact information
-- ✅ Web search for published bios, SEC filings, conference materials
-- ✅ Used web_fetch to extract official contact pages
-- ❌ Did NOT guess email patterns
-- ❌ Did NOT use unverified third-party databases as official sources
-- ❌ Did NOT hallucinate contact information
-
-### Next Steps
-1. Update Google Sheet with verified American Securities contacts
-2. Add notes for other firms with key people identified
-3. Add Bow River Capital as new firm
-4. Update GitHub dossiers
-5. Consider alternative enrichment strategy: LinkedIn outreach, conference attendee lists, public filings
-
-### Recommendation
-For better email coverage, consider:
-- LinkedIn Sales Navigator integration
-- SEC filing analysis (Form D signatories often include emails)
-- Conference speaker/attendee lists (publicly published)
-- Press release contact sections
-- Portfolio company press releases (often mention PE firm contacts)
+## Time
+- Started: 08:35 AM CST
+- Duration: ~10 minutes
+- Next run: 09:35 AM CST (hourly)
