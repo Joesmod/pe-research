@@ -9,7 +9,8 @@
 - **Name:** David Belluck
 - **Title:** General Partner
 - **Email:** dbelluck@riversidepartners.com ✅ VERIFIED
-- **LinkedIn:** https://www.linkedin.com/company/riverside-partners
+- **Phone:** 617-351-2806 (direct) | 617-351-2800 (main)
+- **LinkedIn:** https://www.linkedin.com/in/david-belluck-9a469a40/
 
 ## Firm Overview
 - **Founded:** 1989
@@ -18,8 +19,11 @@
 - **Geographic Focus:** North America
 
 ## Key Personnel
-- **David Belluck** - General Partner
-- **David Del Papa** - General Partner
+- **David Belluck** - General Partner (30+ years at Riverside, joined 1992)
+- **David Del Papa** - General Partner (joined 2012)
+- **Craig Stern** - General Partner
+- **Michelle Noon** - General Partner (joined 2008, technology focus)
+- **Max Osofsky** - General Partner (joined 2008, healthcare focus)
 
 ## Investment Thesis
 Boston-based middle-market PE firm with deep expertise in healthcare and technology. Partners with founders, owners and management teams. Brings substantial domain expertise and operating experience.
@@ -38,4 +42,4 @@ Boston-based middle-market PE firm with deep expertise in healthcare and technol
 - Quality Score: 9/10
 
 ---
-*Last Updated: 2026-03-29*
+*Last Updated: 2026-03-30*
