@@ -1,40 +1,56 @@
 # Align Capital Partners
 
-**Location:** Cleveland, OH | Dallas, TX  
-**Website:** https://aligncp.com/  
-**AUM:** ~$1.5B  
-**Focus:** Manufacturing, Services, Healthcare
-
-## Key Contact
-
-**Chris Jones**  
-- Title: Co-Founder & Managing Partner
-- Email: cjones@aligncp.com
-- Phone: 216-505-8645
-- LinkedIn: https://www.linkedin.com/company/align-capital-partners
-- Location: Cleveland, OH
-
 ## Overview
-
-Align Capital Partners is a growth-oriented private equity firm founded in 2016. The firm manages over $1.5 billion in committed capital and focuses on investing in lower-middle market businesses. They partner with business owners and management teams to create shared success through strategic investments in people, processes, and technology.
+**Location:** Cleveland, OH & Dallas, TX  
+**AUM:** $500M+  
+**Founded:** Lower-middle market private equity firm  
+**Website:** https://aligncp.com
 
 ## Investment Focus
+- **Primary Sectors:**
+  - Business Services
+  - Tech-Enabled Services
+  - TICCT (Test, Inspection, Compliance, Certification, Training)
+- **Target Companies:**
+  - Safety and training services
+  - Utility services
+  - Maintenance and repair services
+  - Test, inspection, and compliance services
 
-- Manufacturing
-- Business Services
-- Healthcare
-- Lower-middle market companies
+## Key Contacts
 
-## Strategy
+### Chris Jones
+- **Title:** Co-Founder and Managing Partner
+- **Email:** cjones@aligncp.com
+- **LinkedIn:** Company page available
+- **Source:** Official website PDF (aligncp.com/wp-content/uploads/ACP-Firm-Overview.pdf)
+- **Verified:** 2026-03-30
 
-ACP brings experience and resources to help lower-middle market businesses accelerate growth by making strategic investments early in the partnership. The firm emphasizes being "great partners" and creating "great outcomes."
+### Rob Langley
+- **Title:** Co-Founder and Managing Partner
+- **Email:** rlangley@aligncp.com
+- **LinkedIn:** Company page available
+- **Source:** Official website
+- **Verified:** 2026-03-30
 
-## Source Notes
+### Other Notable Team Members
+- Matt Beesley - Partner
+- Matt Iodice - Partner
+- Jack Parks - Partner
+- David Tiley - Senior Operating Partner
+- Maseel Mir - Chief Financial Officer and CCO
+- Katie Noggle - Partner, Business Development
 
-- Contact verified from official Align Capital Partners website team page
-- Email published directly on team bio: https://aligncp.com/team/chris-jones/
-- Firm profile confirmed via LinkedIn and Dakota research
+## Investment Strategy
+- Transformational growth partners
+- Focus on platform attributes in preferred sectors
+- Strong emphasis on operational improvement
 
-## Enrichment Date
+## Research Notes
+- Dual office locations in Cleveland and Dallas
+- Substantial team with operating partners
+- Clear sector focus on services businesses
+- Email pattern: first_initial+last@aligncp.com (verified)
 
-2026-03-29
+## Last Updated
+2026-03-30 (Hourly PE Research Cron)
