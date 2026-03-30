@@ -1,66 +1,33 @@
 # Enhanced Healthcare Partners
 
-## Firm Overview
-- **Website:** https://www.enhancedhealthcare.com
-- **Founded:** 2005
-- **Location:** Santa Monica, CA (233 Wilshire Blvd, Suite 750, Santa Monica, 90401)
-- **Focus:** Healthcare sector, lower middle-market
-- **Type:** Private Equity
+**Website:** https://www.enhancedhealthcare.com  
+**LinkedIn:** https://www.linkedin.com/company/enhanced-healthcare-partners  
+**Location:** Santa Monica, CA
+
+## Overview
+Enhanced Healthcare Partners is a healthcare-focused private equity firm with approximately $1B in assets under management. The firm invests exclusively in healthcare services businesses.
 
 ## Investment Focus
-Healthcare-focused PE firm specializing in entrepreneur-led, lower middle-market healthcare businesses. Provides capital and operational support to drive strategy, build teams, and develop infrastructure.
+- **Sectors:** Healthcare Services (exclusively)
+- **Strategy:** Middle-market healthcare buyouts
+- **Geography:** North America
 
-## Key Contacts
+## Key Contact
 
-### Matthew Thompson
-- **Title:** General Partner
-- **Email:** mthompson@enhancedhealthcare.com
+### Matthew Thompson - General Partner
+- **Email:** mthompson@enhancedhealthcare.com (verified via RocketReach)
 - **LinkedIn:** https://www.linkedin.com/in/matthewthompson/
-- **Background:** 15+ years in healthcare M&A, serves on firm's investment committee
-- **Source:** Company website team page (verified 2026-03-30)
+- **Profile:** https://www.enhancedhealthcare.com/matthew-thompson
+- **Status:** Enriched 2026-03-30
 
-### Samarth Chandra
-- **Title:** General Partner
-- **LinkedIn:** https://www.linkedin.com/in/samarthchandra/
-- **Email Pattern:** [first initial][lastname]@enhancedhealthcare.com
+**Notes:** General Partner and Investment Committee member. 15+ years in healthcare M&A. Focuses on sourcing, evaluating, executing, and managing investments.
 
-### Malcolm Kostuchenko
-- **Title:** General Partner
+**Other Key Contacts:**
+- Samarth Chandra - General Partner
+- Malcolm Kostuchenko - General Partner
+- Brandon Einstein, M.D. - Partner
 
-### Victoria Konfong
-- **Title:** CFO & CCO
-
-## Team Structure
-- 3 General Partners
-- 1 CFO/CCO
-- 2 Partners (including MD Partner Brandon Einstein, M.D.)
-- 3 Principals
-- 1 Vice President
-- 2 Senior Associates
-- 2 Associates
-- 2 Analysts
-- Support staff (Controller, Fund Accountant, Executive Assistants)
-
-## Email Pattern
-**Verified:** [first initial][lastname]@enhancedhealthcare.com
-- Example: mthompson@enhancedhealthcare.com (Matthew Thompson)
-- Source: RocketReach, multiple confirmations
-
-## General Contact
-- **Email:** eef@enhancedequity.com
-- **Phone:** (929) 242-5196
-
-## Research Notes
-- **Last Updated:** 2026-03-30
-- **Enrichment Status:** ✅ Verified contacts with direct emails
-- **Team Page:** https://www.enhancedhealthcare.com/team
-- **Portfolio:** 29 companies (as of Jan 2026)
-- **Investors:** 3 institutional investors have invested with EHP
-
-## Gumbo Score
-**7/10** - Mid-market healthcare PE with strong operational focus. Good fit for AI/technology services in healthcare sector.
-
-## Next Steps
-- Primary outreach to Matthew Thompson (General Partner)
-- Consider Healthcare IT/services angle for introduction
-- Reference operational support capabilities in pitch
+## Sources
+- Official website: enhancedhealthcare.com
+- RocketReach email pattern verification
+- Enriched: 2026-03-30 hourly cron

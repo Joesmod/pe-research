@@ -1,41 +1,34 @@
 # Trive Capital
 
 **Website:** https://www.trivecapital.com  
-**Location:** Dallas, TX  
-**Focus:** Middle-market operational value-add  
-**Type:** Middle-market private equity
+**LinkedIn:** https://www.linkedin.com/company/trive-capital  
+**Location:** Dallas, TX
+
+## Overview
+Trive Capital is a Dallas-based middle-market private equity firm founded in 2012 with over $7B in assets under management. The firm is known for its operational expertise and hands-on value creation approach.
+
+## Investment Focus
+- **Sectors:** Business Services, Industrials, Healthcare, Consumer
+- **Strategy:** Operational improvement, middle-market buyouts
+- **Geography:** North America
+- **Philosophy:** Operational expertise focus, hands-on value creation
 
 ## Key Contact
-- **Name:** Conner Searcy
-- **Title:** Founder & Managing Partner
-- **Email:** csearcy@trivecapital.com
+
+### Conner Searcy - Founder & Managing Partner
+- **Email:** csearcy@trivecapital.com (verified via RocketReach)
 - **LinkedIn:** https://www.linkedin.com/in/conner-searcy-2306104b/
+- **Profile:** https://www.trivecapital.com/team-member/conner-searcy/
+- **Phone:** 214-686-xxxx (per RocketReach), +1 214-499-9715 (per Success.ai)
+- **Status:** Enriched 2026-03-30
 
-## Firm Overview
-- **Founded:** 2012
-- **AUM:** $7B+ regulatory assets under management
-- **Investment Focus:** Operational value creation, complex situations, family-owned companies, corporate carve-outs
-- **Geographic Focus:** North America
+**Notes:** Founder & Managing Partner since 2012. Prior: Partner at Insight Equity Holdings, Associate at Bain & Company. Education: Harvard MBA, Vanderbilt BA. Leads firm's operational value creation initiatives.
 
-## Key Personnel
-- **Conner Searcy** - Founder & Managing Partner (ex-Insight Equity Partner, Bain & Company)
-- **Chris Zugaro** - Co-Founder & Partner
-- **Steve Yoost** - Partner, Chief Operating Officer
+**Other Key Contact:**
+- Chris Jansen - Partner & Co-Founder
 
-## Investment Thesis
-Middle-market PE firm with strong operational expertise. Focuses on control equity and structured capital situations. Known for hands-on operational approach and partnering with talented management teams.
-
-## Investment Criteria
-- **EBITDA:** Middle-market range
-- **Industries:** Broad middle-market focus across multiple sectors
-- **Type:** Control equity, structured capital
-
-## Research Notes
-- Email pattern verified via ZoomInfo (c***@trivecapital.com)
-- Large team (~50+ investment professionals)
-- Source: trivecapital.com/team + ZoomInfo
-- Enrichment Date: 2026-03-29
-- Quality Score: 8/10
-
----
-*Last Updated: 2026-03-29*
+## Sources
+- Official website: trivecapital.com
+- RocketReach email pattern verification
+- ZoomInfo, Success.ai
+- Enriched: 2026-03-30 hourly cron

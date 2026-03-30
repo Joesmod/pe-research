@@ -1,40 +1,33 @@
 # Edgewater Capital Partners
 
 **Website:** https://www.edgewatercapital.com  
-**Location:** Cleveland, OH  
-**Focus:** Materials, Life Sciences, Aerospace, Defense  
-**Type:** Middle-market private equity
+**LinkedIn:** https://www.linkedin.com/company/edgewater-capital-partners  
+**Location:** Cleveland, OH
+
+## Overview
+Edgewater Capital Partners is a sector-focused middle-market private equity firm based in Cleveland. The firm specializes in specialty industrials and life sciences companies with a strong emphasis on operational improvement.
+
+## Investment Focus
+- **Sectors:** Specialty Industrials, Life Sciences, Materials, Aerospace, Defense
+- **Strategy:** Middle-market buyouts with sector expertise
+- **Geography:** North America
+- **Approach:** Midwestern values, sector-focused investing
 
 ## Key Contact
-- **Name:** Chris Childres
-- **Title:** Managing Partner
-- **Email:** cchildres@edgewatercapital.com
+
+### Chris Childres - Managing Partner
+- **Email:** cchildres@edgewatercapital.com (verified via ZoomInfo)
+- **LinkedIn:** https://www.linkedin.com/in/chris-childres
 - **Profile:** https://www.edgewatercapital.com/team/christopher-childres/
+- **Status:** Enriched 2026-03-30
 
-## Firm Overview
-- **Founded:** Details TBD
-- **AUM:** Middle-market range
-- **Investment Focus:** Sector-focused - materials, life sciences, aerospace, defense
-- **Geographic Focus:** North America with Midwestern values
+**Notes:** Managing Partner with over 25 years of private equity experience, with 20+ years devoted exclusively to specialty industrials and life sciences. Led and closed several of Edgewater's investments. Served on boards and as Chairman of numerous middle-market companies.
 
-## Key Personnel
-- **Chris Childres** - Managing Partner
-- **Ryan Meany** - Managing Partner
-- **Pete Ostergard** - Managing Partner
-- **Brian Leonard** - Managing Partner, CFO & CCO
+## Team
+21 team members including 11 partners
 
-## Leadership Expertise
-Chris has extensive experience in complex carve-outs and first institutional equity buyouts. Former M&A attorney at Winthrop, Stimson, Putnam & Roberts (closed $2B+ in transactions).
-
-## Investment Thesis
-Sector-focused PE firm with Midwestern values emphasizing integrity, accountability, and certainty to close. Known for expertise in materials (Outovation practice), life sciences, aerospace & defense sectors.
-
-## Research Notes
-- Email pattern verified via RocketReach (c******@edgewatercapital.com)
-- Cleveland-based with sector specialization
-- Source: edgewatercapital.com/team + RocketReach
-- Enrichment Date: 2026-03-29
-- Quality Score: 7/10
-
----
-*Last Updated: 2026-03-29*
+## Sources
+- Official website: edgewatercapital.com
+- ZoomInfo email pattern verification
+- Tracxn, Owler
+- Enriched: 2026-03-30 hourly cron

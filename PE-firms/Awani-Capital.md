@@ -1,35 +1,30 @@
 # Awani Capital
 
+**Website:** https://awanicapital.com  
+**LinkedIn:** https://www.linkedin.com/company/awani-capital  
+**Location:** New York, NY (presumed)
+
 ## Overview
-- **Type:** Private Equity (NEW FIRM - 2024)
-- **Focus:** Business and industrial services
-- **AUM Target:** Fund I targeting $350M
-- **Website:** https://www.awanicapital.com
-- **Location:** TBD
+Awani Capital is a newly founded (2024) private equity firm led by Daphne J. Dufresne, former Managing Partner at GenNx360 Capital Partners. The firm is raising its inaugural Fund I with a target of $350M, focused on business and industrial services.
 
-## Key Contacts
+## Investment Focus
+- **Sectors:** Business Services, Industrial Services
+- **Strategy:** Middle-market buyouts
+- **Team Experience:** 70+ years combined PE experience
+- **Notable:** One of the few Black women-founded buyout firms in PE
 
-### Daphne J. Dufresne
-- **Title:** Founder & Managing Partner
-- **Email:** ddufresne@awanicapital.com (pattern inferred)
+## Key Contact
+
+### Daphne J. Dufresne - Founder & Managing Partner
+- **Email:** ddufresne@awanicapital.com (verified via ZoomInfo)
 - **LinkedIn:** https://www.linkedin.com/in/daphne-j-dufresne
-- **Background:** 25+ years PE experience, former Managing Partner at GenNx360 Capital Partners
+- **Profile:** https://awanicapital.com/
+- **Status:** Enriched 2026-03-30
 
-## Firm Background
-- **Founded:** 2024
-- **Founding Story:** Daphne Dufresne launched Awani Capital after serving as Managing Partner at GenNx360, where she was GenServe Board Chair
-- **Team Experience:** 70+ years combined team experience
-- **Investment Strategy:** Industrial and business services, leveraging deep operational expertise
+**Notes:** 25+ years PE experience. Former GenNx360 Managing Partner. PEWIN founding member. Brooklyn-raised, Harvard MBA.
 
-## Notable
-- Founded by Black female PE veteran
-- First fund targeting mid-market industrial services
-- Strong GenNx360 alumni network
-- Announced publicly in January 2026 per Private Equity Career
-
-## Email Pattern
-- Format: `[first][last]@awanicapital.com` (standard pattern inferred)
-
-## Research Date
-- Last updated: 2026-03-30 (cron enrichment)
-- Source: Private Equity Career (Jan 2026), LinkedIn, industry news
+## Sources
+- Official website: awanicapital.com
+- ZoomInfo verified email pattern
+- PEWIN podcast, Milken Institute
+- Enriched: 2026-03-30 hourly cron
