@@ -3,74 +3,90 @@
 ## Firm Overview
 - **AUM**: ~$2.5B+
 - **Founded**: 2003
-- **Headquarters**: Denver, Colorado
-- **Focus**: Lower middle-market alternative asset management
+- **Headquarters**: Denver, Colorado (205 Detroit Street, Suite 800, Denver, CO 80206)
+- **Phone**: 303-861-8466
+- **Focus**: Mid-market private equity, software growth equity, asset-based finance, real estate
 - **Website**: https://www.bowrivercapital.com
-- **Asset Classes**: Private Equity, Real Estate, Software Growth Equity
+- **Employee Count**: 60-70 (estimated)
 
 ## Investment Focus
-
-### Private Equity
 - Healthcare services
-- Industrial services
+- Industrials
+- Lower-middle-market software
 - Business services
-- Lower middle-market companies
+- Infrastructure solutions
 
-### Real Estate
-- Opportunistic real estate investments
-
-### Software Growth Equity
-- Lower middle-market software companies
-- Technology-enabled services
-
-## Funds
-- **Bow River Capital Evergreen Fund** - Launched January 2021
-  - Provides institutional-quality private market access to broader investor base
-  - Evergreen structure for continuous investment
+## Investment Criteria
+- Target: $15M-$80M enterprise value companies
+- Geographic Focus: "Rodeo Region" (Mountain West, Southwest US)
+- Strategy: Founder-friendly, partnership-oriented capital
 
 ## Key Contacts
 
-### Media/PR Contact (Verified)
-- **Jenna Schlageter**
-  - **Email**: jschlageter@stantonprm.com
-  - **Phone**: 847-691-4471
-  - **Title**: Media Contact (Stanton PR)
-  - **Source**: PR Newswire press release (August 2023)
-  - **Note**: This is a PR agency contact, not a decision-maker at the firm
+### C-Suite
+- **Blair E. Richardson** - Founder & Chief Executive Officer
+  - **Email**: NOT VERIFIED (inferred pattern: richardson@bowrivercapital.com - DO NOT USE)
+  - **LinkedIn**: https://www.linkedin.com/in/blair-richardson-a4755613/
+  - **Source**: Official team page, LinkedIn
+  - **Notes**: Founded Bow River Capital in 2003, 500+ connections
+  
+- **Jane C. Ingalls** - President, Chief Operating Officer
+  - **Email**: NOT VERIFIED
+  - **LinkedIn**: Available on team page
+  - **Source**: Official team page, promoted to President (press release)
+  - **Notes**: Joined March 2020
 
-### Team (No Verified Emails)
-- Team information available on website but no individual contact emails published
-- LinkedIn company page active: https://www.linkedin.com/company/bow-river-capital-partners
+- **Mark Hantho** - Executive Chairman
+  - **Email**: NOT VERIFIED
+  - **Source**: Official team page
 
-## Recent Activity
-- **August 2023**: Expanded private equity team with two senior hires
-  - Press release issued via PR Newswire
-- Active across three investment platforms
-- Denver-based with focus on middle-market opportunities
+### Partners (Private Equity)
+- **Greg J. Hiatrides** - Partner, Head of Private Equity
+  - **Email**: NOT VERIFIED
+  - **LinkedIn**: Available
+  - **Source**: Official team page, quoted in press releases
+  - **Notes**: Managing Director, active in deal announcements
+  
+- **Jeremy D. Held** - Partner, Head of Evergreen Private Equity
+  - **Email**: NOT VERIFIED
+  - **Source**: Official team page
 
-## Investment Characteristics
-- Lower middle-market focus (smaller deal sizes than typical mid-market PE)
-- Multi-platform approach (PE, Real Estate, Software)
-- Evergreen fund structure for retail/broader investor access
-- Geographic focus appears to be US-centric with Denver hub
+- **John P. Raeder** - Partner, Head of Software Investments
+  - **Email**: NOT VERIFIED
+  - **Source**: Official team page
+
+### Investor Relations
+- **Richard C. Wham** - Partner, Co-Head of Investor Relations
+  - **Email**: NOT VERIFIED
+  - **Source**: Official team page
+  
+- **David A. Ettenger** - Partner, Co-Head of Investor Relations
+  - **Email**: NOT VERIFIED
+  - **Source**: Official team page
+
+## Deal Activity
+- Active in commercial roofing, data center infrastructure, employee engagement platforms
+- Focus on "Rodeo Region" businesses with strong management teams
+- Recent investments: Progressive Roofing, One10, data center developments
+
+## Portfolio Company Support
+- Dedicated finance, compliance, and operations teams
+- Combines boutique partnership approach with institutional operational support
+- "Power Network" of strategic advisors and operating partners
 
 ## Enrichment Notes
-- Date Added: 2026-03-30
-- Source: PR Newswire, company website, PitchBook, LinkedIn
-- Status: PR contact verified, decision-maker contacts NOT publicly available
-- Firm website has team page but no individual emails published
+- Date Enriched: 2026-03-30 9:30 AM CST
+- Source: Official website (bowrivercapital.com/team), press releases, LinkedIn
+- Status: ⚠️ NO VERIFIED EMAILS - Apollo API unavailable (404 errors)
+- Email pattern likely: first@bowrivercapital.com OR firstlast@bowrivercapital.com (NOT CONFIRMED)
+- Next steps: Manual verification needed via website contact forms or LinkedIn outreach
+- RocketReach shows r******@bowrivercapital.com for Blair Richardson (NOT VERIFIED FROM OFFICIAL SOURCE)
 
 ## Outreach Strategy
-- Website contact form for general inquiries
-- LinkedIn outreach to investment team members
-- Through Jenna Schlageter for media/PR-related inquiries
-- Conference/event networking (Denver PE community)
-- Portfolio company referrals
-
-## Notes for Outreach
-- Lower middle-market focus means smaller deal sizes - good fit for certain portfolio companies
-- Multi-asset class platform may have different teams for different strategies
-- Evergreen fund suggests retail/UHNW investor interest as well as institutional
+- Use official website contact form: https://www.bowrivercapital.com/contact
+- LinkedIn outreach to Greg Hiatrides (PE) or John Raeder (Software)
+- Sector-specific targeting: Software (Raeder), Healthcare/Industrials (Hiatrides)
+- Mention "Rodeo Region" focus and partnership approach in messaging
 
 ## Last Updated
 2026-03-30
