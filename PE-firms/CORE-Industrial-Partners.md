@@ -1,68 +1,53 @@
 # CORE Industrial Partners
 
-## Overview
-- **Founded**: 2000s (John May founded the firm)
-- **Location**: Chicago, Austin, Cleveland (Great Lakes region)
-- **AUM**: $1.58B across 4 funds
-- **Focus**: Industrial manufacturing, industrial technology, industrial services
-- **Website**: https://coreipfund.com
-- **LinkedIn**: https://www.linkedin.com/company/coreipfund
+## Firm Overview
+- **Founded:** Founded by John May
+- **Location:** Chicago, IL
+- **AUM:** $1.58B
+- **Website:** https://coreipfund.com
+- **Companies Acquired:** 55+
 
-## Investment Strategy
-Operationally-focused private equity firm partnering with industrial businesses. Hands-on approach with deep operational expertise in manufacturing and industrial services.
+## Focus
+- Manufacturing
+- Industrial Technology
+- Industrial Services
 
-## Target Sectors
-- **Manufacturing**: Industrial manufacturing, specialty manufacturing
-- **Industrial Technology**: Automation, industrial software
-- **Industrial Services**: Maintenance, technical services, logistics
+## Key Contacts
+**John May**
+- **Title:** Founder & Managing Partner
+- **Email:** john@coreipfund.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/john-may-7399a22
+- **Source:** Official CORE tear sheet PDF (July 2023)
 
-## Key Personnel
+**Frank Papa**
+- **Title:** Senior Partner
+- **Email:** frank@coreipfund.com
 
-### John May - Managing Partner & Founder
-- **Email**: john@coreipfund.com (verified via official CORE tear sheet)
-- **LinkedIn**: https://www.linkedin.com/company/core-industrial-partners/
-- **Background**: Founded CORE Industrial Partners
-- **Expertise**: Industrial operations and M&A
+**TJ Chung**
+- **Title:** Senior Partner  
+- **Email:** tj@coreipfund.com
 
-### Frank Papa - Senior Partner
-- **Email**: frank@coreipfund.com
+**Matt Puglisi**
+- **Title:** Partner
+- **Email:** matt@coreipfund.com
+- **Phone:** 312-566-4885
 
-### TJ Chung - Senior Partner
-- **Email**: tj@coreipfund.com
+## Target Profile
+- **EBITDA:** Up to $20M
+- **Revenue:** Up to $200M
+- **Geography:** North America
 
-### Matt Puglisi - Partner
-- **Email**: matt@coreipfund.com
+## Notes
+- 100+ years combined team experience in manufacturing/industrials
+- Operations-focused investment approach
+- Strong buy-and-build strategy
+- Enriched: 2026-03-30
 
-## Firm Details
-- **Portfolio**: 55+ companies acquired
-- **Investment Team**: Highly experienced investors and operators
-- **Operational Focus**: Former operators with boots-on-the-ground experience
-- **Email Format**: first@coreipfund.com
+## Recent Activity
+- Completed take-private of Fathom Digital Manufacturing Corporation (May 2024)
+- Announced new office locations in key regions (November 2023)
 
-## Target Companies
-- **EBITDA**: Up to $20M
-- **Revenue**: Up to $200M
-- **Type**: Industrial businesses with growth potential
-- **Geography**: North America (primarily Great Lakes region)
-- **Characteristics**: Operational improvement opportunities, add-on acquisition potential
-
-## Value Creation
-- Operational expertise in industrial sectors
-- Platform building through strategic add-ons
-- Hands-on management support
-- Industry network and relationships
-
-## Contact Information
-- **General Email**: recruiting@coreipfund.com
-- **Website**: https://coreipfund.com
-- **Decision-Maker**: John May (john@coreipfund.com)
-- **Tear Sheet**: https://coreipfund.com/wp-content/uploads/2023/07/CORE-Tear-Sheet-JUL2023.pdf
-
-## Research Notes
-- Email verified via official CORE tear sheet PDF (publicly published July 2023)
-- Strong operational background in industrial sectors
-- Active platform building strategy
-- **Gumbo Score**: 7/10 - Strong fit (operational focus, services component)
-
-## Last Updated
-2026-03-29
+## Contact for Media
+**Jeremy Milner**
+- BackBay Communications
+- Phone: (401) 862-9422
