@@ -30,9 +30,21 @@ Yellowstone Capital Partners is a Houston-based private equity firm and family o
 
 ## Key Leadership
 
+**Sami Sawaf** - Managing Partner
+- **Email:** s.sawaf@yellowstonecapital.com
+- **LinkedIn:** https://www.linkedin.com/in/sami-sawaf-8570a939/
+- Background: Oversees all aspects of firm's operations and strategic initiatives
+- Status: Verified from official yellowstonecapital.com/team page
+- Source: ContactOut + official website (2026-03-30)
+
 **William Brewer** - Managing Director
 - Background: Verified as MD from RocketReach and ZoomInfo
 - Status: LinkedIn profile not located; no bio on official site
+
+**Other Key Leaders:**
+- Randy Burns - Partner
+- Rick Harris - Operating Partner
+- Omar A. Sawaf - Senior Advisor
 
 ## Contact Information
 
@@ -40,7 +52,13 @@ Yellowstone Capital Partners is a Houston-based private equity firm and family o
 **Office:** 777 Post Oak Blvd., Suite 250, Houston, TX 77056  
 **Phone:** (713) 650-0065  
 
-**Status:** No team page on website. Direct emails not published on official sources. (2026-03-29)
+**Primary Contact:**
+- **Name:** Sami Sawaf
+- **Title:** Managing Partner
+- **Email:** s.sawaf@yellowstonecapital.com
+- **LinkedIn:** https://www.linkedin.com/in/sami-sawaf-8570a939/
+
+**Status:** Team page available. Direct email for Managing Partner verified via ContactOut. (2026-03-30)
 
 ## Research Notes
 
@@ -54,10 +72,12 @@ Yellowstone Capital Partners is a Houston-based private equity firm and family o
 ## Outreach Status
 
 - **Sheet Row:** 813
-- **Status:** Research
-- **Contact Verified:** William Brewer (Managing Director)
-- **Email:** Not found on official sources
-- **Last Updated:** 2026-03-29
+- **Status:** Enriched
+- **Contact Verified:** Sami Sawaf (Managing Partner)
+- **Email:** s.sawaf@yellowstonecapital.com ✅
+- **LinkedIn:** https://www.linkedin.com/in/sami-sawaf-8570a939/
+- **Source:** ContactOut + official team page
+- **Last Updated:** 2026-03-30
 
 ## Why Relevant for Hello Gumbo
 
