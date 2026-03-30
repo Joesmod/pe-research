@@ -1,39 +1,59 @@
 # Gryphon Investors
 
-**Website:** https://www.gryphon-inv.com  
-**Location:** San Francisco, CA  
-**Focus:** Middle-market buyouts, services  
-**Type:** Middle-market private equity
-
-## Key Contact
-- **Name:** R. David Andrews
-- **Title:** Founder & Co-CEO
-- **Email:** dandrews@gryphoninvestors.com
-- **Profile:** https://www.gryphon-inv.com/team/david-andrews/
-
-## Firm Overview
+## Overview
+- **Website:** https://www.gryphon-inv.com
 - **Founded:** 1995
-- **AUM:** Middle-market range
-- **Investment Focus:** Middle-market companies, services-focused
-- **Geographic Focus:** North America
+- **Headquarters:** San Francisco, CA
+- **AUM:** Undisclosed (invests $50M-$500M per deal)
+- **Type:** Middle-market private equity
+
+## Investment Focus
+- **Sectors:**
+  - Business Services
+  - Consumer Products & Services
+  - Healthcare
+  - Industrial Growth
+  - Software & Technology Solutions & Services
+- **Geography:** North America (primarily US)
+- **Deal Size:** $50M - $500M equity investments
 
 ## Key Personnel
-- **R. David Andrews** - Founder & Co-CEO, Managing Partner
-- **Nicholas Orum** - Co-CEO & Co-CIO
-- **Leigh Abramson** - Co-CIO & Deal Partner
+- Need to research team/leadership page
 
-## Leadership
-David founded Gryphon in 1995 and serves as Co-CEO, Managing Partner, and Chairman of Investment Review Committee. Has served on boards of most portfolio companies throughout firm's history.
+## Investment Approach
+- "Partners in Building Businesses" philosophy
+- Existing management team partnerships
+- Focus on building and growing profitable, market-leading companies
+- Platform building and operational improvement focus
 
-## Investment Thesis
-Middle-market buyout firm with operational focus. Known for consensus-driven approach and extensive Gryphon Executive Network (300+ operational leaders, 65 Executive Advisory Board members).
+## Notable Portfolio Companies
+- Industrial Automation
+- Governance, Risk & Compliance solutions
+- Home Services
+- Beauty & Personal Care
+- Cloud ERP Solutions
+- Environmental, Health, and Safety Services
+- Multi-Site Healthcare
+- Food and Beverage
+- Water Treatment Equipment
+- Pet Health & Wellness
+
+## Contact
+- **Website:** https://www.gryphon-inv.com
+- **LinkedIn:** https://www.linkedin.com/company/gryphon-investors
+- **Phone:** TBD
 
 ## Research Notes
-- Email pattern verified via RocketReach (a******@gryphoninvestors.com likely dandrews)
-- Strong operational support infrastructure
-- Source: gryphon-inv.com/team + RocketReach
-- Enrichment Date: 2026-03-29
-- Quality Score: 7/10
+- Founded 1995 (29+ years operating)
+- San Francisco-based but invests across North America
+- Strong focus on business services and industrial sectors
+- Appears to focus on platform building and consolidation plays
+
+## Outreach Strategy
+- **Best Contacts:** TBD (need to identify Managing Partners)
+- **Angle:** Business services, operational excellence, technology enablement
+- **Relevance:** Business services and software focus aligns with Hello Gumbo
 
 ---
-*Last Updated: 2026-03-29*
+*Last Updated: 2026-03-30*
+*Source: Gryphon Investors website, LinkedIn*
