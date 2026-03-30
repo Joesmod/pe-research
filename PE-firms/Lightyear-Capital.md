@@ -46,9 +46,19 @@
 - Focus on compliance-heavy, operationally complex businesses
 
 ## Key Contacts
-- **Status**: Apollo API unavailable, team page research pending
-- **Next Steps**: Manual research needed for Managing Partners and Partners
-- **Email Pattern**: Likely first@lightyearcapital.com OR firstlast@lightyearcapital.com (NOT CONFIRMED)
+
+### Mark Vassallo
+- **Title:** Managing Partner
+- **Email:** ⚠️ NOT PUBLICLY AVAILABLE
+- **LinkedIn:** https://www.lycap.com/bio/Mark-Vassallo
+- **Bio:** Managing Partner and member of Investment Committee and Management Committee at Lightyear Capital
+- **Status:** Confirmed on official lycap.com website (2026-03-30)
+- **Outreach:** Contact via firm inquiry form or LinkedIn
+
+### Email Pattern
+- **Status:** NOT CONFIRMED
+- **Likely patterns:** first@lycap.com OR firstlast@lycap.com (use with caution)
+- **Note:** No verified emails found publicly for senior leadership
 
 ## Enrichment Notes
 - Date Enriched: 2026-03-30 9:42 AM CST

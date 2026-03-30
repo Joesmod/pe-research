@@ -8,11 +8,13 @@
 - **Focus:** Lower middle-market services sector
 
 ## Leadership
-### James Mahoney (James S. Mahoney)
+### James Mahoney (James S. Mahoney, Jim Mahoney)
 - **Title:** Managing Partner
 - **Email:** jmahoney@huroncapital.com *(pattern verified from ContactOut/Highperformr)*
-- **LinkedIn:** https://www.linkedin.com/in/jamessmahoney/
+- **LinkedIn:** https://www.linkedin.com/in/jim-mahoney
+- **Also:** https://www.linkedin.com/in/jamessmahoney/
 - **Location:** Detroit, MI
+- **Status:** Contact re-verified on huroncapital.com/people (2026-03-30)
 
 ### Other Founding Partners
 - **Mike Beauregard** - Founding Partner (inducted into Smart Business Dealmakers Hall of Fame)
