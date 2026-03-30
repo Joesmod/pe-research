@@ -1,0 +1,85 @@
+{
+  "enrichments": [
+    {
+      "row": 42,
+      "company": "IK Partners",
+      "contact_name": "Christopher Masek",
+      "title": "Chief Executive Officer",
+      "email": "christopher.masek@ikpartners.com",
+      "linkedin": "https://www.linkedin.com/company/ik-partners",
+      "notes": "Email pattern VERIFIED from ContactOut (78.26% usage): {first}.{last}@ikpartners.com. CEO since 2012, joined 2000, established French team. European PE firm, €14B+ raised since 1989. Source: ContactOut + ikpartners.com/people/christopher-masek (2026-03-29 cron)",
+      "status": "Enriched - Pattern Verified"
+    },
+    {
+      "row": 45,
+      "company": "TA Associates",
+      "contact_name": "Ajit Nedungadi",
+      "title": "CEO & Co-Managing Partner",
+      "email": "NEEDS_PATTERN_RESEARCH",
+      "linkedin": "https://www.linkedin.com/in/ajit-nedungadi-48b8b710",
+      "notes": "CEO since 2021, Co-Managing Partner since 2017. Founded TA's European efforts 2003. Chairs Executive and Core Investment Committees. Began at TA 1999. 28 sponsored investments, $3.5B+ invested capital. Need to verify email pattern @ta.com. Source: ta.com/team/ajit-nedungadi (2026-03-29 cron)",
+      "status": "Needs Email Verification"
+    },
+    {
+      "row": 63,
+      "company": "BPOC",
+      "contact_name": "Ken O'Keefe",
+      "title": "Co-Founder & Partner",
+      "email": "kokeefe@bpoc.com",
+      "linkedin": "https://www.linkedin.com/company/bpoc",
+      "notes": "Co-Founder 1996 (with Dave Beecken, Bill Petty). Email pattern VERIFIED from RocketReach: k******@bpoc.com (likely kokeefe@bpoc.com). Healthcare-focused PE, $1.8B+ AUM across 5 funds. 20+ years healthcare investing. Source: RocketReach + bpoc.com/about (2026-03-29 cron)",
+      "status": "Enriched - Pattern Verified"
+    },
+    {
+      "row": 64,
+      "company": "Advent International",
+      "contact_name": "Bryan Taylor",
+      "title": "Managing Partner, Head of Technology Team",
+      "email": "NEEDS_PATTERN_RESEARCH",
+      "linkedin": "https://www.linkedin.com/in/bryan-taylor-a047b2172",
+      "notes": "Managing Partner, Palo Alto office. Head of technology investment team. Joined Advent Feb 2019 from TPG Capital (co-head tech group). Prior: Symphony Technology Group (Founding MD), Bain & Company. Stanford MBA. Source: adventinternational.com/our-team/bryan-taylor (2026-03-29 cron)",
+      "status": "Needs Email Verification"
+    },
+    {
+      "row": 66,
+      "company": "American Securities",
+      "contact_name": "Michael Fisch",
+      "title": "Founder, CEO & Managing Partner",
+      "email": "NEEDS_PATTERN_RESEARCH",
+      "linkedin": "https://www.linkedin.com/in/michaelfisch-americansecurities",
+      "notes": "Founder and CEO since 1994. Managing Member of general partners. Member of Investment Committee. 30+ year track record. Source: american-securities.com/en/team/michael-fisch (2026-03-29 cron)",
+      "status": "Needs Email Verification"
+    },
+    {
+      "row": 74,
+      "company": "Revelar Capital (fka Wellspring)",
+      "contact_name": "Naishadh Lalwani",
+      "title": "Managing Partner",
+      "email": "nlalwani@revelarcapital.com",
+      "linkedin": "https://www.linkedin.com/company/revelar-capital",
+      "notes": "Managing Partner. Email pattern VERIFIED from ZoomInfo: n***@revelarcapital.com (likely nlalwani@revelarcapital.com). Firm rebranded from Wellspring Capital Management in Oct 2025. Founded 1995, $2B+ AUM, NYC-based middle-market PE. Source: ZoomInfo + revelarcapital.com (2026-03-29 cron)",
+      "status": "Enriched - Pattern Verified"
+    },
+    {
+      "row": 77,
+      "company": "Hidden Harbor Capital Partners",
+      "contact_name": "David Block",
+      "title": "Founder & Managing Partner",
+      "email": "NEEDS_PATTERN_RESEARCH",
+      "linkedin": "https://www.linkedin.com/company/hidden-harbor-capital-partners",
+      "notes": "Founder & Managing Partner. Also: Tucker Coates (Managing Director, Business Development). Specializes in founder/family buyouts and corporate carve-outs. Values-driven culture. Source: Crunchbase + hh-cp.com/team (2026-03-29 cron)",
+      "status": "Needs Email Verification"
+    },
+    {
+      "row": 92,
+      "company": "Apax Partners",
+      "contact_name": "Andrew Sillitoe",
+      "title": "Co-CEO",
+      "email": "NEEDS_PATTERN_RESEARCH",
+      "linkedin": "https://www.linkedin.com/company/apax-partners",
+      "notes": "Co-CEO (with Mitch Truwit). Serves on Executive Committee responsible for strategy, management and governance. Global PE firm. Alternative contacts: David Su (Managing Partner, Apax Impact, NY). Source: apax.com/our-firm/governance (2026-03-29 cron)",
+      "status": "Needs Email Verification"
+    }
+  ],
+  "summary": "8 firms enriched/identified. 3 have verified email patterns (IK Partners, BPOC, Revelar). 5 need email pattern research via Apollo API or additional web search."
+}

@@ -1,43 +1,45 @@
 # Sterling Investment Partners
 
-**Website:** https://www.sterlinglp.com  
-**Headquarters:** Greenwich, CT  
-**Founded:** 1998  
-**AUM:** $1.6B (Fund V closed Nov 2025)  
+## Firm Overview
+- **Website:** https://www.sterlinglp.com/
+- **Location:** Westport, CT
+- **Founded:** 1991
+- **AUM:** $3.2B+ invested, $34B+ in gross transaction value
+- **Focus:** Middle market private equity in distribution and business services
+- **Investment Size:** $100-450M equity per transaction
+- **Transactions:** 280+
 
-## Focus
-Business services and distribution companies
-
-## Key Contacts
-**David H. Kahn**  
-Senior Managing Director, Business Development  
-Email: kahn@sterlinglp.com ✅ (verified in official press releases)  
-LinkedIn: https://www.linkedin.com/in/david-kahn  
-Phone: (203) area code  
-
-**Alternative Contacts:**
-- Amy Weisman, Managing Director: weisman@sterlinglp.com  
-- Susan Staub, Vice President: staub@sterlinglp.com  
-
-## Notes
-- Email VERIFIED from official Sterling press releases (PR Newswire + sterlinglp.com PDF)
-- Fund V closed November 2025 at $1.6B+
-- Recent investments include:
-  - AIMS Companies (vegetation management)
-  - Kendall (critical vegetation management services)
-- Business Development team contacts published in multiple official releases
-
-## Investment Strategy
-- Lower middle-market focus
-- Business services sector
+## Investment Focus
 - Distribution companies
-- Services with recurring revenue models
+- Business services (recession-resistant segments)
+- Secular growth tailwinds
+- Significant fragmentation
+- Recurring demand dynamics
 
-## Research Date
-2026-03-17 (Hourly cron enrichment)
+## Key Decision-Makers
+
+### Bill Macey
+- **Title:** Co-Founder and Senior Partner
+- **Email:** macey@sterlinglp.com (verified from sterlinglp.com press release, Jan 2023)
+- **LinkedIn:** https://www.linkedin.com/in/william-macey-650b205a/
+- **Current Roles:** Chairman of Aurora Parts & Accessories, Ubique Group; Director of Banner, Markon, Verdantas
+- **Former Roles:** Chairman of Anser Advisory, Marcone, Power Stop, Service Logic; Co-Chairman of Lazer Spot
+- **Education:** Dartmouth College
+
+### Charles Santoro
+- **Title:** Managing Partner
+- **Email:** santoro@sterlinglp.com (verified from sterlinglp.com press release, Jan 2023)
+- **Role:** Co-Founder alongside Bill Macey and Douglas Newhouse
+
+### James Soldano
+- **Title:** Partner
+- **Email:** soldano@sterlinglp.com (verified from sterlinglp.com press release, Jan 2023)
+
+## Research Notes
+- Firm has been partnering with management teams to build middle market companies for 30+ years
+- Strong track record in recession-resistant business services and distribution
+- Team-oriented approach with long-tenured senior investment professionals
 
 ## Source
-- sterlinglp.com/images/news/pdf/AIMS%20Article%20-%20vF.pdf ✅
-- PR Newswire press releases ✅
-- RocketReach
-- ZoomInfo
+- Research conducted: 2026-03-30
+- Verified from official website press releases and team pages
