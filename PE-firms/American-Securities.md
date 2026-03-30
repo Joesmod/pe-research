@@ -41,6 +41,15 @@
 ### Resources Group
 - **B. Christopher DiSantis** - Partner, Resources Group (leads operational support for portfolio companies)
 
+### IT & Digital (Resources Group) ⭐ PRIMARY CONTACT FOR AI SERVICES
+- **Baron Concors** - Director, Digital Transformation
+  - **Email**: bconcors@american-securities.com ✅ VERIFIED (Apollo API, verified status)
+  - **LinkedIn**: https://www.linkedin.com/in/baronconcors/
+  - **Title**: IT and Digital (Resources Group)
+  - **Source**: Official team page, Apollo API (2026-03-30)
+  - **Notes**: Joined 2024. Engages portfolio companies on digital transformation. "Views technology as ultimate lever" - IDEAL for AI/tech services pitch
+  - **Focus**: Digital transformation across portfolio companies
+
 ## Media Relations
 - **Prosek Partners**: pro-americansecurities@prosek.com
 
@@ -53,10 +62,13 @@
 - Focus on building enduring businesses
 
 ## Enrichment Notes
-- Date Enriched: 2026-03-30
-- Source: Official website contact page
-- Status: Verified IR and Asia head contacts only
+- Date Enriched: 2026-03-30 8:00 AM CST
+- Source: Official website contact page, Official team page, Apollo API
+- Status: ✅ EMAIL VERIFIED for Digital Transformation Director via Apollo API
+- Primary Contact for AI Services Pitch:
+  - Baron Concors (Director, Digital Transformation): bconcors@american-securities.com (VERIFIED)
 - Partner-level emails not publicly available
+- Email pattern: firstlast@american-securities.com (observed for Concors)
 
 ## Outreach Strategy
 - Initial contact via IR@american-securities.com

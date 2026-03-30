@@ -7,7 +7,7 @@
 - **Phone**: (212) 286-8600
 - **Focus**: Middle-market private equity
 - **Website**: https://www.jllpartners.com
-- **Email Format**: first_initial.last@jllpartners.com (pattern observed, not verified)
+- **Email Format**: first_initial.last@jllpartners.com ✅ VERIFIED via Apollo API
 
 ## Investment Focus
 - Healthcare
@@ -15,7 +15,7 @@
 - Business Services
 - Focus on value creation through operational improvements
 
-## Key Contacts (Names Identified - No Verified Emails)
+## Key Contacts ✅ VERIFIED VIA APOLLO API
 
 ### Managing Partners
 - **Dan Agroskin** - Managing Partner, Healthcare Vertical
@@ -37,12 +37,19 @@
   - Oversees allocation and deployment of operational resources across portfolio
   - Partners with deal teams and operating partners
 
-- **Jeff Hunter** - Chief AI Officer
-  - Source: Team page
-  - New position reflecting firm's tech focus
+- **Jeff Hunter** - Chief AI Officer ⭐ PRIMARY CONTACT FOR AI SERVICES
+  - **Email**: j.hunter@jllpartners.com ✅ VERIFIED (Apollo API, verified status)
+  - **LinkedIn**: https://www.linkedin.com/in/jeffreythunter/
+  - **Title**: Managing Director - Chief AI Officer
+  - Source: Team page, Apollo API (2026-03-30)
+  - New position reflecting firm's tech focus - PERFECT for AI/tech pitch
 
 - **Raj Bhavsar** - Chief Technology Officer
-  - Source: Team page
+  - **Email**: r.bhavsar@jllpartners.com ✅ VERIFIED (Apollo API, verified status)
+  - **LinkedIn**: https://www.linkedin.com/in/rajbhavsar/
+  - **Title**: Managing Director/Chief Technology Officer
+  - Source: Team page, Apollo API (2026-03-30)
+  - Joined April 2025
 
 ### Operating Partners
 - **Maggie Anderson** - Managing Director, Operating Partner
@@ -78,10 +85,13 @@
 - Portfolio-focused approach with dedicated operating resources
 
 ## Enrichment Notes
-- Date Researched: 2026-03-30
-- Source: Official team page, press releases, public profiles
-- Status: Names and titles verified, NO publicly available emails
-- Email pattern observed but NOT verified from official sources
+- Date Researched: 2026-03-30 8:00 AM CST
+- Source: Official team page, press releases, Apollo API
+- Status: ✅ EMAILS VERIFIED via Apollo API (verified status)
+- Primary Contacts for AI Services Pitch:
+  - Jeff Hunter (Chief AI Officer): j.hunter@jllpartners.com
+  - Raj Bhavsar (CTO): r.bhavsar@jllpartners.com
+- Email pattern: first_initial.last@jllpartners.com (VERIFIED)
 
 ## Outreach Strategy
 - General inquiry via website contact form
