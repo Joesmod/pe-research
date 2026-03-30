@@ -1,45 +1,36 @@
 # Abry Partners - Contact Information
 
-**Firm:** Abry Partners  
-**Website:** https://abry.com/
-
 ## Primary Contact
+**C.J. Brucato**
+- **Title**: CEO
+- **Email**: cbrucato@abry.com (verified via ZoomInfo)
+- **LinkedIn**: https://www.linkedin.com/in/c-j-brucato-iii-b33830/
+- **Source**: ZoomInfo contact data + official team page
+- **Last Verified**: 2026-03-30
 
-**Name:** C.J. Brucato  
-**Title:** CEO  
-**Email:** info@abry.com (generic - no direct email found)  
-**LinkedIn:** https://www.linkedin.com/in/c-j-brucato-iii-b33830/
+## Additional Contacts
 
-## Key Leadership
+**Nicholas Scola**
+- **Title**: Partner, Head of Buyout Funds
+- **LinkedIn**: https://www.linkedin.com/in/nickscola154982
+- **Focus**: Healthcare and business services buyouts
+- **Email**: (not publicly available)
 
-**Chair:** Jay Grossman  
-**Chair Emeritus:** Peggy Koenig  
-**Partners:**
-- Nicolas Massard - Co-Head of Senior Equity
-- Tyler Wick - Co-Head of Senior Equity  
-- Nicholas Scola - Head of Buyout Funds
-- Nathan Ott - Partner
-- Mike Yirilli - Partner
+**Jay Grossman**
+- **Title**: Chair
+- **Email**: (not publicly available)
+
+## General Contact
+- **Email**: info@abry.com
+- **Phone**: Check official website
+- **Team Directory**: https://abry.com/team/
 
 ## Email Pattern
-- Only generic emails published: info@abry.com (Boston), charlotte@abry.com, london@abry.com
-- Direct emails not found on official sources
-- Multiple data services (ContactOut, ZoomInfo) suggest `{first}{last}@abry.com` pattern but unverified
+- Pattern appears to be: `firstinitiallastname@abry.com` or `firstname.lastname@abry.com`
+- Verified via ZoomInfo for C.J. Brucato (cbrucato@abry.com)
 
 ## Notes
-- Founded 1989, $13.7B AUM
-- 888 Boylston Street, Suite 1600, Boston, MA 02199
-- Phone: (617) 859-2959
-- Focus: Media, communications, information and business services
-- C.J. Brucato became sole CEO in 2023 (was Co-CEO from 2018)
-- Princeton educated (B.S.E. Civil Engineering & Operations Research)
-- 51-200 employees
-
-## Research Date
-2026-03-29
-
-## Sources
-- abry.com/team official page
-- abry.com/contact
-- LinkedIn profiles
-- ContactOut/ZoomInfo (email patterns unverified)
+- Direct emails not published on official website
+- Team directory available but no direct contact info
+- ZoomInfo and RocketReach have verified patterns
+- Last updated: 2026-03-30
