@@ -1,65 +1,79 @@
 # Svoboda Capital Partners
 
+**Updated:** 2026-03-31
+
 ## Firm Overview
-- **Website**: https://svoco.com
-- **Location**: Chicago, IL (1 N Franklin St Ste 1500, Chicago, IL 60606)
-- **Phone**: (312) 267-8750
-- **Founded**: 1998
-- **Focus**: Business services sector (professional services, industrial & commercial services, transportation & logistics)
-- **Type**: Chicago-based private equity, lower middle market
-- **AUM**: $400+ Million committed capital
-- **Status**: ✅ Enriched (2026-03-29 4pm cron)
+- **Founded:** January 1998
+- **Location:** Chicago, IL
+- **AUM:** $400M+ (estimated)
+- **Website:** https://svoco.com/
 
-## Key Team Members (Email Pattern: first_initial+lastname@svoco.com)
+## Investment Focus
+**Sector:** Business Services
 
-### Andrew B. Albert
-- **Title**: Operating Partner
-- **LinkedIn**: https://www.linkedin.com/in/andy-albert-8a82138/
-- **Email**: aalbert@svoco.com (pattern: first_initial+lastname)
+**Sub-Sectors:**
+- Professional Services
+- Industrial & Commercial Services
+- Transportation & Logistics Services
 
-### Thomas G. Brooker ✅ PRIMARY CONTACT
-- **Title**: Managing Director & Operating Partner
-- **LinkedIn**: https://www.linkedin.com/in/tom-brooker
-- **Email**: tbrooker@svoco.com ✅ VERIFIED
-- **Source**: ContactOut + official team page svoco.com/our-team/
-- **Pattern Confidence**: 89.8% (RocketReach)
-- **Enriched**: 2026-03-29 4pm cron
+**Investment Thesis:**
+- Partner with outstanding management teams
+- Track record of success required
+- Well-defined growth initiatives
+- Operational improvement focus
 
-### David B. Rubin
-- **Title**: Managing Director
-- **LinkedIn**: https://www.linkedin.com/in/david-rubin-a0ab0722
-- **Email Pattern**: d***@svoco.com (pattern identified via ContactOut/ZoomInfo, not officially published)
+## Leadership & Key Contacts
 
-### John A. Svoboda
-- **Title**: Team member (title TBD)
-- **Email Pattern**: TBD
+### Co-Founders (1998)
+**John A. Svoboda** - Managing Partner & Co-Founder  
+📧 jsvoboda@svoco.com OR jsvo@svoco.com (pattern inferred)  
+- Co-founded firm January 1998
 
-## Additional Team
-- William C. King
-- Brian Boeskool
-- Ryan M. Smith
-- Ryan P. Clark
-- Ana Padilla
+**Michelle Collins** - Co-Founder  
+📧 mcollins@svoco.com (pattern inferred)  
+- Co-founded firm January 1998
 
-## Advisory Board
-- Michelle Collins - Co-Founder and Managing Director of Svoboda, Collins LLC (1998-2006)
-- Keith Bishop, Brian Branca, Carl Jenkins, Mike Krasny, Sean McGuire, Patrick Norton, John Raitt, John L. Simpson
+### Investment Team
+**Tom Brooker** - Managing Director & Operating Partner  
+📧 tbrooker@svoco.com  
+📞 708-466-6036  
+📞 708-269-2108  
+🔗 https://www.linkedin.com/in/tom-brooker-4aa87b15  
+✅ Email & phone verified via ContactOut (Feb 2024)
 
-## Firm Stats
-- **Experience**: 70+ years of investing experience (collective)
-- **Transactions**: 100+ closed transactions
-- **Since Founding**: Partnered with 50+ management teams
+## Email Pattern
+**Primary:** {first_initial}{last}@svoco.com  
+**Alternative:** {first}{last}@svoco.com
 
-## Investment Criteria
-- Focus on growth-oriented businesses in lower middle market
-- Target sectors: professional services, industrial & commercial services, transportation & logistics
+## Investment Approach
+- Empower management teams
+- Support well-defined growth initiatives
+- Focus on operational excellence
+- Business services expertise
+- Middle-market focus
+
+## Company Profile
+- **NAICS:** 52, 523
+- **SIC:** 67, 628, 679, 62
+- Business services-focused private equity
+- Chicago-based with regional reach
+
+## Sources
+- Official website: svoco.com
+- ContactOut (Tom Brooker verified contact, published Feb 2024)
+- RocketReach (company profile)
+- ZoomInfo (company profile)
 
 ## Notes
-- Email pattern confirmed via multiple contact databases (ContactOut, ZoomInfo)
-- Need to find officially published emails on website or press releases
-- Company culture emphasizes "Honesty, Integrity and Hard Work"
-- "Principal Investors, Principled Partners"
+✅ Tom Brooker contact verified via ContactOut (published Feb 19, 2024)  
+✅ Established firm (founded 1998, 28+ years operating)  
+✅ Business services specialization aligns with PE trends  
+✅ Chicago location provides Midwest deal flow access  
+⚠️ Co-founder emails pattern inferred (not yet verified from public source)
 
-## Research Date
-- Last updated: 2026-03-29 by Jim (PE Research cron)
-- Status: Requires follow-up for officially published contact information
+## Follow-Up Research Needed
+- Verify John Svoboda and Michelle Collins email addresses
+- Confirm current AUM (estimated $400M+)
+- Identify additional team members
+- Obtain portfolio company list
+- Verify fund structure and current fund vintage
