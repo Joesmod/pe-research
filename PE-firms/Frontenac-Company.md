@@ -22,13 +22,15 @@
 - **LinkedIn:** https://frontenac.com/team-member/ronald-kuehl/
 
 ### Joseph Rondinelli ✅ VERIFIED
-- **Title:** Managing Director
+- **Title:** Managing Director (promoted from Principal, 2024)
 - **Email:** jrondinelli@frontenac.com (✅ VERIFIED from official website)
 - **Phone:** 312-759-7319
 - **LinkedIn:** https://www.linkedin.com/in/josephrondinelli/
 - **Focus:** Services sector investments
-- **Bio:** Joined Frontenac in 2008
+- **Bio:** Joined Frontenac in 2008, promoted to Managing Director in 2024
+- **Recognition:** Named Rising Star of Private Equity by Mergers & Acquisitions (2022)
 - **Source:** Official Frontenac team page (frontenac.com/team-member/joseph-rondinelli/)
+- **Verified:** 2026-03-31
 
 ### Walter Florence
 - **Title:** Managing Partner
@@ -66,4 +68,4 @@ Frontenac is a pioneering Chicago-based private equity firm active since 1971. T
 - Main phone: +1 312 368 0044
 
 ---
-*Last Updated: 2026-03-30*
+*Last Updated: 2026-03-31*
