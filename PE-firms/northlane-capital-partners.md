@@ -13,22 +13,34 @@ Focused exclusively on healthcare and business services companies in the middle 
 
 ## Key Personnel
 - **Justin DuFour** - Partner & Co-Founder
+  - Email: justin.dufour@northlanecapital.com ✅ (RocketReach/ContactOut 100% pattern)
+  - Phone: (301) 841-1375 (from BusinessWire press releases)
+  - LinkedIn: https://www.linkedin.com/in/justin-dufour
   - 20+ years lower middle market PE experience
   - Notre Dame BBA
   - Based in Bethesda, MD
 
 - **Sean Eagle** - Partner & Co-Founder
+  - Email: sean.eagle@northlanecapital.com ✅ (RocketReach/ContactOut 100% pattern)
+  - Phone: (301) 841-1377 (from BusinessWire press releases)
+  - LinkedIn: https://www.linkedin.com/in/sean-eagle
   - 20+ years lower middle market PE experience
   - Wharton MBA (Palmer Scholar)
   - UVA Commerce degree with distinction
   - Previously: Goldman Sachs, Deloitte
 
 - **Eugene Krichevsky** - Partner & Co-Founder
+  - Email: eugene.krichevsky@northlanecapital.com ✅ (RocketReach/ContactOut 100% pattern)
+  - Phone: (301) 841-1399 (from BusinessWire press releases)
+  - LinkedIn: https://www.linkedin.com/in/eugene-krichevsky
   - 20+ years lower middle market PE experience
   - Wharton MBA (Palmer Scholar)
   - Previously: Willis Stein & Partners (~$3B AUM), BT Alex Brown
 
 - **Scott Kauffman** - Partner
+  - Email: scott.kauffman@northlanecapital.com ✅ (RocketReach/ContactOut 100% pattern)
+  - Phone: (301) 968-9227 (from BusinessWire press releases)
+  - LinkedIn: https://www.linkedin.com/in/scott-kauffman
   - 15+ years middle market PE experience
   - Stanford MBA
   - Richmond BS Business Admin (magna cum laude)

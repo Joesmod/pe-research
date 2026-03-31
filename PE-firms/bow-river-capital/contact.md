@@ -7,7 +7,7 @@
 
 **Name:** Blair E. Richardson  
 **Title:** Co-Founder & CEO  
-**Email:** (not verified - pattern: [last]@bowrivercapital.com per RocketReach 96.9% confidence)  
+**Email:** richardson@bowrivercapital.com ✅ (ContactOut verified)  
 **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
 
 ## Key Leadership
@@ -34,7 +34,7 @@
 - 11-50 employees per org chart
 
 ## Research Date
-2026-03-30 (updated email pattern research)
+2026-03-31 (updated with ContactOut verified email)
 
 ## Sources
 - bowrivercapital.com/team

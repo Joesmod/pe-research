@@ -13,6 +13,8 @@ Sector-specialist private equity firm investing almost exclusively in financial 
 
 ## Key Personnel
 - **Mark Vassallo** - Managing Partner
+  - Email: mvassallo@lycap.com ✅ (RocketReach pattern inference)
+  - Phone: 212-496-XXXX
   - Member of Investment Committee and Management Committee
   - LinkedIn: https://www.linkedin.com/in/mark-vassallo-24213a242/
 

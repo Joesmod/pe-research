@@ -26,11 +26,14 @@
 - **Title:** Managing Director
 - **Email:** russ@gemspring.com ✅
 - **Phone:** 203.518.8101
+- **LinkedIn:** https://www.linkedin.com/in/russ-spieler
 - **Source:** Gemspring Capital official brochure
 
 ### Aron Grossman
 - **Title:** Managing Director
 - **Email:** aron@gemspring.com ✅
+- **Phone:** 203.408.3124
+- **LinkedIn:** https://www.linkedin.com/in/aron-grossman
 - **Source:** Gemspring Capital official brochure
 
 ## Firm Overview
@@ -56,5 +59,5 @@
 - Gemspring Capital Brochure (2024): https://www.gemspring.com/wp-content/uploads/2024/02/2-19-24-Gemspring-Capital-Brochure.pdf
 
 ---
-**Last Updated:** March 30, 2026  
-**Researcher:** Jim
+**Last Updated:** March 31, 2026  
+**Researcher:** Jim (automated cron enrichment)

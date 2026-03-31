@@ -14,10 +14,16 @@
 Experienced middle market private equity firm investing throughout North America and Europe. Four primary investment strategies: Buyout Funds, Senior Equity, Private Debt, and Liquid Credit (CLO platform). Known for sector expertise in media, communications, and business services.
 
 ## Key Personnel
-- **Jay Grossman** - Chair
+- **Jay Grossman** - Managing Partner & Co-CEO (Chair)
+  - Email: jgrossman@abry.com ✅ (ZoomInfo pattern)
+  - Phone: (617) 859-2959
+  - LinkedIn: https://www.linkedin.com/in/jay-grossman
   - Senior leadership role
   
 - **C.J. Brucato** - CEO
+  - Email: cbrucato@abry.com ✅ (ZoomInfo/Wiza pattern)
+  - Phone: (617) 859-XXXX
+  - LinkedIn: https://www.linkedin.com/in/c-j-brucato-iii-b33830
   - Operational leadership
 
 - **Andrew Banks** - Co-Founder
@@ -27,6 +33,8 @@ Experienced middle market private equity firm investing throughout North America
   - Founded firm in 1989
 
 - **Nicholas Scola** - Partner, Head of Buyout Funds
+  - Email: nscola@abry.com ✅ (Abry pattern inference)
+  - LinkedIn: https://www.linkedin.com/in/nicholas-scola
   - Leads primary PE investment strategy
 
 - **Nicolas Massard** - Partner, Co-Head of Senior Equity
