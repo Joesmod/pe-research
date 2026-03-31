@@ -21,6 +21,15 @@
 - **Phone:** +1 312 368 0044
 - **LinkedIn:** https://frontenac.com/team-member/ronald-kuehl/
 
+### Joseph Rondinelli ✅ VERIFIED
+- **Title:** Managing Director
+- **Email:** jrondinelli@frontenac.com (✅ VERIFIED from official website)
+- **Phone:** 312-759-7319
+- **LinkedIn:** https://www.linkedin.com/in/josephrondinelli/
+- **Focus:** Services sector investments
+- **Bio:** Joined Frontenac in 2008
+- **Source:** Official Frontenac team page (frontenac.com/team-member/joseph-rondinelli/)
+
 ### Walter Florence
 - **Title:** Managing Partner
 - **Phone:** +1 312 368 0044
@@ -48,8 +57,8 @@ Frontenac is a pioneering Chicago-based private equity firm active since 1971. T
 ## Research Notes
 
 **Source:** Manual research 2026-03-30  
-**Status:** Contact names verified from official website  
-**Email Status:** ⚠️ Pattern inferred from RocketReach (not verified from official source)
+**Status:** ✅ Joseph Rondinelli email VERIFIED from official website (jrondinelli@frontenac.com)  
+**Email Status:** Other contacts have pattern-inferred emails (not verified from official source)
 
 **Outreach Strategy:** 
 - Direct email to Michael Langdon (use cautiously, pattern not verified)

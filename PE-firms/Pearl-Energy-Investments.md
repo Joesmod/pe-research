@@ -19,6 +19,12 @@ Pearl Energy Investments is a Dallas-based private equity firm specializing in e
 
 ## Key Leadership
 
+**Kevin Pohler** ✅ VERIFIED - Partner
+- **Email:** kpohler@pearl-energy.com (✅ VERIFIED from official VCF file)
+- **Phone:** (214) 308-5266
+- **LinkedIn:** https://www.linkedin.com/in/kevin-pohler/
+- **Source:** Official Pearl Energy VCF file (pearl-energy.com/sites/default/files/contacts/Kevin-Pohler-2025.vcf)
+
 **Billy Quinn** - Founder & Managing Partner
 - LinkedIn: https://www.linkedin.com/in/billyquinn5/
 - Background:
@@ -37,7 +43,7 @@ Pearl Energy Investments is a Dallas-based private equity firm specializing in e
 **Firm Phone:** (Contact via website)  
 **LinkedIn:** https://www.linkedin.com/company/pearl-energy-investments
 
-**Status:** Direct email not published on official sources. Apollo API shows potential email pattern but not verified from official sources (2026-03-29).
+**Status:** ✅ Kevin Pohler (Partner) email VERIFIED from official VCF file (kpohler@pearl-energy.com, phone: 214-308-5266). Updated 2026-03-30.
 
 ## Research Notes
 
