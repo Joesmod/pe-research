@@ -50,5 +50,28 @@
 - Employee-focused culture
 - 100% employer-paid healthcare for employees and dependents
 
-## Enrichment Date
-2026-03-28
+## Recent News & Portfolio Activity
+
+### Recent Portfolio Companies
+- **Dura-Shiloh** - Manufacturing (current portfolio company, Greg Ramfos as CEO)
+- **Lindsay Precast** - Precast concrete products (sold Nov 2025)
+- **Progressive Roofing** - Commercial roofing (exited)
+- **Arctic Air Holdings, LLC** - HVAC and mechanical services
+- **Ocean Tomo** - IP advisory firm (sold to J.S. Held, March 2022)
+
+### Team Expansion
+- Robert Jonkers - Managing Director, Operations Team (Europe lead)
+- Kelly Myers - Managing Director, Financial Operations Team
+- Ben Schnakenberg - Managing Director (added 2023)
+
+## DE&I Commitment
+- Multi-cultural and gender diverse team
+- Consensus-based decision making for key portfolio decisions
+- Inclusive recruiting and interview process
+- Full employee participation encouraged regardless of title
+
+## Enrichment History
+- **First Added:** 2026-03-28
+- **Last Updated:** 2026-03-31 (Hourly PE Research Cron)
+- **Status:** Added to Sheet1 with John Stewart as primary contact
+- **Note:** Email not verified from official sources - requires manual verification
