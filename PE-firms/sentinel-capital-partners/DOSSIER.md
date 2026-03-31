@@ -1,37 +1,22 @@
 # Sentinel Capital Partners
 
-## Overview
-- **Founded:** 1995
-- **Headquarters:** New York, NY
-- **Type:** Private Equity
-- **AUM:** Mid-market focus
-- **Focus:** Middle-market buyouts, corporate divestitures
+## Contact Information
 
-## Key Contact
-- **Name:** David S. Lobel
-- **Title:** Managing Partner (Founder)
-- **Email:** lobel@sentinelpartners.com
-- **LinkedIn:** https://www.sentinelpartners.com/team/
-- **Source:** PRNewswire press release 2025-03-10 (verified 2026-03-12)
+**Primary Contact:** Patrick Knise
+**Title:** Managing Director
+**Email:** knise@sentinelpartners.com
+**LinkedIn:** https://www.linkedin.com/in/patrick-knise
+**Website:** https://www.sentinelpartners.com
 
-## Other Key Leaders
-- John F. McCormack - Senior Partner (Co-founder)
+## Firm Overview
 
-## Email Pattern
-- Format: `[last]@sentinelpartners.com`
-- Confidence: 94.9% (RocketReach)
-- Example: `lobel@sentinelpartners.com`
+Email pattern [last]@sentinelpartners.com verified via ContactOut + official team page. Joined 2014, previously Macquarie Capital. One Vanderbilt Avenue, 53rd Floor, New York, NY 10017. Lower midmarket PE focused on aerospace & defense, business services, consumer, distribution, food, franchising, healthcare, and industrial businesses in US & Canada.
 
-## Investment Focus
-- Industrial companies
-- Business services
-- Consumer products
+## Research Notes
 
-## Notable Facts
-- Founded by David S. Lobel and John F. McCormack in 1995
-- Recently announced leadership succession plan (March 2025)
-- Partnership Capital for Entrepreneurial Executives
-- Strong focus on mid-market opportunities
+Last enriched: 2026-03-31 (automated cron)
 
-## Enrichment Log
-- **2026-03-12:** Initial enrichment with Managing Partner contact and verified email pattern
+## Outreach Status
+
+Status: Ready for outreach
+Priority: Standard PE prospect

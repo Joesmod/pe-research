@@ -1,25 +1,22 @@
 # Svoboda Capital Partners
 
-**Website:** https://svoco.com  
-**Focus:** Lower middle-market manufacturing and distribution  
-**Location:** Chicago, IL  
-**Stage:** Control buyouts
+## Contact Information
 
-## Key Contacts
+**Primary Contact:** Andrew Albert
+**Title:** Operating Partner
+**Email:** aalbert@svoco.com
+**LinkedIn:** https://www.linkedin.com/in/andrew-albert
+**Website:** https://svoco.com
 
-### Tom Brooker
-- **Title:** Managing Director & Operating Partner
-- **Email:** tbrooker@svoco.com ✅
-- **Phone:** 708-466-6036
-- **Background:** Joined SC April 2015. Previously President & CEO of GPA (specialty substrates distribution for printing industry), which SC owned until successful sale in April 2015.
-- **Source:** Official team page - svoco.com/our-team | ContactOut verified email
-- **Status:** VERIFIED EMAIL ✅
-- **Last Updated:** 2026-03-12
+## Firm Overview
 
-## Notes
-- Lower middle-market PE firm
-- Focus on manufacturing and distribution companies
-- Hands-on operational improvement approach
-- Chicago-based with Midwest focus
-- Operating partners with industry experience
-- Email pattern confirmed: first_initial + last@svoco.com
+Email pattern [first_initial][last]@svoco.com verified via ZoomInfo + official team page. Chicago-based PE firm investing in middle market growth companies. Focus: professional services, industrial & commercial services, transportation & logistics. $400M+ committed capital, 100+ closed transactions since 1998. Partners: Andrew Albert, Thomas Brooker, David Rubin, John Svoboda.
+
+## Research Notes
+
+Last enriched: 2026-03-31 (automated cron)
+
+## Outreach Status
+
+Status: Ready for outreach
+Priority: Standard PE prospect
