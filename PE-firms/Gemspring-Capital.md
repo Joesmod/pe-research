@@ -1,98 +1,60 @@
 # Gemspring Capital
 
-**Website:** https://www.gemspring.com/  
-**Location:** Westport, Connecticut (offices in Charlotte, NC and El Segundo, CA)  
-**Type:** Mid-Market Private Equity  
-**AUM:** $3.5 Billion
-
-## Overview
-
-Gemspring Capital is a private equity firm providing flexible capital solutions to middle-market companies primarily in the United States and Canada. Founded in 2015, the firm focuses on growth equity, leveraged buyouts, recapitalizations, and structured equity investments.
-
-## Investment Focus
-
-- **Sectors:** Business Services, Tech-Enabled Services, Software, Industrial Distribution, Healthcare, Education, Aerospace & Defense
-- **Geography:** United States and Canada
-- **Deal Types:** Corporate carve-outs, growth equity, LBOs, recaps, restructurings, strategic debt, structured equity
-- **Strategy:** Build-and-buy, operational improvement, market expansion, add-on acquisitions
+**Type:** Private Equity  
+**Focus:** Middle Market Growth & Buyout  
+**Location:** Westport, CT  
+**AUM:** ~$3.5 billion  
+**Website:** https://www.gemspring.com  
+**Status:** Enriched ✅
 
 ## Key Contacts
 
-**Clay Cole**  
-Managing Director  
-📧 clay@gemspring.com  
-Focus: Business Services, Automotive, Financial & Insurance Services
+### Karl Rodger
+- **Title:** Managing Director - Business Development
+- **Email:** karl@gemspring.com ✅
+- **Phone:** 203.409.2014
+- **LinkedIn:** https://www.linkedin.com/in/karl-rodger/
+- **Source:** Gemspring Capital official brochure (verified March 30, 2026)
 
-**Aron Grossman**  
-Managing Director, Co-Head of Investments  
-Investment Committee member
+### Ravdeep Chanana
+- **Title:** Managing Director
+- **Email:** ravdeep@gemspring.com ✅
+- **Phone:** 203.533.4198
+- **Source:** Gemspring Capital official brochure
 
-**Bret Wiener**  
-Founder & CEO  
-175+ acquisitions across career, founded 2015 (previously H.I.G. Capital)
+### Russ Spieler
+- **Title:** Managing Director
+- **Email:** russ@gemspring.com ✅
+- **Phone:** 203.518.8101
+- **Source:** Gemspring Capital official brochure
 
-## Team Highlights
+### Aron Grossman
+- **Title:** Managing Director
+- **Email:** aron@gemspring.com ✅
+- **Source:** Gemspring Capital official brochure
 
-### Managing Directors
-- **D.J. Andrzejewski** - Software focus (previously PeakEquity, Stripes)
-- **Hart Callahan** - Software, Tech-Enabled Services (previously NewSpring Capital)
-- **Michael Fan** - Technology sector, board member at GoldenSource, OPEXUS, Telna
-- **Alex Funk** - Business Services, Industrial Distribution (previously Palladium Equity, ABRY Partners)
-- **Charlie Fraas** - Head of Portfolio Operations, 25+ years transformation experience
-- **Karthik Ganapathi** - Portfolio Operations, SaaS/XaaS transformation, AI-enabled ops
-
-### Investor Relations
-- **Courtney Hamlin** - Managing Director, Investor Relations & ESG
-
-## Offices
-
-**Headquarters:**  
-54 Wilton Road  
-Westport, CT 06880
-
-**West Coast:**  
-840 Apollo St.  
-El Segundo, CA 90245
-
-**Southeast:**  
-101 S. Tyron Street, 27th Floor  
-Charlotte, NC 28280
-
-## Investment Philosophy
-
-- Hands-on operational approach
-- Focus on growth, market leadership, operational excellence
-- Strategic value creation through talent, infrastructure, market expansion, and M&A
-- "Entrepreneurs, problem solvers, and resources for whatever needs to get done"
-
-## Culture & Values
-
-- Collaboration and partnership
-- Analytical rigor and intellectual honesty
-- Integrity and lasting impact
-
-## Portfolio Strategy
-
-- Platform acquisitions with add-on M&A potential
-- Operational transformation (SaaS conversion, AI integration)
-- Commercial effectiveness and growth acceleration
-- Post-merger integration expertise
+## Firm Overview
+- **Founded:** Middle-market PE specialist
+- **AUM:** $3.5 billion
+- **Focus:** Consumer, business services, healthcare
+- **Strategy:** Partnership approach, flexible capital solutions
+- **Investment Range:** Middle market companies
 
 ## Research Notes
+- Excellent source: Official company brochure (PDF) contains verified emails and phone numbers
+- Multiple managing directors with direct contact info
+- Active in consumer and business services sectors
+- Strong culture of partnership with management teams
+- Good target for operational improvement and AI/digital transformation
 
-- **Source:** Website team page (publicly published email)
-- **Date Added:** 2026-03-29
-- **Fit:** Excellent - $3.5B AUM in target range, strong services focus, operational value-add mindset
-- **Key Insight:** Dedicated Portfolio Operations team with AI/SaaS transformation expertise
-- **Outreach Angle:** Business services AI automation, operational efficiency for portfolio companies
+## Outreach Status
+- **Added to CRM:** 2026-03-30
+- **Contact Status:** Ready for outreach (4 verified emails)
+- **Priority:** High (multiple decision-makers with verified contacts)
 
-## Recent Activity
+## Source Documents
+- Gemspring Capital Brochure (2024): https://www.gemspring.com/wp-content/uploads/2024/02/2-19-24-Gemspring-Capital-Brochure.pdf
 
-- Strong M&A cadence across business services and software
-- Focus on SaaS/XaaS business model transformation
-- AI-driven operational improvements (per Karthik Ganapathi's background)
-
-## Next Steps
-
-- High-priority outreach target
-- Clay Cole (Business Services) and Karthik Ganapathi (AI/Ops) are key decision-influencers
+---
+**Last Updated:** March 30, 2026  
+**Researcher:** Jim

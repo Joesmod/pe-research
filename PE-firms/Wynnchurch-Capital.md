@@ -1,34 +1,38 @@
 # Wynnchurch Capital
 
-**Focus:** Middle Market, Industrial, Consumer, Healthcare
-**AUM:** ~$5B+
-**Location:** Chicago, IL (Rosemont) | Toronto, Canada
-**Website:** https://www.wynnchurch.com
+**Type:** Private Equity  
+**Focus:** Middle Market Buyouts  
+**Location:** Chicago, IL  
+**Website:** https://www.wynnchurch.com  
+**Status:** Enriched ✅
 
-## Decision Makers
+## Key Contacts
 
-### Greg B. Gleason
+### Greg Gleason
 - **Title:** Managing Partner
-- **Email:** ggleason@wynnchurch.com (VERIFIED)
-- **LinkedIn:** https://www.linkedin.com/company/wynnchurch-capital
+- **Email:** ggleason@wynnchurch.com ✅
 - **Phone:** 847.604.6121
-- **Background:** Managing Partner leading firm strategy
-- **Source:** BusinessWire press release (LPW Group exit, 2026) - OFFICIAL
-- **Enriched:** 2026-03-29
-
-### Other Key Contacts (already in CRM)
-- **John A. Hatherly** - jhatherly@wynnchurch.com (Row 734)
-- **Christopher P. O'Brien** - cobrien@wynnchurch.com (Row 1489)
-- **Michael A. Teplitsky** - mteplitsky@wynnchurch.com (Row 1545)
-- **Brian Riordan** - briordan@wynnchurch.com (Row 325)
+- **LinkedIn:** https://www.linkedin.com/in/greg-gleason-5468848/
+- **Responsibilities:** Oversees management and investment activities
+- **Source:** Wynnchurch press release (verified March 30, 2026)
+- **Notes:** Joined firm in 2008. Prior experience at Houlihan Lokey Chicago.
 
 ## Firm Overview
-Founded 1999. Middle-market PE firm with $5B+ AUM. Focus on partnering with business owners and executives in industrial, consumer, and healthcare sectors. Strong operational support team including Operating Partners.
+- Founded: Mid-market PE firm
+- Focus: Industrial, manufacturing, business services
+- Investment Range: Mid-market ($50M-$500M revenue typically)
 
-## Email Pattern
-**Pattern:** [first_initial][last]@wynnchurch.com OR [first][last]@wynnchurch.com
-**Confidence:** VERIFIED (multiple press releases + team contacts confirmed)
+## Research Notes
+- Email verified from official press release on wynnchurch.com
+- Active in manufacturing and industrial sectors
+- Good target for AI/digital transformation outreach
+- Multiple team members found on LinkedIn
 
 ## Outreach Status
-- **Status:** Enriched 2026-03-29
-- **Notes:** Managing Partner email verified from official press release. Multiple other contacts already in CRM. Well-established firm with strong middle-market presence.
+- **Added to CRM:** 2026-03-30
+- **Contact Status:** Ready for outreach
+- **Priority:** High (verified email, senior decision-maker)
+
+---
+**Last Updated:** March 30, 2026  
+**Researcher:** Jim
