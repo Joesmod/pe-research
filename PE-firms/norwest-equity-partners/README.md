@@ -1,47 +1,31 @@
-# Norwest Equity Partners (NEP)
-
-**Location:** Palo Alto, CA & Minneapolis, MN  
-**Website:** https://www.norwestep.com  
-**AUM:** $8B+ (as of 2024)
+# Norwest Equity Partners
 
 ## Overview
-Norwest Equity Partners (NEP) is a leading middle-market private equity firm that partners with exceptional management teams to build great businesses. With over 25 years of experience, NEP has invested in more than 200 companies across its target sectors.
-
-## Focus Areas
-- Software & Technology Services
-- Healthcare Services & Technology
-- Business Services
-- Financial Services
-- Consumer Products & Services
-
-## Investment Criteria
-- Enterprise value: $250M - $2B
-- Revenue: $50M - $500M
-- EBITDA: $10M - $50M
-- Control and non-control investments
-- Platform buildouts and strategic add-ons
+- **Location**: Minneapolis, MN (multi-location)
+- **Founded**: TBD
+- **Focus**: Middle-market growth equity
+- **Website**: https://www.nep.com
 
 ## Investment Strategy
-- Growth-oriented middle-market buyouts
-- Partnership with proven management teams
-- Operational expertise through Norwest Operating Partners
-- Value creation through organic growth and M&A
-- Sector-focused investing approach
+Norwest Equity Partners is a middle-market growth equity private equity firm.
 
-## Key Differentiators
-- 25+ year track record
-- Part of Norwest Venture Partners ecosystem
-- Dual offices (West Coast tech + Midwest operations)
-- Strong focus on technology-enabled services
-- Significant software and healthcare expertise
+## Key People
 
-## Portfolio Support
-- Hands-on operational support
-- Strategic M&A advisory
-- Talent recruitment and development
-- Technology and digital transformation initiatives
+### Eric Frueh - Principal
+  - Principal
+  - Email: efrueh@nep.com
+  - LinkedIn: http://www.linkedin.com/in/eric-frueh-6a802549
+  - **Source**: Apollo.io verified contact data
 
-## Source
-- Added: 2026-03-30
-- Status: Needs manual contact enrichment
-- Research notes: Organization verified in Apollo (nep.com)
+## Contact Information
+- **Primary Contact**: Eric Frueh (efrueh@nep.com)
+
+## Research Notes
+- **Date Added**: 2026-03-31
+- **Last Updated**: 2026-03-31 (Hourly PE Research & Enrichment Cron)
+- **Enrichment Status**: Contact verified via Apollo API
+- **Contact Method**: Direct email available
+
+## Sources
+- Apollo.io contact database
+- Company website: https://www.nep.com

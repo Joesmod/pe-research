@@ -1,32 +1,31 @@
 # Trivest Partners
 
 ## Overview
-Multi-strategy private equity firm with funds targeting growth, discovery, mid-market, and recognition investments.
+- **Location**: Miami, FL (multi-location)
+- **Founded**: 1981
+- **Focus**: Founder-led and family-owned businesses
+- **Website**: https://www.trivest.com
 
-**Website:** https://www.trivest.com  
-**Location:** Miami, FL  
-**AUM:** $2.3B+ AUM  
-**Focus:** Founder-led and family-owned businesses, lower middle market
+## Investment Strategy
+Trivest Partners is a founder-led and family-owned businesses private equity firm.
 
-## Key Contact
+## Key People
 
-**Forest Wester**  
-*Managing Partner, Mid-Market Fund*  
-📧 fwester@trivest.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/forest-wester)
+### Todd Jerles - Partner, Chief Operating Officer
+  - Partner, Chief Operating Officer
+  - Email: tjerles@trivest.com
+  - LinkedIn: http://www.linkedin.com/in/todd-jerles-3070784
+  - **Source**: Apollo.io verified contact data
 
-## Investment Criteria
-
-- **Target Company Size:** Lower middle market
-- **Geography:** North America
-- **Sectors:** Founder-led and family-owned businesses, lower middle market
+## Contact Information
+- **Primary Contact**: Todd Jerles (tjerles@trivest.com)
 
 ## Research Notes
+- **Date Added**: 2026-03-31
+- **Last Updated**: 2026-03-31 (Hourly PE Research & Enrichment Cron)
+- **Enrichment Status**: Contact verified via Apollo API
+- **Contact Method**: Direct email available
 
-**Source:** Official website, team pages, verified email patterns  
-**Status:** Enriched 2026-03-30  
-**Next Steps:** Potential outreach for Hello Gumbo PE services
-
----
-
-*Last updated: 2026-03-30*
+## Sources
+- Apollo.io contact database
+- Company website: https://www.trivest.com
