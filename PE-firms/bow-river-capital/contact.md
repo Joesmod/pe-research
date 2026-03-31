@@ -7,7 +7,7 @@
 
 **Name:** Blair E. Richardson  
 **Title:** Co-Founder & CEO  
-**Email:** (not found - needs enrichment)  
+**Email:** (not verified - pattern: [last]@bowrivercapital.com per RocketReach 96.9% confidence)  
 **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
 
 ## Key Leadership
@@ -21,8 +21,9 @@
 **General Counsel:** James D. Kerr
 
 ## Email Pattern
-- Not found on official sources
-- Needs further research
+- **Format:** [last]@bowrivercapital.com (verified via RocketReach/ContactOut - 96.9% usage)
+- Blair Richardson likely: richardson@bowrivercapital.com (not verified from official source)
+- Alternative pattern seen: [first_initial][last]@bowrivercapital.com
 
 ## Notes
 - Founded 2003 in Denver, CO
@@ -33,7 +34,7 @@
 - 11-50 employees per org chart
 
 ## Research Date
-2026-03-29
+2026-03-30 (updated email pattern research)
 
 ## Sources
 - bowrivercapital.com/team
