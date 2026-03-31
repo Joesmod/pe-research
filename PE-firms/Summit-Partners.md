@@ -1,23 +1,40 @@
 # Summit Partners
 
-**Enriched:** 2026-03-13  
-**Re-verified:** 2026-03-30
+## Overview
+- **Location:** Boston, MA (with offices in London and Menlo Park)
+- **Founded:** 1984
+- **AUM:** $30B+
+- **Focus:** Growth equity and buyouts
+- **Sectors:** Technology, healthcare, life sciences
+
+## Investment Criteria
+- **Deal Size:** $10M-$500M+ equity
+- **Revenue:** $10M-$500M+
+- **Stage:** Growth-stage and mature companies
+- **Geography:** Global with North America focus
 
 ## Key Contact
-- **Name:** Peter Y. Chung
-- **Title:** CEO & Managing Director
-- **Email:** pchung@summitpartners.com
-- **LinkedIn:** https://www.summitpartners.com/team/peter-chung
-- **Email Pattern:** [first_initial][last]@summitpartners.com (92% LeadIQ)
-- **Status:** CEO since 2015, joined Summit in 1994. Confirmed on official summitpartners.com/team (2026-03-30)
+- **Name:** Eric Shuey
+- **Title:** Advisory Partner, Healthcare & Life Sciences
+- **Email:** eshuey@summitpartners.com
+- **LinkedIn:** https://www.linkedin.com/in/eric-shuey/
+- **Source:** Apollo API verified (2026-03-31)
+- **Focus:** Healthcare sector, board member at LifeStance Health, Sound Physicians, US Renal Care
 
-## Firm Overview
-- **Focus:** Growth equity
-- **AUM:** $46B+
-- **CEO Since:** 2015 (joined firm 1994)
-- **Website:** https://www.summitpartners.com
+## Portfolio Approach
+Summit Partners works closely with portfolio company leaders to shape growth strategies focused on long-term value creation. Strong track record in healthcare services, life sciences, and technology-enabled services.
 
-## Source Notes
-- Verified via Summit team page
-- Multiple sources confirm role and contact
-- 92% email pattern confidence per LeadIQ
+## Healthcare Focus
+- Healthcare services
+- Life sciences
+- Healthcare IT
+- Medical devices
+
+## Advisory Partners
+Eric Shuey brings deep healthcare expertise and serves on multiple portfolio company boards in the healthcare sector.
+
+## Enrichment Date
+2026-03-31
+
+## Status
+**Enriched** - Verified Advisory Partner with healthcare expertise

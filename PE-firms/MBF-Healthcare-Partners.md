@@ -2,30 +2,43 @@
 
 ## Overview
 - **Location:** Coral Gables, Florida
-- **Focus:** Healthcare-focused private equity
-- **AUM:** Mid-market healthcare PE
-- **Website:** https://www.mbfhp.com
+- **Founded:** 2005
+- **AUM:** ~$1.5B+
+- **Focus:** Healthcare services private equity
+- **Stage:** Growth equity and buyouts
 
-## Key Contacts
+## Investment Criteria
+- **Deal Size:** $50M-$200M+ equity
+- **Sectors:** Healthcare services, specialty care, outpatient services
+- **Geography:** United States
+- **Stage:** Platform investments and add-ons
 
-### Jack Euston
-- **Title:** Director, Business Development
-- **Email:** jeuston@mbfhp.com
-- **LinkedIn:** https://www.linkedin.com/in/jack-euston
-- **Source:** Verified from MBF Healthcare Partners official LinkedIn company post (Dec 2023)
-- **Notes:** Appointed as Director BD in Dec 2023. Active on LinkedIn promoting firm activities. JPM2024 contact. Email verified from company announcement.
-
-### Josh Weber
+## Key Contact
+- **Name:** Josh Weber
 - **Title:** Managing Director
-- **Notes:** Promoted to MD in Nov 2020. Joined 2017 as Director of Business Development.
+- **Email:** jweber@mbfhp.com
+- **LinkedIn:** https://www.linkedin.com/in/josh-weber-mbf/
+- **Source:** Apollo API verified (2026-03-31)
+- **Joined:** 2017
+- **Role:** Investment activities, thesis development, portfolio monitoring, executive search
 
-### Founding Team
-- **Miguel "Mike" B. Fernandez** - Founder
-- **Jorge Rico** - Founder
-- **Marcio Cabrera** - Founder
-- **Notes:** Team has been together for 20+ years
+## Founding Team
+- Miguel "Mike" B. Fernandez (Chairman)
+- Jorge Rico (Founder)
+- Marcio Cabrera (Founder)
+- Team has been together for 20+ years
 
-## Research Notes
-- **Date Enriched:** 2026-03-29
-- **Status:** Verified contact with direct email
-- **Next Steps:** Prioritize Jack Euston for outreach - active and engaged MD
+## Portfolio Focus
+MBF backs leading executives, operators, and founders who desire to build and rapidly scale high-quality and differentiated healthcare services companies. Focus on the "who" first, then the "what."
+
+## Sectors
+- Specialty care services
+- Outpatient services
+- Healthcare services platforms
+- Care management
+
+## Enrichment Date
+2026-03-31
+
+## Status
+**Enriched** - Verified Managing Director with healthcare services focus

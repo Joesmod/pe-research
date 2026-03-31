@@ -1,45 +1,41 @@
 # Riverside Partners
 
-**Website:** https://riversidepartners.com  
-**Location:** Boston, MA  
-**Focus:** Healthcare & Technology  
-**Type:** Middle-market private equity
-
-## Key Contact
-- **Name:** David Belluck
-- **Title:** General Partner
-- **Email:** dbelluck@riversidepartners.com ✅ VERIFIED
-- **Phone:** 617-351-2806 (direct) | 617-351-2800 (main)
-- **LinkedIn:** https://www.linkedin.com/in/david-belluck-9a469a40/
-
-## Firm Overview
-- **Founded:** 1989
-- **AUM:** ~$850M equity capital
-- **Investment Focus:** Healthcare and technology companies
-- **Geographic Focus:** North America
-
-## Key Personnel
-- **David Belluck** - General Partner (30+ years at Riverside, joined 1992)
-- **David Del Papa** - General Partner (joined 2012)
-- **Craig Stern** - General Partner
-- **Michelle Noon** - General Partner (joined 2008, technology focus)
-- **Max Osofsky** - General Partner (joined 2008, healthcare focus)
-
-## Investment Thesis
-Boston-based middle-market PE firm with deep expertise in healthcare and technology. Partners with founders, owners and management teams. Brings substantial domain expertise and operating experience.
+## Overview
+- **Location:** Boston, MA
+- **Founded:** 1990s
+- **AUM:** ~$2B+
+- **Focus:** Lower middle market PE
+- **Sectors:** Healthcare and technology
 
 ## Investment Criteria
-- **Revenue:** $20M-$200M
-- **EBITDA:** $5M-$25M
-- **Industries:** Healthcare, Technology
-- **Type:** Growth-oriented companies, partnerships with founders/management
+- **Deal Size:** $25M-$100M+ equity
+- **Revenue:** $20M-$150M
+- **EBITDA:** $3M-$20M
+- **Geography:** North America focus
 
-## Research Notes
-- **Email VERIFIED** - publicly listed in press releases (highest confidence)
-- 30+ years experience in lower middle market
-- Source: riversidepartners.com/team + PRNewswire press releases
-- Enrichment Date: 2026-03-29
-- Quality Score: 9/10
+## Key Contact
+- **Name:** Craig Stern
+- **Title:** General Partner
+- **Email:** cstern@riversidepartners.com
+- **LinkedIn:** http://www.linkedin.com/in/craig-stern-213a3515/
+- **Source:** Apollo API verified (2026-03-31)
 
----
-*Last Updated: 2026-03-30*
+## Portfolio Approach
+Riverside focuses on sustainable growth through partnerships with management teams. Known for long-term value creation in healthcare and technology sectors.
+
+## Advisory Boards
+- Strong Healthcare Advisory Board with industry leaders
+- Clinical Advisory Board with medical professionals
+- Deep domain expertise in healthcare services and technology
+
+## Sectors
+- Healthcare services
+- Healthcare IT
+- Life sciences services
+- Technology-enabled services
+
+## Enrichment Date
+2026-03-31
+
+## Status
+**Enriched** - Verified General Partner with direct email

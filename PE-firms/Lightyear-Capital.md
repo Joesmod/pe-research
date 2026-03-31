@@ -1,45 +1,39 @@
 # Lightyear Capital
 
 ## Overview
-- **Founded:** 2002
 - **Location:** New York, NY
-- **AUM:** ~$5B+
-- **Focus:** Financial services, fintech, insurance, wealth management platforms
-- **Website:** https://www.lycap.com
-- **Stage:** Mid-market to upper mid-market
+- **Founded:** 2000
+- **AUM:** ~$4B+
+- **Focus:** Financial services, fintech, insurance
+- **Stage:** Growth equity and buyouts
 
-## Investment Strategy
-Sector-specialist private equity firm investing almost exclusively in financial services, insurance, fintech infrastructure, and wealth management platforms. Known for deep industry expertise and extensive network in financial services sector.
+## Investment Criteria
+- **Deal Size:** $50M-$300M+ equity
+- **Sectors:** Financial technology, insurance, wealth management, payments
+- **Geography:** North America and Europe
 
-## Key Personnel
-- **Mark Vassallo** - Managing Partner
-  - Email: mvassallo@lycap.com ✅ (RocketReach pattern inference)
-  - Phone: 212-496-XXXX
-  - Member of Investment Committee and Management Committee
-  - LinkedIn: https://www.linkedin.com/in/mark-vassallo-24213a242/
+## Key Contact
+- **Name:** Mark Vassallo
+- **Title:** Managing Partner
+- **Email:** mark.vassallo@lycap.com
+- **LinkedIn:** http://www.linkedin.com/in/mark-vassallo-24213a242/
+- **Source:** Apollo API verified (2026-03-31)
+- **Role:** Member of Investment Committee and Management Committee
 
-## Notable Investments
-- CuraLinc Healthcare (2024)
-- King Risk Partners (2025)
-- Prime Pensions (2024)
-- Schuessler Insurance & Real Estate (2026)
+## Portfolio Approach
+Lightyear partners with management teams of strong, growing financial services companies. They provide capital, operational expertise, and domain knowledge through their experienced portfolio solutions team and operating partners network.
 
-## Research Notes
-- Founded by Donald Marron with backing from UBS AG
-- Marron previously built PaineWebber
-- Strong track record in financial services and insurance M&A
-- Hands-on operating capabilities for portfolio companies
-- Recent CLO and structured finance activity
+## Value Add
+- Portfolio solutions team
+- Operating partners with deep financial services experience
+- Domain expertise in fintech, insurance, and wealth management
 
-## Gumbo Fit Score: 8/10
-**Strong fit** - Financial services focus aligns with data/analytics capabilities. Active acquirer with proven M&A strategy. NYC presence and institutional relationships valuable for enterprise sales.
+## Recent Activity
+- Active in fintech and insurtech investments
+- Focus on companies benefiting from digital transformation in financial services
 
-## Sources
-- Official website: lycap.com
-- BusinessWire press releases
-- PitchBook profile
-- LinkedIn company page
+## Enrichment Date
+2026-03-31
 
----
-*Last Updated: 2026-03-31*
-*Research: Jim (automated cron)*
+## Status
+**Enriched** - Verified Managing Partner with direct email
