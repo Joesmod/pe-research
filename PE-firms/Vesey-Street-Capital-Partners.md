@@ -1,31 +1,45 @@
-# Vesey Street Capital Partners
+# Vesey Street Capital Partners (VSCP)
 
-## Overview
-- **Location:** New York, NY
-- **Focus:** Healthcare services (lower middle market)
-- **Experience:** Partners with 100+ years combined in healthcare services
-- **Website:** https://www.vscpllc.com
+**Website:** https://www.vscpllc.com  
+**Founded:** Early 2000s  
+**Location:** 412 W 15th Street, 2nd Floor, New York, NY 10011  
+**Focus:** Healthcare services (EXCLUSIVE)  
+**Phone:** (646) 847-2474  
+
+## Investment Thesis
+Exclusive focus on healthcare services private equity. 30+ years of specialized experience in the sector. Focus on building scalable healthcare service platforms.
 
 ## Key Contacts
 
-### Tiffany Visconti
-- **Title:** Investor Relations
-- **Email:** tiffany@vscpllc.com
-- **Phone:** (646) 847-2474
-- **LinkedIn:** https://www.linkedin.com/in/tiffany-visconti-40620ab7/
-- **Source:** Verified from official website vscpllc.com/team + PRNewswire press release (Jan 2025)
-- **Notes:** IR contact verified on official team page and ComplexCare Solutions carveout announcement
+### Adam Feinstein
+- **Title:** Founder & Managing Partner
+- **Email:** [Needs verification]
+- **Background:** 30+ years investment experience exclusively in healthcare services
+- **Source:** GrowthCap Top Healthcare Investors 2026
 
-## Firm Details
-- **Address:** 412 W 15th Street – 2nd Floor, New York, NY 10011
-- **Investment Focus:** Lower middle-market healthcare services companies
-- **Expertise:** Partners with 100+ years combined healthcare services experience
-- **Team Tenure:** Senior team working together for 30 years
+### Tiffany Laing
+- **Title:** Investor Relations
+- **Email:** tlaing@vscpllc.com ✅ VERIFIED
+- **Phone:** (646) 847-2474
+- **Source:** PRNewswire press release (Sept 2025)
 
 ## Recent Activity
-- ComplexCare Solutions corporate carveout (Jan 2025)
+- **2025:** Inc. Founder-Friendly Investors list
+- **2025:** Full exit of portfolio company Gastro MD to AGA, LLC (United Digestive)
 
-## Research Notes
-- **Date Enriched:** 2026-03-29
-- **Status:** Verified IR contact with direct email and phone
-- **Next Steps:** IR is good entry point for firm intro
+## Investment Focus
+- **Industries:** Healthcare services ONLY
+- **Deal Types:** Platform builds, add-ons, recapitalizations
+- **Stage:** Middle market
+- **Geography:** United States
+
+## Portfolio Activity
+- Gastro MD (EXIT 2025) - Gastroenterology services
+
+## Notes
+- Deep sector specialization (healthcare services only)
+- Long track record with founder and management teams
+- Focus on building scaled platforms through M&A
+- Strong reputation in healthcare PE community
+
+**Last Updated:** 2026-03-31
