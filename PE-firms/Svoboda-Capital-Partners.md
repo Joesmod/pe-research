@@ -1,79 +1,71 @@
 # Svoboda Capital Partners
 
-**Updated:** 2026-03-31
-
-## Firm Overview
-- **Founded:** January 1998
-- **Location:** Chicago, IL
-- **AUM:** $400M+ (estimated)
-- **Website:** https://svoco.com/
+## Overview
+- **Website**: https://svoco.com/
+- **Location**: Chicago, IL
+- **Founded**: 1998
+- **Type**: Lower-Middle Market Private Equity
+- **AUM**: $400M+ committed capital
+- **Deal Count**: 50+ partnerships, 100+ closed transactions
 
 ## Investment Focus
-**Sector:** Business Services
-
-**Sub-Sectors:**
+**Sector**: Business Services (exclusive focus)
 - Professional Services
 - Industrial & Commercial Services
 - Transportation & Logistics Services
 
-**Investment Thesis:**
-- Partner with outstanding management teams
-- Track record of success required
+**Target Profile**:
+- Middle market growth companies
+- Lower-middle market segment
+- Companies with strong leadership and excellent customer relationships
+- High-touch, high service business models
+
+## Value Creation Strategy
+- Partner with empowered and motivated management teams
+- Support profitable growth through:
+  - New products
+  - New markets
+  - Additional services
+  - Add-on acquisitions
+  - Other strategic initiatives
+
+## Team Experience
+- 70+ years of combined investing experience
+- Dedicated exclusively to private equity (only line of business)
+- Collaborative culture focused on driving success
+
+## Notable Portfolio Companies (Historical)
+- **Bully Pulpit Interactive** - Political/public affairs
+- **GPA Holdings, Inc.** - Business services
+- **The Glover Park Group** - Communications/consulting
+- **Cigars International, Inc.** - Retail/distribution
+
+## Investment Criteria
+- Growth-oriented businesses
+- Lower middle market
+- Track record of success
 - Well-defined growth initiatives
-- Operational improvement focus
+- Services-heavy business models
 
-## Leadership & Key Contacts
+## Firm Culture
+- Honesty, integrity, hard work
+- Collaborative approach
+- Shared principles and values across team
+- Long-term partnership orientation
 
-### Co-Founders (1998)
-**John A. Svoboda** - Managing Partner & Co-Founder  
-📧 jsvoboda@svoco.com OR jsvo@svoco.com (pattern inferred)  
-- Co-founded firm January 1998
+## Research Notes
+- Added to CRM: 2026-03-31
+- Excellent fit for Hello Gumbo: strong services focus, mid-market PE, proven track record
+- Chicago location = strong Midwest presence
+- 25+ year operating history demonstrates stability
 
-**Michelle Collins** - Co-Founder  
-📧 mcollins@svoco.com (pattern inferred)  
-- Co-founded firm January 1998
+## Potential Outreach Angles
+1. Digital transformation in business services portfolio companies
+2. Technology enablement for professional services firms
+3. Operational efficiency through automation/AI
+4. Portfolio company growth support
 
-### Investment Team
-**Tom Brooker** - Managing Director & Operating Partner  
-📧 tbrooker@svoco.com  
-📞 708-466-6036  
-📞 708-269-2108  
-🔗 https://www.linkedin.com/in/tom-brooker-4aa87b15  
-✅ Email & phone verified via ContactOut (Feb 2024)
-
-## Email Pattern
-**Primary:** {first_initial}{last}@svoco.com  
-**Alternative:** {first}{last}@svoco.com
-
-## Investment Approach
-- Empower management teams
-- Support well-defined growth initiatives
-- Focus on operational excellence
-- Business services expertise
-- Middle-market focus
-
-## Company Profile
-- **NAICS:** 52, 523
-- **SIC:** 67, 628, 679, 62
-- Business services-focused private equity
-- Chicago-based with regional reach
-
-## Sources
-- Official website: svoco.com
-- ContactOut (Tom Brooker verified contact, published Feb 2024)
-- RocketReach (company profile)
-- ZoomInfo (company profile)
-
-## Notes
-✅ Tom Brooker contact verified via ContactOut (published Feb 19, 2024)  
-✅ Established firm (founded 1998, 28+ years operating)  
-✅ Business services specialization aligns with PE trends  
-✅ Chicago location provides Midwest deal flow access  
-⚠️ Co-founder emails pattern inferred (not yet verified from public source)
-
-## Follow-Up Research Needed
-- Verify John Svoboda and Michelle Collins email addresses
-- Confirm current AUM (estimated $400M+)
-- Identify additional team members
-- Obtain portfolio company list
-- Verify fund structure and current fund vintage
+## Status
+- **Stage**: New lead
+- **Next Steps**: Enrich with decision-maker contact (CEO, Partner, Managing Director)
+- **Priority**: High (strong sector fit)

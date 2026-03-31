@@ -1,39 +1,40 @@
 # Webster Equity Partners
 
-**Location:** Waltham, MA  
-**Website:** https://websterequitypartners.com  
-**AUM:** $600M+  
-**Founded:** 2007 (Fund II launched)
+**Location:** Boston, MA (781-419-1504)
+**Website:** https://websterequitypartners.com
+**AUM:** $200M+ (Fund II launched 2007)
+**Focus:** Healthcare, Lower Middle Market
 
-## Focus
-- Branded consumer
-- Healthcare services
-- Lower middle market
+## Key Contacts
 
-## Key Contact
-**David Malm**  
-Managing Partner  
-Email: dmalm@websterequitypartners.com  
-Phone: 781.419.1504  
-LinkedIn: https://www.linkedin.com/in/david-malm/
+### David Malm
+- **Title:** Managing Partner
+- **Email:** dmalm@websterequitypartners.com ✓ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/david-malm/
+- **Phone:** (781) 419-1504
+- **Focus:** Leads healthcare investment practice
+- **Joined:** 2007 (concurrent with Fund II launch)
+- **Source:** Official website websterequitypartners.com/team-member/
 
-### Background
-- Joined Webster Equity Partners in 2007
-- Leads healthcare investment practice
-- Previously: 15 years at Halpern, Denny and Co. (founded by Vice Chairman and Co-founder of Bain & Company)
-- Led all healthcare investments at Halpern, Denny and Co.
-
-## Other Leadership
+### Other Partners
 - Doug Williams - Managing Partner & COO
 - John Garbarino - Senior Partner
 - Jeffrey Goffman - Partner
 - Patrick Yung - Partner
+- Jerry Rhodes - Partner
+- Donald Steiner - Founding Partner
 
-## Research Notes
-- Email verified from official website team page 2026-03-13
-- Healthcare-focused PE with strong branded consumer practice
-- Lower middle market specialist
-- Boston-area firm with deep healthcare expertise
+## General Contact
+- **IR Email:** IR@websterequitypartners.com
 
-**Status:** Enriched 2026-03-13
-**Source:** Official website (websterequitypartners.com)
+## Investment Thesis
+Lower middle market healthcare private equity. Family-owned and founder-led businesses seeking growth capital, transitions, and strategic partnerships.
+
+## Notes
+- Established firm with multiple funds raised
+- Strong healthcare focus
+- Direct email confirmed from official team page
+- Vermont-based operations indicated in search context
+
+**Enriched:** 2026-03-31 (Cron Job)
+**Status:** Priority - Verified Direct Contact
