@@ -25,6 +25,7 @@
 
 ### Executive Leadership
 - **Bret Wiener** - Founder & CEO
+  - **Email**: bwiener@gemspring.com ✅ (verified RocketReach 2026-03-31)
   - 175+ acquisitions across career
   - Previously Managing Director at H.I.G. Capital (11 years)
   - Stanford MBA, NYU BS (summa cum laude)

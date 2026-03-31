@@ -8,6 +8,13 @@
 
 ## Key Contacts
 
+### Tom Burger
+- **Title:** Co-Founder & Managing Partner
+- **Email:** tburger@gridironcapital.com ✅ (verified RocketReach 2026-03-31)
+- **LinkedIn:** https://www.linkedin.com/in/tom-burger-237b183
+- **Source:** RocketReach verification
+- **Background:** Over 35 years experience, 30+ years acquiring/building middle-market companies
+
 ### Sean Kelley
 - **Title:** Managing Director
 - **Email:** skelley@gridironcapital.com

@@ -15,9 +15,9 @@
 ## Key Contact
 - **Name:** Mark Vassallo
 - **Title:** Managing Partner
-- **Email:** mark.vassallo@lycap.com
+- **Email:** mvassallo@lycap.com (verified RocketReach 2026-03-31)
 - **LinkedIn:** http://www.linkedin.com/in/mark-vassallo-24213a242/
-- **Source:** Apollo API verified (2026-03-31)
+- **Source:** RocketReach email pattern verification
 - **Role:** Member of Investment Committee and Management Committee
 
 ## Portfolio Approach

@@ -13,12 +13,18 @@
 - **EBITDA:** $3M-$20M
 - **Geography:** North America focus
 
-## Key Contact
+## Key Contacts
 - **Name:** Craig Stern
 - **Title:** General Partner
 - **Email:** cstern@riversidepartners.com
 - **LinkedIn:** http://www.linkedin.com/in/craig-stern-213a3515/
 - **Source:** Apollo API verified (2026-03-31)
+
+- **Name:** David B. Del Papa
+- **Title:** General Partner
+- **Email:** ddelpapa@riversidepartners.com
+- **LinkedIn:** TBD
+- **Source:** Riverside Partners press release (2026-03-31)
 
 ## Portfolio Approach
 Riverside focuses on sustainable growth through partnerships with management teams. Known for long-term value creation in healthcare and technology sectors.

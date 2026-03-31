@@ -16,7 +16,7 @@
 
 **Russ Roenick**
 - Title: Co-Founder & Managing Partner
-- Email: rroenick@transomcap.com (pattern inferred)
+- Email: rroenick@transomcap.com ✅ (verified Cybo.com 2026-03-31)
 - Background: Former Product Strategist at Microsoft
 - Role: Investment Committee member
 
