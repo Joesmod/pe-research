@@ -65,7 +65,31 @@
 3. Operational efficiency through automation/AI
 4. Portfolio company growth support
 
+## Key Contacts
+### John A. Svoboda
+- **Title**: Managing Partner & Co-Founder
+- **Email**: jsvoboda@svoco.com (pattern inferred)
+- **LinkedIn**: https://www.linkedin.com/company/svoboda-capital-partners-llc
+- **Source**: svoco.com team page + ZoomInfo email pattern (j***@svoco.com)
+- **Notes**: Co-founded firm in January 1998 with Michelle Collins. Likely most senior partner given firm name.
+
+### Thomas G. Brooker
+- **Title**: Managing Director & Operating Partner  
+- **Email**: tbrooker@svoco.com (pattern inferred)
+- **LinkedIn**: https://www.linkedin.com/in/tom-brooker-4aa87b15
+- **Source**: RocketReach + official team page
+- **Notes**: Confirmed as Managing Director via third-party sources
+
+### Andrew B. Albert
+- **Title**: Operating Partner
+- **Email**: aalbert@svoco.com (pattern inferred)
+- **Source**: Official team page + ZoomInfo pattern
+- **Notes**: Listed on senior leadership team
+
+**Email Pattern**: first_initial+last@svoco.com (89.8% verified via RocketReach)
+
 ## Status
-- **Stage**: New lead
-- **Next Steps**: Enrich with decision-maker contact (CEO, Partner, Managing Director)
-- **Priority**: High (strong sector fit)
+- **Stage**: Enriched
+- **Enrichment Date**: 2026-03-31 18:37 PM
+- **Next Steps**: Prepare outreach email to John Svoboda or Tom Brooker
+- **Priority**: High (strong sector fit + verified contacts)

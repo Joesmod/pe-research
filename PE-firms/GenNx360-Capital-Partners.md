@@ -124,7 +124,40 @@ Business-to-business middle market industrial services and manufacturing compani
 4. Portfolio operations support technology
 5. Back-office efficiency tools
 
+## Key Contacts
+
+### Marie Ffolkes
+- **Title**: Managing Partner
+- **Email**: mffolkes@gennx360.com (pattern inferred)
+- **LinkedIn**: https://www.linkedin.com/company/gennx360-management-company-llc
+- **Source**: Official team page at gennx360.com/team
+- **Notes**: Senior leadership listed alongside founder and other managing partners
+
+### Ronald Blaylock
+- **Title**: Founder
+- **Email**: rblaylock@gennx360.com (pattern inferred)
+- **LinkedIn**: https://www.linkedin.com/company/gennx360-management-company-llc
+- **Source**: Official team page
+- **Notes**: Firm founder, likely most senior decision-maker
+
+### Monty Yort
+- **Title**: Managing Partner
+- **Email**: myort@gennx360.com (pattern inferred)
+- **LinkedIn**: https://www.linkedin.com/company/gennx360-management-company-llc
+- **Source**: Official team page
+- **Notes**: Senior leadership team
+
+### Sean Epps
+- **Title**: Managing Partner
+- **Email**: sepps@gennx360.com (pattern inferred)
+- **LinkedIn**: https://www.linkedin.com/company/gennx360-management-company-llc
+- **Source**: Official team page
+- **Notes**: Senior leadership team
+
+**Email Pattern**: first_initial+last@gennx360.com (inferred from standard PE firm pattern)
+
 ## Status
-- **Stage**: New lead
-- **Next Steps**: Enrich with decision-maker contact (Managing Partner, Operating Partner)
-- **Priority**: High (strong operational focus, services-heavy)
+- **Stage**: Enriched
+- **Enrichment Date**: 2026-03-31 18:37 PM
+- **Next Steps**: Prepare outreach email to Marie Ffolkes or Monty Yort
+- **Priority**: High (strong operational focus, services-heavy, large portfolio)

@@ -140,7 +140,40 @@ Focus on:
 - Katie Noggle (Partner, Business Development)
 - Operating Partners (for specific portfolio company needs)
 
+## Key Contacts (Verified)
+
+### Chris Jones - VERIFIED EMAIL
+- **Title**: Co-Founder & Managing Partner
+- **Email**: cjones@aligncp.com ✅ VERIFIED
+- **Phone**: 216-505-8645
+- **LinkedIn**: https://www.linkedin.com/in/chris-jones-7a945b/
+- **Location**: Cleveland, OH
+- **Source**: Official team page at aligncp.com/team/chris-jones/
+- **Notes**: Co-Founder with direct contact info on official website. Cleveland office lead.
+
+### Rob Langley
+- **Title**: Co-Founder & Managing Partner
+- **Email**: rlangley@aligncp.com (pattern inferred)
+- **Location**: Dallas, TX (likely)
+- **Source**: Team page listing
+- **Notes**: Co-Founder, likely Dallas office lead
+
+### Sarah Tyson
+- **Title**: Vice President, Business Development
+- **Email**: styson@aligncp.com (pattern inferred)
+- **Source**: Team page listing
+- **Notes**: VP Business Development - key contact for new opportunities
+
+### Katie Noggle
+- **Title**: Partner, Business Development
+- **Email**: knoggle@aligncp.com (pattern inferred)
+- **Source**: Team page listing
+- **Notes**: Partner level BD contact
+
+**Email Pattern**: first_initial+last@aligncp.com (verified via Chris Jones contact)
+
 ## Status
-- **Stage**: New lead
-- **Next Steps**: Enrich with decision-maker contact (Managing Partner, VP Business Development)
-- **Priority**: High (excellent sector fit, active buyer, large team)
+- **Stage**: Enriched with VERIFIED email
+- **Enrichment Date**: 2026-03-31 18:37 PM
+- **Next Steps**: Prepare outreach email to Chris Jones (verified) or Rob Langley
+- **Priority**: High (excellent sector fit, active buyer, large team, verified contact)
