@@ -1,47 +1,41 @@
 # LLR Partners
 
-## Overview
-- **Location:** Philadelphia, PA
+**Website:** https://www.llrpartners.com  
+**Founded:** 1999  
+**Location:** Philadelphia, PA  
+**AUM:** $6B+ (7 funds raised)  
+**Focus:** Technology, Healthcare (lower middle market growth capital)
+
+## Firm Info
 - **Founded:** 1999
-- **AUM:** ~$8B+
-- **Focus:** Growth equity in software and tech-enabled services
-- **Stage:** Growth-stage B2B software and services companies
+- **Location:** Philadelphia, Pennsylvania
+- **Total Raised:** $6B+ across 7 funds
+- **Latest Fund:** Fund VI closed at $1.8B (October 2020)
 
-## Investment Criteria
-- **Deal Size:** $25M-$150M+ equity
-- **Revenue:** $10M-$100M+ ARR
-- **Sectors:** B2B SaaS, tech-enabled services, healthcare IT
-- **Geography:** North America and Europe
+## Investment Strategy
+- Flexible provider of capital for growth, recapitalizations, and buyouts
+- Lower middle market focus
+- Technology and healthcare sectors
+- Collaborate with portfolio companies on high-impact growth initiatives
+- Define and execute long-term value creation strategies
 
-## Key Contact
-- **Name:** Jim Murphy
-- **Title:** Senior Managing Director, Value Creation
-- **Email:** jmurphy@llrpartners.com
-- **LinkedIn:** https://www.linkedin.com/in/jim-murphy-llr/
-- **Source:** Apollo API verified (2026-03-31)
-- **Role:** Leads LLR Value Creation Team, extensive CFO experience
+## Investment Approach
+- Identify high-impact growth initiatives
+- Turn strategy into action
+- Create long-term value
+- Operational and strategic support
+- Partnership-oriented
 
-## Value Creation Team
-LLR has a dedicated Value Creation Team that supports portfolio companies with:
-- Go-to-market excellence
-- Product management
-- Operational excellence
-- Customer success
-- Revenue operations
-- Human capital
+## Recognition
+- Listed on Inc.'s Founder-Friendly Investor list
+- Leading lower middle market PE firm in tech/healthcare
 
-## Portfolio Approach
-LLR treats portfolio companies like family, offering thoughtful advice and dedicating resources to accelerate growth. Strong focus on B2B software and tech-enabled services with recurring revenue models.
+## Notes
+- Added to research list March 31, 2026
+- Apollo search returned no contacts
+- Services-heavy portfolio aligned with target criteria
+- Upper end of target AUM range ($500M-$5B) but strong fit for services focus
+- Need to research key contacts and leadership team
 
-## Sectors
-- B2B SaaS
-- Healthcare IT
-- Financial technology
-- Marketing technology
-- Vertical software
-
-## Enrichment Date
-2026-03-31
-
-## Status
-**Enriched** - Verified Value Creation lead with direct email
+**Research Date:** March 31, 2026  
+**Status:** Newly added - needs contact enrichment

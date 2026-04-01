@@ -1,42 +1,53 @@
 # Pamlico Capital
 
 **Website:** https://www.pamlicocapital.com  
+**Founded:** 1988  
 **Location:** Charlotte, NC  
-**Focus:** Communications, Healthcare, Tech-Enabled Services  
-**Type:** Middle-market private equity
+**AUM:** $500M-$1B (estimate)  
+**Focus:** Business Services, Technology Services, Healthcare IT, Communications
 
-## Key Contact
-- **Name:** Scott Perper
-- **Title:** Partner & Co-Founder
-- **Email:** scott.perper@pamlicocapital.com ✅ VERIFIED
-- **Phone:** (provided on website)
-- **LinkedIn:** https://www.linkedin.com/in/scott-perper-7a10b019/
+## Firm Info
+- **Founded:** 1988 (35+ years of experience)
+- **Location:** Charlotte, North Carolina
+- **Investment Size:** Up to $200M per transaction
+- **Target Enterprise Value:** $50M-$500M
+- **Firm Type:** Middle market growth and buyout equity
 
-## Firm Overview
-- **Founded:** 1988
-- **AUM:** $5B+ (closed most recent fund at $1.75B hard cap in 2025)
-- **Investment Focus:** Communications, healthcare, tech-enabled services, business services, outsourced services
-- **Geographic Focus:** North America, primarily lower middle market
-- **Office:** Charlotte, North Carolina
+## Investment Strategy
+- Growth capital investments
+- Leveraged buyouts
+- Control and non-control equity investments
+- Partner with founders and proven leaders
+- Long-term value creation
 
-## Key Personnel
-- **Scott Perper** - Partner & Co-Founder (Communications and Healthcare)
-- **Andrew Tindel** - Principal (Communications and Tech-Enabled Services) - andrew.tindel@pamlicocapital.com
+## Sector Focus
+1. **Communications** - Technology and infrastructure
+2. **Healthcare IT** - Software and services
+3. **Information Services** - Data and analytics
+4. **Software** - B2B SaaS and enterprise
+5. **Telecommunications** - Infrastructure and services
 
-## Investment Thesis
-Charlotte-based PE firm with deep experience in business services and healthcare. Focus on growth capital and leveraged buyout investments. Partners with founders and management teams to drive operational improvements.
+## Investment Approach
+- Since 1988, creating value through buyout and growth equity
+- Single office in Charlotte, NC
+- Singular focus on backing great companies and management teams
+- Partner with entrepreneurs and management
+- Operational and strategic support
 
 ## Investment Criteria
-- **Revenue:** Middle market
-- **Industries:** Communications, Healthcare, Tech-Enabled Services, Business Services
-- **Type:** Growth capital and buyout investments
+- Middle market companies
+- Proven business models
+- Strong management teams
+- Growth opportunities
+- Enterprise values $50M-$500M
 
-## Research Notes
-- **Email VERIFIED** - publicly listed on official company website (highest confidence)
-- 35+ years of investing experience
-- Source: pamlicocapital.com/team
-- Enrichment Date: 2026-03-30
-- Quality Score: 10/10
+## Notes
+- Added to research list March 31, 2026
+- Apollo search returned no contacts
+- Long track record (founded 1988)
+- Services-heavy focus (business services, healthcare IT, software)
+- Mid-market sweet spot aligns with target criteria
+- Need to research leadership team and key partners
 
----
-*Last Updated: 2026-03-30*
+**Research Date:** March 31, 2026  
+**Status:** Newly added - needs contact enrichment

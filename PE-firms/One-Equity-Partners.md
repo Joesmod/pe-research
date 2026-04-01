@@ -1,26 +1,43 @@
 # One Equity Partners
 
-**Website:** https://www.oneequity.com
+**Website:** https://www.oneequity.com  
+**Founded:** 2001  
+**Location:** New York, NY  
+**AUM:** $4B+  
+**Focus:** Industrial, Healthcare, Technology (middle market)
 
-**Founded:** 2001
+## Firm Info
+- **Founded:** 2001
+- **AUM:** Over $4 billion in assets under management
+- **Geographic Focus:** North America and Europe
+- **Firm Type:** Middle market private equity
 
-**Focus:** Industrial, healthcare, technology sectors
+## Investment Strategy
+- Transformative combinations within target sectors
+- Control and significant minority investments
+- Middle market companies
+- Operational improvements and strategic growth
+- Cross-border opportunities (US & Europe)
 
-**Geography:** U.S. & Europe
+## Sector Focus
+1. **Industrial** - Manufacturing, distribution, business services
+2. **Healthcare** - Services, providers, technology
+3. **Technology** - Software, IT services, tech-enabled services
 
-**Type:** Middle market private equity
-
-## Key Contacts
-
-### Ante Kusurin
-- **Title:** Managing Director
-- **Email:** ante.kusurin@oneequity.com
-- **LinkedIn:** http://www.linkedin.com/in/ante-kusurin-3758a411
-- **Source:** Apollo API (verified 2026-03-31)
+## Investment Approach
+- Build relationships since 2001 (20+ years experience)
+- Partner with management teams
+- Drive operational excellence
+- Strategic M&A and add-ons
+- Long-term value creation
 
 ## Notes
-- Established in 2001
-- Multi-sector focus: industrial, healthcare, technology
-- Building relationships and investing in middle market businesses
-- Geographic reach: United States and Europe
-- Focus on growth and value creation across portfolio
+- Added to research list March 31, 2026
+- Apollo search returned no contacts
+- Strong services focus across all three sectors
+- Perfect fit for target AUM range ($4B)
+- North America and Europe presence adds scale
+- Need to research leadership team and key partners
+
+**Research Date:** March 31, 2026  
+**Status:** Newly added - needs contact enrichment

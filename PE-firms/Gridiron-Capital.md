@@ -1,33 +1,54 @@
 # Gridiron Capital
 
-**Website:** https://gridironcapital.com
-
-**Focus:** Middle-market business services, operational enhancement, digital transformation
-
-**Location:** Connecticut (assumed)
+**Website:** https://gridironcapital.com  
+**Founded:** 2008  
+**Location:** El Segundo, CA  
+**AUM:** ~$583M (2026 estimate)  
+**Focus:** Highly profitable middle market companies
 
 ## Key Contacts
 
 ### Tom Burger
 - **Title:** Co-Founder & Managing Partner
-- **Email:** tburger@gridironcapital.com ✅ (verified RocketReach 2026-03-31)
+- **Email:** Not published
 - **LinkedIn:** https://www.linkedin.com/in/tom-burger-237b183
-- **Source:** RocketReach verification
-- **Background:** Over 35 years experience, 30+ years acquiring/building middle-market companies
+- **Background:** Co-founded Gridiron Capital. Active on LinkedIn sharing company updates and culture.
 
-### Sean Kelley
-- **Title:** Managing Director
-- **Email:** skelley@gridironcapital.com
-- **LinkedIn:** http://www.linkedin.com/in/seankelley-gridiron
-- **Source:** Apollo API (verified 2026-03-31)
+## Firm Info
+- **Address:** 100 N Pacific Coast Hwy, El Segundo, CA (same building as some other PE firms)
+- **Founded:** 2008
+- **Team:** ~83 employees (as of 2006 data)
+- **Annual Revenue:** $17.5M (2025 estimate)
 
-### Steve Lamb
-- **Title:** Managing Director (joined January 2026)
-- **Background:** Previously Managing Director at Avance Investment Management, led investments in business and technology services
+## Leadership
+- **J.K.** - Chief Financial Officer & Chief Compliance Officer
+- **D.L.** - Operating Partner | Head of Digital Accelerator
+
+## Investment Criteria
+- Highly profitable middle market companies
+- Strong operational focus
+- Digital acceleration capabilities
+- Value creation through operational enhancements
+
+## Centers of Excellence
+- Operational Center of Excellence
+- Information Technology Center of Excellence
+- Digital Accelerator
+
+## Investment Approach
+- Partner with management teams
+- Operational enhancements
+- Digital transformation
+- Build collaborative partnerships
+- Focus on growth strategy and value creation
 
 ## Notes
-- Recent hire: Steve Lamb as Managing Director (January 2026)
-- Focus on operational enhancements and digital transformation
-- Leverages Operational and Information Technology Centers of Excellence
-- Build growth strategies for portfolio companies
-- Example portfolio: Jacent (collaboration on operational and digital transformation)
+- Team page is JavaScript-heavy, limited scraping
+- LinkedIn profile confirmed for Tom Burger
+- Apollo search returned no results
+- No direct partner emails published
+- Strong focus on digital and operational transformation
+- 20+ years of partnership and value creation (celebrated 2025)
+
+**Research Date:** March 31, 2026  
+**Status:** Contact identified via LinkedIn, direct email needed

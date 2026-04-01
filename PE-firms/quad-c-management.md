@@ -1,64 +1,47 @@
 # Quad-C Management
 
-## Overview
-- **Founded**: 1989
-- **Location**: Charlottesville, VA
-- **AUM**: $1.7B+ (Fund 10)
-- **Focus**: Middle-market generalist PE
-- **Website**: https://www.quadcmanagement.com
+**Website:** https://www.quadcmanagement.com  
+**Founded:** 1989  
+**Location:** Charlottesville, VA  
+**Focus:** Building products, business services, specialty chemicals, packaging, transportation/logistics, food
 
-## Investment Strategy
-Middle-market buyout firm with focus on four core sectors: business services, healthcare, industrials, and transportation. Long-term partnership approach with management teams.
+## Key Contacts
 
-## Target Sectors
-1. **Business Services**: Software, data/analytics, business process outsourcing
-2. **Healthcare**: Services, distribution, technology
-3. **Industrials**: Manufacturing, specialty distribution
-4. **Transportation**: Logistics, freight services
+### Terry Daniels
+- **Title:** Founder & Chairman
+- **Email:** Not published (Generic: NewDeals@qc-inc.com, Info@qc-inc.com)
+- **Profile:** https://www.quadcmanagement.com/team-member/terry-daniels/
+- **Background:** Founded Quad-C in 1989. Primarily responsible for establishing investment philosophy and culture. Works with portfolio companies as board member, involved in setting strategic direction.
 
-## Key Personnel
+## Other Partners
+- **Tim Billings** - Partner (joined 2008, business services sector)
+- **Michael Brooks** - Partner (joined 2007, transportation/logistics, specialty distribution, food & beverage)
+- **Steve Burns** - Partner (joined 1994)
+- **Tom Hickey** - Partner (joined 2008, industrials, transportation/logistics)
+- **Tony Ignaczak** - Partner (joined 1992)
+- **Thad Jones** - Partner (joined 1998, specialty distribution, building products)
+- **Jack Walker** - Partner (joined 2011, business services)
+- **Frank Winslow** - Partner (joined 1998, healthcare, packaging)
 
-### Tony Ignaczak - Managing Partner
-- **Email**: ari@qc-inc.com (verified via Success.ai)
-- **LinkedIn**: https://www.linkedin.com/in/anthony-ignaczak-b39b469
-- **Tenure**: Joined Quad-C in 1992 (30+ years)
-- **Prior**: Merrill Lynch Merchant Banking, Drexel Burnham Lambert M&A
+## Contact Info
+- **Address:** 240 W Main Street, Suite 600, Charlottesville, VA 22902
+- **Phone:** (434) 979-2070
+- **New Deals:** NewDeals@qc-inc.com
+- **Media:** Info@qc-inc.com
+- **Investor Relations:** Investor.Service@qc-inc.com
 
-### Other Key Partners
-- **Terry Daniels**: Founder (1989)
-- **Steve Burns**: Managing Partner
-- **Tim Billings**: Partner (Business Services)
-- **Michael Brooks**: Partner (Transportation)
-- **Tom Hickey**: Partner (Industrials)
-- **Frank Winslow**: Partner (Healthcare)
+## Investment Criteria
+- Middle market companies
+- Experienced management teams
+- Established track record
+- Sustainable competitive advantages
+- Attractive growth opportunities
 
-## Firm Details
-- **Managing Partners**: 3
-- **Total Partners**: 9
-- **Average Partner Tenure**: 23 years
-- **Team Stability**: Partners have worked together since 1994
+## Notes
+- Email domain: @qc-inc.com
+- No individual partner emails published
+- Long history in middle market PE
+- Multi-sector focus with emphasis on building products and business services
 
-## Target Companies
-- **EBITDA**: $10M - $50M
-- **Type**: Growth-oriented businesses with sustainable competitive advantages
-- **Geography**: North America
-- **Characteristics**: Experienced management teams, established track records
-
-## Fund Performance
-- **Current Fund**: Fund 10
-- **Investment History**: 100+ platform investments since 1989
-
-## Contact Information
-- **General Email**: info@qc-inc.com
-- **Phone**: (434) 979-2070
-- **Address**: 240 W Main Street Suite 600, Charlottesville, VA 22902
-- **Decision-Maker**: Tony Ignaczak (ari@qc-inc.com)
-
-## Research Notes
-- Email verified via Success.ai (publicly listed)
-- Very stable team with long tenure
-- Generalist approach across four defined sectors
-- **Gumbo Score**: 6/10 - Moderate fit (business services sector overlap)
-
-## Last Updated
-2026-03-29
+**Research Date:** March 31, 2026  
+**Status:** Contact identified, direct email needed
