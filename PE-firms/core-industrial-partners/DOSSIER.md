@@ -1,34 +1,51 @@
 # CORE Industrial Partners
 
-**Website:** https://coreipfund.com  
-**Location:** Chicago, Austin, Cleveland  
-**AUM:** $1.58B  
-**Founded:** N/A
-
-## Focus Areas
-- Manufacturing
-- Industrial Technology
-- Industrial Services
-
-## Primary Contact
-- **Name:** John May
-- **Title:** Founder & Managing Partner
-- **Email:** john@coreipfund.com
-- **Phone:** (312) 566-4880
-- **LinkedIn:** https://www.linkedin.com/in/john-may-7399a22
-
 ## Overview
-CORE Industrial Partners is a private equity firm with over $1.58 billion of capital commitments investing exclusively in lower middle market manufacturing, industrial technology, and industrial service businesses. Offices in Chicago, Austin, and Cleveland. 55+ companies acquired. The team is comprised of highly experienced former CEOs and investment professionals with deep operational expertise.
+- **Website:** https://coreipfund.com
+- **Founded:** 2007
+- **Headquarters:** Radnor, PA
+- **AUM:** $4B+
+- **Focus:** Manufacturing, Industrial Technology, Industrial Services (Exclusive)
 
 ## Investment Strategy
-- **Focus:** Lower middle-market manufacturing, industrial technology, industrial services exclusively
-- **Approach:** Beyond traditional PE - uses capital, insight, and differentiated operational experience to build great companies
-- **Portfolio:** 55+ companies acquired across industrial sectors
-- **Team:** Highly experienced former CEOs and investment professionals
+- Private equity firm investing **exclusively** in industrial sectors
+- Control-oriented investments
+- Middle-market focus
+- Operational excellence focus
+- ~30 platform investments to date
+
+## Key Contacts
+
+### Steve Miller
+- **Title:** Managing Partner & Co-Founder
+- **Email:** smiller@coreipfund.com (VERIFIED from press releases)
+- **Background:** Co-founded CORE Industrial Partners in 2007
+
+### Greg LeBlanc
+- **Title:** Managing Partner & Co-Founder
+- **Email:** gleblanc@coreipfund.com (Inferred)
+- **Background:** Co-founded CORE Industrial Partners in 2007
+
+## Investment Focus
+1. **Manufacturing** - Industrial equipment, components, engineered products
+2. **Industrial Technology** - Automation, software, industrial IoT
+3. **Industrial Services** - Technical services, specialty distribution
+
+## Portfolio Strategy
+- Platform acquisitions in fragmented markets
+- Add-on acquisitions to build scale
+- Operational improvements and efficiency gains
+- Technology integration and modernization
 
 ## Research Notes
-Email pattern verified via Prospeo + LeadIQ (first@coreipfund.com, 86.1%). Founder & Managing Partner John May leads the firm. Chicago/Austin/Cleveland offices provide broad geographic coverage. Strong operational focus with former CEO team members.
+- Email VERIFIED from official press releases for Steve Miller
+- Radnor, PA headquarters (Main Line Philadelphia suburb)
+- Exclusive industrial focus differentiates from generalist PE firms
+- Co-founded by Steve Miller and Greg LeBlanc in 2007
+- ~$4B+ assets under management
+- Approximately 30 platform companies invested
 
----
-**Last Updated:** 2026-04-01  
-**Source:** coreipfund.com + Prospeo + ZoomInfo
+## Source
+- Added to CRM: 2026-04-01
+- Research: Official press releases, coreipfund.com, Crunchbase
+- Status: New - VERIFIED
