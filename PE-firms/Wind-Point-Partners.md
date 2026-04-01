@@ -68,7 +68,15 @@ Wind Point Partners is a Chicago-based private equity investment firm with appro
 **Team Page:** https://www.wppartners.com/our-team/  
 **LinkedIn:** https://www.linkedin.com/company/wind-point-partners  
 
-**Status:** Email pattern inferred from RocketReach: FLast@wppartners.com (2026-04-01)
+**Verified Contact:** ⭐
+- **Ron Liberman**
+- **Title:** Contact/IR (likely Partner or Managing Director)
+- **Email:** rliberman@wppartners.com ✓ VERIFIED
+- **Phone:** 312-255-4812
+- **Source:** BusinessWire press release (March 2024) - Fund X closing announcement
+- **Priority:** VERY HIGH - Published official contact
+
+**Status:** ✅ VERIFIED contact available (rliberman@wppartners.com)
 
 ## Research Notes
 

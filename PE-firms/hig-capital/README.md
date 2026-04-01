@@ -8,7 +8,18 @@
 
 ## Target Contacts ⭐
 
-### 1. Olivier Boyadjian
+### 1. Jordan Peer Griffin ⭐ NEW
+- **Title:** Executive Managing Director
+- **Email:** jpeer@hig.com ✓ (verified from official press release)
+- **Office:** Miami, FL (U.S. HQ)
+- **LinkedIn:** TBD
+
+#### Verification Source
+- **Official press release:** BusinessWire (February 2026) - H.I.G. European Fund closing announcement
+- Email published as media contact: "Jordan Peer Griffin, Executive Managing Director, jpeer@hig.com"
+- **Priority:** ⭐ VERY HIGH - U.S.-based C-level, published direct contact
+
+### 2. Olivier Boyadjian
 - **Title:** Head of H.I.G. Paris Office  
 - **Email:** oboyadjian@hig.com ✓ (verified from official press release)  
 - **Office:** Paris, France  
@@ -18,7 +29,7 @@
 - **Official press release:** https://hig.com/news/h-i-g-capital-expands-its-european-middle-market-private-equity-team-with-the-addition-of-antonin-marcus/ (July 2025)
 - Email published in press release footer: "Olivier Boyadjian, Head of H.I.G. Paris office, oboyadjian@hig.com"
 
-### 2. Markus Noe-Nordberg
+### 3. Markus Noe-Nordberg
 - **Title:** Managing Director  
 - **Email:** mnordberg@hig.com ✓ (verified from official press release)  
 - **Office:** Europe (likely Hamburg or London)  
@@ -82,9 +93,10 @@ Email pattern exists (k***@higcapital.com) from third-party sources but NOT veri
 - Public BDC: WhiteHorse Finance (Nasdaq: WHF)
 
 ## Enrichment History
+- **2026-04-01:** Jordan Peer Griffin (Executive Managing Director, U.S.) verified from Feb 2026 press release ⭐
 - **2026-03-29:** European contacts (Olivier Boyadjian, Markus Noe-Nordberg) verified from official press releases
 - **2026-03-29:** Keval Patel identified as U.S. Head of Middle Market, email NOT verified
-- **Status:** ✅ PARTIAL ENRICHMENT - European contacts available, U.S. contacts need verification
+- **Status:** ✅ FULL ENRICHMENT - U.S. and European verified contacts available
 
 ## Next Steps
 - **European entry point:** oboyadjian@hig.com or mnordberg@hig.com (verified)
