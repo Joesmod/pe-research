@@ -1,7 +1,7 @@
 # CORE Industrial Partners
 
-**Status:** Research  
-**Last Updated:** 2026-03-30 (2:05 AM cron)
+**Status:** Enriched  
+**Last Updated:** 2026-03-31 (7:37 PM cron - verified contact added)
 
 ## Firm Overview
 
@@ -27,9 +27,14 @@
 - **Title:** Senior Partner
 - **LinkedIn:** https://www.linkedin.com/in/tj-chung-0068374/
 
+### Jason Fulton ✓ VERIFIED
+- **Title:** Partner
+- **Email:** jason@coreipfund.com ✓ **VERIFIED**
+- **LinkedIn:** http://www.linkedin.com/in/jason-fulton
+- **Source:** Apollo.io API (verified 2026-03-31)
+
 ### Other Key Personnel
 - **Ann Koerner** - Partner, CFO & CCO
-- **Jason Fulton** - Partner
 - **Ronald Rascia** - Partner
 - **Rock Lambert** - Operating Partner
 - **Russ Dillion** - Managing Director, Head of Portfolio Operations
