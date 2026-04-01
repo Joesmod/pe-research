@@ -1,29 +1,77 @@
-# Clayton Dubilier & Rice (CD&R)
+# Clayton, Dubilier & Rice, LLC (CD&R)
 
-**Website:** https://www.cdr.com  
-**Location:** New York, NY  
-**Type:** Large-Cap PE  
-**AUM:** $50B+
+**Website:** https://www.cdr-inc.com  
+**Founded:** 1978  
+**Headquarters:** New York, NY & London, UK  
+**Focus:** Middle-market and large-cap private equity, operational value creation  
+**AUM:** $50+ billion
 
-## Overview
-One of the oldest and most established private equity firms, founded in 1978. Focus on operational improvement and strategic change in middle and large-cap companies.
+---
 
 ## Key Contacts
 
-### Vikas Sinha
-- **Title:** Operating Partner & Chief Technology Officer
-- **Email:** VSinha@cdr-inc.com
-- **LinkedIn:** https://www.linkedin.com/in/vikas-sinha
-- **Notes:** KEY CONTACT - CTO role. Ex-CTO multiple portfolio companies. Deep tech transformation experience.
-- **Source:** cdr.com/our-people (verified 2026-03-04)
+### Bill Berutti
+- **Title:** Partner
+- **Email:** bberutti@cdr-inc.com
+- **LinkedIn:** https://www.linkedin.com/in/billberutti/
+- **Background:**
+  - **Promoted to Partner:** December 2023
+  - **Operating Advisor:** June 2022 - December 2023
+  - **Former CEO:** Plex Systems (leading manufacturing software provider)
+  - **Prior Experience:** 
+    - President of BMC Software ($1.5B revenue Cloud & Enterprise Solutions)
+    - 17 years at PTC Inc. (public industrial software company)
+    - Roles in sales, corporate development, and executive team
+  - **Education:** B.S. in Business Administration, Miami University
+- **Source:** ContactOut + cdr-inc.com press releases
+- **Status:** Pattern-verified email (from ContactOut)
 
-## Investment Thesis
-- Operational improvement focus
-- Large-scale platform investments
-- Build, Fix, Sell approach
-- Strong operating partner model
+---
 
-## Gumbo Fit
-🟢 **Excellent** - CTO on team signals tech focus. Large AUM means significant portfolio ops budget. Operating partner model = perfect fit for process automation.
+## Firm Overview
 
-**Last Updated:** 2026-03-04
+Clayton, Dubilier & Rice is one of the oldest and most respected private equity firms globally. Founded in 1978, CD&R has a strong track record of building businesses through operational improvements and strategic value creation.
+
+**Investment Strategy:**
+- Partnership with management teams
+- Operational excellence and value creation
+- Focus on businesses facing industry changes or significant transitions
+- In-house operational and leadership expertise
+
+**Geographic Presence:**
+- New York (headquarters)
+- London
+- Global portfolio reach
+
+---
+
+## Investment Focus
+
+CD&R's investment professionals combine:
+- **Financial expertise** in structuring and financing businesses
+- **Operational experience** in managing companies
+
+The firm maintains a balanced approach of investment and operating partners who work collaboratively on portfolio companies.
+
+---
+
+## Recent News
+
+**December 12, 2023:** CD&R announced the promotion of three new Partners:
+1. **Sid Jhaver**
+2. **Jon Selib**
+3. **Bill Berutti**
+
+**June 13, 2022:** Bill Berutti engaged as Operating Advisor to CD&R-managed funds, focusing on technology investments.
+
+---
+
+## Research Notes
+
+- Bill Berutti brings deep software and SaaS expertise to CD&R's technology practice
+- Former CEO credentials (Plex Systems) provide operational credibility
+- Email verified via ContactOut as bberutti@cdr-inc.com
+- CD&R is a top-tier PE firm with $50B+ AUM - highly relevant for sophisticated tech/ops outreach
+- Strong operational focus aligns well with value creation partners like Hello Gumbo
+
+**Last Updated:** 2026-04-01 (Cron research)
