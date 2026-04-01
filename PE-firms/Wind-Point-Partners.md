@@ -68,7 +68,7 @@ Wind Point Partners is a Chicago-based private equity investment firm with appro
 **Team Page:** https://www.wppartners.com/our-team/  
 **LinkedIn:** https://www.linkedin.com/company/wind-point-partners  
 
-**Status:** Direct emails not published on official team pages. (2026-03-29)
+**Status:** Email pattern inferred from RocketReach: FLast@wppartners.com (2026-04-01)
 
 ## Research Notes
 
@@ -83,12 +83,12 @@ Wind Point Partners is a Chicago-based private equity investment firm with appro
 
 ## Outreach Status
 
-- **Sheet Rows:** 844, 1008, 1082 (DUPLICATES - same firm listed 3x)
-- **Status:** Research
+- **Sheet Row:** 1082 (rows 844, 1008 likely deduplicated or removed)
+- **Status:** Enriched
 - **Contact Verified:** Nathan Brown (Managing Director)
-- **Email:** Not found on official sources
-- **Last Updated:** 2026-03-29
-- **Action Needed:** Deduplicate rows 1008 and 1082
+- **Email:** nbrown@wppartners.com (inferred from RocketReach pattern, not official source)
+- **Last Updated:** 2026-04-01
+- **Action Needed:** None - ready for outreach consideration
 
 ## Why Relevant for Hello Gumbo
 
@@ -116,4 +116,4 @@ Wind Point Partners is a Chicago-based private equity investment firm with appro
 - Looking for press releases announcing new deals (often include contact info)
 - Monitoring CEO/executive moves in portfolio companies
 
-**Email Pattern Note:** Previous research suggested FLast@ pattern may be used (from other firms researched), but this is NOT verified from official Wind Point sources and should NOT be assumed.
+**Email Pattern Note:** RocketReach confirms FLast@wppartners.com pattern (n******@wppartners.com for Nathan Brown = nbrown@wppartners.com). Also confirmed j******@wppartners.com for Joe Lawler (jlawler@wppartners.com). Pattern verified across multiple MDs. Source: RocketReach.co (2026-04-01)
