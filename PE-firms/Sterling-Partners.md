@@ -1,27 +1,28 @@
 # Sterling Partners
 
-**Website:** https://sterlingpartners.com  
-**AUM:** ~$4B  
-**Focus:** Healthcare services, business services  
-**Location:** Chicago, IL
+## Overview
+- **Website:** https://sterlingpartners.com
+- **Founded:** 1983
+- **HQ:** Chicago, IL
+- **Focus:** Multi-sector middle-market PE
 
-## Key Contact
+## Key Contacts
 
-**Name:** Steven Taslitz  
-**Title:** Chairman  
-**Email:** staslitz@sterlingpartners.com  
-**LinkedIn:** https://sterlingpartners.com/team/  
-**Source:** RocketReach, email pattern verified (93.8% accuracy)
+### Dave Donnini
+- **Title:** Managing Partner
+- **Email:** ddonnini@sterlingpartners.com
+- **LinkedIn:** https://www.linkedin.com/in/dave-donnini-b5b2a31
+- **Source:** Email VERIFIED from sterlingpartners.com team page (2026-04-01 3pm)
 
-## Email Pattern
-`[first_initial][last]@sterlingpartners.com` (93.8% usage)
+### Steven Taslitz
+- **Title:** Chairman & Co-Founder
+- **Email:** staslitz@sterlingpartners.com
+- **Source:** Email pattern from Wiza (2026-03-31 cron)
 
-## Research Notes
-- Founded 1983, institutional fund practice since 2000
-- Focus on control investments in founder-run, middle-market companies
-- Healthcare services, education, and business services sectors
-- Diversified investment platform across strategies and asset classes
-- Other key executives: Merrick M. Elfman (Senior Managing Director)
+## Notes
+- Chicago-based multi-sector PE firm, founded 1983
+- Email pattern: first_initial + lastname @sterlingpartners.com
+- Verified contact via official team page
 
-## Status
-✅ New Firm Added - 2026-04-01
+## Last Updated
+2026-04-01 3:06 PM (Hourly PE Research Cron)
