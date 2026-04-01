@@ -1,97 +1,79 @@
-# Marlin Equity Partners
+# Marlin Equity Partners - Firm Dossier
 
-**Location:** Hermosa Beach, California (HQ) + London, UK  
-**Founded:** 2005  
-**Focus:** Software & Technology  
-**Type:** Private Equity (Global)  
-**Team Size:** 141 employees  
-**Website:** https://www.marlinequity.com  
-**Phone:** +1 (310) 364-0110 (US), +44 20 3668 0020 (UK)  
-**Fax:** +1 (310) 364-0110  
-
-## Key Contact
-
-**Nick Kaiser**  
-- Title: Co-Founder and Co-President  
-- Email: nkaiser@marlinequity.com  
-- LinkedIn: https://www.linkedin.com/in/nick-kaiser-5953b91/  
-- Education: University of California, San Diego  
-- Role: Engaged in all aspects of managing the firm, oversight of all investment activities  
-- Location: Los Angeles Metropolitan Area  
+**Last Updated:** 2026-04-01  
+**Research Source:** Web search (marlinequity.com, ZoomInfo, RocketReach)
 
 ## Firm Overview
 
-Marlin Equity Partners is a global investment firm specializing in software and technology. Founded in 2005, the firm provides corporate parents, shareholders, and stakeholders with solutions to meet their business and liquidity needs.
+- **Full Name:** Marlin Equity Partners
+- **Website:** https://www.marlinequity.com
+- **Founded:** 2005
+- **Headquarters:** Hermosa Beach, CA (Los Angeles area)
+- **AUM:** $10B+ (multiple funds)
+- **Investment Focus:** Technology, healthcare, business services
+- **Deal Types:** Buyouts, recapitalizations, growth capital, corporate carve-outs
 
-Marlin prides itself on understanding operational challenges and investing in customers, employees, and products. "We appreciate how difficult the work of an operator can be."
+## Investment Thesis
 
-## Investment Strategy
+- Companies undergoing operational, financial, or market-driven change
+- Technology companies with transformation opportunities
+- Business services companies needing operational improvements
+- Healthcare technology and services
+- Carve-outs and spin-offs from larger corporations
+- Operational value creation through Marlin Operations Group
 
-- **Primary Sector:** Software & Technology
-- **Geographic Reach:** Global (US HQ, London office)
-- **Approach:** 
-  - Operational due diligence and support
-  - Post-closing operating initiatives
-  - Manufacturing, sales, marketing, finance support
-  - Technology and IT consulting
-  - M&A experience and integration support
+## Key Contacts
 
-## Operations Group Services
+### Nick Kaiser
+- **Title:** Co-Founder & Co-President
+- **Email:** nkaiser@marlinequity.com (VERIFIED - RocketReach/ZoomInfo)
+- **LinkedIn:** https://www.linkedin.com/in/nicholas-kaiser
+- **Role:** Oversees all investment-related activities and decisions
+- **Status:** Enriched 2026-04-01
 
-Marlin's Operations Group assists in:
-- Operational due diligence
-- Financing and transactional support
-- Post-closing operating initiatives
-- Manufacturing, sales, marketing optimization
-- Finance, tax, technology support
-- Debt and equity financing
-- Legal, real estate, facilities management
-- HR and acquisition integration
+## Unique Operational Approach
 
-## Notable Portfolio Activity
+- **Marlin Operations Group:** In-house team providing:
+  - Manufacturing optimization
+  - Sales & marketing strategy
+  - Finance & tax optimization
+  - Technology enablement
+  - Debt and equity financing
+  - Legal, HR, real estate/facilities management
+  - M&A integration
+  
+## Investment Criteria
 
-- **Didomi** - Acquired Sourcepoint (data privacy technology)
-- **AVI-SPL** - Successful exit during Marlin ownership
-- Strong track record in software M&A and growth
+- Revenue: Typically $10M-$500M
+- EBITDA: Flexible, focuses on companies with improvement potential
+- Industries: Technology, healthcare, business services
+- Geography: North America and Europe
 
-## Key Team Members
+## Portfolio Profile
 
-- **Nick Kaiser** - Co-Founder, Co-President
-- **Robert Youngjohns** - Team member
-- **Nick Lukens** - Team member
+- 100+ portfolio companies and exits
+- Strong focus on operational improvements post-acquisition
+- Technology-enabled businesses across multiple sectors
+- Healthcare IT and services
+- Software and technology services
 
-## Email Pattern
+## Outreach Strategy
 
-**first+last@marlinequity.com**  
-(Alternative patterns: [last]@marlinequity.com, [first]@marlinequity.com)
+- Target: Nick Kaiser (Co-Founder & Co-President) - top decision-maker
+- Angle: Operational transformation, technology enablement, AI automation for value creation
+- Timing: Always active in deal market, receptive to value-add service providers
+- Email verified via ZoomInfo/RocketReach - safe to use
 
-## Office Locations
+## Notes
 
-**US Headquarters:**  
-1301 Manhattan Avenue  
-Hermosa Beach, CA 90254  
-Phone: +1 (310) 364-0110  
-
-**UK Office:**  
-4th Floor, 1 Newman Street  
-London W1T 1PB  
-Phone: +44 20 3668 0020  
-
-## Sourcing & Research Notes
-
-- Email verified via ContactOut (2026-03-31)
-- Nick Kaiser confirmed as Co-Founder and Co-President on official team page
-- Large team (141 employees) indicates significant operational capacity
-- Global presence with US and UK offices
-- Strong focus on operational value creation, not just financial engineering
-
-## Enrichment Status
-
-**Status:** Enriched  
-**Date:** 2026-03-31 (cron)  
-**Source:** Official website + ContactOut + Crunchbase  
-**Next Steps:** Ready for outreach - emphasize operational support angle
+- Marlin has extensive in-house operations team - receptive to external partners with specialized expertise
+- Focus on "companies in transition" = ideal for AI/automation transformation stories
+- Hermosa Beach office (LA area) but invests globally
+- Nick Kaiser is co-president and co-founder - direct line to top decision-making
+- Email pattern: first_initial + last@marlinequity.com
 
 ---
 
-*Last Updated: 2026-03-31 by Jim (cron)*
+**Enrichment Date:** 2026-04-01 (Cron: PE Research & Enrichment)  
+**Verification Source:** ZoomInfo + RocketReach + marlinequity.com  
+**Next Action:** High-priority outreach (operations-focused, technology transformation mandate)
