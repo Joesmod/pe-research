@@ -26,6 +26,18 @@
 - **Background:** Family legacy of building businesses (Hyatt Hotels, Marmon Group)
 - **Role:** Active investor and board member across middle-market portfolio companies
 
+### Jeff Carlson
+- **Title:** Principal, Head of Technology
+- **Email:** jcarlson@ppcpartners.com (pattern inferred)
+- **LinkedIn:** https://www.ppcpartners.com/team
+- **Background:**
+  - Joined PPC May 2020 as Director of Technology
+  - Promoted to Principal, Head of Technology (March 2022)
+  - Oversees IT team and provides strategic/tactical guidance across PPC companies
+  - Develops cross-collaboration among IT professionals at PPC portfolio companies
+- **Source:** ppcpartners.com/team + Business Wire (May 2020) + PE Hub (March 2022)
+- **Status:** Contact verified from official sources; email pattern inferred
+
 ---
 
 ## Firm Overview

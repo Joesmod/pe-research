@@ -24,6 +24,26 @@
 - Email: charles.devries@auaequity.com
 - Phone: 212.231.8643
 
+**Kyce Chihi**
+- Title: Partner (Investment Committee Member)
+- Email: kyce.chihi@auaequity.com (pattern inferred)
+- LinkedIn: https://auaequity.com/team/kyce-chihi/
+- Background: Former investment professional at international family office; Deutsche Bank Leveraged Finance (NY); Thomas Weisel Partners Investment Banking
+- Education: Wharton BS Economics (finance & operations concentration)
+- Board Seats: Epic Baking Company, Gourmet Culinary Partners
+- Past Boards: TruFood, Indulge Desserts Holdings, Raymundo's Food Group, BistroMD, Associated Foods Holdings
+- Source: Official website audit 2026-04-01
+
+**Steven Flyer**
+- Title: Partner
+- Note: Mentioned in multiple press releases as transaction lead
+- Source: auaequity.com press releases
+
+**David Benyaminy**
+- Title: Partner
+- Note: Mentioned in multiple press releases as transaction lead
+- Source: auaequity.com press releases
+
 ## Investment Thesis
 
 AUA Private Equity is an operationally-focused lower-middle market investment firm that partners with family-owned businesses or companies poised to benefit from the growth of the U.S. Hispanic population within dedicated sectors. Focus on Demographic-Driven Investing®.
