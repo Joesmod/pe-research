@@ -5,12 +5,19 @@
 **Focus:** Business Services, Healthcare, Technology  
 **Type:** Middle-market private equity
 
-## Key Contact
-- **Name:** Andrew Peix
+## Key Contacts
+
+### Andrew Peix
 - **Title:** Partner, Business Development
 - **Email:** apeix@gaugecapital.com ✅ VERIFIED
 - **Phone:** 682-334-5800 (main)
-- **LinkedIn:** https://www.linkedin.com/company/gauge-capital
+- **Source:** Official press releases (2024-2026)
+
+### Garrett Fair
+- **Title:** Principal
+- **Email:** gfair@gaugecapital.com (INFERRED from RocketReach pattern)
+- **LinkedIn:** https://www.linkedin.com/in/garrett-fair-37958b41/
+- **Source:** RocketReach + ZoomInfo 2026-04-01
 
 ## Firm Overview
 - **Founded:** N/A (established firm)
@@ -34,4 +41,4 @@ Middle-market PE firm focused on partnering with owners, managers and equity sta
 - Quality Score: 10/10
 
 ---
-*Last Updated: 2026-03-30*
+*Last Updated: 2026-04-01 - Added Garrett Fair (Principal) contact*
