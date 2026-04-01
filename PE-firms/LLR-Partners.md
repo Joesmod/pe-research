@@ -1,38 +1,88 @@
-# LLR Partners
+# LLR Partners - PE Firm Dossier
 
-## Overview
-- **Website**: https://www.llrpartners.com
-- **HQ**: Philadelphia, PA
-- **Founded**: 1999
-- **AUM**: $7.5B+
-- **Focus**: Lower middle-market private equity focused on software and tech-enabled companies within the knowledge economy
+## Firm Overview
+- **Website:** https://www.llrpartners.com
+- **HQ:** Philadelphia, PA
+- **AUM:** $7.5B+ (Fund VII: $2.45B closed April 2025)
+- **Focus:** Lower middle market private equity
+- **Target Sectors:** Technology, Healthcare, HR Tech, Benefits
 
-## Investment Focus
-- Healthcare IT
-- Benefits Technology
-- HR Technology
-- Software & SaaS
-- Tech-Enabled Services
+## Investment Criteria
+- **Deal Size:** Growth capital investments in software and tech-enabled services
+- **Revenue Target:** $50-400M (typical portfolio company size)
+- **Geography:** North America-focused
+- **Investment Style:** Growth equity, operational value creation
 
-## Key Contacts
+## Technology Infrastructure
+- **Value Creation Team:** Dedicated operating partners and advisors
+- **Tech Capabilities:** 
+  - Portfolio operations support
+  - FP&A resources
+  - Market development team
+  - Product management support
+  - Go-to-market excellence team
 
-### Sasank Aleti
-- **Title**: Partner
-- **Email**: saleti@llrpartners.com (verified via ZoomInfo)
-- **LinkedIn**: https://www.linkedin.com/in/sasankaleti/
-- **Focus**: Healthcare, benefits, and HR technology sectors
-- **Status**: Enriched 2026-03-31
+## Verified Contacts (from Public Sources)
 
-### General Contact
-- **Phone**: (215) 717-2901
-- **Address**: 3025 JFK Boulevard OFC Suite 250, Philadelphia, PA 19104
-- **Email Pattern**: {first_initial}{last}@llrpartners.com
+### Business Development & Investor Relations
+**Ann Brophy** - Senior Director, Business Development
+- Email: abrophy@llrpartners.com
+- Phone: 215-883-7116
+- Source: BusinessWire press release (LLR Fund VII closing, April 24, 2025)
+- Role: Deal sourcing, intermediary relationships, investor relations
 
-## Notes
-- Philadelphia-based growth equity firm
-- Strong value creation team with operational support
-- Focus on knowledge economy companies
-- Team of 100+ professionals
-- Active in lower middle-market deals
+### Marketing & Communications
+**Emily Oakes** - Marketing & Communications
+- Email: eoakes@llrpartners.com
+- Source: BusinessWire press release (TruTechnologies investment, May 28, 2025)
 
-**Enriched**: 2026-03-31 20:36 CST
+**Kristy DelMuto** - Communications
+- Email: kdelmuto@llrpartners.com
+- Phone: 215-344-1372
+- Source: Press release (CareATC investment, March 2019)
+
+## Leadership Team (No Direct Emails)
+- **Matt Lowell** - Chief Operating Officer
+  - Focus: Firm strategy, Investment Committee, diligence processes
+- **Sasank Aleti** - Partner
+  - Focus: Healthcare, benefits, HR technology sectors
+  - Background: Founded Cadence Capital Partners (search fund), ex-UBS
+- **Ryan Goldenberg** - Partner
+- **Michael Levenberg** - Partner
+- **Jim Murphy** - Senior Managing Director, Value Creation
+
+## Recent Activity
+- **Fund VII Closing:** $2.45B (April 2025, oversubscribed)
+- **Recent Investments:**
+  - TruTechnologies (May 2025) - real-time clinical trial oversight
+  - CareATC (2019) - workplace health centers
+
+## Gumbo Fit Analysis
+**Score: 9/10**
+
+**Strengths:**
+- Large portfolio (~100+ companies) with recurring technology needs
+- Active Value Creation/Operations team signals openness to external expertise
+- Healthcare + HR Tech focus = complex data/compliance needs
+- Lower middle market = perfect size for AI automation ROI
+- Philadelphia location = accessible for meetings
+
+**Hooks:**
+- Portfolio operations scaling across 100+ companies
+- FP&A automation opportunities
+- Go-to-market data intelligence
+- Healthcare compliance automation
+- HR tech portfolio synergies
+
+**Best Contact:** Ann Brophy (BD) or Emily Oakes (Marketing)
+**Pitch Angle:** "Portfolio-wide AI operations playbook for lower middle market tech companies"
+
+## Sources
+- Official website: llrpartners.com
+- BusinessWire press releases (2019-2025)
+- LinkedIn team verification
+- Fund VII announcement (April 24, 2025)
+
+---
+*Last Updated: 2026-03-31*
+*Enriched By: Jim (PE Research Cron)*
