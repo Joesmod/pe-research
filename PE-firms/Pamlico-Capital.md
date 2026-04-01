@@ -1,53 +1,44 @@
 # Pamlico Capital
 
-**Website:** https://www.pamlicocapital.com  
-**Founded:** 1988  
-**Location:** Charlotte, NC  
-**AUM:** $500M-$1B (estimate)  
-**Focus:** Business Services, Technology Services, Healthcare IT, Communications
+## Overview
+- **Website**: https://www.pamlicocapital.com
+- **HQ**: Charlotte, NC
+- **Founded**: 1988 (originally First Union Capital Partners)
+- **AUM**: $500M-$1B (estimated)
+- **Focus**: Middle-market growth and buyout investments in communications, healthcare IT, and tech-enabled services
 
-## Firm Info
-- **Founded:** 1988 (35+ years of experience)
-- **Location:** Charlotte, North Carolina
-- **Investment Size:** Up to $200M per transaction
-- **Target Enterprise Value:** $50M-$500M
-- **Firm Type:** Middle market growth and buyout equity
+## Investment Focus
+- Communications Services
+- Healthcare IT
+- Digital Infrastructure
+- Tech-Enabled Services
+- Information Services
+- Software
 
-## Investment Strategy
-- Growth capital investments
-- Leveraged buyouts
-- Control and non-control equity investments
-- Partner with founders and proven leaders
-- Long-term value creation
+## Key Contacts
 
-## Sector Focus
-1. **Communications** - Technology and infrastructure
-2. **Healthcare IT** - Software and services
-3. **Information Services** - Data and analytics
-4. **Software** - B2B SaaS and enterprise
-5. **Telecommunications** - Infrastructure and services
+### Watts Hamrick
+- **Title**: Managing Partner
+- **Email**: watts.hamrick@pamlicocapital.com (VERIFIED from official website)
+- **LinkedIn**: https://www.linkedin.com/in/watts-hamrick-98912069/
+- **Status**: Enriched 2026-03-31
+- **Notes**: Managing Partner since 1988, focus on services and digital infrastructure
 
-## Investment Approach
-- Since 1988, creating value through buyout and growth equity
-- Single office in Charlotte, NC
-- Singular focus on backing great companies and management teams
-- Partner with entrepreneurs and management
-- Operational and strategic support
+### Scott Perper
+- **Title**: Partner & Co-Founder
+- **Email**: scott.perper@pamlicocapital.com (VERIFIED from official website)
+- **LinkedIn**: https://www.linkedin.com/in/scott-perper-7a10b019/
+- **Status**: Previously enriched
 
-## Investment Criteria
-- Middle market companies
-- Proven business models
-- Strong management teams
-- Growth opportunities
-- Enterprise values $50M-$500M
+### General Contact
+- **Email Pattern**: {first}.{last}@pamlicocapital.com
 
 ## Notes
-- Added to research list March 31, 2026
-- Apollo search returned no contacts
-- Long track record (founded 1988)
-- Services-heavy focus (business services, healthcare IT, software)
-- Mid-market sweet spot aligns with target criteria
-- Need to research leadership team and key partners
+- Founded as First Union Capital Partners in 1988
+- Renamed Wachovia Capital Partners after merger in 2001
+- Became Pamlico Capital as independent firm
+- $10B+ deployed since inception
+- Strong track record in communications and healthcare IT
+- Charlotte-based with deep Southeast relationships
 
-**Research Date:** March 31, 2026  
-**Status:** Newly added - needs contact enrichment
+**Enriched**: 2026-03-31 20:36 CST

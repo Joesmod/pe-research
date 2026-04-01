@@ -1,41 +1,38 @@
 # LLR Partners
 
-**Website:** https://www.llrpartners.com  
-**Founded:** 1999  
-**Location:** Philadelphia, PA  
-**AUM:** $6B+ (7 funds raised)  
-**Focus:** Technology, Healthcare (lower middle market growth capital)
+## Overview
+- **Website**: https://www.llrpartners.com
+- **HQ**: Philadelphia, PA
+- **Founded**: 1999
+- **AUM**: $7.5B+
+- **Focus**: Lower middle-market private equity focused on software and tech-enabled companies within the knowledge economy
 
-## Firm Info
-- **Founded:** 1999
-- **Location:** Philadelphia, Pennsylvania
-- **Total Raised:** $6B+ across 7 funds
-- **Latest Fund:** Fund VI closed at $1.8B (October 2020)
+## Investment Focus
+- Healthcare IT
+- Benefits Technology
+- HR Technology
+- Software & SaaS
+- Tech-Enabled Services
 
-## Investment Strategy
-- Flexible provider of capital for growth, recapitalizations, and buyouts
-- Lower middle market focus
-- Technology and healthcare sectors
-- Collaborate with portfolio companies on high-impact growth initiatives
-- Define and execute long-term value creation strategies
+## Key Contacts
 
-## Investment Approach
-- Identify high-impact growth initiatives
-- Turn strategy into action
-- Create long-term value
-- Operational and strategic support
-- Partnership-oriented
+### Sasank Aleti
+- **Title**: Partner
+- **Email**: saleti@llrpartners.com (verified via ZoomInfo)
+- **LinkedIn**: https://www.linkedin.com/in/sasankaleti/
+- **Focus**: Healthcare, benefits, and HR technology sectors
+- **Status**: Enriched 2026-03-31
 
-## Recognition
-- Listed on Inc.'s Founder-Friendly Investor list
-- Leading lower middle market PE firm in tech/healthcare
+### General Contact
+- **Phone**: (215) 717-2901
+- **Address**: 3025 JFK Boulevard OFC Suite 250, Philadelphia, PA 19104
+- **Email Pattern**: {first_initial}{last}@llrpartners.com
 
 ## Notes
-- Added to research list March 31, 2026
-- Apollo search returned no contacts
-- Services-heavy portfolio aligned with target criteria
-- Upper end of target AUM range ($500M-$5B) but strong fit for services focus
-- Need to research key contacts and leadership team
+- Philadelphia-based growth equity firm
+- Strong value creation team with operational support
+- Focus on knowledge economy companies
+- Team of 100+ professionals
+- Active in lower middle-market deals
 
-**Research Date:** March 31, 2026  
-**Status:** Newly added - needs contact enrichment
+**Enriched**: 2026-03-31 20:36 CST

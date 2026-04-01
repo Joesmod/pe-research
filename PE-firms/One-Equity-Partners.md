@@ -1,43 +1,36 @@
 # One Equity Partners
 
-**Website:** https://www.oneequity.com  
-**Founded:** 2001  
-**Location:** New York, NY  
-**AUM:** $4B+  
-**Focus:** Industrial, Healthcare, Technology (middle market)
+## Overview
+- **Website**: https://www.oneequity.com
+- **HQ**: New York, NY
+- **Founded**: 2001
+- **AUM**: $4.5B+
+- **Focus**: Middle-market private equity with transformative combinations across North America and Europe
 
-## Firm Info
-- **Founded:** 2001
-- **AUM:** Over $4 billion in assets under management
-- **Geographic Focus:** North America and Europe
-- **Firm Type:** Middle market private equity
+## Investment Focus
+- Business Services
+- Healthcare Services
+- Industrials
+- Technology Services
+- Carve-outs and Transformations
 
-## Investment Strategy
-- Transformative combinations within target sectors
-- Control and significant minority investments
-- Middle market companies
-- Operational improvements and strategic growth
-- Cross-border opportunities (US & Europe)
+## Key Contacts
 
-## Sector Focus
-1. **Industrial** - Manufacturing, distribution, business services
-2. **Healthcare** - Services, providers, technology
-3. **Technology** - Software, IT services, tech-enabled services
+### David Han
+- **Title**: Managing Director
+- **Email**: dhan@oneequity.com (inferred from ZoomInfo pattern)
+- **LinkedIn**: https://www.linkedin.com/company/one-equity-partners
+- **Status**: Enriched 2026-03-31
 
-## Investment Approach
-- Build relationships since 2001 (20+ years experience)
-- Partner with management teams
-- Drive operational excellence
-- Strategic M&A and add-ons
-- Long-term value creation
+### General Contact
+- **Phone**: +1 (212) 277-1500
+- **Email Pattern**: {first_initial}{last}@oneequity.com
 
 ## Notes
-- Added to research list March 31, 2026
-- Apollo search returned no contacts
-- Strong services focus across all three sectors
-- Perfect fit for target AUM range ($4B)
-- North America and Europe presence adds scale
-- Need to research leadership team and key partners
+- Founded as a spin-out from JPMorgan Partners in 2001
+- Focuses on transformative middle-market transactions
+- Strong operational improvement capabilities
+- Active across North America and Europe
+- Specializes in carve-outs and complex situations
 
-**Research Date:** March 31, 2026  
-**Status:** Newly added - needs contact enrichment
+**Enriched**: 2026-03-31 20:36 CST
