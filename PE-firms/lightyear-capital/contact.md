@@ -1,34 +1,89 @@
 # Lightyear Capital - Contact Information
 
-## Primary Contact
-**Mark Vassallo**
-- **Title**: Managing Partner
-- **Email**: mvassallo@lycap.com (verified via RocketReach pattern m******@lycap.com)
-- **LinkedIn**: https://www.linkedin.com/in/mark-vassallo-24213a242/
-- **Bio**: https://www.lycap.com/bio/Mark-Vassallo
-- **Role**: Member of Investment Committee and Management Committee
-- **Source**: RocketReach email verification + official bio page
-- **Last Verified**: 2026-03-30
+**Firm:** Lightyear Capital  
+**Website:** https://www.lycap.com/
 
-## General Contact
-- **Office Address**: 40 West 57th Street, 22nd Floor, New York, NY 10019
-- **Website Contact Form**: https://www.lycap.com (contact section)
-- **Team Directory**: https://www.lycap.com/team
+## Primary Contact
+
+**Name:** Mark Vassallo  
+**Title:** Managing Partner  
+**Email:** mvassallo@lycap.com  
+**LinkedIn:** https://www.linkedin.com/in/mark-vassallo-24213a242/
+
+## Office Contact
+**Compliance Email:** compliance@lycap.com  
+**Phone:** 212-328-0509  
+**Address:** New York, NY
 
 ## Email Pattern
-- Pattern: `firstinitial+lastname@lycap.com`
-- Example: Mark Vassallo = mvassallo@lycap.com
-- Verified via RocketReach (m******@lycap.com)
+- Format: `{first_initial}{last}@lycap.com`
+- Confidence: High (RocketReach pattern)
 
-## Key Team Members
-Over 50 team members listed on the official team page, including:
-- **Partners**: Multiple partners across investments and portfolio solutions
-- **Managing Directors**: CFO, CCO, General Counsel, Investment Committee members
-- **Operating Partners**: Senior advisors with C-level experience
+## Firm Overview
+- Specialist private equity firm
+- AUM: ~$5+ billion
+- Founded: 20+ years ago (2000s)
+- Based in New York City
+- Focus: Companies at the nexus of financial services and technology, healthcare, and business services
+
+## Investment Focus
+- Financial services and technology (fintech)
+- Insurance technology and infrastructure
+- Wealth management platforms
+- Healthcare technology and services
+- Business services
+- Digital infrastructure
+
+## Key Partners
+- Mark Vassallo - Managing Partner (Investment Committee member)
+- Chris Casciato - Partner
+- Jay Comerford - Partner
+- Stewart Gross - Partner
+- Michael Langer - Partner
+- Michal Petrzela - Partner
+- Trevor Pieri - Partner
+- Max Rakhlin - Partner
+- Zack Sigal - Partner
+- Jack Slye - Partner
+- David Stienes - Partner
+
+## Operating Partners
+- Steve Auerbach
+- Jim Foreman
+- Joseph Hanna
+- Tom Naratil
+- Gavin Poole
+- Martin Sullivan
+- Maria Veltre
+- Kevin Watters
+
+## Team Structure
+- Investment professionals
+- Portfolio Solutions team (led by Natalie Ings, Partner)
+- Value Creation resources
+- General Counsel: Lori Forlano (Managing Director)
+- CFO: Daniel Stencel (Managing Director)
+- CCO: Doug Chiciak (Managing Director)
+
+## Culture & Values
+- One-team culture
+- Core values: Integrity, Excellence, Communication, Collaboration, Respect
+- Focus on continuous improvement
+- Diverse perspectives and backgrounds
+- Partnership-oriented approach with management teams
 
 ## Notes
-- Direct emails not published on official website
-- Team directory has detailed bios for each member
-- RocketReach and other data providers have verified email patterns
-- Strong emphasis on financial services sector expertise
-- Last updated: 2026-03-30
+- 20+ year track record in financial services + tech investing
+- Sector-specialist approach with deep domain expertise
+- Strong portfolio support infrastructure
+- Extensive network of operating partners and advisors
+- Focus on accelerating growth and building market-leading businesses
+
+## Research Date
+2026-04-01
+
+## Sources
+- lycap.com official website and team pages
+- RocketReach email pattern validation (m******@lycap.com)
+- Private Equity List rankings (2026)
+- Official compliance contact verified on website
