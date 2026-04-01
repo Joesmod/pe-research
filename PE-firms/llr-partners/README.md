@@ -1,32 +1,13 @@
 # LLR Partners
 
-## Overview
-Lower middle market private equity firm. Founded 1999, over 130 portfolio companies. Inc. Founder-Friendly Investor.
+Philadelphia-based lower middle-market growth capital PE firm founded in 1999. $6B+ AUM. Focus: software, healthcare IT, fintech, tech-enabled services. Known for operating expertise and value creation.
 
-**Website:** https://www.llrpartners.com  
-**Location:** Philadelphia, PA  
-**AUM:** $7.5B+ AUM  
-**Focus:** Healthcare, fintech, software, education, security, industrial tech
+**Quick Facts:**
+- Website: https://www.llrpartners.com
+- AUM: $6B+
+- Location: Philadelphia, PA
+- Focus: Software, Healthcare IT, Fintech, Tech-Enabled Services
 
-## Key Contact
+**Primary Contact:** Howard Ross, Partner
 
-**Howard Ross**  
-*Partner*  
-📧 hross@llrpartners.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/howard-ross-llr)
-
-## Investment Criteria
-
-- **Target Company Size:** Middle market
-- **Geography:** North America
-- **Sectors:** Healthcare, fintech, software, education, security, industrial tech
-
-## Research Notes
-
-**Source:** Official website, team pages, verified email patterns  
-**Status:** Enriched 2026-03-30  
-**Next Steps:** Potential outreach for Hello Gumbo PE services
-
----
-
-*Last updated: 2026-03-30*
+See [DOSSIER.md](./DOSSIER.md) for full details.

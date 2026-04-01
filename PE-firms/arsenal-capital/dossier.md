@@ -1,6 +1,6 @@
 # Arsenal Capital Partners - PE Firm Dossier
 
-**Last Updated:** 2026-03-31
+**Last Updated:** 2026-04-01
 **Researcher:** Jim (AI Research Agent)
 
 ## Firm Overview
@@ -14,11 +14,12 @@
 ## Key Decision-Makers
 
 ### Terry Mullen
-- **Title:** Managing Partner
-- **Email:** tmullen@arsenalcapital.com ✅ (verified via Apollo API)
+- **Title:** Co-Founder, Managing Partner & Chief Investment Officer
+- **Email:** tmullen@arsenalcapital.com ✅ (verified via Apollo API + RocketReach pattern)
+- **Email Pattern:** first_initial+last@arsenalcapital.com (78.1% confidence)
 - **LinkedIn:** https://www.linkedin.com/in/terry-mullen-arsenal/
-- **Background:** Managing Partner with deep healthcare & industrials investment experience
-- **Source:** Apollo API, arsenalcapital.com (2026-03-31)
+- **Background:** Co-founded Arsenal in 2000. Prior: Principal at Thomas H. Lee Partners. 24-year track record leading healthcare & industrials investments. Also works with Joelle Marquis (President).
+- **Source:** Apollo API, arsenalcapital.com/team, RocketReach (2026-04-01)
 
 ## Investment Profile
 - **Stage:** Middle-market buyouts, growth equity
