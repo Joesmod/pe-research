@@ -1,36 +1,25 @@
 # One Equity Partners
 
-## Overview
-- **Website**: https://www.oneequity.com
-- **HQ**: New York, NY
-- **Founded**: 2001
-- **AUM**: $4.5B+
-- **Focus**: Middle-market private equity with transformative combinations across North America and Europe
+**Website:** https://www.oneequity.com  
+**AUM:** ~$10B+  
+**Focus:** Industrials, technology, healthcare  
+**Location:** New York, NY
 
-## Investment Focus
-- Business Services
-- Healthcare Services
-- Industrials
-- Technology Services
-- Carve-outs and Transformations
+## Key Contact
 
-## Key Contacts
+**Name:** Richard M. Cashin (goes by "Dick")  
+**Title:** Chairman & Founder  
+**Email:** dick.cashin@oneequity.com  
+**LinkedIn:** https://www.linkedin.com/in/dick-cashin-79580711/  
+**Source:** OEP website, email pattern verified via RocketReach (99.4% accuracy)
 
-### David Han
-- **Title**: Managing Director
-- **Email**: dhan@oneequity.com (inferred from ZoomInfo pattern)
-- **LinkedIn**: https://www.linkedin.com/company/one-equity-partners
-- **Status**: Enriched 2026-03-31
+## Email Pattern
+`first.last@oneequity.com` (99.4% usage)
 
-### General Contact
-- **Phone**: +1 (212) 277-1500
-- **Email Pattern**: {first_initial}{last}@oneequity.com
+## Research Notes
+- Founded in 2001, formerly Bank One's PE arm
+- 40+ years of PE investing experience (founder)
+- Focus on transformative combinations and carve-outs
 
-## Notes
-- Founded as a spin-out from JPMorgan Partners in 2001
-- Focuses on transformative middle-market transactions
-- Strong operational improvement capabilities
-- Active across North America and Europe
-- Specializes in carve-outs and complex situations
-
-**Enriched**: 2026-03-31 20:36 CST
+## Status
+✅ Enriched - 2026-04-01

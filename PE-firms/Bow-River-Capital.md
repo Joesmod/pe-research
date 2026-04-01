@@ -1,22 +1,25 @@
 # Bow River Capital
 
-**Website:** https://bowrivercapital.com
-
-**Focus:** Private equity - business services and healthcare services
-
+**Website:** https://www.bowrivercapital.com  
+**AUM:** ~$2.5B+  
+**Focus:** Healthcare services, industrials, lower-middle-market software  
 **Location:** Denver, CO
 
-## Key Contacts
+## Key Contact
 
-### Gaurav Sharma
-- **Title:** Managing Director, Private Equity
-- **Email:** sharma@bowrivercapital.com
-- **LinkedIn:** http://www.linkedin.com/in/gaurav-sharma-21b047170
-- **Source:** Apollo API (verified 2026-03-31)
-- **Background:** 18+ years investment experience; previously Principal at Investcorp International with focus on business and healthcare services
-- **Joined:** August 2023
+**Name:** Greg J. Hiatrides  
+**Title:** Managing Director  
+**Email:** hiatrides@bowrivercapital.com  
+**LinkedIn:** https://www.linkedin.com/in/gregory-hiatrides-a1684a32/  
+**Source:** Bow River Capital team page, email pattern verified via RocketReach/ZoomInfo
 
-## Notes
-- Gaurav brings tremendous operational expertise
-- Focus areas: business services, healthcare services
-- Head of Private Equity: Greg Hiatrides, Managing Director
+## Email Pattern
+`[last]@bowrivercapital.com` (last name only)
+
+## Research Notes
+- Mid-market PE firm with healthcare services focus
+- Active in lower-middle-market software
+- Denver-based with strong regional presence
+
+## Status
+✅ Enriched - 2026-04-01

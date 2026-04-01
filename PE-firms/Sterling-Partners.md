@@ -1,30 +1,27 @@
 # Sterling Partners
 
-## Firm Overview
-- **Founded:** Co-founded by Steven Taslitz
-- **Location:** Chicago, IL
-- **Website:** https://sterlingpartners.com
-
-## Focus
-- Healthcare
-- Consumer
-- Business Services
+**Website:** https://sterlingpartners.com  
+**AUM:** ~$4B  
+**Focus:** Healthcare services, business services  
+**Location:** Chicago, IL
 
 ## Key Contact
-**Steven Taslitz**
-- **Title:** Chairman & Co-Founder
-- **Email:** staslitz@sterlingpartners.com
-- **LinkedIn:** https://www.linkedin.com/in/steventaslitz
-- **Source:** Email pattern s******@sterlingpartners.com from RocketReach (inferred: staslitz@)
 
-## Other Contacts
-- **Avi Epstein** - Managing Director, COO & General Counsel
+**Name:** Steven Taslitz  
+**Title:** Chairman  
+**Email:** staslitz@sterlingpartners.com  
+**LinkedIn:** https://sterlingpartners.com/team/  
+**Source:** RocketReach, email pattern verified (93.8% accuracy)
 
-## Notes
-- Middle-market private equity firm
-- Operating partners provide specialized operational support
-- Focus on portfolio company operational improvement
-- Enriched: 2026-03-30
+## Email Pattern
+`[first_initial][last]@sterlingpartners.com` (93.8% usage)
 
-## Investment Approach
-Sterling Partners engages operating partners to provide operational support, specialized operations, and consulting services to portfolio companies in connection with identification, acquisition, holding, improvement and disposition.
+## Research Notes
+- Founded 1983, institutional fund practice since 2000
+- Focus on control investments in founder-run, middle-market companies
+- Healthcare services, education, and business services sectors
+- Diversified investment platform across strategies and asset classes
+- Other key executives: Merrick M. Elfman (Senior Managing Director)
+
+## Status
+✅ New Firm Added - 2026-04-01

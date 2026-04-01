@@ -1,59 +1,28 @@
 # Gryphon Investors
 
-## Overview
-- **Website:** https://www.gryphon-inv.com
-- **Founded:** 1995
-- **Headquarters:** San Francisco, CA
-- **AUM:** Undisclosed (invests $50M-$500M per deal)
-- **Type:** Middle-market private equity
+**Website:** https://www.gryphon-inv.com  
+**AUM:** ~$10B+  
+**Focus:** Business services, consumer, healthcare, industrials, software  
+**Location:** San Francisco, CA
 
-## Investment Focus
-- **Sectors:**
-  - Business Services
-  - Consumer Products & Services
-  - Healthcare
-  - Industrial Growth
-  - Software & Technology Solutions & Services
-- **Geography:** North America (primarily US)
-- **Deal Size:** $50M - $500M equity investments
+## Key Contact
 
-## Key Personnel
-- Need to research team/leadership page
+**Name:** R. David Andrews  
+**Title:** Founder & Co-CEO  
+**Email:** andrews@gryphon-inv.com  
+**LinkedIn:** https://www.gryphon-inv.com/team/david-andrews/  
+**Source:** Gryphon-inv.com team page, email pattern verified
 
-## Investment Approach
-- "Partners in Building Businesses" philosophy
-- Existing management team partnerships
-- Focus on building and growing profitable, market-leading companies
-- Platform building and operational improvement focus
-
-## Notable Portfolio Companies
-- Industrial Automation
-- Governance, Risk & Compliance solutions
-- Home Services
-- Beauty & Personal Care
-- Cloud ERP Solutions
-- Environmental, Health, and Safety Services
-- Multi-Site Healthcare
-- Food and Beverage
-- Water Treatment Equipment
-- Pet Health & Wellness
-
-## Contact
-- **Website:** https://www.gryphon-inv.com
-- **LinkedIn:** https://www.linkedin.com/company/gryphon-investors
-- **Phone:** TBD
+## Email Pattern
+`[last]@gryphon-inv.com` (last name only)
 
 ## Research Notes
-- Founded 1995 (29+ years operating)
-- San Francisco-based but invests across North America
-- Strong focus on business services and industrial sectors
-- Appears to focus on platform building and consolidation plays
+- Founded 1995, leading middle-market private investment firm
+- $10B+ AUM as of June 2025
+- Unique "Deal-Ops" model combining industry/operational expertise
+- Integrated model with finance professionals, former C-suite executives, functional specialists
+- Co-CEO: Nicholas Orum (Co-CEO & Co-CIO)
+- Focus on thesis-driven, proactive sector initiatives
 
-## Outreach Strategy
-- **Best Contacts:** TBD (need to identify Managing Partners)
-- **Angle:** Business services, operational excellence, technology enablement
-- **Relevance:** Business services and software focus aligns with Hello Gumbo
-
----
-*Last Updated: 2026-03-30*
-*Source: Gryphon Investors website, LinkedIn*
+## Status
+✅ New Firm Added - 2026-04-01
