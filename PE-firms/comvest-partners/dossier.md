@@ -13,6 +13,14 @@
 
 ## Key Decision-Makers
 
+### Maneesh Chawla
+- **Title:** Managing Partner
+- **Email:** m.chawla@comvest.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/maneesh-chawla/
+- **Background:** Senior leadership role at Comvest Private Equity
+- **Source:** Business Wire press release (February 20, 2025)
+- **Note:** Email verified from official press release announcing team promotions
+
 ### David Gibson
 - **Title:** Managing Director, Co-Head of Consumer & Retail
 - **Email:** [PATTERN INFERRED - NOT VERIFIED] d******@comvest.com
@@ -20,6 +28,11 @@
 - **Background:** Joined April 2025. Previously Goldman Sachs (Director, Private Credit). Focuses on consumer/retail sector origination and structuring.
 - **Source:** comvest.com/team-members/david-gibson, official press release (2026-03-31)
 - **Note:** Email pattern from RocketReach (NOT from official source)
+
+### Alex Ray
+- **Title:** Managing Director, Business Development
+- **Email:** a.ray@comvest.com ✅ VERIFIED
+- **Source:** Business Wire press release (February 20, 2025)
 
 ### Other Key Leaders
 - **Mike Shim** - Senior Managing Director, Head of Operating Advisory Group (OAG)
