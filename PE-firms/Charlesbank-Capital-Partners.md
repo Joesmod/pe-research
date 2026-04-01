@@ -8,7 +8,16 @@
 ## Focus
 Middle-market private equity: services, tech-enabled businesses, consumer
 
-## Key Contact
+## Key Contacts
+
+**Michael Choe**  
+Managing Partner, CEO & Co-Head Flagship  
+Email: mchoe@charlesbank.com (inferred pattern)
+LinkedIn: https://www.linkedin.com/in/michael-choe  
+Location: Boston, MA (HQ)
+Focus: Main PE business (middle-market tech, healthcare, services)
+**Priority Contact** - runs core PE operations
+
 **Sandor Hau**  
 Managing Partner & President, Credit  
 Email: shau@charlesbank.com  
@@ -30,9 +39,11 @@ Phone: (212) area code (NYC office)
 - $13B+ AUM across multiple funds
 
 ## Research Date
-2026-03-17 (Hourly cron enrichment)
+- Initial: 2026-03-17 (Hourly cron enrichment)
+- Updated: 2026-03-31 (Added Michael Choe, CEO/MP)
 
 ## Source
+- charlesbank.com/team/ (Michael Choe verified 2026-03-31)
 - charlesbank.com/team/sandor-hau/
 - ZoomInfo
 - RocketReach

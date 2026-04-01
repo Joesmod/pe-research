@@ -2,7 +2,7 @@
 
 **Status:** Researched - Ready for Outreach  
 **Priority:** HIGH  
-**Last Updated:** 2026-03-27
+**Last Updated:** 2026-03-31
 
 ---
 
@@ -60,6 +60,20 @@ Partners with established, market-leading middle market companies with vision to
 - LinkedIn: https://www.audaxgroup.com/leadership/donald-bramley
 - Email: Unknown (not published)
 
+**Jay Petricone**
+- Title: Managing Director
+- Focus: Real Estate, Business Services
+- Notable: Quoted in AKAM acquisition press release (February 2026)
+- LinkedIn: https://www.linkedin.com/in/jay-petricone
+- Email: jpetricone@audaxprivateequity.com (inferred pattern, verified via RocketReach)
+
+**Stephen Weaver**
+- Title: Managing Director
+- Focus: Healthcare, Life Sciences
+- Notable: Quoted in CorEvitas exit to Thermo Fisher press release
+- LinkedIn: https://www.linkedin.com/in/stephen-weaver-audax
+- Email: sweaver@audaxprivateequity.com (inferred pattern, verified via RocketReach)
+
 ---
 
 ## Contact Information
@@ -107,6 +121,7 @@ Details TBD
 
 ## Next Steps
 
+- [x] **ENRICHED 2026-03-31:** Found Jay Petricone (MD, Real Estate/Services) + Stephen Weaver (MD, Healthcare)
 - [ ] Find direct email for Young Lee (Co-President)
 - [ ] Find direct email for Donald Bramley (Partner, Tech/Industrial)
 - [ ] Research healthcare portfolio companies

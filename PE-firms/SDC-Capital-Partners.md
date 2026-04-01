@@ -19,6 +19,14 @@
   - Stanford Graduate School of Business (M.B.A.)
 - **Source:** RocketReach (pattern verified)
 
+### Todd Aaron
+- **Title:** Managing Director
+- **Email:** taaron@sdccapitalpartners.com (inferred pattern)
+- **LinkedIn:** https://www.linkedin.com/in/toddaaron/
+- **Location:** New York / Bengaluru (per LinkedIn 2025)
+- **Focus:** Digital infrastructure, data center operations
+- **Source:** LinkedIn profile verified July 2025
+
 ## Background
 Doug Kaden is a Managing Partner of SDC. Key career highlights:
 - **Prior:** Co-founded Varagon Capital Partners (2014-2019)
@@ -53,4 +61,5 @@ Pattern: `[first][last]@sdccapitalpartners.com`
 
 ## Enrichment History
 - **2026-03-04:** Added Doug Kaden contact via web research
+- **2026-03-31:** Added Todd Aaron (MD) via LinkedIn research
 - **Source:** PE Research & Enrichment Cron Run

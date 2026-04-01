@@ -16,6 +16,16 @@
 - **Education:** University of Chicago - Booth School of Business
 - **Source:** RocketReach (pattern verified)
 
+### Ryan McCarthy
+- **Title:** Partner
+- **Email:** rmccarthy@a-mcapital.com (VERIFIED via RocketReach r******@)
+- **LinkedIn:** https://www.linkedin.com/in/ryan-mccarthy-833916167/
+- **Location:** Los Angeles Metropolitan Area
+- **Education:** Indiana University Bloomington
+- **Experience:** 22+ years helping middle-market companies through growth, transition, inflection
+- **Background:** Investor, operator, management consultant
+- **Source:** RocketReach + a-mcapital.com team page
+
 ## Background
 Jack McCarthy is a Managing Partner and Founder of Alvarez & Marsal Capital with 30+ years of experience:
 - Private equity investments
@@ -44,4 +54,5 @@ Example: `jmccarthy@a-mcapital.com`
 
 ## Enrichment History
 - **2026-03-04:** Added Jack McCarthy contact via web research
+- **2026-03-31:** Added Ryan McCarthy (Partner, LA) via RocketReach + team page
 - **Source:** PE Research & Enrichment Cron Run
