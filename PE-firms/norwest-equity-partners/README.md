@@ -1,31 +1,43 @@
-# Norwest Equity Partners
+# Norwest Equity Partners (NEP)
 
 ## Overview
-- **Location**: Minneapolis, MN (multi-location)
-- **Founded**: TBD
-- **Focus**: Middle-market growth equity
-- **Website**: https://www.nep.com
+- **Website:** https://nep.com
+- **HQ:** Minneapolis, Minnesota
+- **Address:** 250 Nicollet Mall, Suite 950, Minneapolis, MN 55401
+- **Other Office:** West Palm Beach, Florida
+- **Founded:** 1961
+- **Focus:** Middle-market investments
+- **Sectors:** Business & Consumer Services, Consumer Products, Industrials
+
+## Key Contacts
+
+### Jason Sondell
+- **Title:** Managing Director
+- **Email:** jsondell@nep.com (pattern inferred)
+- **Phone:** (612) 215-1600 (firm)
+- **LinkedIn:** https://www.linkedin.com/in/jason-sondell
+- **Role:** Leads origination efforts, responsible for firm's origination strategy, market visibility, and early access to high-quality investment opportunities
+- **Education:** Northwestern University - Kellogg School of Management
+- **Source:** RocketReach/Apollo (j******@nep.com)
 
 ## Investment Strategy
-Norwest Equity Partners is a middle-market growth equity private equity firm.
+- Middle-market control buyouts
+- Respectful, collaborative approach
+- Long-term value creation (65+ years in business)
+- Partnership with management teams
+- Operating partners and advisors program
 
-## Key People
+## Investment Focus
+- **Business & Consumer Services:** Key sector focus
+- **Consumer Products:** Brand-building and growth
+- **Industrials:** Manufacturing and distribution
 
-### Eric Frueh - Principal
-  - Principal
-  - Email: efrueh@nep.com
-  - LinkedIn: http://www.linkedin.com/in/eric-frueh-6a802549
-  - **Source**: Apollo.io verified contact data
+## Status
+**Enriched** - 2026-04-01
 
-## Contact Information
-- **Primary Contact**: Eric Frueh (efrueh@nep.com)
-
-## Research Notes
-- **Date Added**: 2026-03-31
-- **Last Updated**: 2026-03-31 (Hourly PE Research & Enrichment Cron)
-- **Enrichment Status**: Contact verified via Apollo API
-- **Contact Method**: Direct email available
-
-## Sources
-- Apollo.io contact database
-- Company website: https://www.nep.com
+## Notes
+- One of the oldest middle-market PE firms in the US (since 1961)
+- Email pattern: [first_initial][last]@nep.com or [first]@nep.com
+- Strong Midwest presence with Florida expansion
+- Operating partners are independent contractors/advisors
+- Creates opportunities, jobs, and value by investing in industry-leading companies
