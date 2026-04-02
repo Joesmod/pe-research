@@ -1,45 +1,59 @@
-# Vesey Street Capital Partners (VSCP)
+# Vesey Street Capital Partners
 
-**Website:** https://www.vscpllc.com  
-**Founded:** Early 2000s  
-**Location:** 412 W 15th Street, 2nd Floor, New York, NY 10011  
-**Focus:** Healthcare services (EXCLUSIVE)  
-**Phone:** (646) 847-2474  
+## Firm Overview
+- **Website:** https://www.vscpllc.com
+- **Focus:** Healthcare services
+- **Team Size:** 14 people, including 6 partners
+- **Location:** New York (implied)
 
-## Investment Thesis
-Exclusive focus on healthcare services private equity. 30+ years of specialized experience in the sector. Focus on building scalable healthcare service platforms.
+## Key Personnel
 
-## Key Contacts
+### Managing Partners
+- **Adam Feinstein** - Managing Partner
+  - Quoted in Inceptua investment announcement
+  - Active in healthcare services deals
 
-### Adam Feinstein
-- **Title:** Founder & Managing Partner
-- **Email:** [Needs verification]
-- **Background:** 30+ years investment experience exclusively in healthcare services
-- **Source:** GrowthCap Top Healthcare Investors 2026
+- **Michael Doyle** - Managing Partner
+  - Appointed to AirSculpt Technologies Board of Directors as Non-Executive Chairman
+  - Active board member across portfolio
 
-### Tiffany Laing
-- **Title:** Investor Relations
-- **Email:** tlaing@vscpllc.com ✅ VERIFIED
-- **Phone:** (646) 847-2474
-- **Source:** PRNewswire press release (Sept 2025)
+### Notable Team Members
+- **Joe Kuhns** - (Role TBD from team page)
+- **Larry Cash** - (Role TBD from team page)
+- **Charles Davis** - (Role TBD from team page)
+- **Joe Amato** - Investor Relations & Finance
 
-## Recent Activity
-- **2025:** Inc. Founder-Friendly Investors list
-- **2025:** Full exit of portfolio company Gastro MD to AGA, LLC (United Digestive)
+## Background
+- Partners have 100+ combined years of leadership in healthcare services
+- Experience both on Wall Street and as executives in healthcare businesses
+- Senior team has been working together for 30 years
+- Unprecedented network in Healthcare Services Industry
 
 ## Investment Focus
-- **Industries:** Healthcare services ONLY
-- **Deal Types:** Platform builds, add-ons, recapitalizations
-- **Stage:** Middle market
-- **Geography:** United States
+- Healthcare services
+- Partner with entrepreneurs and management teams
+- Focus on differentiated sourcing
+- Strong portfolio management capabilities
 
-## Portfolio Activity
-- Gastro MD (EXIT 2025) - Gastroenterology services
+## Recent Activity
+- Investment in Inceptua (partnership with management team led by Doug and Stefan)
+- AirSculpt Technologies (Michael Doyle board appointment)
 
-## Notes
-- Deep sector specialization (healthcare services only)
-- Long track record with founder and management teams
-- Focus on building scaled platforms through M&A
-- Strong reputation in healthcare PE community
+## Contact Information
+- Email addresses need verification from official sources
 
-**Last Updated:** 2026-03-31
+## Research Notes
+- Deep healthcare services expertise
+- Long-tenured team with strong alignment
+- Focus on operational partnership with portfolio companies
+- Network-driven sourcing strategy
+
+## Research Status
+- Managing partner names verified via Bloomberg, ZoomInfo, LinkedIn announcements
+- Team structure identified from website
+- Email addresses need verification
+- LinkedIn profiles need to be located
+
+---
+*Last Updated: 2026-04-01*
+*Source: vscpllc.com, Bloomberg, ZoomInfo, LinkedIn*
