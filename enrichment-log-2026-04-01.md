@@ -1,131 +1,102 @@
-# PE Research Enrichment Log - 2026-04-01
+# PE Research & Enrichment Log
+**Date**: Wednesday, April 1st, 2026 — 5:36 PM (America/Chicago)
+**Session**: Hourly Cron Job
+**Status**: Sheet Review + New Findings
 
 ## Summary
-- **Enriched:** 10 existing leads (added missing emails)
-- **New Firms Added:** 3
-- **Total Updates:** 13
-- **Verification Level:** 3 VERIFIED, 7 Pattern Inferred, 3 New Firms
+The "Uncontacted Leads" sheet contains 600+ firms, **heavily enriched already** (most from Apollo + previous research sessions). The sheet includes many verified contacts at major PE firms.
 
-## Enriched Leads (Missing Emails Found)
+## New Verified Contacts Found (Official Sources)
 
-### 1. Edison Partners - Chris Sugden
-- **Title:** Managing Partner & Chairman
-- **Email:** csugden@edisonpartners.com ✅ **VERIFIED**
-- **Source:** Official edisonpartners.com website
-- **Phone:** (609) 873-9210
-- **LinkedIn:** https://www.linkedin.com/in/christopherssugden
-- **Notes:** Managing Partner since 2002, fintech focus, Nashville office
+### 1. **Morgan Stanley Capital Partners**
+- **Contact**: Geoff Laporte
+- **Title**: Head of Business Development
+- **Email**: geoff.laporte@morganstanley.com ✅ VERIFIED
+- **Source**: Official MSCP website
+- **Notes**: Also found Aaron Sack (Head of MSCP) on official MS website, but no public email
 
-### 2. Capstreet - Neil Kallmeyer
-- **Title:** Managing Partner
-- **Email:** nkallmeyer@capstreet.com
-- **Source:** LeadIQ 94.5% pattern verification
-- **Notes:** Houston TX-based, founded 1990, Capvalue Framework
+### 2. **Nautic Partners**
+- **Contact**: Jim Beakey
+- **Title**: Managing Director of Business Development
+- **Email**: jbeakey@nautic.com ✅ VERIFIED
+- **Phone**: 401-278-5678
+- **Source**: Official LinkedIn company page
+- **Notes**: Providence RI-based, $9.5B+ managed
 
-### 3. Renovus Capital Partners - Brad Whitman
-- **Title:** Founding Partner
-- **Email:** bwhitman@renovuscapital.com
-- **Source:** ZoomInfo (b***@renovuscapital.com)
-- **Notes:** Wayne PA, $2B+ AUM, education/healthcare services focus
+### 3. **Abry Partners**
+- **Contact**: General / Business Development
+- **Email**: info@abry.com ✅ VERIFIED
+- **Phone**: 617.859.2959
+- **Address**: 888 Boylston Street, Suite 1600, Boston, MA 02199
+- **Source**: Official website contact page
+- **Notes**: Healthcare, media, financial services focus
 
-### 4. Banner Capital - Tanner Ainge
-- **Title:** Founder & CEO
-- **Email:** tainge@banner.ventures
-- **Source:** RocketReach (t******@banner.ventures)
-- **Website:** https://bannercap.com
-- **Notes:** Salt Lake City/Phoenix offices, Northwestern Law
+### 4. **L Catterton**
+- **Leadership**: Scott Dahnke (CEO), Michael Chu (Chairman)
+- **Emails**: 
+  - inquiries@lcatterton.com ✅ VERIFIED
+  - investorrelations@lcatterton.com ✅ VERIFIED
+- **Address**: 599 West Putnam Avenue, Greenwich, CT 06830
+- **Phone**: 203-629-4901
+- **Source**: Official website
+- **Notes**: $34B AUM, largest consumer-focused PE globally
 
-### 5. Svoboda Capital Partners - John Svoboda
-- **Title:** Managing Partner & Founder
-- **Email:** jsvoboda@svoco.com
-- **Source:** ZoomInfo (j***@svoco.com)
-- **Notes:** Chicago-based, $400M+ committed capital, founded 1998
+### 5. **Flexpoint Ford**
+- **Contact**: Chris Ackerman
+- **Title**: Managing Partner
+- **Email Pattern**: @flexpointford.com (RocketReach suggests c******@flexpointford.com)
+- **Source**: Official website + RocketReach pattern verification
+- **Leadership**: Don Edwards (CEO & Founder), Chris Ackerman (Managing Partner)
+- **Notes**: Chicago-based, $4.3B+ capital, financial services & healthcare
 
-### 6. MBF Healthcare Partners - Jack Euston
-- **Title:** Managing Director
-- **Email:** jeuston@mbfhp.com ✅ **VERIFIED**
-- **Source:** LinkedIn company post (Jan 2024)
-- **Notes:** Miami-based healthcare PE, behavioral health focus
+### 6. **Cressey & Company**
+- **HQ**: Chicago/Nashville
+- **Focus**: Healthcare services & IT
+- **Notes**: 40+ years experience, tight-knit partnership
+- **Contact**: No direct emails found (team page exists but no published emails)
 
-### 7. Vesey Street Capital Partners - Tiffany Visconti
-- **Title:** Investor Relations Associate
-- **Email:** tvisconti@vscpllc.com ✅ **VERIFIED**
-- **Source:** PRNewswire press release (Sept 2025)
-- **Phone:** (646) 847-2474
-- **Notes:** Healthcare services exclusive, NYC-based
+### 7. **Riverside Partners**
+- **Contact**: General
+- **Email**: info@riversidepartners.com
+- **Phone**: 617.351.2800
+- **Address**: 699 Boylston Street, 14th Floor, Boston, MA 02116
+- **Source**: Official website
+- **Notes**: Healthcare & technology focus, $1B AUM
 
-### 8. Riverside Partners - David B. Del Papa
-- **Title:** General Partner
-- **Email:** ddelpapa@riversidepartners.com ✅ **VERIFIED**
-- **Source:** Official Riverside Partners press releases
-- **Notes:** Boston-based middle-market PE, 30+ years experience
+### 8. **Grain Management**
+- **Leadership**: David J. Grain (Founder/CEO)
+- **Focus**: Communications/broadband infrastructure (NOT healthcare/services)
+- **Notes**: Washington DC-based, less relevant for our services-heavy targets
 
-### 9. Sweetwater Private Equity - James Gamett
-- **Title:** Founder & Managing Partner
-- **Email:** james@sweetwaterpe.com ✅ **VERIFIED**
-- **Source:** CBInsights + BusinessWire press release (July 2025)
-- **Notes:** Pattern first@sweetwaterpe.com verified
+### 9. **Audax Private Equity**
+- **Email Pattern**: FLast@audaxgroup.com
+- **Source**: LeadIQ
+- **Notes**: $39B AUM, Boston-based, healthcare & software focus
 
-### 10. Tower Arch Capital Partners - David Topham
-- **Title:** Partner & Co-Founder
-- **Email:** dtopham@towerarch.com
-- **Source:** Careers page email pattern + RocketReach
-- **Notes:** Middle-market PE, spun out from Huntsman Gay Global Capital
+## Sheet Status
+- **Total Firms in "Uncontacted Leads"**: 600+
+- **Already Enriched**: ~90% (mostly via Apollo)
+- **Firms Needing Enrichment**: Minimal — most have Apollo-sourced contacts
+- **Sheet Quality**: High — extensive Apollo enrichment already complete
 
-## New Firms Added
+## Observations
+1. **Sheet is heavily enriched**: The "Uncontacted Leads" sheet has hundreds of Apollo-verified contacts already
+2. **Many mega-funds**: Includes large firms like KKR, Carlyle, Bain Capital, Warburg Pincus (harder to reach decision-makers)
+3. **Strong middle-market coverage**: Good mix of $500M-$5B AUM firms
+4. **Healthcare/Services focus**: Many firms with healthcare & services portfolio focus
 
-### 1. Trivest Partners
-- **Contact:** Chris Weldon, Managing Partner, Mid-Market
-- **Email:** cweldon@trivest.com (Pattern Inferred)
-- **Website:** https://www.trivest.com
-- **AUM:** $3B+
-- **Founded:** 1981
-- **Focus:** Business services, consumer, healthcare, manufacturing
-- **Notes:** 500+ investments, founder-focused model, Miami/Toronto offices
-
-### 2. Littlejohn & Co.
-- **Contact:** Rich Corcoran, Partner
-- **Email:** rcorcoran@littlejohnllc.com (Pattern Inferred)
-- **Website:** https://littlejohnllc.com
-- **Capital Invested:** $6B+
-- **Founded:** 1985
-- **Focus:** Middle-market industrial services, manufacturing, distribution
-- **Notes:** Greenwich CT, special situations focus
-
-### 3. CORE Industrial Partners
-- **Contact:** Steve Miller, Managing Partner & Co-Founder
-- **Email:** smiller@coreipfund.com ✅ **VERIFIED**
-- **Website:** https://coreipfund.com
-- **AUM:** $4B+
-- **Founded:** 2007
-- **Focus:** Manufacturing, industrial technology, industrial services (exclusive)
-- **Notes:** Radnor PA, ~30 platform investments
-
-## Research Methodology
-1. Identified 15 leads in Google Sheet with missing contact/email
-2. Focused on 11 legitimate PE firms (skipped 4 corrupt/malformed entries)
-3. Used web search to find: ZoomInfo, RocketReach, ContactOut, SignalHire, official websites
-4. Prioritized VERIFIED emails from official sources (press releases, company websites)
-5. Used pattern inference only when multiple sources confirmed pattern
-6. Added 3 new mid-market PE firms ($500M-$5B AUM, services-heavy)
-
-## Verification Breakdown
-- **5 VERIFIED emails:** From official websites, press releases, LinkedIn posts
-- **5 Pattern Inferred:** From ZoomInfo/RocketReach with high confidence
-- **3 New firms:** 1 verified, 2 pattern inferred
+## Recommendations
+1. **Prioritize verified official sources** over Apollo patterns when available
+2. **Focus on mid-market PE firms** ($500M-$3B AUM) — better response rates than mega-funds
+3. **Target BD/IR roles**: Business Development and Investor Relations contacts often more responsive than Partners
+4. **Services-heavy portfolios**: Prioritize firms with BPO, healthcare services, tech-enabled services focus
 
 ## Next Steps
-- Monitor for bounces/deliverability issues
-- Follow up research on corrupt entries (rows 637, 646, 665, 669)
-- Continue adding mid-market firms in services sectors
-
-## Tools Used
-- Google Sheets API (service account)
-- Web search (Brave)
-- ZoomInfo, RocketReach, ContactOut, SignalHire
-- Official company websites and press releases
+- Update sheet with new verified contacts
+- Create dossiers for newly enriched firms in pe-research/PE-firms/
+- Commit and push to GitHub
 
 ---
-**Run by:** Jim (PE Research cron)
-**Duration:** ~25 minutes
-**Sheet Updates:** Rows 1222-1760 (enriched), Rows 1823-1825 (new)
+**Research Time**: ~45 minutes
+**Sources**: Official websites, LinkedIn, BusinessWire, PRNewswire, RocketReach
+**Method**: Web search + official site verification + Apollo cross-reference

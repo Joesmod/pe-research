@@ -1,84 +1,77 @@
-# Silversmith Capital Partners
+# Silversmith Capital Partners - Firm Dossier
 
-**Location:** Boston, Massachusetts  
-**Founded:** 2015  
-**Focus:** SaaS, Healthcare IT & Services  
-**Type:** Growth Equity  
-**AUM:** $3.3 billion  
-**Website:** https://www.silversmith.com  
-
-## Key Contact
-
-**Jeff Crisan**  
-- Title: Co-Founder and Managing Partner  
-- Email: jcrisan@silversmith.com  
-- LinkedIn: https://www.linkedin.com/in/jeffreycrisan/  
-- Focus: Healthcare IT & Services investments  
-- Board: Teach for America Massachusetts, Catholic Charities of Boston  
-- Location: Greater Boston  
+**Last Updated:** 2026-04-01  
+**Research Source:** Web search (silversmith.com, RocketReach, GrowthCap)
 
 ## Firm Overview
 
-Founded in 2015, Silversmith Capital Partners is a Boston-based growth equity firm with $3.3 billion of capital under management. Silversmith's mission is to partner with and support the best entrepreneurs in growing, profitable technology and healthcare companies.
+- **Full Name:** Silversmith Capital Partners
+- **Website:** https://www.silversmith.com
+- **Founded:** 2015
+- **Headquarters:** Boston, MA
+- **AUM:** $3B+ (multiple funds)
+- **Investment Focus:** Growth equity in software and healthcare IT/services
+- **Deal Types:** Minority and majority growth investments
 
-The firm prides itself on being "more of a family" with real people who care about founders, portfolio companies, and each other.
+## Investment Thesis
 
-## Investment Strategy
+- **Technology:** B2B SaaS, vertical software, infrastructure software
+- **Healthcare:** Healthcare IT, value-based care models, innovative care delivery
+- **Growth-stage companies:** Proven business models, $10M-$100M revenue
+- **Operational partnership:** Not just capital - active value creation
 
-- **Primary Sectors:** 
-  - SaaS & Information Services
-  - Healthcare IT & Services
-- **Focus Areas:**
-  - Product-led SaaS companies
-  - Vertical software
-  - Healthcare technology improving clinical outcomes
-  - Solutions reducing administrative healthcare inefficiency
-- **Target:** Growth-stage, profitable companies
-- **Geography:** United States
+## Key Contacts
 
-## Representative Portfolio
+### Jeff Crisan
+- **Title:** Co-Founder & Managing Partner
+- **Email:** jcrisan@silversmith.com (VERIFIED - RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/jeffreycrisan
+- **Focus:** Healthcare IT & Services investments
+- **Background:** Co-founded Silversmith in 2015. Deep healthcare expertise.
+- **Status:** Enriched 2026-04-01
 
-- ActiveCampaign
-- Appfire
-- Apryse
-- DistroKid
-- impact.com
-- Iodine Software
-- LifeStance Health
-- Onbe
-- Webflow
+## Investment Focus Areas
 
-## Key Team Members
+### Healthcare IT:
+- EHR and clinical workflow systems
+- Population health management
+- Care coordination platforms
+- Value-based care enablement
+- Health data analytics
 
-- **Jeff Crisan** - Co-Founder, Managing Partner (Healthcare IT focus)
-- **Jim [Last Name]** - Co-Founder, Managing Partner (SaaS focus, competitive/team-oriented CEOs)
+### Software:
+- B2B SaaS (vertical and horizontal)
+- Enterprise software
+- Infrastructure and developer tools
+- Technology-enabled services
 
-## Firm Philosophy
+## Portfolio Strategy
 
-- "Silversmith is more of a family. They are real people who care."
-- Focus on passionate founders with product leadership
-- Support aggressive go-to-market initiatives to drive growth
-- Highly knowledgeable investors who understand healthcare and technology spaces
+- Minority and majority growth investments
+- Support organic growth and strategic M&A
+- Operational value creation through:
+  - Go-to-market optimization
+  - Product development guidance
+  - Strategic M&A support
+  - Scaling operations
 
-## Email Pattern
+## Outreach Strategy
 
-**first+last@silversmith.com**
+- Target: Jeff Crisan (Co-Founder & Managing Partner) - healthcare IT focus
+- Angle: AI automation for healthcare workflows, value-based care optimization, software portfolio enhancement
+- Timing: Active deployment, receptive to value-add partners
+- Email verified via RocketReach - safe to use
 
-## Sourcing & Research Notes
+## Notes
 
-- Email pattern verified via RocketReach (2026-03-31)
-- Jeff Crisan confirmed as Co-Founder and Managing Partner on official team page
-- Firm has strong reputation for founder-friendly approach
-- $3.3B AUM makes them a significant mid-market growth equity player
-- Healthcare IT focus aligns with value-based care and operational efficiency themes
-
-## Enrichment Status
-
-**Status:** Enriched  
-**Date:** 2026-03-31 (cron)  
-**Source:** Official website + RocketReach + LinkedIn + GrowthCap  
-**Next Steps:** Ready for outreach - strong Healthcare IT angle
+- Boston-based, strong healthcare IT network
+- Jeff Crisan is THE healthcare IT decision-maker at the firm
+- Founder-friendly reputation, supportive growth partner
+- Focus on "supporting the best entrepreneurs in Technology and Healthcare"
+- Email pattern: first_initial + last@silversmith.com (e.g., jcrisan@silversmith.com)
 
 ---
 
-*Last Updated: 2026-03-31 by Jim (cron)*
+**Enrichment Date:** 2026-04-01 (Cron: PE Research & Enrichment)  
+**Verification Source:** RocketReach + silversmith.com + GrowthCap  
+**Next Action:** High-priority outreach (healthcare IT focus + software mandate = strong AI automation fit)

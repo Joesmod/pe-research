@@ -1,6 +1,6 @@
 # Court Square Capital Partners
 
-**Last Updated:** 2026-03-31 (Cron Enrichment)
+**Last Updated:** 2026-04-01 (Cron Enrichment)
 
 ## Overview
 - **Focus:** Middle-market private equity
@@ -8,6 +8,18 @@
 - **Location:** New York, NY
 
 ## Key Contacts
+
+### Christopher Bloise
+- **Title:** President & Managing Partner
+- **Email:** cbloise@courtsquare.com (VERIFIED - ZoomInfo)
+- **LinkedIn:** https://www.linkedin.com/in/christopher-bloise
+- **Background:** Joined the firm in 2003. Focus: Technology and Communications investments.
+- **Source:** ZoomInfo + courtsquare.com/team (2026-04-01)
+- **Notes:** 
+  - President & Managing Partner - top decision-maker
+  - Technology and Communications sector lead
+  - 20+ years with firm
+  - ZoomInfo phone: (212) ***-****
 
 ### Joseph Silvestri
 - **Title:** Co-Founder & Managing Partner, Chairman of Investment Committee

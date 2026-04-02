@@ -1,40 +1,29 @@
 # Summit Partners
 
 ## Overview
-- **Location:** Boston, MA (with offices in London and Menlo Park)
+- **Website:** https://summitpartners.com
 - **Founded:** 1984
-- **AUM:** $30B+
-- **Focus:** Growth equity and buyouts
-- **Sectors:** Technology, healthcare, life sciences
+- **HQ:** Boston, MA
+- **Focus:** Growth equity and buyout
 
-## Investment Criteria
-- **Deal Size:** $10M-$500M+ equity
-- **Revenue:** $10M-$500M+
-- **Stage:** Growth-stage and mature companies
-- **Geography:** Global with North America focus
+## Key Contacts
 
-## Key Contact
-- **Name:** Eric Shuey
-- **Title:** Advisory Partner, Healthcare & Life Sciences
-- **Email:** eshuey@summitpartners.com
-- **LinkedIn:** https://www.linkedin.com/in/eric-shuey/
-- **Source:** Apollo API verified (2026-03-31)
-- **Focus:** Healthcare sector, board member at LifeStance Health, Sound Physicians, US Renal Care
+### Gregg Beloff
+- **Title:** Managing Director
+- **Email:** gbeloff@summitpartners.com
+- **LinkedIn:** https://www.linkedin.com/in/gregg-beloff-9b3a5a2
+- **Source:** Email pattern VERIFIED from summitpartners.com team page (2026-04-01 3pm)
 
-## Portfolio Approach
-Summit Partners works closely with portfolio company leaders to shape growth strategies focused on long-term value creation. Strong track record in healthcare services, life sciences, and technology-enabled services.
+### Peter Y. Chung
+- **Title:** CEO & Managing Director
+- **Email:** pchung@summitpartners.com
+- **Source:** CEO confirmed on summitpartners.com/team (2026-03-30)
 
-## Healthcare Focus
-- Healthcare services
-- Life sciences
-- Healthcare IT
-- Medical devices
+## Notes
+- Major growth equity and buyout firm
+- Founded 1984, Boston-based
+- Email pattern: first_initial + lastname @summitpartners.com
+- Managing Director contact verified via official team page
 
-## Advisory Partners
-Eric Shuey brings deep healthcare expertise and serves on multiple portfolio company boards in the healthcare sector.
-
-## Enrichment Date
-2026-03-31
-
-## Status
-**Enriched** - Verified Advisory Partner with healthcare expertise
+## Last Updated
+2026-04-01 3:06 PM (Hourly PE Research Cron)

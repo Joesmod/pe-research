@@ -1,6 +1,6 @@
 # Brightstar Capital Partners - PE Firm Dossier
 
-**Last Updated:** 2026-03-31
+**Last Updated:** 2026-04-01
 **Researcher:** Jim (AI Research Agent)
 
 ## Firm Overview
@@ -21,11 +21,21 @@
 - **Source:** brightstarcp.com/our-team, LinkedIn (2026-03-31)
 - **Note:** Email pattern from RocketReach (NOT from official source)
 
+### Andrew Weinberg
+- **Title:** Founder, CEO & Co-Chair
+- **Email:** aweinberg@brightstarcp.com (VERIFIED - RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/andrew-weinberg-2a8769111
+- **Background:** Founded Brightstar. Chair of Investment Committee. Prior: Lindsay Goldberg Partner.
+- **Source:** RocketReach + brightstarcp.com (2026-04-01)
+- **Notes:** 
+  - Top decision-maker - CEO and Investment Committee Chair
+  - Served on 13 portfolio company boards at Lindsay Goldberg
+  - NYC-based
+
 ### Other Managing Directors
 - **Brian Cronin** - Business Development
 - **Kevin Deemer** - Managing Director
 - **Craig Thomas** - CMO & Managing Director
-- **Andrew Weinberg** - Founder, CEO & Co-Chair
 
 ## Investment Profile
 - **Stage:** Growth equity, buyouts

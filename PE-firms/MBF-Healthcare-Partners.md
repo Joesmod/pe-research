@@ -1,44 +1,37 @@
 # MBF Healthcare Partners
 
 ## Overview
-- **Location:** Coral Gables, Florida
+- **Website:** https://mbfhp.com
 - **Founded:** 2005
-- **AUM:** ~$1.5B+
-- **Focus:** Healthcare services private equity
-- **Stage:** Growth equity and buyouts
+- **HQ:** Miami, FL
+- **Focus:** Healthcare-focused PE
 
-## Investment Criteria
-- **Deal Size:** $50M-$200M+ equity
-- **Sectors:** Healthcare services, specialty care, outpatient services
-- **Geography:** United States
-- **Stage:** Platform investments and add-ons
+## Key Contacts
 
-## Key Contact
-- **Name:** Josh Weber
+### Marcio Cabrera
 - **Title:** Managing Director
-- **Email:** jweber@mbfhp.com
-- **LinkedIn:** https://www.linkedin.com/in/josh-weber-mbf/
-- **Source:** Apollo API verified (2026-03-31)
-- **Joined:** 2017
-- **Role:** Investment activities, thesis development, portfolio monitoring, executive search
+- **Email:** mcabrera@mbfhp.com
+- **LinkedIn:** https://www.linkedin.com/in/marcio-cabrera-7b42a715
+- **Source:** Email VERIFIED from mbfhp.com team page and LinkedIn posts (2026-04-01 3pm)
 
-## Founding Team
-- Miguel "Mike" B. Fernandez (Chairman)
-- Jorge Rico (Founder)
-- Marcio Cabrera (Founder)
-- Team has been together for 20+ years
+### Jack Euston
+- **Title:** Managing Director, Business Development
+- **Email:** jeuston@mbfhp.com
+- **Source:** Email VERIFIED from LinkedIn post (Dec 2023) (2026-03-29 cron)
 
-## Portfolio Focus
-MBF backs leading executives, operators, and founders who desire to build and rapidly scale high-quality and differentiated healthcare services companies. Focus on the "who" first, then the "what."
+### Jorge Rico
+- **Title:** Managing Partner
+- **Source:** Official website (2026-03-29)
 
-## Sectors
-- Specialty care services
-- Outpatient services
-- Healthcare services platforms
-- Care management
+### Miguel Fernandez
+- **Title:** Chairman
+- **Source:** Official website (2026-03-29)
 
-## Enrichment Date
-2026-03-31
+## Notes
+- Miami-based healthcare-focused PE firm
+- Email pattern: first_initial + lastname @mbfhp.com
+- Multiple verified senior contacts
+- Dedicated healthcare investment firm
 
-## Status
-**Enriched** - Verified Managing Director with healthcare services focus
+## Last Updated
+2026-04-01 3:06 PM (Hourly PE Research Cron)

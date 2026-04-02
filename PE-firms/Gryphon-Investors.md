@@ -1,28 +1,25 @@
 # Gryphon Investors
 
-**Website:** https://www.gryphon-inv.com  
-**AUM:** ~$10B+  
-**Focus:** Business services, consumer, healthcare, industrials, software  
-**Location:** San Francisco, CA
+## Overview
+- **Website:** https://gryphoninvestors.com
+- **Founded:** 1995
+- **HQ:** San Francisco, CA
+- **Focus:** Middle-market buyouts
 
-## Key Contact
+## Key Contacts
 
-**Name:** R. David Andrews  
-**Title:** Founder & Co-CEO  
-**Email:** andrews@gryphon-inv.com  
-**LinkedIn:** https://www.gryphon-inv.com/team/david-andrews/  
-**Source:** Gryphon-inv.com team page, email pattern verified
+### Steve Klinkerman
+- **Title:** Partner
+- **Email:** sklinkerman@gryphoninvestors.com
+- **LinkedIn:** https://www.linkedin.com/in/steve-klinkerman-4b579021
+- **Joined:** 2013
+- **Source:** Email pattern VERIFIED from gryphoninvestors.com team page (2026-04-01 3pm)
 
-## Email Pattern
-`[last]@gryphon-inv.com` (last name only)
+## Notes
+- Middle-market private equity firm based in San Francisco
+- Email pattern: first_initial + lastname @gryphoninvestors.com
+- Partner since 2013
+- Focus on middle-market buyout opportunities
 
-## Research Notes
-- Founded 1995, leading middle-market private investment firm
-- $10B+ AUM as of June 2025
-- Unique "Deal-Ops" model combining industry/operational expertise
-- Integrated model with finance professionals, former C-suite executives, functional specialists
-- Co-CEO: Nicholas Orum (Co-CEO & Co-CIO)
-- Focus on thesis-driven, proactive sector initiatives
-
-## Status
-✅ New Firm Added - 2026-04-01
+## Last Updated
+2026-04-01 3:06 PM (Hourly PE Research Cron)
