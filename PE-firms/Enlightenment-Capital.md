@@ -1,94 +1,91 @@
 # Enlightenment Capital
 
 ## Overview
-- **Founded:** ~2010s
-- **Headquarters:** Chevy Chase, Maryland
-- **Focus:** Defense & Government Technology
-- **Website:** https://enlightenment-cap.com
-- **Email (General):** info@enlightenment-cap.com (verified from official privacy policy)
-
-## Leadership
-
-### Devin Talbott
-- **Title:** Founder & CEO
-- **Email:** dtalbott@enlightenment-cap.com (INFERRED - official domain confirmed)
-- **LinkedIn:** https://signal.nfx.com/investors/devin-talbott
-- **Education:** BA magna cum laude in Law and Spanish from Amherst College (NCAA Final Four soccer player), JD and MBA from Georgetown University
-- **Background:** 
-  - Previously Vice President at D.E. Shaw's direct capital strategy (helped establish DC office, built defense/government vertical)
-  - Former role at TCG Financial Partners (merchant bank founded by former Defense Secretary William Cohen)
-  - Started career in M&A at Lazard (NYC), worked part-time at Carlyle during graduate school
-- **Notable Roles:**
-  - Owner of D.C. United and DC Power
-  - Former owner of Washington Spirit
-  - Leadership Advisory Board of U.S. Soccer
-  - Co-founder of GenerationEngage (youth civic engagement non-profit)
-  - Former board member DC SCORES
-  - Term member of Council on Foreign Relations
-  - Former advisory board member of Aspen Security Forum
-  - Member of New York State Bar
-- **Recognition:** M&A Advisor's "40 Under 40", Tech Titan by Washingtonian, Washington Business Journal's Power 100
-
-### Jason Rigoli
-- **Title:** Partner
-- **Email:** jrigoli@enlightenment-cap.com (INFERRED - official domain confirmed)
-- **Background:**
-  - Decades of experience in aerospace, defense, security, government contracting
-  - Previously Principal and Head of Washington DC office for LLR Partners
-  - Senior investment roles at Monument Capital Group and The White Oak Group
-  - Senior Vice President at FBR in diversified industrials investment banking (aerospace, defense, security, government services)
-  - 10+ years in senior operations roles with middle-market government contractors (7 years at Pearson Government Solutions)
-- **Education:** BA from Radford University (4-year collegiate lacrosse player), MBA from Columbia Business School and London Business School
-- **Notable Roles:**
-  - Advisory board of AlphaTech (cybersecurity and data analytics entrepreneurs)
-  - Named Financier of the Year by Northern Virginia Technology Council
-  - Current board member and past president of National Capital Chapter of ACG
-
-### Other Key Team Members
-- **Thomas Young** - Partner (previously at Carlyle Group, started at EY)
-- **Patrick Quay** - Managing Director (previously Principal at Boundary Street Capital/Stonepeak, Head of Finance at Employee Navigator)
-- **Robert D. Harper** - Principal (previously VP at AE Industrial Partners, Engagement Manager at Booz & Co.)
-- **Garrett Kelley** - Vice President (previously Analyst at Citigroup in aerospace/defense/gov/tech)
-- **Steven Birnbaum** - Vice President (11-year MLS career, D.C. United captain for 7 seasons, Harvard Business School Crossover Into Business program)
-- **Jeffrey Guffey** - Partner & CFO
-
-## Advisory Board (Notable)
-- **Bob Work** - Former Deputy Secretary of Defense (2014-2017)
-- **General James "Hoss" Cartwright** - Former Vice Chairman of Joint Chiefs of Staff
-- **Kenneth J. Krieg** - Former Under Secretary of Defense for Acquisition, Technology, and Logistics
-- **Deborah Lee James** - Former Secretary of the Air Force (2013-2017)
+- **Website**: https://enlightenment-cap.com
+- **Founded**: 2012
+- **Location**: Chevy Chase, MD
+- **AUM**: ~$2B+
+- **Focus**: Defense & Government Technology
 
 ## Investment Focus
-**Primary Sectors:**
-- Defense Technology
-- Government Technology
-- Aerospace
+- Aerospace & Defense
+- Government Services
+- National Security Technology
 - Cybersecurity
-- National Security
+- IT Services for DoD/Federal Gov
 
-**Investment Philosophy:**
-- Deep domain expertise in defense and government contracting
-- Strong relationships with former defense/government officials
-- Focus on technology-enabled solutions for national security challenges
-- Operational value creation through industry expertise
+## Key Contacts
 
-## Email Pattern
-- **Domain:** @enlightenment-cap.com (VERIFIED from official privacy policy)
-- **Pattern:** Likely [first_initial][last] or [first][last]
-- **Examples:** dtalbott@enlightenment-cap.com, jrigoli@enlightenment-cap.com
-- **Official Contact:** info@enlightenment-cap.com (verified)
+### Devin Talbott
+- **Title**: Founder & CEO
+- **LinkedIn**: https://www.linkedin.com/in/devintalbott/
+- **Background**: 
+  - Former VP, D.E. Shaw (direct capital strategy)
+  - Former VP, TCG Financial Partners (William Cohen's firm)
+  - M&A Group, Lazard
+- **Education**: BA Law & Spanish (Amherst), JD & MBA (Georgetown)
+- **Other**: Owner of D.C. United, former owner Washington Spirit, U.S. Soccer Leadership Advisory Board
+- **Email**: Not publicly available
+- **Generic**: invest@enlightenment-cap.com, info@enlightenment-cap.com
 
-## Research Notes
-- **Last Updated:** 2026-04-01
-- **Research Status:** Enriched - Official domain confirmed, email patterns inferred
-- **Key Differentiator:** Unique focus on defense/government technology, exceptional advisory board of former defense officials
-- **Network:** Strong connections to Pentagon, defense industry, government contracting ecosystem
-- **Source:** Official website team pages, third-party profiles
+### Jason Rigoli
+- **Title**: Partner
+- **LinkedIn**: https://www.linkedin.com/in/jason-rigoli-14a3b6/
+- **Background**:
+  - Former Principal & Head of DC Office, LLR Partners
+  - Former Principal, Monument Capital Group
+  - Former Principal, White Oak Group
+  - Former SVP, Friedman Billings Ramsey (FBR) - A&D Investment Banking
+  - 7 years, Pearson Government Solutions (operations)
+- **Education**: BA (Radford), MBA (Columbia + London Business School)
+- **Boards**: AlphaTech (advisory board), ACG National Capital (board member, past president)
+- **Awards**: Financier of the Year (NVTC)
+- **Email**: Not publicly available
 
-## Outreach Strategy
-- Emphasize defense/government technology expertise
-- Reference portfolio company value creation in regulated/sensitive environments
-- Highlight any experience with cleared facilities, government contracts, or defense sector
-- Consider mentioning their advisory board connections if relevant to offering
-- Email domain verified - moderate confidence in inferred individual emails
-- Devin Talbott (Founder/CEO) is primary decision-maker
+### Thomas Young
+- **Title**: Partner
+- **Background**: Former Carlyle Group (financial reporting), Former EY
+- **Education**: BS (UMD Smith), MBA (UNC Kenan-Flagler)
+
+### Patrick Quay
+- **Title**: Managing Director
+- **Background**: Former Principal, Boundary Street Capital (Stonepeak), Former CFO Employee Navigator
+- **Education**: BS Finance (Wake Forest), MBA (Wharton)
+
+## Investment Strategy
+- Control investments in defense, government, national security
+- Middle-market focus ($500M-$5B enterprise value)
+- Operational value creation through advisory board (former DoD officials)
+- Focus on federal procurement opportunities
+
+## Advisory Board (Notable)
+- **Bob Work**: Former Deputy Secretary of Defense
+- **Gen. James Cartwright**: Former Vice Chairman, Joint Chiefs of Staff
+- **Ken Krieg**: Former Under Secretary of Defense (AT&L)
+- **Deborah Lee James**: Former Secretary of the Air Force
+- **Gen. Raymond Thomas**: Former Commander, U.S. SOCOM
+
+## Portfolio Examples
+- EverWatch (acquired by Booz Allen Hamilton, 2022)
+- System High Corporation
+- Allocore
+- Various defense tech and gov services firms
+
+## Contact Strategy
+- **Best Approach**: LinkedIn connection + reference defense/gov tech opportunity
+- **Angle**: Portfolio operations improvement, digital transformation, AI/automation for defense contractors
+- **Value Prop**: Operational efficiency gains (cost savings for portfolio companies)
+
+## Status
+- **Enrichment Date**: 2026-04-02
+- **CRM Status**: Contact Identified
+- **Next Action**: LinkedIn outreach
+
+## Sources
+- enlightenment-cap.com/people
+- ACG National Capital speaker bios
+- LinkedIn profiles
+- Press releases
+
+---
+**Last Updated**: 2026-04-02
