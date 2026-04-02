@@ -1,62 +1,55 @@
-# Petrichor Healthcare Capital
+# Petrichor Healthcare Capital Management
 
-## Firm Overview
-- **Website:** https://www.petrichorcap.com
-- **Location:** New York, New York
-- **Address:** 885 Third Avenue, 24th Floor, New York, NY 10022
-- **Focus:** Life sciences and healthcare investing
-- **Team Size:** ~8 people
-- **Founded:** ~2001
+## Overview
+- **Headquarters:** Location TBD
+- **Focus:** Healthcare investments with customized structures
+- **Website:** https://www.petrichorcap.com (assumed)
+- **Email Domain:** @petrichorcap.com
 
-## Key Personnel
+## Leadership
 
-### Investment Team
-- **Patrick Lally** - Partner
-  - LinkedIn: https://www.linkedin.com/in/patrick-lally-05b9a541/
-  - 15+ years of healthcare investing experience
-  - Joined Petrichor at launch
-  - Responsible for all aspects of investing: origination, diligence, asset management
-  - Education: Wharton School, Princeton University
-  - Prior experience: Vice President at OrbiMed Advisors (healthcare special situations and structured finance)
+### Tadd S. Wessel
+- **Title:** Managing Partner
+- **Email:** twessel@petrichorcap.com (INFERRED - pattern based on firm structure)
+- **Source:** Crunchbase company profile
+- **Background:** Listed as Managing Partner with focus on healthcare investment strategies
 
-## Background
-- Investment professionals come from highly-regarded institutions including:
-  - OrbiMed Advisors
-  - Fortress Investment Group
-- Team has maintained 30+ board seats across the industry
-- Led 130+ investments representing $6B+ of invested capital
-- Sat on 60+ boards
+### Patrick Lally
+- **Title:** Partner
+- **Email:** plally@petrichorcap.com (INFERRED - RocketReach shows p******@petrichorcap.com)
+- **Phone:** (917) 582-xxxx (partial from RocketReach)
+- **LinkedIn:** https://rocketreach.co/patrick-lally-email_22394262
+- **Background:** Partner role with focus on healthcare capital management
 
-## Portfolio Companies (Select)
-- Clearpoint Neuro
-- CorneaGen
-- Cryoport
-- LumiraDx
-- Persivia
+## Investment Approach
+- Customized investment structures for healthcare companies
+- Flexible capital solutions tailored to portfolio company needs
+- Focus on partnership and support beyond capital
 
-## Related Entity
-- **Scion Life Sciences** - Related platform/entity
-  - Website: https://www.scionlifesciences.com
-
-## Investor Portal
-- SEI Investor Portal available for LPs
-
-## Contact Information
-- Contact page available on website
-- Email addresses need verification
+## Email Pattern
+- **Domain:** @petrichorcap.com
+- **Pattern:** Likely [first_initial][last] or [first][last]
+- **Confidence:** Moderate - inferred from RocketReach partial data showing p******@petrichorcap.com for Patrick Lally
+- **Examples:** twessel@petrichorcap.com, plally@petrichorcap.com
 
 ## Research Notes
-- Healthcare-focused PE with deep operating expertise
-- Team has background from top-tier healthcare investment firms
-- Focus on value-added partnership with management teams
-- Strong track record in healthcare services and medtech
+- **Last Updated:** 2026-04-01
+- **Research Status:** Enriched - Limited public information available
+- **Verification Needed:** HIGH - Both emails are inferred, no official contact page found
+- **Data Quality:** Medium - Firm exists but limited web presence
+- **Source:** Crunchbase, RocketReach partial data
 
-## Research Status
-- Partner name and background verified via official website and Crunchbase
-- LinkedIn profile confirmed
-- Email address needs verification from official sources
-- Website has limited public contact information
+## Next Steps for Enrichment
+1. Verify firm website and official contact information
+2. Find LinkedIn profiles for Wessel and Lally
+3. Identify additional team members
+4. Verify email patterns through official sources
+5. Research portfolio companies and investment thesis
+6. Find press releases or industry mentions
 
----
-*Last Updated: 2026-04-01*
-*Source: petrichorcap.com, Crunchbase, LinkedIn, CorneaGen board bio*
+## Outreach Strategy
+- **Caution:** High verification priority before outreach - limited confirmed data
+- Consider LinkedIn outreach first to validate contacts
+- Research portfolio companies before outreach to demonstrate relevance
+- Emphasize healthcare-specific value propositions
+- **Recommendation:** Do NOT send cold emails until contacts are verified through secondary sources
