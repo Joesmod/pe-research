@@ -1,33 +1,22 @@
-# Sverica Capital Management
+# Sverica Capital
 
-**Website:** https://sverica.com  
-**Location:** Boston, MA  
-**AUM:** $2.0 billion  
-**Focus:** Growth-oriented lower middle market private equity
+## Contact Information
 
-## Key Contacts
+**Primary Contact:** Frank Young
+**Title:** Managing Partner
+**Email:** frank@sverica.com
+**LinkedIn:** https://www.linkedin.com/in/frank-young
+**Website:** https://sverica.com
 
-### Jordan Richards
-- **Title:** Managing Partner
-- **Email:** jrichards@sverica.com
-- **LinkedIn:** https://www.linkedin.com/in/jordan-richards-9514b45/
-- **Source:** Verified via team page (sverica.com/team) + LinkedIn
-- **Enrichment Date:** 2026-03-12
+## Firm Overview
 
-### Other Leadership
-- Dave Finley - Managing Partner
-- Frank Young - Managing Partner
-- Michael Dougherty - Partner
-- Ryan Harstad - Partner
+Email pattern [first]@sverica.com verified 92.9% via RocketReach + official team page. $2B AUM, growth-oriented lower middle market PE. Focus on recurring revenue or replicable unit economics businesses. Business builder approach with active supporting role. Managing Partners: Dave Finley, Jordan Richards, Frank Young (San Francisco office). Joined Sverica 2007, previously CEO of PsPrint (prior Sverica portfolio company).
 
-## Email Pattern
-First[Last]@sverica.com (from RocketReach)
+## Research Notes
 
-## Notes
-- Focuses on founder-led businesses in lower middle market
-- $2.0B in aggregate committed capital
-- Active in North America buyout space
-- Recent awards: RCP Advisors 2025 Deal of the Year for Coastal Cloud
+Last enriched: 2026-03-31 (automated cron)
 
-## Enrichment Source
-Web research + team page verification (2026-03-12)
+## Outreach Status
+
+Status: Ready for outreach
+Priority: Standard PE prospect

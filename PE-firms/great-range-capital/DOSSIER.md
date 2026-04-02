@@ -6,9 +6,9 @@
 ## Key Contact
 - **Name:** Ryan Sprott
 - **Title:** Co-Founder & Managing Partner
-- **Email:** rsprott@greatrangecapital.com ✓ VERIFIED
-- **LinkedIn:** https://www.linkedin.com/in/ryan-sprott-07159412/
-- **Verification:** RocketReach email pattern (r******@greatrangecapital.com)
+- **Email:** ryan.sprott@greatrangecapital.com ✓ VERIFIED
+- **LinkedIn:** http://www.linkedin.com/in/ryan-sprott-07159412
+- **Verification:** Apollo API verified (2026-04-02) - confirmed first.last@ pattern. Previously: RocketReach pattern rsprott@
 - **Location:** Prairie Village, Kansas (Kansas City metro)
 
 ## Firm Overview

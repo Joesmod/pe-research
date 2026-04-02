@@ -116,3 +116,7 @@
 *Enrichment Status: ✅ COMPLETE - Contacts and emails verified*
 *CRM Row: 7*
 *Email Format: firstinitiallastname@sdccapitalpartners.com*
+
+---
+## Update 2026-04-02
+New contact: William Ouyang (Vice President) - wouyang@sdccapitalpartners.com

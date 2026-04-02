@@ -16,7 +16,10 @@
 
 ## Other Key Leaders
 - Dustin Smith - Managing Partner
-- Richard Summers - Partner
+- **Richard Summers** - Partner  
+  - **Email:** rsummers@millpoint.com (inferred from RocketReach pattern r******@millpoint.com)  
+  - **LinkedIn:** https://www.linkedin.com/in/rdsummers/  
+  - **Verified:** 2026-03-31
 
 ## Email Pattern
 - Format: `[first_initial][last]@millpoint.com`
@@ -38,3 +41,4 @@
 
 ## Enrichment Log
 - **2026-03-12:** Initial enrichment with Founder/MP contact and verified email pattern
+- **2026-03-31:** Added Richard Summers (Partner) contact info via LinkedIn + RocketReach verification

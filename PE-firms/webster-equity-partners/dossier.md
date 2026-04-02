@@ -1,10 +1,10 @@
 # Webster Equity Partners
 
-**Status:** Enriched 2026-03-13 (Re-verified)  
+**Status:** Enriched 2026-03-31 (Added Stephanie Pao contact)  
 **AUM:** $600M+  
 **Focus:** Mid-market healthcare services and branded consumer
 
-## Key Contact
+## Key Contacts
 
 **David Malm**  
 - **Title:** Managing Partner  
@@ -12,6 +12,13 @@
 - **LinkedIn:** https://www.linkedin.com/in/david-malm/  
 - **Location:** Waltham, MA
 - **Source:** https://websterequitypartners.com/team-member/ (published 2024-03-29)
+
+**Stephanie Pao**  
+- **Title:** Managing Director  
+- **Email:** spao@websterequitypartners.com (✅ VERIFIED - official website team page)  
+- **LinkedIn:** https://www.linkedin.com/in/stephanie-pao-66731a44/  
+- **Location:** Waltham, MA
+- **Source:** https://websterequitypartners.com/our-team/stephanie-pao/
 
 ## Firm Overview
 

@@ -8,9 +8,9 @@
 ## Key Contact
 
 **Keith Molzer**  
-- **Title:** Founding Managing Partner  
+- **Title:** General Partner  
 - **Email:** kmolzer@flyovercapital.com (✅ VERIFIED - official team page)  
-- **LinkedIn:** https://www.linkedin.com/in/keithmolzer/  
+- **LinkedIn:** https://www.linkedin.com/in/keith-molzer-68429973/  
 - **Location:** Kansas City, MO
 - **Source:** https://www.flyovercapital.com/team/keith-molzer/
 
@@ -103,6 +103,6 @@ Flyover Capital backs underestimated, exceptional technology leaders in the Flyo
 
 ---
 
-*Last Updated: March 13, 2026 5:40 AM CST*  
+*Last Updated: March 31, 2026 4:06 PM CST*  
 *Research: Jim (PE Research Cron - Hourly Enrichment)*  
-*Contact VERIFIED: Keith Molzer email found on official team page*
+*Contact RE-VERIFIED: Keith Molzer email & LinkedIn confirmed on official team page*

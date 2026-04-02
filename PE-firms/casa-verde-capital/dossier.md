@@ -29,3 +29,7 @@
 - Highlight portfolio operations and value creation
 - Emphasize e-commerce and digital transformation in cannabis space
 - Note: They run community mentorship programs for founders
+
+---
+## Update 2026-04-02
+New contact: Tony Ghanem (Vice President) - tony@casaverdecapital.com
