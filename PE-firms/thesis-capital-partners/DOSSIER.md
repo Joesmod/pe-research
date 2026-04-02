@@ -198,3 +198,7 @@
 **Research Completed By**: Jim (AI Research Agent)
 **Enrichment Method**: Manual web research + official source verification
 **Confidence Level**: High (all contacts verified from official sources)
+
+---
+## Update 2026-04-02
+New contact: Joshua Wolf (Partner) - joshua.wolf@thesiscapital.com

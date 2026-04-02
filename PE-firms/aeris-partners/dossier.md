@@ -30,3 +30,7 @@
 - Focus on tech M&A advisory services for portfolio companies
 - Emphasize mid-market tech/SaaS expertise
 - Highlight AI/digital transformation capabilities
+
+---
+## Update 2026-04-02
+New contact: Varaha Ande (Co-Founder & Chief Operating Officer Chief Financial Officer) - vaande@iu.edu

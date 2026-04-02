@@ -37,3 +37,7 @@ Growth equity firm focused on software and payments companies. Founded 2017 by R
 
 **Source:** Official website, LinkedIn, Crunchbase  
 **Last Updated:** 2026-03-13
+
+---
+## Update 2026-04-02
+New contact: Brenden Hueston (Vice President) - brenden@bluestarinnovationpartners.com

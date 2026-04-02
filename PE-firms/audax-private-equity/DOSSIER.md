@@ -114,3 +114,7 @@
 - **Source**: BusinessWire press release Dec 2025
 - **Enriched**: 2026-03-13
 
+
+---
+## Update 2026-04-02
+New contact: Sergio Vieira (Executive Vice President and CFO, Private Equity Funds) - svieira@audaxprivateequity.com
