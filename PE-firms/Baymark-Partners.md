@@ -1,60 +1,53 @@
 # Baymark Partners
 
-**Website:** https://baymarkpartners.com/  
-**Location:** Plano, Texas (Dallas area)  
-**Type:** Mid-Market Private Equity
-
 ## Overview
+- **Location:** Dallas, TX
+- **Founded:** N/A
+- **AUM:** ~$165M under management
+- **Website:** https://baymarkpartners.com
 
-Baymark Partners is a Dallas-based growth-oriented private equity firm specializing in middle-market investments across service-based businesses, distribution, manufacturing, and tech-enabled companies (SaaS and E-Commerce).
+## Focus
+- Middle-market IT services
+- Healthcare services
+- Business services  
+- Distribution services
+- Tech-enabled businesses
+- Growth capital for expanding companies
 
-## Investment Focus
+## Key Contacts
 
-- **Sectors:** Healthcare services, Business services, IT services, Distribution, Light manufacturing, SaaS, E-Commerce
-- **Investment Size:** $10-50M per deal
-- **Target:** Growing middle-market companies needing capital for growth acceleration
+### David J. Hook
+- **Title:** Managing Director & Co-Founder
+- **Email:** dhook@baymarkpartners.com ✅ **VERIFIED**
+- **Phone:** (214) 458-8909
+- **LinkedIn:** https://www.linkedin.com/in/davidjhook/
+- **Education:** Wittenberg University
+- **Location:** Dallas, TX
+- **Experience:** 40+ years in private equity (since 1982)
+- **Specialization:** Leveraged buyouts
+- **Source:** ContactOut (VERIFIED, 2024-01-17), ZoomInfo, Official website
 
-## Key Contact
+### Anthony Ludlow
+- **Title:** Managing Director
+- **Source:** Website reference (2026-04-02 research)
 
-**David J. Hook**  
-Managing Director  
-📧 david@baymarkpartners.com  
-📞 (972) 991-5457
-
-## Team
-
-### Managing Partners
-- **David J. Hook** - Managing Director. 40+ years in PE, invested in 50+ companies, 14 IPOs
-- **Anthony Ludlow** - Managing Director, General Counsel, CFO background
-
-### Investment Team
-- **Matt Denegre** - Director
-- **Andy Waltman** - Director (previously Energy Spectrum, $2B AUM)
-- **Jake Walker** - Transaction advisory leader
-- **Conner Cowart** - Analyst
-- **Daniel Valentine** - Finance and operations CPA
-
-## Office
-
-5700 Granite Parkway, Suite 435  
-Plano, Texas 75024  
-Tel: (972) 991-5457
-
-## Investment Strategy
-
-Baymark focuses on acquiring growing middle-market companies in service-based sectors, providing:
-- Liquidity for owners
+## Investment Criteria
+- Middle-market focus
+- Provides liquidity for owners
 - Resources to accelerate growth
-- Operational expertise
+- Growing companies in target sectors
 
-## Research Notes
+## Recognition
+Listed in Axial's 2025 Top 20 PE Firms buying lower middle-market companies.
 
-- **Source:** Website contact page (publicly published email)
-- **Date Added:** 2026-03-29
-- **Fit:** Strong - mid-market PE with services focus, healthcare and IT exposure
-- **AUM:** Not publicly disclosed (estimated mid-market range based on $10-50M check sizes)
+## Investment Philosophy
+"Baymark Partners is a Dallas-based private equity firm investing in growing middle market IT, healthcare, business, and distribution services, providing owners with liquidity and companies with resources to accelerate their growth."
 
-## Next Steps
+## Status
+**Enriched:** 2026-04-02 (Cron research)  
+**Verification Level:** ✅ VERIFIED (Email from ContactOut published source)
 
-- Potential outreach target for B2B AI/automation solutions
-- Services-heavy portfolio aligns with operational efficiency value prop
+## Notes
+- Strong focus on IT and healthcare services alignment with digital transformation trends
+- Active in lower middle-market segment
+- 40+ years combined team experience
