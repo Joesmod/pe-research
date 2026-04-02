@@ -13,8 +13,9 @@
   - Joined Palladium: 2005
   - Previously: Investment Manager, BBVA Private Equity
   - LinkedIn: https://www.linkedin.com/in/daniel-ilundain-cfa-6070174/
-  - **Likely Email:** dilundain@palladiumequity.com
+  - **Email:** DIlundain@palladiumequity.com (pattern inferred from standard PE format)
   - ZoomInfo: d***@palladiumequity.com (partial, paywall)
+  - **Updated:** 2026-04-02
 
 - **Justin R. Green** - Co-Head of Funds & Head of Consumer
   - **Likely Email:** jgreen@palladiumequity.com

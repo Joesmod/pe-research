@@ -26,7 +26,14 @@ Collaborative approach offering collective firm resources to portfolio companies
 
 ## Key Team
 
-- **Phillip C. Molner** - Managing Partner
+### Phillip C. Molner
+- **Title:** Managing Partner
+- **Email:** pmolner@primuscapital.com (pattern inferred from standard PE format)
+- **LinkedIn:** https://www.linkedin.com/in/phillip-molner/
+- **Source:** primuscapital.com/meet-the-team, Bloomberg, RCP Advisors
+- **Updated:** 2026-04-02
+
+### Other Team Members
 - **Ronald C. Hess Jr.** - Managing Director
 - **Chris Welch** - Team member
 - **Aaron W. Davis** - Team member

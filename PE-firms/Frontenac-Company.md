@@ -15,11 +15,13 @@
 - **LinkedIn:** https://frontenac.com/team-member/michael-langdon/
 - **Focus:** Services sector investments
 
-### Ronald Kuehl
+### Ronald Kuehl ✅ VERIFIED
 - **Title:** Managing Partner
-- **Email:** rkuehl@frontenac.com (inferred pattern)
+- **Email:** rkuehl@frontenac.com (✅ VERIFIED via ContactOut)
 - **Phone:** +1 312 368 0044
-- **LinkedIn:** https://frontenac.com/team-member/ronald-kuehl/
+- **LinkedIn:** https://www.linkedin.com/in/ron-kuehl-74a217a2/
+- **Source:** ContactOut email verification
+- **Verified:** 2026-04-02
 
 ### Joseph Rondinelli ✅ VERIFIED
 - **Title:** Managing Director (promoted from Principal, 2024)

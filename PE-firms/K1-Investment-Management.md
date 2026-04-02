@@ -32,11 +32,12 @@ K1 Investment Management is one of the largest investors in small-cap AI-powered
   - Source: Crunchbase + RocketReach email pattern (74.9% usage) (2026-03-29)
 
 - **Hasan Askari** - Managing Partner (Co-Founder, 2011)
+  - Email: HAskari@k1capital.com (pattern inferred from RocketReach h******@k1capital.com + LeadIQ pattern FLast@k1capital.com)
   - LinkedIn: https://www.linkedin.com/in/hasan-askari-19512019/
   - Co-founded K1 in 2011 at age 26
   - Major leadership role in positioning K1 as a top enterprise software investor
   - Based in Manhattan Beach, CA
-  - Source: Company website, LinkedIn, Bloomberg (2026-03-28)
+  - Source: Company website, LinkedIn, Bloomberg, RocketReach (2026-04-02)
 
 - **Ron Cano** - Managing Partner
   - Email: rcano@k1capital.com
