@@ -1,41 +1,38 @@
 # JMI Equity
 
-**Location:** Baltimore, MD  
+**Headquarters:** Baltimore, MD  
+**Founded:** 1992  
 **Website:** https://www.jmi.com  
-**AUM:** $10B+  
-**Founded:** 1992
+**AUM:** Growth equity firm  
 
-## Focus
-- Growth equity
-- Software companies
-- Internet
-- Business services
-- Healthcare IT
+## Overview
+Baltimore-based growth equity firm focused on investing in software, internet, business services, and healthcare IT companies. Founded in 1992.
 
-## Key Contact
-**Harry Gruner**  
-Co-Founder & Co-Managing General Partner  
-Email: hgruner@jmi.com  
-LinkedIn: https://www.linkedin.com/in/harry-gruner-97b10826/
+## Key Contacts
 
-### Background
-- Co-founded JMI Equity in 1992
-- Co-Managing General Partner
-- 30+ years working with software companies
-- Member of Investment Committee
-- Harvard Business School (1984-1986)
+### Harry Gruner
+- **Title:** Co-Founder & Managing Partner
+- **Email:** hgruner@jmi.com
+- **LinkedIn:** https://www.linkedin.com/in/harry-gruner-97b10826/
+- **Background:** Co-founded JMI in 1992, co-managing general partner of the firm
+- **Experience:** Working with software companies for more than 30 years
 
-## Strategy
-- Growth equity investments
-- Software-focused
-- Long-term partnership approach
-- Extensive operating experience in tech sector
+## Investment Focus
+- **Sectors:** Software, Internet, Business Services, Healthcare IT
+- **Stage:** Growth equity
+- **Geography:** North America
 
-## Research Notes
-- Email verified via ContactOut (hgruner@jmi.com confirmed, also shows hgruner@jmiequity.com as alternative)
-- Official website confirms co-founded 1992 and 30+ years software experience
-- Baltimore-based growth equity with $10B+ AUM
-- One of the established players in software growth equity
+## Email Pattern
+- Format: FInitialLast@jmi.com (90.1% verified)
+- Example verified: hgruner@jmi.com
 
-**Status:** Enriched 2026-03-13
-**Source:** ContactOut + official JMI website
+## Notes
+- Email VERIFIED from multiple sources including Highperformr
+- Co-Founder & Managing Partner confirmed on jmi.com
+- Founded 1992, established growth equity player
+- Strong focus on software and healthcare IT
+
+## Source
+- Highperformr email verification
+- Official website: jmi.com/team/harry-gruner/
+- Enriched: 2026-04-02 7am cron
