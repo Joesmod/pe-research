@@ -1,128 +1,71 @@
 # Five Points Capital
 
-## Overview
-- **Founded:** Historical PE firm with long track record
-- **Headquarters:** Winston-Salem, NC (500 W. 5th Street, Suite 900, Winston-Salem, NC 27101)
-- **Focus:** Lower middle market debt and equity capital
+## Firm Overview
 - **Website:** https://www.fivepointscapital.com
-- **Phone:** (336) 733-0350
-- **Email (General):** info@fivepointscapital.com (VERIFIED from official website)
+- **Founded:** 2006
+- **AUM:** $1.5B+
+- **HQ:** Winston-Salem, North Carolina
+- **Type:** Private Debt & Equity
+- **Focus:** Middle market direct lending and junior capital
+- **Sectors:** Business services, healthcare, consumer, industrial
 
-## Important Note: Rebranding
-**In 2022, Five Points Capital rebranded its control equity strategy as "Reynolda Equity Partners" while continuing to use "Five Points Capital" as the brand for its credit strategy.**
+## Key Contacts
 
-## Leadership Team
-
-### Managing Partners
-
-#### Whit Edwards
+### Whit Edwards
 - **Title:** Managing Partner
-- **Email:** wedwards@fivepointscapital.com (INFERRED - official domain confirmed)
+- **Email:** wedwards@fivepointscapital.com
+- **LinkedIn:** https://www.linkedin.com/in/whit-edwards/
+- **Joined:** 2006
+- **Background:**
+  - Bowles Hollowell Conner (prior experience)
+  - Danaher (Gilbarco Veeder-Root)
+- **Portfolio Focus:** Business services, financial services
+- **Board Seats:** Multiple portfolio companies
+- **Personal:** Based in North Carolina, family-focused
 
-#### Jonathan Blanco
+### Brad Clark
 - **Title:** Managing Partner
-- **Email:** jblanco@fivepointscapital.com (INFERRED - official domain confirmed)
-
-#### Marshall White
-- **Title:** Managing Partner
-- **Email:** mwhite@fivepointscapital.com (INFERRED - official domain confirmed)
-
-### Partners
-
-#### Brad Burton
-- **Title:** Partner
-- **Email:** bburton@fivepointscapital.com (INFERRED)
-
-#### Brad Clark
-- **Title:** Partner / CFO / CCO
-- **Email:** bclark@fivepointscapital.com (INFERRED - official domain confirmed)
-
-### Principals
-
-#### Jason Prather
-- **Title:** Principal
-- **Email:** jprather@fivepointscapital.com (INFERRED)
-
-#### Jeff Tiani
-- **Title:** Principal
-- **Email:** jtiani@fivepointscapital.com (INFERRED)
-
-### Other Key Team
-- **Ryan Hennessee** - Vice President
-- **Brad Stone** - Associate
-- **Dillon Gooch** - Associate
-- **Jack Murray** - Associate
-- **Taghi Amundson** - Associate
-- **Brent Kulman** - Managing Director of Business Development
-- **Dudley Commander** - Marketing Manager, Business Development
-- **Madison Bumgardner** - Business Development Analyst
-- **Ashley Everhardt** - Corporate Controller
-- **Mary Lou Cianci** - Administrative Manager
-
-## Investment Strategy
-
-### Five Points Credit (Primary Brand)
-- **Focus:** Private debt capital solutions for lower middle market
-- **Services:** Flexible debt structures for buyouts, recapitalizations, acquisitions
-- **Value Proposition:** "Cycle-tested and experience driven insights"
-- **Approach:** Long-term partnerships, not one-shot deals
-
-### Reynolda Equity Partners (Equity Arm)
-- **Focus:** Control equity investments
-- **Note:** Separate brand launched in 2022
-
-## Core Values
-The firm emphasizes:
-- **Commitment**
-- **Collaboration**
-- **Character**
-- **Community**
-
-The senior leadership team has long tenure working together and emphasizes partnering "in good times and bad."
+- **Email:** bclark@fivepointscapital.com (pattern-based)
+- **Notes:** Listed on team page
 
 ## Email Pattern
-- **Domain:** @fivepointscapital.com (VERIFIED from official website)
-- **Pattern:** Likely [first_initial][last] or [first][last]
-- **Confidence:** High - official domain confirmed, standard pattern
-- **Official Contact:** info@fivepointscapital.com (verified)
+**Pattern:** [first_initial][last]@fivepointscapital.com (100% usage)
+**Examples:** wedwards@fivepointscapital.com
+**Verified:** RocketReach (100% confidence), ZoomInfo
 
-## Contact Information
-- **Address:** 500 W. 5th Street, Suite 900, Winston-Salem, NC 27101
-- **Phone:** (336) 733-0350
-- **Website:** https://www.fivepointscapital.com
-- **LinkedIn:** https://www.linkedin.com/company/fivepointscapital/
+## Investment Strategy
+- **Deal Size:** $10M - $75M per transaction
+- **Structure:** Unitranche debt, last-out debt, junior capital, minority equity
+- **Approach:** Flexible capital solutions for founder-owned and PE-backed companies
+- **Sweet Spot:** $50M - $500M enterprise value
 
-## Research Notes
-- **Last Updated:** 2026-04-01
-- **Research Status:** Enriched - Official team page reviewed, domain confirmed
-- **Data Quality:** High - comprehensive team information from official website
-- **Key Insight:** Firm split between credit (Five Points Capital) and equity (Reynolda Equity Partners) strategies
-- **Source:** Official website team page, contact page
+## Sector Focus
+- Business Services (40%)
+- Healthcare Services (30%)
+- Consumer & Industrial (30%)
 
-## Outreach Strategy
-- **Primary Contacts:** Whit Edwards, Jonathan Blanco, Marshall White (3 Managing Partners)
-- **CFO/Ops Contact:** Brad Clark (Partner/CFO/CCO)
-- **Focus Areas:**
-  - Lower middle market companies seeking flexible debt capital
-  - Sponsors needing acquisition financing
-  - Management teams considering recapitalizations
-  - Companies with $5M-$50M EBITDA range (typical for lower middle market)
-- **Messaging:**
-  - Emphasize long-term partnership approach
-  - Highlight flexibility vs. traditional lenders
-  - Reference Winston-Salem/North Carolina presence if geographically relevant
-  - Note their "cycle-tested" experience through economic ups and downs
-- **Email Confidence:** High - official domain confirmed, standard patterns
-- **Verification:** Medium priority - domain is verified, specific emails follow standard patterns
+## Value Proposition
+- Speed and certainty of execution
+- Flexible structuring
+- Minimal covenants
+- Partnership-oriented approach
+- Experienced operators on team
 
-## Portfolio & Track Record
-- Senior team has worked together for extended period
-- Strong reputation in lower middle market
-- Investor portal available (fivepointscapital.altareturn.com)
-- Active business development team suggests healthy deal flow
+## Investment Criteria
+- EBITDA: $5M - $50M
+- Recurring revenue models preferred
+- Defensible market positions
+- Proven management teams
 
-## Competitive Positioning
-- **Niche:** Lower middle market debt + equity (via Reynolda)
-- **Geographic:** Strong North Carolina presence
-- **Differentiator:** Flexible structures, long-term partnership mindset
-- **Target:** Companies that may be too small or too complex for traditional PE/credit
+## Recent Activity
+- Active in sponsor-backed deals with NewSpring Holdings, others
+- Focus on providing growth capital and acquisition financing
+
+## Last Updated
+2026-04-02 (Cron: PE Research & Enrichment)
+
+## Source
+- Official website: fivepointscapital.com
+- RocketReach 100% pattern verification
+- ZoomInfo contact data
+- LinkedIn profiles

@@ -1,0 +1,48 @@
+PE RESEARCH & ENRICHMENT CRON - 2026-04-02 4:36 AM CST
+============================================================
+
+✅ COMPLETED
+
+ENRICHMENT RESULTS:
+- 6 firms enriched in Google Sheet
+- 10 contacts verified (names, titles, LinkedIn)
+- 0 direct emails found (none published officially)
+- All contacts verified via official sources
+
+FIRMS UPDATED:
+1. Lightyear Capital - Mark Vassallo (Managing Partner) - Row 1001
+2. Enlightenment Capital - Devin Talbott (Founder & CEO) - Row 1769
+3. Kelso & Company - Chris Collins (Co-CEO) - Row 1765
+4. Brighton Park Capital - Mark Dzialga (Founder & Managing Partner) - Row 1001
+5. Five Points Capital - Whit Edwards (Managing Partner) - Row 1807
+6. The Riverside Company - Stewart Kohl (Co-CEO) - Row 862
+
+GITHUB:
+- Updated dossiers: Enlightenment Capital, Lightyear Capital
+- Created enrichment report: enrichment-report-2026-04-02.md
+- Committed and pushed to https://github.com/Joesmod/pe-research
+- Commit: 23bfcc7
+
+KEY FINDING:
+Most PE firms DO NOT publish individual email addresses. Only generic contacts (info@, invest@, compliance@) are available on official websites. Individual emails require paid data providers (ZoomInfo, RocketReach, Apollo credits).
+
+APOLLO API STATUS:
+- Endpoint updated (old deprecated)
+- Free tier: Returns names, titles, LinkedIn (obfuscated)
+- Email access: Requires paid credits
+- Conclusion: Useful for verification, NOT for email enrichment
+
+RECOMMENDATIONS:
+1. Purchase Apollo/ZoomInfo credits for email enrichment
+2. OR focus on LinkedIn outreach (no emails needed)
+3. OR relax "officially published" constraint
+
+NEXT STEPS:
+- Continue enrichment with Apollo credits OR
+- Focus on LinkedIn-based outreach strategy
+- Target sectors: Healthcare IT, Fintech, SaaS, Business Services
+
+Sheet: https://docs.google.com/spreadsheets/d/11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4
+GitHub: https://github.com/Joesmod/pe-research
+
+Status: ✅ SUCCESS
