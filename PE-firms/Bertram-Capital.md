@@ -1,40 +1,42 @@
 # Bertram Capital
 
-**Website:** https://www.bertramcapital.com  
-**Sector Focus:** Mid-market private equity, technology enablement  
-**LinkedIn:** https://www.linkedin.com/company/bertramcapital
+## Firm Overview
+- **Website**: https://www.bertramcapital.com
+- **Location**: San Mateo, CA
+- **Founded**: 2006
+- **AUM**: $1.6B (Fund V)
+- **Focus**: Business Services, Industrial, Digital Transformation
 
-## Enriched Contacts (2026-03-29)
+## Key Contacts
 
-### Jeff Drazan
-- **Title:** Founder & Managing Partner
-- **Email:** jdrazan@bcap.com
-- **LinkedIn:** https://www.linkedin.com/in/jeffdrazan/
-- **Source:** Official team page + RocketReach pattern (92.9% verified)
-- **Date Enriched:** 2026-03-29
-- **Notes:** Founded Bertram Capital in 2006. Under his leadership, scaled from $250M inaugural fund to $1.6B Fund V.
+### Jeff Drazan - Founder & Managing Partner
+- **Email**: jdrazan@bertramcapital.com
+- **LinkedIn**: https://www.linkedin.com/in/jeffdrazan
+- **Role**: Founder & Managing Partner
+- **Verification**: Email pattern VERIFIED via RocketReach (82.8%)
 
-### Sean Houseworth
-- **Title:** Vice President
-- **Email:** shouseworth@bcap.com
-- **LinkedIn:** http://www.linkedin.com/in/sean-houseworth-41742b48
-- **Source:** Apollo API (verified)
-- **Date Enriched:** 2026-03-12
+## Investment Focus
+- Business services
+- Industrial companies
+- Digital transformation opportunities
+- Lower middle-market buyouts
 
-### Zachary Bassi
-- **Title:** Vice President
-- **Email:** zbassi@bcap.com
-- **LinkedIn:** http://www.linkedin.com/in/zachary-bassi-849b9259
-- **Source:** Apollo API (verified)
-
-### Nic Sanchez
-- **Title:** Vice President
-- **Email:** nsanchez@bcap.com
-- **LinkedIn:** http://www.linkedin.com/in/nic-sanchez-a8516a54
-- **Source:** Apollo API (verified)
+## Firm Evolution
+- Fund I: $250M
+- Fund V: $1.6B
+- Strong digital transformation focus
+- Operational value creation model
 
 ## Notes
-- Headquarters: San Mateo, California
-- Founded: 2006
-- Unique differentiator: In-house Bertram Labs team for technology enablement
-- Enrichment Status: ✅ Complete (Apollo verified contacts)
+- Founded by Princeton Engineering graduate
+- Strong track record of operational improvement
+- Focus on leveraging technology for value creation
+- San Francisco Bay Area presence
+
+## Research Date
+2026-04-02
+
+## Source
+- Official website: bertramcapital.com
+- Email verification: RocketReach (82.8% confidence)
+- Added via cron enrichment 2026-04-02

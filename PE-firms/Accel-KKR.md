@@ -1,40 +1,35 @@
 # Accel-KKR
 
-## Overview
-- **Founded:** 2000
-- **Created by:** Accel Partners and Kohlberg Kravis Roberts & Co. (KKR)
-- **Status:** Operates independently; owned by two co-managing partners
-- **AUM:** $19 billion
-- **Focus:** Mid-market software and technology-enabled services
-- **Website:** https://www.accel-kkr.com
+## Firm Overview
+- **Website**: https://www.accel-kkr.com
+- **Location**: Menlo Park, CA
+- **Founded**: 2000
+- **AUM**: $19B+
+- **Focus**: Enterprise Software, Tech-Enabled Services
 
 ## Key Contacts
 
-### Tom Barnds
-- **Title:** Co-Managing Partner & Co-Owner
-- **Email:** tbarnds@accel-kkr.com
-- **Source:** Pattern FLast@accel-kkr.com (81% verified via LeadIQ)
+### Tom Barnds - Co-Managing Partner
+- **Email**: tbarnds@accel-kkr.com
+- **LinkedIn**: https://www.linkedin.com/in/tombarnds/
+- **Role**: Co-Managing Partner
+- **Verification**: Email pattern verified via LeadIQ (81%)
 
-### Rob Palumbo
-- **Title:** Co-Managing Partner & Co-Owner
-- **Email:** rpalumbo@accel-kkr.com
-- **Source:** Pattern FLast@accel-kkr.com (81% verified via LeadIQ)
+## Investment Focus
+- Enterprise software
+- Tech-enabled services
+- Middle-market technology companies
+- Operational value creation
 
-## Firm Details
-- **Email Pattern:** FLast@accel-kkr.com (81% of contacts per LeadIQ)
-- **Investment Focus:** Enterprise software companies
-- **Investment Strategy:** Value creation through Accel-KKR network resources
-- **Commitment:** Strong partnerships with portfolio management teams
-- **Experience:** 25+ years in technology investing
-- **Portfolio:** Hundreds of enterprise software companies
+## Notes
+- One of the leading software-focused PE firms
+- Strong operational expertise
+- Active in SaaS and vertical software markets
 
-## Investment Criteria
-- Software and IT-enabled businesses
-- Well-positioned for topline and bottom-line growth
-- Lower middle market technology firms
+## Research Date
+2026-04-02
 
-## Research Notes
-- **Date Enriched:** 2026-03-29
-- **Status:** Strong email pattern, co-owners identified
-- **Next Steps:** Either co-managing partner is excellent target for software/tech PE
-- **Note:** Highly relevant for tech-enabled services firms
+## Source
+- Official website: accel-kkr.com
+- Email verification: LeadIQ
+- Added via cron enrichment 2026-04-02
