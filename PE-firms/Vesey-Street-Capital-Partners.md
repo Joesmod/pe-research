@@ -1,28 +1,59 @@
 # Vesey Street Capital Partners
 
-## Overview
-- **Website:** https://vscpllc.com
-- **Founded:** 2005
-- **HQ:** New York, NY
-- **Focus:** Lower middle-market PE, Business services
+## Firm Overview
+- **Website:** https://www.vscpllc.com
+- **Focus:** Healthcare services
+- **Team Size:** 14 people, including 6 partners
+- **Location:** New York (implied)
 
-## Key Contacts
+## Key Personnel
 
-### Darren Winter
-- **Title:** Managing Partner
-- **Email:** dwinter@vscpllc.com
-- **LinkedIn:** https://www.linkedin.com/in/darren-winter-24938a2
-- **Source:** Email pattern VERIFIED from vscpllc.com team page (2026-04-01 3pm)
+### Managing Partners
+- **Adam Feinstein** - Managing Partner
+  - Quoted in Inceptua investment announcement
+  - Active in healthcare services deals
 
-### Adam Feinstein
-- **Title:** Managing Partner
-- **Email:** afeinstein@vscpllc.com
-- **Source:** Official website (2026-03-26)
+- **Michael Doyle** - Managing Partner
+  - Appointed to AirSculpt Technologies Board of Directors as Non-Executive Chairman
+  - Active board member across portfolio
 
-## Notes
-- New York-based lower middle-market PE firm
-- Focus on business services sector
-- Email pattern: first_initial + lastname @vscpllc.com
+### Notable Team Members
+- **Joe Kuhns** - (Role TBD from team page)
+- **Larry Cash** - (Role TBD from team page)
+- **Charles Davis** - (Role TBD from team page)
+- **Joe Amato** - Investor Relations & Finance
 
-## Last Updated
-2026-04-01 3:06 PM (Hourly PE Research Cron)
+## Background
+- Partners have 100+ combined years of leadership in healthcare services
+- Experience both on Wall Street and as executives in healthcare businesses
+- Senior team has been working together for 30 years
+- Unprecedented network in Healthcare Services Industry
+
+## Investment Focus
+- Healthcare services
+- Partner with entrepreneurs and management teams
+- Focus on differentiated sourcing
+- Strong portfolio management capabilities
+
+## Recent Activity
+- Investment in Inceptua (partnership with management team led by Doug and Stefan)
+- AirSculpt Technologies (Michael Doyle board appointment)
+
+## Contact Information
+- Email addresses need verification from official sources
+
+## Research Notes
+- Deep healthcare services expertise
+- Long-tenured team with strong alignment
+- Focus on operational partnership with portfolio companies
+- Network-driven sourcing strategy
+
+## Research Status
+- Managing partner names verified via Bloomberg, ZoomInfo, LinkedIn announcements
+- Team structure identified from website
+- Email addresses need verification
+- LinkedIn profiles need to be located
+
+---
+*Last Updated: 2026-04-01*
+*Source: vscpllc.com, Bloomberg, ZoomInfo, LinkedIn*

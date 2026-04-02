@@ -1,63 +1,61 @@
 # Shore Capital Partners
 
-**Status:** ✅ Enriched (2026-04-01)  
-**Website:** https://www.shorecp.com  
-**Location:** Chicago, IL (HQ) + Nashville, TN  
-**Founded:** 2009
+## Firm Overview
+- **Website:** https://www.shorecp.com
+- **Location:** Chicago, Illinois
+- **Phone:** 312-348-7580
+- **General Email:** info@shorecp.com
+- **AUM:** $17B+ (as of 2026)
+- **Focus:** Lower middle market private equity
+- **Target EBITDA:** $1-10 million
 
-## Overview
+## Key Personnel
 
-Shore Capital Partners is a top 1% performing private equity firm managing $17B+ in assets (as of 2026). The firm specializes in lower middle-market investments across healthcare, food & beverage, business services, industrial, and real estate sectors.
+### Founder & Leadership
+- **Justin Ishbia** - Founder & Managing Partner
+  - LinkedIn: https://www.linkedin.com/in/justin-ishbia-aa72943/
+  - Billionaire private equity investor
+  - Part owner of Phoenix Suns (NBA) and Phoenix Mercury (WNBA)
+  - Brother of Mat Ishbia (Phoenix Suns majority owner)
+  - Featured on Forbes billionaire list
+  - Podcast appearances: 20VC and others
 
-## Key Facts
+## Strategy
+- Microcap private equity focus
+- Partnership with companies $1-10M EBITDA
+- 360-degree support model (people, processes, technology, acquisitions)
+- Portfolio of 50+ companies
+- Value creation through:
+  - Strategic dialogue facilitation
+  - Innovation opportunities identification
+  - Points of differentiation development
+  - Board and management alignment
 
-- **AUM:** $17B+ (2026)
-- **Performance:** Top 1% in private equity industry
-- **Strategy:** Microcap and lower middle-market control equity investments
-- **Investment Range:** Flexible capital for growth, recaps, and buyouts
-- **Geographic Focus:** North America, particularly Southeast
+## Recognition
+- Inc. Magazine Top Founder-Friendly Investors (6 consecutive years, 2019-2024+)
+- Strong focus on founder relationships
+- Extensive operator network
 
-## Leadership
+## Technology Stack
+Portfolio companies use: WordPress, Envoy, ServiceTitan, Paylocity
 
-### Justin Ishbia - Founder & Managing Partner
+## Contact Information
+- **Email Pattern:** FLast@shorecp.com (e.g., JIshbia@ for Justin Ishbia - unverified from third-party sources)
+- **Phone:** 312-348-7580
 
-- **Email:** jishbia@shorecp.com (Pattern Inferred via Salesgear.io + Adapt.io)
-- **LinkedIn:** https://www.linkedin.com/in/justin-ishbia-aa72943/
-- **Background:**
-  - Founded Shore Capital Partners in 2009
-  - Part majority owner of Phoenix Suns (NBA) and Phoenix Mercury (WNBA)
-  - Wikipedia profile: Notable businessman and PE investor
-  
-**Verification:** Email pattern "jishbia@shorecp.com" inferred from Salesgear.io (jis*******@shorecp.com) and Adapt.io (j*******@shorecp.com). Role confirmed via Forbes, official press releases, and shorecp.com.
+## Research Notes
+- Emphasis on working WITH founders/owners (not typical PE takeover model)
+- Strong operating partner bench
+- PE 101 educational content for potential portfolio companies
+- Network effect across 50+ portfolio companies
+- Focused on business services, healthcare, and tech-enabled services
 
-## Investment Focus
+## Research Status
+- Founder and firm details verified via multiple sources (Forbes, Wikipedia, company website)
+- Email pattern identified from third-party lead databases (needs official verification)
+- LinkedIn profile confirmed
+- High public profile due to sports team ownership
 
-- **Healthcare:** Lower middle-market services, products, distribution
-- **Food & Beverage:** Platform building and roll-ups
-- **Business Services:** B2B service providers
-- **Industrial:** Manufacturing and distribution
-- **Real Estate:** Service-related real estate investments
-
-## Recent Activity
-
-- Closed $850M across two funds (October 2025)
-- Secured $450M for Fund III focused on food & beverage (July 2025)
-- Consistently raising large funds despite market headwinds
-
-## Value Proposition
-
-"We don't promise the outcome — we promise the process. And our process has generated top-1% results in private equity."
-
-Shore provides 360-degree support: people, processes, technology, and M&A support. Strong operational playbook with networking and shared learnings across portfolio.
-
-## Sources
-
-- Forbes profile (2026)
-- Official website: shorecp.com
-- Press releases (FinSMEs, GlobalAgInvesting)
-- Salesgear.io and Adapt.io contact verification
-- LinkedIn
-
-**Enriched by:** Jim (AI Sales Researcher)  
-**Date:** April 1, 2026, 7:36 AM CST  
-**Method:** Web research + third-party email verification
+---
+*Last Updated: 2026-04-01*
+*Source: shorecp.com, Forbes, Wikipedia, LinkedIn, Crunchbase*

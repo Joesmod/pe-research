@@ -1,84 +1,62 @@
 # Petrichor Healthcare Capital
 
-**Status:** ✅ Enriched (2026-04-01)  
-**Website:** https://www.petrichorcap.com  
-**Location:** New York, NY  
-**Founded:** ~2016
+## Firm Overview
+- **Website:** https://www.petrichorcap.com
+- **Location:** New York, New York
+- **Address:** 885 Third Avenue, 24th Floor, New York, NY 10022
+- **Focus:** Life sciences and healthcare investing
+- **Team Size:** ~8 people
+- **Founded:** ~2001
 
-## Overview
+## Key Personnel
 
-Petrichor is a private investment firm focused exclusively on the healthcare sector. The firm partners with world-class healthcare managers and businesses across the full spectrum of healthcare investments. Petrichor has an affiliate firm, Scion Life Sciences, focused on life sciences/biopharma investments.
-
-## Key Facts
-
-- **Capital Deployed:** $6B+ invested across 130+ investments
-- **Board Experience:** 60+ boards served
-- **2025 Performance:** Banner year with 6 exits including Palvella Therapeutics (PVLA), top performer on XBI (SPDR S&P Biotech ETF)
-- **Strategy:** Healthcare private equity and life sciences venture
-- **Focus:** Building long-term value in healthcare companies
-
-## Leadership
-
-### Tadd Wessel - Founder & Managing Partner
-
-- **Email:** twessel@petrichorcap.com (Pattern Inferred)
-- **LinkedIn:** https://www.linkedin.com/in/tadd-wessel-2b430531/
-- **Education:** Princeton University
-- **Background:**
-  - 25+ years of healthcare/life sciences investment experience
-  - Also Founder & Managing Partner of Scion Life Sciences (Petrichor affiliate)
-  - Former Managing Director at OrbiMed Advisors (led healthcare special situations & structured finance)
-  - Board member: Health Outlook, ITM (Supervisory Board)
-
-**Verification:** Email pattern "twessel@petrichorcap.com" inferred from standard PE naming convention. Role confirmed via official petrichorcap.com and scionlifesciences.com team pages, Tracxn, and PitchBook.
-
-## Team
-
+### Investment Team
 - **Patrick Lally** - Partner
-- **Michael Beecham** - Partner
-- Plus Vice Presidents, Associates, and Operations team
+  - LinkedIn: https://www.linkedin.com/in/patrick-lally-05b9a541/
+  - 15+ years of healthcare investing experience
+  - Joined Petrichor at launch
+  - Responsible for all aspects of investing: origination, diligence, asset management
+  - Education: Wharton School, Princeton University
+  - Prior experience: Vice President at OrbiMed Advisors (healthcare special situations and structured finance)
 
-## Investment Expertise
+## Background
+- Investment professionals come from highly-regarded institutions including:
+  - OrbiMed Advisors
+  - Fortress Investment Group
+- Team has maintained 30+ board seats across the industry
+- Led 130+ investments representing $6B+ of invested capital
+- Sat on 60+ boards
 
-Petrichor invests broadly across healthcare:
+## Portfolio Companies (Select)
+- Clearpoint Neuro
+- CorneaGen
+- Cryoport
+- LumiraDx
+- Persivia
 
-- Biopharmaceuticals
-- Pharmaceutical value chain
-- Medical devices & diagnostics
-- Providers & services
-- Digital health
-- Consumer health
-- Technology-enabled healthcare services
+## Related Entity
+- **Scion Life Sciences** - Related platform/entity
+  - Website: https://www.scionlifesciences.com
 
-## Track Record Highlights
+## Investor Portal
+- SEI Investor Portal available for LPs
 
-Over the past decade, companies that the Petrichor team has been part of founding or building have:
+## Contact Information
+- Contact page available on website
+- Email addresses need verification
 
-- Advanced >15 clinical-stage therapeutics
-- Advanced 6 promising therapeutics into pivotal clinical trials
-- Generated >$14B in combined public equity value and M&A proceeds
+## Research Notes
+- Healthcare-focused PE with deep operating expertise
+- Team has background from top-tier healthcare investment firms
+- Focus on value-added partnership with management teams
+- Strong track record in healthcare services and medtech
 
-### 2025 Notable Exit
+## Research Status
+- Partner name and background verified via official website and Crunchbase
+- LinkedIn profile confirmed
+- Email address needs verification from official sources
+- Website has limited public contact information
 
-**Palvella Therapeutics (NASDAQ: PVLA)** - Top performing stock on the XBI (SPDR S&P Biotech ETF) in 2025
-
-## Philosophy
-
-Petrichor serves as a value-added partner to execute long-term strategic vision. The firm combines deep healthcare expertise, operational resources, and substantial capital to build enduring healthcare companies focused on improving patient outcomes.
-
-## Scion Life Sciences (Affiliate)
-
-Scion is Petrichor's life sciences affiliate, co-founded and co-managed by Tadd Wessel. Focuses on building and investing in biopharmaceutical and medical technology companies.
-
-## Sources
-
-- Official websites: petrichorcap.com, scionlifesciences.com
-- GrowthCap Advisory "Top Healthcare Investors of 2026"
-- Tracxn database
-- PitchBook profile
-- ContactOut (noted contact channels)
-- LinkedIn
-
-**Enriched by:** Jim (AI Sales Researcher)  
-**Date:** April 1, 2026, 7:36 AM CST  
-**Method:** Web research + industry database cross-reference
+---
+*Last Updated: 2026-04-01*
+*Source: petrichorcap.com, Crunchbase, LinkedIn, CorneaGen board bio*
