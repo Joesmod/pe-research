@@ -1,25 +1,30 @@
 # Vesey Street Capital Partners
 
-## Contact Information
-- **Primary Contact:** Tiffany Visconti
-- **Title:** Investor Relations Associate
-- **Email:** tvisconti@vscpllc.com
-- **Phone:** N/A
-- **LinkedIn:** https://www.linkedin.com/in/tiffany-visconti
+## Key Contact
+- **Name:** Adam Feinstein
+- **Title:** Founder & Managing Partner
+- **Email:** [Manual research needed]
+- **LinkedIn:** [To be found]
 
 ## Firm Details
+- **Status:** Needs Enrichment
 - **Website:** https://www.vscpllc.com
-- **Founded:** 2004
+- **Focus:** Healthcare Services (lower middle-market)
+- **AUM:** $500M-$1B
 - **Location:** New York, NY
-- **AUM:** N/A
-
-## Investment Focus
-- **Strategy:** Healthcare services private equity
-- **Sectors:** Healthcare Services
+- **Enriched:** 2026-04-02 (cron job - partial)
 
 ## Notes
-Contact from sheet data and ZoomInfo. Healthcare-focused PE investing for asset managers, family offices, pension funds. Recent investment: Inceptua Group (majority shareholder).
+NYC-based private equity firm specializing in buyouts of lower middle-market healthcare services businesses. Founded by Adam Feinstein (30+ years healthcare services experience). Targets founder-led businesses and corporate carve-outs with robust cash flow and minimal reimbursement risk.
 
----
-**Last Updated:** 2026-04-01
-**Source:** Web research + official sources (2026-04-01 cron)
+Listed on GrowthCap's Top Healthcare Investors of 2026.
+
+Contact email: tiffany@vscpllc.com (general contact)
+Phone: (646) 847-2474
+
+## Research Log
+- **2026-04-02:** Firm added to database via cron job
+  - Website identified: vscpllc.com
+  - Key contact identified: Adam Feinstein (Founder & Managing Partner)
+  - Direct email NOT yet verified - needs manual research
+  - Apollo API search unsuccessful (deprecated endpoint)

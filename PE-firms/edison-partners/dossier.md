@@ -1,25 +1,29 @@
 # Edison Partners
 
-## Contact Information
-- **Primary Contact:** Chris Sugden
-- **Title:** Managing Partner & Chairman
-- **Email:** csugden@edisonpartners.com
-- **Phone:** 609-306-XXXX
-- **LinkedIn:** https://www.linkedin.com/in/chrissugden-edison
+## Key Contact
+- **Name:** Chris Sugden
+- **Title:** Managing Partner
+- **Email:** [Manual research needed]
+- **LinkedIn:** [To be found]
 
 ## Firm Details
+- **Status:** Needs Enrichment
 - **Website:** https://www.edisonpartners.com
-- **Founded:** 1986
-- **Location:** Princeton, NJ
-- **AUM:** N/A
-
-## Investment Focus
-- **Strategy:** Growth equity
-- **Sectors:** Enterprise SaaS, Fintech, Healthcare IT
+- **Focus:** Technology, SaaS (lower middle-market growth equity)
+- **AUM:** $1B+
+- **Enriched:** 2026-04-02 (cron job - partial)
 
 ## Notes
-Email pattern inferred from RocketReach. Chris joined Edison 2002, entrepreneur background. Chairman of investment committee. Long-standing firm with deep growth equity expertise.
+Named a 2026 TOP 50 Private Equity Firm in the Middle Market AND TOP 50 PE Firm for Founders. Over 40 years of experience in lower middle-market investing. Focus on growth equity in technology and SaaS companies.
 
----
-**Last Updated:** 2026-04-01
-**Source:** Web research + official sources (2026-04-01 cron)
+Chris Sugden (Managing Partner) quoted: "This dual recognition validates Edison Partners' differentiated approach to lower middle market investing that we've built over four decades."
+
+Also earned second consecutive BluWave 2026 Top PE Innovator Award.
+
+## Research Log
+- **2026-04-02:** Firm added to database via cron job
+  - Website identified: edisonpartners.com
+  - Key contact identified: Chris Sugden (Managing Partner)
+  - Direct email NOT yet verified - needs manual research
+  - Apollo API search unsuccessful (deprecated endpoint)
+  - Multiple 2026 awards/recognitions confirmed
