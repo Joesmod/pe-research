@@ -1,35 +1,61 @@
 # Bow River Capital
 
-## Overview
-- **Website:** https://www.bowrivercapital.com
-- **Location:** Denver, Colorado
-- **Founded:** N/A
-- **AUM:** Mid-market private equity firm
+**Website:** https://www.bowrivercapital.com  
+**HQ:** Denver, Colorado  
+**Founded:** 2003  
+**AUM:** $2.5B+
 
 ## Focus
-Multi-strategy investment firm focused on:
-- Private Equity
-- Real Estate
-- Software Growth Equity
-- Private Credit
-- Asset-Based Finance
+- **Healthcare Services**
+- **Industrial Services**
+- **Tech-Enabled Business Services**
+- **Infrastructure & Engineering Services**
 
-## Key Contacts
+## Key Personnel
 
-### Blair E. Richardson
-- **Title:** Founder & Chief Executive Officer
-- **Email:** richardson@bowrivercapital.com
-- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
-- **Source:** Verified via ContactOut 2026-04-02
+### Gregory Hiatrides
+- **Title:** Managing Director, Head of Private Equity
+- **Email:** hiatrides@bowrivercapital.com
+- **LinkedIn:** http://www.linkedin.com/in/gregory-hiatrides-a1684a32
+- **Source:** Apollo API verified 2026-04-02
+- **Quote:** "Access to alternative asset investing is more readily available than ever and we are fortunate to have the trust of our limited partners."
 
-## Notes
-- Diversified investment platform with multiple strategies
-- Team page: https://www.bowrivercapital.com/team
-- Strong presence in Denver market
-- Multi-disciplinary investment approach
+## Investment Strategy
+- **Lower middle market** private equity focus
+- Control and minority investments
+- Targets companies in infrastructure & engineering services, industrial services, healthcare services, and tech-enabled business services
+- Goal: Support companies through organic and inorganic growth
 
-## Research Date
-2026-04-02
+## Fund History
+- **Fund III:** $590 million (raised recently)
+- Multi-strategy platform: Private Equity, Real Estate, Software Growth Equity
+- **Bow River Capital Evergreen Fund** launched January 2021 (institutional-quality private market access)
 
-## Gumbo Score
-8/10 - CEO contact with verified email
+## Operating Approach
+- Keep existing management teams in place as owner-operators and shareholders
+- Assist with strategy development and long-term planning
+- Partnership-driven model
+
+## Portfolio
+- 19+ investments (CBInsights)
+- Latest investment: Creative Foam
+- Diverse portfolio across target sectors
+
+## Assets Under Management
+- Collectively manages $2.5B+ across three asset classes:
+  1. Private Equity
+  2. Real Estate
+  3. Software Growth Equity
+
+## Team
+- Based in Denver, Colorado
+- Experienced team with deep sector knowledge
+- Focus on operational expertise to drive value creation
+
+## Contact
+**HQ:** Denver, Colorado
+
+---
+
+**Last Updated:** 2026-04-02  
+**Source:** Apollo API, official website, PE-Insights, CBInsights

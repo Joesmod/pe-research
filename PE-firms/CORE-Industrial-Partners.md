@@ -1,53 +1,63 @@
 # CORE Industrial Partners
 
-## Firm Overview
-- **Founded:** Founded by John May
-- **Location:** Chicago, IL
-- **AUM:** $1.58B
-- **Website:** https://coreipfund.com
-- **Companies Acquired:** 55+
+**Website:** https://coreipfund.com  
+**HQ:** Illinois, USA  
+**Founded:** Early 2010s  
+**AUM:** $1.58 billion (across four funds)
 
 ## Focus
-- Manufacturing
-- Industrial Technology
-- Industrial Services
+- **Manufacturing** (exclusively)
+- **Industrial Technology** (exclusively)
+- **Industrial Services** (exclusively)
+- Consumer Products (select investments)
 
-## Key Contacts
-**John May**
+## Key Personnel
+
+### John May
 - **Title:** Founder & Managing Partner
-- **Email:** john@coreipfund.com ✅ VERIFIED
-- **LinkedIn:** https://www.linkedin.com/in/john-may-7399a22
-- **Source:** Official CORE tear sheet PDF (July 2023)
+- **Email:** john@coreipfund.com
+- **Source:** Apollo API verified 2026-04-02
 
-**Frank Papa**
-- **Title:** Senior Partner
-- **Email:** frank@coreipfund.com
+## Investment Strategy
+- **Exclusively lower middle market** industrials
+- Private equity firm with operational focus
+- Goes beyond traditional private equity approach
+- Uses intellectual capital, creativity, hard work, and network of resources
+- Partnership-driven: "Providing Capital & Operational Expertise to Industrial Businesses"
 
-**TJ Chung**
-- **Title:** Senior Partner  
-- **Email:** tj@coreipfund.com
+## Fund Structure
+- Four funds totaling $1.58B in limited partner capital commitments
+- North American focus
+- Lower middle-market transactions
 
-**Matt Puglisi**
-- **Title:** Partner
-- **Email:** matt@coreipfund.com
-- **Phone:** 312-566-4885
+## Operating Model
+- Deep operational expertise in manufacturing and industrial sectors
+- Hands-on value creation approach
+- Focus on growing and scaling businesses through strategic initiatives
 
-## Target Profile
-- **EBITDA:** Up to $20M
-- **Revenue:** Up to $200M
-- **Geography:** North America
+## Portfolio
+- 12 platform investments
+- Focus on North American lower middle-market companies
+- Sectors: Manufacturing, Industrial Technology, Industrial Services, Consumer Products
 
-## Notes
-- 100+ years combined team experience in manufacturing/industrials
-- Operations-focused investment approach
-- Strong buy-and-build strategy
-- Enriched: 2026-03-30
+## Team
+- 12 team members (including current Founder & Managing Partner John May)
+- Experienced in industrials-focused investing
+- Strong operational backgrounds
 
-## Recent Activity
-- Completed take-private of Fathom Digital Manufacturing Corporation (May 2024)
-- Announced new office locations in key regions (November 2023)
+## Differentiation
+- **Exclusive focus** on industrial businesses (manufacturing, technology, services)
+- Operational expertise combined with capital
+- Lower middle-market specialization
+- Build-up and consolidation strategies
 
-## Contact for Media
-**Jeremy Milner**
-- BackBay Communications
-- Phone: (401) 862-9422
+## Target Criteria
+- Lower middle-market companies
+- Manufacturing, industrial tech, or industrial services
+- North American operations
+- Opportunities for operational improvement and growth
+
+---
+
+**Last Updated:** 2026-04-02  
+**Source:** Apollo API, official website, PitchBook, CBInsights, LeadIQ
