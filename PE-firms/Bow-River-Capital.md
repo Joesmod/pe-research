@@ -1,66 +1,36 @@
 # Bow River Capital
 
+**Status:** Research Complete - Email Verification Needed  
+**Last Updated:** 2026-04-02  
+**Source:** Cron enrichment
+
 ## Firm Overview
 - **Website:** https://www.bowrivercapital.com
-- **Founded:** 2003
 - **Location:** Denver, Colorado
-- **Address:** 205 Detroit Street, Suite 800, Denver, CO 80206
-- **Phone:** 303-861-8466
-- **AUM:** $6B+ (as of 2025)
-- **Focus:** Private alternative asset management - lower middle market
-- **Asset Classes:** Private credit, private equity, real estate
+- **Type:** Alternative asset manager
+- **Focus:** Private Equity, Real Estate, Software Growth Equity, Asset-Based Finance, Private Credit
 
-## Key Personnel
+## Key Contact
+- **Name:** Blair E. Richardson
+- **Title:** Founder & Chief Executive Officer
+- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
+- **Email:** (Pending verification - RocketReach pattern: r******@bowrivercapital.com)
 
-### Executive Team
-- **Blair E. Richardson** - Founder, CEO & Chairman
-  - **Email:** richardson@bowrivercapital.com ✅ VERIFIED (ContactOut 2026-04-01)
-  - **Phone:** 720-260-xxxx
-  - LinkedIn: https://www.linkedin.com/in/blair-richardson-a4755613/
-  - Founded Bow River in 2003
-  - Born in Canada
-  - Inducted into Colorado Business Hall of Fame (2025)
-  - Support: Kristin and Blair Richardson Foundation (education, healthcare)
-
-- **Jane C. Ingalls** - President, Chief Operating Officer
-  - Promoted to President role
-  - Former consultant to global investment management firms
-
-- **Mark Hantho** - Executive Chairman
-
-- **Jamison R. Davis** - CFO
-
-- **James D. Kerr** - General Counsel
-
-### Investment Leadership
-- **Greg J. Hiatrides** - Partner, Head of Private Equity
-- **Jeremy D. Held** - Partner, Head of Evergreen Private Equity
-- **John P. Raeder** - Partner, Head of Software Investments
-- **Aaron M. Arnett** - Managing Director, Private Credit
-- **Maitlan E. Cramer** - Managing Director, Software Growth Equity
-
-## Strategy
-- Lower middle market focus
-- Three asset classes: private credit, private equity, real estate
-- Industry consolidation opportunities
-- Evergreen fund structure available
-
-## Contact Information
-- **General Inquiries:** info@bowrivercapital.com
-- **Email Pattern:** [last]@bowrivercapital.com (verified for CEO)
+## Additional Details
+- **Media Contact:** Jane Ingalls, ingalls@bowrivercapital.com, 303-861-8466
+- **Notable:** Blair Richardson to be inducted into Colorado Business Hall of Fame (Feb 2026)
+- **Founded:** Denver-based alternative asset manager
+- **Recent News:** 
+  - Acquired Asset-Based Financing Business of Park Cities Asset Management (Aug 2025)
+  - Joint venture with Thornburg for private credit (Sep 2024)
+  - Joint venture with ONE Funds for defense technology (Jun 2024)
 
 ## Research Notes
-- Senior team has deep experience across diverse industries and capital structures
-- Active in software growth equity and private credit
-- Strong presence in Denver business community
-- Named after Canadian Bow River (founder's birthplace)
+- CEO confirmed via official website and multiple PRNewswire press releases
+- Email pattern available via RocketReach but not from official published source
+- Strong presence in private equity, real estate, and software growth equity
+- Active in M&A and partnerships
 
-## Research Status
-- Contact names and titles verified via official website
-- CEO email verified via ContactOut (2026-04-01)
-- LinkedIn profile confirmed for CEO
-- Press releases available on website
-
----
-*Last Updated: 2026-04-01*
-*Source: bowrivercapital.com, press releases, ContactOut, third-party databases*
+## Next Steps
+- Verify email address through official channels or direct contact
+- Consider reaching out through media contact Jane Ingalls

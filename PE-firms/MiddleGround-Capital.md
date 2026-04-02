@@ -1,77 +1,66 @@
 # MiddleGround Capital
 
-**Website:** https://middleground.com  
-**Founded:** 2019  
-**Headquarters:** Lexington, KY  
-**AUM:** Mid-market ($500M-$2B+ range)
+**Status:** New  
+**Last Updated:** 2026-04-02  
+**Source:** Cron enrichment (new firm added)
+
+## Firm Overview
+- **Website:** https://middleground.com
+- **Location:** Lexington, Kentucky (US) | Amsterdam, Netherlands (Europe)
+- **Type:** Private Equity
+- **Focus:** Industrials, Manufacturing, Business Services
+- **AUM:** $450M (Fund I closed May 2025)
+
+## Key Contact
+- **Name:** John Stewart
+- **Title:** Founding & Managing Partner
+- **LinkedIn:** https://www.linkedin.com/in/johnstewartky
+- **Email:** (Pending verification - RocketReach pattern: j******@middlegroundcapital.com)
+
+## Additional Details
+- **General Contacts:** 
+  - admin@middleground.com (general inquiries)
+  - adenaix@middleground.com (Anthony Denaix - transaction opportunities)
+  - rjonkers@middleground.com (Robert Jonkers - portfolio company management, Amsterdam)
+- **Investment Criteria:**
+  - Revenue: <$1B
+  - Transaction Size: up to $500M
+  - Equity Investment: $20M to $350M
+  - EBITDA: >$10M
+
+## Research Notes
+- Founding & Managing Partner confirmed on official middleground.com/team page
+- Chief Investment Officer
+- Member of Investment Committee
+- Unique background: Started career as hourly line worker at Toyota Motor Corporation
+- 18-year career at Toyota in various management and executive positions
+- Email pattern available via RocketReach but not from official published source
+- Also affiliated with University of Kentucky Gatton College of Business and Economics
+
+## Firm Culture & Philosophy
+- Participative management approach
+- Empowerment and motivation-focused
+- Flexibility based on capability, not title
+- Strong commitment to DE&I (Diversity, Equity & Inclusion)
+- Multi-cultural and gender-diverse team
+- Decisions achieved through consensus
+- "People work for people" philosophy
 
 ## Investment Focus
-- **Sectors:** B2B Industrial Manufacturing
-- **Stage:** Middle market buyouts
-- **Geography:** North America
-- **Philosophy:** Toyota Production System methodology
+- Capital-intensive sectors
+- Industrials
+- Manufacturing
+- Business Services
+- Family/founder-owned businesses
+- Corporate carve-outs
+- Companies looking to aggressively scale
 
-## Key Contacts
+## European Presence
+- Amsterdam office for European expansion
+- European contacts available
 
-### John Stewart
-- **Title:** Founding & Managing Partner
-- **Email:** jstewart@middleground.com (inferred from pattern)
-- **LinkedIn:** https://www.linkedin.com/in/johnstewartky
-- **Bio:** Former Toyota Motor Corporation executive (18 years). Started as hourly line worker, held numerous management and executive positions. Investment Committee member.
-- **Source:** middleground.com team page (2026-03-28)
-
-### Dyana Baurley
-- **Title:** Vice President, Business Development & Investor Relations
-- **Email:** dbaurley@middleground.com
-- **LinkedIn:** https://www.linkedin.com/in/dyanabaurley
-- **Bio:** VP of BD & IR - primary contact for transaction opportunities
-- **Source:** Official website contact page (verified 2026-03-28)
-
-## Investment Thesis
-- B2B industrial manufacturing specialist
-- Toyota Production System expertise
-- Operational excellence focus
-- Partnership with management teams using participative management approach
-
-## Unique Approach
-- Founded by former Toyota executive
-- Strong operational improvement capability
-- Focus on employee engagement and sustainability
-- Participative management culture
-
-## Portfolio Focus
-- Industrial manufacturing platforms
-- Companies that can benefit from TPS methodology
-- Operational improvement opportunities
-
-## Notes
-- Kentucky-based (unique for PE firm)
-- Strong Toyota/lean manufacturing heritage
-- Employee-focused culture
-- 100% employer-paid healthcare for employees and dependents
-
-## Recent News & Portfolio Activity
-
-### Recent Portfolio Companies
-- **Dura-Shiloh** - Manufacturing (current portfolio company, Greg Ramfos as CEO)
-- **Lindsay Precast** - Precast concrete products (sold Nov 2025)
-- **Progressive Roofing** - Commercial roofing (exited)
-- **Arctic Air Holdings, LLC** - HVAC and mechanical services
-- **Ocean Tomo** - IP advisory firm (sold to J.S. Held, March 2022)
-
-### Team Expansion
-- Robert Jonkers - Managing Director, Operations Team (Europe lead)
-- Kelly Myers - Managing Director, Financial Operations Team
-- Ben Schnakenberg - Managing Director (added 2023)
-
-## DE&I Commitment
-- Multi-cultural and gender diverse team
-- Consensus-based decision making for key portfolio decisions
-- Inclusive recruiting and interview process
-- Full employee participation encouraged regardless of title
-
-## Enrichment History
-- **First Added:** 2026-03-28
-- **Last Updated:** 2026-03-31 (Hourly PE Research Cron)
-- **Status:** Added to Sheet1 with John Stewart as primary contact
-- **Note:** Email not verified from official sources - requires manual verification
+## Next Steps
+- Verify email address through official channels
+- Consider reaching out through general admin contact
+- Tailor messaging to industrials/manufacturing focus
+- Emphasize operational and people-first approach
