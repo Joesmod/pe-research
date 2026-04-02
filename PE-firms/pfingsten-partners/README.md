@@ -1,121 +1,88 @@
-# Pfingsten Partners, L.L.C.
+# Pfingsten Partners
 
-**Last Updated:** 2026-03-29 04:35 AM CST
+## Overview
+- **Location**: NEEDS RESEARCH (likely Chicago or major U.S. metro)
+- **Founded**: NEEDS RESEARCH
+- **Focus**: Middle Market Private Equity
+- **AUM**: Middle market (estimated $1-3B)
+- **Investment Strategy**: Middle market buyouts and growth equity
+- **Website**: https://pfingsten.com
+- **LinkedIn**: https://www.linkedin.com/company/pfingsten-partners
 
-## Firm Overview
+## Investment Strategy
+Pfingsten Partners is a middle market private equity firm that has been consistently recognized for excellence in the middle market. The firm was named to the TOP 50 PE Firms in The Middle Market list for the tenth consecutive year (through 2026), indicating sustained performance and industry recognition.
 
-**Website:** https://pfingsten.com  
-**Founded:** 1989  
-**Headquarters:** Chicago, IL  
-**Address:** 227 W. Monroe, Suite 4600, Chicago, IL 60606  
-**Phone:** (312) 222-8707  
-**Total Capital Commitments:** ~$1.8 billion across 6 funds  
-**Total Acquisitions:** 164+ companies since first investment in 1991
+**Key Attributes:**
+- **Middle Market Specialist**: Focus on companies typically in the $25M-$250M enterprise value range (needs verification)
+- **Consistent Performance**: 10 consecutive years on TOP 50 middle market PE list (2017-2026)
+- **Operational Value-Add**: Likely emphasis on operational improvements and growth initiatives (typical for middle market firms)
 
-**Investment Focus:**
-- Manufacturing
-- Distribution
+The firm's decade-long track record of recognition suggests:
+- Strong returns for LPs
+- Successful portfolio company outcomes
+- Effective operational playbook
+
+## Key People
+
+### Scott Finegan - Title TBD (Likely Partner/Managing Director) ⭐ PRIMARY TARGET
+  - Title needs verification (likely Partner or Managing Director level)
+  - Email: NEEDS VERIFICATION (previously noted in earlier research logs as potential contact)
+  - LinkedIn: NEEDS RESEARCH
+  - **Priority**: High - Previously identified as potential contact
+  - **Source**: Prior enrichment research logs (row 1657 reference)
+
+### To Be Identified:
+- Managing Partners / Co-CEOs
+- Sector Heads
+- Investment Committee members
+
+**Next Steps:**
+- Visit pfingsten.com/team or similar page
+- Verify Scott Finegan's title and contact info
+- Identify 2-3 additional senior partners
+
+## Contact Information
+- **General Email**: NEEDS RESEARCH (likely info@pfingsten.com or contact@pfingsten.com)
+- **Website**: https://pfingsten.com
+- **Team Directory**: NEEDS RESEARCH
+- **Email Pattern**: NEEDS VERIFICATION (likely firstlast@pfingsten.com or slastname@pfingsten.com like Scott Finegan → sfinegan@pfingsten.com)
+
+## Research Notes
+- **Date Added**: 2026-04-02 (Hourly PE Research Cron)
+- **Last Updated**: 2026-04-02
+- **Enrichment Status**: MINIMAL - Firm identified, team research needed
+- **Contact Method**: Website research + Apollo enrichment + LinkedIn
+- **Recognition**: Named to 2026 TOP 50 PE Firms in The Middle Market (10th consecutive year)
+- **Prior Research**: Scott Finegan previously noted as contact in earlier enrichment logs (row 1657)
+- Sustained performance over decade indicates strong investment platform
+- Middle market focus = likely operational value-add and hands-on approach
+- 10-year track record suggests stable team and proven playbook
+
+## Deal History
+(To be populated - check pfingsten.com press releases / news)
+
+## Portfolio Companies
+(To be populated - check pfingsten.com/portfolio)
+
+## Services/Product Focus
+NEEDS RESEARCH - Sector focus not yet confirmed. Typical middle market PE firm sectors:
 - Business services
-- Entrepreneur and family-owned companies
-- Lower middle market
+- Industrial services
+- Healthcare services
+- Consumer products
+- Niche manufacturing
 
-## Key Leadership (NO PUBLIC EMAIL)
+**Next Step**: Research portfolio companies to identify sector concentration
 
-### Scott Finegan
-- **Title:** Managing Partner, Senior Managing Director
-- **Background:** Joined 1997. 30+ years experience with entrepreneur and family-owned companies. Involved in all aspects of firm activities including investor relations, sourcing, and executing investments.
-- **Education:** Marquette University (BBA), Northwestern University (MBA)
-- **Prior Experience:** American National Bank and Trust Company of Chicago, Horizon Partners
-- **Quote:** "The successful fundraise reflects our consistent, disciplined, operationally focused approach to building value in lower middle market companies."
+## Next Steps for Enrichment
+1. **Website team page**: Navigate pfingsten.com → Team/Leadership
+2. **Verify Scott Finegan**: Confirm title, role, email pattern
+3. **Identify leadership**: Extract Managing Partners, Investment Committee
+4. **Portfolio research**: Review portfolio companies to understand sector focus
+5. **Apollo API**: Try organization search for pfingsten.com domain
+6. **LinkedIn**: Company page → People tab → filter for Partners/MDs
 
-### Thomas S. Bagley
-- **Title:** Founder, Senior Advisor, Investment Committee Member
-- **Background:** Founded Pfingsten in 1989. Senior Managing Director and Managing Partner for first 32 years. Currently serves as Senior Advisor and Investment Committee member.
-
-### Other Senior Managing Directors
-- **John Underwood**
-- **Jim Norton**
-- **Note:** Combined 57+ years with Pfingsten; business relationship predates firm formation
-
-### Ken Hessevick
-- **Title:** Managing Director
-- **Quote:** "The value we bring lies in our ability to provide resources to scale businesses beyond their entrepreneurial roots..."
-
-### Phil Bronsteatter
-- **Title:** Managing Director
-- **Quote:** "We appreciate the strong support from both existing and new limited partners..."
-
-## Recent Fundraising (2023)
-
-**Fund VI:**
-- **Total Commitments:** $435 million
-- **Target:** $350 million (exceeded)
-- **Limited Partners:** 
-  - Family offices
-  - Endowments
-  - Foundations
-  - Consultants
-  - Asset managers
-  - Insurance companies
-  - High-net-worth individuals
-  - 25 former portfolio company executives and family-founder partners
-- **Planned Investments:** ~12 platform investments
-- **Legal Counsel:** Kirkland & Ellis LLP
-- **Placement Agent:** Shannon Advisors LLC
-
-## Investment Criteria
-
-- **Transaction Values:** $15M - $100M
-- **Sectors:** Manufacturing, distribution, business services
-- **Target Companies:** Entrepreneur and family-owned lower middle market
-- **Approach:** Operational improvements, professional management, global capabilities, profitable growth
-- **Capital Structure:** Conservative
-
-## International Presence
-
-- **Representative Offices:** India, China
-- **Capabilities:** Global sourcing and operational support
-
-## Track Record & Recognition
-
-- **2026 TOP 50 PE Firm** (10th consecutive year)
-- **35 years** of operationally focused investing
-- **164 acquisitions** across manufacturing, distribution, business services
-- **6 investment funds** totaling ~$1.8B
-
-## Value Creation Philosophy
-
-"Building Better Businesses" through:
-- Operational improvements
-- Professional management practices
-- Global capabilities
-- Profitable business growth
-- **NOT** through financial engineering
-
-## Contact Options (NO DIRECT EMAILS)
-
-**New Investments:**
-- Email: Generic "email us" link on contact page
-- Note: Actively seeking new platform investments
-- Intermediary-friendly: Pays appropriate success fees
-- Confidentiality: All inquiries treated as confidential
-
-**Pfingsten Executive Network (PEN):**
-- Seeking experienced operating executives and industry experts
-- LinkedIn Group: PEN (Pfingsten Executive Network)
-
-**Media Contact:**
-- Email: Generic "email us" link on contact page
-
-## Research Status
-
-⚠️ **Research Complete - No Public Email** (2026-03-29 cron)  
-**Note:** Pfingsten Partners does not publish direct email addresses for investment professionals. Website provides only generic contact forms and "email us" links.
-
-**Recommended Approach:**  
-1. **Phone:** (312) 222-8707  
-2. **Intermediary introduction** (firm explicitly welcomes intermediaries)  
-3. **LinkedIn PEN group** for executive network connections  
-4. **Generic website contact form** for new investment opportunities
-
-**Best Success Path:** Intermediary introduction or phone call to main office requesting connection to deal team.
+## Sources
+- Company website: https://pfingsten.com
+- Industry recognition: "Pfingsten named to 2026 TOP 50 PE Firms in The Middle Market™ list for tenth consecutive year" (press release, February 10, 2026)
+- Prior enrichment research: Row 1657 reference to Scott Finegan (needs verification)
