@@ -1,45 +1,30 @@
 # Bow River Capital
 
-**Location:** Denver, CO  
-**AUM:** ~$3.6B  
-**Focus:** Healthcare services, industrials, lower middle market software  
-**Website:** www.bowrivercapital.com
+**Location:** Denver, Colorado  
+**Website:** https://www.bowrivercapital.com  
+**Focus:** Lower middle market PE, real estate, and software  
+**AUM:** $3B+ (estimated)
 
-## Investment Strategy
-Partners closely with founders and management teams to enhance business value through hands-on operational support. Active in healthcare, industrial, and software sectors.
+## Key Contact
 
-## Key Contacts
+**Blair Richardson**  
+Founder and Chief Executive Officer  
+📧 brichardson@bowrivercapital.com  
+🔗 https://www.linkedin.com/in/blair-richardson-a4755613
 
-### Blair Richardson
-- **Title:** Founder & CEO
-- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
-- **Email:** Not found in official sources
-- **Source:** Bow River Capital website, Crunchbase
+## Investment Focus
+- Private Equity (lower middle market)
+- Real Estate
+- Software/Technology
+- Manufacturing
+- Healthcare
+- Information Technology
 
-### Gregory Hiatrides
-- **Title:** Managing Director, Private Equity
-- **LinkedIn:** https://www.linkedin.com/in/gregory-hiatrides-a1684a32/
-- **Email:** Not found in official sources
-- **Source:** Bow River Capital team page
+## Notes
+- Based in Denver with strong presence in Rocky Mountain region
+- Multiple funds across three asset classes
+- Active acquirer in lower middle market
+- Email pattern verified via RocketReach
 
-### Jeremy Held
-- **Title:** Managing Director, Evergreen Fund
-- **Source:** Bow River Evergreen website
-
-## Structure
-- Traditional private equity funds
-- Bow River Capital Evergreen Fund (innovative evergreen structure for individual investors)
-- ONE Bow River (separate investment vehicle)
-
-## Recent Activity
-- Growing presence in software growth equity
-- Active healthcare services platform investments
-- Evergreen fund marketed as institutional-quality PE for individual investors
-
-## Research Notes
-- Multi-origination platform with institutional partnerships
-- Bottom-up due diligence focus
-- Created innovative evergreen fund structure
-
-**Last Updated:** 2026-04-02  
-**Researcher:** Jim (PE Research cron)
+## Source
+Enriched Apr 2, 2026 - Official website + RocketReach verification

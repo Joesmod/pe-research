@@ -1,35 +1,34 @@
 # Accel-KKR
 
-## Firm Overview
-- **Website**: https://www.accel-kkr.com
-- **Location**: Menlo Park, CA
-- **Founded**: 2000
-- **AUM**: $19B+
-- **Focus**: Enterprise Software, Tech-Enabled Services
+**Location:** Menlo Park, CA  
+**Website:** https://www.accel-kkr.com  
+**Focus:** Technology-focused middle market PE  
+**AUM:** $15B+ (estimated)
 
 ## Key Contacts
 
-### Tom Barnds - Co-Managing Partner
-- **Email**: tbarnds@accel-kkr.com
-- **LinkedIn**: https://www.linkedin.com/in/tombarnds/
-- **Role**: Co-Managing Partner
-- **Verification**: Email pattern verified via LeadIQ (81%)
+**Tom Barnds**  
+Co-Managing Partner, Founding Partner  
+📧 tbarnds@accel-kkr.com  
+🔗 https://www.linkedin.com/in/tom-barnds-6083525
+
+**Rob Palumbo**  
+Co-Managing Partner  
+📧 rpalumbo@accel-kkr.com  
+🔗 https://www.accel-kkr.com/team-member/rob-palumbo
 
 ## Investment Focus
+- Technology and software companies
+- B2B SaaS
 - Enterprise software
-- Tech-enabled services
-- Middle-market technology companies
-- Operational value creation
+- IT services
+- Middle market ($50M-$500M revenue)
 
 ## Notes
-- One of the leading software-focused PE firms
-- Strong operational expertise
-- Active in SaaS and vertical software markets
-
-## Research Date
-2026-04-02
+- One of the first and most successful tech-focused PE firms
+- Deep operational expertise in software/SaaS
+- Active add-on acquisition strategy
+- Email patterns verified via ZoomInfo
 
 ## Source
-- Official website: accel-kkr.com
-- Email verification: LeadIQ
-- Added via cron enrichment 2026-04-02
+Enriched Apr 2, 2026 - Official website team page + ZoomInfo verification
