@@ -1,44 +1,39 @@
 # Pamlico Capital
 
 ## Overview
-- **Website**: https://www.pamlicocapital.com
-- **HQ**: Charlotte, NC
-- **Founded**: 1988 (originally First Union Capital Partners)
-- **AUM**: $500M-$1B (estimated)
-- **Focus**: Middle-market growth and buyout investments in communications, healthcare IT, and tech-enabled services
+- **Website:** https://www.pamlicocapital.com
+- **Location:** Charlotte, North Carolina
+- **Founded:** 1988
+- **AUM:** Lower middle-market private equity
 
-## Investment Focus
-- Communications Services
+## Focus
+Middle-market buyout and growth equity investments in five core sectors:
+- Communications
 - Healthcare IT
-- Digital Infrastructure
-- Tech-Enabled Services
 - Information Services
 - Software
+- Tech-Enabled Services
 
 ## Key Contacts
 
-### Watts Hamrick
-- **Title**: Managing Partner
-- **Email**: watts.hamrick@pamlicocapital.com (VERIFIED from official website)
-- **LinkedIn**: https://www.linkedin.com/in/watts-hamrick-98912069/
-- **Status**: Enriched 2026-03-31
-- **Notes**: Managing Partner since 1988, focus on services and digital infrastructure
-
 ### Scott Perper
-- **Title**: Partner & Co-Founder
-- **Email**: scott.perper@pamlicocapital.com (VERIFIED from official website)
-- **LinkedIn**: https://www.linkedin.com/in/scott-perper-7a10b019/
-- **Status**: Previously enriched
+- **Title:** Managing Partner
+- **Email:** scott.perper@pamlicocapital.com
+- **LinkedIn:** https://www.linkedin.com/in/scott-perper-7a10b019/
+- **Source:** Verified from official team page 2026-04-02
 
-### General Contact
-- **Email Pattern**: {first}.{last}@pamlicocapital.com
+## Investment Strategy
+"True partner, not just a capital provider" - focused on partnering with talented managers to scale dynamic lower middle-market businesses.
 
 ## Notes
-- Founded as First Union Capital Partners in 1988
-- Renamed Wachovia Capital Partners after merger in 2001
-- Became Pamlico Capital as independent firm
-- $10B+ deployed since inception
-- Strong track record in communications and healthcare IT
-- Charlotte-based with deep Southeast relationships
+- 35+ years of investment experience
+- Single office in Charlotte, NC
+- Focused investment professionals with sector specialization
+- Strong operational support team
+- Team page: https://www.pamlicocapital.com/team
 
-**Enriched**: 2026-03-31 20:36 CST
+## Research Date
+2026-04-02
+
+## Gumbo Score
+8/10 - Managing Partner with verified email from official source

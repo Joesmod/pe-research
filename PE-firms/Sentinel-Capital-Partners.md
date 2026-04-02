@@ -2,63 +2,46 @@
 
 ## Overview
 - **Website:** https://www.sentinelpartners.com
+- **Location:** New York, NY
 - **Founded:** 1995
-- **Headquarters:** New York, NY
-- **AUM:** Undisclosed (lower midmarket focus)
-- **Type:** Lower midmarket private equity
+- **AUM:** Lower middle-market private equity
 
-## Investment Focus
-- **Sectors:**
-  - Business Services
-  - Consumer Products & Services
-  - Healthcare Services
-  - Industrial Businesses
-- **Geography:** North America (US and Canada)
-- **Deal Size:** Lower midmarket
-- **Investment Types:**
-  - Management Buyouts
-  - Corporate Divestitures
-  - Acquisitions of family businesses
-  - Going-private transactions
-  - Mezzanine capital
+## Focus
+Lower middle-market private equity focused on:
+- Consumer Products & Services
+- Industrial & Manufacturing
+- Business Services
 
-## Key Personnel
-- Need to research team/leadership page
+## Key Contacts
 
-## Investment Approach
-- Majority-ownership investments through equity funds
-- Minority stakes through capital solutions funds
-- Time-tested approach across diverse market conditions
-- Focus on operational improvement and growth
+### David S. Lobel
+- **Title:** Founder & Managing Partner
+- **Email:** dlobel@sentinelpartners.com (inferred pattern)
+- **LinkedIn:** https://www.linkedin.com/in/david-lobel/
+- **Source:** Founder confirmed via press releases 2026-04-02
 
-## Investment Strategies
-- Leveraged Buyouts
-- Mezzanine capital
-- Management Buyouts
-- Corporate Divestitures
-- Industry Consolidations
-- Going-Private Transactions
-- Growth Capital transactions
+### John F. McCormack
+- **Title:** Co-Founder & Senior Partner
+- **Role:** Co-founded firm with David Lobel in 1995
 
-## Notable Portfolio Companies
-- TBD (need research)
+## Investment Philosophy
+- Majority-owned, friendly transactions
+- Partners with founders, family owners, corporate divestitures
+- Deep cross-disciplinary team
+- Agile, unbureaucratic approach
+- Long-tenured professionals
 
-## Contact
-- **Website:** https://www.sentinelpartners.com
-- **LinkedIn:** https://www.linkedin.com/company/sentinel-capital-partners
-- **Phone:** TBD
+## Recent News
+March 2025: Announced leadership succession plan for long-term continuity
 
-## Research Notes
-- Founded 1995 (29+ years operating)
-- Described as "one of the nation's leading private equity firms focused on the midmarket"
-- Flexible capital solutions (majority equity + minority capital solutions funds)
-- Strong focus on operational transformation
+## Notes
+- 30+ years of middle-market investing history
+- Strong focus on operational improvement
+- "Dependable partners" ethos
+- Team page: https://www.sentinelpartners.com/team
 
-## Outreach Strategy
-- **Best Contacts:** TBD (need to identify Managing Partners/Senior Partners)
-- **Angle:** Operational transformation, business services, portfolio operations support
-- **Relevance:** Business services and operational improvement focus aligns with Hello Gumbo
+## Research Date
+2026-04-02
 
----
-*Last Updated: 2026-03-30*
-*Source: Sentinel Capital Partners website, Wikipedia*
+## Gumbo Score
+7/10 - Founder contact with inferred email pattern
