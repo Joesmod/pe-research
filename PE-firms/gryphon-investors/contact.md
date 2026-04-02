@@ -5,26 +5,34 @@
 
 ## Primary Contact
 
-**Name:** R. David Andrews  
+**Name:** David Andrews  
 **Title:** Founder & Co-CEO  
 **Email:** andrews@gryphoninvestors.com  
-**LinkedIn:** https://www.gryphon-inv.com/team/david-andrews/
+**LinkedIn:** https://www.linkedin.com/company/gryphon-investors/
+
+## Firm Overview
+- **Founded:** 1995
+- **Location:** San Francisco, California
+- **Focus:** Middle-market investments
+- **Sectors:** Business services, consumer products & services, healthcare, industrial growth, software, technology solutions & services
+- **Notable:** Partners in building businesses
 
 ## Email Pattern
 - Format: `{last}@gryphoninvestors.com`
-- Confidence: 89.7% (RocketReach, ContactOut)
+- Confidence: 100% (Apollo API verified)
 
 ## Notes
-- David founded Gryphon Investors in 1995
-- Co-CEO and Managing Partner
-- Chairman of Gryphon's Investment Review Committee
-- Member of the Gryphon Management Committee
-- Current board appointments include Jensen Hughes, Transportation Insight, and Wind River Environmental
+- Focused on profitably growing and enhancing middle-market companies
+- Active in cybersecurity, information technology, edtech, financial services
+- Team size: 101-250 employees
+- Strong track record since 1995
 
 ## Research Date
-2026-03-28
+2026-04-02
 
 ## Sources
-- gryphon-inv.com team page
-- RocketReach email pattern validation
-- ContactOut verification
+- Apollo API enrichment (verified email)
+- gryphon-inv.com official website
+- PitchBook investor profile
+- Crunchbase company profile
+- LinkedIn company page
