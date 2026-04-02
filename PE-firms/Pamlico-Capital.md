@@ -1,39 +1,45 @@
 # Pamlico Capital
 
-## Overview
-- **Website:** https://www.pamlicocapital.com
-- **Location:** Charlotte, North Carolina
-- **Founded:** 1988
-- **AUM:** Lower middle-market private equity
+**Location:** Charlotte, NC  
+**AUM:** $1.75B (Fund VI closed March 2025)  
+**Focus:** Business & technology services, communications, healthcare  
+**Website:** www.pamlicocapital.com
 
-## Focus
-Middle-market buyout and growth equity investments in five core sectors:
-- Communications
-- Healthcare IT
-- Information Services
-- Software
-- Tech-Enabled Services
+## Investment Strategy
+Growth-oriented equity investments of up to $200 million alongside founders and proven management teams. Control-oriented investments in their target industries.
 
 ## Key Contacts
 
+### Gillian Rhew
+- **Title:** VP of Business Development
+- **Email:** gillian.rhew@pamlicocapital.com ✅ VERIFIED
+- **Phone:** 704-414-7126
+- **LinkedIn:** https://www.linkedin.com/in/gillian-rhew/
+- **Source:** Business Wire press release (Jan 2021)
+
+### Stuart Christhilf
+- **Title:** Partner & COO
+- **LinkedIn:** https://www.linkedin.com/in/stuart-christhilf/
+- **Email:** Not found in official sources
+- **Source:** Multiple Business Wire press releases (2014-2025)
+
 ### Scott Perper
 - **Title:** Managing Partner
-- **Email:** scott.perper@pamlicocapital.com
-- **LinkedIn:** https://www.linkedin.com/in/scott-perper-7a10b019/
-- **Source:** Verified from official team page 2026-04-02
+- **Source:** Business Wire press releases
 
-## Investment Strategy
-"True partner, not just a capital provider" - focused on partnering with talented managers to scale dynamic lower middle-market businesses.
+### Eric Eubank
+- **Title:** Partner
+- **Source:** Business Wire (Feb 2020)
 
-## Notes
-- 35+ years of investment experience
-- Single office in Charlotte, NC
-- Focused investment professionals with sector specialization
-- Strong operational support team
-- Team page: https://www.pamlicocapital.com/team
+## Recent Activity
+- Closed Fund VI at $1.75B hard cap (March 2025)
+- Active portfolio: AVANT (IT distribution), Your Part-Time Controller, Winsight, others
 
-## Research Date
-2026-04-02
+## Research Notes
+- Founded 1988
+- Consistent track record across multiple cycles
+- 35+ years of experience
+- Strong focus on founder-friendly partnerships
 
-## Gumbo Score
-8/10 - Managing Partner with verified email from official source
+**Last Updated:** 2026-04-02  
+**Researcher:** Jim (PE Research cron)
