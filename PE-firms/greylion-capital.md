@@ -1,25 +1,34 @@
 # GreyLion Capital
 
-**Website:** https://greylion.com
-
-**AUM:** $1.35B (aggregate commitments across funds)
-
-**Investment Size:** $25-$125M per investment
-
-**Focus:** Growth equity, primarily United States
-
-**Location:** New York, NY
+## Firm Overview
+- **Website**: https://www.greylion.com
+- **Focus**: Middle-market private equity, high-growth businesses
+- **AUM**: Mid-market focused
 
 ## Key Contacts
 
 ### Chip Baird
-- **Title:** Co-Founder and Managing Partner
-- **Email:** chip@greylion.com
-- **LinkedIn:** http://www.linkedin.com/in/chip-baird-06b95a66
-- **Source:** Apollo API (verified 2026-03-31)
-- **Background:** Harvard Business School
+- **Title**: Co-Founder & Managing Partner
+- **Email**: chip@greylion.com
+- **LinkedIn**: https://www.linkedin.com/in/chip-baird-06b95a66/
+- **Source**: Email verified from PE Professional article (June 2020)
+- **Background**: 
+  - Former Partner at Perella Weinberg Partners (co-founded PWP Growth Equity)
+  - 20+ years in private equity
+  - Extensive board experience (20+ portfolio companies)
+  - Prior: Partner at Weston Presidio
+  - Education: MBA from Harvard Business School, BS from Penn State
 
-## Notes
-- Recent news: Sold interest in The RealReal and Chip Baird resigned from board (November 18, 2025)
-- Previously known as PWP Growth Equity
-- Focus on growth investments in established companies
+### David Ferguson
+- **Title**: Co-Founder & Managing Partner
+- **Email**: david@GreyLionCapital.com
+- **Source**: PE Professional article (June 2020)
+
+## Research Notes
+- Spun out from Perella Weinberg Partners in June 2020
+- Email pattern appears to be: firstname@greylion.com or firstname@GreyLionCapital.com (both domains used)
+- 22 professional staff, headquartered in NYC
+
+## Research Date
+- Enriched: 2026-04-02
+- Researcher: Jim (cron)
