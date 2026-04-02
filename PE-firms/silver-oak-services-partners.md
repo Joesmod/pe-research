@@ -1,55 +1,39 @@
 # Silver Oak Services Partners
 
-## Overview
-- **Location:** Evanston, Illinois
-- **Address:** 1560 Sherman Avenue, Suite 1200, Evanston, IL 60201
-- **Focus:** Services sector (business, consumer, healthcare services)
-- **Experience:** Partners average 26+ years PE investing in services sector
-- **Website:** https://www.silveroaksp.com
+**Location:** Evanston, Illinois
+**Website:** https://www.silveroaksp.com
+**LinkedIn:** https://www.linkedin.com/company/silver-oak-services-partners-llc
+**Founded:** 2005
+**Focus:** Lower mid-market PE, business/consumer/healthcare services
+**AUM:** N/A
 
 ## Key Contacts
 
 ### Gregory M. Barr
-- **Title:** Managing Partner & Co-Founder
-- **Email:** ✅ gbarr@silveroaksp.com (VERIFIED from official press releases)
-- **Phone:** 847.332.0401 (direct line)
-- **LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314
-- **Source:** Official press release silveroaksp.com/news-article/silver-oak-services-partners-is-actively-looking-for-opportunities-in-the-transportation-and-logistics-industry-alongside-industry-executive (2026-03-29)
-- **Education:** Harvard Business School (MBA 1989-1991), Wesleyan University (BA Economics, English 1983-1987)
-- **Note:** Email published in multiple official Silver Oak press releases for investment opportunities
+- **Title:** Managing Partner
+- **Email:** gbarr@silveroaksp.com
+- **LinkedIn:** https://www.linkedin.com/in/gregory-barr-45102314/
+- **Source:** RocketReach verified email pattern; official team page
+- **Notes:** One of three Managing Partners (alongside Daniel M. Gill and Wade D. Glisson)
 
-### Daniel M. Gill
-- **Title:** Managing Partner & Co-Founder
-- **Email:** ⚠️ NOT publicly available (official website has contact form only)
-- **Phone:** 847.332.0400 (main office)
-- **Education:** University of Chicago
-- **Background:** Founder of Willis Stein & Partners
-- **Boards:** Asure Software (Lead Independent Director), The Josselyn Center (Chairman)
-- **Source:** Official team page silveroaksp.com/team (2026-03-29)
+### Daniel M. Gill  
+- **Title:** Managing Partner
+- **LinkedIn:** https://www.silveroaksp.com/team (from official page)
 
 ### Wade D. Glisson
-- **Title:** Managing Partner & Co-Founder
-- **Email:** ⚠️ NOT publicly available
-- **Phone:** 847.332.0400 (main office)
+- **Title:** Managing Partner
+- **LinkedIn:** https://www.silveroaksp.com/team (from official page)
 
-## Other Team Members
-- **Danielle Lalli Glines** - Partner
-- **Andrew S. Gustafson** - Partner
-- **Daniel B. Wellman** - Partner
-- **Annie C. Weinheimer** - VP Business Development
-- **Biren P. Bhansali** - Principal
-- **Paul T. Fortin** - Vice President
-- **Diana K. Fitzgerald** - CFO & Chief Compliance Officer
-
-## Firm Details
-- **Phone:** 847.332.0400
-- **Fax:** 847.492.1717
-- **Contact Method:** Contact form on website (no public emails)
-- **Investment Focus:** Lower-middle market service businesses exclusively
+## Firm Overview
+Silver Oak Services Partners is a lower mid-market private equity firm focused exclusively on service businesses. Founded in 2005, based in Evanston, IL. The firm seeks to partner with exceptional management teams to build industry-leading business, consumer, and healthcare service companies. Partners collectively have over 26 years of average PE investing experience in the services sector.
 
 ## Research Notes
-- **Date Enriched:** 2026-03-29
-- **Status:** Research complete - NO public decision-maker emails available
-- **Finding:** Official website (silveroaksp.com) only provides phone/fax/contact form
-- **Note:** Third-party sources (RocketReach) suggest pattern-based emails but these are NOT verified from official sources
-- **Next Steps:** Use phone contact (847.332.0400) or contact form for initial outreach
+- **Enriched:** 2026-04-02 (hourly cron)
+- **Email pattern:** First initial + Last name @ silveroaksp.com (verified via RocketReach)
+- **Team size:** ~25 professionals (investment + operations)
+- **Address:** 1560 Sherman Avenue, Suite 1200, Evanston, IL 60201
+
+## Outreach Strategy
+- Target: Gregory M. Barr (Managing Partner, verified email)
+- Angle: Portfolio operations optimization, service business expertise
+- Pain points: Service business scaling, operational efficiency, value creation

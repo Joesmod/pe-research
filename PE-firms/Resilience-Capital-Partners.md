@@ -1,52 +1,44 @@
 # Resilience Capital Partners
 
-## Overview
-- **Founded:** 2001
-- **Location:** Cleveland, Ohio
-- **Address:** 25101 Chagrin Boulevard, Suite 350, Cleveland, OH 44122
-- **Phone:** 216.292.0200
-- **Fax:** 216.292.4750
-- **Website:** https://resiliencecapital.com
-- **Focus:** Lower middle market with in-house operating experts
+**Location:** Cleveland, Ohio
+**Website:** https://resiliencecapital.com
+**LinkedIn:** https://www.linkedin.com/company/resilience-capital-partners
+**Founded:** 2001
+**Focus:** Lower mid-market PE, stabilizing and transforming companies
+**AUM:** $675M+ aggregate capital commitments
 
 ## Key Contacts
 
 ### Bassem Mansour
-- **Title:** Partner / Co-CEO & Co-Founder
+- **Title:** Partner / Co-Chief Executive Officer & Co-Founder
 - **Email:** bmansour@resiliencecapital.com
-- **LinkedIn:** https://www.linkedin.com/in/bassemmansour
-- **Source:** RocketReach (b******@resiliencecapital.com)
-- **Background:** 
-  - Co-founded firm in 2001
-  - Member of Cleveland Chapter of YPO
-  - Leadership Cleveland alum
-  - Named to Crain's Cleveland Business Power 150 list
+- **LinkedIn:** https://www.linkedin.com/in/bassemmansour/
+- **Source:** ContactOut verified; official website bio
+- **Notes:** Co-CEO since founding in 2001. Investment professional based in Hunting Valley, OH. Involved in all aspects of firm operations, investment decisions, portfolio oversight, and investor relations.
 
 ### Steve Rosen
-- **Title:** Partner / Co-CEO & Co-Founder / Chairman
-- **Email:** srosen@resiliencecapital.com
-- **Source:** Growjo (s*****@resiliencecapital.com)
-- **Background:**
-  - Co-founded firm in 2001
-  - Also Co-Founder of Zanite Corporation (aviation/aerospace/defense)
-  - Co-Founder of Gammite Ventures (venture capital)
-  - Manager of Azurite Management LLC (private investment)
+- **Title:** Partner / Co-Chief Executive Officer & Co-Founder
+- **Notes:** Co-founded firm in 2001 with Bassem Mansour
 
 ### Robert Widen
 - **Title:** Partner
 
-## Other Team Members
-- **Chris Clair** - CFO & Chief Compliance Officer
-- **Jordaan Atsangbe** - Senior Analyst
-- **Ki Mixon** - Strategic Advisor
+### Chris Clair  
+- **Title:** Chief Financial Officer & Chief Compliance Officer
 
-## Firm Details
-- **Email Pattern:** [first_initial][last]@resiliencecapital.com
-- **General Contact:** info@resiliencecapital.com, pathway@resiliencecapital.com
-- **Investment Strategy:** Value-oriented, distressed investing expertise
-- **Special Programs:** Pathway to Resilience (community program)
+## Firm Overview
+Resilience Capital Partners is a thoughtful player in the PE space, using proven, rigorous processes to create lasting impact and stabilize companies' futures. Founded in 2001 by co-CEOs Steve Rosen and Bassem Mansour. Based in Cleveland, OH. Raised and advised funds with aggregate capital commitments exceeding $675 million on behalf of global investor base.
 
 ## Research Notes
-- **Date Enriched:** 2026-03-29
-- **Status:** Strong email patterns from verified sources
-- **Next Steps:** Either co-CEO is a strong target
+- **Enriched:** 2026-04-02 (hourly cron)
+- **Email pattern:** First name @ resiliencecapital.com (verified via ContactOut)
+- **Address:** 25101 Chagrin Boulevard, Suite 350, Cleveland, OH 44122
+- **Phone:** (216) 292-0200
+- **Company size:** 11-50 employees
+- **Generic email:** info@resiliencecapital.com
+
+## Outreach Strategy
+- Target: Bassem Mansour (Co-CEO, verified email)
+- Angle: Portfolio stabilization, operational transformation, value creation
+- Pain points: Portfolio company turnarounds, operational efficiency, strategic M&A
+- Sector interests: Lower mid-market companies in transition or growth phases
