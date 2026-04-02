@@ -22,9 +22,18 @@
 - **Notes:** Member of Investment Committee. Primary decision-maker.
 
 ### Jason Rigoli
-- **Title:** Managing Partner
-- **Email:** jrigoli@enlightenment-cap.com (pattern-based)
-- **Notes:** Listed on team page
+- **Title:** Partner
+- **Email:** jrigoli@enlightenment-cap.com (INFERRED - pattern confirmed by RocketReach j******@enlightenment-cap.com)
+- **LinkedIn:** https://www.linkedin.com/in/jason-rigoli-14a3b6/
+- **Background:**
+  - Decades of experience in aerospace, defense, security, government contracting
+  - Former Principal and Head of DC office at LLR Partners
+  - Previously at Monument Capital Group and The White Oak Group
+  - Senior VP at Friedman, Billings, Ramsey (FBR) - led M&A in defense sector
+  - 7+ years with Pearson Government Solutions
+- **Education:** BA from Radford University, MBA from Columbia Business School and London Business School
+- **Board Roles:** Advisory board of AlphaTech, past president of National Capital Chapter of ACG
+- **Notes:** Official website confirms Partner title (not Managing Partner). Email pattern not published on official sources but matches RocketReach partial verification.
 
 ## Email Pattern
 **Pattern:** [first_initial][last]@enlightenment-cap.com

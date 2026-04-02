@@ -1,120 +1,131 @@
 # Gemspring Capital
 
-## Overview
-- **Type**: Middle-market private equity firm
-- **Founded**: 2015
-- **AUM**: $1.1 billion
-- **Headquarters**: Westport, CT
-- **Website**: https://gemspring.com
+**Website:** https://www.gemspring.com  
+**LinkedIn:** https://www.linkedin.com/company/gemspring-capital  
+**Headquarters:** Westport, Connecticut  
+**AUM:** $3.5 billion  
+**Focus:** Middle market private equity  
 
 ## Investment Focus
-- **Deal Types**: Leveraged buyouts, growth equity, recapitalizations, corporate carve-outs, restructurings, preferred equity, strategic debt
-- **Company Size**: Middle market companies (primarily US and Canada)
-- **Sectors**: 
-  - Business Services
-  - Software & Technology
-  - Industrials & Manufacturing
-  - Healthcare
-  - Consumer Products & Services
-  - Tech-Enabled Services
-  - Financial & Insurance Services
-  - Industrial Distribution
-  - Aerospace & Defense
 
-## Leadership Team
+- Business Services
+- Tech-Enabled Services  
+- Industrial & Infrastructure Services
+- Consumer Products & Services
+- Healthcare
+- Software (Vertical SaaS, B2B)
 
-### Executive Leadership
-- **Bret Wiener** - Founder & CEO
-  - **Email**: bwiener@gemspring.com ✅ (verified RocketReach 2026-03-31)
-  - 175+ acquisitions across career
-  - Previously Managing Director at H.I.G. Capital (11 years)
-  - Stanford MBA, NYU BS (summa cum laude)
+## Transaction Types
 
-### Key Contacts (Verified)
+- Corporate Carve-outs / Divestitures
+- Growth Equity
+- Leveraged Buyouts
+- Preferred Equity
+- Recapitalizations
+- Restructurings
+- Strategic Debt
+- Structured Equity
 
-- **Clay Cole** - Managing Director
-  - **Email**: clay@gemspring.com ✅
-  - **Focus**: Business Services, Automotive, Financial & Insurance Services
-  - Previously Managing Director at A&M Capital Opportunities
-  - Former roles: General Catalyst Partners, H.I.G. Capital, Stephens Inc.
+## Investment Criteria
 
-### Other Managing Directors
-- D.J. Andrzejewski (Software focus)
-- Hart Callahan (Software, Tech-Enabled Services)
-- Michael Fan (Technology sector)
-- Charlie Fraas (Head of Portfolio Operations, 25+ years transformation experience)
-- Alex Funk (Industrial Distribution, Education, Aerospace & Defense)
-- Karthik Ganapathi (Portfolio Operations, AI-enabled operations, SaaS transformation)
-- Aron Grossman (Co-Head of Investments)
-- Courtney Hamlin (Investor Relations & ESG)
-- Chirag Hirawat (Healthcare focus)
-- Zubin Malkani (Co-Head of Investments, Technology Services)
-- Michael McCulloch (Head of Research)
-- Kal Mukherjee (Portfolio Operations)
-- Martin Mumford (Portfolio Operations)
-- James Nouss (Portfolio Operations)
-- Connor O'Byrne (Business Development)
-- Matt Reibl (CFO)
-- Jay Reynolds
-- Karl Rodger (Business Development)
-- John Ross (Industrials focus)
-- Alex Shakibnia (Business Services, Industrial & Infrastructure Services)
-- Matt Shuman (Head of Business Development)
-- Erich Sorger (Media & Marketing Services)
-- Steven Spencer (General Counsel)
-- Kristin Steen (Consumer Products & Services, Business Services, Residential Services)
-- Glenn Stevens (Head of Portfolio Talent, 30+ years talent management)
-- Jack Tucker (COO, Investor Relations, ESG, Business Development, Recruiting)
-- Mathew Wallace (Industrials, Aerospace, Defense & Government)
-- Dave Welinsky (Head of Capital Markets)
+- Headquartered primarily in United States and Canada
+- Growth-oriented middle market companies
+- Partnership approach with management teams
+- Flexible capital solutions
+- Operational improvement focus
 
-## Portfolio Operations Strength
-Gemspring has a **dedicated Portfolio Operations team** with deep expertise in:
-- Operational transformation
-- AI-enabled operations and SaaS/XaaS transformation (Karthik Ganapathi)
-- Commercial effectiveness and M&A integration
-- Value creation and strategic planning
-- Portfolio talent management (Glenn Stevens, ex-Apollo)
+## Key Contacts
 
-## Culture & Values
+### **Clay Cole** - Managing Director, Business Services
+- **Email:** clay@gemspring.com (verified on official website)
+- **Focus:** Business Services, Automotive, Financial & Insurance Services
+- **Experience:** 15+ years partnering with founders and management teams
+- **Prior:** Managing Director at A&M Capital Opportunities (AMCO), General Catalyst Partners, H.I.G. Capital, Stephens Inc.
+- **Board Experience:** Crash Champions, Heartland Business Systems, Champion Optical Network Engineering, CLEAResult Consulting, Envoy Global
+- **Education:** BS in Industrial Engineering, University of Arkansas
+
+### Other Senior Leadership
+
+**Bret Wiener** - Founder & CEO  
+- Founded Gemspring in 2015
+- Previously Managing Director at H.I.G. Capital (11 years)
+- 175+ acquisitions over career
+- Education: BS summa cum laude NYU, MBA Stanford
+
+**Zubin Malkani** - Co-Head of Investments, Managing Director  
+- Focus: Technology Services
+- Previously Managing Director at CI Capital Partners
+- Prior: GTCR, Goldman Sachs
+
+**Aron Grossman** - Co-Head of Investments, Managing Director  
+- Previously Principal at Rho Capital ($1.4B tech-focused PE)
+- Founder/CEO of Cleanshelf (software expense management)
+- Prior: Tailwind Capital, Houlihan Lokey
+
+**Alex Shakibnia** - Managing Director  
+- Focus: Business Services, Industrial & Infrastructure Services
+- Previously: Friedman Fleischer and Lowe (SF-based middle market PE)
+- Prior: Credit Suisse investment banking
+- Boards: A10 Capital, Airswift, Security 101
+
+**Kristin Steen** - Managing Director  
+- Focus: Consumer Products & Services, Business Services, Residential Services
+- Previously Managing Director at CCMP Capital
+- Boards: Bradford, Creative Labs
+- Prior: Lone Star Funds, HBK Capital Management
+
+## Portfolio Operations Team
+
+Strong operational focus with dedicated Managing Directors for portfolio operations:
+- Charlie Fraas - Head of Portfolio Operations (25+ years transformation experience)
+- Karthik Ganapathi - Portfolio Operations (SaaS/XaaS transformation, AI-enabled ops)
+- Kal Mukherjee - Portfolio Operations (Previously Operating Partner at Apollo)
+- Martin Mumford - Portfolio Operations (Previously Angeles Equity Partners)
+- James Nouss - Portfolio Operations (Previously TowerBrook Capital Partners)
+
+## Business Development Team
+
+- Connor O'Byrne - Managing Director, Business Development
+- Matt Shuman - Managing Director, Head of Business Development  
+- Karl Rodger - Managing Director, Business Development
+- Kelsey Curtis - Director, Business Development
+- Conor McNamara - Vice President, Business Development
+- Arjun (AJ) Singh - Director, Business Development (Software focus)
+
+## Investment Team Size
+
+~30+ investment professionals across Managing Directors, Principals, Vice Presidents, Directors, and Associates.
+
+## Culture & Approach
+
+"We are entrepreneurs, problem solvers, and resources for whatever needs to get done."
+
+Core values:
 - Collaboration and partnership
 - Analytical rigor and intellectual honesty
 - Integrity and lasting impact
-- Hands-on approach to drive growth and operational excellence
-- Entrepreneurs and problem solvers
 
-## Investment Approach
-- Flexible capital solutions
-- Partner with talented management teams
-- Identify actionable opportunities for growth and operational improvement before investing
-- Remove structural complexities and barriers
-- Focus on:
-  - Investing in talent and infrastructure
-  - Expanding into new markets
-  - Optimizing operations
-  - Strategic and transformational acquisitions
+## Why Target Gemspring?
 
-## Why Gemspring is a Good Target for Hello Gumbo
-1. **Strong Operations Focus**: Dedicated Portfolio Operations team with 6+ Managing Directors focused on transformation
-2. **Technology Forward**: Portfolio Ops team includes AI/SaaS transformation expertise (Ganapathi)
-3. **Active Deal Flow**: 175+ acquisitions across founder's career, 75+ portfolio companies managed
-4. **Service-Heavy Portfolio**: Business services, tech-enabled services, financial services focus
-5. **Verified Contact**: Clay Cole email published (clay@gemspring.com)
-6. **Team Size**: 40+ professionals = need for operational support tools/services
-7. **Growth Stage**: $1.1B AUM indicates active deployment and portfolio support needs
+1. **Perfect AUM fit:** $3.5B places them squarely in target mid-market range
+2. **Business services focus:** Explicit sector coverage with dedicated MD (Clay Cole)
+3. **Flexible capital solutions:** Multiple transaction structures, not just traditional LBOs
+4. **Operational approach:** Hands-on value creation, not just financial engineering
+5. **Growth orientation:** Partnership approach, not purely cost-cutting
+6. **Published contact:** Clay Cole's email verified on official team page
 
-## Outreach Strategy
-- **Primary Contact**: Clay Cole (Managing Director, Business Services focus)
-- **Pitch Angle**: Operational efficiency tools for portfolio companies, AI-enabled workflows
-- **Value Prop**: Support for portfolio operations team's transformation initiatives
-- **Timing**: Active in market, strong 2026 deployment expected per industry trends
+## Outreach Angle
 
-## Sources
-- Company website: https://gemspring.com
-- Team bios verified: 2026-03-31
-- Email verified: Published on website team page
+Gumbo's AI-driven operational intelligence platform aligns perfectly with Gemspring's hands-on, operational improvement approach. Their portfolio operations team and growth focus make them ideal for AI-enabled efficiency gains.
+
+**Personalization for Clay Cole:**
+- Focus on business services portfolio companies
+- Mention operational improvement / growth acceleration
+- Reference their flexible capital approach
+- Highlight tech-enabled services investments
 
 ---
-**Research Date**: 2026-03-31  
-**Status**: Ready for outreach  
-**Priority**: High (verified contact + strong ops focus)
+
+**Source:** Official website (gemspring.com/team), verified 2026-04-02  
+**Added to CRM:** 2026-04-02 (Row 1901)  
+**Status:** Enriched - Ready for outreach

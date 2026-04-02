@@ -1,18 +1,25 @@
 # Petrichor Healthcare Capital Management
 
 ## Overview
-- **Headquarters:** Location TBD
-- **Focus:** Healthcare investments with customized structures
-- **Website:** https://www.petrichorcap.com (assumed)
+- **Headquarters:** New York, NY
+- **Focus:** Lower Middle-Market Healthcare Services
+- **Website:** https://www.petrichorcap.com
 - **Email Domain:** @petrichorcap.com
+- **Type:** Private Equity - Healthcare Services Specialist
 
 ## Leadership
 
 ### Tadd S. Wessel
-- **Title:** Managing Partner
+- **Title:** Founder and Managing Partner
 - **Email:** twessel@petrichorcap.com (INFERRED - pattern based on firm structure)
-- **Source:** Crunchbase company profile
-- **Background:** Listed as Managing Partner with focus on healthcare investment strategies
+- **LinkedIn:** https://www.linkedin.com/in/tadd-wessel-2b430531/
+- **Education:** Princeton University
+- **Background:**
+  - Founded Petrichor Healthcare Capital Management
+  - 30+ years experience in healthcare finance
+  - Board member: ICPO Foundation Board of Curators (International Centers for Precision Oncology)
+- **Source:** Official petrichorcap.com team page, Bloomberg profile, ICPO Foundation press release (May 2022)
+- **Notes:** Title verified from multiple official sources. Email pattern inferred, not published on official sources.
 
 ### Patrick Lally
 - **Title:** Partner
@@ -33,11 +40,16 @@
 - **Examples:** twessel@petrichorcap.com, plally@petrichorcap.com
 
 ## Research Notes
-- **Last Updated:** 2026-04-01
-- **Research Status:** Enriched - Limited public information available
-- **Verification Needed:** HIGH - Both emails are inferred, no official contact page found
-- **Data Quality:** Medium - Firm exists but limited web presence
-- **Source:** Crunchbase, RocketReach partial data
+- **Last Updated:** 2026-04-02 17:55 CST (Cron: PE Research & Enrichment)
+- **Research Status:** Enriched - Title and firm confirmed, email needs verification
+- **Verification Needed:** Email only - title and background verified from official sources
+- **Data Quality:** High for firm/title info, Medium for email
+- **Sources:** 
+  - Official website: petrichorcap.com/team
+  - Bloomberg: Tadd S Wessel profile
+  - ICPO Foundation press release (May 25, 2022)
+  - LinkedIn: company + personal profile
+  - Apollo API: No results returned (small firm, not in database)
 
 ## Next Steps for Enrichment
 1. Verify firm website and official contact information
