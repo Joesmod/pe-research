@@ -7,6 +7,13 @@
 
 ## Key Contacts
 
+### Thad Jones ⭐ PRIMARY CONTACT
+- **Title:** Senior Partner
+- **Email:** Not publicly verified (Domain: @qc-inc.com)
+- **LinkedIn:** https://www.linkedin.com/in/thad-jones-0ba3367/
+- **Profile:** https://www.quadcmanagement.com/team-member/thad-jones/
+- **Background:** Joined Quad-C in 1998. Leads investment activity in specialty distribution and building products/services sectors. Prior experience at Robinson-Humphrey and Croft & Bender in corporate finance.
+
 ### Terry Daniels
 - **Title:** Founder & Chairman
 - **Email:** Not published (Generic: NewDeals@qc-inc.com, Info@qc-inc.com)

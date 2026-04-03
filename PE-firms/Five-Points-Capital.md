@@ -9,9 +9,11 @@
 - **Strategy**: Flexible private debt and equity capital solutions
 
 ## Key Contact
-- **Name**: Whit Edwards
+- **Name**: Whit Edwards ⭐ PRIMARY CONTACT
 - **Title**: Managing Partner
-- **Profile**: https://www.fivepointscapital.com/our-team/
+- **Email**: Not publicly verified (Domain: @fivepointscapital.com)
+- **LinkedIn**: https://www.linkedin.com/in/whit-edwards-5199807967
+- **Profile**: https://www.fivepointscapital.com/team/whit-edwards/
 
 ## Additional Leadership
 - Jonathan Blanco - Managing Partner

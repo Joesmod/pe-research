@@ -8,8 +8,11 @@
 - **Mission**: "Powering National Security Innovation"
 
 ## Key Contact
-- **Name**: Devin Talbott
+- **Name**: Devin Talbott ⭐ PRIMARY CONTACT
 - **Title**: Founder & CEO
+- **Email**: Not publicly verified (Domain: @enlightenment-cap.com)
+- **LinkedIn**: https://www.linkedin.com/in/devin-talbott-2630852098
+- **Profile**: https://enlightenment-cap.com/people/
 - **Background**: 
   - Founded Enlightenment Capital
   - Previously: VP at D.E. Shaw (established DC office, built defense/gov vertical)
@@ -18,7 +21,6 @@
 - **Education**: BA Law & Spanish (Amherst, magna cum laude), JD & MBA (Georgetown)
 - **Other Roles**: Owner of D.C. United & DC Power, former owner Washington Spirit
 - **Recognition**: M&A Advisor "40 Under 40", Washingtonian Tech Titan, WBJ Power 100
-- **Profile**: https://enlightenment-cap.com/people/
 
 ## Senior Team
 - **Jason Rigoli** - Partner (formerly LLR Partners Principal, Monument Capital, White Oak)

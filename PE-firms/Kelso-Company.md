@@ -15,11 +15,14 @@
 - **Education**: MBA from Stanford, Duke BA
 - **Current Boards**: J.S. Held, Premia Re, ReSource Pro, Savant, Somers Re, WilliamsMarston
 
-- **Name**: Frank Loverro
+- **Name**: Frank Loverro ⭐ PRIMARY CONTACT
 - **Title**: Co-Chief Executive Officer
+- **Email**: Not publicly verified (Domain: @kelso.com)
+- **LinkedIn**: https://www.linkedin.com/in/frank-loverro-1843441467
 - **Profile**: https://www.kelso.com/team/frank-loverro
-- **Background**: Joined 1993
+- **Background**: Joined 1993, spent 3 years in Private Equity Investment group at First Boston
 - **Education**: BA Economics from UVA (1991)
+- **Current Boards**: Valenz, Zenith Energy
 
 ## Investment Focus
 - Financial services (co-led by Collins & Dutton)

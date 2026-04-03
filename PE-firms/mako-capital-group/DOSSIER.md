@@ -1,10 +1,10 @@
 # Mako Capital Group
 
 ## Key Contact
-- **Name:** Angel Morales
+- **Name:** Angel Morales ⭐ PRIMARY CONTACT
 - **Title:** Founding Partner ("Institutional Investor")
-- **Email:** (not published yet - likely info@makocapitalgroup.com or angel@makocapitalgroup.com)
-- **LinkedIn:** TBD
+- **Email:** Not publicly verified yet (likely @makocapitalgroup.com)
+- **LinkedIn:** https://www.linkedin.com/in/angel-morales-b54235
 - **Background:** 30+ years PE experience, ex-Founding Partner Morales Capital, Co-Head BAML Capital Partners, managed $6B+ in assets
 
 ## Alternate Contacts
