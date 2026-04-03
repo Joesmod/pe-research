@@ -2,46 +2,58 @@
 
 ## Key Contact
 - **Name:** Joe Benavides
-- **Title:** CEO and Founder
-- **Email:** jbenavides@oceansoundpartners.com
-- **LinkedIn:** https://www.linkedin.com/in/joe-benavides-02393956/
+- **Title:** CEO & Founder
+- **Email:** info@oceansoundpartners.com
+- **LinkedIn:** (search oceansoundpartners.com/team-members/)
+
+## Alternate Contacts
+- **Ted Coons:** President & Co-Founder
+- **Jeff Kelly:** Partner & Co-Founder
+- **Ariel Garcia:** Partner
+- **Addison Nordin:** Partner
+- **Ted Shanahan:** Partner
+- **David Stein:** Partner
 
 ## Firm Details
-- **Status:** Enriched
 - **Website:** https://oceansoundpartners.com
-- **Focus:** Technology & Tech-Enabled Services (Government & Enterprise)
-- **Location:** New York, NY
-- **Enriched:** 2026-04-03
+- **Location:** New York (450 Park Avenue, Floor 22) & West Palm Beach (180 Lakeview Ave, Floor 22)
+- **Founded:** 2019
+- **Fund:** Fund III - $3.4 billion raised (announced April 2, 2026 - 18 hours ago!)
+- **Status:** Research (general inquiry email)
+- **Source:** Middle Market Growth, official website
+- **Enriched:** 2026-04-03 (cron job)
 
-## Overview
-New York-based private equity firm that pursues control investments in technology and technology-enabled services companies serving government and enterprise end markets. Founded by Joe Benavides, who brings extensive PE experience from Veritas Capital and The Blackstone Group.
+## Investment Focus
+- **Sector:** Technology, Tech-Enabled Services for Aerospace, Defense, Government, Highly Regulated Enterprise
+- **Stage:** Middle-market
+- **Strategy:** Partnering with founders/entrepreneurs, hands-on approach, continuous improvement philosophy
+- **Market:** North America
 
-## Focus Areas
-- Technology
-- Tech-Enabled Services  
-- Aerospace
-- Defense
-- Government Services
+## Background
+- Launched 2019 to focus on middle-market technology businesses
+- Team has decades of experience investing in and operating companies in core markets
+- Philosophy: Building market-leading companies through partnership with management teams
+- Culture: Humility, integrity, respect as core tenets
+- Just announced massive $3.4B Fund III raise (April 2, 2026)
 
-## Founder Background
-Joe Benavides was formerly:
-- Partner at **Veritas Capital**
-- Managing Director at **The Blackstone Group**
-- Earlier career at Credit Suisse First Boston and Donaldson, Lufkin & Jenrette
+## Team Structure
+- **Investment Professionals:** CEO, President, Partners, Principals, VPs, Associates
+- **Portfolio Ownership Group:** Dedicated team for value creation
+- **Capital Markets & Investor Relations**
+- **Executive Partners:** Doug Milner, Larry Sala
 
-## Investment Thesis
-OceanSound targets control investments in companies serving:
-- Government end markets
-- Enterprise customers
-- Focus on technology and technology-enabled services
+## Notes
+Major momentum with $3.4B Fund III announced April 2, 2026. Focused on tech-enabled services in aerospace/defense/government markets - strategic alignment with federal spending and regulated industries. General contact email is info@oceansoundpartners.com. Individual partner emails not published on website. Phone: NYC (212) 433-3050, West Palm Beach (561) 500-3050.
 
-## Team Culture
-According to their website: "Our backgrounds are diverse, but we have a common purpose: building market-leading companies by partnering with great management teams. We are relentless in our support of our portfolio companies. While we play to win, we also seek to create a culture, in which humility, integrity, and respect..."
-
-## Research Notes
-Email pattern verified via RocketReach (firstinitial+lastname@oceansoundpartners.com). Joe Benavides has deep relationships in government/defense tech sectors from Veritas Capital background. Strong enterprise and government market positioning.
+## Research Log
+- **2026-04-03:** Initial enrichment via web search and official sources
+  - Fund III raise ($3.4B) announced April 2, 2026
+  - Website confirmed: oceansoundpartners.com
+  - Team structure verified (3 founders + multiple partners)
+  - Contact: General inquiry email (info@oceansoundpartners.com)
+  - Next steps: Monitor for individual contact emails or use general inquiry
 
 ---
-**Last Updated:** 2026-04-03  
-**Source:** OceanSound Partners website + RocketReach + LinkedIn  
-**Enrichment:** Initial dossier created with founder contact (2026-04-03)
+**Last Enrichment:** April 3, 2026
+**Method:** Middle Market Growth article + official website
+**Status:** Research - general contact only, individual emails not published

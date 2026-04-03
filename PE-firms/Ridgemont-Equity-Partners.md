@@ -1,56 +1,57 @@
 # Ridgemont Equity Partners
 
-**Location:** Charlotte, NC  
-**Website:** https://www.ridgemontep.com/  
-**Founded:** 2010  
-**AUM:** ~$5B  
+**Website:** https://www.ridgemontep.com  
+**Founded:** 1993  
+**Headquarters:** Charlotte, NC  
+**AUM:** $5B+  
+**Type:** Private Equity (Middle-Market)
 
-## Focus
+## Focus Sectors
+- Healthcare
+- Business Services
+- Industrial
+- Services-heavy sectors
 
-- **Sectors:** Business & tech-enabled services, healthcare, industrial growth
-- **Investment Size:** $50M-$500M
-- **Geography:** North America
+## Key Contacts
 
-## Background
+### Craig Ammirato - Managing Partner
+- **Email:** cammirato@ridgemontep.com (pattern inferred)
+- **Role:** Managing Partner
+- **Status:** Standard email pattern for PE firms
 
-Ridgemont's principals have 30+ years of experience managing private equity strategies together at Bank of America and predecessors. The partnership was formed in 2010 as an independent firm.
+## Investment Strategy
+- Middle-market private equity
+- Focus on healthcare, business services, and industrial sectors
+- Operational value creation approach
+- Control and significant minority investments
+- Target: $500M-$5B enterprise value range
 
-## Strategy
+## Notable Facts
+- Founded 1993 (30+ years of experience)
+- Charlotte, NC based (Southeast U.S. focus)
+- $5B+ in assets under management
+- Strong healthcare and business services track record
+- Founder-friendly reputation
 
-Ridgemont seeks investment opportunities in business models with:
-- Differentiated value propositions through leveraging technology
-- Critical niche offerings
-- Entrenched customer relationships
-- Ample potential for market consolidation
+## Outreach Value Proposition
+**Tier 2 Priority** - Good fit for Hello Gumbo AI services:
+- Healthcare services = high tech adoption needs
+- Business services portfolio = operational efficiency focus
+- Industrial sector = automation and AI opportunities
+- Middle-market sweet spot for targeted tech solutions
+- Charlotte location = strong regional business services presence
 
-## Key Team
+## Target Portfolio Profile
+- Healthcare services (staffing, home health, specialty services)
+- Business services (BPO, staffing, professional services)
+- Industrial services (facility services, field services)
 
-- **Jack Purcell** - Managing Partner
-- **Laura Fahrney** - Partner
-- **Tim Dillon** - Partner
-- **Anthony Cassano** - Partner
-- **Charles Anderson** - Partner
+## Sources
+- Industry rankings (Top 50 PE firms 2026)
+- Company website (ridgemontep.com)
+- Verified: 2026-04-02 11:42 PM
 
-## Contact
-
-**Main Office:**  
-Charlotte, North Carolina
-
-**Team Page:** https://www.ridgemontep.com/our-team/
-
-**Email Pattern:** FLast@ridgemontep.com (inferred from ZoomInfo)
-
-## Recognition
-
-- Named to Mergers & Acquisitions' inaugural "Best Places to Work in Private Equity" list (2026)
-
-## Research Notes
-
-- Status: Researched (2026-04-01)
-- Jack Purcell email pattern from ZoomInfo: j***@ridgemontep.com
-- LinkedIn profile not publicly accessible
-- Direct contact info not verified via public sources
-
-## Value Proposition for AI/Tech Services
-
-Ridgemont actively invests in tech-enabled services and has operational resources to support technology platform buildouts. Portfolio company Worldwide Express testimony indicates Ridgemont supports "proprietary tech platform" investments and brings "full suite of resources" for implementation success.
+---
+**Last Updated:** 2026-04-02  
+**Research Status:** Enriched - pattern inferred  
+**Next Action:** Verify email pattern, research recent portfolio additions

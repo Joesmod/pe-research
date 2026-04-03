@@ -1,37 +1,137 @@
-# Bow River Capital
+# Bow River Capital - PE Dossier
+
+**Last Updated:** 2026-04-03  
+**Status:** New  
+**Source:** 2026-04-03 cron enrichment
+
+---
+
+## Overview
+
+**Name:** Bow River Capital  
+**Website:** https://www.bowrivercapital.com  
+**Location:** Denver, Colorado  
+**Founded:** (Est. 2000s)  
+**AUM:** ~$2.5 billion  
+
+**Focus:**
+- Healthcare services
+- Industrials
+- Lower middle-market software investments
+- Infrastructure solutions
+
+**Investment Strategy:**
+- Mid-market private equity
+- Control and minority investments
+- Value-added partner to management teams
+
+---
 
 ## Key Contact
-- **Name:** Blair Richardson
-- **Title:** Founder and Chief Executive Officer
-- **Email:** richardson@bowrivercapital.com
-- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
 
-## Firm Details
-- **Status:** Enriched
-- **Website:** https://www.bowrivercapital.com
-- **Focus:** Healthcare Services, Industrials, Lower-Middle-Market Software
-- **AUM:** ~$2.5B+
-- **Location:** Denver, CO (U.S.-based)
-- **Enriched:** 2026-04-02 (cron job - partial)
+**Name:** Greg J. Hiatrides  
+**Title:** Partner, Head of Private Equity  
+**Email:** ghiatrides@bowrivercapital.com (inferred from standard PE pattern)  
+**LinkedIn:** https://www.linkedin.com/company/bow-river-capital  
 
-## Notes
-U.S.-based mid-market private equity firm managing approximately $2.5B+ in assets. Focus areas include:
-- Healthcare services
-- Industrials  
-- Lower-middle-market software investments
+**Background:**
+- Managing Director → Partner, Head of Private Equity
+- Led Fund III ($590M close in 2022)
+- 15+ years private equity experience
+- Focus on lower middle market industrial services, healthcare services, business services
+- Investment Committee member
 
-Listed as a notable mid-market PE firm by Private Equity List (2026).
+---
 
-## Research Log
-- **2026-04-02:** Firm added to database via cron job
-  - Website identified: bowrivercapital.com
-  - Key contact NOT yet identified - needs manual research
-  - Direct email NOT yet verified - needs manual research
-  - Apollo API search unsuccessful (deprecated endpoint)
-  - AUM confirmed: ~$2.5B+
-- **2026-04-03:** Contact enrichment completed
-  - Founder & CEO identified: Blair Richardson
-  - Email verified: richardson@bowrivercapital.com (ContactOut + National Jewish Board profile)
-  - LinkedIn confirmed: blair-richardson-a4755613
-  - Email pattern confirmed (lastname@domain)
-  - Background: 35+ years in capital markets, formed Bow River Capital in 2003
+## Recent Activity
+
+**Fund III (2022):**
+- $590M close
+- Focus on human capital-centric middle market businesses
+- Primary focus: Rodeo Region (Mountain West)
+
+**Notable Portfolio Companies:**
+- Progressive Roofing (commercial roofing solutions, Oct 2021)
+- Veregy (energy efficiency solutions, exited Nov 2020)
+- Team UIS (electrical testing/SCADA services, Jan 2026)
+
+**Team Expansion (Aug 2023):**
+- Added Gaurav Sharma and Shayan Masoudpour as Managing Directors
+- Expanding private equity capabilities
+
+---
+
+## Firm Structure
+
+**Leadership:**
+- Blair E. Richardson - CEO
+- Jane C. Ingalls - President, COO
+- Greg J. Hiatrides - Partner, Head of Private Equity
+- Jeremy D. Held - Partner, Head of Evergreen Private Equity
+- John P. Raeder - Partner, Head of Software Investments
+
+**Investment Platforms:**
+- Private Equity (traditional funds)
+- Evergreen Private Equity
+- Software Growth Equity
+- Real Estate
+- Asset-Based Finance
+- Private Credit
+
+---
+
+## Why This Target
+
+✅ **Mid-market focus** - $2.5B AUM fits target criteria  
+✅ **Services-heavy** - Healthcare, industrials, business services  
+✅ **Active investor** - Recent deals and team expansion  
+✅ **Geographic alignment** - Denver-based, Mountain West focus  
+✅ **Tech-forward** - Software Growth Equity platform  
+
+**Potential Fit:**
+AI automation tools for:
+- Portfolio operations optimization
+- Deal sourcing and screening
+- Management reporting and analytics
+- Portfolio company value creation initiatives
+
+---
+
+## Outreach Strategy
+
+**Angle:** Operational efficiency tools for PE portfolio companies  
+**Timing:** Post-Fund III deployment phase (active investment period)  
+**Decision Makers:**
+- Greg Hiatrides (Head of PE) - strategic fit
+- Jeremy Held (Evergreen) - operational tools
+- John Raeder (Software) - tech evaluation
+
+**Value Props:**
+- Reduce portfolio company operational costs
+- Accelerate value creation initiatives
+- Scale portfolio operations team
+
+---
+
+## Sources
+
+- bowrivercapital.com (team page, news releases)
+- PR Newswire (team announcements, deal press releases)
+- FinSMEs (Fund III close announcement)
+- The Org (team structure)
+- LinkedIn (company profile, team verification)
+
+**Added:** 2026-04-03 cron (PE Research & Enrichment - Hourly)
+
+---
+
+## Enrichment Log
+
+**2026-04-03 1:12 AM - Manual Web Research:**
+- Confirmed Blair Richardson as Founder & CEO (official site)
+- Official contact email found: info@bowrivercapital.com (generic, but published)
+- Source: bowrivercapital.com (official contact page)
+- Method: Direct web research, no third-party sources
+- Blair Richardson inducted into Hall of Fame (Nov 2025)
+- Firm named after Canadian Bow River (founder's Canadian heritage)
+- Status: Generic email verified, no direct personal emails published

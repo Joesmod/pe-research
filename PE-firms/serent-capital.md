@@ -1,65 +1,70 @@
 # Serent Capital
 
-**Status:** Enriched (2026-03-29)  
-**AUM:** Not publicly disclosed  
-**Focus:** Software, Tech-Enabled Services, Healthcare IT, HCM  
-**Geography:** Austin, TX / San Francisco, CA
-
----
-
-## Key Decision Maker
-
-**Kevin Frick**  
-- **Title:** Co-Founder & Partner  
-- **Email:** kevin.frick@serentcapital.com ✅ VERIFIED  
-- **LinkedIn:** https://www.linkedin.com/company/serent-capital  
-- **Source:** Official serentcapital.com HCM page (published 2024-04-11)
-
-**Verification Note:** Email VERIFIED from official Serent Capital website (HCM investment page). Direct link to source: https://serentcapital.com/a-trusted-human-capital-management-technology-investor/
-
----
-
-## Firm Profile
-
-**Founded:** 2008  
-**Headquarters:** Austin, TX (additional office in San Francisco, CA)  
 **Website:** https://serentcapital.com  
-**Investment Focus:**
-- Software & SaaS
-- Tech-Enabled Services
-- Healthcare Information Technology
-- Human Capital Management (HCM)
-- Insurance Technology
+**Founded:** 2008  
+**AUM:** $6B+  
+**HQ:** San Francisco, CA + Austin, TX (two offices)  
+**Focus:** Growth equity - B2B software, SaaS, tech-enabled services  
 
-**Investment Stage:** Growth equity, founder-friendly approach  
-**Check Size:** Typically $20M-$100M+  
-**Portfolio Companies:** 50+ investments since inception
+## Investment Criteria
+- **Stage:** Growth equity (founder-led companies)
+- **Sectors:** B2B software, SaaS, tech-enabled services
+- **Geography:** North America focus
+- **Philosophy:** Founder-friendly, partnership-driven, hands-on operational support
+- **Sweet Spot:** Bootstrapped founders at inflection points
 
----
+## Key Contacts
 
-## Contact Strategy
+### Kevin Frick - Co-Founder & Partner
+- **Email:** kevin.frick@serentcapital.com (inferred from ContactOut + Apollo.io)
+- **LinkedIn:** https://www.linkedin.com/in/kevinfrick/
+- **Location:** Austin, TX
+- **Background:** Former McKinsey & Company Partner
+- **Board Roles:** Chairman of Avionté Staffing and Recruiting Software
+- **Education:** Stanford Graduate School of Business (MBA)
 
-**Best Approach:** Email Kevin Frick directly. He leads healthcare, HCM, and insurance tech investments. Serent's website emphasizes their founder-friendly approach and relationship-building focus.
+### Other Leadership
+- Matt Michelet - Partner
+- Tom Miller - Managing Director
+- John Caselli - Partner
+- 25+ person Growth Team (former operators and management consultants)
 
-**Value Proposition Focus:**
-- Tech-enabled healthcare solutions
-- SaaS platforms in healthcare/HCM
-- Founder partnerships (not typical control buyouts)
-- Operational expertise and growth acceleration
+## Unique Value Proposition
+- **25+ Full-Time Operators** in-house Growth Team
+- **1,000+ Proven Software Leaders** in curated network
+- **150+ Platform Investments & Add-Ons** (70+ founder-led companies)
+- **18+ Years** partnering with founders
 
-**Tone:** Collaborative, founder-focused, industry expertise
+## Growth Team Focus Areas
+1. **Go-to-Market:** Sales expansion, partnerships, product marketing, pricing optimization
+2. **Product & AI Innovation:** SaaS expertise, engineering velocity, AI embedding
+3. **Recruiting & Org Design:** Executive network, professional development
+4. **Payments & Embedded Finance:** Revenue expansion, vendor negotiations
+5. **M&A:** Sourcing, financing, integration support
 
----
+## Portfolio Highlights (Active/Recent)
+- **Quorum** (Alex Wirth, Co-Founder & CEO) - Software
+- **CoConstruct** (Donny Wyatt, Founder) - Construction software
+- **PlotBox** (Leona McAllister, Co-Founder & CCO) - Deathcare software
+- **SHR** (Rod Jimenez, Co-Founder) - Hospitality tech
+- **Raintree Systems** (Lorraine Gentz, Co-Founder) - Healthcare software
+- **First Due** (Andreas Huber, Co-Founder & CEO) - Fire/EMS software
+- **Actionstep** (Ted Jordan, Founder) - Legal practice management
+- **Avionté** - Staffing software
 
-## Research Notes
+## Recent Activity
+- Named **Inc. Magazine Founder-Friendly Investor** for 6 consecutive years
+- Active M&A: Restaurant365 acquired Compeat (Serent became shareholder, July 2022)
+- Expanding US market presence for global portfolio companies
 
-- Kevin Frick specifically focuses on tech-enabled businesses across healthcare, HCM, and insurance tech sectors
-- Firm has offices in both Austin (HQ) and San Francisco, indicating bicoastal presence
-- Website features extensive portfolio company testimonials and case studies
-- Founded by veteran PE investors with decades of software/tech experience
-- Known for "founder-friendly" approach - maintains relationships with management teams
-- Research-intensive screening process, focuses on carefully selected target areas each year
+## Why Target Them?
+- **Largest AUM:** $6B across software/services sector
+- **Founder-Centric:** 6-year track record as founder-friendly investor
+- **Operational Depth:** 25+ full-time Growth Team operators
+- **Tech-Enabled Services:** Core focus aligns with Hello Gumbo value prop
+- **Proven Scale:** 70+ companies, 150+ platform + add-on deals
+- **Two Offices:** SF + Austin presence, national reach
 
-**Date Enriched:** 2026-03-29  
-**Enrichment Method:** Manual web research + official website verification  
-**Confidence Level:** HIGH (verified email from official source)
+## Source
+Enriched: 2026-04-02 cron (Jim)
+Email pattern inferred from ContactOut + Apollo.io verification

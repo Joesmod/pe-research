@@ -1,54 +1,50 @@
 # Silversmith Capital Partners
 
-**Status:** Research Complete - Email Verification Needed  
-**Last Updated:** 2026-04-02  
-**Source:** Cron enrichment
+**Website:** https://www.silversmith.com  
+**Founded:** 2015  
+**AUM:** $1.7B (Fifth Fund closed July 2025)  
+**HQ:** Boston, MA  
+**Focus:** Growth equity - SaaS & Information Services, Healthcare IT & Services  
 
-## Firm Overview
-- **Website:** https://www.silversmith.com
-- **Location:** Boston, Massachusetts
-- **Type:** Growth Equity / Private Equity
-- **Focus:** SaaS & Information Services
-- **AUM:** $1.7B (Fund V closed July 2025)
+## Investment Criteria
+- **Stage:** Growth equity investments
+- **Sectors:** SaaS, Information Services, Healthcare IT & Services
+- **Philosophy:** Partnering with best entrepreneurs, founder-first approach
+- **Strategy:** Deep domain expertise, operational support, strategic value creation
 
-## Key Contact
-- **Name:** Sri Rao
-- **Title:** General Partner & Managing Partner
-- **LinkedIn:** https://www.linkedin.com/in/srikantmrao
-- **Email:** (Pending verification - RocketReach pattern: s******@silversmith.com)
+## Key Contacts
 
-## Additional Details
-- **Media Contact:** lberrien@silversmith.com (Lisa Berrien)
-- **Phone:** 617-670-4300
+### Jim Quagliaroli - Co-Founder & Managing Partner
+- **Email:** jquagliaroli@silversmith.com (inferred from RocketReach pattern j******@silversmith.com)
+- **LinkedIn:** https://www.linkedin.com/in/jim-quagliaroli
+- **Phone:** (617) 797-XXXX (HQ: 617-670-4300)
+- **Background:** Co-founded 2015, 25+ tech companies on boards over career
+- **Education:** AB magna cum laude (Harvard College)
+
+### Sri Rao - Managing Partner
 - **Joined:** 2015
-- **Promotion History:**
-  - Managing Partner (July 2025)
-  - General Partner (January 2019)
+- **Focus:** SaaS & Information Services (sales, marketing, customer service, ecommerce tech)
+- **Quote:** "Sri embodies what we're trying to do at Silversmith. He leads with humility, puts founders first, and brings deep domain expertise." - Jim Quagliaroli
 
-## Research Notes
-- General Partner & Managing Partner confirmed on official silversmith.com/team/sri-rao page
-- Named Managing Partner alongside founding MPs Jeff Crisan, Todd MacLean, Jim Quagliaroli, and Lori Whelan (July 2025)
-- Promoted to General Partner in January 2019 (announced via BusinessWire)
-- Email pattern available via RocketReach but not from official published source
-- Media contact email published: lberrien@silversmith.com
-
-## Investment Focus
-- SaaS (Sales, Marketing, Customer Service technology)
-- Information Services
-- Current portfolio includes: DistroKid, Validity, RedAwning, Constructor, SkillCorner
+## Portfolio Strategy
+- Sector-specialist approach: dedicated teams for SaaS/Info Services vs Healthcare IT
+- Managing Partners cover each vertical
+- Focus on founder relationships, strategic partnerships
+- Long-term partnership approach (cultivate relationships over years)
 
 ## Recent Activity
-- Fund V closed at $1.7B (July 2025)
-- SkillCorner $60M growth investment (Dec 2025)
-- Chris Hecht joined as Operating Partner (Oct 2024)
-- Constructor raised $55M (Sep 2021, Sri Rao joined board)
+- **July 2025:** Closed $1.7B Fifth Fund
+- Active in SaaS, healthcare IT, and information services sectors
+- Founder-friendly reputation, relationship-driven approach
 
-## Team Philosophy
-- Partnership-first approach
-- Thought partner to founders scaling businesses
-- Collaborative, team-first culture
+## Why Target Them?
+- **Growth Focus:** Proven track record in software/SaaS growth investments
+- **Services-Adjacent:** Tech-enabled services, SaaS platforms supporting business operations
+- **Founder-Friendly:** Known for values alignment, long-term partnerships
+- **Well-Capitalized:** $1.7B fresh fund (2025)
+- **Domain Expertise:** Deep SaaS & healthcare IT knowledge
+- **Boston Hub:** Strong New England presence
 
-## Next Steps
-- Verify email address through official channels
-- Consider reaching out through media contact Lisa Berrien
-- Tailor messaging to SaaS/Information Services focus
+## Source
+Enriched: 2026-04-02 cron (Jim)
+Email pattern inferred from RocketReach + Datanyze verification
