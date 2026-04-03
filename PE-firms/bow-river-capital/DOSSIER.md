@@ -1,13 +1,13 @@
 # Bow River Capital
 
 ## Key Contact
-- **Name:** [To be identified]
-- **Title:** Managing Partner
-- **Email:** [Manual research needed]
-- **LinkedIn:** [To be found]
+- **Name:** Blair Richardson
+- **Title:** Founder and Chief Executive Officer
+- **Email:** richardson@bowrivercapital.com
+- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
 
 ## Firm Details
-- **Status:** Needs Enrichment
+- **Status:** Enriched
 - **Website:** https://www.bowrivercapital.com
 - **Focus:** Healthcare Services, Industrials, Lower-Middle-Market Software
 - **AUM:** ~$2.5B+
@@ -29,3 +29,9 @@ Listed as a notable mid-market PE firm by Private Equity List (2026).
   - Direct email NOT yet verified - needs manual research
   - Apollo API search unsuccessful (deprecated endpoint)
   - AUM confirmed: ~$2.5B+
+- **2026-04-03:** Contact enrichment completed
+  - Founder & CEO identified: Blair Richardson
+  - Email verified: richardson@bowrivercapital.com (ContactOut + National Jewish Board profile)
+  - LinkedIn confirmed: blair-richardson-a4755613
+  - Email pattern confirmed (lastname@domain)
+  - Background: 35+ years in capital markets, formed Bow River Capital in 2003

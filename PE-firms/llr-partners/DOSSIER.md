@@ -11,12 +11,19 @@
 - Fintech
 - Tech-Enabled Services
 
-## Primary Contact
-- **Name:** Howard Ross
+## Primary Contacts
+
+### Howard Ross
 - **Title:** Partner
 - **Email:** hross@llrpartners.com
 - **Phone:** (215) 717-2901
 - **LinkedIn:** https://www.linkedin.com/in/howard-ross-a25524b7/
+
+### Sasank Aleti
+- **Title:** Partner
+- **Email:** saleti@llrpartners.com
+- **LinkedIn:** https://www.linkedin.com/in/sasankaleti/
+- **Focus:** Healthcare, benefits, and HR technology sectors
 
 ## Overview
 Philadelphia-based lower middle-market growth capital PE firm founded in 1999. $6B+ AUM. Focus: software, healthcare IT, fintech, tech-enabled services. Known for operating expertise and value creation.
@@ -25,5 +32,6 @@ Philadelphia-based lower middle-market growth capital PE firm founded in 1999. $
 Email pattern verified via RocketReach (first+last@llrpartners.com). Partner with 20+ years PE experience. Other contacts: Ann Brophy (Sr Director BD, abrophy@llrpartners.com), Emily Oakes (Marketing, eoakes@llrpartners.com).
 
 ---
-**Last Updated:** 2026-04-01  
-**Source:** Official website + RocketReach + LinkedIn
+**Last Updated:** 2026-04-03  
+**Source:** Official website + RocketReach + LinkedIn + ContactOut  
+**Enrichment:** Added Sasank Aleti contact (2026-04-03)
