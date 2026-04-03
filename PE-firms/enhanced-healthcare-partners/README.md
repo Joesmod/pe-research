@@ -1,72 +1,73 @@
 # Enhanced Healthcare Partners
 
-**Last Updated:** 2026-03-30 3:15 PM CST (initial dossier created)
+## Overview
+Enhanced Healthcare Partners is a private equity firm focused exclusively on the healthcare sector. The firm partners with family and founder-run businesses to provide capital, strategic guidance, and operational support.
 
-## Firm Overview
+## Key Information
+- **Website:** https://www.enhancedhealthcare.com
+- **Location:** Santa Monica, California
+- **Address:** 233 Wilshire Blvd Suite 750, Santa Monica, CA 90401
+- **Phone:** (929) 242-5196
+- **General Email:** ehp@enhancedhealthcare.com
+- **Focus:** Healthcare-focused private equity
+- **Investment Type:** Control investments, minority investments
+- **Geography:** United States
 
-**Website:** https://www.enhancedhealthcare.com  
-**Founded:** ~2000s (exact date TBD)  
-**Headquarters:** Santa Monica, CA  
-**AUM:** ~$1 billion  
+## Investment Focus
+- Healthcare services
+- Healthcare IT
+- Healthcare technology
+- Middle-market healthcare opportunities
 
-**Investment Focus:**
-- Healthcare services EXCLUSIVELY
-- Middle-market healthcare companies
-- Minority and control investments
-- Founder and entrepreneur-led businesses
+## Leadership Team
 
-## Firm Highlights
+### General Partners
+- **Matthew Thompson** - General Partner
+- **Samarth Chandra** - General Partner
+- **Malcolm Kostuchenko** - General Partner
 
-**By the Numbers:**
-- **10** Active Portfolio Companies
-- **55%+** Average Revenue Growth
-- **1** Industry Focus (Healthcare Only)
+### Other Partners
+- **Victoria Konfong** - CFO & CCO
+- **Brandon Einstein, M.D.** - Partner
+- **Won Park** - Partner
 
-**Investment Strategy:**
-- Investment size: $10-50 million+ over portfolio life
-- Flexible investment approach (minority or control)
-- Focus on organizational development, culture, and growth
-- Value creation through operational improvements
+### Principals
+- Jeffrey Chen - Principal
+- Ross Fine - Principal
+- Sarah Robson - Principal
 
-## Select Portfolio Companies
+### Vice Presidents
+- Anders Soderberg - Vice President
 
-**Active:**
-- Hallmark Health Care Solutions
-- NextCare Urgent Care
-- Vytalize
-- Janus Health Technologies, Inc.
+### Senior Associates
+- Thomas Turchan - Senior Associate
+- Charlie Lesko - Senior Associate
 
-**Realized:**
-- SCA Pharmaceuticals
-- Eventus WholeHealth
-- Synergy Health Partners
+### Associates
+- Joseph Kuehn - Associate
+- Alexander Solomos - Associate
 
-## Key Executives (NEEDS RESEARCH)
+### Analysts
+- Amanda Aldana - Analyst
+- Conor Burns - Analyst
 
-⚠️ **Contact information needed** - Apollo API returned 422 error (firm not in database)
-
-**Recommended Research:**
-1. Check enhancedhealthcare.com/team page
-2. LinkedIn company page
-3. SEC Form ADV filings
-4. Press releases and conference speaker bios
+## Contact for Outreach
+**Primary Contact:** General firm email
+**Email:** ehp@enhancedhealthcare.com
+**Source:** Official website contact page (verified 2026-04-03)
 
 ## Investment Philosophy
+Enhanced Healthcare Partners works hand-in-hand with company leadership to drive intelligent strategy, build great teams, develop lasting operational infrastructure, and assemble meaningful connections. They focus on partnering with companies exclusively in the healthcare sector, emphasizing that providing capital is just the first step.
 
-From their website:
-- Partner with founders and executives to build world-class healthcare organizations
-- Invest in teams, culture, alignment, and differentiation
-- Focus on improving cost, quality, and access to better healthcare
-- 100+ years combined healthcare experience across team
-- Exited investments in 20+ healthcare subsectors
+## Notes
+- Email verified from official contact page
+- Strong healthcare sector focus
+- Experienced team with diverse healthcare expertise
+- Active in healthcare IT and services segments
+- Family and founder-run business focus suggests middle-market orientation
 
-## Research Status
+## Research Date
+2026-04-03
 
-⚠️ **NEEDS ENRICHMENT** (Added 2026-03-30)  
-**Note:** Firm added to CRM but contact details not yet found via Apollo API. Manual research required to find decision-maker contacts with direct email addresses.
-
-**Next Steps:**
-1. Visit team/leadership page on official website
-2. Cross-reference LinkedIn for verified contacts
-3. Check for recent press releases or speaking engagements
-4. Review SEC filings for principal contacts
+## Source
+Official website (enhancedhealthcare.com), team page, contact page
