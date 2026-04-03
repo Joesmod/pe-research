@@ -1,31 +1,27 @@
 # Trivest Partners
 
-## Overview
-- **Location**: Miami, FL (multi-location)
-- **Founded**: 1981
-- **Focus**: Founder-led and family-owned businesses
-- **Website**: https://www.trivest.com
+**Website:** https://www.trivest.com
+**Headquarters:** Coral Gables, FL
+**Founded:** 1981
+**Focus:** Middle market, founder-owned businesses
 
-## Investment Strategy
-Trivest Partners is a founder-led and family-owned businesses private equity firm.
+## Primary Contact
 
-## Key People
+- **Name:** Troy Templeton
+- **Title:** Chairman & Managing Partner
+- **Email:** ttempleton@trivest.com
+- **LinkedIn:** https://www.linkedin.com/in/troy-templeton
 
-### Todd Jerles - Partner, Chief Operating Officer
-  - Partner, Chief Operating Officer
-  - Email: tjerles@trivest.com
-  - LinkedIn: http://www.linkedin.com/in/todd-jerles-3070784
-  - **Source**: Apollo.io verified contact data
+## Key Notes
 
-## Contact Information
-- **Primary Contact**: Todd Jerles (tjerles@trivest.com)
+- One of oldest PE firms in SE USA
+- 40+ years of founder-friendly investing
+- Inc. Magazine Founder-Friendly Investors 2019-2023
+- Email pattern: FLast@trivest.com
+- Frank Hapak: Managing Director
 
-## Research Notes
-- **Date Added**: 2026-03-31
-- **Last Updated**: 2026-03-31 (Hourly PE Research & Enrichment Cron)
-- **Enrichment Status**: Contact verified via Apollo API
-- **Contact Method**: Direct email available
+## Research Metadata
 
-## Sources
-- Apollo.io contact database
-- Company website: https://www.trivest.com
+- **Source:** ContactOut + trivest.com
+- **Enriched:** 2026-04-03
+- **Status:** Enriched - verified contact with direct email
