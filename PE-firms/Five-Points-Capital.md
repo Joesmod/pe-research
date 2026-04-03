@@ -1,71 +1,38 @@
 # Five Points Capital
 
 ## Firm Overview
-- **Website:** https://www.fivepointscapital.com
-- **Founded:** 2006
-- **AUM:** $1.5B+
-- **HQ:** Winston-Salem, North Carolina
-- **Type:** Private Debt & Equity
-- **Focus:** Middle market direct lending and junior capital
-- **Sectors:** Business services, healthcare, consumer, industrial
+- **Website**: https://www.fivepointscapital.com
+- **Location**: Winston-Salem, NC (500 W. 5th Street, Suite 900)
+- **Phone**: (336) 733-0350
+- **Email**: info@fivepointscapital.com
+- **Focus**: Debt and equity capital in the lower middle market
+- **Strategy**: Flexible private debt and equity capital solutions
 
-## Key Contacts
+## Key Contact
+- **Name**: Whit Edwards
+- **Title**: Managing Partner
+- **Profile**: https://www.fivepointscapital.com/our-team/
 
-### Whit Edwards
-- **Title:** Managing Partner
-- **Email:** wedwards@fivepointscapital.com
-- **LinkedIn:** https://www.linkedin.com/in/whit-edwards/
-- **Joined:** 2006
-- **Background:**
-  - Bowles Hollowell Conner (prior experience)
-  - Danaher (Gilbarco Veeder-Root)
-- **Portfolio Focus:** Business services, financial services
-- **Board Seats:** Multiple portfolio companies
-- **Personal:** Based in North Carolina, family-focused
+## Additional Leadership
+- Jonathan Blanco - Managing Partner
+- Brad Burton - Partner
+- Marshall White - Managing Partner
+- Brad Clark - Partner / CFO / CCO
+- Jason Prather - Principal
+- Jeff Tiani - Principal
 
-### Brad Clark
-- **Title:** Managing Partner
-- **Email:** bclark@fivepointscapital.com (pattern-based)
-- **Notes:** Listed on team page
+## Note on Branding
+- Rebranded control equity strategy as "Reynolda Equity Partners" (2022)
+- "Five Points Capital" brand continues for credit strategy
 
-## Email Pattern
-**Pattern:** [first_initial][last]@fivepointscapital.com (100% usage)
-**Examples:** wedwards@fivepointscapital.com
-**Verified:** RocketReach (100% confidence), ZoomInfo
+## Investment Approach
+- Partner with sponsors and management teams
+- Build value and ensure financing certainty
+- Provide incremental capital to support growth
+- Emphasis on commitment, collaboration, character, and community
 
-## Investment Strategy
-- **Deal Size:** $10M - $75M per transaction
-- **Structure:** Unitranche debt, last-out debt, junior capital, minority equity
-- **Approach:** Flexible capital solutions for founder-owned and PE-backed companies
-- **Sweet Spot:** $50M - $500M enterprise value
-
-## Sector Focus
-- Business Services (40%)
-- Healthcare Services (30%)
-- Consumer & Industrial (30%)
-
-## Value Proposition
-- Speed and certainty of execution
-- Flexible structuring
-- Minimal covenants
-- Partnership-oriented approach
-- Experienced operators on team
-
-## Investment Criteria
-- EBITDA: $5M - $50M
-- Recurring revenue models preferred
-- Defensible market positions
-- Proven management teams
-
-## Recent Activity
-- Active in sponsor-backed deals with NewSpring Holdings, others
-- Focus on providing growth capital and acquisition financing
-
-## Last Updated
-2026-04-02 (Cron: PE Research & Enrichment)
-
-## Source
-- Official website: fivepointscapital.com
-- RocketReach 100% pattern verification
-- ZoomInfo contact data
-- LinkedIn profiles
+## Research Notes
+- Mid-sized regional PE firm
+- Possible confusion with "Five Point Infrastructure" (different firm)
+- Source: Official website, PEI profile
+- Last updated: 2026-04-02
