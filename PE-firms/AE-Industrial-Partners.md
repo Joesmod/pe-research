@@ -1,52 +1,69 @@
 # AE Industrial Partners
 
-**Status:** Research Complete - Email Verification Needed  
-**Last Updated:** 2026-04-02  
-**Source:** Cron enrichment
+**Website:** https://www.aeroequity.com  
+**Founded:** 1998  
+**Headquarters:** Boca Raton, FL / Washington, D.C.  
+**AUM:** $6.4B+  
+**Type:** Private Equity
 
-## Firm Overview
-- **Website:** https://www.aeroequity.com
-- **Location:** Boca Raton, FL (HQ) | Washington, D.C. (Office)
-- **Type:** Private Equity
-- **Focus:** National Security, Aerospace, Industrial Services
-
-## Key Contact
-- **Name:** Michael Greene
-- **Title:** Co-CEO & Managing Partner
-- **LinkedIn:** https://www.linkedin.com/in/michael-greene-50973188
-- **Email:** (Pending verification - RocketReach pattern: m******@aeroequity.com)
-
-## Additional Details
-- **General Contacts:** 
-  - info@aeroequity.com
-  - investorrelations@aeroequity.com
-  - aefederal@aeroequity.com (DC office)
-- **Phone:** (561) 372-7820 (Boca Raton HQ)
-- **Co-CEO:** David Rowe (shares CEO role with Michael Greene)
-
-## Location Details
-- **Boca Raton HQ:** 6700 Broken Sound Parkway NW, Boca Raton, FL 33487
-- **Washington D.C.:** 3000 K Street NW, Suites 440 & 445, Washington, D.C. 20007
-
-## Research Notes
-- Co-CEO & Managing Partner confirmed via multiple PRNewswire/BusinessWire press releases
-- Quoted extensively in firm announcements (2025, 2023, 2021, 2019)
-- Email pattern available via RocketReach/Wiza but not from official published source
-- Active in promoting team members (Katie Folmar, Jonathan Lusczakoski to VP in 2021)
-- Recent appointments: Andrew G. Boyd as Operating Partner (Mar 2025)
-
-## Recent Activity
-- Promoted 4 professionals to Partner + 14 mid/senior level promotions (Feb 2025)
-- Appointed Andrew G. Boyd as Operating Partner (Mar 2025)
-- Expanded capital formation team (May 2023)
-
-## Focus Areas
+## Focus Sectors
+- Aerospace
+- Defense
 - National Security
-- Aerospace & Defense
 - Industrial Services
-- Defense Technology
 
-## Next Steps
-- Verify email address through official channels
-- Consider reaching out through general investor relations contact
-- Tailor messaging to aerospace/defense/national security focus
+## Key Contacts
+
+### Charlie Compton - Managing Partner
+- **Email:** ccompton@aeroequity.com (pattern inferred)
+- **Role:** Managing Partner, Investment Team
+- **Focus:** Originating, executing and monitoring portfolio investments
+- **Board Seats:** AIM MRO, Air Transport Components, Blue Raven Solutions, CASE, G.S. Precision, Moeller Aerospace, United Building Solutions
+- **Background:** 
+  - Previously: Vestar Capital Partners (Associate)
+  - Previously: Wells Fargo Securities Financial Institutions Group (2009-2012)
+- **Education:** University of Georgia, BBA
+
+### Michael Greene - Co-CEO & Managing Partner
+- **Role:** Co-CEO & Managing Partner
+- **Status:** Listed on team page
+
+### Nathan Dickstein - Partner, Head of AEI Aerospace Leasing
+- **Role:** Partner, leads Aerospace Leasing strategy
+- **Experience:** 15+ years in aircraft/engine leasing
+- **Background:**
+  - Previously: Marathon Asset Management (Structured Credit)
+  - Previously: Alterna Capital Partners
+  - Previously: Deucalion Aviation Funds (DVB Bank)
+  - Previously: AWAS Aviation Capital (Risk Management)
+- **Education:** University of Virginia, BS
+
+## Investment Strategy
+- National security, aerospace, and industrial services sectors
+- Highly specialized markets
+- Operational value creation focus
+- Portfolio companies benefit from extensive operating partner network
+
+## Notable Facts
+- Founded in 1998
+- Dual offices: Boca Raton, FL and Washington, D.C.
+- Strong government/defense sector relationships
+- Extensive aerospace leasing platform
+- Multiple Operating Partners with government/military backgrounds
+
+## Outreach Value Proposition
+**Tier 1 Priority** - Strong fit for Hello Gumbo AI services:
+- Aerospace/defense tech modernization needs
+- Portfolio companies across national security (cyber, space, intelligence)
+- Active in digital transformation initiatives
+- Operating partners with tech/AI backgrounds (Dr. Reginald Brothers, Alyssa Goessler)
+
+## Sources
+- Official website: https://www.aeroequity.com/team/
+- Business Wire press releases (2026-02-04)
+- Verified: 2026-04-02 11:42 PM
+
+---
+**Last Updated:** 2026-04-02  
+**Research Status:** Enriched  
+**Next Action:** Outreach - Tier 1
