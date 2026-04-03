@@ -1,72 +1,74 @@
 # Edison Partners
 
-**Last Updated:** 2026-03-29 04:35 AM CST
-
-## Firm Overview
-
 **Website:** https://www.edisonpartners.com  
-**Founded:** 1986 (as Edison Ventures, renamed Edison Partners)  
-**Headquarters:** Princeton, NJ / Nashville, TN  
-**Address:** 281 Witherspoon St, Princeton NJ 08540  
-**Phone:** 609-896-1900  
-**AUM:** $1.7 billion (as of 2024)
+**Founded:** 2002  
+**HQ:** Princeton, NJ (281 Witherspoon Street, Princeton, NJ 08540)  
+**Phone:** 609.896.1900  
+**AUM:** $1.6 billion  
+**Type:** Growth equity / lower middle-market private equity
 
-**Investment Focus:**
-- Vertical SaaS
-- Financial technology (fintech)
-- Healthcare IT
-- Marketplace companies
-- Growth equity (not early-stage VC)
+## Focus
 
-## Key Leadership (NO PUBLIC EMAIL)
+- **Target Revenue:** $10M-$30M companies
+- **Sectors:** Technology, SaaS, fintech, healthcare IT, enterprise solutions, B2B tech-enabled services
+- **Investment Types:** Growth capital, buyouts, recapitalizations, spinouts, secondary stock purchases
+- **Geography:** Primarily outside Silicon Valley
 
-### Chris Sugden
-- **Title:** Managing Partner, Chairman of Investment Committee
-- **Background:** Joined Edison in 2002. Successful entrepreneur with experience on both sides of the table. Leads sales, product, finance, business strategy, and capital formation.
-- **Email:** No public email available
+## Investment Thesis
 
-### Kelly Ford (Buckley)
-- **Title:** General Partner, Chief Operating Officer
-- **Background:** Promoted to COO. Leads firm operations including investment development, value creation, portfolio management, finance, and marketing. Serves on investment committee. Portfolio: Enterprise SaaS and fintech companies.
-- **Quote (2024 Press Release):** "When Edison first invested in SBT two and a half years ago, we saw a founder-led, capital-efficient business with a competitive moat..."
-- **Email:** No public email available
+Edison offers more than capital through the **Edison Edge** platform:
+- Proven expertise from operators who have led companies of similar size, space, and shape
+- Edison Director Network
+- Operational support programs
+- Focus on accelerating growth and creating long-term value
 
-## Media Contact
+Success comes from collaboration, mutual respect, and setting clear objectives with management teams.
 
-### Gregory Papajohn
-- **Email:** gpapajohn@[domain - partially shown in press releases]
-- **Note:** Media relations contact, not investment decision-maker
+## Key Contacts
 
-## Value Creation Platform
+### Christopher Sugden
+- **Title:** Managing Partner & Chairman of Investment Committee
+- **Email:** csugden@edisonpartners.com
+- **Phone:** 609.306.xxxx (via RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/christopherssugden/
+- **Background:** Joined Edison in 2002. Successful entrepreneur with experience on both sides of the table. Experience leading sales, product, finance, business strategy, and capital formation.
+- **Source:** RocketReach, ZoomInfo verification, 2026-04-03
+- **Notes:** Host of "Electrifying Growth" podcast. Leading fintech executive and investor for 25+ years. Investment expertise spans payments, capital markets, and wealth management.
 
-**Edison Edge** - Tailored value creation platform providing:
-- Strategic advisory
-- World-class C-level network
-- Comprehensive executive education programs
+### Ryan [Last Name TBD]
+- **Title:** Managing Director
+- **Background:** Joined Edison 2003. Manages growth equity investments in supply chain & logistics, enterprise infrastructure, data management, go-to-market software, digital commerce, verticalized marketplaces, workplace technology.
+- **Notable:** Sponsored/led 50+ financings, served as director/observer for 27 companies including NetProspex (acquired by Dun & Bradstreet) and Triplelift (acquired by Vista Equity Partners).
 
-## Investment Criteria
+### Gregg [Last Name TBD]
+- **Title:** Managing Director, Healthcare Technology Practice Lead
+- **Background:** Joined Edison 2015
 
-- **Revenue Range:** $10M - $30M
-- **Investment Types:** Growth equity, buyouts, recapitalizations, spinouts, secondary stock purchases
-- **Geographic Focus:** Outside Silicon Valley
-- **Sectors:** Healthcare IT, SaaS, fintech, marketplaces
+### Michael Dirla
+- **Title:** Vice President
+- **Note:** Recently promoted
 
-## Track Record
+## Recognition
 
-- 270+ companies invested since 1986
-- Active portfolio market value exceeds $10 billion
-- **Named 2026 Top PE Innovator Award** (Business Wire announcement)
-- Net Promoter Score (NPS): 75
-- Recognized as Top Growth Investment Firm by GrowthCap (2 years running)
+- **2026 Top 50 Private Equity Firm in the Middle Market** (Axial)
+- **2026 Top 50 PE Firm for Founders** (Axial)
 
-## Recent Activity
+Named to both lists, highlighting leadership in lower middle-market buyouts and founder partnerships.
 
-- **2024:** $110M investment in Solutions by Text (co-led with StepStone Group)
-- **2025:** Investment in SolutionsByText, K1x, MacroFab, RapidDeploy
+## Portfolio Value
 
-## Research Status
+Active portfolio has created aggregated market value exceeding $10 billion.
 
-⚠️ **Research Complete - No Public Email** (2026-03-29 cron)  
-**Note:** Edison Partners does not publish direct email addresses for investment professionals on their official website or in press releases. Only media contact information (Gregory Papajohn) is publicly available.
+## Gumbo Score: 8/10
 
-**Recommended Approach:** Phone (609-896-1900) or LinkedIn outreach to Chris Sugden / Kelly Ford.
+**Why Great Fit:**
+- Strong fintech and B2B SaaS expertise
+- Growth equity orientation = founder-friendly
+- "Edison Edge" platform = genuine operational support, not just capital
+- Dual recognition in 2026 for middle-market leadership AND founder partnerships
+- $1.6B AUM = sweet spot (big enough for resources, not so big they ignore mid-market)
+- Host of industry podcast = thought leadership, relationship-building mindset
+
+## Research Date
+
+2026-04-03 (Hourly enrichment cron)

@@ -1,74 +1,56 @@
 # Wynnchurch Capital
 
-**Last Updated:** 2026-03-29 04:35 AM CST
-
-## Firm Overview
-
 **Website:** https://www.wynnchurch.com  
 **Founded:** 1999  
-**Headquarters:** Rosemont, IL (Chicago area)  
-**AUM:** $9.1 billion (as of October 31, 2025)
+**HQ:** Rosemont, IL (Two Conway Park, 150 Field Drive, Suite 165, Lake Forest, IL 60045)  
+**AUM:** $9.1 billion  
+**Type:** Middle-market private equity
 
-**Investment Focus:**
-- Middle-market companies
-- Manufacturing, distribution, business services
-- Partner mentality and long-term value creation approach
+## Focus
 
-## Key Contacts (VERIFIED)
+- Equity investments: $50M-$750M
+- Target companies: Up to $3B annual revenue
+- Geography: U.S. and Canada
+- Sectors: Business services, consumer, industrials, transportation/logistics, energy, manufacturing
 
-### Greg B. Gleason
-- **Title:** Managing Partner
-- **Email:** ggleason@wynnchurch.com ✅
-- **Phone:** 847-604-6121
-- **Source:** Official wynnchurch.com press release (LPW Group exit announcement)
+## Investment Thesis
 
-### Mike Teplitsky
-- **Title:** Partner
-- **Email:** mteplitsky@wynnchurch.com ✅
-- **Phone:** 847-604-6120
-- **Source:** Official wynnchurch.com Fact Sheet PDF
+Targets include:
+- Corporate carve-outs
+- Underperforming businesses
+- Growth situations
+- Family businesses in transition
 
-### Scott S. Fitch
-- **Title:** Partner
-- **Email:** sfitch@wynnchurch.com ✅
-- **Phone:** 310-933-5007
-- **Source:** Official wynnchurch.com press release (Team Car Care exit announcement)
+Reputation for integrity, reliability, and trustworthiness. Thorough upfront analysis to minimize surprises late in transaction process.
 
-### Christopher P. O'Brien
-- **Title:** Managing Partner
-- **Email:** cobrien@wynnchurch.com ✅
-- **Phone:** 847-604-6108
-- **Source:** Official wynnchurch.com press release (New Hires announcement)
+## Key Contacts
 
-### Alex DeAraujo
-- **Title:** Managing Director
-- **Email:** adearaujo@wynnchurch.com ✅
-- **Phone:** 847-604-6110
-- **Source:** Official wynnchurch.com team page
-- **Background:** Joined 2024, previously Operating Partner at ACON Investments
+### John A. Hatherly
+- **Title:** Managing Partner (Founder)
+- **Email:** jhatherly@wynnchurch.com
+- **Phone:** 847.604.6102
+- **LinkedIn:** https://www.linkedin.com/in/john-hatherly-4b772112/
+- **Background:** Founded Wynnchurch in 1999. Prior: 12-year career at GE Capital's Merchant Banking Group. Before GE Capital: 3 years in banking with First National Bank of Chicago.
+- **Source:** Wynnchurch press releases, verified 2026-04-03
 
-## Investment Criteria
+### Other Team Members
 
-- **Target Sectors:** Manufacturing, distribution, business services
-- **Investment Stage:** Middle market
-- **Approach:** Partner mentality, operational improvements
-- **Value Creation:** Capital, connections, expertise, experience
+- **Roy E. Sroka:** Partner / CFO / CCO
+- **Steve Welborn:** Managing Director (swelborn@wynnchurch.com likely)
+- **Erin Murphy:** Managing Director
+- **Duncan Bourne:** Managing Director (since 2003, 20+ years consulting/operational experience)
+- **Greg Gleason:** Managing Partner (previously, now at Prairie Capital)
+- **Steve Yan:** Partner & Head of Debt Capital Markets
 
-## Track Record
+## Gumbo Score: 7/10
 
-- **Total Investments:** 100+ middle-market companies since 1999
-- **Revenue Generated:** Significant portfolio revenue (figures include 100% of revenue from minority-held non-public investments)
+**Why Good Fit:**
+- Middle-market PE with strong operational focus
+- Clear value-add strategy beyond capital
+- Focus on business services & industrials aligns with tech-enabled services
+- Proven track record with family businesses and growth situations
+- Team has operational DNA
 
-## Notes
+## Research Date
 
-- Very responsive to intermediaries (pays appropriate success fees)
-- Strong operational focus and value-add approach
-- Multiple verified contacts available across different roles
-- Active in manufacturing and industrial services sectors
-- All email addresses verified from official company sources (press releases, fact sheet, team pages)
-
-## Research Status
-
-✅ **Enriched** (2026-03-29 04:35 AM cron)  
-**Source Quality:** Excellent - multiple verified emails from official press releases and team pages  
-**Outreach Potential:** HIGH - multiple decision-makers with direct contact info
+2026-04-03 (Hourly enrichment cron)
