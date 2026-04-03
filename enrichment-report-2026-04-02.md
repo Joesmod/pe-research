@@ -1,156 +1,142 @@
 # PE Lead Enrichment Report
-**Date:** 2026-04-02 7:36 AM CST
-**Task:** Hourly PE Research & Enrichment Cron
-**Researcher:** Jim
+**Date:** April 2, 2026, 7:12 PM CT
+**Cron Job:** PE Research & Enrichment - Hourly
 
 ## Summary
 
-**Sheet Status:**
-- Total rows: 1,880
-- Rows with empty contacts: 1
-- Rows with generic emails (info@, sales@, ir@): 0
-- Rows without "Enriched" status: 965 (but most have valid contacts)
+Attempted to enrich 15 leads from the "Uncontacted Leads" sheet with verified contact information from official sources.
 
-**Conclusion:** The sheet is exceptionally well-maintained. Almost all firms already have direct decision-maker contacts with verified or inferred emails. The remaining "gaps" are primarily status-marking issues, not missing contact information.
+**Result:** Unable to find verified individual emails from official published sources for any of the target firms.
 
-## Research Conducted
+## Key Findings
 
-Searched for verified contacts at 13 major PE firms using:
-- Official firm websites (team pages)
-- LinkedIn verification
-- Press releases
-- Industry databases (for verification only, not as primary sources)
+### 1. Industry Practice: Email Privacy
 
-## Verified Contacts (Official Sources Only)
+**PE firms systematically do NOT publish individual employee emails publicly.**
 
-### Firms Researched with Verified Info:
+Firms investigated:
+- Harvest Partners (harvestpartners.com) - Team page with 100+ people, zero emails
+- HGGC (hggc.com) - Team listings, no individual emails
+- PSG Equity (psgequity.com) - Press releases mention Managing Directors, no emails
+- Amulet Capital (amuletcapital.com) - Team bios, no contact info
 
-1. **Kelso & Company** (kelso.com/team)
-   - Chris Collins - Co-Chief Executive Officer
-   - Frank Loverro - Co-Chief Executive Officer
-   - LinkedIn: Yes | Direct Email: Not published on official site
+**What they DO publish:**
+- General firm emails (info@, ir@, recruiting@)
+- PR agency contacts (for press inquiries)
+- Phone numbers (general switchboard)
 
-2. **Five Points Capital** (fivepointscapital.com/our-team)
-   - Whit Edwards - Managing Partner
-   - Jonathan Blanco - Managing Partner
-   - Brad Clark - Partner/CFO/CCO
-   - LinkedIn: Yes | Direct Email: info@fivepointscapital.com (general)
+### 2. Apollo API Limitation
 
-3. **Enlightenment Capital** (enlightenment-cap.com/people)
-   - Devin Talbott - Founder & CEO
-   - Jason Rigoli - Partner
-   - Thomas Young - Partner
-   - Patrick Quay - Managing Director
-   - LinkedIn: Yes | Direct Email: Not published on official site
+Apollo API (`api.apollo.io`) returns search results with obfuscated emails:
+- Can search for people by company and title
+- Results show `has_email: true` but actual emails are hidden
+- Requires spending credits to "reveal" contact details
+- Our API key: `Fx6RpQS0PKxfVgnxWOPWuw` (configured)
 
-4. **Mill Point Capital** (millpoint.com/team)
-   - Michael Duran - Founder & Managing Partner
-   - LinkedIn: Yes | Direct Email: Not published on official site
+### 3. Official Sources Attempted
 
-5. **Sentinel Capital Partners** (sentinelpartners.com/team)
-   - David Lobel - Founder & Managing Partner
-   - LinkedIn: Yes | Direct Email: Not published on official site
+**Searched:**
+- Firm websites & team pages
+- Press releases (PR Newswire, Business Wire, firm news pages)
+- SEC Form ADV filings (limited contact info)
+- Conference speaker bios
+- LinkedIn (would need Sales Navigator for emails)
 
-6. **One Equity Partners** (oneequity.com/team)
-   - Ante Kusurin - Partner
-   - LinkedIn: Yes | Direct Email: Not published on official site
+**Result:** Zero individual emails found from official sources.
 
-7. **Petrichor Healthcare Capital** (petrichorcap.com/team)
-   - Tadd Wessel - Founder & Managing Partner
-   - LinkedIn: Yes | Direct Email: Not published on official site
+### 4. Third-Party Data Services
 
-8. **Clearlake Capital**
-   - José E. Feliciano - Co-Founder & Managing Partner
-   - LinkedIn: Yes | Direct Email: Not published
+Services like RocketReach, ZoomInfo, success.ai DO have emails, but these are:
+- Not "official published sources" per our enrichment criteria
+- Often inferred from patterns rather than verified
+- Require paid subscriptions/credits
 
-9. **Investcorp** (investcorp.com/people)
-   - Rishi Kapoor - Vice Chairman & CIO (former Co-CEO 2015-2024)
-   - LinkedIn: Yes | Direct Email: Not published
+## Current Sheet Status
 
-10. **NewSpring Capital** (newspringcapital.com/team)
-    - Michael DiPiano - Managing General Partner
-    - LinkedIn: Yes | Direct Email: Not published
+**Total rows in "Uncontacted Leads":** 1,550
 
-11. **Blue Point Capital Partners** (bluepointcapital.com/our-team)
-    - Team page exists but no individual emails published
-    - Cleveland, OH headquarters
+**Leads needing enrichment:** 510 (status != "verified")
 
-12. **Dauntless Capital Partners**
-    - Chris Harrison - Managing Partner
-    - LinkedIn: Yes | Direct Email: Not published (third-party sources show patterns)
+**Status breakdown of first 15 sampled:**
+- extrapolated: 5 (emails guessed from pattern)
+- inferred: 8 (emails inferred from confirmed patterns)
+- New: 2 (recently added)
 
-13. **Investcorp**
-    - Rishi Kapoor - Vice Chairman & CIO
-    - LinkedIn: Yes | Direct Email: Not published
-
-## Key Finding: Email Privacy
-
-**Critical Observation:** Nearly all mid-to-large PE firms ($500M+ AUM) do NOT publish direct partner/executive emails on their official websites.
-
-**What IS published:**
-- Full team rosters with names & titles
-- LinkedIn profile links
-- General contact emails (info@, contact@)
-- Office phone numbers
-
-**What is NOT published:**
-- Direct personal emails (name@firm.com)
-- Personal phone numbers
-- Personal contact details
+**Example verified data already in sheet:**
+- Row 488: Tom Reardon, Managing Director @ PSG Equity
+  - Title confirmed on psgequity.com press releases
+  - Email: `treardon@psgequity.com` (inferred, not verified on official source)
+  - Notes say "Confirmed on psgequity.com team page" but email is not actually published there
 
 ## Recommendations
 
-### For Immediate Action:
-Since the sheet already has 1,879/1,880 leads with contacts:
+### Option 1: Use Apollo Credits (Recommended)
+- Enable Apollo email reveals
+- Costs ~$1-2 per email reveal typically
+- Pros: Fast, comprehensive, relatively accurate
+- Cons: Costs money, quality varies
 
-1. **Quality over quantity** - Focus on verifying existing email patterns rather than adding more leads
-2. **Use Apollo.io API** - Leverage the Apollo API key (Fx6RpQS0PKxfVgnxWOPWuw) for systematic contact verification
-3. **LinkedIn outreach** - For firms without published emails, LinkedIn InMail may be more effective
-4. **Phone** calls - Many firms publish office numbers; direct calling may be faster than email hunting
+### Option 2: Accept Inferred Emails
+- Keep emails marked as "inferred" where pattern is confirmed
+- Example: If we find 3 verified emails at a firm all use `firstinitial+lastname@`, trust the pattern
+- Update status to "pattern-verified" instead of demanding each email be published
+- Pros: Free, practical
+- Cons: Some bounces inevitable
 
-### For Adding New Firms:
-The sheet is comprehensive. If adding more:
-- Target smaller firms ($100M-$500M AUM) - they tend to publish emails more openly
-- Focus on newer firms (founded 2020+) - more digitally native, better contact transparency
-- Regional specialists over mega-funds
+### Option 3: LinkedIn Sales Navigator
+- Requires premium subscription ($99/mo)
+- Can message people directly without email
+- Some profiles show email addresses
+- Pros: Professional context, can verify titles
+- Cons: Expensive, not all profiles have emails
 
-## Apollo.io Integration Opportunity
+### Option 4: Focus on Smaller/Newer Firms
+- Target firms <$1B AUM that are more transparent
+- Newer firms tend to publish more contact info
+- Trade-off: Smaller deals, less institutional
+- Pros: Can find verified emails
+- Cons: May not match ICP (Ideal Customer Profile)
 
-**API Key:** Fx6RpQS0PKxfVgnxWOPWuw
-**Docs:** https://apolloio.github.io/apollo-api-docs/
-
-**Suggested workflow:**
-```javascript
-// For each firm in sheet without verified email:
-// 1. Query Apollo: search by company name + title (Partner, Managing Director, etc.)
-// 2. Verify email is professional format (not personal Gmail/Yahoo)
-// 3. Cross-reference LinkedIn URL if available
-// 4. Update sheet with Apollo-verified email + source note
-// 5. Mark status as "Enriched - Apollo Verified"
-```
-
-## Sources Searched
-- Official PE firm websites (/team, /about, /people pages)
-- LinkedIn (company pages and individual profiles)
-- Press releases (BusinessWire, PRNewswire)
-- Industry databases (PEI, Pitchbook) for verification
-- Wikipedia for firm background (major firms)
-
-## What I Did NOT Do (Per Instructions)
-✅ Did not guess email patterns
-✅ Did not use inferred emails from third-party databases as verified
-✅ Did not hallucinate contact information
-✅ Only documented contacts found on official published sources
+### Option 5: Outbound via Firm General Emails
+- Use verified firm emails (ir@, bd@)
+- Ask to be directed to appropriate partner/MD
+- Slower but 100% verified
+- Pros: No email guessing
+- Cons: Lower response rates
 
 ## Next Steps
 
-**For next cron run (1 hour):**
-1. Implement Apollo.io verification script for top 50 unverified firms
-2. Focus on healthcare/tech services PE (Hello Gumbo's target sectors)
-3. Prioritize firms with $1B-$5B AUM (sweet spot for outreach)
-4. Cross-reference any empty status fields and mark as "Enriched" where contacts exist
+**Immediate:**
+1. Pause enrichment until strategy decision
+2. Review with Alex: Which approach aligns with budget/timeline?
+3. If Apollo: Get credits loaded
+4. If inferred emails OK: Document pattern-verification methodology
 
-**Long-term:**
-- Build automated Apollo→Sheet sync for ongoing enrichment
-- Create email verification service (check deliverability)
-- Develop LinkedIn scraping workflow (within TOS) for missing contacts
+**Medium-term:**
+1. Build Apollo enrichment script (if approved)
+2. Create pattern-verification workflow
+3. Set up bounce tracking for inferred emails
+4. Document which firms have confirmed patterns
+
+## Files Created
+
+- `apollo-search.js` - Apollo API search script (needs credits for email reveals)
+- `enrich-leads.js` - Google Sheets update utility
+- This report: `enrichment-report-2026-04-02.md`
+
+## Time Spent
+
+- Apollo API integration: 20 min
+- Web searches (10+ firms): 30 min
+- Documentation: 15 min
+- **Total:** ~65 min
+
+## Conclusion
+
+**The PE industry intentionally hides individual contact info.** Without Apollo credits, third-party data, or LinkedIn Sales Navigator, verified email enrichment from "official published sources only" is not feasible for established PE firms.
+
+**Recommendation:** Get Apollo credits or adjust criteria to accept "pattern-verified" emails.
+
+---
+*Generated by Jim (sales researcher agent)*
+*Next cron run: 2026-04-02 20:12 CT*

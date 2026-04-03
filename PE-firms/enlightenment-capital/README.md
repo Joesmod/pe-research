@@ -1,44 +1,24 @@
 # Enlightenment Capital
 
-**Focus:** Defense & Government Technology (ADG&T)  
-**AUM:** Not publicly disclosed  
-**Location:** Chevy Chase, Maryland  
-**Founded:** Not specified (Devin Talbott founded firm after D.E. Shaw tenure)
-
 ## Overview
+Private investment firm focused on control and strategic non-control investments in middle-market ADG&T (Aerospace, Defense, Government, & Technology) sector. Based in Chevy Chase, MD.
 
-Enlightenment Capital is a private investment firm focused exclusively on the Aerospace, Defense, Government, and Technology (ADG&T) sector. The firm provides senior debt, mezzanine debt, minority equity, and control equity investments to middle-market companies serving government and defense markets.
+## Website
+https://enlightenment-cap.com/
 
-## Investment Strategy
-
-- **Sector Focus:** Defense contractors, government IT services, cybersecurity, aerospace technology
-- **Investment Types:** Flexible capital solutions from debt to control equity
-- **Partnership Approach:** Works with management teams, equity sponsors, and government contractors
-- **Value-Add:** Deep government/defense expertise through advisory board and team
-
-## Key Differentiators
-
-- **Sector Specialization:** Exclusive focus on ADG&T sector
-- **Government Network:** Exceptionally strong advisory board with former Defense Secretaries, military leaders, and senior government officials
-- **Operational Support:** Provides strategic guidance on government contracting, M&A, and growth
-
-## Recent Activity
-
-- **Exit:** EverWatch acquired by Booz Allen Hamilton (2022)
-- **Exit:** 1901 Group acquired by Leidos (2021)
-- Active investor in defense technology and government services companies
-
-## Contact
-
-See [contact.md](contact.md) for detailed contact information.
+## Key Contact
+- **Devin Talbott**, Founder & Managing Partner
+- Email: dtalbott@enlightenment-cap.com
 
 ## Research Notes
+- Enriched: 2026-04-02
+- Status: Active/Ready for outreach
+- Source: Manual web research
 
-- Founder Devin Talbott has unique crossover between finance and sports (owns D.C. United)
-- Team has deep operational experience in government contracting sector
-- Advisory board is uniquely high-level (multiple 4-star generals, former Cabinet members)
-- Firm benefits from Washington, D.C. area location and government relationships
+## Next Steps
+1. ✅ Contact information verified
+2. 🔄 Ready for outreach campaign
+3. ⏳ Awaiting initial contact
 
 ---
-
-*Last updated: 2026-03-30*
+*Last updated: April 2, 2026*

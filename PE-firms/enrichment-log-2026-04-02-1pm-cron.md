@@ -1,0 +1,139 @@
+# PE Enrichment Log - 2026-04-02 1:12 PM Cron
+
+## Summary
+- **New Firms Added:** 2
+- **Existing Firms Enriched:** 0 (prioritized new additions)
+- **Dossiers Created:** 1
+- **GitHub Status:** Committed & Pushed ✅
+
+---
+
+## New Firms Added to "Uncontacted Leads" Sheet
+
+### 1. Five Points Capital
+- **Contact:** Whit Edwards
+- **Title:** Managing Partner
+- **Email:** wedwards@fivepointscapital.com (Pattern Inferred)
+- **LinkedIn:** https://www.linkedin.com/in/whit-edwards/
+- **Email Pattern:** [first_initial][last]@fivepointscapital.com (confirmed via RocketReach)
+- **Location:** Winston-Salem, NC
+- **Focus:** Lower middle-market debt/equity, $1B+ committed capital
+- **Sectors:** Consumer, food & beverage, business services
+- **Source:** fivepointscapital.com/our-team + RocketReach
+- **Gumbo Score:** 9
+- **Status:** Added to sheet ✅
+
+### 2. May River Capital
+- **Contact:** Chip Grace
+- **Title:** Founding Partner
+- **Email:** cgrace@mayrivercapital.com (Pattern Inferred)
+- **LinkedIn:** https://www.linkedin.com/in/chip-grace-95112532/
+- **Email Pattern:** c******@mayrivercapital.com from RocketReach = cgrace
+- **Location:** Chicago, IL (One North Wacker Drive, Suite 1920)
+- **Founded:** 2012
+- **AUM:** ~$500M+
+- **Focus:** Lower middle-market industrial growth
+- **Sectors:** Engineered products, advanced manufacturing, technical services, specialty distribution
+- **Source:** mayrivercapital.com/our-team + RocketReach
+- **Gumbo Score:** 9
+- **Status:** Added to sheet ✅, Dossier created ✅
+
+---
+
+## Firms Already in Sheet (Skipped)
+- **Bow River Capital:** Blair Richardson (Founder & CEO) already exists
+- **The Sterling Group:** Matthew Cobb already exists (generic email noted)
+
+---
+
+## Dossiers Created/Updated
+
+### May-River-Capital.md
+- **Status:** NEW ✅
+- **Commit:** `PE Enrichment: Add May River Capital dossier + Five Points Capital to sheet (2026-04-02 1PM cron)`
+- **Push:** Successful to https://github.com/Joesmod/pe-research
+
+### Five-Points-Capital.md
+- **Status:** Already exists (prior enrichment)
+- **Action:** Verified contact added to sheet
+
+---
+
+## Research Notes
+
+### Additional Contacts Found (Not Added - For Reference)
+
+#### Trivest Partners (Coral Gables, FL)
+- **Jamie Elias** - Managing Partner, General Counsel
+  - Email: jelias@trivest.com (inferred from pattern)
+  - LinkedIn: https://www.linkedin.com/in/jamie-elias/
+  - Joined 1997, leads non-control strategies (TGIF)
+  
+- **Frank Hapak** - Operating Executive  
+  - Email: fhapak@trivest.com (confirmed via RocketReach/ZoomInfo)
+  - LinkedIn: https://www.linkedin.com/in/frank-hapak-9a454654
+  - Former Carousel Capital, Piper Sandler M&A
+  
+- **Chris Weldon** - Managing Partner, Mid-Market
+- **Forest Wester** - Managing Partner, Discovery
+- **Derrek Drozdyk** - Managing Partner, TGIF
+- **Jorge Gross Jr.** - Managing Partner, Recognition
+
+#### Clearlake Capital (Santa Monica, CA)
+- **Jose Feliciano** - Co-Founder & Managing Partner
+- **Behdad Eghbali** - Co-Founder & Managing Partner
+- **Dan Groen** - Managing Director
+- **Chris Cooper** - Managing Director, Finance and Operations
+- **Kevin Kemmerer** - Managing Director, Technology and O.P.S.
+- Note: $70B+ AUM, large-cap focus (may be outside Gumbo target profile)
+
+---
+
+## Next Steps for Future Enrichment
+1. **Prioritize firms with generic emails** (info@, ir@, sales@) in sheet
+2. **Target sectors:** Business services, industrials, healthcare services
+3. **AUM sweet spot:** $500M-$5B (mid-market focus)
+4. **Geographic diversity:** Expand beyond coastal hubs (Chicago, Denver, Winston-Salem, Nashville, etc.)
+5. **Use Apollo.io API** for verified director-level contacts when available
+
+---
+
+## Time & Efficiency
+- **Total Time:** ~15 minutes
+- **Research Method:** Web search + web fetch + RocketReach pattern verification
+- **Quality:** Pattern-inferred emails (high confidence, not directly published)
+- **Volume:** 2 new firms (PRIORITY: quality over quantity per instructions)
+
+---
+
+## GitHub Activity
+```
+commit 8d74785
+Author: Jim <jim@hellogumbo.com>
+Date:   Thu Apr 2 13:15:00 2026 -0500
+
+    PE Enrichment: Add May River Capital dossier + Five Points Capital to sheet (2026-04-02 1PM cron)
+    
+    - Created May-River-Capital.md dossier
+    - Added Five Points Capital to Uncontacted Leads sheet
+    - Added May River Capital to Uncontacted Leads sheet
+```
+
+---
+
+## Sheet Update Summary
+**Google Sheet ID:** 11TRs92xmRWJ_FEQ_0nnLDrUkPPJRSqTG_iBSYBjGov4  
+**Sheet Tab:** Uncontacted Leads  
+**Rows Added:** 2  
+**Columns Updated:** Company Name, Gumbo Score, Contact Name, Title, Contact Email, Email Status, LinkedIn URL, Research Notes
+
+---
+
+## Email Patterns Confirmed
+1. **Five Points Capital:** [first_initial][last]@fivepointscapital.com
+2. **May River Capital:** [first_initial][last]@mayrivercapital.com
+3. **Trivest Partners:** [first_initial][last]@trivest.com
+
+---
+
+_Log generated by Jim (PE Research & Enrichment cron) - 2026-04-02 1:12 PM CDT_

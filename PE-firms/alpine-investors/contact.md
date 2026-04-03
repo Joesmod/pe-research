@@ -3,12 +3,19 @@
 **Firm:** Alpine Investors  
 **Website:** https://alpineinvestors.com/
 
-## Primary Contact
+## Primary Contacts
 
+### Contact 1
 **Name:** Mark Strauch  
 **Title:** Founding Partner & President  
 **Email:** mstrauch@alpineinvestors.com  
 **LinkedIn:** https://alpineinvestors.com/teams/
+
+### Contact 2
+**Name:** Will Chance  
+**Title:** Principal & CEO, Atlas  
+**Email:** wchance@alpineinvestors.com  
+**LinkedIn:** https://www.linkedin.com/in/will-chance/
 
 ## Email Pattern
 - Format: `{first_initial}{last}@alpineinvestors.com`
@@ -22,7 +29,7 @@
 - Based in San Francisco
 
 ## Research Date
-2026-03-28
+2026-03-28 (updated 2026-04-02)
 
 ## Sources
 - alpineinvestors.com team page

@@ -1,68 +1,41 @@
-# PE Research & Enrichment Log
+# PE Enrichment Log
 
-## 2026-03-31 20:36 CST - Hourly Enrichment Session
+## 2026-04-02 14:42 CST - Hourly Cron Run
 
 ### Summary
-✅ **Enriched 3 PE firms** needing contacts  
-✅ **Updated Google Sheet** with verified decision-makers  
-✅ **Pushed dossiers to GitHub**  
-❌ **Did not add new firms** (time prioritized for quality enrichment)
+- **Leads enriched:** 13
+- **With verified email:** 2
+- **With contact (no email):** 11
+- **Method:** Web research of official firm websites, press releases
 
-### Firms Enriched
+### Findings
 
-#### 1. LLR Partners
-- **Contact**: Sasank Aleti, Partner
-- **Email**: saleti@llrpartners.com (verified via ZoomInfo)
-- **Focus**: Healthcare, benefits, HR technology
-- **AUM**: $7.5B+ | Philadelphia, PA
-- **Status**: Pattern verified - {first_initial}{last}@llrpartners.com
-- **Source**: ZoomInfo + official website
+#### ✅ Complete Enrichments (Published Email)
+1. **WILsquare Capital** - Bill Willhite - bwillhite@wilsquare.com
+2. **Silver Oak Services Partners** - Greg Barr - gbarr@silveroaksp.com
 
-#### 2. One Equity Partners
-- **Contact**: David Han, Managing Director
-- **Email**: dhan@oneequity.com (inferred from ZoomInfo)
-- **Focus**: Middle-market transformations, carve-outs
-- **AUM**: $4.5B+ | New York, NY
-- **Status**: Pattern inferred - {first_initial}{last}@oneequity.com
-- **Source**: ZoomInfo + LinkedIn
+#### ⚠️ Partial Enrichments (Contact Verified, No Published Email)
+3. Bow River Capital - Jane C. Ingalls - President, COO
+4. Pharos Capital Group - Kneeland Youngblood - Founding Partner, Chairman & CEO
+5. Accel-KKR - Tom Barnds - Co-Managing Partner
+6. Sterling Investment Partners - Dan Yu - Partner
+7. Trivest Partners - Forest Wester - Managing Partner
+8. Amulet Capital Partners - Avi Uttamchandani - Partner
+9. Ardan Equity - Michael Weintraub - Co-Founder & Managing Partner
+10. Cressey & Company - Bryan Cressey - Founder & Managing Partner
+11. Blue Point Capital Partners - Alex Weinstein - Vice President
+12. Resilience Capital Partners - Bassem Mansour - Co-CEO
+13. The Vistria Group - Kip Kirkpatrick - Co-Founder & Co-CEO
 
-#### 3. Pamlico Capital
-- **Contact**: Watts Hamrick, Managing Partner
-- **Email**: watts.hamrick@pamlicocapital.com (VERIFIED)
-- **Focus**: Communications, healthcare IT, digital infrastructure
-- **AUM**: $500M-$1B | Charlotte, NC
-- **Status**: Email verified from official website
-- **Source**: Official pamlicocapital.com team page
-
-### Sheet Analysis
-- **Total rows**: 1,804
-- **Firms needing enrichment**: 7 (4 non-PE, 3 PE firms)
-- **PE firms enriched**: 3/3 (100%)
-- **Non-PE skipped**: 4 (Meridian Capital, Midwest Right of Way, Pulley, Rogo - portfolio companies/other entities)
-
-### GitHub Updates
-- Created 3 new markdown dossiers in `PE-firms/`
-- Committed and pushed to main branch
-- Commit hash: 72fe858
-
-### Research Methods Used
-1. Web search for firm-specific contacts
-2. Official website team pages
-3. ZoomInfo email pattern verification
-4. LinkedIn for role confirmation
-5. Press releases for verified contact info
-
-### Quality Notes
-- All 3 PE firms now have decision-maker contacts with direct/inferred emails
-- Email patterns documented for future enrichment
-- Prioritized quality over quantity (skipped adding new firms to focus on verification)
-- Used only publicly available and verified sources
+### Observations
+- Most mid-to-large PE firms do NOT publish individual contact emails on their websites
+- Smaller firms (WILsquare, Silver Oak) more likely to publish contact info
+- Email patterns rarely verifiable without published examples
+- LinkedIn profiles confirmed for all contacts
+- RocketReach/ZoomInfo/Apollo show obfuscated emails but are not "published sources" per instructions
 
 ### Next Steps
-- Consider adding 3-5 new mid-market PE firms ($500M-$5B AUM, services-heavy) in next session
-- Follow up on email pattern verification via ContactOut/Apollo for higher confidence
-- Continue monitoring for firms with generic emails (info@, sales@, ir@)
-
----
-**Session completed**: 2026-03-31 20:36 CST  
-**Researcher**: Jim (AI sales researcher)
+- For "Partial" enrichments: consider LinkedIn outreach or contact forms
+- Focus future searches on smaller/mid-sized firms more likely to publish emails
+- Check SEC filings for board member contact info
+- Review press release contact sections more thoroughly
