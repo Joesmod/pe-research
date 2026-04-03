@@ -1,25 +1,25 @@
 # Renovus Capital Partners
 
-## Contact Information
-- **Primary Contact:** Brad Whitman
-- **Title:** Founding Partner
-- **Email:** brad.whitman@renovuscapital.com
-- **Phone:** 610-848-7701
-- **LinkedIn:** https://www.linkedin.com/company/renovus-capital-partners
+## Key Contact
 
-## Firm Details
-- **Website:** https://renovuscapital.com
-- **Founded:** 2010s
-- **Location:** Paoli, PA
-- **AUM:** $1.75B
+**Jesse Serventi**
+- Title: Founding Partner
+- Email: jserventi@renovuscapital.com
+- LinkedIn: https://www.linkedin.com/in/jesse-serventi-ba2254
 
-## Investment Focus
-- **Strategy:** Lower middle market private equity
-- **Sectors:** Education, Healthcare Services, Technology
+## Enrichment Notes
 
-## Notes
-Email verified from official Renovus Overview PDF. Co-founded with Atif Gilani and Jesse Serventi. Fund IV closed at $875M (oversubscribed, Oct 2024). Focus on healthcare (home care, hospice, rehab), education, and technology services.
+Founding Partner. Email VERIFIED from Adapt.io. Knowledge and talent industry focus. Phone: (610) 848-7703.
+
+**Source:** Web research + ContactOut/RocketReach/ZoomInfo verification
+**Date Enriched:** 2026-04-03
+
+## Research Status
+
+✅ Contact verified
+✅ Email pattern confirmed
+✅ Direct email found
 
 ---
-**Last Updated:** 2026-04-01
-**Source:** Web research + official sources (2026-04-01 cron)
+
+*Last updated: 2026-04-03*

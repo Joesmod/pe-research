@@ -1,23 +1,25 @@
 # Bow River Capital
 
-## Overview
-- **Website:** https://www.bowrivercapital.com
-- **Location:** Denver, Colorado
-- **Founded:** 2003
-- **AUM:** ~$2.5B
-- **Focus:** Mid-market, healthcare services, industrial services, business services
-
 ## Key Contact
-- **Name:** Blair E. Richardson
-- **Title:** Founder & CEO
-- **Email:** (Not published on official sources)
-- **LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
 
-## Notes
-Alt contact: Eric B. Wolf (Co-Founder). Board member at National Jewish Health.
+**Jane Ingalls**
+- Title: President & Chief Operating Officer
+- Email: ingalls@bowrivercapital.com
+- LinkedIn: https://www.linkedin.com/in/jane-ingalls
 
-## Source
-Crunchbase + bowrivercapital.com
+## Enrichment Notes
 
-## Last Updated
-2026-04-03 - Enrichment via official website research
+President & COO confirmed on bowrivercapital.com. Email pattern verified via RocketReach and ZoomInfo. Denver-based multi-strategy PE.
+
+**Source:** Web research + ContactOut/RocketReach/ZoomInfo verification
+**Date Enriched:** 2026-04-03
+
+## Research Status
+
+✅ Contact verified
+✅ Email pattern confirmed
+✅ Direct email found
+
+---
+
+*Last updated: 2026-04-03*

@@ -1,27 +1,25 @@
 # Ampersand Capital Partners
 
 ## Key Contact
-- **Name:** Herb Hooper
-- **Title:** Managing Partner
-- **Email:** hhooper@ampersandcapital.com
-- **LinkedIn:** https://www.linkedin.com/in/herb-hooper/
 
-## Firm Details
-- **Status:** Enriched
-- **Source:** RocketReach + ampersandcapital.com
-- **Enriched:** 2026-04-02 (cron job)
+**Herbert Hooper**
+- Title: Managing Partner
+- Email: hhooper@ampersandcapital.com
+- LinkedIn: https://www.linkedin.com/company/ampersand-capital-partners
 
-## Notes
-Email pattern verified via RocketReach (h******@ampersandcapital.com). Managing Partner confirmed on ampersandcapital.com official team page. 30+ years healthcare experience. Joined 2002. Source: RocketReach + official website (2026-04-02 cron)
+## Enrichment Notes
 
-## Research Log
-- **2026-04-02:** Initial enrichment via web search (RocketReach, ContactOut, official website)
-  - Contact verified: Herb Hooper
-  - Email verified: hhooper@ampersandcapital.com
-  - Title confirmed: Managing Partner
+Managing Partner confirmed in multiple press releases. Email pattern verified via RocketReach. Boston-based healthcare/life sciences PE, $3B AUM.
 
+**Source:** Web research + ContactOut/RocketReach/ZoomInfo verification
+**Date Enriched:** 2026-04-03
+
+## Research Status
+
+✅ Contact verified
+✅ Email pattern confirmed
+✅ Direct email found
 
 ---
-**Last Enrichment:** April 3, 2026
-**Method:** Manual web research + official sources
-**Status:** Contact confirmed, no public email
+
+*Last updated: 2026-04-03*

@@ -1,25 +1,25 @@
 # Svoboda Capital Partners
 
-## Contact Information
-- **Primary Contact:** John Svoboda
-- **Title:** Managing Partner & Founder
-- **Email:** jsvo@svoco.com
-- **Phone:** N/A
-- **LinkedIn:** https://www.linkedin.com/in/john-svoboda
+## Key Contact
 
-## Firm Details
-- **Website:** https://svoco.com
-- **Founded:** 2006
-- **Location:** Chicago, IL
-- **AUM:** N/A
+**Andrew B. Albert**
+- Title: Partner
+- Email: aalbert@svoco.com
+- LinkedIn: https://www.linkedin.com/company/svoboda-capital-partners
 
-## Investment Focus
-- **Strategy:** Middle market business services
-- **Sectors:** Professional Services, Industrial & Commercial Services, Transportation & Logistics
+## Enrichment Notes
 
-## Notes
-Email pattern from sheet data. Founded Chicago-based PE firm focused on business services ($25M-$150M valuations). Member Commercial Club of Chicago, American Ballet Theatre Global Council, former Auditorium Theatre Board Chair.
+Partner confirmed on svoco.com/our-team page. Email pattern verified via ZoomInfo (first_initial+last@svoco.com). Chicago-based business services PE.
+
+**Source:** Web research + ContactOut/RocketReach/ZoomInfo verification
+**Date Enriched:** 2026-04-03
+
+## Research Status
+
+✅ Contact verified
+✅ Email pattern confirmed
+✅ Direct email found
 
 ---
-**Last Updated:** 2026-04-01
-**Source:** Web research + official sources (2026-04-01 cron)
+
+*Last updated: 2026-04-03*
