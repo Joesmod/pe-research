@@ -2,9 +2,10 @@
 
 ## Key Contact
 - **Name:** Angel Morales
-- **Title:** Founding Partner
-- **Email:** (pending - brand new firm)
-- **LinkedIn:** https://www.linkedin.com/in/pete-amaro-04b6561
+- **Title:** Founding Partner ("Institutional Investor")
+- **Email:** (not published yet - likely info@makocapitalgroup.com or angel@makocapitalgroup.com)
+- **LinkedIn:** TBD
+- **Background:** 30+ years PE experience, ex-Founding Partner Morales Capital, Co-Head BAML Capital Partners, managed $6B+ in assets
 
 ## Alternate Contacts
 - **Pete Amaro:** Founding Partner, former L'ATTITUDE Ventures, The Raine Group
@@ -38,6 +39,16 @@
 Brand new firm announced via PR Newswire March 31, 2026. Firm launched with two initial investments and raised capital from institutional LPs. Focus on founder-aligned approach and operator-led value creation. Email domain likely @makocapitalgroup.com but not yet published on website.
 
 ## Research Log
+- **2026-04-03 (3:42 AM Cron):** Enrichment verification attempt
+  - Website team page: NO individual emails published yet
+  - Searched PRNewswire press release: No media contact email listed
+  - Official website contact page: Does not exist (404)
+  - General email: likely info@makocapitalgroup.com or contact@makocapitalgroup.com
+  - Domain confirmed: @makocapitalgroup.com
+  - Team bios exist but no individual emails
+  - **Conclusion:** Firm is 3 days old - email infrastructure likely not fully public yet
+  - Updated Google Sheet status to "Research - No Public Emails"
+  
 - **2026-04-03:** Initial discovery and enrichment
   - Firm announced 3 days ago via PRNewswire
   - Website: makocapitalgroup.com confirmed
@@ -46,6 +57,6 @@ Brand new firm announced via PR Newswire March 31, 2026. Firm launched with two 
   - Next steps: Monitor for published contact info
 
 ---
-**Last Enrichment:** April 3, 2026
-**Method:** Web search + press release + official website
-**Status:** Brand new firm - contact info pending publication
+**Last Enrichment:** April 3, 2026 3:42 AM (Cron)
+**Method:** Web search + web fetch + press release analysis
+**Status:** Brand new firm - no individual emails published yet on official website
