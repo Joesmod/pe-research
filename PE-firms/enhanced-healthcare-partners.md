@@ -1,33 +1,62 @@
 # Enhanced Healthcare Partners
 
 **Website:** https://www.enhancedhealthcare.com  
-**LinkedIn:** https://www.linkedin.com/company/enhanced-healthcare-partners  
-**Location:** Santa Monica, CA
+**Location:** New York, NY & Santa Monica, CA  
+**Founded:** 2005  
+**AUM:** $521M+ (Fund II closed 2022)  
+**Status:** ⚠️ No Direct Email Found (2026-04-03)
 
-## Overview
-Enhanced Healthcare Partners is a healthcare-focused private equity firm with approximately $1B in assets under management. The firm invests exclusively in healthcare services businesses.
+## Key Contacts
+
+**Matthew Thompson** - General Partner  
+- LinkedIn: https://www.linkedin.com/in/matthewthompson/
+- Location: Park City
+- Email: (not publicly available)
+
+**Samarth Chandra** - General Partner  
+- Email: (not publicly available)
+
+## Fund History
+
+- **Fund I:** $300M (2019)
+- **Fund II:** $521M (2022) - access to $600M total equity
 
 ## Investment Focus
-- **Sectors:** Healthcare Services (exclusively)
-- **Strategy:** Middle-market healthcare buyouts
-- **Geography:** North America
 
-## Key Contact
+- **Sector:** Healthcare exclusively
+- **Geography:** United States
+- **Stage:** Middle market healthcare companies
+- **Approach:** Capital + operational expertise + strategic connections
 
-### Matthew Thompson - General Partner
-- **Email:** mthompson@enhancedhealthcare.com (verified via RocketReach)
-- **LinkedIn:** https://www.linkedin.com/in/matthewthompson/
-- **Profile:** https://www.enhancedhealthcare.com/matthew-thompson
-- **Status:** Enriched 2026-03-30
+## Team Experience
 
-**Notes:** General Partner and Investment Committee member. 15+ years in healthcare M&A. Focuses on sourcing, evaluating, executing, and managing investments.
+- 100+ years combined healthcare investing experience
+- Team together since 2005
+- Strong relationships across healthcare ecosystem
+- Focus on revenue growth and operational infrastructure
 
-**Other Key Contacts:**
-- Samarth Chandra - General Partner
-- Malcolm Kostuchenko - General Partner
-- Brandon Einstein, M.D. - Partner
+## Investment Criteria
 
-## Sources
-- Official website: enhancedhealthcare.com
-- RocketReach email pattern verification
-- Enriched: 2026-03-30 hourly cron
+- Healthcare services companies
+- Partnership with company leadership
+- Value creation through:
+  - Intelligent strategy
+  - Team building
+  - Operational infrastructure
+  - Industry connections
+
+## Research Notes
+
+- Healthcare-only focus since founding (2005)
+- Two successful funds raised
+- Strong track record in middle-market healthcare
+- No direct personal emails found on official public sources
+- Website has contact form but no direct email addresses published
+
+## Source Verification
+
+- Website: https://www.enhancedhealthcare.com
+- Team page: https://www.enhancedhealthcare.com/team
+- About page: https://www.enhancedhealthcare.com/about-1
+- Contact page: https://www.enhancedhealthcare.com/contactus
+- Researched 2026-04-03: No publicly verified personal emails found

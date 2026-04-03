@@ -1,28 +1,42 @@
 # WILsquare Capital
 
-**Status:** ✅ Enriched (2026-04-02)
+**Website:** https://www.wilsquare.com  
+**Location:** St. Louis, Missouri  
+**AUM:** Lower middle market focus  
+**Status:** ✅ Enriched 2026-04-03
 
-## Firm Overview
-- **Website:** www.wilsquare.com
-- **Location:** St. Louis, MO
-- **AUM:** ~$500M-$1B (estimated)
-- **Focus:** Business services, manufacturing
+## Key Contact
 
-## Contact Information
+**Andrew Scharf**  
+- Title: Managing Director
+- Email: ascharf@WILsquare.com ✅ (verified on official website)
+- LinkedIn: https://www.linkedin.com/in/andrew-scharf-270b5331/
+- Background: Former Croft & Bender, PricewaterhouseCoopers
+- Education: Tulane University (Master's Accounting, Bachelor's Finance)
 
-### Bill Willhite
-- **Title:** Co-Founder & Managing Partner
-- **Email:** bwillhite@WILsquare.com ✅ (verified - published on firm contact page)
-- **LinkedIn:** https://www.linkedin.com/in/william-willhite-6bba39b9/
-- **Source:** Published on https://www.wilsquare.com/contact (2026-04-02)
+## Leadership Team
+
+- **Bill Willhite** - Managing Partner & Co-Founder
+- **Jamie** - Partner
+- **Andrew Scharf** - Managing Director
+- **Jack Randazzo** - Managing Director (jrandazzo@WILsquare.com)
+
+## Investment Focus
+
+- **Sectors:** Business services, niche manufacturing, distribution, technology
+- **Geography:** Midwest and Southern U.S.
+- **Check Size:** Lower middle market companies
+- **Target:** Established businesses led by dedicated owners
 
 ## Research Notes
-- Email found directly on firm's public contact page
-- Strong mid-market focus
-- Ideal target for B2B AI/automation outreach
-- Priority: HIGH
 
-## Next Steps
-- [ ] Craft personalized outreach email
-- [ ] Research recent portfolio companies
-- [ ] Identify specific pain points/opportunities
+- Founded by private equity veterans with 30+ years experience
+- Focus on family-owned and generational businesses
+- Operational and financial partner approach
+- Email verified on official individual bio pages
+
+## Source Verification
+
+- Team page: https://www.wilsquare.com/team
+- Andrew bio: https://www.wilsquare.com/andrew
+- Email found on official company website (2026-04-03)
