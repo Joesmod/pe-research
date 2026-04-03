@@ -29,3 +29,9 @@ Listed as a notable mid-market PE firm by Private Equity List (2026).
   - Direct email NOT yet verified - needs manual research
   - Apollo API search unsuccessful (deprecated endpoint)
   - AUM confirmed: ~$2.5B+
+
+
+---
+**Last Enrichment:** April 3, 2026
+**Method:** Manual web research + official sources
+**Status:** Direct email found

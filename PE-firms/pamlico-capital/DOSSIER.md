@@ -32,3 +32,9 @@ Watts Hamrick's investing efforts are focused in the Services and Digital Infras
   - LinkedIn verified: https://www.linkedin.com/in/watts-hamrick-98912069/
   - Source: pamlicocapital.com/team, Wikipedia, Bloomberg
   - Status: ENRICHED ✅
+
+
+---
+**Last Enrichment:** April 3, 2026
+**Method:** Manual web research + official sources
+**Status:** Direct email found

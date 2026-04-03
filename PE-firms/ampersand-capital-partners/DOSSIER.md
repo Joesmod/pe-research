@@ -19,3 +19,9 @@ Email pattern verified via RocketReach (h******@ampersandcapital.com). Managing 
   - Contact verified: Herb Hooper
   - Email verified: hhooper@ampersandcapital.com
   - Title confirmed: Managing Partner
+
+
+---
+**Last Enrichment:** April 3, 2026
+**Method:** Manual web research + official sources
+**Status:** Contact confirmed, no public email
