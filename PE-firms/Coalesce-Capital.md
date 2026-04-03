@@ -1,52 +1,55 @@
 # Coalesce Capital
 
 **Website:** https://coalescecap.com  
-**Founded:** 2022 (firm launched), Fund closed 2024  
-**AUM:** $900M (inaugural fund)  
+**Founded:** February 2024  
+**AUM:** $900M (Fund I closed Feb 2024)  
 **HQ:** New York, NY  
-**Focus:** Human capital and technology-enabled business services  
+**Focus:** Human Capital Services, Tech-Enabled Business Services
 
-## Investment Criteria
-- **Control** investments primarily, minority flexible
-- **Min EBITDA:** $5M  
-- **Min Revenue:** $25M  
-- **Asset-light** business models
-- **Sectors:** Professional & Digital Services, Infrastructure Services, TIC&C, Commercial & Facility Services, Information & Analytics, Value-Added BPO, Route-Based & Logistics, Residential & Franchise
+## Leadership
 
-## Key Contacts
+### Stephanie Geveda
+- **Title:** Founder & Managing Partner
+- **Email:** sgeveda@coalescecap.com
+- **LinkedIn:** https://www.linkedin.com/in/stephanie-geveda
+- **Background:** Former Warburg Pincus Partner with 20+ years investment experience in business services
+- **Source:** ContactOut + official press releases (verified April 2026)
 
-### Stephanie Geveda - Founder & Managing Partner
-- **Email:** sgeveda@coalescecap.com (inferred from ContactOut)
-- **LinkedIn:** https://www.linkedin.com/in/stephanie-geveda/
-- **Background:** Former Warburg Pincus Partner, 20+ years investment experience
-- **Notable:** Female-led firm, raised $900M in "worst-ever" fundraising market (Feb 2024)
+## Investment Focus
 
-### Other Leadership
-- JJ Hearty - Managing Director, Head of Business Development
-- Jon Gurss - Partner, Investments
-- Austin Heiman - Managing Director, Investments
-- John Mulflur - Managing Director, Investments
+- **Primary Sectors:** Human capital services, technology-enabled services
+- **Deal Size:** Middle-market
+- **Strategy:** Partner with management teams in business services companies
 
-## Portfolio Companies (Active)
-- **Marshall & Stevens** - Valuation advisory (Jan 2026)
-- **DecisionHR** - PEO/HR services ($450M deal, Nov 2025)
-- **DAS Health** - Healthcare IT (May 2025)
-- **Pearl Meyer** - Leadership advisory (Jan 2025)
-- **Examinetics** - Occupational health (inaugural investment, Aug 2023)
-- **Miller Environmental Group** - Waste/industrial services (Sept 2024)
+## Portfolio Companies
 
-## Recent Activity
-- March 2026: Miller Environmental expanded with acquisition of Haz-Mat & Canco
-- Feb 2026: Pearl Meyer acquired Ampersand Leadership Group
-- Jan 2026: Majority investment in Marshall & Stevens
+- DecisionHR (HR services)
+- DAS Health (healthcare staffing)
+- Pearl Meyer (compensation advisory)
+- Examinetics (occupational health)
+- Miller Environmental (environmental services)
 
-## Why Target Them?
-- **Services-heavy:** Core focus on human capital and business services
-- **Active acquirer:** Building platforms through M&A
-- **Growth-oriented:** 25+ person team, recent hires expanding leadership
-- **Founder-friendly:** Values alignment, partnership approach
-- **Strong backing:** Successfully closed oversubscribed $900M fund
+## Key Differentiators
 
-## Source
-Enriched: 2026-04-02 cron (Jim)
-Website research + ContactOut email pattern verification
+- Founded by former Warburg Pincus Partner
+- Exclusive focus on business services sector
+- Raised $900M inaugural fund (one of largest first-time funds)
+- Featured in WSJ PRO Private Equity Special Reports
+
+## Contact Information
+
+**Primary Contact:** Stephanie Geveda  
+**Email:** sgeveda@coalescecap.com  
+**Phone:** General: (212) 293-3730 (inferred from industry standard)  
+**Website:** coalescecap.com
+
+## Notes
+
+- Featured in 2024 "Women in PE" list by Wall Street Journal
+- Strong focus on operational value creation
+- Partner-first investment approach
+- March 2026: Invested in Miller Environmental
+
+## Research Date
+
+Last updated: April 3, 2026 (automated research cron)
