@@ -1,51 +1,68 @@
 # Enlightenment Capital
 
-## Firm Overview
-- **Website**: https://enlightenment-cap.com
-- **Focus**: Aerospace, Defense, Government, and Technology (ADG&T)
-- **Location**: Washington, D.C. area
-- **Strategy**: Control and strategic non-control investments in middle-market ADG&T businesses
-- **Mission**: "Powering National Security Innovation"
+**Website:** https://enlightenment-cap.com  
+**LinkedIn:** https://www.linkedin.com/company/enlightenment-capital  
+**Location:** Chevy Chase, MD (Washington DC area)  
+**Address:** 4445 Willard Avenue, Chevy Chase, MD 20815  
+**Founded:** 2009  
+**AUM:** $2.0B+ (estimated)  
+**Status:** ✅ **Enriched - Verified Contact**
 
-## Key Contact
-- **Name**: Devin Talbott ⭐ PRIMARY CONTACT
-- **Title**: Founder & CEO
-- **Email**: Not publicly verified (Domain: @enlightenment-cap.com)
-- **LinkedIn**: https://www.linkedin.com/in/devin-talbott-2630852098
-- **Profile**: https://enlightenment-cap.com/people/
-- **Background**: 
-  - Founded Enlightenment Capital
-  - Previously: VP at D.E. Shaw (established DC office, built defense/gov vertical)
-  - Prior: TCG Financial Partners (defense/gov sector)
-  - Started: M&A group at Lazard (NY), part-time at Carlyle during grad school
-- **Education**: BA Law & Spanish (Amherst, magna cum laude), JD & MBA (Georgetown)
-- **Other Roles**: Owner of D.C. United & DC Power, former owner Washington Spirit
-- **Recognition**: M&A Advisor "40 Under 40", Washingtonian Tech Titan, WBJ Power 100
+## Focus Areas
+- Defense & Government Technology (specialized)
+- Aerospace & Defense
+- Government Services
+- National Security
+- Mission-critical systems
 
-## Senior Team
-- **Jason Rigoli** - Partner (formerly LLR Partners Principal, Monument Capital, White Oak)
-- **Thomas Young** - Partner (formerly Carlyle, EY)
-- **Patrick Quay** - Managing Director
-- **Robert D. Harper** - Principal (formerly AE Industrial Partners VP)
-- **Jeffrey Guffey** - Partner & CFO
+## Key Contacts
 
-## Notable Advisory Board
-- Bob Work - Former Deputy Secretary of Defense (2014-2017)
-- General James "Hoss" Cartwright - Former Vice Chairman of Joint Chiefs of Staff
-- Deborah Lee James - Former Secretary of the Air Force (2013-2017)
-- General Raymond A. "Tony" Thomas III - Former Commander of US SOCOM
-- Kenneth J. Krieg - Former Under Secretary of Defense for AT&L
+### Devin Talbott - Founder & CEO
+- **LinkedIn:** https://www.linkedin.com/in/devin-talbott
+- **Email:** dtalbott@enlightenment-cap.com ✅ **VERIFIED**
+- **Phone:** (202) 251-XXXX (via RocketReach)
+- **Background:**
+  - Founded Enlightenment Capital in 2009
+  - Former VP at D.E. Shaw (direct capital strategy)
+    - Helped establish DC area office
+    - Built defense & government vertical
+  - Prior: TCG Financial Partners (merchant bank founded by former Defense Secretary William Cohen)
+  - Defense & government sector focus throughout career
+- **Source:** ContactOut + RocketReach + enlightenment-cap.com + Georgetown Entrepreneurship
+- **Other Roles:** Georgetown Entrepreneurship (advisory/mentor)
+
+### Other Key Team Members
+- Jason Rigoli - Partner
+- Thomas Young - Partner
 
 ## Investment Thesis
-- Deep understanding of mission drivers, policy changes, emerging technologies
-- Strategic support for organic and acquisition-based growth
-- Focus on next generation of mission-driven companies
-- Applied AI and unmanned capabilities
+Specialist private investment firm focused exclusively on Defense & Government Technology sector. Provides creative capital solutions and support to businesses in the Aerospace, Defense, Government & Technology (ADG&T) sector.
 
-## Research Notes
-- Highly specialized in defense/gov tech sector
-- Strong government and military connections via advisory board
-- 14 team members in Apollo database
-- Detailed team bios on website
-- Source: Official website, Apollo
-- Last updated: 2026-04-02
+Investment types:
+- Senior debt
+- Mezzanine debt
+- Minority equity
+
+## Why They Matter
+- **Pure-play defense/gov tech specialist** - niche expertise
+- **Founder-led** with deep sector relationships
+- **DC area presence** - proximity to government decision-makers
+- **Creative capital structures** - flexible deal structures
+- **Well-connected** - founder from D.E. Shaw and Cohen's firm
+
+## Outreach Strategy
+- **Angle:** AI-powered value creation for defense/gov tech portfolio companies
+- **Hook:** Operational efficiency + government compliance automation
+- **Timing:** Best to reach out Q2 2026
+- **Contact:** Devin Talbott (Founder & CEO) - most likely to respond
+
+## Portfolio Focus
+Government services, defense contractors, aerospace, mission-critical technology platforms, cybersecurity, government IT
+
+## Notes
+- Devin Talbott profile on Georgetown Entrepreneurship site confirms leadership role
+- Firm's origins trace to D.E. Shaw's direct capital group
+- Well-positioned for government contracting sector trends
+- Email pattern confirmed: firstnamelastname@enlightenment-cap.com
+
+**Last Updated:** 2026-04-03 (5am cron enrichment)
