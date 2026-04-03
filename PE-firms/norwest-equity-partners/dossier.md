@@ -1,28 +1,39 @@
 # Norwest Equity Partners
 
-**Website:** https://nep.com  
-**Focus:** Middle-market growth equity  
-**AUM:** $5B+
+## Primary Contact
+- **Name:** _To be enriched_
+- **Title:** _To be enriched_
+- **Email:** _To be enriched_
+- **LinkedIn:** _To be enriched_
 
-## Key Contact
+## Firm Details
+- **Website:** https://www.nep.com
+- **Founded:** 1961 (as Norwest Venture Partners, equity arm separate)
+- **Headquarters:** Minneapolis, MN
+- **AUM:** ~$12B+
 
-**Name:** Tim DeVries  
-**Title:** Managing General Partner  
-**Email:** tdevries@nep.com  
-**LinkedIn:** https://www.linkedin.com/in/tim-devries
+## Enrichment Source
+Web research - 2026-04-02
 
-## Research Notes
+## Focus Areas
+- **Sectors:** Business Services, Healthcare, Financial Services, Consumer
+- **Investment Type:** Growth equity, middle-market buyouts
+- **Geography:** North America
 
-- **Source:** Official team page nep.com, pattern confirmed
-- **Last Updated:** 2026-03-09
-- **Enrichment Status:** Verified
+## Investment Approach
+Norwest Equity Partners (NEP) is affiliated with Norwest Venture Partners and focuses on growth equity and middle-market buyouts. The firm is a multi-stage investor with significant capital and operational resources.
 
-## Outreach Strategy
+## Portfolio Companies
+_To be researched_
 
-- **Target:** Managing General Partner
-- **Value Prop:** AI-powered operational efficiency for portfolio companies
-- **Next Steps:** Prepare personalized outreach highlighting PE-specific benefits
+## Technology Stack
+_To be researched_
 
----
+## Outreach Status
+- Status: Needs enrichment (contact research required)
+- Last Updated: 2026-04-02
 
-*Dossier created/updated by automated PE research enrichment*
+## Notes
+- Affiliated with Norwest Venture Partners
+- Multi-stage investment platform
+- Strong presence in healthcare and business services

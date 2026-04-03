@@ -1,22 +1,39 @@
 # Tenex Capital Management
 
-## Contact Information
+## Primary Contact
+- **Name:** _To be enriched_
+- **Title:** _To be enriched_
+- **Email:** _To be enriched_
+- **LinkedIn:** _To be enriched_
 
-**Primary Contact:** Mike Green
-**Title:** CEO & Managing Director
-**Email:** mgreen@tenexcm.com
-**LinkedIn:** https://www.linkedin.com/in/michael-green
-**Website:** https://www.tenexcm.com
+## Firm Details
+- **Website:** https://www.tenexcm.com
+- **Founded:** 2009/2010
+- **Headquarters:** New York
+- **AUM:** ~$2B+ (estimated)
 
-## Firm Overview
+## Enrichment Source
+Web research - 2026-04-02
 
-Email pattern [first_initial][last]@tenexcm.com from RocketReach + official team page. NYC-based (60 E 42nd St, Suite 5230, New York, NY 10165). Operators and investors by trade, partners by nature. 80 employees. CEO & MD: Mike Green. Managing Directors: Varun Bedi, David Brooks, Joe Cottone, Ron Lejman, Ryan MacIntyre, Perrin Monroe, Greg Schuh, Gabe Wood. CFO/CCO: Ben Kramer. Head of Business Development: Stephens Johnson. Head of Investor Relations: Helen Wray.
+## Focus Areas
+- **Sectors:** Industrials, Manufacturing, Healthcare, Business Services
+- **Investment Type:** Middle-market, operationally focused PE
+- **Geography:** United States and Canada
 
-## Research Notes
+## Investment Approach
+Tenex Capital Management is an operationally focused private equity firm that invests in middle-market companies experiencing significant change in their markets, operations, or capital structure. The firm uses an in-house team of hybrid investment professionals skilled in operational leadership and investing.
 
-Last enriched: 2026-03-31 (automated cron)
+## Portfolio Companies
+_To be researched_
+
+## Technology Stack
+_To be researched_
 
 ## Outreach Status
+- Status: Needs enrichment (contact research required)
+- Last Updated: 2026-04-02
 
-Status: Ready for outreach
-Priority: Standard PE prospect
+## Notes
+- Operationally focused with hybrid investment professionals
+- Targets companies undergoing significant transformation
+- Strong operational expertise in portfolio management

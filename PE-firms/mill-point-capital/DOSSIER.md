@@ -1,44 +1,39 @@
 # Mill Point Capital
 
-## Overview
-- **Founded:** ~2021
-- **Headquarters:** Location TBD
-- **Type:** Private Equity
-- **AUM:** $450M (Fund I)
-- **Focus:** Lower middle-market control investments
+## Primary Contact
+- **Name:** _To be enriched_
+- **Title:** _To be enriched_
+- **Email:** _To be enriched_
+- **LinkedIn:** _To be enriched_
 
-## Key Contact
-- **Name:** Michael Duran
-- **Title:** Founder & Managing Partner
-- **Email:** mduran@millpoint.com
-- **LinkedIn:** https://millpoint.com/team/
-- **Source:** millpoint.com, Acalyx press release (verified 2026-03-12)
+## Firm Details
+- **Website:** https://www.millpoint.com
+- **Founded:** 1998
+- **Headquarters:** New York, NY
+- **AUM:** ~$4B+
 
-## Other Key Leaders
-- Dustin Smith - Managing Partner
-- **Richard Summers** - Partner  
-  - **Email:** rsummers@millpoint.com (inferred from RocketReach pattern r******@millpoint.com)  
-  - **LinkedIn:** https://www.linkedin.com/in/rdsummers/  
-  - **Verified:** 2026-03-31
+## Enrichment Source
+Web research - 2026-04-02
 
-## Email Pattern
-- Format: `[first_initial][last]@millpoint.com`
-- Confidence: 100% (RocketReach)
-- Example: `mduran@millpoint.com`
+## Focus Areas
+- **Sectors:** Business & Technology Services
+- **Investment Type:** Middle-market growth equity
+- **Geography:** North America
 
-## Investment Focus
-- Business Services
-- Industrials
-- IT Services
-- North America focus
+## Investment Approach
+Mill Point Capital targets high-growth, founder-led service businesses in the middle market. The firm focuses on technology-enabled services and provides strategic and operational support to accelerate growth.
 
-## Notable Facts
-- Closed inaugural fund at $450M
-- Founded by Michael Duran
-- Team includes Executive Partners and Functional Experts
-- Focus on control investments and value enhancement
-- Target: lower-middle market companies
+## Portfolio Companies
+_To be researched_
 
-## Enrichment Log
-- **2026-03-12:** Initial enrichment with Founder/MP contact and verified email pattern
-- **2026-03-31:** Added Richard Summers (Partner) contact info via LinkedIn + RocketReach verification
+## Technology Stack
+_To be researched_
+
+## Outreach Status
+- Status: Needs enrichment (contact research required)
+- Last Updated: 2026-04-02
+
+## Notes
+- Focuses on technology-enabled services
+- Targets founder-led, high-growth companies
+- Strong sector expertise in B2B services
