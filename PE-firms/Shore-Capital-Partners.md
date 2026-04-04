@@ -1,61 +1,56 @@
 # Shore Capital Partners
 
-## Firm Overview
+## Overview
+- **Founded:** 2009
+- **Location:** Chicago, IL (HQ); Nashville, TN (secondary office)
+- **AUM:** $14B+ (as of Oct 2025)
+- **Type:** Lower Middle-Market Private Equity
 - **Website:** https://www.shorecp.com
-- **Location:** Chicago, Illinois
-- **Phone:** 312-348-7580
-- **General Email:** info@shorecp.com
-- **AUM:** $17B+ (as of 2026)
-- **Focus:** Lower middle market private equity
-- **Target EBITDA:** $1-10 million
 
-## Key Personnel
+## Key Contacts
 
-### Founder & Leadership
-- **Justin Ishbia** - Founder & Managing Partner
-  - LinkedIn: https://www.linkedin.com/in/justin-ishbia-aa72943/
-  - Billionaire private equity investor
-  - Part owner of Phoenix Suns (NBA) and Phoenix Mercury (WNBA)
-  - Brother of Mat Ishbia (Phoenix Suns majority owner)
-  - Featured on Forbes billionaire list
-  - Podcast appearances: 20VC and others
+### Justin Ishbia
+- **Title:** Founding Partner
+- **Email:** [Pattern: jishbia@shorecp.com - NOT VERIFIED FROM OFFICIAL SOURCE]
+- **Phone:** (312) 348-7580 (HQ main line)
+- **LinkedIn:** https://www.linkedin.com/in/justin-ishbia-aa72943/
+- **Background:** Founded Shore Capital Partners in 2009. Also part-owner of Phoenix Suns (NBA) and Phoenix Mercury (WNBA) alongside his brother.
 
-## Strategy
-- Microcap private equity focus
-- Partnership with companies $1-10M EBITDA
-- 360-degree support model (people, processes, technology, acquisitions)
-- Portfolio of 50+ companies
-- Value creation through:
-  - Strategic dialogue facilitation
-  - Innovation opportunities identification
-  - Points of differentiation development
-  - Board and management alignment
+**Email Status:** Adapt.io shows j*******@shorecp.com, Salesgear shows jis*******@shorecp.com. Pattern analysis (Prospeo) confirms {first_initial}{last}@shorecp.com at 64.6% usage. Likely jishbia@shorecp.com but NOT from official/published source.
+**Source:** shorecp.com/people/justin-ishbia + Wikipedia + Adapt/Salesgear (pattern)
+**Verified:** 2026-04-03 cron
+
+## Investment Focus
+- **Healthcare** (Healthcare Fund VI recently closed)
+- **Food & Beverage**
+- **Business Services**
+- **Industrial**
+- **Real Estate**
+- Microcap to lower middle-market companies
+
+## Recent Fundraising
+- Oct 2025: Closed $850M across two funds (Healthcare Fund VI + Search Fund II)
+- 2025 Total: Nearly $1.3B raised
+- Oct 2024: Closed ~$2B across three funds
 
 ## Recognition
-- Inc. Magazine Top Founder-Friendly Investors (6 consecutive years, 2019-2024+)
-- Strong focus on founder relationships
-- Extensive operator network
+- Inc. Magazine's Top Founder-Friendly Investors (6 consecutive years)
 
-## Technology Stack
-Portfolio companies use: WordPress, Envoy, ServiceTitan, Paylocity
+## Notable Portfolio Companies
+- Argon Medical Devices
+- Therapy Partners Group
+- Empower Aesthetics
 
 ## Contact Information
-- **Email Pattern:** FLast@shorecp.com (e.g., JIshbia@ for Justin Ishbia - unverified from third-party sources)
-- **Phone:** 312-348-7580
+- **HQ Address:** 1 East Wacker Drive, Suite 2900, Chicago, IL 60601
+- **Phone:** (312) 348-7580
 
-## Research Notes
-- Emphasis on working WITH founders/owners (not typical PE takeover model)
-- Strong operating partner bench
-- PE 101 educational content for potential portfolio companies
-- Network effect across 50+ portfolio companies
-- Focused on business services, healthcare, and tech-enabled services
+## Additional Leadership
+- Multiple operating partners and sector specialists
+- George A. Leondis: Operating Partner, President & CEO of Argon Medical Devices
 
-## Research Status
-- Founder and firm details verified via multiple sources (Forbes, Wikipedia, company website)
-- Email pattern identified from third-party lead databases (needs official verification)
-- LinkedIn profile confirmed
-- High public profile due to sports team ownership
-
----
-*Last Updated: 2026-04-01*
-*Source: shorecp.com, Forbes, Wikipedia, LinkedIn, Crunchbase*
+## Notes
+- "360-degree team" operational support model
+- Shore University: Leadership development platform for portfolio companies
+- CXO Executive Program for portfolio company executives
+- Email pattern: {first_initial}{last}@shorecp.com (64.6% confidence per Prospeo analysis)
