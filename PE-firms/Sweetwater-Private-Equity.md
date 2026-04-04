@@ -1,50 +1,46 @@
 # Sweetwater Private Equity
 
-**Status:** ✅ Enriched  
-**Last Updated:** 2026-03-30
+**Last Updated**: 2026-04-04  
+**Research Status**: ✅ VERIFIED CONTACT
 
-## Overview
-- **Website:** https://sweetwaterpe.com
-- **Focus:** Private equity secondary specialist in venture capital, growth equity, and buyouts
-- **Sectors:** Technology, Healthcare, Consumer
-- **Type:** Buyer-led direct and fund restructure transactions
+## Company Overview
+- **Website**: https://sweetwaterpe.com
+- **Focus**: Venture capital, growth equity, and buyouts
+- **Sectors**: Technology, healthcare, consumer
+- **Founded**: N/A
+- **HQ**: San Diego, CA (Phone: 858-200-6145)
 
-## Key Contact
-- **Name:** James Gamett, MBA, CFA, CPA
-- **Title:** Founder & Managing Partner
-- **Email:** james@sweetwaterpe.com ✅ VERIFIED
-- **Phone:** 858-200-6145
-- **LinkedIn:** https://www.linkedin.com/in/jamesgamett/
-- **Source:** Official press releases (BusinessWire, Morningstar, Yahoo Finance, July 2025)
+## Investment Thesis
+Sweetwater focuses on venture capital, growth equity, and buyouts with deep domain expertise in technology, healthcare, and consumer sectors. Active in identifying growth opportunities across the tech and healthcare landscape.
 
-## Leadership Team
-- **James Gamett** - Founder & Managing Partner
-- **Gregg Parise, MBA** - Partner
-- **Brent Granado, MBA, Esq.** - Partner
-- **Matt Kelsay, MBA** - Partner
-- **Brent Alvord, MBA** - Managing Director, Head of Research
-- **Travis Greenwood, CPA** - CFO & CCO
+## Verified Contacts
 
-## Business Model
-Sweetwater specializes in secondary investment opportunities where the buyer drives asset selection and structuring. They provide liquidity solutions for:
-- Limited partner (LP) interests
-- General partner (GP) interests
-- Direct secondary investments in portfolio companies
-- Venture capital, growth equity, and buyout funds
+### James Gamett
+- **Title**: Founder & Managing Partner
+- **Email**: ✅ james@sweetwaterpe.com (verified from Business Wire)
+- **Phone**: 858-200-6145
+- **LinkedIn**: https://www.linkedin.com/company/sweetwater-private-equity/
+- **Source**: Business Wire Press Release (July 22, 2025) - "Sweetwater Private Equity Appoints Brent Alvord as Managing Director, Head of Research"
+- **Quote from PR**: "Media Inquiries: James Gamett, Founder & Managing Partner, Sweetwater Private Equity, 858-200-6145, james@sweetwaterpe.com"
+- **Notes**: Founder of firm. Email and phone published in official press release as media contact.
 
-## Why Good Fit for Hello Gumbo
-- Mid-market PE with clear focus on tech/healthcare sectors
-- Active secondary market player (high transaction volume)
-- Publicly accessible contact info suggests openness to outreach
-- Team has deep domain expertise (CFA, CPA, MBA credentials)
-- Recent hiring activity (Brent Alvord appointed July 2025) suggests growth phase
+## Portfolio Focus
+- Technology
+- Healthcare
+- Consumer sectors
+- Venture capital
+- Growth equity
+- Buyouts
 
-## Notes
-- James Gamett has hundreds of secondary transactions totaling billions in invested capital
-- Served on Investment Committee at prior firm
-- CPA and CFA charterholder
-- MBA from UCLA Anderson School
-- Email verified from multiple official press releases
+## Recent News
+- **July 2025**: Appointed Brent Alvord as Managing Director, Head of Research
+- Firm expansion and leadership team growth
 
-## Research Date
-2026-03-30 (Hourly PE Research & Enrichment cron)
+## Relevance to Hello Gumbo
+**MEDIUM-HIGH** - Technology and healthcare focus align with tech-enabled services value proposition. Venture/growth equity stage might be earlier than typical PE buyout focus, but cross-sector expertise is valuable.
+
+## Research Notes
+- Rare to find PE firm with published email in press releases
+- San Diego-based
+- **Status**: Added to CRM with verified contact (2026-04-04)
+- Source: https://www.businesswire.com/news/home/20250722400084/en/Sweetwater-Private-Equity-Appoints-Brent-Alvord-as-Managing-Director-Head-of-Research

@@ -1,63 +1,59 @@
 # CORE Industrial Partners
 
-**Website:** https://coreipfund.com  
-**HQ:** Illinois, USA  
-**Founded:** Early 2010s  
-**AUM:** $1.58 billion (across four funds)
+**Last Updated**: 2026-04-04  
+**Research Status**: ✅ VERIFIED CONTACTS
 
-## Focus
-- **Manufacturing** (exclusively)
-- **Industrial Technology** (exclusively)
-- **Industrial Services** (exclusively)
-- Consumer Products (select investments)
+## Company Overview
+- **Website**: https://coreipfund.com
+- **Focus**: Lower-middle-market manufacturing, industrial technology, and industrial services
+- **Strategy**: Operational value-add through "Operating Playbook"
+- **Deal Size**: Lower-middle-market businesses
+- **Founded**: N/A
+- **HQ**: Chicago, IL
 
-## Key Personnel
+## Investment Thesis
+CORE seeks to partner with companies where they bring value through capital, insight, and Operating Playbook. Focus on businesses with strong fundamentals in manufacturing, industrial technology, and industrial services sectors.
+
+## Verified Contacts
 
 ### John May
-- **Title:** Founder & Managing Partner
-- **Email:** john@coreipfund.com
-- **Source:** Apollo API verified 2026-04-02
+- **Title**: Managing Partner, Founder
+- **Email**: ✅ john@coreipfund.com (verified from official PDF)
+- **LinkedIn**: https://www.linkedin.com/in/john-may-core/
+- **Source**: CORE Tear Sheet PDF (Jul 2023) - https://coreipfund.com/wp-content/uploads/2023/07/CORE-Tear-Sheet-JUL2023.pdf
+- **Notes**: Founder and Managing Partner. Responsible for overseeing all firm activities including investment sourcing, valuation, transaction structuring, acquisition financing, fundraising.
 
-## Investment Strategy
-- **Exclusively lower middle market** industrials
-- Private equity firm with operational focus
-- Goes beyond traditional private equity approach
-- Uses intellectual capital, creativity, hard work, and network of resources
-- Partnership-driven: "Providing Capital & Operational Expertise to Industrial Businesses"
+### Frank Papa
+- **Title**: Senior Partner
+- **Email**: ✅ frank@coreipfund.com (verified from official PDF)
+- **LinkedIn**: https://www.linkedin.com/in/frank-papa-core/
+- **Source**: CORE Tear Sheet PDF (Jul 2023)
 
-## Fund Structure
-- Four funds totaling $1.58B in limited partner capital commitments
-- North American focus
-- Lower middle-market transactions
+### TJ Chung
+- **Title**: Senior Partner
+- **Email**: ✅ tj@coreipfund.com (verified from official PDF)
+- **LinkedIn**: https://www.linkedin.com/in/tj-chung-core/
+- **Source**: CORE Tear Sheet PDF (Jul 2023)
 
-## Operating Model
-- Deep operational expertise in manufacturing and industrial sectors
-- Hands-on value creation approach
-- Focus on growing and scaling businesses through strategic initiatives
+### Matt Puglisi
+- **Title**: Partner
+- **Email**: ✅ matt@coreipfund.com (verified from official PDF)
+- **LinkedIn**: https://www.linkedin.com/in/matt-puglisi-core/
+- **Source**: CORE Tear Sheet PDF (Jul 2023)
 
-## Portfolio
-- 12 platform investments
-- Focus on North American lower middle-market companies
-- Sectors: Manufacturing, Industrial Technology, Industrial Services, Consumer Products
+## Portfolio Focus
+- Manufacturing
+- Industrial Technology
+- Industrial Services
+- Buy-and-build strategies
+- Operational improvement
 
-## Team
-- 12 team members (including current Founder & Managing Partner John May)
-- Experienced in industrials-focused investing
-- Strong operational backgrounds
+## Relevance to Hello Gumbo
+**HIGH** - Lower-middle-market focus aligns well. Strong operational value-add approach. Services-heavy portfolio would benefit from digital transformation and operational tech. Multiple decision-makers with published contact info.
 
-## Differentiation
-- **Exclusive focus** on industrial businesses (manufacturing, technology, services)
-- Operational expertise combined with capital
-- Lower middle-market specialization
-- Build-up and consolidation strategies
-
-## Target Criteria
-- Lower middle-market companies
-- Manufacturing, industrial tech, or industrial services
-- North American operations
-- Opportunities for operational improvement and growth
-
----
-
-**Last Updated:** 2026-04-02  
-**Source:** Apollo API, official website, PitchBook, CBInsights, LeadIQ
+## Research Notes
+- Firm publishes contact emails directly in official tear sheet (rare!)
+- Team page: https://coreipfund.com/team/
+- Operating-focused approach
+- Chicago-based
+- **Status**: Ready for outreach - 4 verified contacts added to CRM (2026-04-04)
