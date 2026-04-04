@@ -1,0 +1,15 @@
+{
+  "firm": "Abry Partners",
+  "website": "https://abry.com",
+  "lastUpdated": "2026-04-04T08:48:47.049Z",
+  "contacts": [
+    {
+      "name": "Nicholas Scola",
+      "title": "Head of Buyout Funds",
+      "email": "nscola@abry.com",
+      "linkedin": "https://www.linkedin.com/in/nicholas-scola/",
+      "verified": "Email pattern 80% verified (first_initial + last @ abry.com)",
+      "source": "https://abry.com/team-member/nicholas-scola/"
+    }
+  ]
+}

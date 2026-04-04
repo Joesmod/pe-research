@@ -1,25 +1,22 @@
 # Trivest Partners
 
-## Key Contact
+**Website:** https://trivest.com
 
-**Troy Templeton**
-- Title: Managing Director
-- Email: ttempleton@trivest.com
-- LinkedIn: https://www.linkedin.com/in/troy-templeton
+**Last Updated:** 2026-04-04
 
-## Enrichment Notes
+## Overview
 
-Managing Director confirmed. Email VERIFIED via ContactOut. Pattern: FLast@trivest.com. Miami-based founder-friendly PE founded 1981.
+Multi-strategy PE firm with Discovery, Mid-Market, Recognition, TGIF, and PSG funds. Based in Florida. Team of 150+ professionals.
 
-**Source:** Web research + ContactOut/RocketReach/ZoomInfo verification
-**Date Enriched:** 2026-04-03
+## Key Contacts
 
-## Research Status
+### Chris Weldon
+- **Title:** Operating Executive, Mid-Market
+- **Email:** cweldon@trivest.com
+- **LinkedIn:** https://www.linkedin.com/in/jchrisweldon/
+- **Email Verified:** Email pattern verified via SignalHire + team page
+- **Source:** https://trivest.com/team
 
-✅ Contact verified
-✅ Email pattern confirmed
-✅ Direct email found
+## Enrichment Log
 
----
-
-*Last updated: 2026-04-03*
+**April 4, 2026 - 3:43 AM:** Contact research via web search + team page verification. Email patterns verified through RocketReach/SignalHire.

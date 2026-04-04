@@ -1,0 +1,31 @@
+{
+  "firm": "Mako Capital Group",
+  "website": "https://makocapitalgroup.com",
+  "lastUpdated": "2026-04-04T08:48:47.050Z",
+  "contacts": [
+    {
+      "name": "Angel Morales",
+      "title": "Founding Partner (Institutional Investor)",
+      "email": null,
+      "linkedin": "https://www.linkedin.com/in/angel-morales-pe/",
+      "verified": "Not verified",
+      "source": "https://makocapitalgroup.com/team"
+    },
+    {
+      "name": "Pete Amaro",
+      "title": "Founding Partner (Growth Operator)",
+      "email": null,
+      "linkedin": null,
+      "verified": "Not verified",
+      "source": "https://makocapitalgroup.com/team"
+    },
+    {
+      "name": "Oscar Munoz",
+      "title": "Founding Partner (Global CEO)",
+      "email": null,
+      "linkedin": "https://www.linkedin.com/in/oscarmunoz/",
+      "verified": "Not verified",
+      "source": "https://makocapitalgroup.com/team"
+    }
+  ]
+}

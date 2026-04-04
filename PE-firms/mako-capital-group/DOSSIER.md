@@ -1,36 +1,35 @@
 # Mako Capital Group
 
+**Website:** https://makocapitalgroup.com
+
+**Last Updated:** 2026-04-04
+
 ## Overview
-- **Website:** https://makocapitalgroup.com
-- **Location:** Miami, Florida
-- **Founded:** March 31, 2026 (BRAND NEW - Official Launch)
-- **Focus:** Lower middle-market, healthcare services, financial services, essential services
+
+Lower middle market PE. Team combines institutional PE experience with Fortune 100 C-suite leadership. Email pattern not publicly available - may require direct outreach.
 
 ## Key Contacts
 
 ### Angel Morales
-- **Title:** Co-Founder & Managing Partner
-- **Email:** (Not yet publicly available - firm too new)
-- **LinkedIn:** https://www.linkedin.com/in/angel-morales
-- **Background:** 30+ years PE experience, formerly Founding Partner of Morales Capital and Co-Head of BAML Capital Partners ($6B AUM)
+- **Title:** Founding Partner (Institutional Investor)
+- **LinkedIn:** https://www.linkedin.com/in/angel-morales-pe/
+- **Source:** https://makocapitalgroup.com/team
+
+30 years PE experience, including at Merrill Lynch where he managed over $6B in assets.
 
 ### Pete Amaro
-- **Title:** Co-Founder & Managing Partner
-- **Email:** (Not yet publicly available - firm too new)
-- **LinkedIn:** https://www.linkedin.com/in/pete-amaro
-- **Background:** Growth equity investor and operator. Prior: L'ATTITUDE Ventures, The Raine Group, Luminary Media
+- **Title:** Founding Partner (Growth Operator)
+- **Source:** https://makocapitalgroup.com/team
+
+Proven growth investor with operator expertise, deployed over $130M, held several C-Suite roles.
 
 ### Oscar Munoz
-- **Title:** Co-Founder & Strategic Advisor
-- **Email:** (Not yet publicly available - firm too new)
-- **LinkedIn:** https://www.linkedin.com/in/oscar-munoz
-- **Background:** Former CEO of United Airlines
+- **Title:** Founding Partner (Global CEO)
+- **LinkedIn:** https://www.linkedin.com/in/oscarmunoz/
+- **Source:** https://makocapitalgroup.com/team
 
-## Notes
-BRAND NEW FIRM - Officially launched March 31, 2026 via PR Newswire. Thesis-driven firm specializing in acquiring lower-middle market companies in financial, healthcare and other essential services. Focus on founder-led businesses. Team has managed $6B+ in PE assets with 30+ years combined experience. Capital-light, recession-resistant models.
+Former CEO of United Airlines, COO of CSX, multiple board roles. Provides C-suite access and strategic oversight.
 
-## Source
-PR Newswire press release (March 31, 2026) + makocapitalgroup.com + LinkedIn
+## Enrichment Log
 
-## Last Updated
-2026-04-04 - Enhanced with launch press release details. Email not publicly available yet - monitor for updates as firm matures.
+**April 4, 2026 - 3:43 AM:** Contact research via web search + team page verification. Email patterns not publicly available.

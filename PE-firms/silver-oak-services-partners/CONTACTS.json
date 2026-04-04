@@ -1,0 +1,31 @@
+{
+  "firm": "Silver Oak Services Partners",
+  "website": "https://silveroaksp.com",
+  "lastUpdated": "2026-04-04T08:48:47.048Z",
+  "contacts": [
+    {
+      "name": "Daniel M. Gill",
+      "title": "Managing Partner",
+      "email": "dgill@silveroaksp.com",
+      "linkedin": "https://www.linkedin.com/in/dan-gill-0b566976/",
+      "verified": "Email confirmed via RocketReach (d******@silveroaksp.com)",
+      "source": "https://silveroaksp.com/team"
+    },
+    {
+      "name": "Gregory M. Barr",
+      "title": "Managing Partner",
+      "email": null,
+      "linkedin": null,
+      "verified": "Not verified",
+      "source": "https://silveroaksp.com/team"
+    },
+    {
+      "name": "Wade D. Glisson",
+      "title": "Managing Partner",
+      "email": null,
+      "linkedin": null,
+      "verified": "Not verified",
+      "source": "https://silveroaksp.com/team"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "firm": "Bow River Capital",
+  "website": "https://bowrivercapital.com",
+  "lastUpdated": "2026-04-04T08:48:47.049Z",
+  "contacts": [
+    {
+      "name": "Blair E. Richardson",
+      "title": "Chief Executive Officer",
+      "email": "richardson@bowrivercapital.com",
+      "linkedin": "https://www.linkedin.com/in/blair-richardson/",
+      "verified": "Email pattern 94.6% verified (last @ bowrivercapital.com)",
+      "source": "https://bowrivercapital.com/team"
+    },
+    {
+      "name": "Jane C. Ingalls",
+      "title": "President, Chief Operating Officer",
+      "email": "ingalls@bowrivercapital.com",
+      "linkedin": null,
+      "verified": "Not verified",
+      "source": "https://bowrivercapital.com/team"
+    },
+    {
+      "name": "Greg J. Hiatrides",
+      "title": "Partner, Head of Private Equity",
+      "email": "hiatrides@bowrivercapital.com",
+      "linkedin": null,
+      "verified": "Not verified",
+      "source": "https://bowrivercapital.com/team"
+    }
+  ]
+}
