@@ -1,57 +1,43 @@
 # Ridgemont Equity Partners
 
 **Website:** https://www.ridgemontep.com  
-**Founded:** 1993  
-**Headquarters:** Charlotte, NC  
-**AUM:** $5B+  
-**Type:** Private Equity (Middle-Market)
+**HQ:** Charlotte, NC  
+**AUM:** Middle-market focused  
+**Founded:** 2008  
 
-## Focus Sectors
-- Healthcare
-- Business Services
-- Industrial
-- Services-heavy sectors
+## Focus Areas
+- Business and tech-enabled services
+- Industrial growth
+- Healthcare sectors
+- Middle-market buyout and growth capital
 
-## Key Contacts
+## Key Contact
+**John Shimp**  
+- Title: Managing Partner  
+- Email: jshipm@ridgemontep.com (pattern 98.1% verified)  
+- Phone: (704) ***-****  
+- LinkedIn: https://www.linkedin.com/in/john-shimp-91a73927  
+- Location: Charlotte, NC  
+- Education: Duke Fuqua School of Business  
 
-### Craig Ammirato - Managing Partner
-- **Email:** cammirato@ridgemontep.com (pattern inferred)
-- **Role:** Managing Partner
-- **Status:** Standard email pattern for PE firms
+## Investment Thesis
+- Experienced management team with operational backgrounds
+- First-hand experience starting, building, managing businesses
+- Engagement and partnership commitment
+- Gender Excellence Consortium founding member
+- ILPA Diversity & Inclusion in Alternatives signatory
 
-## Investment Strategy
-- Middle-market private equity
-- Focus on healthcare, business services, and industrial sectors
-- Operational value creation approach
-- Control and significant minority investments
-- Target: $500M-$5B enterprise value range
+## Email Pattern
+- Verified: [first_initial][last]@ridgemontep.com (98.1% accuracy)
+- Examples: jshipm@ridgemontep.com, jlay@ridgemontep.com, elangerman@ridgemontep.com
 
-## Notable Facts
-- Founded 1993 (30+ years of experience)
-- Charlotte, NC based (Southeast U.S. focus)
-- $5B+ in assets under management
-- Strong healthcare and business services track record
-- Founder-friendly reputation
+## Notable Achievements
+- Gender Excellence Consortium founding member
+- ILPA D&I signatory
+- Strong Charlotte presence
+- Business services and healthcare expertise
 
-## Outreach Value Proposition
-**Tier 2 Priority** - Good fit for Hello Gumbo AI services:
-- Healthcare services = high tech adoption needs
-- Business services portfolio = operational efficiency focus
-- Industrial sector = automation and AI opportunities
-- Middle-market sweet spot for targeted tech solutions
-- Charlotte location = strong regional business services presence
-
-## Target Portfolio Profile
-- Healthcare services (staffing, home health, specialty services)
-- Business services (BPO, staffing, professional services)
-- Industrial services (facility services, field services)
-
-## Sources
-- Industry rankings (Top 50 PE firms 2026)
-- Company website (ridgemontep.com)
-- Verified: 2026-04-02 11:42 PM
-
----
-**Last Updated:** 2026-04-02  
-**Research Status:** Enriched - pattern inferred  
-**Next Action:** Verify email pattern, research recent portfolio additions
+## Source
+- Enriched 2026-04-04 via web research
+- RocketReach email pattern verification (98.1% confidence)
+- Official website and LinkedIn

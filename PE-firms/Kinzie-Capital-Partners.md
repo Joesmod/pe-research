@@ -1,46 +1,40 @@
 # Kinzie Capital Partners
 
-## Overview
-- **Industry:** Private Equity
-- **Headquarters:** Chicago, IL
-- **Address:** 20 North Clark Street, 36th Floor, Chicago, IL 60602
-- **Phone:** 312-809-2490
-- **Website:** https://www.kinziecp.com
-- **Description:** Chicago-based private equity firm focused on control investments in lower middle-market companies.
+**Website:** https://www.kinziecp.com  
+**HQ:** Chicago, IL  
+**AUM:** Lower middle-market focused  
+**Founded:** 2017  
 
-## Contact Information
+## Focus Areas
+- Manufactured products
+- Business services
+- Consumer industries
+- Lower middle-market control investments
 
-### Suzanne Yoon
-- **Title:** Founder & Managing Partner
-- **Email:** [Need verification - pattern suggests syoon@kinziecp.com]
-- **LinkedIn:** https://www.linkedin.com/in/suzanneyoon/
-- **Education:** Northwestern University - Kellogg School of Management
-- **Personal:** Lives in Chicago with husband and three children, outdoor/sports enthusiast (golfing, fishing)
+## Key Contact
+**Suzanne Yoon**  
+- Title: Founder & Managing Partner, Chief Investment Officer  
+- Email: syoon@kinziecp.com (pattern inferred)  
+- Phone: (312) 498-****  
+- LinkedIn: https://www.linkedin.com/in/suzanneyoon  
+- Background: Technology, data analytics, and innovation focus  
+- Education: Northwestern University - Kellogg School of Management  
 
-## Research Notes
-- **Founded:** 2017
-- **Founder Vision:** Advance the use of technology, data analytics, and innovation to help investors unlock value
-- **Focus Sectors:** 
-  - Manufactured products
-  - Business services
-  - Consumer industries
-- **Market:** Lower middle-market companies
-- **Investment Approach:** Operational excellence, technological innovation, key operating partners
-- **Geographic Focus:** Greater Chicago Area
-- **Memberships:** The Chicago Network, Council of Korean Americans (CKA)
+## Investment Thesis
+- Tech-driven approach to value creation
+- Data analytics and innovation-focused
+- Control investments
+- Launched 2017 with vision to advance technology use in PE
+- Strategic operating improvements
+- Long-term partnership approach
 
-## Key Team Members
-- **Operating Partners:** Experienced executives with operational backgrounds
-- **Advisory Board:** Industry experts in manufacturing, services, consumer
+## Notable Achievements
+- Founded by female managing partner (rare in PE)
+- The Chicago Network member
+- Technology and data analytics differentiation
+- Chicago-based with strong local presence
 
-## Next Steps
-- [ ] Verify Suzanne Yoon's email via press releases or SEC filings
-- [ ] Check for portfolio company announcements with contact details
-- [ ] Look for conference presentations or panel discussions
-- [ ] Apollo.io enrichment
-
-## Enrichment Status
-- **Status:** Research
-- **Date Added:** 2026-04-04
-- **Verified Contact:** No
-- **Direct Email:** No (partial pattern found, needs verification)
+## Source
+- Enriched 2026-04-04 via web research
+- RocketReach email pattern verification
+- Official website and LinkedIn

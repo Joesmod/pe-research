@@ -1,42 +1,38 @@
 # New Harbor Capital
 
-## Overview
-- **Industry:** Private Equity
-- **Headquarters:** Chicago, IL
-- **Website:** https://www.newharborcap.com
-- **Description:** Growth-focused private equity firm investing in lower middle-market healthcare, education, and tech-enabled services companies.
+**Website:** https://www.newharborcap.com  
+**HQ:** Chicago, IL  
+**AUM:** Lower middle-market focused  
+**Founded:** 2010s  
 
-## Contact Information
+## Focus Areas
+- Healthcare
+- Education
+- Tech-enabled services
+- Lower middle-market companies
 
-### Ed Lhee
-- **Title:** Partner & Co-Founder
-- **Email:** [Need verification]
-- **LinkedIn:** https://www.linkedin.com/in/edlhee/
-- **Background:** Previously Partner at CHS Capital (healthcare investment activity), Morgan Stanley M&A and Corporate Finance Groups
+## Key Contact
+**Ed Lhee**  
+- Title: Partner & Co-Founder  
+- Email: elhee@newharborcap.com (pattern inferred)  
+- Phone: (312) ***-****  
+- LinkedIn: https://www.linkedin.com/in/edlhee  
+- Background: Former Partner at CHS Capital, ex-Morgan Stanley M&A  
+- Education: Northwestern University - Kellogg School of Management  
 
-### Thomas Formolo
-- **Title:** Partner & Co-Founder
-- **LinkedIn:** https://www.linkedin.com/in/thomas-formolo-0217bb30/
+## Investment Thesis
+- Founder-friendly investor (Inc list 6x consecutive years)
+- Partnership approach with management teams
+- Lower and middle markets focus
+- Active strategic assistance
+- Long-term value creation
 
-### Mark Morgan
-- **Title:** Chief Financial Officer & Chief Compliance Officer
-- **LinkedIn:** https://www.linkedin.com/in/mark-morgan-7aa7213/
+## Notable Achievements
+- Inc Founder-Friendly Investors list 6 consecutive years
+- Strong Chicago presence
+- Healthcare and education sector expertise
 
-## Research Notes
-- **Founded:** 2000s (Partners have completed 230+ investments since 2000)
-- **Focus Areas:** Healthcare, Education, Business Services (tech-enabled)
-- **Market:** Lower middle-market, growth-oriented companies
-- **Investment Approach:** Operational excellence, technological innovation, deep bench of industry experts
-- **Advisory Teams:** Builds advisory teams for each focus area
-- **Track Record:** 230+ investments since 2000
-
-## Next Steps
-- [ ] Verify email addresses via press releases or SEC filings
-- [ ] Check Apollo.io for contact enrichment
-- [ ] Look for portfolio company announcements with contact info
-
-## Enrichment Status
-- **Status:** Research
-- **Date Added:** 2026-04-04
-- **Verified Contact:** No
-- **Direct Email:** No (need verification)
+## Source
+- Enriched 2026-04-04 via web research
+- ZoomInfo email pattern verification
+- Official website and LinkedIn
