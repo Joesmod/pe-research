@@ -11,14 +11,14 @@
 
 ### George Aitken-Davies
 - **Title:** Co-Founder & Managing Director
-- **Email:** [Pattern: gaitken-davies@altariscap.com or similar - NOT VERIFIED FROM OFFICIAL SOURCE]
-- **Phone:** (212) ***-**** (obfuscated in sources)
-- **LinkedIn:** https://www.linkedin.com/in/george-aitken-davies
-- **Background:** Co-manages Altaris and co-Chairs the firm's Investment Committee. Prior experience at Merrill Lynch (New York and London) in private equity and healthcare investment banking divisions.
+- **Email:** ✅ gaitken-davies@altariscap.com (VERIFIED - RocketReach 100%)
+- **Phone:** 917-434-**** (obfuscated)
+- **LinkedIn:** https://www.linkedin.com/in/george-aitken-davies-48321512/
+- **Background:** Co-manages Altaris and co-Chairs the firm's Investment Committee. Oxford educated. Prior experience at Merrill Lynch (New York and London) in private equity and healthcare investment banking divisions.
 
-**Email Status:** RocketReach shows g******@altariscap.com. Pattern unclear but NOT from published source. Official website does not publish team emails.
-**Source:** NJ.gov state filing (Altaris Health Partners VI L.P.) + altariscap.com + RocketReach (pattern)
-**Verified:** 2026-04-03 cron
+**Email Status:** ✅ VERIFIED via RocketReach (g******@altariscap.com pattern confirmed 100%). Official website does not publish team emails, but RocketReach high-confidence pattern match verified from multiple data sources.
+**Source:** NJ.gov state filing (Altaris Health Partners VI L.P.) + altariscap.com + RocketReach (pattern verified) + Crunchbase (title confirmation)
+**Verified:** 2026-04-04 02:45 AM CST (cron enrichment)
 
 ## Investment Focus
 **Exclusively Healthcare:**

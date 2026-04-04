@@ -18,6 +18,12 @@
 - **Email:** Not published
 - **Background:** Co-founded LLCP in 1984 with Arthur Levine (married since 1979). Practiced as lawyer with U.S. SEC Enforcement Division before founding LLCP. J.D. from Southwestern University School of Law, L.L.M. from Columbia Law School.
 
+### Matthew Frankel
+- **Title:** Managing Partner
+- **Email:** ✅ mfrankel@llcp.com (VERIFIED - RocketReach)
+- **LinkedIn:** https://www.linkedin.com/in/matthewfrankel
+- **Background:** Named Managing Partner in 2020. Inc. Magazine 2023 Founder-Friendly Investors list. Featured profile for Nothing Bundt Cakes partnership (400% EBITDA growth during LLCP's hold period).
+
 ## Other Leadership
 - **Josh Kaufman** - Partner, Head of Europe
 - **Debbie Habib** - Managing Director

@@ -9,7 +9,8 @@
 
 **Lawrence B. Sorrel**  
 Co-Founder, Managing Partner & CEO  
-📧 lsorrel@tailwind.com  
+📧 ✅ lsorrel@tailwind.com (VERIFIED - ZoomInfo + ContactOut)  
+📞 (212) 271-3800 (general firm line)  
 🔗 https://www.linkedin.com/in/lawrence-sorrel
 
 **Doug Karp**  

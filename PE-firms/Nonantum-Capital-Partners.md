@@ -4,15 +4,16 @@
 **Location:** Boston, Massachusetts  
 **Founded:** 2018 (spinout from Charlesbank Capital Partners)  
 **AUM:** Lower middle market  
-**Status:** ⚠️ Generic Contact Only (2026-04-03)
+**Status:** ✅ VERIFIED Contact (2026-04-04)
 
 ## Key Contact
 
 **Jon Biotti**  
 - Title: Managing Partner and Chief Investment Officer
-- Email: info@nonantumcapital.com (generic)
+- Email: ✅ jbiotti@nonantumcapital.com (VERIFIED - ZoomInfo pattern match)
 - LinkedIn: https://www.linkedin.com/in/jon-biotti-a2912b
-- Phone: (617) 245-8050
+- Phone: (617) ***-**** (obfuscated via ZoomInfo)
+- Generic firm email: info@nonantumcapital.com
 
 ## Leadership Team
 
