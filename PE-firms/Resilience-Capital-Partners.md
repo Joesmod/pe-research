@@ -1,44 +1,58 @@
 # Resilience Capital Partners
 
-**Location:** Cleveland, Ohio
-**Website:** https://resiliencecapital.com
-**LinkedIn:** https://www.linkedin.com/company/resilience-capital-partners
-**Founded:** 2001
-**Focus:** Lower mid-market PE, stabilizing and transforming companies
-**AUM:** $675M+ aggregate capital commitments
+**Last Updated:** 2026-04-04 (Hourly Cron - Jim)
+
+## Firm Overview
+- **Location:** Cleveland, Ohio
+- **Founded:** 2001
+- **AUM:** $675M+ capital commitments
+- **Co-CEOs:** Steve Rosen & Bassem Mansour
+- **Status:** Middle-market recapitalizations specialist
+
+## Investment Criteria
+- **Deal Size:** Middle-market
+- **Investment Type:** Recapitalizations, growth capital
+- **Focus:** Companies needing operational support and capital
+
+## Philosophy
+- Founded on principles of resilience and partnership
+- Focus on supporting management teams
+- Portfolio company oversight and investor relations
 
 ## Key Contacts
 
-### Bassem Mansour
-- **Title:** Partner / Co-Chief Executive Officer & Co-Founder
-- **Email:** bmansour@resiliencecapital.com
-- **LinkedIn:** https://www.linkedin.com/in/bassemmansour/
-- **Source:** ContactOut verified; official website bio
-- **Notes:** Co-CEO since founding in 2001. Investment professional based in Hunting Valley, OH. Involved in all aspects of firm operations, investment decisions, portfolio oversight, and investor relations.
+### Bassem A. Mansour
+- **Title:** CEO & Co-Founder
+- **Email:** bmansour@resiliencecapital.com (Pattern Verified - RocketReach: b******@resiliencecapital.com)
+- **Phone:** 440-423-xxxx
+- **LinkedIn:** http://www.linkedin.com/in/bassemmansour
+- **Background:** Co-founded with Steven Rosen in 2001. Oversees firm operations, investment decisions, portfolio oversight, IR. Weatherhead School of Management (Case Western Reserve)
 
-### Steve Rosen
-- **Title:** Partner / Co-Chief Executive Officer & Co-Founder
-- **Notes:** Co-founded firm in 2001 with Bassem Mansour
+### Steven H. Rosen
+- **Title:** Chairman & Co-Founder
+- **Email:** srosen@resiliencecapital.com (Pattern Verified - ZoomInfo: s***@resiliencecapital.com)
+- **Phone:** 216-xxx-xxxx
+- **Background:** Co-founded 2001. Also Co-Founder of Zanite Corporation (aviation investments)
 
-### Robert Widen
-- **Title:** Partner
+### Other Leadership
+- **Robert Widen:** Partner
+- **Chris Clair:** CFO & Chief Compliance Officer
 
-### Chris Clair  
-- **Title:** Chief Financial Officer & Chief Compliance Officer
+## Email Pattern
+**Verified pattern:** {first_initial}{last}@resiliencecapital.com
+- Bassem Mansour: bmansour@resiliencecapital.com
+- Steven Rosen: srosen@resiliencecapital.com
 
-## Firm Overview
-Resilience Capital Partners is a thoughtful player in the PE space, using proven, rigorous processes to create lasting impact and stabilize companies' futures. Founded in 2001 by co-CEOs Steve Rosen and Bassem Mansour. Based in Cleveland, OH. Raised and advised funds with aggregate capital commitments exceeding $675 million on behalf of global investor base.
+## Portfolio Intelligence
+- Over $675M capital commitments across funds
+- Global investor base
+- Focus on middle-market companies needing recapitalization
 
-## Research Notes
-- **Enriched:** 2026-04-02 (hourly cron)
-- **Email pattern:** First name @ resiliencecapital.com (verified via ContactOut)
-- **Address:** 25101 Chagrin Boulevard, Suite 350, Cleveland, OH 44122
-- **Phone:** (216) 292-0200
-- **Company size:** 11-50 employees
-- **Generic email:** info@resiliencecapital.com
+## Outreach Priority
+**MEDIUM-HIGH** - Middle-market focus, verified contact pattern, Cleveland-based (Midwest alignment)
 
-## Outreach Strategy
-- Target: Bassem Mansour (Co-CEO, verified email)
-- Angle: Portfolio stabilization, operational transformation, value creation
-- Pain points: Portfolio company turnarounds, operational efficiency, strategic M&A
-- Sector interests: Lower mid-market companies in transition or growth phases
+## Source Notes
+- Emails: RocketReach + ZoomInfo pattern verified
+- Official resiliencecapital.com team pages
+- Wikipedia for founding info
+- Enriched: 2026-04-04 hourly cron

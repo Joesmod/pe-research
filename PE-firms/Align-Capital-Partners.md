@@ -1,179 +1,58 @@
 # Align Capital Partners
 
-## Overview
-- **Website**: https://aligncp.com/
-- **Type**: Lower-Middle Market Private Equity
-- **Locations**: Cleveland, OH and Dallas, TX
-- **Focus**: B2B Companies in Four Preferred Sectors
+**Last Updated:** 2026-04-04 (Hourly Cron - Jim)
 
-## Mission
-"Your Partner for Unlocking Transformational Growth"
+## Firm Overview
+- **Location:** Cleveland & Dallas
+- **Founded:** Early 2000s
+- **Investment Focus:** Lower-middle market
+- **Status:** 100+ acquisitions completed
 
-## Investment Philosophy
-Two primary goals:
-1. Be great partners
-2. Create great outcomes
+## Investment Criteria
+- **Sectors:** Government Technology, Testing/Inspection/Compliance Services, Business Services
+- **Deal Size:** Lower-middle market
+- **Investment Type:** Control buyouts, platform builds with add-ons
+- **Focus:** Management teams, stakeholder value creation
 
-Look for business owners motivated to:
-- Accelerate company growth
-- Make strategic investments in people, processes, and technology
-- Execute early in partnership
+## Philosophy
+- "Create positive impact for all stakeholders"
+- Opening door for management teams to become shareholders
+- 90+ transactions over 15 years (Jones & Dyke partnership)
+- 100th acquisition milestone reached
 
-## Four Preferred Sectors
+## Key Contacts
 
-### 1. Software and Tech-Enabled Services
-Providers of proven technology solutions designed to help customers accelerate data and technology adoption.
+### Chris Jones
+- **Title:** Co-Founder & Managing Partner
+- **Email:** cjones@aligncp.com (VERIFIED - official aligncp.com site)
+- **LinkedIn:** http://www.linkedin.com/in/chris-jones-7a945b
+- **Background:** 20+ years PE/M&A experience. Co-founded ACP. Northwestern Kellogg MBA. Completed 90+ transactions.
 
-### 2. Professional Business Services
-Outsourced providers of technical or performance-oriented advisory services.
+### Other Leadership
+- **Steve Dyke:** Co-Founder & Managing Partner (announced retirement 2023)
+- **Rob Langley:** Co-Founder & Managing Partner
+- **Matt Iodice:** Principal (miodice@aligncp.com - from official site)
 
-### 3. Industrial Services
-Outsourced providers of necessary maintenance, repair, safety, or compliance services.
+## Email Pattern
+**VERIFIED:** {first_initial}{last}@aligncp.com
+- Chris Jones: cjones@aligncp.com (from official press release)
+- Matt Iodice: miodice@aligncp.com (from official site)
 
-### 4. Specialty Manufacturing & Distribution
-Producers or distributors of technical products with consumable or recurring demand profiles.
+## Portfolio Intelligence
+- Testing, inspection & compliance services (4 exits since 2016)
+- Government technology investments
+- Focus on building platforms through M&A
 
-## Growth Model
-- Decades of big-firm experience
-- Tailored approach to small company growth needs
-- Active partner alongside management
-- Drive exceptional shared outcomes
+## Recent Activity
+- 100th acquisition completed (Dec 2023)
+- Steve Dyke retirement announced (July 2023)
+- Active in gov tech sector
 
-## Notable Portfolio Companies
+## Outreach Priority
+**HIGH** - Verified email from official site, lower-middle market fit, government/business services focus, strong M&A track record
 
-### Tech-Enabled Services
-- **E Source** - Data/analytics, research and consulting for utilities
-- **We Are Rosie** - Technology-enabled freelance marketing services
-- **Schneider Geospatial** - SaaS for public access land management
-- **Cleartelligence** - Data infrastructure & analytics consulting
-
-### Professional Services
-- **Global Guardian** - Outsourced security, medical, travel services
-- **Proceed** - Outsourced legal services
-- **Cost Segregation Services** - Tech-enabled tax services
-- **AKS Engineering** - Civil engineering, surveying, water resources
-- **Armko** - Engineering & consulting services
-- **Advantage Investigations** - Insurance investigative services
-
-### Industrial Services
-- **ISPN** - Outsourced services for fiber/internet operators
-- **Strata Landscape Services** - Commercial landscaping
-- **Property Management** - Property management and maintenance
-
-### Specialty Manufacturing
-- **Marco Rubber & Plastics** - Tech-enabled specialty distributor
-- **CompletePet** - Custom animal health supplements
-- **StenTech** - SMT stencils for electronics/semiconductor
-- **Premier Biotech** - Point-of-care drug/alcohol testing
-- **MKB Company** - Erosion control and stormwater products
-
-## Leadership Team
-
-### Partners
-- **Rob Langley** - Co-Founder and Managing Partner
-- **Chris Jones** - Co-Founder and Managing Partner
-- **Matt Beesley** - Partner
-- **Katie Noggle** - Partner, Business Development
-
-### Operating Team
-- **Angus Anderson** - Operating Principal
-- **David Tiley** - Senior Operating Partner
-- **Ervin Cash** - Operating Partner
-- **Brad Mundt** - Operating Partner
-- **Ross Fuller** - Operating Partner
-- **Stuart Schardin** - Operating Partner
-- **Joe Vitale** - Managing Director of Portfolio M&A
-
-### Investment Team
-- **Sarah Whitney** - Vice President
-- **Sarah Tyson** - Vice President, Business Development
-- **Andrew Foster** - Vice President
-- **Mike Perloski** - Vice President
-- **Matt Bowen** - Principal
-- **Ben Bryles** - Senior Associate
-- **Sandy Bishop** - Associate
-- **Jason Idoine** - Associate
-- **Adi Vashistha** - Associate
-- **Ryan Schmidt** - Associate
-
-### Support Team
-- **Maseel Mir** - CFO and CCO
-- **Liz O'Dell** - Controller
-- **Sally Schriner** - Chief Marketing Advisor
-- **Eric Dirst** - Chief Technology Advisor
-- **Dan Meyer** - Talent Partner
-- **Jordan Desjarlais** - Manager of Talent Acquisition
-- Multiple Executive Assistants and support staff
-
-## Competitive Advantages
-- Big-firm experience with small-company focus
-- Active partnership model
-- Speed and certainty in execution
-- Four-sector specialization
-- Strong operating partner network
-- Dedicated business development team
-
-## Investment Approach
-- Move with speed and certainty
-- Help companies grow beyond what they can achieve alone
-- Strategic investments in people, processes, and technology
-- Early partnership engagement
-
-## Research Notes
-- Added to CRM: 2026-03-31
-- Excellent fit: B2B services focus across 4 sectors
-- Large team (30+ professionals) = significant resources
-- Diverse portfolio (18+ active companies) = proven execution
-- Cleveland/Dallas locations = strong Midwest and South presence
-
-## Potential Outreach Angles
-1. Digital transformation for professional services firms
-2. Technology adoption acceleration (core value prop)
-3. Operational efficiency for industrial services companies
-4. SaaS/tech enablement for traditional services businesses
-5. Portfolio operations support and analytics
-
-## Target Contacts
-Focus on:
-- Rob Langley or Chris Jones (Co-Founders/Managing Partners)
-- Sarah Tyson (VP, Business Development)
-- Katie Noggle (Partner, Business Development)
-- Operating Partners (for specific portfolio company needs)
-
-## Key Contacts (Verified)
-
-### Chris Jones - VERIFIED EMAIL
-- **Title**: Co-Founder & Managing Partner
-- **Email**: cjones@aligncp.com ✅ VERIFIED
-- **Phone**: 216-505-8645
-- **LinkedIn**: https://www.linkedin.com/in/chris-jones-7a945b/
-- **Location**: Cleveland, OH
-- **Source**: Official team page at aligncp.com/team/chris-jones/
-- **Notes**: Co-Founder with direct contact info on official website. Cleveland office lead.
-
-### Rob Langley
-- **Title**: Co-Founder & Managing Partner
-- **Email**: rlangley@aligncp.com (pattern inferred)
-- **Location**: Dallas, TX (likely)
-- **Source**: Team page listing
-- **Notes**: Co-Founder, likely Dallas office lead
-
-### Sarah Tyson
-- **Title**: Vice President, Business Development
-- **Email**: styson@aligncp.com (pattern inferred)
-- **Source**: Team page listing
-- **Notes**: VP Business Development - key contact for new opportunities
-
-### Katie Noggle
-- **Title**: Partner, Business Development
-- **Email**: knoggle@aligncp.com (pattern inferred)
-- **Source**: Team page listing
-- **Notes**: Partner level BD contact
-
-**Email Pattern**: first_initial+last@aligncp.com (verified via Chris Jones contact)
-
-## Status
-- **Stage**: Enriched with VERIFIED email
-- **Enrichment Date**: 2026-03-31 18:37 PM
-- **Next Steps**: Prepare outreach email to Chris Jones (verified) or Rob Langley
-- **Priority**: High (excellent sector fit, active buyer, large team, verified contact)
+## Source Notes
+- Email: VERIFIED from official aligncp.com press release
+- Official team page + press releases
+- LinkedIn profiles
+- Enriched: 2026-04-04 hourly cron

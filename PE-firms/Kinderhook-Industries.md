@@ -1,73 +1,65 @@
 # Kinderhook Industries
 
-**Website:** https://www.kinderhook.com  
-**Founded:** 20+ years (celebrating 20th anniversary in 2023)  
-**Headquarters:** New York, NY (505 Fifth Avenue, 25th Floor)  
-**AUM:** Middle market specialist
+**Last Updated:** 2026-04-04 (Hourly Cron - Jim)
 
-## Investment Focus
-- **Sectors:** Healthcare Services, Environmental & Industrial Services, Light Manufacturing, Automotive
-- **Stage:** Middle market buyouts, recapitalizations, growth investments
-- **Geography:** North America
-- **Philosophy:** Partnership with strong management teams to build market leaders
+## Firm Overview
+- **Location:** New York
+- **Founded:** 2003
+- **AUM:** $5B+ committed capital
+- **Fund Status:** Fund VIII: $2.75B (incl. $250M GP/operating partner commitments)
+- **Investment Count:** 240+ investments and follow-on acquisitions since inception
+
+## Investment Criteria
+- **Sectors:** Healthcare Services, Environmental Services, Automotive/Light Manufacturing
+- **Deal Size:** Lower-middle market control buyouts
+- **Investment Type:** Control buyouts, platform builds
+- **Focus:** Growth-oriented companies, proprietary operating partner network
+
+## Philosophy
+- Matching unique growth opportunities with exceptional financial expertise
+- Proprietary network of operating partners
+- Active value creation through M&A and operational improvements
 
 ## Key Contacts
 
-### Thomas Tuttle
-- **Title:** Chairman
-- **Email:** ttuttle@kinderhook.com
+### Tom Tuttle (Thomas Tuttle)
+- **Title:** Chairman & Co-Founder
+- **Email:** ttuttle@kinderhook.com (VERIFIED - official kinderhook.com press release)
 - **Phone:** 212-201-6781
-- **LinkedIn:** https://www.linkedin.com/in/thomastuttle
-- **Bio:** Chairman with 20+ year track record at Kinderhook
-- **Source:** Official press release (verified 2023-05-04, confirmed 2026-03-28)
+- **LinkedIn:** http://www.linkedin.com/in/thomas-tuttle-846088169
+- **Background:** Founded Kinderhook 2003. 25+ years in light manufacturing/automotive PE. Founded GEM Investment Advisors prior. Harvard Business School MBA. Morgan Stanley Investment Banking (chemicals, Indonesia operations).
 
-### Christian Michalik
-- **Title:** Managing Director
-- **Email:** cmichalik@kinderhook.com
-- **Phone:** 212-201-6782
-- **LinkedIn:** https://www.linkedin.com/in/christianmichalik
-- **Bio:** Managing Director, active in deal execution
-- **Source:** Official press releases (verified 2023-2025, confirmed 2026-03-28)
+### Other Leadership
+- **Christian Michalik:** Managing Director
+- **Rob Michalik:** Managing Director
+- **Liam Rogers:** Managing Director
+- **Sam Keenan:** Managing Director
+- **Nate Druckenmiller:** Principal (ndruckenmiller@kinderhook.com from press release)
 
-### Robert Michalik
-- **Title:** Managing Director
-- **Email:** rmichalik@kinderhook.com
-- **Phone:** 212-201-6789
-- **LinkedIn:** https://www.linkedin.com/in/robertmichalik
-- **Bio:** Managing Director, co-leads firm with Christian Michalik
-- **Source:** Official press release (verified 2023-05-04, confirmed 2026-03-28)
+## Email Pattern
+**VERIFIED:** {first_initial}{last}@kinderhook.com
+- Tom Tuttle: ttuttle@kinderhook.com (from official press release)
+- Nate Druckenmiller: ndruckenmiller@kinderhook.com
 
-## Investment Thesis
-- Middle market private equity specialist
-- Focus on defensible niche market positioning
-- Partnership approach with management teams
-- Sector expertise in healthcare, environmental/industrial services, and light manufacturing
+## Recent Activity
+- Fund VIII: $2.75B final close (2024)
+- $1.3B continuation fund with AlpInvest (Nov 2023) - 9 portfolio companies
+- Vehicle Accessories sale to RealTruck (announced Jan 2025)
+- $460M Fund III recapitalization (2020)
 
-## Track Record
-- 20+ year operating history (as of 2023)
-- Consistent investment strategy across multiple funds
-- Strong limited partner base (many investing since Fund I)
-- Large institutional and individual investor base
+## Portfolio Intelligence
+- Healthcare services
+- Environmental services
+- Automotive/light manufacturing
+- 240+ total investments
+- Strong track record with AlpInvest partnership
 
-## Portfolio Focus
-- Healthcare services businesses
-- Environmental and industrial services
-- Light manufacturing companies
-- Automotive sector investments
-- Defensible niche market positions
+## Outreach Priority
+**HIGH** - Verified email from official press release, healthcare/environmental services focus aligns with Gumbo, $5B+ AUM, established track record
 
-## Investment Approach
-- Partner with strong management teams
-- Build market-leading positions
-- Focus on operational excellence
-- Long-term value creation
-
-## Notes
-- NYC-based middle market PE firm
-- 20+ year track record
-- Strong LP relationships (many since Fund I)
-- Focus on services-heavy sectors
-- Consistent investment philosophy
-
-## Enrichment Date
-2026-03-28
+## Source Notes
+- Email: VERIFIED from official kinderhook.com press release (ttuttle@kinderhook.com, 212-201-6781)
+- Official team page at kinderhook.com
+- Press releases (RealTruck sale, Fund VIII close, AlpInvest continuation fund)
+- Bloomberg + PitchBook profiles
+- Enriched: 2026-04-04 hourly cron
