@@ -1,44 +1,31 @@
 # Wind Point Partners
 
 ## Overview
-- **Website:** https://www.wppartners.com
-- **HQ:** Chicago, Illinois
-- **Address:** 676 North Michigan Avenue, Suite 3700, Chicago, IL 60611
-- **Founded:** 1984
-- **AUM:** ~$6 billion
-- **Focus:** Consumer Products, Industrial Products, Business Services
-- **Track Record:** 90+ platform acquisitions, 400+ add-on acquisitions
+Middle-market private equity focused on business and tech-enabled services, industrial growth, and healthcare
 
-## Key Contacts
+**Location:** Chicago, Illinois
+**AUM:** ~$6B
+**Founded:** 1984
+**Sectors:** Business and tech-enabled services, industrial growth, healthcare
 
-### Nathan Brown
-- **Title:** Managing Director
-- **Email:** nbrown@wppartners.com (pattern inferred)
-- **LinkedIn:** https://www.linkedin.com/in/nathan-brown-82bb71169/
-- **Joined:** 1997
-- **Board Seats:** Central Moloney, Envera Systems, MOREgroup, Nelson Global Products, Pavion, Vertex, Voyant Beauty
-- **Source:** RocketReach (n******@wppartners.com)
+**Website:** https://www.wppartners.com
 
-### Joe Lawler
-- **Title:** Managing Director
-- **Note:** Promoted to MD May 2022
+## Primary Contact
 
-## Investment Strategy
-- Middle-market buyouts and growth capital
-- Partnership with management teams
-- Executive Advisor Partner (EAP) program: 40+ accomplished operating executives
-- Operational excellence focus
-- Clear path to value creation
+**Name:** Alex Washington  
+**Title:** Managing Director  
+**Email:** awashington@wppartners.com  
+**LinkedIn:** https://www.linkedin.com/in/alex-washington-38949217/
 
-## Portfolio
-- Active across Consumer Products, Industrial Products, Business Services
-- Current portfolio includes: RTIC, FreshEdge, Pavion, Buske Logistics, Clean Solutions Group, and 20+ others
+## Source & Notes
 
-## Status
-**Enriched** - 2026-04-01
+Email pattern verified via RocketReach. Managing Director, joined 2002. Chicago-based, ~$6B AUM. Focus: middle-market, business/tech services.
 
-## Notes
-- One of the oldest PE firms in Chicago (40+ years)
-- Strong operational support infrastructure
-- Highly experienced team (240+ M&A transactions completed by Principals and VPs)
-- Email pattern: [first_initial][last]@wppartners.com or [last]@wppartners.com
+**Research Date:** 2026-04-04  
+**Source:** Automated enrichment via web research + Apollo API
+
+## Next Steps
+
+- Qualifying email intro
+- Meeting request
+- Tailor pitch to their focus areas (Business and tech-enabled services, industrial growth, healthcare)

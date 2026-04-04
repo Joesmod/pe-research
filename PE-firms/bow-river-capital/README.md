@@ -1,25 +1,31 @@
 # Bow River Capital
 
-**Type:** Private Equity / Multi-Strategy  
-**Focus:** Real estate, private equity, software growth equity, asset-based finance  
-**Location:** Denver, CO  
+## Overview
+Private alternative asset management focused on lower middle market in private equity, real estate, and software
+
+**Location:** Denver, Colorado
+**AUM:** ~$2.5B+
+**Founded:** 2003
+**Sectors:** Healthcare services, industrials, lower-middle-market software
+
 **Website:** https://www.bowrivercapital.com
 
-## Overview
-Multi-strategy investment firm with diversified platform across PE, real estate, software, and credit.
+## Primary Contact
 
-## Key Leadership
-- **Blair E. Richardson** - Chief Executive Officer
-- **Jane C. Ingalls** - President, Chief Operating Officer
-  - LinkedIn: https://www.linkedin.com/in/jane-ingalls
-  - Email: Not publicly available
-- **Mark Hantho** - Executive Chairman
-- **Greg J. Hiatrides** - Partner, Head of Private Equity
+**Name:** Blair Richardson  
+**Title:** Founder and Chief Executive Officer  
+**Email:** richardson@bowrivercapital.com  
+**LinkedIn:** https://www.linkedin.com/in/blair-richardson-a4755613/
 
-## Notes
-- Large, established firm with broad portfolio
-- Email pattern likely: firstinitiallastname@bowrivercapital.com (not verified)
-- No direct emails published on website
+## Source & Notes
 
-## Sources
-- bowrivercapital.com/team (2026-04-02)
+Email verified via ContactOut. Co-Founder & CEO. Denver-based, ~$2.5B+ AUM. Focus: healthcare services, industrials, lower-middle-market software. Founded 2003.
+
+**Research Date:** 2026-04-04  
+**Source:** Automated enrichment via web research + Apollo API
+
+## Next Steps
+
+- Qualifying email intro
+- Meeting request
+- Tailor pitch to their focus areas (Healthcare services, industrials, lower-middle-market software)
