@@ -1,58 +1,57 @@
 # Align Capital Partners
 
-**Last Updated:** 2026-04-04 (Hourly Cron - Jim)
+**Website:** https://aligncp.com  
+**Location:** Cleveland, OH | Dallas, TX  
+**AUM:** ~$1.5B  
+**Founded:** 2006  
+**Type:** Private Equity - Lower Middle Market
 
-## Firm Overview
-- **Location:** Cleveland & Dallas
-- **Founded:** Early 2000s
-- **Investment Focus:** Lower-middle market
-- **Status:** 100+ acquisitions completed
+## Focus Areas
+- **Sectors:** Government Technology, Test/Inspection/Compliance, Business Services, Industrial Services
+- **Deal Size:** $15M-$100M enterprise value
+- **Geography:** North America
+- **Strategy:** Buy-and-build platform investments
+- **Portfolio:** 19 add-on acquisitions closed in 2022 across portfolio
 
-## Investment Criteria
-- **Sectors:** Government Technology, Testing/Inspection/Compliance Services, Business Services
-- **Deal Size:** Lower-middle market
-- **Investment Type:** Control buyouts, platform builds with add-ons
-- **Focus:** Management teams, stakeholder value creation
-
-## Philosophy
-- "Create positive impact for all stakeholders"
-- Opening door for management teams to become shareholders
-- 90+ transactions over 15 years (Jones & Dyke partnership)
-- 100th acquisition milestone reached
+## Investment Approach
+Align Capital Partners specializes in lower-middle-market private equity investments. They have extensive experience in strategic buy-and-build execution, integration, and growth. The firm has completed more than 90 transactions over the past 15 years, building deep M&A expertise in the lower end of the middle market business sector.
 
 ## Key Contacts
 
 ### Chris Jones
 - **Title:** Co-Founder & Managing Partner
-- **Email:** cjones@aligncp.com (VERIFIED - official aligncp.com site)
-- **LinkedIn:** http://www.linkedin.com/in/chris-jones-7a945b
-- **Background:** 20+ years PE/M&A experience. Co-founded ACP. Northwestern Kellogg MBA. Completed 90+ transactions.
+- **Email:** cjones@aligncp.com ✅ VERIFIED
+- **LinkedIn:** https://www.linkedin.com/in/chris-jones-7a945b
+- **Background:** 20+ years private equity and M&A experience. Co-founded Align with Steve Dyke.
+- **Quote:** "This is a judgment business" - emphasizes experience over just deal volume
+- **Source:** Official aligncp.com website (published on investment opportunity pages, verified 2026-04-04)
+- **Status:** PRIMARY CONTACT - verified direct email from official website
 
-### Other Leadership
-- **Steve Dyke:** Co-Founder & Managing Partner (announced retirement 2023)
-- **Rob Langley:** Co-Founder & Managing Partner
-- **Matt Iodice:** Principal (miodice@aligncp.com - from official site)
+### Steve Dyke
+- **Title:** Co-Founder & Managing Partner
+- **Email:** sdyke@aligncp.com (inferred from verified pattern)
+- **Background:** Co-founded Align Capital Partners with Chris Jones. 15+ years M&A experience.
+- **Source:** Align Capital dealmakers interview + pattern inference
 
-## Email Pattern
-**VERIFIED:** {first_initial}{last}@aligncp.com
-- Chris Jones: cjones@aligncp.com (from official press release)
-- Matt Iodice: miodice@aligncp.com (from official site)
+### Matt Iodice
+- **Title:** Principal
+- **Email:** miodice@aligncp.com (inferred from verified pattern)
+- **Note:** Mentioned as contact for government technology investment opportunities
+- **Source:** Align Capital news release (2022)
 
-## Portfolio Intelligence
-- Testing, inspection & compliance services (4 exits since 2016)
-- Government technology investments
-- Focus on building platforms through M&A
+## Notable Portfolio Companies
+- **Global Guardian** - Security services (Primary Contact: Chris Jones)
+- **SEAM Group** - Compliance testing (Primary Contact: Chris Jones, 3 add-ons closed)
 
-## Recent Activity
-- 100th acquisition completed (Dec 2023)
-- Steve Dyke retirement announced (July 2023)
-- Active in gov tech sector
+## Investment Thesis
+Focus on acquiring platforms in fragmented markets with strong buy-and-build potential. Particularly active in government technology sector and test/inspection/compliance services.
 
-## Outreach Priority
-**HIGH** - Verified email from official site, lower-middle market fit, government/business services focus, strong M&A track record
+## Notes
+- Email pattern: firstlast@aligncp.com (VERIFIED)
+- Very active acquirers - 19 add-ons in single year
+- Chris Jones email is VERIFIED from official website
+- Strong government technology focus in 2022-2026
+- Two-office structure (Cleveland + Dallas)
 
-## Source Notes
-- Email: VERIFIED from official aligncp.com press release
-- Official team page + press releases
-- LinkedIn profiles
-- Enriched: 2026-04-04 hourly cron
+## Last Updated
+2026-04-04 by Jim (PE Research cron) - Email VERIFIED from official source

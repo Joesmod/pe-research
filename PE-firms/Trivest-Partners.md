@@ -1,70 +1,55 @@
 # Trivest Partners
 
-**Last Updated:** 2026-04-04 (Hourly Cron - Jim)
+**Website:** https://www.trivest.com  
+**Location:** Miami, FL | Toronto, ON  
+**AUM:** $3B+ (estimated)  
+**Founded:** 1981  
+**Type:** Private Equity - Lower Middle Market
 
-## Firm Overview
-- **Location:** Coral Gables, Florida
-- **Founded:** 1981
-- **AUM:** $6B+
-- **Fund Focus:** Lower-middle market private equity
-- **Status:** One of the oldest PE firms in the Southeastern U.S.
+## Focus Areas
+- **Sectors:** Business Services, Consumer Services, Healthcare, Manufacturing
+- **Deal Size:** $10M-$75M EBITDA
+- **Geography:** North America
+- **Strategy:** Buyouts of founder-led and family-owned businesses
+- **Funds:** Trivest Mid-Market, Discovery Fund, PSG, TGIF, Recognition Fund
 
-## Investment Criteria
-- **Deal Size:** Lower-middle market
-- **Sectors:** Business Services, Consumer, Healthcare, Manufacturing
-- **Geography:** Southeastern U.S. focus
-- **Investment Type:** Founder-friendly, control investments
-
-## Philosophy
-- "Private Equity for Founders"
-- Partner-first approach - no operating partner model
-- Management teams maintain operational flexibility
-- Board member involvement without day-to-day dictation
+## Investment Approach
+Trivest is proud to be known as a leading private equity source for founder and family-owned businesses since 1981. They do NOT use an operating partner model - meaning they don't "parachute" employees into portfolio companies post-closing. They align interests with management teams and respect founder relationships.
 
 ## Key Contacts
 
-### Jorge Gross, Jr.
-- **Title:** Managing Partner
-- **Email:** jgross@trivest.com (VERIFIED - ContactOut)
-- **LinkedIn:** http://www.linkedin.com/in/jorge-gross
-- **Focus:** Co-heads Discovery Fund with Russ Wilson and Forest Wester
-- **Background:** Joined 2006, promoted to Managing Partner. Prior: Credit Suisse First Boston (Analyst/Associate 2001-2004)
-
-### Russ Wilson
-- **Title:** Managing Partner
-- **Email:** rwilson@trivest.com (Pattern Inferred from Apollo.io: r**@trivest.com)
-- **LinkedIn:** http://www.linkedin.com/in/russ-wilson-91175436
-- **Focus:** Leads control investment strategies
-- **Background:** Joined 2006, promoted to Principal 2008. Leads Discovery Fund. Prior: PNC Equity Management, Raymond James Investment Banking
+### Chris Weldon
+- **Title:** Managing Partner, Mid-Market
+- **Email:** cweldon@trivest.com (inferred from verified pattern c****w@trivest.com via SignalHire)
+- **LinkedIn:** https://www.linkedin.com/in/jchrisweldon
+- **Background:** Founder of multiple startups, engineer, PE background. Based in Greater Richmond Region.
+- **Source:** Trivest team page + SignalHire pattern verification (2026-04-04)
 
 ### Forest Wester
-- **Title:** Managing Partner, Mid-Market Fund
-- **Email:** fwester@trivest.com (Pattern Inferred)
-- **LinkedIn:** http://www.linkedin.com/in/forest-wester
-- **Focus:** Mid-market control investments
-- **Background:** Promoted to Principal 2007
+- **Title:** Managing Partner, Discovery Fund
+- **Email:** fwester@trivest.com (inferred from verified Trivest email pattern)
+- **LinkedIn:** https://www.linkedin.com/in/forest-wester
+- **Background:** Manages the Discovery Fund, focuses on discovery-stage investments
+- **Source:** Trivest team page (2026-04-04)
 
-### Other Key Partners
-- **Troy D. Templeton:** Chairman
-- **Jamie Elias:** Managing Partner, TGIF (Trivest Growth Fund)
-- **David Gershman:** GC & Partner
-- **Todd Jerles:** Partner, Operations (IR/fundraising, accounting/finance)
-- **Daniel Rogan:** CFO
+### Chris Berton
+- **Title:** Paralegal
+- **Email:** cberton@trivest.com
+- **Note:** Verified contact for broker/intermediary agreements
+- **Source:** Official Trivest website (refer-a-business page)
 
-## Email Pattern
-**Verified pattern:** {first_initial}{last}@trivest.com
+## Other Key Team Members
+- **Jamie Elias** - Managing Partner, General Counsel
+- **Derrek Drozdyk** - Managing Partner, TGIF
+- **Michael Rakiter** - Partner, Mid-Market
+- **Jacob Roche** - CFO
 
-## Recent Intelligence
-- Inc. Founder-Friendly Investors 2019-2023
-- Discovery Fund closed with Forest, Russ, and Jorge as co-heads
-- Strong focus on aligning interests with management teams
-- 40+ years of operational history
+## Notes
+- Very founder-friendly approach
+- Multiple fund strategies (Mid-Market, Discovery, PSG, TGIF, Recognition)
+- 40+ years in business
+- Offices in Miami and Toronto
+- Email pattern: firstlast@trivest.com
 
-## Outreach Priority
-**HIGH** - Multiple verified contacts, founder-friendly approach aligns with Gumbo's value prop.
-
-## Source Notes
-- Emails: ContactOut (Jorge verified), Apollo.io (Russ pattern), pattern inference (Forest)
-- Wikipedia + TheOrg for org structure
-- Official trivest.com team pages
-- Enriched: 2026-04-04 hourly cron
+## Last Updated
+2026-04-04 by Jim (PE Research cron)

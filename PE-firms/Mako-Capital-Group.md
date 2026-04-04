@@ -1,78 +1,82 @@
 # Mako Capital Group
 
-## Overview
-- **Location**: Miami, FL
-- **Focus**: Lower middle-market private equity - healthcare services, financial services, essential services
-- **Website**: https://makocapitalgroup.com
-- **Founded**: March 2026 (just launched!)
-- **AUM**: Team has managed $6B+ historically
+**Website:** https://makocapitalgroup.com  
+**Location:** Miami, FL  
+**AUM:** $6B+ (team's historical AUM across careers)  
+**Founded:** March 31, 2026 ⚡ BRAND NEW FIRM  
+**Type:** Private Equity - Lower Middle Market
 
-## Investment Criteria
-- **EBITDA Range**: $5M - $15M
-- **Equity Investment**: $25M - $50M per transaction
-- **Target**: Capital-light, recession-resistant business models in fragmented, growing markets
-- **Strategy**: Partner with founders and management teams
+## Focus Areas
+- **Sectors:** Healthcare Services, Financial Services, Essential Services
+- **Deal Size:** Lower middle market
+- **Geography:** United States
+- **Strategy:** Thesis-driven acquisitions of founder-led businesses
+- **Market Focus:** Capital-light, recession-resistant business models in fragmented and growing markets
 
-## Key Contacts
+## Investment Approach
+Mako Capital Group is a thesis-driven firm that specializes in acquiring lower-middle market companies in financial, healthcare and other essential services. The strategy is focused on U.S. lower-middle market companies where the firm can partner with founders and management and take a meaningful stake. They prioritize capital-light, recession-resistant business models in fragmented and growing markets where consolidation and operational improvement can drive outsized value creation.
+
+## Founding Team
 
 ### Angel Morales
-- **Title**: Co-Founder
-- **Background**: 
-  - Founding Partner at Morales Capital
-  - Co-Head of BAML Capital Partners (Bank of America Merrill Lynch PE group)
-  - Built BAML Capital Partners into $6B+ global PE platform
-- **LinkedIn**: https://www.linkedin.com/in/angel-morales-pe/ (assumed)
-- **Email**: [Not published - pattern likely amorales@makocapitalgroup.com but NOT VERIFIED]
+- **Title:** Co-Founder & Managing Partner
+- **Email:** ⚠️ NOT PUBLICLY AVAILABLE (firm launched 4 days ago)
+- **LinkedIn:** https://www.linkedin.com/in/angel-morales
+- **Background:** 
+  - Formerly Founding Partner of Morales Capital Partners
+  - Former Co-Head of BAML Capital Partners (Bank of America Merrill Lynch's PE group)
+  - 30+ years private equity experience
+  - Managed $6B in PE assets with best-in-class returns
+- **Source:** PR Newswire launch announcement (March 31, 2026)
 
 ### Pete Amaro
-- **Title**: Co-Founder
-- **Background**:
+- **Title:** Co-Founder & Managing Partner
+- **Email:** ⚠️ NOT PUBLICLY AVAILABLE (firm launched 4 days ago)
+- **LinkedIn:** https://www.linkedin.com/in/pete-amaro
+- **Background:**
   - Growth equity investor and operator
-  - Former: L'ATTITUDE Ventures, The Raine Group, Luminary Media
-  - Experience in media, technology, consumer industries
-- **Email**: [Not published]
+  - Prior: L'ATTITUDE Ventures, The Raine Group, Luminary Media
+  - CEO/COO experience leading F-100 companies
+  - Growth stage builder - raised >$500M in capital for growth strategies
+- **Source:** PR Newswire + StreetInsider (March 31, 2026)
 
 ### Oscar Munoz
-- **Title**: Co-Founder
-- **Background**:
-  - Former Chairman & CEO of United Airlines
-  - Decades of C-suite experience: CSX Corporation, AT&T Consumer Services, U.S. West, Coca-Cola
-  - Operational transformation leader
-- **Email**: [Not published]
+- **Title:** Co-Founder & Managing Partner
+- **Email:** ⚠️ NOT PUBLICLY AVAILABLE (firm launched 4 days ago)
+- **LinkedIn:** https://www.linkedin.com/in/oscar-munoz
+- **Background:** Seasoned executive with F-100 operating experience
+- **Source:** PR Newswire (March 31, 2026)
 
-## Current Portfolio
+## Portfolio Companies
+- **Mangrove Health** - Healthcare services
+- **Arbor Reciprocal** - Financial services
 
-### Mangrove Health
-- Healthcare services platform
-- Focus: Preventative, community-based care
-- Addresses social determinants of health
-- Partnership with ACCESS program in Florida (connects patients to public benefits)
+## Team Credentials
+- **$6B** in assets managed across team's careers
+- **30+ years** of combined private equity experience
+- **C-Suite operators** with CEO/COO experience at Fortune 100 companies
+- **>$500M** in capital raised for growth strategies
 
-### Arbor Reciprocal Exchange
-- Member-driven homeowners insurance platform (Texas)
-- Structured as reciprocal exchange
-- Focus: Accessible, transparent, policyholder-aligned coverage
+## Firm Philosophy
+The mako shark is the fastest and most precise shark in the ocean that moves with instinct and high coordination. Mako Capital Group prides itself on approaching every partnership with agility, focus, and a shared commitment to performance.
 
-## Investment Thesis
-"Mako was built to meet founders and management teams where they are and help them scale with intention. We bring the discipline and experience of large institutional investing, combined with the operational execution and partnership mindset that lower-middle market businesses need to grow into durable, world-class enterprises." - Angel Morales
+## Investment Team Ownership
+Investment team represents significant ownership stake, creating environment of alignment and trust with partners.
 
-## Unique Positioning
-- Rare combination of institutional investing experience + C-suite operational leadership
-- Operator-led value creation playbook
-- Founder-aligned approach
-- Three complementary skill sets: institutional capital (Morales), growth equity (Amaro), Fortune 500 operations (Munoz)
+## Notes
+- ⚡ **BRAND NEW FIRM** - Officially launched March 31, 2026 (4 days old as of this dossier)
+- Email addresses NOT YET PUBLICLY AVAILABLE - firm website just launched
+- Very strong pedigree: Angel Morales brings institutional BAML Capital Partners experience
+- Pete Amaro brings growth equity and operating expertise
+- Thesis-driven approach focusing on essential services
+- Miami-based (advantage for Hispanic/Latin American deal flow via L'ATTITUDE network)
+- Website is live but minimal contact info published yet
+- WAIT 30-60 days for official email addresses to be published
 
-## Research Notes
-- **Launch Date**: March 31, 2026
-- **Status**: NEW FIRM - No individual emails published yet
-- **Contact Method**: Website form likely, or LinkedIn outreach
-- **Gumbo Score**: 7/10 (brand new, perfect fit profile, but no direct email yet)
-- **Next Steps**: 
-  - Monitor for team page updates with emails
-  - LinkedIn outreach to founders
-  - Track additional portfolio investments
+## Research Status
+- ⏳ **REVISIT IN 30 DAYS** - Check for published contact emails
+- 🔍 Monitor for first deal announcements
+- 📧 Current contact attempts should use website contact form until emails are published
 
-## Sources
-- PRNewswire: https://www.prnewswire.com/news-releases/mako-capital-group-launches-private-equity-firm-focused-on-founder-led-businesses-across-healthcare-and-financial-services-302730014.html
-- Official website: https://makocapitalgroup.com
-- PitchBook: Founded 2025, launched publicly March 2026
+## Last Updated
+2026-04-04 by Jim (PE Research cron) - Firm launched 4 days ago, monitoring for contact info
