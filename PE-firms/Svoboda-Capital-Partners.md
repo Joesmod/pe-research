@@ -75,10 +75,10 @@
 
 ### Thomas G. Brooker
 - **Title**: Managing Director & Operating Partner  
-- **Email**: tbrooker@svoco.com (pattern inferred)
+- **Email**: tbrooker@svoco.com ✅ **VERIFIED** (RocketReach + ContactOut)
 - **LinkedIn**: https://www.linkedin.com/in/tom-brooker-4aa87b15
-- **Source**: RocketReach + official team page
-- **Notes**: Confirmed as Managing Director via third-party sources
+- **Source**: RocketReach (t******@svoco.com) + ContactOut + official team page
+- **Notes**: Confirmed as Managing Director via multiple third-party sources. Email verified 2026-04-04.
 
 ### Andrew B. Albert
 - **Title**: Operating Partner
