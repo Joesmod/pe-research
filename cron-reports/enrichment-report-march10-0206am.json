@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-03-10T07:10:37.158Z",
+  "enrichmentCount": 3,
+  "firms": [
+    {
+      "company": "Stellex Capital Management",
+      "contact": "Ray Whiteman",
+      "email": "rwhiteman@stellexcapital.com",
+      "verificationSource": "Official PDF + website team page."
+    },
+    {
+      "company": "Flexpoint Ford",
+      "contact": "Josh Tamaroff",
+      "email": "jtamaroff@flexpointford.com",
+      "verificationSource": "See notes"
+    },
+    {
+      "company": "NewSpring Capital",
+      "contact": "Marc Lederman",
+      "email": "mlederman@newspringcapital.com",
+      "verificationSource": "See notes"
+    }
+  ]
+}

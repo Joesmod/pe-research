@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-04-02T23:45:15.943Z",
+  "totalExtractable": 1,
+  "processed": 1,
+  "updated": 1,
+  "updates": [
+    {
+      "company": "Champlain Advisors",
+      "name": "Https://www Linkedin Com/company/champlain-advisors-llc",
+      "email": "https://www.linkedin.com/company/champlain-advisors-llc",
+      "source": "Email address"
+    }
+  ],
+  "remaining": []
+}

@@ -1,0 +1,419 @@
+{
+  "misaligned": [
+    {
+      "rowIndex": 101,
+      "company": "Littlejohn & Co",
+      "contact": "Managing Partner",
+      "title": "amiranda@littlejohnllc.com",
+      "email": "https://www.linkedin.com/in/antonio-miranda/",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 144,
+      "company": "Highlander Partners",
+      "contact": "President & CEO",
+      "title": "jhull@highlander-partners.com",
+      "email": "https://www.linkedin.com/in/jeff-hull/",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 286,
+      "company": "Banneker Partners",
+      "contact": "Principal",
+      "title": "Stephen Davis",
+      "email": "Managing Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 560,
+      "company": "Apogem Capital",
+      "contact": "Anna Reed",
+      "title": "Anna Reed",
+      "email": "Managing Director - Healthcare Leveraged Finance",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 564,
+      "company": "Arrowroot Capital Management",
+      "contact": "Matthew J. Safaii",
+      "title": "Matthew J. Safaii",
+      "email": "Managing Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 569,
+      "company": "Base10 Partners",
+      "contact": "Jackie Chen",
+      "title": "Jackie Chen",
+      "email": "Investor",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 572,
+      "company": "Bicycle Capital",
+      "contact": "Shu Nyatta",
+      "title": "Shu Nyatta",
+      "email": "Managing Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 574,
+      "company": "BlueWave Resource Partners",
+      "contact": "Laura Danforth",
+      "title": "Laura Danforth",
+      "email": "President",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 604,
+      "company": "Evolution Credit Partners",
+      "contact": "John-Carl Barone",
+      "title": "John-Carl Barone",
+      "email": "Managing Director",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 608,
+      "company": "FTV Capital",
+      "contact": "Arun Singh",
+      "title": "Arun Singh",
+      "email": "Principal",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 610,
+      "company": "Garden City Equity",
+      "contact": "Michael Arrieta",
+      "title": "Michael Arrieta",
+      "email": "Founder & CEO",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 611,
+      "company": "GiantLeap Capital",
+      "contact": "Himanshu Sekhar",
+      "title": "Himanshu Sekhar",
+      "email": "Co-Founder & Managing Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 612,
+      "company": "Graycliff Partners LP",
+      "contact": "Stephen Hindmarch",
+      "title": "Stephen Hindmarch",
+      "email": "Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 620,
+      "company": "HRCap, Inc.",
+      "contact": "Andrew Sungsoo Kim",
+      "title": "Andrew Sungsoo Kim",
+      "email": "Founder, President & CEO",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 622,
+      "company": "Hunter Point Capital LP",
+      "contact": "Alvin Butler",
+      "title": "Brian Blaney, CFA",
+      "email": "Managing Director",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 629,
+      "company": "Keystone Capital",
+      "contact": "Managing Partner",
+      "title": "sgwilliam@keystonecapital.com",
+      "email": "https://keystonecapital.com",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 777,
+      "company": "Prospect Capital Management",
+      "contact": "Chairman & CEO",
+      "title": "jbarry@prospectstreet.com",
+      "email": "https://www.linkedin.com/in/john-barry/",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 851,
+      "company": "Wynnchurch Capital",
+      "contact": "John Hatherly",
+      "title": "Managing Partner",
+      "email": "https://www.linkedin.com/in/johnhatherly",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 864,
+      "company": "Accel-KKR",
+      "contact": "Tom Barnds",
+      "title": "Co-Managing Partner",
+      "email": "Rob Palumbo",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 868,
+      "company": "Accel-KKR",
+      "contact": "Tom Barnds",
+      "title": "Co-Managing Partner",
+      "email": "Rob Palumbo",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 928,
+      "company": "Renovus Capital Partners",
+      "contact": "https://www.renovuscapital.com",
+      "title": "Business Services, Healthcare Services, Industrial Services",
+      "email": "North America",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 929,
+      "company": "SV Capital",
+      "contact": "https://www.svcap.com",
+      "title": "Business Services, Technology-Enabled Services",
+      "email": "North America",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 934,
+      "company": "Amulet Capital Partners",
+      "contact": "Managing Partner & Co-Founder",
+      "title": "rfrank@amuletcapital.com",
+      "email": "https://www.linkedin.com/company/amulet-capital-partners",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 940,
+      "company": "Monroe Capital",
+      "contact": "Chairman & CEO",
+      "title": "tkoenig@monroecap.com",
+      "email": "https://www.linkedin.com/company/monroe-capital",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 943,
+      "company": "Tritium Partners",
+      "contact": "David Lack",
+      "title": "Managing Partner & Co-Founder",
+      "email": "https://www.linkedin.com/in/davidlack",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 953,
+      "company": "Cressey & Company",
+      "contact": "Bryan Cressey",
+      "title": "Managing Partner",
+      "email": "https://www.linkedin.com/in/bryan-cressey/",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 992,
+      "company": "Shoreview Capital",
+      "contact": "Peter Zimmerman",
+      "title": "Ben Chesnut",
+      "email": "Vice President",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 993,
+      "company": "Gryphon Investors",
+      "contact": "R. David Andrews",
+      "title": "Founder & Co-CEO",
+      "email": "R. David Andrews",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 998,
+      "company": "Edison Partners",
+      "contact": "Managing Partner",
+      "title": "csugden@edisonpartners.com",
+      "email": "https://www.edisonpartners.com",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1004,
+      "company": "Brighton Park Capital",
+      "contact": "Mark Dzialga",
+      "title": "Founder & Managing Partner",
+      "email": "Mark Dzialga",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1009,
+      "company": "Accel-KKR",
+      "contact": "Anthony Rotoli",
+      "title": "President and Chief Executive Officer",
+      "email": "Rob Palumbo",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1014,
+      "company": "WILsquare Capital",
+      "contact": "William Willhite",
+      "title": "Co-Founder, Managing Partner",
+      "email": "Co-Founder & Managing Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1023,
+      "company": "Littlejohn & Co.",
+      "contact": "Antonio Miranda",
+      "title": "Managing Partner",
+      "email": "https://www.linkedin.com/in/antonio-miranda-littlejohn",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1024,
+      "company": "CORE Industrial Partners",
+      "contact": "Thomas Webster",
+      "title": "Founder & Managing Partner",
+      "email": "https://www.linkedin.com/in/thomaswebster",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1029,
+      "company": "Pritzker Private Capital",
+      "contact": "Michael Nelson",
+      "title": "Managing Partner & Head of Investing",
+      "email": "https://www.linkedin.com/in/michaelnelsonppc",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1033,
+      "company": "Prospect Capital Management",
+      "contact": "John F. Barry III",
+      "title": "Chairman & CEO",
+      "email": "https://www.linkedin.com/in/john-barry-prospect-capital-management",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1052,
+      "company": "Gryphon Investors",
+      "contact": "John Emm",
+      "title": "Vice President",
+      "email": "R. David Andrews",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1058,
+      "company": "Kinzie Capital Partners",
+      "contact": "Suzanne Yoon",
+      "title": "Founder & Managing Partner",
+      "email": "Founder & Managing Partner",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1062,
+      "company": "Gemspring Capital",
+      "contact": "Founder & CEO",
+      "title": "bret@gemspring.com",
+      "email": "https://www.linkedin.com/in/bret-wiener/",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1063,
+      "company": "Baymark Partners",
+      "contact": "Founder & Managing Director",
+      "title": "david@baymarkpartners.com",
+      "email": "https://www.linkedin.com/in/david-hook/",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1072,
+      "company": "New Mountain Capital",
+      "contact": "Steve Klinsky",
+      "title": "Founder & CEO",
+      "email": "Steven Klinsky",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1187,
+      "company": "Accel-KKR",
+      "contact": "Patrick Fallon",
+      "title": "Managing Director, COO & CCO",
+      "email": "Rob Palumbo",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1189,
+      "company": "Brighton Park Capital",
+      "contact": "Mark Dzialga",
+      "title": "Founder & Managing Partner",
+      "email": "Mark Dzialga",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1200,
+      "company": "Lightyear Capital",
+      "contact": "Mark Vassallo",
+      "title": "Managing Partner",
+      "email": "Mark Vassallo",
+      "reason": "Data misalignment - columns shifted"
+    },
+    {
+      "rowIndex": 1207,
+      "company": "Gryphon Investors",
+      "contact": "David Andrews",
+      "title": "Founder & Co-CEO",
+      "email": "R. David Andrews",
+      "reason": "Data misalignment - columns shifted"
+    }
+  ],
+  "emptyContact": [],
+  "genericEmail": [],
+  "noEmail": [],
+  "genericTitle": [
+    {
+      "rowIndex": 224,
+      "company": "Pine Brook Partners",
+      "contact": "Vice President - Energy",
+      "title": "cjohns@pinebrookpartners.com",
+      "email": "hnewman@pinebrookpartners.com"
+    },
+    {
+      "rowIndex": 232,
+      "company": "Sheridan Capital Partners",
+      "contact": "Vice President",
+      "title": "stephen.lestyan@sheridancp.com",
+      "email": "alexandra.kier@sheridancp.com"
+    },
+    {
+      "rowIndex": 233,
+      "company": "Siris Capital Group",
+      "contact": "Vice President",
+      "title": "abram@siris.com",
+      "email": "baker@siris.com"
+    },
+    {
+      "rowIndex": 237,
+      "company": "FFL Partners",
+      "contact": "Vice President",
+      "title": "jlavan@fflpartners.com",
+      "email": "charris@fflpartners.com"
+    },
+    {
+      "rowIndex": 239,
+      "company": "Oak HC/FT",
+      "contact": "Vice President",
+      "title": "maddie@oakhcft.com",
+      "email": "annie@oakhcft.com"
+    },
+    {
+      "rowIndex": 252,
+      "company": "Behrman Capital",
+      "contact": "Vice President",
+      "title": "kvijayvargiya@behrmancap.com",
+      "email": "gbehrman@behrmancap.com"
+    },
+    {
+      "rowIndex": 905,
+      "company": "Sunstone Partners",
+      "contact": "Co-Founder & Managing Partner",
+      "title": "Mike Biggee",
+      "email": "wconrad@sunstonepartners.com"
+    }
+  ],
+  "clean": 1031
+}
