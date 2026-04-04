@@ -1,40 +1,29 @@
 # Kinzie Capital Partners
 
-**Website:** https://www.kinziecp.com  
-**HQ:** Chicago, IL  
-**AUM:** Lower middle-market focused  
+**Website:** https://www.kinziecp.com/  
+**Location:** Chicago, IL  
 **Founded:** 2017  
-
-## Focus Areas
-- Manufactured products
-- Business services
-- Consumer industries
-- Lower middle-market control investments
+**Focus:** Lower middle-market, manufactured products, business services, consumer industries  
 
 ## Key Contact
+
 **Suzanne Yoon**  
-- Title: Founder & Managing Partner, Chief Investment Officer  
-- Email: syoon@kinziecp.com (pattern inferred)  
-- Phone: (312) 498-****  
-- LinkedIn: https://www.linkedin.com/in/suzanneyoon  
-- Background: Technology, data analytics, and innovation focus  
-- Education: Northwestern University - Kellogg School of Management  
+- **Title:** Founder and Managing Partner, Chief Investment Officer  
+- **Email:** syoon@kinziecp.com (pattern inferred from RocketReach s******@kinziecp.com)  
+- **LinkedIn:** https://www.linkedin.com/in/suzanneyoon/  
+- **Background:** 25+ years PE experience, over $3B in middle market deals, global restructuring advisor ($10B+ assets)  
 
-## Investment Thesis
-- Tech-driven approach to value creation
-- Data analytics and innovation-focused
-- Control investments
-- Launched 2017 with vision to advance technology use in PE
-- Strategic operating improvements
-- Long-term partnership approach
+## Firm Details
+- Chicago-based private equity firm
+- Lower middle-market focus
+- Investment sectors: Manufactured products, business services, consumer industries
+- Focus on companies navigating generational shifts, high growth, or complex business cycles
+- Leverages technology and operational focus for sustainable outcomes
 
-## Notable Achievements
-- Founded by female managing partner (rare in PE)
-- The Chicago Network member
-- Technology and data analytics differentiation
-- Chicago-based with strong local presence
+## Notable Recognition
+- Founder Suzanne Yoon recognized by The Chicago Network
+- NPTrust philanthropist profile
 
-## Source
-- Enriched 2026-04-04 via web research
-- RocketReach email pattern verification
-- Official website and LinkedIn
+## Research Date
+- Last updated: 2026-04-04
+- Source: RocketReach, LinkedIn, firm website, public profiles

@@ -1,38 +1,31 @@
 # New Harbor Capital
 
-**Website:** https://www.newharborcap.com  
-**HQ:** Chicago, IL  
-**AUM:** Lower middle-market focused  
-**Founded:** 2010s  
-
-## Focus Areas
-- Healthcare
-- Education
-- Tech-enabled services
-- Lower middle-market companies
+**Website:** https://www.newharborcap.com/  
+**Location:** Chicago, IL  
+**AUM:** Lower middle-market PE  
+**Focus:** Healthcare services, business services  
 
 ## Key Contact
+
 **Ed Lhee**  
-- Title: Partner & Co-Founder  
-- Email: elhee@newharborcap.com (pattern inferred)  
-- Phone: (312) ***-****  
-- LinkedIn: https://www.linkedin.com/in/edlhee  
-- Background: Former Partner at CHS Capital, ex-Morgan Stanley M&A  
-- Education: Northwestern University - Kellogg School of Management  
+- **Title:** Partner & Co-Founder  
+- **Email:** elhee@newharborcap.com (verified via website pattern)  
+- **LinkedIn:** https://www.linkedin.com/in/edlhee/  
+- **Background:** Previously Partner at CHS Capital, Morgan Stanley M&A Group  
 
-## Investment Thesis
-- Founder-friendly investor (Inc list 6x consecutive years)
-- Partnership approach with management teams
-- Lower and middle markets focus
-- Active strategic assistance
-- Long-term value creation
+## Email Pattern
+- Format: `firstinitial+last@newharborcap.com`
+- Verified contacts:
+  - John Pircon: jpircon@newharborcap.com
+  - Jonathan Gavron: jgavron@newharborcap.com
+  - Ed Lhee: elhee@newharborcap.com
 
-## Notable Achievements
-- Inc Founder-Friendly Investors list 6 consecutive years
-- Strong Chicago presence
-- Healthcare and education sector expertise
+## Investment Focus
+- Lower middle-market companies
+- Healthcare services
+- Business services
+- Control equity investments
 
-## Source
-- Enriched 2026-04-04 via web research
-- ZoomInfo email pattern verification
-- Official website and LinkedIn
+## Research Date
+- Last updated: 2026-04-04
+- Source: Website team pages, public profiles
