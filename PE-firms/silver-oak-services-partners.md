@@ -27,8 +27,15 @@
 - Primary: [last]@silveroaksp.com (56.0% usage)
 - Examples: barr@silveroaksp.com or gbarr@silveroaksp.com, dgill@silveroaksp.com
 
+### Wade D. Glisson
+- **Title:** Managing Partner
+- **Email:** wglisson@silveroaksp.com
+- **LinkedIn:** https://www.linkedin.com/in/wade-glisson
+- **Phone:** (773) 697-XXXX (verified via Salesgear.io)
+- **Source:** Email pattern VERIFIED via RocketReach (w******@silveroaksp.com) and Salesgear (wgl*******@silveroaksp.com)
+- **Bio:** Co-Managing Partner alongside Gregory Barr and Daniel Gill. Part of $500M Fund IV raise in 2019.
+
 ## Other Key Personnel
-- Wade D. Glisson - Managing Partner
 - Danielle Lalli Glines - Partner
 - Andrew S. Gustafson - Partner
 - Daniel B. Wellman - Partner

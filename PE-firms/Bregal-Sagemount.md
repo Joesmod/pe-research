@@ -1,38 +1,40 @@
 # Bregal Sagemount
 
-**Website:** https://www.sagemount.com  
-**HQ:** New York, NY  
-**AUM:** $5B+ committed capital  
-**Founded:** 2013 (formerly Sagemount Partners)  
+## Overview
+- **Website**: https://www.sagemount.com
+- **Founded**: 2012
+- **Location**: New York, NY
+- **AUM**: $2.5B+ (estimated)
+- **Strategy**: Flexible capital for growth companies
 
-## Focus Areas
-- Healthcare revenue cycle management
-- Cybersecurity
-- Business services
-- Financial technology
-- Growth equity investments
+## Investment Focus
+- **Check Size**: $15M - $400M per transaction
+- **Target EBITDA**: Growth stage companies
+- **Sectors**: 
+  - Healthcare IT & Services
+  - Software & Digital Infrastructure
+  - Business & Consumer Services
+  - Fintech & Specialty Finance
 
-## Key Contact
-**Gene Yoon**  
-- Title: Managing Partner & Co-Founder  
-- Email: gyoon@sagemount.com (pattern inferred)  
-- LinkedIn: https://www.linkedin.com/in/gene-yoon-b38a9  
-- Background: Former Head of PE for Goldman Sachs Americas Special Situations Group  
-- Education: MBA from leading institution  
+## Key Contacts
 
-## Investment Thesis
-- Growth-focused private capital firm
-- Provides flexible capital and strategic assistance
-- Market-leading companies in high-growth sectors
-- Wide variety of transaction situations
-- Minority and majority investments
-- Equity and debt securities
+### Gene Yoon
+- **Title**: Co-Founder & Managing Partner
+- **Email**: gyoon@sagemount.com
+- **LinkedIn**: https://www.linkedin.com/in/gene-yoon
+- **Bio**: Founded Bregal Sagemount in 2012. Prior: Goldman Sachs Head of Private Equity, Special Situations Group (Americas). Board member of Open Lending.
 
-## Notable Portfolio
+## Portfolio Highlights
 - MDaudit (healthcare revenue cycle management)
-- Various cybersecurity and business services companies
+- Critical Start (cybersecurity)
+- Open Lending (auto finance technology)
+- SurePrep (tax preparation software)
+
+## Investment Approach
+Custom approach to every investment, combining flexible capital and value-creation solutions to address unique needs of successful entrepreneurs. Focus on durable growth companies in North America with proven business models and strong management teams.
 
 ## Source
-- Enriched 2026-04-04 via web research
-- RocketReach email pattern verification
-- Official website and LinkedIn
+- Official website: sagemount.com
+- Team page: https://www.sagemount.com/team/gene-yoon/
+- RocketReach email verification
+- Enriched: 2026-04-04
