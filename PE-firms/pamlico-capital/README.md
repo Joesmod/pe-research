@@ -1,13 +1,36 @@
 # Pamlico Capital
 
-Charlotte-based PE firm founded in 1988 with 35+ years track record. $500M-$1B AUM. Focus: tech-enabled services, healthcare IT, software, communications.
+**Website:** https://www.pamlicocapital.com  
+**Location:** Charlotte, NC  
+**Founded:** 1988  
+**Focus:** Healthcare IT, Information Services, Software, Tech-Enabled Services, Communications  
+**AUM:** ~$4B total invested over 30+ years
 
-**Quick Facts:**
-- Website: https://www.pamlicocapital.com
-- AUM: $500M-$1B
-- Location: Charlotte, NC
-- Focus: Tech-Enabled Services, Healthcare IT, Software, Communications
+## Key Contact
 
-**Primary Contact:** Watts Hamrick, Senior Advisor (Former Managing Partner)
+- **Trent Hickman** - Managing Partner
 
-See [DOSSIER.md](./DOSSIER.md) for full details.
+## Overview
+
+Longstanding lower middle-market firm. Investment size up to $200M. Single office in Charlotte. Consistent track record. No public email found - contact via website form or LinkedIn.
+
+## Research Notes
+
+**Added:** 2026-04-04  
+**Source:** Web research, company website team pages, public sources  
+**Status:** Needs email verification
+
+## Next Steps
+
+- [ ] Find verified email (LinkedIn, conference bios, press releases)
+- [ ] Research additional decision-makers
+- [ ] Identify best contact approach
+
+## Links
+
+- [Company Website](https://www.pamlicocapital.com)
+- [LinkedIn Company Page](https://www.linkedin.com/company/pamlico-capital)
+
+---
+
+_Last updated: 2026-04-04_
