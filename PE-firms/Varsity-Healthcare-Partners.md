@@ -9,13 +9,18 @@
 
 **David Alpern**  
 Founding Partner & Managing Partner  
-📧 dalpern@varsityhealthcarepartners.com  
+📧 DA@varsityhealthcarepartners.com (VERIFIED - medical journal publications)  
 🔗 https://www.linkedin.com/in/david-alpern
 
 **Kenton Rosenberry**  
 Founding Partner  
 📧 krosenberry@varsityhealthcarepartners.com  
 🔗 https://www.linkedin.com/in/kenton-rosenberry
+
+**Navid Gharavi**  
+Partner  
+📧 ngharavi@varsityhealthcarepartners.com (Pattern-based from RocketReach)  
+🔗 https://www.linkedin.com/in/navid-gharavi
 
 ## Investment Focus
 - Healthcare services exclusively
@@ -36,4 +41,4 @@ Founding Partner
 - Unconditional alignment and transparency focus
 
 ## Source
-Enriched Apr 2, 2026 - Official website team bios + Crunchbase
+Updated Apr 4, 2026 - David Alpern email VERIFIED via Glaucoma Today + CRSToday medical publications. Navid Gharavi added via RocketReach pattern verification.
