@@ -1,19 +1,24 @@
 # Shore Capital Partners - Contact Information
 
 ## Primary Contact
-**Joe Yaro**
-- **Title**: Founder & Chief Executive Officer
-- **Email**: jyaro@shorecp.com
-- **LinkedIn**: http://www.linkedin.com/in/josephyaro
-- **Source**: Apollo.io API
-- **Last Verified**: 2026-03-31
+**Justin Ishbia**
+- **Title**: Founder & Managing Partner
+- **Email**: jishbia@shorecp.com
+- **LinkedIn**: https://linkedin.com/in/justinishbia
+- **Source**: Adapt.io pattern match (jis*******@shorecp.com)
+- **Last Verified**: 2026-04-04
 
 ## General Contact
 - **Website**: https://www.shorecp.com
+- **Headquarters**: Chicago, IL
+- **AUM**: $17+ billion
 
 ## Email Pattern
-- Verified contact: jyaro@shorecp.com
+- firstlast@shorecp.com
+- Verified pattern: jishbia@shorecp.com
 
 ## Notes
-- Contact verified via Apollo.io API
-- Last updated: 2026-03-31
+- Justin Ishbia founded Shore Capital Partners in 2009
+- Firm manages over $17B in assets
+- Focus on healthcare and other essential services
+- Last updated: 2026-04-04
