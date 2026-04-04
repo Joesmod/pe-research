@@ -1,28 +1,34 @@
 # Incline Equity Partners
 
-## Overview
-- **Website:** https://inclineequity.com
-- **Founded:** 2009
-- **HQ:** Pittsburgh, PA
-- **Focus:** Lower middle-market PE
+**Website:** https://inclineequity.com  
+**Location:** Pittsburgh, Pennsylvania (also New York office)  
+**Focus:** Middle-market private equity  
+**Tagline:** "Driving force in middle market private equity - authentic, transparent, strong results"  
 
 ## Key Contacts
 
-### Terry Mullen
-- **Title:** Co-Founder & Managing Partner
-- **Email:** terry.mullen@inclineequity.com
-- **LinkedIn:** https://www.linkedin.com/in/terrymullen
-- **Source:** Email VERIFIED from inclineequity.com team page (2026-04-01 3pm)
+### Victor Martinelli
+- **Title:** Managing Director
+- **Email:** victor.martinelli@inclineequity.com
+- **LinkedIn:** https://www.linkedin.com/in/victor-martinelli-22a70582/
+- **Phone:** (212) 246-XXXX
+- **Source:** Email pattern [first].[last]@ (98.5%) from RocketReach v******@
+- **Notes:** Joined September 2015, based in New York office
+- **Education:** Carnegie Mellon University - Tepper School of Business
 
-### Stephen Quindlen
-- **Title:** Co-Founder & Managing Partner
-- **Email:** stephen.quindlen@inclineequity.com
-- **Source:** Official team page (2026-03-26)
+### David Chen
+- **Title:** Managing Director
+- **Email:** david.chen@inclineequity.com
+- **LinkedIn:** LinkedIn profile available
+- **Notes:** Joined July 2020, previously Senior Associate at Norwest Equity Partners
 
-## Notes
-- Pittsburgh-based lower middle-market PE firm
-- Email pattern: firstname.lastname@inclineequity.com
-- Founded 2009 by two Co-Founders & Managing Partners
+## Email Pattern
+- Primary: [first].[last]@inclineequity.com (98.5% usage)
+- Examples: victor.martinelli@inclineequity.com, david.chen@inclineequity.com
 
-## Last Updated
-2026-04-01 3:06 PM (Hourly PE Research Cron)
+## Other Key Personnel
+- Eric - Managing Director
+- Cale - Managing Director
+
+## Research Date
+2026-04-04

@@ -1,51 +1,25 @@
-# Pritzker Private Capital (PPC)
+# Pritzker Private Capital
 
-**Last Updated:** 2026-04-04 (Hourly Cron - Jim)
-
-## Firm Overview
-- **Location:** Los Angeles & Chicago
-- **AUM:** $6B+
-- **Fund Focus:** Middle-market private equity
-- **Status:** Family legacy firm (Hyatt Hotels, Marmon Group)
-
-## Investment Criteria
-- **Sectors:** Manufactured Products, Business Services
-- **Investment Type:** Control buyouts, platform builds
-- **Focus:** Companies with strong management teams and growth potential
-
-## Philosophy
-- Building successful businesses over generations
-- Active investor and board member approach
-- 20+ years of middle-market investing experience
+**Website:** https://www.pritzkerpc.com  
+**Location:** Los Angeles, California  
+**Focus:** Middle-market companies in manufactured products, services, and healthcare  
+**AUM:** Mid-market private equity  
 
 ## Key Contacts
 
-### Tony Pritzker
-- **Title:** Chairman & CEO, Co-Founder
-- **Email:** tpritzker@ppcpartners.com (VERIFIED - ContactOut)
-- **Alternate:** tpritzker@pritzkergroup.com
-- **LinkedIn:** http://www.linkedin.com/in/tony-pritzker-3929848
-- **Background:** 20+ years active PE investor, board member in middle-market companies
-- **Family Legacy:** Hyatt Hotels, Marmon Group
-- **Board Seats:** Bardstown Bourbon Company, C.H. Robinson (historically)
-
-### Other Leadership
-- **J.B. Pritzker:** Co-Founder (Governor of Illinois)
-- **Paul Carbone:** Leadership team
+### Tony Pritzker (Anthony Pritzker)
+- **Title:** Chairman & CEO
+- **Email:** tpritzker@ppcpartners.com
+- **LinkedIn:** https://www.linkedin.com/in/tony-pritzker-3929848/
+- **Source:** Verified via ContactOut/RocketReach
+- **Notes:** Formerly Pritzker Group Private Capital
 
 ## Email Pattern
-**Verified pattern:** tpritzker@ppcpartners.com, likely {first}{last}@ppcpartners.com
+- Primary: [first_initial][last]@ppcpartners.com (97.7% usage)
+- Example: tpritzker@ppcpartners.com
 
-## Portfolio Intelligence
-- Focus on manufactured products and business services
-- Active in bourbon/spirits (Bardstown Bourbon)
-- Long-term value creation mindset
+## About
+Led by Tony Pritzker and former investment and operating professionals of Pritzker Group Private Capital. Long-duration capital base allows for flexible transaction structures and alignment with stakeholders.
 
-## Outreach Priority
-**HIGH** - Verified email, strong brand, middle-market fit, services-heavy portfolio
-
-## Source Notes
-- Email: ContactOut verified (tpritzker@ppcpartners.com)
-- Official ppcpartners.com team pages
-- Wikipedia + Crunchbase for co-founders
-- Enriched: 2026-04-04 hourly cron
+## Research Date
+2026-04-04
